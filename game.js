@@ -127,7 +127,7 @@ export function bonusNote(row) {
 // Where a saved run stands. n is the 1-based prompt number that is open or next.
 export function runPhase(run, now) {
   if (!run) return { phase: 'new', n: 1 };
-  if (run.done) return { phase: 'done', n: run.size ?? DECK_SIZE };
+  if (run.done) return { phase: 'done', n: DECK_SIZE };
   if (run.open) {
     return { phase: isExpired(run.open, now) ? 'expired' : 'open', n: run.open.n };
   }

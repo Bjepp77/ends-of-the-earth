@@ -157,7 +157,7 @@ export function souvenirFacts(logsFull, countryInfo) {
     const tiers = new Set();
     for (const r of rows) {
       f.tier[r.t] += 1;
-      if (r.a && !r.bom) {
+      if (r.a) {
         f.hits += 1;
         tiers.add(r.t);
         if (r.x) f.timeoutHits += 1;
@@ -165,8 +165,7 @@ export function souvenirFacts(logsFull, countryInfo) {
       }
     }
     f.tiersInDay = Math.max(f.tiersInDay, tiers.size);
-    // A Book of Mormon round is not a country pin, so it does not decide a perfect day.
-    if (rows.filter((r) => !r.bom).every((r) => r.a)) f.perfectDays += 1;
+    if (rows.every((r) => r.a)) f.perfectDays += 1;
     const mask = dayMask(rows);
     for (const bit of Object.keys(f.assistDays)) if ((mask & bit) === Number(bit)) f.assistDays[bit] += 1;
     if (mask) f.hardBest = Math.max(f.hardBest, km);

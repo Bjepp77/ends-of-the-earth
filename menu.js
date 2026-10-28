@@ -234,7 +234,7 @@ export function createMenu(ctx) {
           const { label, open } = P.pastWeekStatus(w, store.run(w.date));
           return h('li', {},
             h('span', { class: 'pw-name' }, `Expedition #${w.n}, ${shortDay(w.date)}`, h('small', {}, open ? `OPEN UNTIL ${shortDay(w.until)}` : 'PLAYED')),
-            h('span', { class: 'pips' }, Array.from({ length: Math.max(5, w.rows?.length ?? 0) }, (_, i) => {
+            h('span', { class: 'pips' }, Array.from({ length: 5 }, (_, i) => {
               const t = w.rows?.[i]?.t;
               return h('i', { style: t ? `background:${TIER_COLORS[t].fill}` : null, title: t ? R.tierById(t).name : null });
             })),
@@ -271,7 +271,7 @@ export function createMenu(ctx) {
     howto() {
       const s = store.settings();
       const ex = [...R.TIERS].reverse();
-      const facts = [['PROMPTS', '5 a day, 6 when a Book of Mormon map question is dealt'], ['CLOCK', `${R.CLOCKS[s.clock]} s each`], ['PINS', '1 drop per prompt'],
+      const facts = [['PROMPTS', '5 a day'], ['CLOCK', `${R.CLOCKS[s.clock]} s each`], ['PINS', '1 drop per prompt'],
         ['CONTROLS', 'tap to pin, tap again to move, + and - or scroll to zoom, Space or Enter to drop'],
         ['MAP', `names ${s.names ? 'on' : 'off'}, borders ${s.borders ? 'on' : 'off'}`],
         ['WHAT COUNTS', 'a listed country, or a territory whose country is listed'],
@@ -356,9 +356,8 @@ export function createMenu(ctx) {
     const deck = await ctx.loadDeck(n).catch(() => null);
     const list = h('ol', { class: 'dd-pins' }, rows.map((r, i) => {
       const prompt = deck?.prompts.find((p) => p.id === r.p);
-      const bom = r.bom ? store.run(date)?.bom : null;
       return h('li', {}, tierTag(r.t), ` ${r.n ?? (r.x ? 'Out of time' : 'No pin')} · ${r.pts} km`,
-        prompt ? h('span', { class: 'fine' }, promptText(prompt)) : bom ? h('span', { class: 'fine' }, bom.question) : null);
+        prompt ? h('span', { class: 'fine' }, promptText(prompt)) : null);
     }));
     const playedAt = Object.fromEntries(Object.keys(d.logs).map((k) => [k, store.run(k)?.completedAt]).filter(([, t]) => t));
     const gained = P.broughtBackByDay(souvenirs.souvenirs, d.logs, info, playedAt)[date] ?? [];

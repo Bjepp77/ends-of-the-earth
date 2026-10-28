@@ -8,8 +8,6 @@ import { createMenu } from './menu.js';
 import { createSound } from './sound.js';
 import { shareOrCopy } from './share.js';
 import { createTrail } from './trail.js';
-import { bomFor, bomPrompt, judgeBom, runSize, sizeRun } from './bom.js';
-import { createBomMap } from './bommap.js';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -73,25 +71,10 @@ renderSpeaker();
 
 const view = createMap({ container: $('map'), data: countries, onPin });
 await view.ready;
-// Round 6, the Book of Mormon question, plays on its own map; pv is the map the open round uses.
-const bomView = createBomMap({ container: $('bom-map'), onPin });
-let pv = view;
 $('loading').hidden = true;
 if (DEBUG) {
   $('debug').hidden = false;
   window.ends = { view, S, store };
-}
-
-function useMap(bom) {
-  pv = bom ? bomView : view;
-  $('map').hidden = bom;
-  $('credit').hidden = bom;
-  $('bom-caption').hidden = !bom;
-  if (bom) bomView.show(S.prompt, S.settings.names);
-  else {
-    bomView.hide();
-    view.map.resize();
-  }
 }
 
 function showScreen(id) {
@@ -152,7 +135,6 @@ function goHome() {
   stopTimers();
   S.mode = 'home';
   S.practice = false;
-  useMap(false);
   view.lock(true);
   view.clearPin();
   view.setFlags([]);
@@ -197,7 +179,7 @@ function goHome() {
     play.textContent = late ? `PLAY EXPEDITION #${S.deal.n}` : 'PLAY DAILY EXPEDITION';
   } else {
     play.textContent = 'RESUME EXPEDITION';
-    wait.textContent = `PROMPT ${phase.n} OF ${runSize(run)} IS WAITING`;
+    wait.textContent = `PROMPT ${phase.n} OF ${G.DECK_SIZE} IS WAITING`;
     wait.hidden = false;
   }
 }
@@ -253,8 +235,6 @@ async function startDay() {
   S.settings = store.settings();
   S.run = store.run(S.date) ?? R.newRun(uuid(), Date.now());
   S.unsaved = false;
-  S.bom ??= await fetchJSON('data/bom.json').catch(() => ({ questions: [] }));
-  sizeRun(S.run, bomFor(S.deal.n, S.bom));
   // A finished day keeps the late flag it was played with; viewing it later is not late play.
   if (S.run.done) return showCamp();
   if (S.late) S.run.late = true;
@@ -304,16 +284,14 @@ function enterRound() {
   const held = S.run.held;
   S.mode = 'round';
   S.open = S.run.open;
-  S.isBom = !S.practice && !!S.run.bom && S.open.n > G.DECK_SIZE;
-  S.prompt = S.isBom ? bomPrompt(S.run.bom) : S.deck.prompts[S.open.n - 1];
+  S.prompt = S.deck.prompts[S.open.n - 1];
   showScreen('round');
-  useMap(S.isBom);
-  pv.setNames(S.settings.names);
-  pv.setBorders(S.settings.borders);
-  pv.setFlags([]);
-  pv.clearPin();
-  pv.resetView();
-  pv.lock(false);
+  view.setNames(S.settings.names);
+  view.setBorders(S.settings.borders);
+  view.setFlags([]);
+  view.clearPin();
+  view.resetView();
+  view.lock(false);
   $('stamp-card').hidden = true;
   $('result').hidden = true;
   $('trail').hidden = false;
@@ -321,14 +299,13 @@ function enterRound() {
   $('summary').textContent = '';
   $('clock-say').textContent = '';
   S.clockSaid = Infinity;
-  $('prompt-n').textContent = S.practice ? 'PRACTICE ROUND' : `PROMPT ${S.open.n} OF ${runSize(S.run)}`;
+  $('prompt-n').textContent = S.practice ? 'PRACTICE ROUND' : `PROMPT ${S.open.n} OF ${G.DECK_SIZE}`;
   renderSearch();
-  if (S.isBom) $('search-wrap').hidden = true;
   renderHud(G.runKm(S.run));
 
   // §19 a held pin survives a reload.
-  if (held?.code) pv.placeFeature(held.code);
-  else if (held) pv.place({ lng: held.lng, lat: held.lat });
+  if (held?.code) view.placeFeature(held.code);
+  else if (held) view.place({ lng: held.lng, lat: held.lat });
   renderDrop();
 
   sound.roundStart();
@@ -415,7 +392,7 @@ function coords(pin) {
 }
 
 function renderDrop(message) {
-  const pin = pv.pin;
+  const pin = view.pin;
   const drop = $('drop');
   const out = $('readout');
   if (S.mode !== 'round') return;
@@ -428,7 +405,7 @@ function renderDrop(message) {
   if (message) out.textContent = message;
   else if (!pin) out.textContent = 'tap to pin';
   else if (pin.refusal) out.textContent = REFUSAL_TEXT[pin.refusal];
-  else out.textContent = pin.bom ? 'PIN PLACED' : `PIN ${S.settings.names ? pin.hit.name : coords(pin)}`;
+  else out.textContent = `PIN ${S.settings.names ? pin.hit.name : coords(pin)}`;
 }
 
 function onPin(pin) {
@@ -460,7 +437,7 @@ function refuse(message) {
 
 function tryDrop() {
   if (S.mode !== 'round') return;
-  const pin = pv.pin;
+  const pin = view.pin;
   if (!pin) return refuse(REFUSAL_TEXT.none);
   if (pin.refusal) return refuse();
   if (!S.practice && !R.dropAccepted(S.open, Date.now())) return timeout();
@@ -470,7 +447,7 @@ function tryDrop() {
 // §16, §30 at timeout a held pin on a country is judged; a refused pin counts as no pin.
 function timeout() {
   if (S.mode !== 'round') return;
-  const pin = pv.pin && !pv.pin.refusal ? pv.pin : null;
+  const pin = view.pin && !view.pin.refusal ? view.pin : null;
   finish(pin, true);
 }
 
@@ -483,19 +460,18 @@ function finish(pin, timedOut) {
   const mask = R.roundMask(S.open, S.settings);
   const bySearch = !!pin?.bySearch || !!S.open.searched;
   const noNames = R.earnsNoNamesBonus(S.open, S.settings, bySearch);
-  const opts = { timedOut, bySearch, mask, late: S.late && !S.practice, noNames };
-  const { row } = S.isBom ? judgeBom(S.run.bom, pin, opts) : G.judge(S.prompt, pin, opts);
+  const { row } = G.judge(S.prompt, pin, { timedOut, bySearch, mask, late: S.late && !S.practice, noNames });
   let isNew = false;
   if (!S.practice) {
-    if (row.a && !row.bom) {
+    if (row.a) {
       isNew = store.stamp(row.a, row.t, S.date, S.prompt.id, today());
       row.s = R.stampKey(row.a, row.t);
     }
-    const z = Math.round(pv.map.getZoom() * 10) / 10;
+    const z = Math.round(view.map.getZoom() * 10) / 10;
     S.run.rounds.push({ ...row, c: row.i, z, k: S.open.clock });
     S.run.open = null;
     S.run.held = null;
-    if (S.run.rounds.length === runSize(S.run)) {
+    if (S.run.rounds.length === G.DECK_SIZE) {
       S.run.done = true;
       S.run.completedAt = Date.now();
       S.run.playedOn = today();
@@ -517,7 +493,7 @@ function finish(pin, timedOut) {
 function showReveal(row, isNew) {
   S.mode = 'reveal';
   S.revealReadyAt = Date.now() + REVEAL_LOCK_MS;
-  pv.lock(true);
+  view.lock(true);
   $('dial').hidden = true;
   $('clock-say').textContent = '';
   $('noclock').hidden = true;
@@ -526,7 +502,7 @@ function showReveal(row, isNew) {
 
   const tier = R.tierById(row.t);
   const place = row.n ?? 'No pin';
-  $('sc-n').textContent = S.practice ? 'PRACTICE PIN' : `PIN ${S.open.n} OF ${runSize(S.run)}`;
+  $('sc-n').textContent = S.practice ? 'PRACTICE PIN' : `PIN ${S.open.n} OF ${G.DECK_SIZE}`;
   $('sc-name').textContent = place.toUpperCase();
   tierStamp($('sc-tier'), row.t);
   $('sc-km').textContent = kmText(row.pts);
@@ -537,25 +513,21 @@ function showReveal(row, isNew) {
   const bonus = G.bonusNote(row);
   $('r-km').textContent = bonus ? `${kmText(row.pts)} (${bonus})` : kmText(row.pts);
   sound.reveal(R.roundKm(row.t));
-  $('r-answers').hidden = !!row.bom;
-  if (row.bom) bomReveal(S.prompt);
-  else {
-    $('r-name').textContent = row.n ? `“${row.n}”` : 'No pin';
-    $('r-line').textContent = G.revealLine(row, S.prompt);
-    setOptional('r-stamp', S.prompt.stamp ? `Facts ${S.prompt.stamp}.` : '');
-    setOptional('r-note', S.prompt.note ?? '');
-    setOptional('r-summary', S.prompt.summary ?? '');
-    setCite(S.prompt.citation);
-    fillAnswers($('r-answers').querySelector('div'), S.prompt);
-    $('r-answers').open = false;
-  }
+  $('r-name').textContent = row.n ? `“${row.n}”` : 'No pin';
+  $('r-line').textContent = G.revealLine(row, S.prompt);
+  setOptional('r-stamp', S.prompt.stamp ? `Facts ${S.prompt.stamp}.` : '');
+  setOptional('r-note', S.prompt.note ?? '');
+  setOptional('r-summary', S.prompt.summary ?? '');
+  setCite(S.prompt.citation);
+  fillAnswers($('r-answers').querySelector('div'), S.prompt);
+  $('r-answers').open = false;
   $('result').hidden = false;
   // Frame the country above the stamp card, once the reveal layout is in (the map is shorter then at 390),
   // so the fill and a miss sign are not hidden under the card.
   if (row.i) view.reveal(row.i, G.revealPaint(row.t), $('stamp-card').getBoundingClientRect().top);
   $('summary').textContent = `${place}: ${tier.name}, ${kmText(row.pts)}.${isNew ? ' New Location' : ''}`;
 
-  const last = S.practice || S.open.n === runSize(S.run);
+  const last = S.practice || S.open.n === G.DECK_SIZE;
   const drop = $('drop');
   drop.className = 'drop drop--next';
   drop.setAttribute('aria-disabled', 'false');
@@ -568,30 +540,6 @@ function showReveal(row, isNew) {
   }
   // §30 the HUD distance updates after the reveal.
   setTimeout(() => { if (S.mode === 'reveal') renderHud(G.runKm(S.run)); }, REVEAL_LOCK_MS);
-}
-
-// Book of Mormon reveal: the answer, the verse and its reference, and the target on the map.
-function bomReveal(q) {
-  $('r-name').textContent = q.answer;
-  $('r-line').textContent = q.verse;
-  setOptional('r-stamp', '');
-  setOptional('r-note', '');
-  setOptional('r-summary', '');
-  $('r-cite').replaceChildren(q.ref);
-  $('r-cite').hidden = false;
-  $('r-ref').hidden = true;
-  bomView.revealTarget(q);
-}
-
-// Camp dropdown for the Book of Mormon round.
-function fillBom(el, q) {
-  el.textContent = '';
-  for (const [cls, text] of [['fine', q.question], ['ans-tier', q.answer], ['r-line', q.verse], ['fine cite', q.ref]]) {
-    const p = document.createElement('p');
-    p.className = cls;
-    p.textContent = text;
-    el.appendChild(p);
-  }
 }
 
 // Saints sources get the APA in-text cite plus the full reference, with the titles in <i>.
@@ -691,7 +639,6 @@ function showCamp() {
   S.mode = 'camp';
   S.campToday = today();
   showScreen('camp');
-  useMap(false);
   view.lock(true);
   view.clearPin();
   view.resetView();
@@ -701,7 +648,7 @@ function showCamp() {
   const rounds = S.run.rounds;
   const km = G.runKm(S.run);
   $('hud-line').textContent = `EXPEDITION #${S.deal.n} · COMPLETE`;
-  view.setFlags(rounds.map((r, i) => ({ r, i })).filter(({ r }) => r.lon != null && !r.bom).map(({ r, i }) => ({
+  view.setFlags(rounds.map((r, i) => ({ r, i })).filter(({ r }) => r.lon != null).map(({ r, i }) => ({
     lng: r.lon, lat: r.lat, n: i + 1,
     cls: i === rounds.length - 1 ? 'flag--last' : r.a ? 'flag--hit' : 'flag--miss',
   })));
@@ -746,7 +693,7 @@ function showCamp() {
   const list = $('camp-answers');
   list.textContent = '';
   rounds.forEach((r, i) => {
-    const prompt = r.bom ? S.run.bom : S.deck.prompts[i];
+    const prompt = S.deck.prompts[i];
     const item = document.createElement('details');
     item.className = 'answers camp-answer';
     const sum = document.createElement('summary');
@@ -757,11 +704,8 @@ function showCamp() {
     sum.append(`${i + 1} `, st, ` ${where} · ${kmText(r.pts)}`);
     item.appendChild(sum);
     const body = document.createElement('div');
-    if (r.bom) fillBom(body, prompt);
-    else {
-      fillAnswers(body, prompt, r);
-      body.appendChild(disputeBox(i, prompt, r));
-    }
+    fillAnswers(body, prompt, r);
+    body.appendChild(disputeBox(i, prompt, r));
     item.appendChild(body);
     list.appendChild(item);
   });
@@ -821,9 +765,9 @@ function renderCampNext() {
 // F-U06 a mouse click on a map control drops focus, so Space and Enter go back to dropping the pin.
 // A keyboard press (detail 0) keeps focus on the control.
 const mapCtl = (fn) => (e) => { fn(); if (e.detail) e.currentTarget.blur(); };
-$('zoom-in').onclick = mapCtl(() => pv.zoomIn());
-$('zoom-out').onclick = mapCtl(() => pv.zoomOut());
-$('reset').onclick = mapCtl(() => pv.resetView());
+$('zoom-in').onclick = mapCtl(() => view.zoomIn());
+$('zoom-out').onclick = mapCtl(() => view.zoomOut());
+$('reset').onclick = mapCtl(() => view.resetView());
 $('play').onclick = () => startDay();
 $('practice').onclick = () => menu.open('howto');
 $('menu-btn').onclick = () => (menu.isOpen ? menu.close() : menu.open());
@@ -879,10 +823,10 @@ document.addEventListener('keydown', (e) => {
   if (['INPUT', 'SELECT', 'BUTTON', 'SUMMARY', 'TEXTAREA'].includes(e.target.tagName)) return;
   // F-U06 keyboard pinning: arrow keys pan the map; P pins the map centre, and so does
   // Space or Enter on the focused map while no pin is held.
-  const onMap = !!e.target.closest?.('#map, #bom-map');
-  if (S.mode === 'round' && (e.key === 'p' || e.key === 'P' || (onMap && !pv.pin && (e.key === ' ' || e.key === 'Enter')))) {
+  const onMap = !!e.target.closest?.('#map');
+  if (S.mode === 'round' && (e.key === 'p' || e.key === 'P' || (onMap && !view.pin && (e.key === ' ' || e.key === 'Enter')))) {
     e.preventDefault();
-    pv.place(pv.map.getCenter());
+    view.place(view.map.getCenter());
     return;
   }
   if (e.key !== ' ' && e.key !== 'Enter') return;
@@ -909,8 +853,8 @@ const menu = createMenu({
     }
     if (S.mode !== 'round') { view.setNames(next.names); view.setBorders(next.borders); }
     if (S.mode === 'round') {
-      pv.setNames(next.names);
-      pv.setBorders(next.borders);
+      view.setNames(next.names);
+      view.setBorders(next.borders);
       renderSearch();
       renderDrop();
     }

@@ -65,15 +65,6 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .stage { position: relative; min-height: 0; background: var(--sea); }
 .map { position: absolute; inset: 0; }
 .map .maplibregl-canvas { cursor: crosshair; }
-.bom-map { background: #e6d2a3; touch-action: none; }
-.bom-map svg { display: block; width: 100%; height: 100%; cursor: crosshair; user-select: none; }
-.bom-target { fill: rgba(196, 92, 38, .28); stroke: #a8431a; stroke-width: 3; vector-effect: non-scaling-stroke; }
-.bom-target--line { fill: none; stroke: rgba(196, 92, 38, .45); stroke-linecap: round; stroke-linejoin: round; vector-effect: none; }
-.bom-pin { fill: var(--ink, #222); stroke: #fff; stroke-width: 2; vector-effect: non-scaling-stroke; }
-.bom-caption {
-  position: absolute; left: var(--edge); right: var(--edge); bottom: 0; margin: 0; z-index: 2;
-  padding: 2px 6px; border-radius: 2px; font-size: 11px; line-height: 14px; color: var(--ink); background: var(--paper-3);
-}
 .loading {
   position: absolute; inset: 0; margin: 0;
   display: grid; place-items: center;
