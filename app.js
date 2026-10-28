@@ -1,16 +1,17 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=ed73f9d045';
-import { REFUSAL_TEXT } from './hit.js?v=ed73f9d045';
-import * as R from './rules.js?v=ed73f9d045';
-import * as G from './game.js?v=ed73f9d045';
-import { createStore } from './store.js?v=ed73f9d045';
-import { createMenu } from './menu.js?v=ed73f9d045';
-import { createSound } from './sound.js?v=ed73f9d045';
-import { shareOrCopy } from './share.js?v=ed73f9d045';
-import { createTrail } from './trail.js?v=ed73f9d045';
-import { createTour } from './tour.js?v=ed73f9d045';
-import { createCounter } from './count.js?v=ed73f9d045';
-import { createExpand } from './expand.js?v=ed73f9d045';
+import { loadCountries, createMap } from './map.js?v=8cc8b3bdd2';
+import { REFUSAL_TEXT } from './hit.js?v=8cc8b3bdd2';
+import * as R from './rules.js?v=8cc8b3bdd2';
+import * as G from './game.js?v=8cc8b3bdd2';
+import { createStore } from './store.js?v=8cc8b3bdd2';
+import { createMenu } from './menu.js?v=8cc8b3bdd2';
+import { createSound } from './sound.js?v=8cc8b3bdd2';
+import { shareOrCopy } from './share.js?v=8cc8b3bdd2';
+import { createTrail } from './trail.js?v=8cc8b3bdd2';
+import { createTour } from './tour.js?v=8cc8b3bdd2';
+import { createThanks } from './thanks.js?v=8cc8b3bdd2';
+import { createCounter } from './count.js?v=8cc8b3bdd2';
+import { createExpand } from './expand.js?v=8cc8b3bdd2';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -646,7 +647,8 @@ function advance() {
   if (S.practice) return goHome();
   if (S.run.done) {
     sound.camp();
-    return showCamp();
+    showCamp();
+    return maybeThanks();
   }
   openNext();
 }
@@ -779,6 +781,17 @@ function renderCampNext() {
   }
 }
 
+// Thanks for playing (owner, 2026-10-28): once a day, on arrival at camp from the last prompt.
+// Not on a later visit to a finished day, not for a late past-week day (it would use up
+// today's), and practice never reaches camp. ?debug is the test
+// hook; tests ask for it with &thanks.
+function maybeThanks() {
+  if ((DEBUG && !params.has('thanks')) || S.late || store.thanksShownOn(today())) return;
+  store.markThanksShown(today());
+  const best = Math.max(...S.run.rounds.map((r) => R.TIERS.findIndex((t) => t.id === r.t)));
+  thanks.open(best > 0 ? R.TIERS[best] : null);
+}
+
 // ---------- wiring ----------
 
 // F-U06 a mouse click on a map control drops focus, so Space and Enter go back to dropping the pin.
@@ -839,7 +852,7 @@ window.addEventListener('storage', (e) => {
   if ((S.mode === 'round' || S.mode === 'reveal') && !S.practice && (e.key === null || e.key === prefix + S.date) && !runFresh()) conflict();
 });
 document.addEventListener('keydown', (e) => {
-  if (menu.isOpen || tour.isOpen) return;
+  if (menu.isOpen || tour.isOpen || thanks.isOpen) return;
   if (e.key === 'Escape' && expand.isOpen) { e.preventDefault(); return expand.close(); }
   if (['INPUT', 'SELECT', 'BUTTON', 'SUMMARY', 'TEXTAREA'].includes(e.target.tagName)) return;
   // F-U06 keyboard pinning: arrow keys pan the map; P pins the map centre, and so does
@@ -913,6 +926,8 @@ const tour = createTour(TOUR_STEPS, {
     $('map').focus?.();
   },
 });
+
+const thanks = createThanks();
 
 // Expand and shrink (owner, 2026-10-28): every panel can pop out over a grayed backdrop and go back.
 const expand = createExpand([

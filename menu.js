@@ -1,7 +1,7 @@
 // Menu drawer and its panels (§22). Numbers come from panels.js and rules.js; this file only draws.
-import * as R from './rules.js?v=ed73f9d045';
-import * as P from './panels.js?v=ed73f9d045';
-import { TIER_COLORS, longDate, promptText } from './game.js?v=ed73f9d045';
+import * as R from './rules.js?v=8cc8b3bdd2';
+import * as P from './panels.js?v=8cc8b3bdd2';
+import { TIER_COLORS, longDate, promptText } from './game.js?v=8cc8b3bdd2';
 
 const SHORT_MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 const DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];

@@ -279,6 +279,7 @@ export const keys = {
   log: (slot, date) => `${recordPrefix(slot)}log:${date}`,
   souvenirsShown: (slot) => `${recordPrefix(slot)}souvenirs-shown`,
   tour: (slot) => `${recordPrefix(slot)}tour`,
+  thanks: (slot) => `${recordPrefix(slot)}thanks`,
 };
 
 export function newOwner(slot, generation) {

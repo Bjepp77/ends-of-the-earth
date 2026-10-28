@@ -681,3 +681,21 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .poster[data-size="pop"] { display: grid; }
 [data-size][hidden] { display: none !important; }
 @media (max-width: 767px) { #round:has(#result[hidden]) > .trail[data-size] { display: none !important; } }
+
+/* Thanks for playing (owner, 2026-10-28): once a day at camp. The pop-out look: grayed backdrop,
+   highlighted box. */
+.thanks { position: fixed; inset: 0; z-index: 45; display: grid; place-items: center; padding: 16px; }
+.thanks[hidden] { display: none; }
+.thanks-shade { position: absolute; inset: 0; background: rgb(40 36 30 / .55); backdrop-filter: grayscale(1); }
+.thanks-box {
+  position: relative; width: min(420px, 100%); padding: 20px 20px 18px; text-align: center;
+  background: var(--sheet-2); border-radius: var(--radius-card);
+  box-shadow: 0 0 0 2px var(--ink), 0 18px 48px rgb(0 0 0 / .4);
+}
+.thanks-box:focus { outline: none; }
+.thanks-box:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
+.thanks-badge { display: block; width: 96px; height: 96px; margin: 0 auto 8px; object-fit: contain; }
+.thanks-badge[hidden] { display: none; }
+.thanks-title { font-weight: 700; font-size: 22px; margin: 0 0 6px; }
+.thanks-body { margin: 0 0 16px; line-height: 1.45; color: var(--ink-2); }
+.thanks-btn { width: auto; height: 44px; margin: 0; padding: 2px 24px 0; font-size: 16px; }

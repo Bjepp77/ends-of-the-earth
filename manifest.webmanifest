@@ -2,6 +2,7 @@
   "name": "Ends of the Earth",
   "short_name": "Ends of Earth",
   "start_url": "./",
+  "display": "standalone",
   "theme_color": "#E9E6E0",
   "background_color": "#E9E6E0",
   "icons": [
