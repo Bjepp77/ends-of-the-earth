@@ -233,8 +233,15 @@ export function asterisks(mask) {
   return s;
 }
 
-// §7 share text, 2 lines (deviation D2: no link line).
+// §7 share text: 2 lines, then the link to this result's card (owner, 2026-10-28, ends D2's no-link rule
+// now the game is hosted). Messages turn the link into a preview card: tools/build_share_cards.py draws one
+// page and picture per pattern, named by each round's index in TIERS.
 export const GAME_NAME = 'Ends of the Earth';
+export const SITE_URL = 'https://bjepp77.github.io/ends-of-the-earth/';
+
+export function shareCode(tierIds) {
+  return tierIds.map((id) => TIERS.indexOf(tierById(id))).join('');
+}
 
 export function formatKm(n) {
   return String(Math.trunc(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
@@ -244,7 +251,7 @@ export function formatKm(n) {
 export function shareText({ n, tierIds, km = dayKm(tierIds), mask = 0, usedSearch = false }) {
   const line1 = `${GAME_NAME} #${n} · ${formatKm(km)}/${formatKm(EDGE_KM)} km${asterisks(mask)}${usedSearch ? ' · ⌕' : ''}`;
   const line2 = tierIds.map((id) => tierById(id).name).join(' · ');
-  return `${line1}\n${line2}`;
+  return `${line1}\n${line2}\n${SITE_URL}s/${shareCode(tierIds)}.html`;
 }
 
 // §7 replay share. Our replay is a late past-week day: unranked, km and asterisks only, two lines (D2).
