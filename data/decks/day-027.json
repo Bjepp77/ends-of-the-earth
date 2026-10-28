@@ -1,0 +1,414 @@
+{
+ "day": 27,
+ "prompts": [
+  {
+   "id": "temples-conf-april-2023",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was announced at the April 2023 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the April 2023 general conference.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2023",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://newsroom.churchofjesuschrist.org/article/april-2023-general-conference-new-temples"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of the April 2023 general conference, President Russell M. Nelson announced 15 new temples in 8 countries or territories. Jakarta was the first temple announced for Indonesia, the most populous Muslim-majority country.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IDN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Bakersfield California; Charlotte North Carolina; Harrisburg Pennsylvania; and 3 more."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Natal Brazil; Teresina Brazil."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Iloilo Philippines; Tuguegarao City Philippines."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lethbridge Alberta."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamburg Germany."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Retalhuleu Guatemala."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Iquitos Peru."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Jakarta Indonesia."
+    }
+   ]
+  },
+  {
+   "id": "temples-announced-no-groundbreaking-europe",
+   "bank": "temples",
+   "display_text": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
+   "text_original": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IRL",
+    "NOR",
+    "PRT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Edinburgh Scotland."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamburg Germany."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Milan Italy."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Russia."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Dublin Ireland."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Oslo Norway."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Porto Portugal."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-benson-postwar-relief-1946",
+   "bank": "pioneer",
+   "display_text": "Pin a country where Saints vol. 3 or Global Histories record Ezra Taft Benson's 1946 postwar relief visit.",
+   "text_original": "In 1946 apostle Ezra Taft Benson presided over the European Mission and traveled widely to deliver Church relief and reorganize branches after World War II. Pin a country where Saints vol. 3 chapter 32 or the Global Histories place him that year.",
+   "accepts": "country",
+   "topic": "humanitarian aid",
+   "era": "1940s",
+   "citation": "Saints vol. 3 ch. 32; Global Histories chronologies",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/32-brothers-and-sisters?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Norway, France and Czechoslovakia got 1946 aid, but no record places Benson there, so they do not count.",
+   "summary": "Ezra Taft Benson arrived in Europe early in 1946 to oversee Church relief for Saints hit by World War II. He traveled from London to Germany, Austria, the Low Countries, Scandinavia and Switzerland, and won visas to reach Saints in Poland. He also rededicated Finland for missionary work.",
+   "stamp": null,
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Directed about 2,500 tons of Church aid; visited the Berlin mission home."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Reorganized the Austrian District in March 1946; saw Vienna."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Oversaw food and clothing distribution, spring 1946."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Saw the ruins of war from London, mission headquarters (saints-v3:32)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Organized relief distribution in Rotterdam, May 1946."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Visited Antwerp and Liege, April 1946."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Visited Copenhagen branches, February 1946."
+    },
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Reached Zelwagi in August 1946 after a long struggle for visas."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Saints vol. 3 says he saw Stockholm on his travels."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Rededicated Finland for preaching at Larsmo, July 16, 1946."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-mission-leaders-asia-pacific",
+   "bank": "people",
+   "display_text": "Pin an Asian or Pacific country where a current General Authority Seventy once led a mission (October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies had led missions in Asia or the Pacific. Pin a country there where one of those missions was headquartered, as named in the Church's official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1990s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/j-kimo-esplin?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/takashi-wada?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carl-b-cook?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/anthony-d-perkins?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kelly-r-johnson?lang=eng",
+    "https://www.thechurchnews.com/leaders-and-ministry/2009-05-16/elder-michael-t-ringwood-general-authority-seventy-2009-71649/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, General Authority Seventies had led missions in Japan, the Philippines, New Zealand, Taiwan and Thailand. Elder Michael John U. Teh, born in the Philippines, presided over the Taiwan Taichung Mission.",
+   "stamp": null,
+   "gems": [
+    "THA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Japan Tokyo North and South missions (Elder Esplin) and Japan Tokyo South (Elder Wada)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Philippines Quezon City Mission, 2013 to 2016 (Elder Revillo)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "New Zealand Auckland Mission (Elder Carl B. Cook)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taiwan Taipei (Elder Perkins) and Taiwan Taichung (Elder Teh) missions."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Michael T. Ringwood was called in 2004 to lead the Korea Seoul West Mission."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Kelly R. Johnson returned to the Thailand Bangkok Mission as a leader, 2015 to 2018."
+    }
+   ]
+  },
+  {
+   "id": "ot-foreign-gods-homelands",
+   "bank": "ot",
+   "display_text": "Pin a country that was home to a foreign god named in the Old Testament, from Chemosh to Dagon",
+   "text_original": "A present-day country holding the home city or land of a foreign god named in the Old Testament: Chemosh of Moab, Milcom of Ammon, Ashtoreth of the Zidonians, Dagon of Ashdod and Gaza, Baal-zebub of Ekron, Rimmon of Damascus, Ashima of Hamath, Nisroch of Nineveh, Nergal of Cuth, Bel and Nebo of Babylon, and the gods of Egypt",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Samuel 5; 1 Kings 11; 2 Kings 1, 5, 17, 19; Judges 16; Isaiah 46; Exodus 12",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Gaza is in Palestine; Ashdod and Ekron are in Israel.",
+   "summary": "The Old Testament names many gods of Israel's neighbours: Chemosh of Moab, Milcom of Ammon, Ashtoreth of Zidon, Dagon of the Philistines, Rimmon of Damascus and Nisroch of Nineveh. The ark toppled Dagon's image at Ashdod, Samson pulled down Dagon's house at Gaza, and Isaiah mocked Bel and Nebo of Babylon (1 Sam 5; Judg 16; Isa 46).",
+   "stamp": null,
+   "gems": [
+    "PSE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Lord said he would execute judgment against all the gods of Egypt (Ex 12:12)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Chemosh was the abomination of Moab and Milcom the abomination of the Ammonites (1 Kgs 11:5, 7)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Solomon went after Ashtoreth the goddess of the Zidonians (1 Kgs 11:5)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sennacherib was slain worshipping in the house of Nisroch his god at Nineveh; Bel and Nebo were gods of Babylon (2 Kgs 19:36-37; Isa 46:1)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Philistines set the ark in the house of Dagon at Ashdod, and Baal-zebub was the god of Ekron (1 Sam 5:2; 2 Kgs 1:2)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Naaman's master worshipped in the house of Rimmon at Damascus, and the men of Hamath made Ashima (2 Kgs 5:18; 17:30)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The lords of the Philistines gathered at Gaza to sacrifice to Dagon when Samson was captured (Judg 16:21-23)."
+    }
+   ]
+  }
+ ]
+}

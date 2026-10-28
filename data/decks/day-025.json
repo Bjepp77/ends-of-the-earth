@@ -1,0 +1,436 @@
+{
+ "day": 25,
+ "prompts": [
+  {
+   "id": "temples-first-before-1960",
+   "bank": "draft",
+   "display_text": "Pin a country whose first temple was dedicated before 1960.",
+   "text_original": "Pin a country whose first temple of the Church was dedicated before 1960.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1877-1959",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "For most of its history the Church's temples stood in the United States, with St. George, Utah (1877) the oldest still on the list. Before 1960 only four other countries had one: Canada (Cardston, 1923), Switzerland (near Bern, 1955, the first in Europe), and New Zealand and the United Kingdom (both 1958).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CHE",
+    "GBR",
+    "NZL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "St. George, 1877."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cardston, Alberta, 1923."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Near Bern, 1955, the first in Europe."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": true,
+     "fact": "London, near Lingfield, 1958."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Hamilton, 1958."
+    }
+   ]
+  },
+  {
+   "id": "temples-announced-no-groundbreaking-latin-america",
+   "bank": "temples",
+   "display_text": "Pin a Latin American country with an announced temple not yet under construction (as of October 2026).",
+   "text_original": "Pin a Latin American country with an announced temple not yet under construction (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "DOM",
+    "SLV",
+    "URY",
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo East Brazil; Vitória Brazil; Florianópolis Brazil; and 2 more."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cuernavaca Mexico; Mexico City Benemérito Mexico; Toluca Mexico; and 7 more."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires City Center Argentina; Rosario Argentina."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Viña del Mar Chile; Puerto Montt Chile."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Medellín Colombia."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Otavalo Ecuador."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Retalhuleu Guatemala."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Piura Peru; Cusco Peru; Chiclayo Peru; and 2 more."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "La Paz Bolivia."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Santiago Dominican Republic."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Santa Ana El Salvador."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Rivera Uruguay."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Maracaibo Venezuela."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-mischa-markow-missions",
+   "bank": "pioneer",
+   "display_text": "Pin a present-day country where Mischa Markow served his two missions (about 1887 to 1900s).",
+   "text_original": "Mischa Markow, one of the first converts in eastern Europe, served two missions in lands that today belong to several countries. Pin one of those present-day countries.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1880s-1900s",
+   "citation": "Church History Topics: Mischa Markow",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/mischa-markow?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Mischa Markow (1854-1934) was among the first Latter-day Saint converts in eastern Europe. Within 15 years of his conversion he served two missions across lands now in Hungary, Russia, Romania, Bulgaria, Turkey, Serbia, Croatia, Germany, Belgium and Latvia.",
+   "stamp": null,
+   "gems": [
+    "BGR",
+    "HRV",
+    "LVA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named by Church History Topics among the countries of Markow's missions."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among Markow's mission countries (Ottoman lands)."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named; he dreamed of preaching in Temesvar, now Timisoara, Romania."
+    },
+    {
+     "code": "SRB",
+     "name": "Serbia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "LVA",
+     "name": "Latvia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named among Markow's mission countries."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-wwii-allied-servicemen",
+   "bank": "pioneer",
+   "display_text": "Pin a British Commonwealth country whose Latter-day Saint servicemen fought in the early Allied operations of World War II.",
+   "text_original": "Latter-day Saint servicemen from several British Commonwealth countries took part in the early Allied military operations of World War II. Pin one of those countries.",
+   "accepts": "country",
+   "topic": "World War II",
+   "era": "1939-1941",
+   "citation": "Church History Topics: World War II",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/world-war-ii?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The United States did not enter World War II until December 1941. Before then, Church History Topics notes, Latter-day Saint servicemen from Great Britain, Canada, Australia, New Zealand and South Africa were already taking part in Allied operations.",
+   "stamp": null,
+   "gems": [
+    "ZAF"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Great Britain is named; it declared war on Germany in September 1939."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named among the countries whose Saints served early in the war."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among the countries whose Saints served early in the war."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among the countries whose Saints served early in the war."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Named among the countries whose Saints served early in the war."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-missions-africa",
+   "bank": "people",
+   "display_text": "Pin an African country where a current Seventy served as a missionary or mission leader (October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies had served as young missionaries or as mission leaders in Africa. Pin an African country where one of their missions was headquartered, as named in the Church's official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1980s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-a-dunn?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/joni-l-koch?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Africa is now a training ground for Church leaders. As of October 2026, current Seventies had served or presided in missions based in nine African countries, from Nigeria and Ghana to Angola, Mozambique and Benin. Elder Edward Dube served both as a young missionary and as a mission president in his native Zimbabwe.",
+   "stamp": null,
+   "gems": [
+    "AGO",
+    "BEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Lagos and Port Harcourt missionaries (Egbo, Morrison); Enugu and Calabar mission presidents (Chigbundu, Egbo)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Isaac K. Morrison presided over the Ghana Cape Coast Mission."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Matswagothata served in the Cape Town mission; Elder Dunn led the Johannesburg mission."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Thierry K. Mutombo served in the Cote d'Ivoire Abidjan Mission."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Alfred Kyungu presided over the Mbuji-Mayi mission, 2016 to 2019."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Edward Dube: young missionary in Zimbabwe, later president of the Zimbabwe Harare Mission."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Joni L. Koch presided over the Mozambique Maputo Mission."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Denelson Silva presided over the Angola Luanda Mission."
+    },
+    {
+     "code": "BEN",
+     "name": "Benin",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder D. Martin Goury presided over the Benin Cotonou Mission."
+    }
+   ]
+  }
+ ]
+}

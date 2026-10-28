@@ -1,0 +1,411 @@
+{
+ "day": 29,
+ "prompts": [
+  {
+   "id": "temples-conf-october-2023",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was announced at the October 2023 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the October 2023 general conference.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2023",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://newsroom.churchofjesuschrist.org/article/october-2023-general-conference-temples"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of the October 2023 general conference, President Russell M. Nelson announced 20 new temples in 13 countries or territories. The 20 included firsts for Mongolia and Angola: Ulaanbaatar and Luanda.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Colorado Springs Colorado; Fairbanks Alaska; Kahului Hawaii; and 3 more."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Goiânia Brazil; João Pessoa Brazil."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cancún Mexico."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Laoag Philippines."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Viña del Mar Chile."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Osaka Japan."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Huancayo Peru; Piura Peru."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Mbuji-Mayi Democratic Republic of the Congo."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cape Coast Ghana."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ulaanbaatar Mongolia."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Calabar Nigeria."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Savai'i Samoa."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Luanda Angola."
+    }
+   ]
+  },
+  {
+   "id": "temples-first-announced-2018",
+   "bank": "temples",
+   "display_text": "Pin a country or territory whose first temple was announced in 2018.",
+   "text_original": "Pin a country or territory whose first temple was announced in 2018.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2018",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 2018, his first year as Church president, Russell M. Nelson announced first temples for seven countries and territories, from Russia and India to Guam and Cape Verde. Five of those have since been dedicated; Bengaluru and the Russia temple had not been as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV",
+    "GUM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bengaluru India, announced 2018."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A temple for a major city in Russia, announced 2018."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Phnom Penh Cambodia, announced 2018."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Managua Nicaragua, announced 2018."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Juan Puerto Rico, announced 2018."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde, announced 2018."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo Guam, announced 2018."
+    }
+   ]
+  },
+  {
+   "id": "nt-old-testament-outsiders",
+   "bank": "nt",
+   "display_text": "Pin a country home to an Old Testament outsider the New Testament mentions (not Balaam, the queen of the south or Sodom)",
+   "text_original": "A present-day country that was home to an Old Testament person or people from outside Abraham's family whom the New Testament mentions (not Balaam, the queen of the south or Sodom)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Luke 4:26-27; Matthew 1:5; 12:41; Hebrews 7:1; 11:31; Romans 9:17; Galatians 4:24-25; 2 Timothy 3:8; Matthew 1:6",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/salem?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Jericho is in the West Bank (PSE). Balaam's Pethor and the queen of the south's Sheba are disputed sites and are not counted.",
+   "summary": "The New Testament keeps pointing to outsiders in Israel's story. Jesus praised Naaman of Syria, a widow of Sidon and the repentant Ninevites. Ruth of Moab and Rahab of Jericho appear in his genealogy, Melchizedek king of Salem in Hebrews, and Paul names Pharaoh, Hagar and the magicians of Egypt.",
+   "stamp": null,
+   "gems": [
+    "TUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul names Pharaoh, Agar (Hagar the Egyptian), and the magicians Jannes and Jambres who withstood Moses (Romans 9:17; Galatians 4:24; 2 Timothy 3:8)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jesus said the men of Nineveh, who repented at Jonah's preaching, would rise in judgment (Matthew 12:41)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jesus recalled that Naaman the Syrian, of all the lepers, was cleansed (Luke 4:27)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Melchisedec was king of Salem, which the Bible Dictionary identifies with Jerusalem (Hebrews 7:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ruth, a woman of Moab (Ruth 1:4), is named in Jesus' genealogy; Moab lay east of the Dead Sea (Matthew 1:5)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jesus recalled Elijah being sent to a widow of Sarepta, a city of Sidon (Luke 4:26)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "By faith Rahab of Jericho, a Canaanite, perished not with them that believed not (Hebrews 11:31; Joshua 2)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The genealogy names Urias, Uriah the Hittite (Matthew 1:6; 2 Samuel 11:3); BD Hittites says their empire extended to the extreme northwest of Asia Minor."
+    }
+   ]
+  },
+  {
+   "id": "ot-joshua-tribal-allotments",
+   "bank": "ot",
+   "display_text": "Pin a country holding land allotted to a tribe of Israel in Joshua 13-19",
+   "text_original": "A present-day country holding land allotted to a tribe of Israel in Joshua 13-19, from Bashan and Gilead east of the Jordan to Asher's border at great Zidon and Judah's border at the river of Egypt",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Joshua 13-19",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/edrei?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/egypt-river-of?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Jericho, Bethel and Hebron are in the West Bank (Palestine); much of Judah and the northern tribes lie in Israel.",
+   "summary": "After the conquest, Joshua divided the land by lot. Reuben, Gad and half of Manasseh took Gilead and Bashan east of the Jordan, while the other tribes took Canaan, with Asher's coast stretching toward Zidon and Tyre and Judah's south border reaching the river of Egypt (Josh 13-19).",
+   "stamp": null,
+   "gems": [
+    "EGY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Most tribes, including Naphtali, Zebulun, Issachar and much of Judah, were given land west of the Jordan (Josh 15-19)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Benjamin, Ephraim and Judah held land now in the West Bank, such as Jericho, Bethel and Hebron (Josh 15:54; 16:1; 18:21-22)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Reuben, Gad and half of Manasseh received Gilead and the plains east of the Jordan (Josh 13:8-25)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Asher's border reached to great Zidon and the strong city Tyre (Josh 19:28-29)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Half of Manasseh received all Bashan, the kingdom of Og with Edrei and Ashtaroth (Josh 13:12, 29-31)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Judah's south border went out unto the river of Egypt, the Wady el Arish in northern Sinai (Josh 15:4, 47; Bible Dictionary)."
+    }
+   ]
+  },
+  {
+   "id": "bom-first-editions-1980",
+   "bank": "bom",
+   "display_text": "Pin the homeland of a language (not Arabic) whose first Book of Mormon, whole or in part, came out in 1980",
+   "text_original": "A country that is the home of a language, other than Arabic, in which the Book of Mormon was first published, in selections or in full, in 1980",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "1980",
+   "citation": "Church translations table, Book of Mormon; Church News, 27 Feb 2022; Global Histories chronology: Fiji",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/manual/translations-and-downloads/scriptures/book-of-mormon?lang=eng",
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Arabic, also first published in 1980 as selections, is left out so the list stays closed. Russian is dated 1981 by Church News.",
+   "summary": "The year 1980 brought the Book of Mormon into six new languages, mostly as selections that were completed later. Besides Arabic they were Bulgarian, Navajo, Ecuadorian Quichua, Vietnamese and Fijian, whose first 50 copies reached Suva that October.",
+   "stamp": null,
+   "gems": [
+    "ECU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Fijian, 1980; the first 50 copies reached Suva on 29 October 1980."
+    },
+    {
+     "code": "VNM",
+     "name": "Vietnam",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Vietnamese selections came out in 1980 and the full book in 1982."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bulgarian selections came out in 1980 and the full book in 1999."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Navajo selections came out in 1980 and the full book in 1998."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Quichua (Ecuador) selections came out in 1980 and the full book in 2011."
+    }
+   ]
+  }
+ ]
+}

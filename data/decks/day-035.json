@@ -1,0 +1,374 @@
+{
+ "day": 35,
+ "prompts": [
+  {
+   "id": "temples-rededicated-2010-18",
+   "bank": "temples",
+   "display_text": "Pin a country where a temple was rededicated after renovation from 2010 through 2018.",
+   "text_original": "Pin a country where a temple was rededicated after renovation from 2010 through 2018.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2010-2018",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "From 2010 through 2018 temples were rededicated in Buenos Aires (2012), Mexico City (2015), Montreal (2015), Freiberg (2016) and Suva (2016), plus seven in the United States. Freiberg, built in East Germany in 1985, was rededicated twice after expansions.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FJI"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Atlanta Georgia, 2011; Boise Idaho, 2012; Houston Texas, 2018; and 4 more."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico City Mexico, 2015."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires Argentina, 2012."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Montreal Quebec, 2015."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg Germany, 2016."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Suva Fiji, 2016."
+    }
+   ]
+  },
+  {
+   "id": "temples-first-announced-2021",
+   "bank": "temples",
+   "display_text": "Pin a country whose first temple was announced in 2021.",
+   "text_original": "Pin a country whose first temple was announced in 2021.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2021",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 2021 seven countries got their first temple announcement: Austria, Belgium, Norway, Singapore, Mozambique, Madagascar and Liberia. As of October 2026 Oslo, Beira and Monrovia were still in the announced stage.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "LBR",
+    "MDG",
+    "MOZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Vienna Austria, announced 2021."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brussels Belgium, announced 2021."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Oslo Norway, announced 2021."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Singapore, announced 2021."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Monrovia Liberia, announced 2021."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Antananarivo Madagascar, announced 2021."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Beira Mozambique, announced 2021."
+    }
+   ]
+  },
+  {
+   "id": "ot-wives-homelands",
+   "bank": "ot",
+   "display_text": "Pin a country that was home to a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz",
+   "text_original": "A present-day country that was the homeland of a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz: Sarai from Ur, Hagar the Egyptian, Rebekah, Leah and Rachel from Laban's family at Haran, Asenath of On, Zipporah of Midian, Moses' wife from Cush, the Nile land south of Egypt, and Ruth the Moabitess",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 11, 16, 24, 29, 41; Exodus 2; Numbers 12; Ruth 1-4",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ur?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted.",
+   "summary": "Many founding wives of Israel came from abroad. Sarai left Ur with Abram, Hagar was Egyptian, and Rebekah, Leah and Rachel came from Laban's family at Haran. Joseph married Asenath of On in Egypt, Moses married Zipporah of Midian and an Ethiopian woman, and Ruth the Moabitess became great-grandmother of David.",
+   "stamp": null,
+   "gems": [
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hagar, Abraham's handmaid and wife, was an Egyptian; Joseph married Asenath, daughter of the priest of On (Gen 16:1-3; 41:45)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sarai went out with Abram from Ur of the Chaldees (Gen 11:29-31); BD Ur identifies it with Mugheir near the Persian Gulf."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Boaz married Ruth the Moabitess (Ruth 1:4; 4:10, 13)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Rebekah, Leah and Rachel came from the household of Laban, who lived at Haran (Gen 24:29; 27:43; 29:4-6); Church Bible Map 9 says Rebekah, Rachel, Leah, Bilhah and Zilpah came from the Haran area."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Moses dwelt in the land of Midian and married Zipporah, daughter of its priest (Ex 2:15-21); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Miriam and Aaron spoke against Moses because of the Ethiopian woman he had married (Num 12:1); Bible Ethiopia was the Nile land south of Egypt."
+    }
+   ]
+  },
+  {
+   "id": "nt-revelation-places",
+   "bank": "nt",
+   "display_text": "Pin a country holding a place, city or river named in the book of Revelation",
+   "text_original": "A present-day country holding a place, city or river named in the book of Revelation",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Revelation 1:9-11; 9:14; 11:8; 16:12-16",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/armageddon?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/patmos?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "The Euphrates also rises in Turkey, which is already accepted.",
+   "summary": "John wrote Revelation on Patmos, a Greek island, to seven churches in western Turkey. The book names the great river Euphrates, which flows through Turkey, Syria and Iraq, and Armageddon, the mount of Megiddo in Israel. It also calls the wicked city spiritually Sodom and Egypt.",
+   "stamp": null,
+   "gems": [
+    "EGY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The seven churches, from Ephesus to Laodicea, were in the province of Asia in western Turkey (Revelation 1:11)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "John received the revelation on the isle of Patmos (Revelation 1:9)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Armageddon is Har Megiddo, the mount of Megiddo in northern Israel (Revelation 16:16; Bible Dictionary)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Euphrates and the site of Babylon are in Iraq (Revelation 9:14; 16:12; 14:8)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The great river Euphrates flows across Syria (Revelation 9:14; 16:12)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The great city is spiritually called Sodom and Egypt (Revelation 11:8)."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-young-missions-asia",
+   "bank": "people",
+   "display_text": "Pin an Asian country or territory where a current General Authority Seventy served as a young full-time missionary.",
+   "text_original": "Several General Authority Seventies serving as of October 2026 were once young full-time missionaries in Asia. Pin an Asian country or territory where one of them served, as named in the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1970s-2000s",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/j-kimo-esplin?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kyle-s-mckay?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/john-a-mccune?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/scott-d-whiting?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-r-rasband?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-t-ringwood?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/yoon-hwan-choi?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-o-fantone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/david-p-homer?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kelly-r-johnson?lang=eng",
+    "https://www.thechurchnews.com/leaders-and-ministry/2006-05-13/elder-anthony-d-perkins-general-authority-seventy-2006-86422/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in Japan, South Korea, the Philippines, Hong Kong and Thailand. Elder Kelly R. Johnson later returned to the Thailand Bangkok Mission with his wife as mission leaders.",
+   "stamp": null,
+   "gems": [
+    "THA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Japan Kobe, Fukuoka and Tokyo North missions (Elders Esplin, McKay, McCune, Whiting)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Korea Seoul and Busan missions (Elders Rasband, Ringwood, Choi)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Philippines Bacolod and Cebu, Cagayan de Oro, and Davao missions (Elders Revillo, Fantone, Teh)."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "China Hong Kong Mission (Elders Homer and Wu)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Anthony D. Perkins served his young mission in Taiwan."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Thailand Bangkok Mission (Elder Kelly R. Johnson)."
+    }
+   ]
+  }
+ ]
+}

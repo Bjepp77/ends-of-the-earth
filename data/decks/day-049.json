@@ -1,0 +1,395 @@
+{
+ "day": 49,
+ "prompts": [
+  {
+   "id": "missions-ten-plus",
+   "bank": "draft",
+   "display_text": "Pin a country with ten or more of the Church's missions (end of 2025).",
+   "text_original": "Pin a country with ten or more of the Church's missions (end of 2025).",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria"
+   ],
+   "difficulty": 2,
+   "note": "Next below the line: Guatemala, Japan, Ecuador and DR Congo with 7 each.",
+   "summary": "At the end of 2025 the United States had 120 of the Church's missions. Brazil (37), Mexico (34) and the Philippines (26) came next, and Peru, Argentina, Chile and Nigeria had 11 or more each. Nigeria and the Philippines were the only countries outside the Americas with ten or more.",
+   "stamp": null,
+   "gems": [
+    "NGA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "120 missions."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "37 missions."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "34 missions."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "26 missions."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 2,
+     "gem": false,
+     "fact": "14 missions."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 2,
+     "gem": false,
+     "fact": "11 missions."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 2,
+     "gem": false,
+     "fact": "15 missions."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "11 missions."
+    }
+   ]
+  },
+  {
+   "id": "global-western-europe-dedications-1966-98",
+   "bank": "global",
+   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) an Apostle dedicated or rededicated, 1966 to 1998",
+   "text_original": "Many European lands were first dedicated in the 1850s; later Apostles dedicated new ones or rededicated old ones. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) that an Apostle dedicated or rededicated for the preaching of the gospel between 1966 and 1998.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1966-1998",
+   "citation": "Global Histories chronologies (continental Western Europe)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.thechurchnews.com/2017/8/18/23221901/history-moment-president-monson-in-east-germany/",
+    "https://www.thechurchnews.com/2018/6/8/23221490/president-monsons-revisit-to-a-sacred-site-in-germany/"
+   ],
+   "difficulty": 3,
+   "note": "France (1850) and Switzerland (1851) were dedicated long before. Germany counts through the 1975 East German dedication.",
+   "summary": "Between 1966 and 1998 Apostles offered dedicatory prayers over seven Western European lands. Ezra Taft Benson rededicated Italy in 1966 and Marion G. Romney dedicated Spain in 1968. Thomas S. Monson dedicated East Germany and Portugal in 1975. L. Tom Perry and Howard W. Hunter dedicated the Netherlands and Austria in 1992, and Jeffrey R. Holland rededicated Belgium in 1998.",
+   "stamp": null,
+   "gems": [
+    "BEL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Marion G. Romney dedicated Spain from Casa de Campo in Madrid, October 1968."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ezra Taft Benson rededicated Italy at Torre Pellice, where Lorenzo Snow had dedicated it, November 10, 1966."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Howard W. Hunter dedicated Austria from the Kahlenberg above Vienna, September 12, 1992."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Thomas S. Monson dedicated the German Democratic Republic (East Germany) on a hillside near Radebeul, April 27, 1975."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder L. Tom Perry dedicated the Netherlands, September 10, 1992."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Thomas S. Monson dedicated Portugal near the Sintra Mountains, March 1975."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Jeffrey R. Holland rededicated Belgium at Tervuren, May 26, 1998."
+    }
+   ]
+  },
+  {
+   "id": "nt-synagogue-preaching",
+   "bank": "nt",
+   "display_text": "Pin a country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
+   "text_original": "A present-day country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Luke 4:16; Mark 1:21; Acts 9:20; 13:5, 14; 14:1; 17:1-2, 10, 17; 18:4, 19; 19:8",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Jesus began his public ministry by reading Isaiah in the Nazareth synagogue. Paul followed the same pattern on his missions, going first to the Jews: Damascus right after his conversion, Salamis on Cyprus, Antioch in Pisidia and Iconium, then Thessalonica, Berea, Athens, Corinth and Ephesus.",
+   "stamp": null,
+   "gems": [
+    "CYP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Jesus read Isaiah in the synagogue at Nazareth and taught in the synagogue at Capernaum (Luke 4:16; Mark 1:21)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul reasoned in synagogues at Thessalonica, Berea, Athens and Corinth (Acts 17:1-2, 10, 17; 18:4)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul and Barnabas spoke in synagogues at Antioch in Pisidia and Iconium; Paul later at Ephesus (Acts 13:14; 14:1; 19:8)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Straightway after his conversion Saul preached Christ in the synagogues of Damascus (Acts 9:20)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "At Salamis, Barnabas and Saul preached the word of God in the synagogues of the Jews (Acts 13:5)."
+    }
+   ]
+  },
+  {
+   "id": "global-hinckley-south-america-1996-97",
+   "bank": "global",
+   "display_text": "Pin a South American country President Hinckley visited on his November 1996 or August 1997 tours",
+   "text_original": "President Gordon B. Hinckley made two sweeping South American tours: six countries in November 1996 and four more in August 1997, where his addresses in Paraguay and Ecuador were believed to be the first by a Church President. A country he visited on either tour.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "1996-1997",
+   "citation": "Ensign, Feb. 1997 and Nov. 1997, News of the Church",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/ensign/1997/02/news-of-the-church/president-hinckley-visits-south-america-florida-washington-d-c?lang=eng",
+    "https://www.churchofjesuschrist.org/study/ensign/1997/11/news-of-the-church/president-hinckley-focuses-on-new-converts-and-families-in-south-american-visits?lang=eng",
+    "https://www.deseret.com/1996/11/16/20770887/prophet-visits-south-america/",
+    "https://www.thechurchnews.com/1997/8/23/23251842/rapid-pace-across-south-america/"
+   ],
+   "difficulty": 2,
+   "note": "Guyana, Suriname and French Guiana were not visited on either tour.",
+   "summary": "In November 1996 President Gordon B. Hinckley spoke to more than 218,000 Saints in Colombia, Peru, Bolivia, Chile, Argentina and Brazil. In August 1997 he returned for Uruguay, Paraguay, Ecuador and Venezuela; his talks in Paraguay and Ecuador were believed to be the first by a Church President there.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY",
+    "URY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "November 1996: he addressed about 50,000 members in Buenos Aires."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "November 1996: he spoke in Porto Alegre, Sao Paulo, Recife and Manaus, and broke ground for the Recife temple."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "November 1996: he spoke to about 48,000 members in two stadium sessions in Santiago."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "November 1996: he held two conferences in Lima attended by about 28,000 members."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "November 1996: he broke ground for a temple in Cochabamba in heavy rain."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "November 1996: he toured the Bogota temple site and addressed about 7,000 members."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "August 11-12, 1997: he toured the Guayaquil temple site and addressed members in Guayaquil and Quito."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "August 13, 1997: he spoke to missionaries in Caracas and to 10,000 members in Valencia."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "August 10, 1997: he spoke to about 7,000 members in a stadium in Asuncion."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "August 9, 1997: he addressed more than 11,000 members at a regional conference in Montevideo."
+    }
+   ]
+  },
+  {
+   "id": "ot-zechariah-9-burden",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place named in Zechariah 9, from Damascus and Tyre to Gaza and Greece",
+   "text_original": "A present-day country holding a place named in Zechariah 9 (Hadrach, Damascus, Hamath, Tyre, Zidon, the Philistine cities, Greece)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Zechariah 9:1-13",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/greece?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Zechariah 9 opens with a burden on Damascus and Hamath in Syria, on Tyre and Zidon, and on the Philistine cities of Ashkelon, Gaza, Ekron and Ashdod. The same chapter foretells the king coming lowly on an ass and names Greece, by its Hebrew name Javan, as a foe Judah will overcome.",
+   "stamp": null,
+   "gems": [
+    "GRC"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ashkelon, Ekron and Ashdod are Philistine cities in Israel (Zechariah 9:5-6)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tyrus and Zidon are named, and Tyre will be devoured with fire (Zechariah 9:2-4)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The burden falls on Damascus, and Hamath borders it (Zechariah 9:1-2)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Gaza shall be very sorrowful (Zechariah 9:5)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Lord will raise Zion's sons against thy sons, O Greece (Zechariah 9:13)."
+    }
+   ]
+  }
+ ]
+}

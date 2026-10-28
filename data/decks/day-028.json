@@ -1,0 +1,451 @@
+{
+ "day": 28,
+ "prompts": [
+  {
+   "id": "temples-conf-april-2022",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was announced at the April 2022 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the April 2022 general conference.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2022",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://www.thechurchnews.com/2022/4/3/23217529/17-new-temples-announced-by-president-nelson-totaling-100-during-his-ministry/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of the April 2022 general conference, President Russell M. Nelson announced 17 new temples in 8 countries or territories. Brazzaville gave the Republic of the Congo its first temple announcement, and Birmingham was the third for England.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Austin Texas; Cleveland Ohio; Knoxville Tennessee; and 5 more."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Maceió Brazil; Santos Brazil."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico City Benemérito Mexico; San Luis Potosí Mexico."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Birmingham England."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Wellington New Zealand."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cusco Peru."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Barcelona Spain."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Brazzaville Republic of the Congo."
+    }
+   ]
+  },
+  {
+   "id": "temples-announced-no-groundbreaking-asia-pacific",
+   "bank": "temples",
+   "display_text": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
+   "text_original": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "MNG",
+    "NCL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Brisbane Australia South; Liverpool Australia."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tuguegarao City Philippines; Santiago Philippines; Iloilo Philippines; and 2 more."
+    },
+    {
+     "code": "CHN",
+     "name": "People's Republic of China",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Shanghai People's Republic of China."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Osaka Japan."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Busan Korea."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Savai'i Samoa."
+    },
+    {
+     "code": "ARE",
+     "name": "United Arab Emirates",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dubai United Arab Emirates."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jakarta Indonesia."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Uturoa French Polynesia."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Ulaanbaatar Mongolia."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nouméa New Caledonia."
+    }
+   ]
+  },
+  {
+   "id": "bom-pgp-local-language-1955-1979",
+   "bank": "bom",
+   "display_text": "Pin a country or territory whose main language got its first Pearl of Great Price between 1955 and 1979",
+   "text_original": "A country or territory whose main local language got its first Pearl of Great Price (selections or full) between 1955 and 1979",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1955-1979",
+   "citation": "Church translations table, Pearl of Great Price; Global Histories chronologies: Japan, Tonga, Hong Kong, Macau, Taiwan, Thailand",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/manual/translations-and-downloads/scriptures/pearl-of-great-price?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/macau/mo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "France, Switzerland and Belgium are out (French selections from 1908), and so is Norway (Norwegian selections from 1934).",
+   "summary": "After 1950 the Pearl of Great Price spread into many new languages, often bound with the Doctrine and Covenants. Finnish and Japanese came in the mid-1950s, Tongan in 1959, Italian in 1965, Korean in 1968, Chinese and Samoan in 1976, Tahitian in 1978, and Indonesian and Thai in 1979.",
+   "stamp": null,
+   "gems": [
+    "ASM",
+    "IDN",
+    "MAC",
+    "PYF",
+    "THA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Japanese Pearl of Great Price came out in Tokyo in 1955 with the Doctrine and Covenants (the translations table says 1957)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first Korean Pearl of Great Price was published in 1968."
+    },
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Chinese, its main language, got its first Pearl of Great Price in April 1976, published in Hong Kong."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first Finnish Pearl of Great Price was published in 1955."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Chinese Pearl of Great Price was published in Hong Kong in April 1976."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The translations table dates the first Italian Pearl of Great Price to 1965."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Tongan edition is dated 1959; the first 500 copies reached Nuku'alofa on 17 March 1960."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Chinese Pearl of Great Price reached Taipei in April 1976."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Samoan Pearl of Great Price was published in 1976."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Samoan is its main language; the Samoan Pearl of Great Price came out in 1976."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Indonesian Pearl of Great Price was published in 1979."
+    },
+    {
+     "code": "MAC",
+     "name": "Macau",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Macau's chronology records the Chinese Pearl of Great Price of April 1976, printed in Hong Kong."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Tahitian Pearl of Great Price was published in 1978."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Thai translations of the Doctrine and Covenants and Pearl of Great Price were published in 1979."
+    }
+   ]
+  },
+  {
+   "id": "ot-zephaniah-2-nations",
+   "bank": "ot",
+   "display_text": "Pin a country holding a people judged in Zephaniah 2: Philistines, Moab, Ammon, Assyria, or the Nile land of Cush",
+   "text_original": "A present-day country holding a people judged in Zephaniah 2 (Philistines, Moab, Ammon, the Ethiopians of Cush on the Nile, Assyria)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Zephaniah 2",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/zeph/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Zephaniah 2 calls Judah to seek meekness, then names the peoples who will be judged: the Philistine cities of Gaza, Ashkelon, Ashdod and Ekron, Moab and Ammon, the Ethiopians, and Assyria with its capital Nineveh. The Bible's Ethiopia, or Cush, was the Nile land south of Egypt, today Sudan, not modern Ethiopia.",
+   "stamp": null,
+   "gems": [
+    "SDN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Lord will destroy Assyria and make Nineveh a desolation (Zephaniah 2:13)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ashkelon, Ashdod and Ekron were Philistine cities (Zephaniah 2:4)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Moab and the children of Ammon shall be as Sodom (Zephaniah 2:8-9)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Gaza shall be forsaken (Zephaniah 2:4); it lies in the Gaza Strip."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Ye Ethiopians also, ye shall be slain (Zephaniah 2:12); Bible Ethiopia, or Cush, ran south from Syene along the Nile, today Sudan."
+    }
+   ]
+  },
+  {
+   "id": "bom-180th-anniversary-west-africa",
+   "bank": "bom",
+   "display_text": "Pin a country whose youth joined West Africa's 2010 celebrations of the Book of Mormon's 180th anniversary",
+   "text_original": "A country whose youth joined the August 2010 West Africa celebrations of the 180th anniversary of the coming forth of the Book of Mormon",
+   "accepts": "country",
+   "topic": "Book of Mormon history",
+   "era": "2010",
+   "citation": "Global Histories chronologies: Liberia (Aug 2010), Benin (dated Aug 2011)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/benin/bj-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Liberia's chronology dates it August 2010; Benin's says August 2011. 1830 plus 180 is 2010.",
+   "summary": "The Book of Mormon was first published in 1830. To mark 180 years, more than 11,000 young people in seven West African countries held celebrations: Liberia, Nigeria, Benin, Togo, Ghana, Cote d'Ivoire and Sierra Leone.",
+   "stamp": null,
+   "gems": [
+    "BEN",
+    "TGO"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Nigeria is named among the seven countries in the celebrations."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ghana is named among the seven countries in the celebrations."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cote d'Ivoire is named among the seven countries."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Liberia's chronology records the celebrations in August 2010."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sierra Leone is named among the seven countries."
+    },
+    {
+     "code": "BEN",
+     "name": "Benin",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Benin's chronology lists its youth among the more than 11,000 taking part."
+    },
+    {
+     "code": "TGO",
+     "name": "Togo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Togo is named among the seven countries."
+    }
+   ]
+  }
+ ]
+}

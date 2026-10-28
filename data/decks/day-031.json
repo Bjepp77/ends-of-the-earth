@@ -1,0 +1,406 @@
+{
+ "day": 31,
+ "prompts": [
+  {
+   "id": "temples-conf-october-2024",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was announced at the October 2024 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the October 2024 general conference.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2024",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://newsroom.churchofjesuschrist.org/article/october-2024-general-conference-new-temples"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of the October 2024 general conference, President Russell M. Nelson announced 17 new temples in 11 countries or territories. Dublin and Kampala were the first temples announced for Ireland and Uganda.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "MOZ",
+    "UGA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Coeur d'Alene Idaho; El Paso Texas; Huntsville Alabama; and 4 more."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Juchitán de Zaragoza Mexico."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Puerto Montt Chile."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Milan Italy."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Medellín Colombia."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santiago Dominican Republic."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dublin Ireland."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Abuja Nigeria."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santa Ana El Salvador."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Maputo Mozambique."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kampala Uganda."
+    }
+   ]
+  },
+  {
+   "id": "temples-second-dedicated-1987-2000",
+   "bank": "temples",
+   "display_text": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
+   "text_original": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1987-2000",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "A country's second temple usually means the Church there has grown past what one temple can serve. Each answer names the country's second temple to be dedicated and its date, counting only temples now in operation.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "JPN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Adelaide Australia (15 June 2000)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Recife Brazil (15 December 2000)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Toronto Ontario (25 August 1990)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Preston England (7 June 1998)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Colonia Juárez Chihuahua Mexico (6 March 1999)."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Frankfurt Germany (28 August 1987)."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Fukuoka Japan (11 June 2000)."
+    }
+   ]
+  },
+  {
+   "id": "global-latam-first-stakes-1977-79",
+   "bank": "global",
+   "display_text": "Pin a Latin American mainland country whose first stake was organized from 1977 through 1979",
+   "text_original": "Stakes spread quickly through Latin America in the late 1970s. A country in Mexico, Central America or Spanish- or Portuguese-speaking South America whose first stake was organized from 1977 through 1979.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1977-1979",
+   "citation": "Global Histories chronologies (Latin America)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In just three years eight Latin American countries got their first stakes, from San Jose and Bogota in January 1977 to Panama City in November 1979. Earlier firsts came in Mexico, Brazil, Argentina, Guatemala, Uruguay, Peru, Chile and El Salvador; Nicaragua followed in 1981, and Belize still has a district.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PAN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bogota Colombia Stake, January 23, 1977."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guayaquil, June 4, 1978, the first stake in Ecuador."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Caracas Venezuela Stake, May 15, 1977."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santa Cruz Bolivia Stake, January 14, 1979."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Jose Costa Rica Stake, January 20, 1977."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Pedro Sula Honduras Stake, April 10, 1977."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Asuncion Paraguay Stake, February 25, 1979."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Panama Stake, November 11, 1979."
+    }
+   ]
+  },
+  {
+   "id": "ot-assyria-takes-israel",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place in Assyria's conquest and resettlement of Israel, 2 Kings 15-17",
+   "text_original": "A present-day country holding a place named in Assyria's conquest and resettlement of the northern kingdom in 2 Kings 15-17: towns Tiglath-pileser took, Samaria, the lands the captives were sent to, and the cities settlers came from (sites agreed by scholars only)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "2 Kings 15:29; 16:9; 17:5-6, 24",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/gozan?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/media?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Samaria is in the West Bank (Palestine); Hazor, Kedesh and Galilee are in Israel.",
+   "summary": "Tiglath-pileser of Assyria took Gilead, Galilee and towns from Ijon to Hazor, then Damascus. Shalmaneser besieged Samaria, and in 721 BC its people were carried to Assyria, the Habor by the river of Gozan and the cities of the Medes, while settlers from Babylon, Cuthah and Hamath took their place (2 Kgs 15-17).",
+   "stamp": null,
+   "gems": [
+    "IRN",
+    "JOR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Israel was carried away into Assyria, and settlers came from Babylon and Cuthah (2 Kgs 17:6, 24)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tiglath-pileser took Abel-beth-maachah, Kedesh and Hazor, and Galilee (2 Kgs 15:29)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Shalmaneser besieged Samaria three years before it fell (2 Kgs 17:5-6)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Assyria took Damascus (2 Kgs 16:9), and settlers were brought from Hamath (2 Kgs 17:24)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Captives from Samaria were placed in the cities of the Medes (2 Kgs 17:6)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Tiglath-pileser took Gilead and carried its people captive (2 Kgs 15:29)."
+    }
+   ]
+  },
+  {
+   "id": "global-mtcs-closed-2019-2023",
+   "bank": "global",
+   "display_text": "Pin a country whose Church missionary training center closed between 2019 and 2023",
+   "text_original": "Between 2019 and 2023 the Church closed several missionary training centers outside the United States as more missionaries trained at home or online. A country whose missionary training center closed in that period.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "2019-2023",
+   "citation": "Church News 2019-02-08; Newsroom (Guatemala MTC, Colombia MTC)",
+   "source_urls": [
+    "https://www.thechurchnews.com/2019/2/8/23219280/heres-why-the-church-has-decided-to-close-4-international-mtcs/",
+    "https://newsroom.churchofjesuschrist.org/article/guatemala-missionary-training-center-closing",
+    "https://newsroom.churchofjesuschrist.org/article/colombia-mtc-closing-january-2023"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 2019 the Church closed its training centers in Santiago, Madrid and Santo Domingo, then Buenos Aires that July. Guatemala City followed in January 2020 and Bogota in January 2023. Missionaries from those lands now train at home, online or at the remaining centers.",
+   "stamp": null,
+   "gems": [
+    "COL",
+    "DOM",
+    "GTM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Buenos Aires MTC closed in July 2019."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Santiago MTC closed in January 2019."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Madrid MTC closed in January 2019."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Bogota MTC closed in January 2023."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Santo Domingo MTC closed in January 2019."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Guatemala City MTC closed in January 2020."
+    }
+   ]
+  }
+ ]
+}

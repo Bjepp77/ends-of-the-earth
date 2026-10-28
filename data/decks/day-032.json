@@ -1,0 +1,413 @@
+{
+ "day": 32,
+ "prompts": [
+  {
+   "id": "temples-conf-april-2021",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was announced at the April 2021 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the April 2021 general conference.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2021",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://newsroom.churchofjesuschrist.org/article/april-2021-general-conference-new-temples"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of the April 2021 general conference, President Russell M. Nelson announced 20 new temples in 11 countries or territories. It was a then-record 20 temples, with firsts for Austria, Belgium, Norway, Singapore and Mozambique.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "MOZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Burley Idaho; Casper Wyoming; Elko Nevada; and 6 more."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Belo Horizonte Brazil."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Querétaro Mexico; Torreón Mexico."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Vienna Austria."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brussels Belgium."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cali Colombia."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kumasi Ghana."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Oslo Norway."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Singapore."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cape Town South Africa."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Beira Mozambique."
+    }
+   ]
+  },
+  {
+   "id": "temples-announced-no-groundbreaking-africa",
+   "bank": "temples",
+   "display_text": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
+   "text_original": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO",
+    "LBR",
+    "MOZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cape Coast Ghana."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Eket Nigeria; Calabar Nigeria; Abuja Nigeria; and 1 more."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kananga Democratic Republic of the Congo; Mbuji-Mayi Democratic Republic of the Congo."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kampala Uganda."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Luanda Angola."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Monrovia Liberia."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Beira Mozambique; Maputo Mozambique."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-born-europe",
+   "bank": "people",
+   "display_text": "Pin a European country where a current General Authority Seventy was born (as of October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies were born in Europe. Pin a European country where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "2026",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-t-phillips?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/karl-d-hirst?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jorg-klebingat?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-cziesla?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/massimo-de-feo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christophe-g-giraud-carrier?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hans-t-boom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, six European countries are birthplaces of current General Authority Seventies: the United Kingdom, Germany, Italy, France, the Netherlands and Portugal. Elder Massimo De Feo of Taranto, Italy, and Elder Hans T. Boom of Amsterdam are among them.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NLD",
+    "PRT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Jorg Klebingat (Zweibrucken) and Michael Cziesla (Neumunster)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Alan T. Phillips (Kent, England) and Karl D. Hirst (Bury, Lancashire)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Christophe G. Giraud-Carrier, born in Lyon."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Massimo De Feo, born in Taranto."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Elder Hans T. Boom, born in Amsterdam."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Elder Jose Teixeira, born in Vila Real."
+    }
+   ]
+  },
+  {
+   "id": "bom-heads-of-state-given-copy",
+   "bank": "bom",
+   "display_text": "Pin a country whose king, queen or president was given a Book of Mormon, per the Church's country chronologies",
+   "text_original": "A country whose king, queen or president received a copy of the Book of Mormon from Church representatives, as recorded in the Church's Global Histories chronologies",
+   "accepts": "country",
+   "topic": "Book of Mormon history",
+   "era": "1888-1999",
+   "citation": "Global Histories chronologies: Sweden, Netherlands, Costa Rica, Panama, Thailand, Slovakia",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; leaders of other countries have also received copies.",
+   "summary": "Church representatives have often given the Book of Mormon to heads of state. The Church's country chronologies record gifts to King Oscar II of Sweden in 1897, the Dutch royal family in 1888 and 1952, Costa Rica's president in 1947, Panama's in 1961, the king of Thailand in 1968 and Slovakia's president in 1999.",
+   "stamp": null,
+   "gems": [
+    "CRI",
+    "SVK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A copy of John Volker's 1888 Dutch translation went to the king and queen; Queen Juliana later accepted one after meeting David O. McKay in 1952."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jan M. Sjodahl presented a copy to King Oscar II in 1897, his 25th year on the throne."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Marion G. Romney presented a copy to President Roberto F. Chiari in 1961."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ezra Taft Benson gave King Bhumibol Adulyadej an English copy in Bangkok in 1968."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 1,
+     "gem": true,
+     "fact": "President Teodoro Picado was given a copy in San Jose in 1947."
+    },
+    {
+     "code": "SVK",
+     "name": "Slovakia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "President Rudolf Schuster and his wife accepted a copy at a Church open house in Bratislava in 1999."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-servicemen-first-meetings",
+   "bank": "pioneer",
+   "display_text": "Pin a country or territory where US servicemen held the first Church meetings or were the first members (before 1955).",
+   "text_original": "In several places the Church took root not through missionaries but through Latter-day Saints serving in the United States military, who were the first known members or held the first Church meetings there. Pin a country or territory where the Global Histories record this happening before 1955.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1898-1955",
+   "citation": "Global Histories chronologies",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/marshall-islands/mh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Before formal missions arrived, Latter-day Saints in the US military often became the Church's first presence in a land. Two soldiers held the first service in Manila in 1898, and in World War II and after, servicemen's groups met in Costa Rica, Guam, New Guinea, the Marshall Islands, Puerto Rico, Korea and the Azores.",
+   "stamp": null,
+   "gems": [
+    "MHL",
+    "PRT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First Church meetings in Korea held by US servicemen, 1945-47."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Soldiers George Seaman and Willard Call held the first service in Manila, August 21, 1898."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First members on Guam were with the US military, 1944-46."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Servicemen met in homes in the 1940s; 1953 meetings at Fort Buchanan chapel."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "First members in Costa Rica were US servicemen, July 1944."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Servicemen held services in New Guinea, 1944-45."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "First Church services held by American military personnel in the 1940s."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Earliest known members were servicemen at Lajes Field, Azores, in the 1950s."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,471 @@
+{
+ "day": 26,
+ "prompts": [
+  {
+   "id": "temples-conf-october-2018",
+   "bank": "temples",
+   "display_text": "Pin a country or territory where a new temple was announced at the October 2018 general conference.",
+   "text_original": "Pin a country or territory where a new temple was announced at the October 2018 general conference.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2018",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://newsroom.churchofjesuschrist.org/article/temples-announced-october-2018-general-conference"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of the October 2018 general conference, President Russell M. Nelson announced 12 new temples in 11 countries or territories. The list included first temples for Cambodia, Cape Verde, Guam and Puerto Rico.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV",
+    "GUM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Feather River California; Red Cliffs Utah."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Salvador Brazil."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Puebla Mexico."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Davao Philippines."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mendoza Argentina."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Auckland New Zealand."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Phnom Penh Cambodia."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lagos Nigeria."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Juan Puerto Rico."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo Guam."
+    }
+   ]
+  },
+  {
+   "id": "temples-one-plus-coming-elsewhere",
+   "bank": "temples",
+   "display_text": "Pin a country or territory outside the Americas with one dedicated temple and more announced or being built (as of October 2026).",
+   "text_original": "Pin a country or territory outside the Americas with one dedicated temple and another announced or under construction (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "These countries each have one dedicated temple and at least one more temple announced or under construction as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COD",
+    "PRT",
+    "PYF",
+    "TWN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barcelona Spain Temple under construction or announced; Madrid Spain Temple dedicated (19 March 1999)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kumasi Ghana Temple under construction or announced; Cape Coast Ghana Temple under construction or announced; Accra Ghana Temple dedicated (11 January 2004)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Milan Italy Temple under construction or announced; Rome Italy Temple dedicated (10 March 2019)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Busan Korea Temple under construction or announced; Seoul Korea Temple dedicated (14 December 1985)."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lagos Nigeria Temple under construction or announced; Benin City Nigeria Temple under construction or announced; Eket Nigeria Temple under construction or announced; and 4 more."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Neiafu Tonga Temple under construction or announced; Nuku'alofa Tonga Temple dedicated (9 August 1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Savai'i Samoa Temple under construction or announced; Apia Samoa Temple dedicated (5 August 1983)."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Lubumbashi Democratic Republic of the Congo Temple under construction or announced; Kananga Democratic Republic of the Congo Temple under construction or announced; Mbuji-Mayi Democratic Republic of the Congo Temple under construction or announced; and 1 more."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Porto Portugal Temple under construction or announced; Lisbon Portugal Temple dedicated (15 September 2019)."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Uturoa French Polynesia Temple under construction or announced; Papeete Tahiti Temple dedicated (27 October 1983)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Kaohsiung Taiwan Temple under construction or announced; Taipei Taiwan Temple dedicated (17 November 1984)."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-young-missions-europe",
+   "bank": "people",
+   "display_text": "Pin a European country where a current General Authority Seventy served as a young full-time missionary.",
+   "text_original": "Many General Authority Seventies serving as of October 2026 were once young full-time missionaries. Pin a European country where one of them served that mission, as named in the Church's official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1970s-2000s",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-t-phillips?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hans-t-boom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/karl-d-hirst?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/matthew-s-holland?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/brian-j-holmes?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carl-b-cook?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/vern-p-stanfill?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/massimo-de-feo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/matthew-l-carpenter?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/robert-m-daines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alexander-dushku?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-j-hathaway?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-w-pearson?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-w-mcconkie-iii?lang=eng",
+    "https://www.churchofjesuschrist.org/study/ensign/2017/05/news-of-the-church/elder-brian-k-taylor?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Before their calls as General Authorities, many Seventies served as young missionaries abroad. As of October 2026, their biographies name European missions in England, Scotland, Germany, France, Italy, Switzerland, Portugal, Russia, Finland and the Czech Republic.",
+   "stamp": null,
+   "gems": [
+    "CZE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "England Manchester, London East and London South; Scotland Edinburgh missions (Elders Phillips, Boom, Hirst, Holland)."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Germany Munich (Elder Holmes) and Germany Hamburg (Elder Cook) missions."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "France Toulouse Mission (Elder Stanfill)."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Switzerland Geneva (Elder Carpenter) and Zurich (Elder Daines) missions."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Brian K. Taylor served in the Spain Seville Mission."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Italy Rome Mission, 1981 to 1983 (Elder De Feo)."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Portugal Lisbon Mission (Elders Dushku and Teixeira)."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Finland Helsinki Mission (Elder Pearson)."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Russia St. Petersburg Mission (Elder Hathaway)."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Czech Prague Mission (Elder McConkie)."
+    }
+   ]
+  },
+  {
+   "id": "ot-psalm-83-confederacy",
+   "bank": "ot",
+   "display_text": "Pin a country holding the homeland of a people in the Psalm 83 confederacy against Israel",
+   "text_original": "A present-day country holding the homeland of a people in the confederacy against Israel in Psalm 83:6-11 (Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines, Tyre, Assur), or a people or place the psalm recalls from earlier victories (Midian, the brook Kison, En-dor)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Psalm 83",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Philistine Gaza is in Palestine; Philistine Ashdod, Ashkelon, Ekron and Gath are in Israel, so both count.",
+   "summary": "Psalm 83, a psalm of Asaph, describes nations that took crafty counsel to cut Israel off: Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines and Tyre, helped by Assur. The psalmist asks the Lord to deal with them as with Midian and with Sisera and Jabin at the brook Kison (Ps 83).",
+   "stamp": null,
+   "gems": [
+    "EGY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Edom, Moab and Ammon are in the confederacy (Ps 83:6-7)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Assur also is joined with them (Ps 83:8)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The psalm recalls Sisera and Jabin at the brook of Kison, who perished at En-dor (Ps 83:9-10)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The inhabitants of Tyre join the confederacy (Ps 83:7)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Philistines are in the confederacy; their city Gaza is in the Gaza Strip (Ps 83:7)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The psalm recalls the Midianites (Ps 83:9); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Amalek is in the confederacy (Ps 83:7); Church Bible Map 2 places Israel's first battle with Amalek at Rephidim in the Sinai (Ex 17:8-16)."
+    }
+   ]
+  },
+  {
+   "id": "ot-genesis-14-war-of-kings",
+   "bank": "ot",
+   "display_text": "Pin a country holding a kingdom or battle site in the war of the kings, Genesis 14",
+   "text_original": "A present-day country holding a kingdom or battle site in the war of the kings in Genesis 14: the eastern kings of Shinar and Elam, the peoples they smote from Ashteroth Karnaim to mount Seir and El-paran, the vale of Siddim by the salt sea, and Abram's pursuit to Dan and Hobah near Damascus",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 14",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/seir?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "The salt sea (Dead Sea) is shared by Israel, Jordan and the West Bank, so all three count for the vale of Siddim.",
+   "summary": "Four eastern kings led by Chedorlaomer of Elam crushed a revolt by five cities of the plain, swept through Bashan, Moab, Seir and Kadesh, and carried Lot away from Sodom. Abram armed 318 servants, pursued them to Dan and beyond Damascus, rescued Lot, and paid tithes to Melchizedek king of Salem (Gen 14).",
+   "stamp": null,
+   "gems": [
+    "EGY",
+    "PSE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Amraphel was king of Shinar, the land of Babylon (Gen 14:1)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The kings smote the Amorites at Hazezon-tamar, which is Engedi, and Abram pursued them unto Dan (Gen 14:7, 14; 2 Chr 20:2)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Chedorlaomer, who led the war, was king of Elam (Gen 14:1, 4-5)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "They smote the Zuzims in Ham and the Horites in their mount Seir (Gen 14:5-6)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "They smote the Rephaims in Ashteroth Karnaim, and Abram chased them to Hobah, on the left hand of Damascus (Gen 14:5, 15)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Horites were smitten in mount Seir unto El-paran, the wilderness of Paran in the central Sinai peninsula (Gen 14:6; Bible Dictionary, Paran)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The battle was in the vale of Siddim, which is the salt sea (Gen 14:3); the Dead Sea's northwest shore is in the West Bank."
+    }
+   ]
+  }
+ ]
+}

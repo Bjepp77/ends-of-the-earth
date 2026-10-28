@@ -1,0 +1,390 @@
+{
+ "day": 39,
+ "prompts": [
+  {
+   "id": "temples-rededicated-2000-09",
+   "bank": "temples",
+   "display_text": "Pin a country or territory where a temple was rededicated after renovation or rebuilding from 2000 through 2009.",
+   "text_original": "Pin a country or territory where a temple was rededicated after renovation or rebuilding from 2000 through 2009.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2000-2009",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Many temples of the late 1970s and early 1980s were renovated in the 2000s. Rededications included Freiberg (2002), Sao Paulo (2004), Apia (2005), Santiago and Papeete (2006), Nukualofa (2007) and Mexico City (2008). Apia had been rebuilt after a 2003 fire.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PYF",
+    "TON",
+    "WSM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Anchorage Alaska, 2004; Monticello Utah, 2002."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil, 2004."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico City Mexico, 2008."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago Chile, 2006."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg Germany, 2002."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Papeete Tahiti, 2006."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Nuku'alofa Tonga, 2007."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Apia Samoa, 2005."
+    }
+   ]
+  },
+  {
+   "id": "global-western-europe-first-general-authorities",
+   "bank": "global",
+   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) whose first General Authority was called 1975 to 2016",
+   "text_original": "From the 1970s onward, European converts were called as General Authorities. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) whose first General Authority from that country was called between 1975 and 2016.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "1975-2016",
+   "citation": "Global Histories chronologies (continental Western Europe); Ensign, May 1985",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/ensign/1985/05/the-sustaining-of-church-officers?lang=eng",
+    "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-sustaining-of-church-officers?lang=eng",
+    "https://www.thechurchnews.com/2010/10/21/23227698/elder-hans-b-ringger-dies-at-age-84/"
+   ],
+   "difficulty": 3,
+   "note": "Only the nine countries named count. The Spain and Austria chronologies name no General Authority from those countries.",
+   "summary": "Belgium's Charles A. Didier and the Netherlands' Jacob de Jager were among the first Europeans called to the new First Quorum of the Seventy in 1975 and 1976. Germany followed in 1977 and Switzerland in 1985. France and Portugal had their first General Authorities in 2008, and Italy in 2016.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BEL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "F. Enzio Busche, the first German citizen to be a General Authority, was called October 1, 1977."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Gerald Causse became the first General Authority from France, April 5, 2008."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Massimo De Feo was sustained as the first Italian General Authority, April 3, 2016."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hans B. Ringger, the first Swiss General Authority, was sustained to the First Quorum of the Seventy, April 6, 1985."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jacob de Jager, the first Dutch General Authority, joined the First Quorum of the Seventy, April 4, 1976."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jose A. Teixeira became the first Portuguese General Authority Seventy, April 5, 2008."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Charles A. Didier was called as a General Authority Seventy, October 3, 1975."
+    }
+   ]
+  },
+  {
+   "id": "global-hinckley-world-trip-2005",
+   "bank": "global",
+   "display_text": "Pin a country or territory outside the US where President Hinckley met Saints on his 2005 round-the-world trip",
+   "text_original": "In July and August 2005, at age 95, President Gordon B. Hinckley flew around the world, stopping to meet Saints in seven cities. A country or territory outside the United States where he stopped to meet members or dedicate a building on that trip.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "2005",
+   "citation": "Liahona, Dec. 2005, President Hinckley Travels the World",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/liahona/2005/12/news-of-the-church/president-hinckley-travels-the-world?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Hong Kong is the answer for the Hong Kong stop; mainland China was not visited.",
+   "summary": "In mid-2005 President Gordon B. Hinckley, then 95, circled the globe. He greeted Saints at Vladivostok, spoke in Seoul, dedicated office buildings in Taipei and Hong Kong, dedicated the Aba Nigeria Temple, and met small groups of members in Delhi and Nairobi.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IND",
+    "KEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He spoke at a regional conference in Seoul marking 50 years of the Church in Korea."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He dedicated the Aba Nigeria Temple."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He greeted about 200 members at the Vladivostok airport during a refueling stop."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "He met members in Hong Kong and dedicated a Church office building."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "He met members in Taipei and dedicated a Church office building."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He met a small group of members in Delhi during a brief stop."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He met a small group of members in Nairobi during a brief stop."
+    }
+   ]
+  },
+  {
+   "id": "global-latam-missionaries-withdrawn-1943-89",
+   "bank": "global",
+   "display_text": "Pin a Latin American mainland country where foreign missionaries were withdrawn because of war or unrest, 1943 to 1989",
+   "text_original": "War, revolution and political unrest sometimes forced the Church to pull foreign missionaries out, leaving local members to carry the work. A Latin American mainland country (Mexico, Central America or Spanish- and Portuguese-speaking South America) from which missionaries from abroad were withdrawn or evacuated between 1943 and 1989.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1943-1989",
+   "citation": "Global Histories chronologies (Latin American mainland)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Later withdrawals (Venezuela 2005 and 2013, Nicaragua again in 2018) and Mexico's 1912 to 1917 withdrawal fall outside the dates.",
+   "summary": "Several times the Church pulled foreign missionaries out of Latin American countries for their safety: Brazil during World War II, Costa Rica during its 1948 revolution, Nicaragua in 1978, El Salvador as civil war began in 1979, Panama in 1988 and Bolivia after two missionaries were killed in 1989. In each case local members and missionaries kept the Church going.",
+   "stamp": null,
+   "gems": [
+    "BOL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "All North American missionaries were evacuated in November 1943 as Brazil entered World War II."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries from outside Nicaragua were evacuated in September 1978 amid political instability."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "North American missionaries were moved to other Central American nations in November 1979 as civil war began."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Missionaries were moved to Guatemala in February 1948 because of a revolution."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "All foreign missionaries were evacuated in February 1988 because of rising political unrest."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "After rebels killed missionaries Jeffrey Ball and Todd Wilson in La Paz in May 1989, North American missionaries were temporarily removed."
+    }
+   ]
+  },
+  {
+   "id": "ot-jordan-river-lands",
+   "bank": "ot",
+   "display_text": "Pin a country holding part of the Jordan River, the sea of Chinnereth, or the Hermon springs that feed it",
+   "text_original": "A present-day country holding part of the Jordan River, the river Israel crossed under Joshua and Naaman washed in, including its sea of Chinnereth (Galilee) and the springs of Mount Hermon that feed it",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Joshua 3; 2 Kings 5; Bible Dictionary Jordan",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/jordan-river?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hermon?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Mount Hermon sits on the Lebanon-Syria border, and its springs feed the Jordan, so both count, as in the Song of Solomon prompt.",
+   "summary": "The Jordan River gathers springs on the slopes of Mount Hermon, flows through the sea of Chinnereth (Galilee), and winds down to the salt sea. Israel crossed it on dry ground at Jericho under Joshua, Elijah and Elisha parted it, and Naaman the Syrian was healed by dipping in it seven times (Josh 3; 2 Kgs 2, 5).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Jordan runs through the sea of Chinnereth, the Sea of Galilee, which lies in Israel (Deut 3:17; Bible Dictionary, Jordan River)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The river forms Jordan's western border; Israel camped on its east bank before crossing (Josh 3:1)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The lower river near Jericho, where the waters stood up as an heap for Israel, borders the West Bank (Josh 3:16)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Bible Dictionary says the Jordan is formed by several springs rising in Mount Hermon, a mountain on the Syria-Lebanon border."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Those Hermon springs feed the Jordan, and Mount Hermon's western slopes lie in Lebanon (Bible Dictionary, Jordan River and Hermon)."
+    }
+   ]
+  }
+ ]
+}

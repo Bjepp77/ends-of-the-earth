@@ -1,0 +1,351 @@
+{
+ "day": 33,
+ "prompts": [
+  {
+   "id": "temples-new-1987-98",
+   "bank": "temples",
+   "display_text": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
+   "text_original": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1987-1998",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Only five countries and territories saw a new temple dedicated from 1987 through 1998: Frankfurt in 1987, Toronto in 1990, Hong Kong in 1996 and Preston, England, in 1998, plus nine in the United States. The wave of smaller temples began with Monticello, Utah, in 1998.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "HKG"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Bountiful Utah, 1995; Las Vegas Nevada, 1989; Monticello Utah, 1998; and 6 more."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Toronto Ontario, 1990."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Frankfurt Germany, 1987."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Preston England, 1998."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Hong Kong China, 1996."
+    }
+   ]
+  },
+  {
+   "id": "temples-first-announced-2022-25",
+   "bank": "temples",
+   "display_text": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
+   "text_original": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2022-2025",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "From 2022 to 2025 first temples were announced for the Republic of the Congo, Indonesia, Mongolia, Angola, Ireland, Uganda and New Caledonia. Brazzaville is under construction; the others were announced but not yet under construction as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO",
+    "COG",
+    "NCL",
+    "UGA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jakarta Indonesia, announced 2023."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dublin Ireland, announced 2024."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ulaanbaatar Mongolia, announced 2023."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Luanda Angola, announced 2023."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Brazzaville Republic of the Congo, announced 2022."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nouméa New Caledonia, announced 2025."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kampala Uganda, announced 2024."
+    }
+   ]
+  },
+  {
+   "id": "global-nelson-balkans-2010",
+   "bank": "global",
+   "display_text": "Pin a country Russell M. Nelson dedicated for the preaching of the gospel in September 2010",
+   "text_original": "In September 2010 Elder Russell M. Nelson of the Quorum of the Twelve traveled through the former Yugoslavia and dedicated six lands for the preaching of the gospel. A country he dedicated on that trip.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "2010",
+   "citation": "Newsroom, President Nelson timeline",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/multimedia/file/President-Nelson-Timeline.pdf",
+    "https://thechurchnews.com/archives/2010-09-23/elder-nelson-pronounces-blessings-on-six-balkan-nations-62114"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In one September 2010 journey Russell M. Nelson, then an Apostle, offered dedicatory prayers in six lands of the former Yugoslavia: Croatia, Slovenia, Bosnia and Herzegovina, Montenegro, Kosovo and Macedonia. It was one of many such prayers he offered across Eastern Europe and Central Asia.",
+   "stamp": null,
+   "gems": [
+    "MKD",
+    "XKX"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Dedicated for preaching in September 2010."
+    },
+    {
+     "code": "SVN",
+     "name": "Slovenia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Dedicated for preaching in September 2010."
+    },
+    {
+     "code": "BIH",
+     "name": "Bosnia and Herzegovina",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dedicated for preaching in September 2010."
+    },
+    {
+     "code": "MNE",
+     "name": "Montenegro",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dedicated for preaching in September 2010."
+    },
+    {
+     "code": "MKD",
+     "name": "North Macedonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Dedicated for preaching in September 2010, then called Macedonia."
+    },
+    {
+     "code": "XKX",
+     "name": "Kosovo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Dedicated for preaching in September 2010."
+    }
+   ]
+  },
+  {
+   "id": "global-northern-europe-dedications-1977-98",
+   "bank": "global",
+   "display_text": "Pin a Northern European country dedicated or rededicated for preaching the gospel between 1977 and 1998",
+   "text_original": "Long after the first Scandinavian missions, Church leaders offered new dedicatory prayers across Northern Europe. A country in Northern Europe (the Nordic and Baltic countries, the United Kingdom and Ireland) that a Church leader dedicated or rededicated for the preaching of the gospel between 1977 and 1998.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1977-1998",
+   "citation": "Global Histories chronologies (Northern Europe)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Only Ireland counts. The 1985 dedication of the whole island was given in Northern Ireland; the United Kingdom had none.",
+   "summary": "Between 1977 and 1998 Church leaders dedicated or rededicated six Northern European lands. Joseph B. Wirthlin dedicated Iceland in 1977 and Neal A. Maxwell dedicated Ireland in 1985. As the Soviet Union opened, Apostles dedicated Estonia in 1990 and Latvia and Lithuania in 1993, and Thomas S. Monson rededicated Denmark in 1998.",
+   "stamp": null,
+   "gems": [
+    "LTU",
+    "LVA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Thomas S. Monson of the First Presidency rededicated Denmark in 1998."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Neal A. Maxwell dedicated Ireland near the site of the first Irish baptism, October 23, 1985."
+    },
+    {
+     "code": "EST",
+     "name": "Estonia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Russell M. Nelson dedicated Estonia above the Tallinn song festival grounds, April 25, 1990."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Joseph B. Wirthlin, then a Seventy, dedicated Iceland from Oskjuhlid in Reykjavik, September 18, 1977."
+    },
+    {
+     "code": "LTU",
+     "name": "Lithuania",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder M. Russell Ballard dedicated Lithuania in Vilnius, February 20, 1993."
+    },
+    {
+     "code": "LVA",
+     "name": "Latvia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder James E. Faust dedicated Latvia at Jurmala, March 17, 1993."
+    }
+   ]
+  },
+  {
+   "id": "global-northern-europe-first-stakes-1960-77",
+   "bank": "global",
+   "display_text": "Pin a Northern European country whose first stake was organized between 1960 and 1977",
+   "text_original": "Stakes came to Europe in 1960 and spread north over the next two decades. A country in Northern Europe (the Nordic and Baltic countries, the United Kingdom and Ireland) whose first stake was organized between 1960 and 1977.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1960-1977",
+   "citation": "Global Histories chronologies (Northern Europe)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Ireland's first stake came in 1995. Belfast's 1974 stake is in the United Kingdom, which already had stakes.",
+   "summary": "Europe's first stake was organized in Manchester, England, in 1960. Scandinavia followed in the 1970s: Copenhagen in 1974, Stockholm in 1975, and Oslo and Helsinki in 1977. Ireland waited until 1995, and Iceland and the Baltic states still have districts rather than stakes as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Manchester England Stake, the first stake in Europe, was organized March 27, 1960."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Copenhagen Denmark Stake, the first in Scandinavia, was organized June 16, 1974."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Stockholm Sweden Stake was organized April 20, 1975."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Oslo Norway Stake, Norway's first, was created May 22, 1977."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Helsinki Finland Stake, Finland's first, was organized October 16, 1977."
+    }
+   ]
+  }
+ ]
+}

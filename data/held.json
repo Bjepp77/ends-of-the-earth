@@ -1,5 +1,5 @@
 {
- "count": 31,
+ "count": 35,
  "held": [
   {
    "id": "bible-euphrates",
@@ -1067,6 +1067,84 @@
    "prompt": null
   },
   {
+   "id": "bom-wentworth-letter-1842",
+   "bank": "bom",
+   "reason": "surplus: USA-common cap (at most 1 per deck)",
+   "answers": 7,
+   "prompt": {
+    "id": "bom-wentworth-letter-1842",
+    "bank": "bom",
+    "display_text": "Pin a country holding a land the 1842 Wentworth letter says the gospel had reached (East Indies aside)",
+    "text_original": "A present-day country holding a land the 1842 Wentworth letter names as reached by the restored gospel (leave aside 'the East Indies')",
+    "accepts": "country",
+    "topic": "Articles of Faith",
+    "era": "1842",
+    "citation": "Church History, 1 March 1842 (Wentworth letter), Joseph Smith Papers, p. 709 and note 29",
+    "source_urls": [
+     "https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4"
+    ],
+    "difficulty": 2,
+    "note": "'Palestine' in the letter covers both ISR and PSE. 'East Indies' is left out because the term is too vague to map to one country.",
+    "summary": "In 1842 Joseph Smith sent Chicago editor John Wentworth a history of the Church that ends with the 13 Articles of Faith. It reports the gospel had spread across the United States and the British Isles, and that the standard of truth had been raised in Germany, Palestine, New Holland (Australia) and the East Indies.",
+    "stamp": null,
+    "gems": [
+     "AUS"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 5,
+      "gem": false,
+      "fact": "It names England, Scotland and Wales; the Twelve preached across the British Isles in 1840-41."
+     },
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "The letter says the elders had planted the gospel in almost every state in the Union."
+     },
+     {
+      "code": "DEU",
+      "name": "Germany",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Germany is named; Orson Hyde passed through Munich on his way to Jerusalem."
+     },
+     {
+      "code": "IRL",
+      "name": "Ireland",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Ireland is named in the letter; the island is shared today by Ireland and the United Kingdom."
+     },
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Palestine is named; Orson Hyde dedicated the land at Jerusalem on 24 October 1841."
+     },
+     {
+      "code": "PSE",
+      "name": "Palestine",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Palestine is named in the letter; the Mount of Olives where Hyde prayed is in East Jerusalem."
+     },
+     {
+      "code": "AUS",
+      "name": "Australia",
+      "commonness": 1,
+      "gem": true,
+      "fact": "New Holland is named; English convert William James Barratt emigrated there in July 1840."
+     }
+    ]
+   }
+  },
+  {
    "id": "congregations-500-plus",
    "bank": "draft",
    "reason": "surplus: USA-common cap (at most 1 per deck)",
@@ -1170,6 +1248,79 @@
    }
   },
   {
+   "id": "dc-saints-v1-01-tambora-lands",
+   "bank": "dc",
+   "reason": "surplus: USA-common cap (at most 1 per deck)",
+   "answers": 6,
+   "prompt": {
+    "id": "dc-saints-v1-01-tambora-lands",
+    "bank": "dc",
+    "display_text": "Pin a country that Saints vol. 1 ch. 1 names as feeling the effects of the 1815 Tambora eruption",
+    "text_original": "Saints vol. 1 chapter 1 opens with the 1815 eruption of Mount Tambora and names the lands that felt its effects. A country it names.",
+    "accepts": "country",
+    "topic": "Church history",
+    "era": "1815-1816",
+    "citation": "Saints vol. 1 ch. 1",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v1/01-ask-in-faith?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "Saints vol. 1 begins not in America but in Indonesia, where Mount Tambora erupted in 1815. Its ash changed weather worldwide: cholera in India, summer snow in China, hunger in Europe, and in Vermont the 1816 year without a summer, which helped drive the Smith family to New York.",
+    "stamp": null,
+    "gems": [
+     "CHN",
+     "FRA",
+     "IND"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Vermont's 1816 year without a summer pushed the Smith family toward New York."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Citizens in Britain feared biblical calamities had come."
+     },
+     {
+      "code": "IDN",
+      "name": "Indonesia",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Tambora is on the Indonesian island of Sumbawa; it exploded on April 10, 1815."
+     },
+     {
+      "code": "CHN",
+      "name": "China",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Summer snowstorms and flooding destroyed crops in Chinese valleys."
+     },
+     {
+      "code": "FRA",
+      "name": "France",
+      "commonness": 2,
+      "gem": true,
+      "fact": "In France, as in Britain, people knelt in fear of foretold calamities."
+     },
+     {
+      "code": "IND",
+      "name": "India",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Temperatures dropped in India and cholera killed thousands."
+     }
+    ]
+   }
+  },
+  {
    "id": "membership-500k-plus",
    "bank": "draft",
    "reason": "surplus: USA-common cap (at most 1 per deck)",
@@ -1256,343 +1407,43 @@
    }
   },
   {
-   "id": "missions-ten-plus",
-   "bank": "draft",
+   "id": "people-first-presidency-twelve-birth-countries",
+   "bank": "people",
    "reason": "surplus: USA-common cap (at most 1 per deck)",
-   "answers": 8,
-   "prompt": {
-    "id": "missions-ten-plus",
-    "bank": "draft",
-    "display_text": "",
-    "text_original": "Pin a country with ten or more of the Church's missions (end of 2025).",
-    "accepts": "country",
-    "topic": "missionary work",
-    "era": "2025",
-    "citation": "newsroom country pages, 31 Dec 2025",
-    "source_urls": [
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
-     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria"
-    ],
-    "difficulty": 2,
-    "note": "Next below the line: Guatemala, Japan, Ecuador and DR Congo with 7 each.",
-    "summary": "At the end of 2025 the United States had 120 of the Church's missions. Brazil (37), Mexico (34) and the Philippines (26) came next, and Peru, Argentina, Chile and Nigeria had 11 or more each. Nigeria and the Philippines were the only countries outside the Americas with ten or more.",
-    "stamp": null,
-    "gems": [
-     "NGA"
-    ],
-    "gem_forced": false,
-    "answers": [
-     {
-      "code": "USA",
-      "name": "United States",
-      "commonness": 5,
-      "gem": false,
-      "fact": "120 missions."
-     },
-     {
-      "code": "BRA",
-      "name": "Brazil",
-      "commonness": 4,
-      "gem": false,
-      "fact": "37 missions."
-     },
-     {
-      "code": "MEX",
-      "name": "Mexico",
-      "commonness": 4,
-      "gem": false,
-      "fact": "34 missions."
-     },
-     {
-      "code": "PHL",
-      "name": "Philippines",
-      "commonness": 3,
-      "gem": false,
-      "fact": "26 missions."
-     },
-     {
-      "code": "ARG",
-      "name": "Argentina",
-      "commonness": 2,
-      "gem": false,
-      "fact": "14 missions."
-     },
-     {
-      "code": "CHL",
-      "name": "Chile",
-      "commonness": 2,
-      "gem": false,
-      "fact": "11 missions."
-     },
-     {
-      "code": "PER",
-      "name": "Peru",
-      "commonness": 2,
-      "gem": false,
-      "fact": "15 missions."
-     },
-     {
-      "code": "NGA",
-      "name": "Nigeria",
-      "commonness": 1,
-      "gem": true,
-      "fact": "11 missions."
-     }
-    ]
-   }
-  },
-  {
-   "id": "saints-v4-35-family-services",
-   "bank": "draft",
-   "reason": "surplus: USA-common cap (at most 1 per deck)",
-   "answers": 6,
-   "prompt": {
-    "id": "saints-v4-35-family-services",
-    "bank": "draft",
-    "display_text": "",
-    "text_original": "Saints vol. 4 ch. 35: LDS Family Services ran agencies in only these countries in the 2000s. Pin one.",
-    "accepts": "country",
-    "topic": "welfare",
-    "era": "2000s",
-    "citation": "Saints vol. 4 ch. 35",
-    "source_urls": [
-     "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/35-hand-in-hand?lang=eng"
-    ],
-    "difficulty": 3,
-    "note": null,
-    "summary": "In the 2000s LDS Family Services ran agencies in only six countries: the United States, Canada, Australia, New Zealand, Great Britain and Japan. Japan was the only Asian country on the list.",
-    "stamp": null,
-    "gems": [
-     "JPN"
-    ],
-    "gem_forced": false,
-    "answers": [
-     {
-      "code": "USA",
-      "name": "United States",
-      "commonness": 5,
-      "gem": false,
-      "fact": "Home base of the agency."
-     },
-     {
-      "code": "CAN",
-      "name": "Canada",
-      "commonness": 3,
-      "gem": false,
-      "fact": "One of six countries with agencies."
-     },
-     {
-      "code": "AUS",
-      "name": "Australia",
-      "commonness": 2,
-      "gem": false,
-      "fact": "One of six countries with agencies."
-     },
-     {
-      "code": "GBR",
-      "name": "United Kingdom",
-      "commonness": 2,
-      "gem": false,
-      "fact": "Listed as Great Britain."
-     },
-     {
-      "code": "NZL",
-      "name": "New Zealand",
-      "commonness": 2,
-      "gem": false,
-      "fact": "One of six countries with agencies."
-     },
-     {
-      "code": "JPN",
-      "name": "Japan",
-      "commonness": 1,
-      "gem": true,
-      "fact": "The only Asian country with an agency."
-     }
-    ]
-   }
-  },
-  {
-   "id": "history-dedicator-christofferson",
-   "bank": "history2",
-   "reason": "surplus: temple cap (at most 2 per deck)",
    "answers": 5,
    "prompt": {
-    "id": "history-dedicator-christofferson",
-    "bank": "history2",
-    "display_text": "",
-    "text_original": "A country where D. Todd Christofferson dedicated or rededicated a temple now in use (as of October 2026).",
-    "accepts": "country_or_territory",
-    "topic": "temples",
-    "era": "1955-2026",
-    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
-    "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
-     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
-    ],
-    "difficulty": 3,
-    "note": null,
-    "summary": "D. Todd Christofferson rededicated Asunción Paraguay in 2019 and dedicated San Juan Puerto Rico in 2023, the island's first temple. In 2024 he dedicated Orem Utah, Lima Peru Los Olivos and Salta Argentina, and in 2026 he dedicated Yorba Linda California and rededicated San Diego California.",
-    "stamp": "as of 26 Oct 2026",
-    "gems": [
-     "PRY"
-    ],
-    "gem_forced": false,
-    "answers": [
-     {
-      "code": "USA",
-      "name": "United States",
-      "commonness": 5,
-      "gem": false,
-      "fact": "San Diego California (rededicated 2026); Orem Utah (2024); Yorba Linda California (2026)."
-     },
-     {
-      "code": "ARG",
-      "name": "Argentina",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Salta Argentina (2024)."
-     },
-     {
-      "code": "PER",
-      "name": "Peru",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Lima Peru Los Olivos (2024)."
-     },
-     {
-      "code": "PRI",
-      "name": "Puerto Rico",
-      "commonness": 2,
-      "gem": false,
-      "fact": "San Juan Puerto Rico (2023)."
-     },
-     {
-      "code": "PRY",
-      "name": "Paraguay",
-      "commonness": 1,
-      "gem": true,
-      "fact": "Asunción Paraguay (rededicated 2019)."
-     }
-    ]
-   }
-  },
-  {
-   "id": "history-dedicator-mckay-kimball-faust",
-   "bank": "history2",
-   "reason": "surplus: temple cap (at most 2 per deck)",
-   "answers": 8,
-   "prompt": {
-    "id": "history-dedicator-mckay-kimball-faust",
-    "bank": "history2",
-    "display_text": "",
-    "text_original": "A country where David O. McKay, Spencer W. Kimball, or James E. Faust dedicated or rededicated a temple now in use (as of October 2026).",
+    "id": "people-first-presidency-twelve-birth-countries",
+    "bank": "people",
+    "display_text": "Pin a country where a member of the First Presidency or the Twelve (as of October 2026) was born.",
+    "text_original": "Pin a country where a member of the First Presidency or the Quorum of the Twelve Apostles serving as of October 2026 was born.",
     "accepts": "country",
-    "topic": "temples",
-    "era": "1955-2000",
-    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "topic": "apostles",
+    "era": "2026",
+    "citation": "Church leader biographies, read 27 Oct 2026",
     "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
-     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
-    ],
-    "difficulty": 3,
-    "note": null,
-    "summary": "David O. McKay dedicated Bern Switzerland (1955), London England and Hamilton New Zealand (1958), and Los Angeles and Oakland in the United States. Spencer W. Kimball dedicated Washington D.C. (1974), São Paulo Brazil (1978) and Tokyo Japan (1980). James E. Faust dedicated several temples in 2000, including in Mexico, Costa Rica and the United States.",
-    "stamp": "as of 26 Oct 2026",
-    "gems": [
-     "CRI"
-    ],
-    "gem_forced": false,
-    "answers": [
-     {
-      "code": "USA",
-      "name": "United States",
-      "commonness": 5,
-      "gem": false,
-      "fact": "McKay: Los Angeles (1956), Oakland (1964). Kimball: Washington D.C. (1974), Seattle (1980), rededications of St. George, Mesa, Laie and Logan. Faust: Medford, Memphis, Nashville, Oklahoma City (2000), Boise rededication (1987)."
-     },
-     {
-      "code": "BRA",
-      "name": "Brazil",
-      "commonness": 4,
-      "gem": false,
-      "fact": "Kimball: São Paulo Brazil (1978)."
-     },
-     {
-      "code": "MEX",
-      "name": "Mexico",
-      "commonness": 4,
-      "gem": false,
-      "fact": "Faust: Oaxaca Mexico and Tuxtla Gutiérrez Mexico (2000)."
-     },
-     {
-      "code": "GBR",
-      "name": "United Kingdom",
-      "commonness": 3,
-      "gem": false,
-      "fact": "McKay: London England (1958)."
-     },
-     {
-      "code": "JPN",
-      "name": "Japan",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Kimball: Tokyo Japan (1980)."
-     },
-     {
-      "code": "NZL",
-      "name": "New Zealand",
-      "commonness": 3,
-      "gem": false,
-      "fact": "McKay: Hamilton New Zealand (1958)."
-     },
-     {
-      "code": "CHE",
-      "name": "Switzerland",
-      "commonness": 2,
-      "gem": false,
-      "fact": "McKay: Bern Switzerland (1955)."
-     },
-     {
-      "code": "CRI",
-      "name": "Costa Rica",
-      "commonness": 1,
-      "gem": true,
-      "fact": "Faust: San José Costa Rica (2000)."
-     }
-    ]
-   }
-  },
-  {
-   "id": "history-dedicator-nelson",
-   "bank": "history2",
-   "reason": "surplus: temple cap (at most 2 per deck)",
-   "answers": 5,
-   "prompt": {
-    "id": "history-dedicator-nelson",
-    "bank": "history2",
-    "display_text": "",
-    "text_original": "A country where Russell M. Nelson dedicated or rededicated a temple now in use (as of October 2026).",
-    "accepts": "country",
-    "topic": "temples",
-    "era": "1955-2026",
-    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
-    "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
-     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+     "https://www.churchofjesuschrist.org/learn/quorum-of-the-twelve-apostles?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/dallin-h-oaks?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/henry-b-eyring?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/david-a-bednar?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/gerrit-w-gong?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/clark-g-gilbert?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/ronald-a-rasband?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/ulisses-soares?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/patrick-kearon?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/dieter-f-uchtdorf?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/gerald-j-causse?lang=eng",
+     "https://history.churchofjesuschrist.org/chd/individual/d-todd-christofferson-1945",
+     "https://history.churchofjesuschrist.org/chd/individual/gary-e-stevenson-1955",
+     "https://history.churchofjesuschrist.org/chd/individual/quentin-l-cook-1940",
+     "https://www.churchofjesuschrist.org/learn/quorum-of-the-twelve-apostles?lang=eng",
+     "https://www.churchofjesuschrist.org/learn/first-presidency?lang=eng"
     ],
     "difficulty": 2,
-    "note": null,
-    "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
+    "note": "Elder Uchtdorf's birthplace, Ostrava, is in today's Czech Republic.",
+    "summary": "As of October 2026, President Dallin H. Oaks leads the Church, and the senior councils include leaders born outside the United States: Elder Uchtdorf in Ostrava (then Czechoslovakia), Elder Kearon in England, Elder Causse in France and Elder Soares in Brazil.",
     "stamp": "as of 26 Oct 2026",
     "gems": [
-     "TON"
+     "FRA"
     ],
     "gem_forced": true,
     "answers": [
@@ -1601,35 +1452,188 @@
       "name": "United States",
       "commonness": 5,
       "gem": false,
-      "fact": "Manti Utah (rededicated 2024); Washington D.C. (rededicated 2022); Deseret Peak Utah (2024); and others."
+      "fact": "President Oaks (Provo, Utah), President Eyring (Princeton, New Jersey), Elders Bednar, Gong, Gilbert, Rasband and others."
      },
      {
-      "code": "ITA",
-      "name": "Italy",
+      "code": "BRA",
+      "name": "Brazil",
       "commonness": 4,
       "gem": false,
-      "fact": "Rome Italy (2019)."
+      "fact": "Elder Ulisses Soares, born in Sao Paulo in 1958."
      },
      {
-      "code": "CHL",
-      "name": "Chile",
+      "code": "CZE",
+      "name": "Czech Republic",
       "commonness": 3,
       "gem": false,
-      "fact": "Concepción Chile (2018)."
+      "fact": "Elder Dieter F. Uchtdorf, born in 1940 in Ostrava, then Czechoslovakia."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Elder Patrick Kearon, born in Carlisle, England, in 1961."
+     },
+     {
+      "code": "FRA",
+      "name": "France",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Elder Gerald Causse, born in Bordeaux in 1963."
+     }
+    ]
+   }
+  },
+  {
+   "id": "pioneer-mckay-world-tour-1921",
+   "bank": "pioneer",
+   "reason": "surplus: USA-common cap (at most 1 per deck)",
+   "answers": 17,
+   "prompt": {
+    "id": "pioneer-mckay-world-tour-1921",
+    "bank": "pioneer",
+    "display_text": "Pin a country or territory in East Asia, the Pacific or the Middle East that David O. McKay visited on his 1920-21 world tour.",
+    "text_original": "In 1920 and 1921, apostle David O. McKay and Hugh J. Cannon toured the Church's missions around the world. Pin a present-day country or territory in East Asia, the Pacific or the Middle East that they visited.",
+    "accepts": "country_or_territory",
+    "topic": "church leadership",
+    "era": "1920s",
+    "citation": "Saints vol. 3 ch. 14; Saints vol. 3 ch. 15; Global Histories (Tonga, South Korea, Australia)",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/14-fountains-of-light-and-hope?lang=eng",
+     "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/15-no-greater-reward?lang=eng",
+     "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+     "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+     "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+     "https://rsc.byu.edu/pioneers-pacific/apostle-oceania-elder-david-o-mckays-1921-trip-around-pacific"
+    ],
+    "difficulty": 2,
+    "note": "Palestine is split today, so Israel and Palestine both count. The rail route from Korea to Manchuria crosses today's North Korea.",
+    "summary": "David O. McKay and Hugh J. Cannon left Salt Lake City in December 1920 to survey the Church's missions. They went from Japan, Korea and China to Hawaii, Tahiti, New Zealand, Fiji, Tonga, both Samoas and Australia, then through Asia to Egypt, Palestine, Syria and Turkey. McKay's report urged better Church schools and more visits by general authorities.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "PRK"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "CHN",
+      "name": "China",
+      "commonness": 4,
+      "gem": false,
+      "fact": "McKay dedicated the land for future missionary work there."
      },
      {
       "code": "JPN",
       "name": "Japan",
+      "commonness": 4,
+      "gem": false,
+      "fact": "First stop, home to about 130 Saints (saints-v3:14)."
+     },
+     {
+      "code": "NZL",
+      "name": "New Zealand",
+      "commonness": 4,
+      "gem": false,
+      "fact": "First apostle to visit; spoke at the Maori Saints' conference near Huntly."
+     },
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 4,
+      "gem": false,
+      "fact": "They visited the Saints and the Laie school in Hawaii."
+     },
+     {
+      "code": "AUS",
+      "name": "Australia",
       "commonness": 3,
       "gem": false,
-      "fact": "Sapporo Japan (2016)."
+      "fact": "First apostle to visit Australia, 1921."
+     },
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Part of the Palestine stop."
+     },
+     {
+      "code": "KOR",
+      "name": "South Korea",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Passed through Korea in January 1921 (Global Histories)."
      },
      {
       "code": "TON",
       "name": "Tonga",
+      "commonness": 3,
+      "gem": false,
+      "fact": "June 1921: McKay blessed the land and people in Nuku'alofa."
+     },
+     {
+      "code": "WSM",
+      "name": "Samoa",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Met the Saints in Samoa in May 1921 (saints-v3:15)."
+     },
+     {
+      "code": "ASM",
+      "name": "American Samoa",
       "commonness": 2,
+      "gem": false,
+      "fact": "Visited the Church school at Mapusaga, American Samoa (BYU RSC)."
+     },
+     {
+      "code": "EGY",
+      "name": "Egypt",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Visited on the way to Palestine."
+     },
+     {
+      "code": "FJI",
+      "name": "Fiji",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Visited after Samoa (saints-v3:15)."
+     },
+     {
+      "code": "PSE",
+      "name": "Palestine",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Part of the Palestine stop."
+     },
+     {
+      "code": "PYF",
+      "name": "French Polynesia",
+      "commonness": 2,
+      "gem": false,
+      "fact": "They traveled from Hawaii to Tahiti."
+     },
+     {
+      "code": "SYR",
+      "name": "Syria",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Visited; Armenian Saints later fled to Aleppo."
+     },
+     {
+      "code": "TUR",
+      "name": "Turkey",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Met about thirty Armenian Saints in Aintab."
+     },
+     {
+      "code": "PRK",
+      "name": "North Korea",
+      "commonness": 1,
       "gem": true,
-      "fact": "Nuku'alofa Tonga (rededicated 2007)."
+      "fact": "Went by train through Korea into Manchuria, a route that crosses today's North Korea."
      }
     ]
    }
@@ -1642,7 +1646,7 @@
    "prompt": {
     "id": "history-temples-dedicated-1984",
     "bank": "history2",
-    "display_text": "",
+    "display_text": "Pin a country where a new temple was dedicated in 1984 (not rededications).",
     "text_original": "A country where a new temple was dedicated in 1984 (not counting rededications).",
     "accepts": "country",
     "topic": "temples",
@@ -1701,93 +1705,6 @@
    }
   },
   {
-   "id": "history-temples-dedicated-2024",
-   "bank": "history2",
-   "reason": "surplus: temple cap (at most 2 per deck)",
-   "answers": 8,
-   "prompt": {
-    "id": "history-temples-dedicated-2024",
-    "bank": "history2",
-    "display_text": "",
-    "text_original": "A country where a temple was dedicated in 2024.",
-    "accepts": "country",
-    "topic": "temples",
-    "era": "2024",
-    "citation": "Church temple list (original dedication dates), 26 Oct 2026",
-    "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
-     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
-    ],
-    "difficulty": 2,
-    "note": null,
-    "summary": "In 2024 the Church dedicated new temples across the Americas and Asia. Argentina gained two, Salta and Mendoza, and others were dedicated in Puebla Mexico, Salvador Brazil, Lima Peru Los Olivos, Urdaneta Philippines, San Pedro Sula Honduras and Cobán Guatemala. The United States had eight, including Deseret Peak, Taylorsville and Orem in Utah.",
-    "stamp": "as of 26 Oct 2026",
-    "gems": [
-     "GTM",
-     "HND"
-    ],
-    "gem_forced": true,
-    "answers": [
-     {
-      "code": "USA",
-      "name": "United States",
-      "commonness": 5,
-      "gem": false,
-      "fact": "Deseret Peak Utah, Taylorsville Utah, Orem Utah and 5 more dedicated in 2024."
-     },
-     {
-      "code": "BRA",
-      "name": "Brazil",
-      "commonness": 4,
-      "gem": false,
-      "fact": "Salvador Brazil dedicated in 2024."
-     },
-     {
-      "code": "MEX",
-      "name": "Mexico",
-      "commonness": 4,
-      "gem": false,
-      "fact": "Puebla Mexico dedicated in 2024."
-     },
-     {
-      "code": "ARG",
-      "name": "Argentina",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Salta Argentina, Mendoza Argentina dedicated in 2024."
-     },
-     {
-      "code": "PER",
-      "name": "Peru",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Lima Peru Los Olivos dedicated in 2024."
-     },
-     {
-      "code": "PHL",
-      "name": "Philippines",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Urdaneta Philippines dedicated in 2024."
-     },
-     {
-      "code": "GTM",
-      "name": "Guatemala",
-      "commonness": 2,
-      "gem": true,
-      "fact": "Cobán Guatemala dedicated in 2024."
-     },
-     {
-      "code": "HND",
-      "name": "Honduras",
-      "commonness": 2,
-      "gem": true,
-      "fact": "San Pedro Sula Honduras dedicated in 2024."
-     }
-    ]
-   }
-  },
-  {
    "id": "history-temples-rededicated-2019-22",
    "bank": "history2",
    "reason": "surplus: temple cap (at most 2 per deck)",
@@ -1795,7 +1712,7 @@
    "prompt": {
     "id": "history-temples-rededicated-2019-22",
     "bank": "history2",
-    "display_text": "",
+    "display_text": "Pin a country or territory where a temple was rededicated after renovation, 2019 to 2022.",
     "text_original": "A country or territory where a temple was rededicated after renovation from 2019 through 2022.",
     "accepts": "country_or_territory",
     "topic": "temples",
@@ -1860,68 +1777,601 @@
    }
   },
   {
-   "id": "temples-first-before-1960",
-   "bank": "draft",
+   "id": "temples-conf-april-2020",
+   "bank": "temples",
    "reason": "surplus: temple cap (at most 2 per deck)",
-   "answers": 5,
+   "answers": 6,
    "prompt": {
-    "id": "temples-first-before-1960",
-    "bank": "draft",
-    "display_text": "",
-    "text_original": "Pin a country whose first temple of the Church was dedicated before 1960.",
+    "id": "temples-conf-april-2020",
+    "bank": "temples",
+    "display_text": "Pin a country where a new temple was announced at the April 2020 general conference.",
+    "text_original": "Pin a country where a new temple was announced at the April 2020 general conference.",
     "accepts": "country",
     "topic": "temples",
-    "era": "1877-1959",
-    "citation": "temple list, 26 Oct 2026",
+    "era": "2020",
+    "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
     "source_urls": [
-     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-     "https://churchofjesuschristtemples.org/temples/chronology/"
+     "https://churchofjesuschristtemples.org/statistics/milestones/",
+     "https://www.thechurchnews.com/temples/2020-04-05/general-conference-april-2020-new-temples-announced-president-nelson-180501/"
     ],
-    "difficulty": 1,
+    "difficulty": 3,
     "note": null,
-    "summary": "For most of its history the Church's temples stood in the United States, with St. George, Utah (1877) the oldest still on the list. Before 1960 only four other countries had one: Canada (Cardston, 1923), Switzerland (near Bern, 1955, the first in Europe), and New Zealand and the United Kingdom (both 1958).",
+    "summary": "At the end of the April 2020 general conference, President Russell M. Nelson announced 8 new temples in 6 countries or territories. The list named Shanghai and Dubai, the first temple plans for China and the United Arab Emirates.",
     "stamp": "as of 26 Oct 2026",
     "gems": [
-     "CHE",
-     "GBR",
-     "NZL"
+     "ARE",
+     "COD",
+     "NGA"
     ],
     "gem_forced": true,
     "answers": [
      {
       "code": "USA",
-      "name": "United States",
+      "name": "United States of America",
       "commonness": 5,
       "gem": false,
-      "fact": "St. George, 1877."
+      "fact": "Pittsburgh Pennsylvania; Syracuse Utah; Tallahassee Florida."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Bahía Blanca Argentina."
+     },
+     {
+      "code": "CHN",
+      "name": "People's Republic of China",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Shanghai."
+     },
+     {
+      "code": "ARE",
+      "name": "United Arab Emirates",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Dubai United Arab Emirates."
+     },
+     {
+      "code": "COD",
+      "name": "Democratic Republic of the Congo",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Lubumbashi Democratic Republic of the Congo."
+     },
+     {
+      "code": "NGA",
+      "name": "Nigeria",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Benin City Nigeria."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-conf-april-2024",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 9,
+   "prompt": {
+    "id": "temples-conf-april-2024",
+    "bank": "temples",
+    "display_text": "Pin a country or territory where a new temple was announced at the April 2024 general conference.",
+    "text_original": "Pin a country or territory where a new temple was announced at the April 2024 general conference.",
+    "accepts": "country_or_territory",
+    "topic": "temples",
+    "era": "2024",
+    "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/milestones/",
+     "https://newsroom.churchofjesuschrist.org/article/april-2024-general-conference-new-temples"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "At the end of the April 2024 general conference, President Russell M. Nelson announced 15 new temples in 9 countries or territories. It included Edinburgh, the first for Scotland, Uturoa in French Polynesia and Maracaibo, a second for Venezuela.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "PYF",
+     "VEN"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States of America",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Cincinnati Ohio; Des Moines Iowa; Fort Bend Texas; and 4 more."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Florianópolis Brazil."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Chihuahua Mexico."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Rosario Argentina."
+     },
+     {
+      "code": "AUS",
+      "name": "Australia",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Brisbane Australia South."
      },
      {
       "code": "CAN",
       "name": "Canada",
-      "commonness": 4,
-      "gem": false,
-      "fact": "Cardston, Alberta, 1923."
-     },
-     {
-      "code": "CHE",
-      "name": "Switzerland",
       "commonness": 3,
-      "gem": true,
-      "fact": "Near Bern, 1955, the first in Europe."
+      "gem": false,
+      "fact": "Victoria British Columbia."
      },
      {
       "code": "GBR",
       "name": "United Kingdom",
       "commonness": 3,
+      "gem": false,
+      "fact": "Edinburgh Scotland."
+     },
+     {
+      "code": "PYF",
+      "name": "French Polynesia",
+      "commonness": 2,
       "gem": true,
-      "fact": "London, near Lingfield, 1958."
+      "fact": "Uturoa French Polynesia."
+     },
+     {
+      "code": "VEN",
+      "name": "Venezuela",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Maracaibo Venezuela."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-conf-april-2025",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 10,
+   "prompt": {
+    "id": "temples-conf-april-2025",
+    "bank": "temples",
+    "display_text": "Pin a country or territory where a new temple was announced at the April 2025 general conference.",
+    "text_original": "Pin a country or territory where a new temple was announced at the April 2025 general conference.",
+    "accepts": "country_or_territory",
+    "topic": "temples",
+    "era": "2025",
+    "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/milestones/",
+     "https://newsroom.churchofjesuschrist.org/article/april-2025-general-conference-new-temples"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "At the end of the April 2025 general conference, President Russell M. Nelson announced 15 new temples in 10 countries or territories. It was his last general conference; Noumea was the first temple announced for New Caledonia.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "NCL"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States of America",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Caldwell Idaho; Flagstaff Arizona; Greenville South Carolina; and 3 more."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Campo Grande Brazil."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Reynosa Mexico."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 4,
+      "gem": false,
+      "fact": "San Jose del Monte Philippines."
+     },
+     {
+      "code": "AUS",
+      "name": "Australia",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Liverpool Australia."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Chorrillos Peru."
+     },
+     {
+      "code": "NGA",
+      "name": "Nigeria",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Uyo Nigeria."
+     },
+     {
+      "code": "PRT",
+      "name": "Portugal",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Porto Portugal."
+     },
+     {
+      "code": "URY",
+      "name": "Uruguay",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Rivera Uruguay."
+     },
+     {
+      "code": "NCL",
+      "name": "New Caledonia",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Nouméa New Caledonia."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-conf-october-2011",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 5,
+   "prompt": {
+    "id": "temples-conf-october-2011",
+    "bank": "temples",
+    "display_text": "Pin a country where President Thomas S. Monson announced a new temple at the October 2011 general conference.",
+    "text_original": "Pin a country where President Thomas S. Monson announced a new temple at the October 2011 general conference.",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "2011",
+    "citation": "Thomas S. Monson, As We Meet Again, October 2011 general conference; ChurchofJesusChristTemples.org milestones",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/general-conference/2011/10/as-we-meet-again",
+     "https://churchofjesuschristtemples.org/statistics/milestones/"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "Opening the October 2011 general conference, President Thomas S. Monson named six new temples: Barranquilla, Colombia; Durban, South Africa; Kinshasa, Democratic Republic of the Congo; Star Valley, Wyoming; a second Provo temple in the burned Provo Tabernacle; and Paris, France, the first temple for that country.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "COD"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States of America",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Provo City Center; Star Valley Wyoming."
+     },
+     {
+      "code": "COL",
+      "name": "Colombia",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Barranquilla Colombia."
+     },
+     {
+      "code": "FRA",
+      "name": "France",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Paris France: President Monson said the Church was moving forward with plans for a Paris temple; Church sources date its announcement to this conference, 1 October 2011."
+     },
+     {
+      "code": "ZAF",
+      "name": "South Africa",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Durban South Africa."
+     },
+     {
+      "code": "COD",
+      "name": "Democratic Republic of the Congo",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Kinshasa Democratic Republic of the Congo."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-conf-october-2022",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 9,
+   "prompt": {
+    "id": "temples-conf-october-2022",
+    "bank": "temples",
+    "display_text": "Pin a country where a new temple was announced at the October 2022 general conference.",
+    "text_original": "Pin a country where a new temple was announced at the October 2022 general conference.",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "2022",
+    "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/milestones/",
+     "https://www.thechurchnews.com/general-conference/2022/10/2/23384056/president-nelson-announces-18-temple-locations-4-near-mexico-city-october-2022-general-conference"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "At the end of the October 2022 general conference, President Russell M. Nelson announced 18 new temples in 9 countries or territories. Mexico alone received four of the new temples, and Busan became a second temple for South Korea.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "KOR",
+     "NGA"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States of America",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Fairview Texas; Grand Rapids Michigan; Jacksonville Florida; and 2 more."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Londrina Brazil; Ribeirão Preto Brazil."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Cuernavaca Mexico; Pachuca Mexico; Toluca Mexico; and 1 more."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Naga Philippines; Santiago Philippines."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Buenos Aires City Center Argentina."
+     },
+     {
+      "code": "GTM",
+      "name": "Guatemala",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Huehuetenango Guatemala."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Chiclayo Peru."
+     },
+     {
+      "code": "KOR",
+      "name": "South Korea",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Busan Korea."
+     },
+     {
+      "code": "NGA",
+      "name": "Nigeria",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Eket Nigeria."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-groundbreaking-2020",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 11,
+   "prompt": {
+    "id": "temples-groundbreaking-2020",
+    "bank": "temples",
+    "display_text": "Pin a country where ground was broken for a new temple in 2020.",
+    "text_original": "Pin a country where ground was broken for a new temple in 2020.",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "2020",
+    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/temples/chronology/",
+     "https://churchofjesuschristtemples.org/statistics/milestones/"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "A groundbreaking starts construction of a temple, usually a few years after it is announced. 21 temple groundbreakings were held in 2020 in 11 countries or territories; see each answer for the temple and date.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "HND",
+     "IND",
+     "ZWE"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States of America",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Richmond Virginia (11 April 2020); Layton Utah (23 May 2020); Feather River California (18 July 2020); and 6 more."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Brasília Brazil (26 September 2020)."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Alabang Philippines (4 June 2020); Davao Philippines (14 November 2020)."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Salta Argentina (4 November 2020); Mendoza Argentina (17 December 2020)."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Antofagasta Chile (27 November 2020)."
+     },
+     {
+      "code": "GTM",
+      "name": "Guatemala",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Cobán Guatemala (14 November 2020)."
+     },
+     {
+      "code": "JPN",
+      "name": "Japan",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Okinawa Japan (5 December 2020)."
      },
      {
       "code": "NZL",
       "name": "New Zealand",
       "commonness": 3,
+      "gem": false,
+      "fact": "Auckland New Zealand (13 June 2020)."
+     },
+     {
+      "code": "HND",
+      "name": "Honduras",
+      "commonness": 2,
       "gem": true,
-      "fact": "Hamilton, 1958."
+      "fact": "San Pedro Sula Honduras (5 September 2020)."
+     },
+     {
+      "code": "IND",
+      "name": "India",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Bengaluru India (2 December 2020)."
+     },
+     {
+      "code": "ZWE",
+      "name": "Zimbabwe",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Harare Zimbabwe (12 December 2020)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-rededicated-1970-99",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 5,
+   "prompt": {
+    "id": "temples-rededicated-1970-99",
+    "bank": "temples",
+    "display_text": "Pin a country where a temple was rededicated after renovation from 1970 through 1999.",
+    "text_original": "Pin a country where a temple was rededicated after renovation from 1970 through 1999.",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1970-1999",
+    "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/temples/chronology/"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Older temples are closed for renovation and then rededicated. From 1970 through 1999 this happened in Canada (Cardston, 1991), Switzerland (Bern, 1992), England (London, 1992) and Australia (Sydney, 1991), as well as at nine temples in the United States, including St. George and Laie.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "CHE"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States of America",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Atlanta Georgia, 1997; Boise Idaho, 1987; Chicago Illinois, 1989; and 6 more."
+     },
+     {
+      "code": "AUS",
+      "name": "Australia",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Sydney Australia, 1991."
+     },
+     {
+      "code": "CAN",
+      "name": "Canada",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Cardston Alberta, 1991."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 3,
+      "gem": false,
+      "fact": "London England, 1992."
+     },
+     {
+      "code": "CHE",
+      "name": "Switzerland",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Bern Switzerland, 1992."
      }
     ]
    }

@@ -1,0 +1,438 @@
+{
+ "day": 48,
+ "prompts": [
+  {
+   "id": "saints-v4-35-family-services",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as having a Church Family Services agency in the 2000s.",
+   "text_original": "Saints vol. 4 ch. 35: LDS Family Services ran agencies in only these countries in the 2000s. Pin one.",
+   "accepts": "country",
+   "topic": "welfare",
+   "era": "2000s",
+   "citation": "Saints vol. 4 ch. 35",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/35-hand-in-hand?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In the 2000s LDS Family Services ran agencies in only six countries: the United States, Canada, Australia, New Zealand, Great Britain and Japan. Japan was the only Asian country on the list.",
+   "stamp": null,
+   "gems": [
+    "JPN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Home base of the agency."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of six countries with agencies."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "One of six countries with agencies."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Listed as Great Britain."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "One of six countries with agencies."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The only Asian country with an agency."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-mckay-pacific-tour-1955",
+   "bank": "pioneer",
+   "display_text": "Pin a South Pacific country or territory President David O. McKay visited on his 1955 tour.",
+   "text_original": "In January and February 1955, David O. McKay became the first Church president to tour the South Pacific missions, choosing a temple site in New Zealand along the way. Pin a South Pacific country or territory he visited on that tour.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "1950s",
+   "citation": "Global Histories chronologies; Church newsroom; Ensign Dec. 1998",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/article/local-history-hamilton-new-zealand-temple",
+    "https://www.churchofjesuschrist.org/study/ensign/1998/12/australia-coming-out-of-obscurity-down-under?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Hawaii is in the North Pacific and is not scored.",
+   "summary": "Early in 1955, President David O. McKay and his wife, Emma Ray, flew through the South Pacific, meeting Saints in Fiji, Tonga, both Samoas, the Cook Islands and Tahiti before visiting New Zealand and Australia. In New Zealand he quietly chose the hill near Hamilton where the first temple in the Southern Hemisphere would rise.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First Church president to visit Australia, 1955."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Visited the Hamilton college project and chose the temple site; announced Feb. 17, 1955."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Visited Tongatapu and Vava'u and spoke of a future temple."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Met Saints in Pesega and Sauniatu, January 14-17, 1955."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Met Saints in Pago Pago and Mapusaga, January 14, 1955."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spoke to Saints in Suva, January 9, 1955."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "First Church president to visit Tahiti, January 18-20, 1955."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Held a one-hour meeting with 66 members at Aitutaki while his plane refueled."
+    }
+   ]
+  },
+  {
+   "id": "bom-women-translators",
+   "bank": "bom",
+   "display_text": "Pin a country or territory whose Church chronology names a woman who translated the Book of Mormon",
+   "text_original": "A country or territory whose Global Histories chronology names a woman as a translator of the Book of Mormon, in whole or in part, into a local language",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1934-2001",
+   "citation": "Global Histories chronologies: Albania, Thailand, Ghana, Bulgaria, Iceland, Guam, Zimbabwe",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; women have translated scripture in many other languages too.",
+   "summary": "Local members, many of them women, have carried much of the work of translating the Book of Mormon. Church chronologies name Evangeline Coy for Bulgarian, Srilaksana Suntarahut for Thai, Sveinbjorg Gudmundsdottir for Icelandic, Maria Salas Calvo for CHamoru, Priscilla Sampson-Davis for Fante and two lead translators for Albanian.",
+   "stamp": null,
+   "gems": [
+    "BGR",
+    "GHA",
+    "GUM",
+    "ISL",
+    "ZWE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brikena Ribaj and Juventila Sinamati were lead translators of the Albanian edition of 1999."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Srilaksana Suntarahut joined the review committee in 1970 and was principal translator of the 1976 Thai edition."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Evangeline Kokotanova Coy, a convert in the United States, finished the first Bulgarian manuscript in 1934."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Priscilla Sampson-Davis began translating hymns into Fante in 1980 and later translated the Book of Mormon."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Maria Salas Calvo translated the CHamoru selections issued in book form in 1989."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Sveinbjorg Gudmundsdottir and Halldor Hansen translated the Icelandic edition published in 1981."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Dorothy Tembo was on the team whose Shona triple combination, Book of Mormon included, came out in 2007."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-born-latin-america",
+   "bank": "people",
+   "display_text": "Pin a Latin American or Caribbean country or territory where a current General Authority Seventy was born (October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies were born in Latin America or the Caribbean. Pin a country or territory in that region where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "2026",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-a-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ozani-farias?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/moises-villanueva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/sandino-roman?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-r-walker?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/eduardo-f-ortega?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/joaquin-e-costa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/patricio-m-giuffra?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ricardo-p-gimenez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/sergio-r-vargas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/taylor-g-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/valeri-v-cordon?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hugo-e-martinez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jorge-m-alvarado?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/mathias-held?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/pedro-x-larreal?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-g-brown?lang=eng",
+    "https://www.thechurchnews.com/leaders-and-ministry/2006-05-13/elder-anthony-d-perkins-general-authority-seventy-2006-86422/",
+    "https://www.churchofjesuschrist.org/study/ensign/2013/05/news/elder-arnulfo-valenzuela?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Elder Perkins was born in Colorado and Elder Valenzuela in Mexico, so neither adds a country.",
+   "summary": "The Church's General Authority Seventies come from many nations. As of October 2026 their official biographies list birthplaces across Latin America and the Caribbean, from Brazil and Mexico to Jamaica, Venezuela and Puerto Rico. Brazil, Mexico, Argentina and Chile each have several.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "JAM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Elders Aidukaitis, Godoy, Silva, Farias and others were born in Brazil."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Elders Alonso (Mexico City), Casillas (Tijuana), Villanueva (Oaxaca), Roman (Iguala)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Walker and Alliaud (Buenos Aires), Ortega, Costa."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Giuffra and Villar (Valparaiso), Gimenez (Antofagasta), Vargas (Puerto Varas)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Valeri V. Cordon, born in Guatemala City."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Taylor G. Godoy, born in Lima."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Mathias Held, born in Bogota."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elders Hugo E. Martinez (Mayaguez) and Jorge M. Alvarado (Ponce)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Pedro X. Larreal, born in Valencia."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Kevin G. Brown, born in Manchester, Jamaica."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-born-africa",
+   "bank": "people",
+   "display_text": "Pin an African country where a current General Authority Seventy was born (as of October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies were born in Africa. Pin an African country where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "2026",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/adeyinka-a-ojediran?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/thabo-lebethoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, seven African nations are birthplaces of current General Authority Seventies, including Nigeria, Ghana, Zimbabwe, the Democratic Republic of the Congo and Botswana. Elder Edward Dube of Zimbabwe serves in the Presidency of the Seventy.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BWA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Isaac K. Morrison, born in Takoradi."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Ojediran (Ibadan), Chigbundu (Ahiaba Okpuala) and Egbo (Port Harcourt)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Thabo Lebethoa, born in Soweto."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elders Alfred Kyungu and Thierry K. Mutombo (Kinshasa)."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Edward Dube of the Presidency of the Seventy, born in Chirumhanzu."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder D. Martin Goury, born in Gagnoa, Cote d'Ivoire."
+    },
+    {
+     "code": "BWA",
+     "name": "Botswana",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Clement M. Matswagothata, born in Middlepits."
+    }
+   ]
+  }
+ ]
+}

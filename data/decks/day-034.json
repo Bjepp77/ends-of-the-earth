@@ -1,0 +1,429 @@
+{
+ "day": 34,
+ "prompts": [
+  {
+   "id": "temples-groundbreaking-2023",
+   "bank": "temples",
+   "display_text": "Pin a country where ground was broken for a new temple in 2023.",
+   "text_original": "Pin a country where ground was broken for a new temple in 2023.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2023",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "A groundbreaking starts construction of a temple, usually a few years after it is announced. 8 temple groundbreakings were held in 2023 in 6 countries or territories; see each answer for the temple and date.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PNG",
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Montpelier Idaho (17 June 2023); Modesto California (7 October 2023); Fort Worth Texas (28 October 2023)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Belo Horizonte Brazil (17 June 2023)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Querétaro Mexico (7 January 2023)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kaohsiung Taiwan (25 November 2023)."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Moresby Papua New Guinea (22 April 2023)."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Vila Vanuatu (8 April 2023)."
+    }
+   ]
+  },
+  {
+   "id": "temples-groundbreaking-2025-outside-americas",
+   "bank": "temples",
+   "display_text": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
+   "text_original": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2025",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "2025 was a busy year for temple groundbreakings outside the Americas, including first-temple groundbreakings in Belgium, Hungary, Madagascar, Singapore and the Republic of the Congo, and new temples in Ghana, Nigeria, South Africa, England, New Zealand and the Philippines.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COG",
+    "HUN",
+    "MDG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Birmingham England (22 March 2025)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tacloban City Philippines (18 January 2025)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kumasi Ghana (18 October 2025)."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lagos Nigeria (10 May 2025); Benin City Nigeria (24 May 2025)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Wellington New Zealand (2 August 2025)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cape Town South Africa (25 October 2025)."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brussels Belgium (22 November 2025)."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Singapore (28 June 2025)."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Brazzaville Republic of the Congo (23 August 2025)."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Budapest Hungary (21 June 2025)."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Antananarivo Madagascar (15 March 2025)."
+    }
+   ]
+  },
+  {
+   "id": "ot-solomon-builds-wives-allies",
+   "bank": "ot",
+   "display_text": "Pin a country holding a city Solomon built, or the homeland of one of his wives or royal allies (not Sheba)",
+   "text_original": "A present-day country holding a city Solomon built or fortified, or the homeland of one of his wives or royal allies (Kings and Chronicles; not the queen of Sheba). Trade lands of disputed site, such as Ophir and Tarshish, are not asked.",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Kings 3-11; 2 Chronicles 8-9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Jerusalem is scored as Israel, as in the other Bible prompts; Beth-horon the nether is in the West Bank.",
+   "summary": "Solomon fortified Hazor, Megiddo and Gezer, built Tadmor and store cities in Hamath, and traded cedar with Hiram of Tyre. He married Pharaoh's daughter and many foreign wives from Moab, Ammon, Edom, Zidon and the Hittites (1 Kgs 3-11; 2 Chr 8-9).",
+   "stamp": null,
+   "gems": [
+    "PSE",
+    "TUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Solomon built Hazor, Megiddo and Gezer (1 Kgs 9:15) and the temple at Jerusalem."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "He married Pharaoh's daughter, who brought Gezer as a dowry (1 Kgs 3:1; 9:16)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hiram king of Tyre sent cedars of Lebanon for the temple, and Solomon loved women of the Zidonians (1 Kgs 5:1-10; 11:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He loved women of the Moabites, Ammonites and Edomites (1 Kgs 11:1); Naamah the Ammonitess bore Rehoboam (1 Kgs 14:21)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "He built Tadmor in the wilderness and store cities in Hamath (2 Chr 8:3-4)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He built Beth-horon the nether, now in the West Bank (1 Kgs 9:17)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He loved Hittite women (1 Kgs 11:1); the Bible Dictionary says the Hittite empire reached into Asia Minor."
+    }
+   ]
+  },
+  {
+   "id": "nt-matthew-places",
+   "bank": "nt",
+   "display_text": "Pin a country holding a place named in the Gospel of Matthew",
+   "text_original": "A present-day country holding a land, city or region named in the Gospel of Matthew",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Matthew 1-2; 4; 12; 15; 19-20; 27",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/nineveh?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/cyrene?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Bethlehem and Jericho are in the West Bank (PSE); players may pin ISR, which is also correct for Jerusalem and Galilee.",
+   "summary": "Matthew ranges well beyond Galilee. The infant Jesus was carried from Bethlehem to Egypt, his fame spread through Syria and Decapolis, and he went to the coasts of Tyre and Sidon and beyond the Jordan. Jesus cited the men of Nineveh, and Simon of Cyrene, from today's Libya, carried his cross.",
+   "stamp": null,
+   "gems": [
+    "LBY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Jerusalem, Nazareth and Galilee run through the whole Gospel (Matthew 2:1, 22-23)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Joseph took the young child and Mary into Egypt until Herod died (Matthew 2:14-15)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jesus was born in Bethlehem of Judea and passed through Jericho (Matthew 2:1; 20:29)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jesus departed into the coasts of Tyre and Sidon (Matthew 15:21)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "His fame went throughout all Syria, and crowds came from Decapolis (Matthew 4:24-25)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jesus named the men of Nineveh, and the genealogy names the carrying away to Babylon (Matthew 12:41; 1:11)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jesus came into the coasts of Judea beyond Jordan, east of the river (Matthew 19:1)."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Simon, who carried the cross, was a man of Cyrene, in eastern Libya (Matthew 27:32)."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-europe-first-baptisms-1849-51",
+   "bank": "pioneer",
+   "display_text": "Pin a European country where the first Latter-day Saint converts were baptized between 1849 and 1851.",
+   "text_original": "Between 1849 and 1851, apostles and other missionaries sent from Utah and Britain baptized the first Latter-day Saint converts in several European countries. Pin a country where, according to the Church Global Histories, the first converts were baptized in those years.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1849-1851",
+   "citation": "Global Histories chronologies (Europe)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "The Netherlands (1861), Belgium (1888) and Austria (1883) had their first baptisms later, so they do not count.",
+   "summary": "Within three years of reaching the Salt Lake Valley, the Church sent apostles to open Europe beyond Britain. Erastus Snow led the Scandinavian work from Copenhagen, Lorenzo Snow opened Italy and Switzerland, and John Taylor went to France. Between 1849 and 1851 the first converts were baptized from Le Havre to Copenhagen, Schleswig and the Westman Islands.",
+   "stamp": null,
+   "gems": [
+    "ISL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Fifteen people, including Ole and Marie Monster, became the first converts baptized in Denmark, August 12, 1850."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Augustus Saint d'Anna, the first known convert in France, was baptized at Le Havre on July 30, 1849."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "George P. Dykes baptized Anna Hoth and her daughter Oline at Schleswig, September 15, 1851, the first recorded baptisms in present-day Germany."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jean Antoine Bosc was baptized by Lorenzo Snow on October 27, 1850, the first convert baptized in Italy."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "John E. Forsgren baptized 21 converts in Gavle and Stockholm, June-September 1850."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first converts in Switzerland were baptized in Geneva in March 1851."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hans F. Petersen baptized John Olsen and Peter Adamsen at Risor, November 26, 1851, the first baptisms in Norway."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Benedikt Hansson and Ragnhildur Stefansdottir became the first converts baptized in Iceland, May 1851."
+    }
+   ]
+  }
+ ]
+}

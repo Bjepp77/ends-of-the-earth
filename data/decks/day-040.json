@@ -1,0 +1,455 @@
+{
+ "day": 40,
+ "prompts": [
+  {
+   "id": "temples-conf-october-2020",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was announced at the October 2020 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the October 2020 general conference.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2020",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://newsroom.churchofjesuschrist.org/article/october-2020-general-conference-temples"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "At the end of the October 2020 general conference, President Russell M. Nelson announced 6 new temples in 6 countries or territories. Tarawa and Port Vila were the first temples announced for Kiribati and Vanuatu.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KIR",
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Lindon Utah."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo East Brazil."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Greater Guatemala City (now named Miraflores Guatemala City) Guatemala."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santa Cruz Bolivia."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tarawa Kiribati."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Vila Vanuatu."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-young-missions-south-america",
+   "bank": "people",
+   "display_text": "Pin a South American country where a current General Authority Seventy served as a young full-time missionary.",
+   "text_original": "Many General Authority Seventies serving as of October 2026 were once young full-time missionaries in South America. Pin a South American country where one of them served, as named in the Church's official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1970s-2000s",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/b-corey-cuvelier?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/aroldo-b-cavalcante?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/aaron-t-hall?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-r-duncan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/matthew-j-eyring?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/patricio-m-giuffra?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ricardo-p-gimenez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/allen-d-haynie?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ryan-k-olsen?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/taylor-g-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/david-l-buckner?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/eduardo-f-ortega?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-b-strong?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/pedro-x-larreal?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in nine South American countries. Brazil and Chile lead, and the list reaches Bolivia, Uruguay and Venezuela.",
+   "stamp": null,
+   "gems": [
+    "BOL",
+    "COL",
+    "URY",
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Brazil Sao Paulo, Porto Alegre, Recife South and Curitiba missions, among others."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Chile Concepcion, Osorno, Santiago South and Vina del Mar missions, among others."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Argentina Cordoba (Elder Haynie) and Resistencia (Elder Olsen) missions."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ecuador Guayaquil Mission (Elder Buckner)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Peru Lima North Mission (Elder Taylor G. Godoy)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bolivia Cochabamba Mission (Elder Strong)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Colombia Cali Mission (Elder Ortega)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Uruguay Montevideo Mission (Elder Alliaud)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Venezuela Caracas Mission (Elder Larreal)."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-mission-leaders-latin-america",
+   "bank": "people",
+   "display_text": "Pin a Latin American or Caribbean country or territory where a current Seventy once led a mission (October 2026).",
+   "text_original": "As of October 2026, many General Authority Seventies had led missions in Latin America and the Caribbean. Pin a country or territory there where one of those missions was headquartered, as named in the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1990s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/adilson-de-paula-parrella?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/aroldo-b-cavalcante?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-a-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-r-walker?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-r-duncan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-b-strong?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/mark-d-eddy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ryan-k-olsen?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hugo-e-martinez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/sandino-roman?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ahmad-s-corbitt?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jorge-m-alvarado?lang=eng",
+    "https://www.thechurchnews.com/leaders/2025/05/24/new-general-authority-seventy-elder-kevin-brown-lord-does-not-have-veil/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Latin America has given many Seventies their first experience leading missionaries. As of October 2026, their biographies name missions they led in ten countries and territories, from Brazil and Mexico to Uruguay, Ecuador and Puerto Rico.",
+   "stamp": null,
+   "gems": [
+    "JAM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Belo Horizonte, Rio de Janeiro South, Belem and Brasilia missions, among others."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico Monterrey East, Mexico City South and Tijuana missions (Elders Walker, Casillas, Alonso)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Argentina Cordoba Mission (Elder Alliaud)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Chile Santiago North (Elder Duncan) and Chile Antofagasta (Elder Wu) missions."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City Central Mission (Elder Hugo E. Martinez)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Peru Lima Central Mission (Elder Strong)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Uruguay Montevideo (Elder Eddy) and Montevideo West (Elder Olsen) missions."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dominican Republic Santo Domingo East Mission (Elder Corbitt)."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ecuador Quito North Mission (Elder Roman)."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Puerto Rico San Juan Mission (Elder Alvarado)."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Kevin G. Brown led the Jamaica Kingston Mission, 2013 to 2016."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-pacific-preaching-before-1900",
+   "bank": "pioneer",
+   "display_text": "Pin an Oceania country or territory (Hawaii counts as USA) where Latter-day Saint missionaries preached before 1900.",
+   "text_original": "Before 1900, Latter-day Saint missionaries had preached in only a handful of Pacific island lands and Australia. Pin a country or territory where, according to the Church Global Histories, they preached before 1900.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1844-1899",
+   "citation": "Global Histories chronologies (Pacific)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hawaii/hi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "USA is scored for Hawaii. Fiji's first known member arrived in 1924, so Fiji is not scored.",
+   "summary": "The Church reached the Pacific early: Addison Pratt landed in the Austral Islands in 1844, missionaries reached Hawaii in 1850 and New Zealand in 1854. Hawaiian missionaries carried the gospel to Samoa in 1863, and Tonga opened in 1891. Fiji, Guam and the Micronesian islands came only in the 20th century.",
+   "stamp": null,
+   "gems": [
+    "COK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ordained convert William Barratt reached Adelaide in 1840 and baptized the first Australian in 1842."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Augustus Farnham and William Cooke reached Auckland in October 1854."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Addison Pratt arrived at Tubuai in the Austral Islands in April 1844."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First Church meeting held at Pea, Tongatapu, in August 1891."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hawaii: first missionaries arrived in 1850; 50th anniversary marked in 1900."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Samoan Mission opened 1888; Ifopa baptized on Upolu in 1889."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kimo Pelio and Samuela Manoa preached on Aunuu from 1863; Deans arrived 1888."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries made occasional visits, as at Mangaia, between 1845 and 1899."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-pacific-missionaries-called-home-1940",
+   "bank": "pioneer",
+   "display_text": "Pin a South Pacific country or territory whose foreign missionaries were called home early in World War II.",
+   "text_original": "As World War II spread, the Church called foreign missionaries home from its South Pacific missions in 1940 and early 1941, and local Saints led the branches. Pin a country or territory where a Global Histories chronology records this.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1940-1941",
+   "citation": "Global Histories chronologies (Australia, New Zealand, Tonga, Samoa, French Polynesia)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Hawaii does not count; it received evacuated missionaries. The Samoan Mission covered Samoa and American Samoa, so both count.",
+   "summary": "In 1940 the Church withdrew foreign missionaries from its South Pacific missions, and Australia's were gone by January 1941. Local members became branch presidents, mission Relief Society leaders and missionaries. Some evacuated elders were sent on to Hawaii.",
+   "stamp": null,
+   "gems": [
+    "ASM",
+    "PYF",
+    "WSM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Overseas missionaries had been evacuated by January 1941."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1940 leaders told all missionaries in New Zealand to return home."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1940: foreign missionaries evacuated; Emile C. Dunn stayed as mission president."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Samoa chronology's 1940-45 entry covers the Samoan Islands: missionaries were called home and Samoan Saints led."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Tahitian Mission was closed on November 19, 1940; local members led the branches."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1940: missionaries of the Samoan Mission called home; Samoan Saints led."
+    }
+   ]
+  }
+ ]
+}

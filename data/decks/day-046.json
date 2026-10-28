@@ -1,0 +1,374 @@
+{
+ "day": 46,
+ "prompts": [
+  {
+   "id": "temples-eleven-year-wait",
+   "bank": "temples",
+   "display_text": "Pin a country with a temple that was dedicated 11 or more years after it was announced.",
+   "text_original": "Pin a country with a temple that was dedicated 11 or more years after it was announced.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1847-2026",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Most temples are dedicated a few years after they are announced, but some wait more than a decade because of land, permits or unrest. Guayaquil and Bogota were announced in the early 1980s and dedicated in 1999, and Kyiv took 12 years.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COL",
+    "ECU",
+    "UKR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Los Angeles California, announced 1937, dedicated 1956; Manti Utah, announced 1875, dedicated 1888; Salt Lake, announced 1847, dedicated 1893."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Urdaneta Philippines, announced 2010, dedicated 2024."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bogotá Colombia, announced 1984, dedicated 1999."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Guayaquil Ecuador, announced 1982, dedicated 1999."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Kyiv Ukraine, announced 1998, dedicated 2010."
+    }
+   ]
+  },
+  {
+   "id": "dc-hyde-1841-journey-stops",
+   "bank": "dc",
+   "display_text": "Pin a country with a city marked as a stop on the Joseph Smith Papers map of Orson Hyde's 1841 journey (not counting Jerusalem)",
+   "text_original": "A country holding a city where Orson Hyde stopped on his 1841 mission journey from London to Jerusalem and back to Trieste, as mapped by the Joseph Smith Papers (Jerusalem itself not counted).",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1840s",
+   "citation": "Joseph Smith Papers map, Orson Hyde's mission travels June-December 1841; Saints vol. 1 ch. 36",
+   "source_urls": [
+    "https://josephsmithpapers.org/bc-jsp/content/jsp/images/content/library/pdf/D8_Map_Orson-Hyde-travels-1841.pdf",
+    "https://rsc.byu.edu/fall-2017/orson-hyde-nauvoo-jerusalem-back-again",
+    "https://www.churchofjesuschrist.org/study/history/topics/dedication-of-the-holy-land?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Only the cities marked on the JSP map count. The Danube leg (Austria, Hungary, Serbia, Bulgaria, Romania) has no marked stops.",
+   "summary": "In 1840 Orson Hyde saw London, Amsterdam, Constantinople and Jerusalem in vision and was sent to dedicate the Holy Land. He crossed Europe, sailed by way of Smyrna and Beirut to Jaffa, and prayed on the Mount of Olives on October 24, 1841. He returned through Egypt, Trieste and Germany and reached Nauvoo in December 1842.",
+   "stamp": null,
+   "gems": [
+    "ITA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "London, where he departed in June 1841 after helping the Twelve in England."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jaffa, where he landed in October 1841 before going inland to Jerusalem."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mainz, Frankfurt and Regensburg, where he boarded a Danube steamer in August 1841."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Damietta, Cairo and Alexandria on the way home, November 1841."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Constantinople (Istanbul) and Smyrna (Izmir)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Beirut, on the sea route from Smyrna to Jaffa."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Rotterdam, Amsterdam and Arnhem."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Trieste, then Austrian and now in Italy, reached in December 1841."
+    }
+   ]
+  },
+  {
+   "id": "ot-joel-3-nations",
+   "bank": "ot",
+   "display_text": "Pin a country holding Tyre, Zidon, Philistia, Egypt or Edom, judged in Joel 3, or Greece, where Judah's children were sold",
+   "text_original": "A present-day country holding a land the Lord calls to account in Joel 3 (Tyre, Zidon, the coasts of Palestine, Egypt, Edom), or Greece, where Judah's children were sold",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Joel 3:4-8, 19",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/sabeans?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/greece?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Joel 3 rebukes Tyre, Zidon and the Philistine coast for selling the children of Judah to the Grecians, and says Judah will in turn sell their children to the Sabeans, an Arab tribe. It also foretells desolation for Egypt and Edom, while Judah and Jerusalem endure forever (Joel 3:19-20).",
+   "stamp": null,
+   "gems": [
+    "GRC"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Egypt shall be a desolation (Joel 3:19)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The coasts of Palestine, the Philistine shore, held Ashkelon and Ashdod (Joel 3:4)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tyre and Zidon are rebuked for selling the children of Judah (Joel 3:4)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Edom shall be a desolate wilderness (Joel 3:19)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Philistine coast of Joel 3:4 also held Gaza, now in the Gaza Strip."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Judah's children were sold unto the Grecians (Joel 3:6)."
+    }
+   ]
+  },
+  {
+   "id": "nt-angels-and-visions",
+   "bank": "nt",
+   "display_text": "Pin a country where an angel, vision or dream came on land to someone living in New Testament times (not the Transfiguration)",
+   "text_original": "A present-day country holding a place on land where an angel appeared, or the Lord gave a vision or dream, to someone living in New Testament times, in the Gospels, Acts or Revelation (not the Transfiguration)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Luke 1:11, 26; 2:8-9; Matthew 2:12-19; Acts 9:3-12; 10:3-17; 16:9; 18:9; Revelation 1:9-10",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Bethlehem is in the West Bank (Palestine); Israel also counts.",
+   "summary": "Heavenly messengers appear all through the New Testament. Gabriel came to Zacharias and Mary, angels sang to shepherds near Bethlehem, and an angel guided Joseph in Egypt. Saul met the Lord near Damascus, Paul saw the man of Macedonia at Troas, the Lord comforted him at Corinth, and John saw his Revelation on Patmos.",
+   "stamp": null,
+   "gems": [
+    "GRC",
+    "TUR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Gabriel came to Zacharias in the temple and to Mary in Nazareth; Peter saw a vision at Joppa (Luke 1:11, 26; Acts 10:9-17)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "An angel appeared to shepherds near Bethlehem, where the wise men were also warned in a dream (Luke 2:8-9; Matthew 2:12)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "An angel of the Lord appeared in a dream to Joseph in Egypt after Herod died (Matthew 2:19)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Saul saw a light near Damascus, and Ananias saw the Lord in a vision there (Acts 9:3-12)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Lord spoke to Paul in a vision at Corinth, and John received the Revelation on Patmos (Acts 18:9; Revelation 1:9-10)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": true,
+     "fact": "At Troas Paul saw a vision of a man of Macedonia pleading for help (Acts 16:8-9)."
+    }
+   ]
+  },
+  {
+   "id": "global-hinckley-1996-asia",
+   "bank": "global",
+   "display_text": "Pin a country or territory Gordon B. Hinckley visited on his May 1996 Asia trip",
+   "text_original": "In May 1996 President Gordon B. Hinckley toured Asia, dedicating the Hong Kong China Temple and offering prayers in Cambodia and Vietnam. A country or territory on that trip.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "1996",
+   "citation": "Ensign, August 1996, News of the Church",
+   "source_urls": [
+    "https://churchofjesuschrist.org/study/ensign/1996/08/news-of-the-church/president-hinckley-visits-asian-saints-dedicates-hong-kong-temple"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In May 1996 Gordon B. Hinckley met Saints across East Asia: Japan, Korea, Taiwan and the Philippines. He dedicated the Hong Kong China Temple, stopped in Shenzhen, dedicated Cambodia for preaching and prayed in Hanoi. Even a refueling stop on Saipan became a meeting with members.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KHM",
+    "MNP",
+    "VNM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 4,
+     "gem": false,
+     "fact": "He dedicated the Hong Kong China Temple, May 26-27."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo, Osaka, Fukuoka and Naha, Okinawa."
+    },
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A stop in Shenzhen."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Pusan and Seoul."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Manila and Cebu."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taipei."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "In Phnom Penh he dedicated Cambodia for the preaching of the gospel."
+    },
+    {
+     "code": "MNP",
+     "name": "Northern Mariana Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "A refueling stop on Saipan, where he met members."
+    },
+    {
+     "code": "VNM",
+     "name": "Vietnam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Ho Chi Minh City and Hanoi, where he offered an addendum prayer."
+    }
+   ]
+  }
+ ]
+}

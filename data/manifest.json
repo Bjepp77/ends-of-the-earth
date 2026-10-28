@@ -1,8 +1,8 @@
 {
- "decks": 24,
+ "decks": 49,
  "deck_size": 5,
  "practice": "decks/practice.json",
- "held": 31,
+ "held": 35,
  "build_date": "2026-10-26",
  "seed": "ends-of-the-earth-v1",
  "stamp": "as of 26 Oct 2026"
