@@ -2,435 +2,458 @@
  "day": 48,
  "prompts": [
   {
-   "id": "saints-v4-35-family-services",
+   "id": "congregations-500-plus",
    "bank": "draft",
-   "display_text": "Pin a country that Saints names as having a Church Family Services agency in the 2000s.",
-   "text_original": "Saints vol. 4 ch. 35: LDS Family Services ran agencies in only these countries in the 2000s. Pin one.",
+   "display_text": "Pin a country with 500 or more Church congregations (wards and branches, end of 2025).",
+   "text_original": "Pin a country with 500 or more Church congregations (wards and branches, end of 2025).",
    "accepts": "country",
-   "topic": "welfare",
-   "era": "2000s",
-   "citation": "Saints vol. 4 ch. 35",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/35-hand-in-hand?lang=eng"
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/canada"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In the 2000s LDS Family Services ran agencies in only six countries: the United States, Canada, Australia, New Zealand, Great Britain and Japan. Japan was the only Asian country on the list.",
-   "stamp": null,
+   "difficulty": 2,
+   "note": "Next below the line: Guatemala (441) and DR Congo (431).",
+   "summary": "At the end of 2025 the United States had about 14,600 Church congregations (wards and branches). Brazil, Mexico and the Philippines followed, and Nigeria had about 880, many of them small. Canada just made the 500 mark with 501.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "JPN"
+    "ARG",
+    "CHL",
+    "NGA",
+    "PER"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Home base of the agency."
+     "fact": "About 14,600 congregations."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 2,000 congregations."
     },
     {
      "code": "CAN",
      "name": "Canada",
-     "commonness": 3,
-     "gem": false,
-     "fact": "One of six countries with agencies."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "One of six countries with agencies."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Listed as Great Britain."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "One of six countries with agencies."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The only Asian country with an agency."
-    }
-   ]
-  },
-  {
-   "id": "pioneer-mckay-pacific-tour-1955",
-   "bank": "pioneer",
-   "display_text": "Pin a South Pacific country or territory President David O. McKay visited on his 1955 tour.",
-   "text_original": "In January and February 1955, David O. McKay became the first Church president to tour the South Pacific missions, choosing a temple site in New Zealand along the way. Pin a South Pacific country or territory he visited on that tour.",
-   "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "1950s",
-   "citation": "Global Histories chronologies; Church newsroom; Ensign Dec. 1998",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
-    "https://newsroom.churchofjesuschrist.org/article/local-history-hamilton-new-zealand-temple",
-    "https://www.churchofjesuschrist.org/study/ensign/1998/12/australia-coming-out-of-obscurity-down-under?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Hawaii is in the North Pacific and is not scored.",
-   "summary": "Early in 1955, President David O. McKay and his wife, Emma Ray, flew through the South Pacific, meeting Saints in Fiji, Tonga, both Samoas, the Cook Islands and Tahiti before visiting New Zealand and Australia. In New Zealand he quietly chose the hill near Hamilton where the first temple in the Southern Hemisphere would rise.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COK"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "AUS",
-     "name": "Australia",
      "commonness": 4,
      "gem": false,
-     "fact": "First Church president to visit Australia, 1955."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Visited the Hamilton college project and chose the temple site; announced Feb. 17, 1955."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Visited Tongatapu and Vava'u and spoke of a future temple."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Met Saints in Pesega and Sauniatu, January 14-17, 1955."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Met Saints in Pago Pago and Mapusaga, January 14, 1955."
-    },
-    {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Spoke to Saints in Suva, January 9, 1955."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "First Church president to visit Tahiti, January 18-20, 1955."
-    },
-    {
-     "code": "COK",
-     "name": "Cook Islands",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Held a one-hour meeting with 66 members at Aitutaki while his plane refueled."
-    }
-   ]
-  },
-  {
-   "id": "bom-women-translators",
-   "bank": "bom",
-   "display_text": "Pin a country or territory whose Church chronology names a woman who translated the Book of Mormon",
-   "text_original": "A country or territory whose Global Histories chronology names a woman as a translator of the Book of Mormon, in whole or in part, into a local language",
-   "accepts": "country_or_territory",
-   "topic": "scripture translation",
-   "era": "1934-2001",
-   "citation": "Global Histories chronologies: Albania, Thailand, Ghana, Bulgaria, Iceland, Guam, Zimbabwe",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; women have translated scripture in many other languages too.",
-   "summary": "Local members, many of them women, have carried much of the work of translating the Book of Mormon. Church chronologies name Evangeline Coy for Bulgarian, Srilaksana Suntarahut for Thai, Sveinbjorg Gudmundsdottir for Icelandic, Maria Salas Calvo for CHamoru, Priscilla Sampson-Davis for Fante and two lead translators for Albanian.",
-   "stamp": null,
-   "gems": [
-    "BGR",
-    "GHA",
-    "GUM",
-    "ISL",
-    "ZWE"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ALB",
-     "name": "Albania",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Brikena Ribaj and Juventila Sinamati were lead translators of the Albanian edition of 1999."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Srilaksana Suntarahut joined the review committee in 1970 and was principal translator of the 1976 Thai edition."
-    },
-    {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Evangeline Kokotanova Coy, a convert in the United States, finished the first Bulgarian manuscript in 1934."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Priscilla Sampson-Davis began translating hymns into Fante in 1980 and later translated the Book of Mormon."
-    },
-    {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Maria Salas Calvo translated the CHamoru selections issued in book form in 1989."
-    },
-    {
-     "code": "ISL",
-     "name": "Iceland",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Sveinbjorg Gudmundsdottir and Halldor Hansen translated the Icelandic edition published in 1981."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Dorothy Tembo was on the team whose Shona triple combination, Book of Mormon included, came out in 2007."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-born-latin-america",
-   "bank": "people",
-   "display_text": "Pin a Latin American or Caribbean country or territory where a current General Authority Seventy was born (October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Latin America or the Caribbean. Pin a country or territory in that region where a current General Authority Seventy was born, according to the Church's official biographies.",
-   "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-a-godoy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ozani-farias?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/moises-villanueva?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/sandino-roman?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alan-r-walker?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/eduardo-f-ortega?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/joaquin-e-costa?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/patricio-m-giuffra?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ricardo-p-gimenez?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/sergio-r-vargas?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/taylor-g-godoy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/valeri-v-cordon?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hugo-e-martinez?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jorge-m-alvarado?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/mathias-held?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/pedro-x-larreal?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-g-brown?lang=eng",
-    "https://www.thechurchnews.com/leaders-and-ministry/2006-05-13/elder-anthony-d-perkins-general-authority-seventy-2006-86422/",
-    "https://www.churchofjesuschrist.org/study/ensign/2013/05/news/elder-arnulfo-valenzuela?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Elder Perkins was born in Colorado and Elder Valenzuela in Mexico, so neither adds a country.",
-   "summary": "The Church's General Authority Seventies come from many nations. As of October 2026 their official biographies list birthplaces across Latin America and the Caribbean, from Brazil and Mexico to Jamaica, Venezuela and Puerto Rico. Brazil, Mexico, Argentina and Chile each have several.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "JAM"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Elders Aidukaitis, Godoy, Silva, Farias and others were born in Brazil."
+     "fact": "501 congregations, just over the line."
     },
     {
      "code": "MEX",
      "name": "Mexico",
-     "commonness": 5,
+     "commonness": 4,
      "gem": false,
-     "fact": "Elders Alonso (Mexico City), Casillas (Tijuana), Villanueva (Oaxaca), Roman (Iguala)."
+     "fact": "About 1,900 congregations."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 1,370 congregations."
     },
     {
      "code": "ARG",
      "name": "Argentina",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elders Walker and Alliaud (Buenos Aires), Ortega, Costa."
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 740 congregations."
     },
     {
      "code": "CHL",
      "name": "Chile",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elders Giuffra and Villar (Valparaiso), Gimenez (Antofagasta), Vargas (Puerto Varas)."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Valeri V. Cordon, born in Guatemala City."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Taylor G. Godoy, born in Lima."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
      "commonness": 2,
-     "gem": false,
-     "fact": "Elder Mathias Held, born in Bogota."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elders Hugo E. Martinez (Mayaguez) and Jorge M. Alvarado (Ponce)."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Pedro X. Larreal, born in Valencia."
-    },
-    {
-     "code": "JAM",
-     "name": "Jamaica",
-     "commonness": 1,
      "gem": true,
-     "fact": "Elder Kevin G. Brown, born in Manchester, Jamaica."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-born-africa",
-   "bank": "people",
-   "display_text": "Pin an African country where a current General Authority Seventy was born (as of October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Africa. Pin an African country where a current General Authority Seventy was born, according to the Church's official biographies.",
-   "accepts": "country",
-   "topic": "church leadership",
-   "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/adeyinka-a-ojediran?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/thabo-lebethoa?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026, seven African nations are birthplaces of current General Authority Seventies, including Nigeria, Ghana, Zimbabwe, the Democratic Republic of the Congo and Botswana. Elder Edward Dube of Zimbabwe serves in the Presidency of the Seventy.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "BWA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elder Isaac K. Morrison, born in Takoradi."
+     "fact": "About 580 congregations."
     },
     {
      "code": "NGA",
      "name": "Nigeria",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elders Ojediran (Ibadan), Chigbundu (Ahiaba Okpuala) and Egbo (Port Harcourt)."
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 880 congregations, many of them small."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 4,
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 810 congregations."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-benson-postwar-relief-1946",
+   "bank": "pioneer",
+   "display_text": "Pin a country where Saints vol. 3 or Global Histories record Ezra Taft Benson's 1946 postwar relief visit.",
+   "text_original": "In 1946 apostle Ezra Taft Benson presided over the European Mission and traveled widely to deliver Church relief and reorganize branches after World War II. Pin a country where Saints vol. 3 chapter 32 or the Global Histories place him that year.",
+   "accepts": "country",
+   "topic": "humanitarian aid",
+   "era": "1940s",
+   "citation": "Saints vol. 3 ch. 32; Global Histories chronologies",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/32-brothers-and-sisters?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Norway, France and Czechoslovakia got 1946 aid, but no record places Benson there, so they do not count.",
+   "summary": "Ezra Taft Benson arrived in Europe early in 1946 to oversee Church relief for Saints hit by World War II. He traveled from London to Germany, Austria, the Low Countries, Scandinavia and Switzerland, and won visas to reach Saints in Poland. He also rededicated Finland for missionary work.",
+   "stamp": null,
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
      "gem": false,
-     "fact": "Elder Thabo Lebethoa, born in Soweto."
+     "fact": "Directed about 2,500 tons of Church aid; visited the Berlin mission home."
     },
     {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
+     "code": "AUT",
+     "name": "Austria",
      "commonness": 3,
      "gem": false,
-     "fact": "Elders Alfred Kyungu and Thierry K. Mutombo (Kinshasa)."
+     "fact": "Reorganized the Austrian District in March 1946; saw Vienna."
     },
     {
-     "code": "ZWE",
-     "name": "Zimbabwe",
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Edward Dube of the Presidency of the Seventy, born in Chirumhanzu."
+     "fact": "Oversaw food and clothing distribution, spring 1946."
     },
     {
-     "code": "CIV",
-     "name": "Ivory Coast",
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Saw the ruins of war from London, mission headquarters (saints-v3:32)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Organized relief distribution in Rotterdam, May 1946."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
      "commonness": 2,
      "gem": false,
-     "fact": "Elder D. Martin Goury, born in Gagnoa, Cote d'Ivoire."
+     "fact": "Visited Antwerp and Liege, April 1946."
     },
     {
-     "code": "BWA",
-     "name": "Botswana",
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Visited Copenhagen branches, February 1946."
+    },
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Reached Zelwagi in August 1946 after a long struggle for visas."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Saints vol. 3 says he saw Stockholm on his travels."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
      "commonness": 1,
      "gem": true,
-     "fact": "Elder Clement M. Matswagothata, born in Middlepits."
+     "fact": "Rededicated Finland for preaching at Larsmo, July 16, 1946."
+    }
+   ]
+  },
+  {
+   "id": "ot-joshua-tribal-allotments",
+   "bank": "ot",
+   "display_text": "Pin a country holding land allotted to a tribe of Israel in Joshua 13-19",
+   "text_original": "A present-day country holding land allotted to a tribe of Israel in Joshua 13-19, from Bashan and Gilead east of the Jordan to Asher's border at great Zidon and Judah's border at the river of Egypt",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Joshua 13-19",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/edrei?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/egypt-river-of?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Jericho, Bethel and Hebron are in the West Bank (Palestine); much of Judah and the northern tribes lie in Israel.",
+   "summary": "After the conquest, Joshua divided the land by lot. Reuben, Gad and half of Manasseh took Gilead and Bashan east of the Jordan, while the other tribes took Canaan, with Asher's coast stretching toward Zidon and Tyre and Judah's south border reaching the river of Egypt (Josh 13-19).",
+   "stamp": null,
+   "gems": [
+    "EGY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Most tribes, including Naphtali, Zebulun, Issachar and much of Judah, were given land west of the Jordan (Josh 15-19)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Benjamin, Ephraim and Judah held land now in the West Bank, such as Jericho, Bethel and Hebron (Josh 15:54; 16:1; 18:21-22)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Reuben, Gad and half of Manasseh received Gilead and the plains east of the Jordan (Josh 13:8-25)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Asher's border reached to great Zidon and the strong city Tyre (Josh 19:28-29)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Half of Manasseh received all Bashan, the kingdom of Og with Edrei and Ashtaroth (Josh 13:12, 29-31)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Judah's south border went out unto the river of Egypt, the Wady el Arish in northern Sinai (Josh 15:4, 47; Bible Dictionary)."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-mission-leaders-europe",
+   "bank": "people",
+   "display_text": "Pin a European country where a current General Authority Seventy once led a mission (as of October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies had led missions in Europe as mission presidents. Pin a European country where one of those missions was headquartered, as named in the Church's official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1990s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/paul-h-sinclair?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/peter-m-johnson?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christophe-g-giraud-carrier?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ronald-m-barcellos?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/paul-b-pieper?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jorg-klebingat?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-w-mcconkie-iii?lang=eng",
+    "https://www.thechurchnews.com/leaders/2025/06/21/elder-michael-cziesla-new-general-authority-seventy-bio-2025-germany-promises/",
+    "https://www.thechurchnews.com/2011/6/4/23226781/new-mission-presidents-91"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Many General Authority Seventies first led missions. As of October 2026, they had led European missions in England, France, Spain, Portugal, Germany, Russia, Ukraine, the Czech Republic and Slovakia, and Slovenia and Croatia. Elder Jorg Klebingat, born in Germany, presided in Kyiv, Ukraine.",
+   "stamp": null,
+   "gems": [
+    "CZE",
+    "HRV",
+    "SVK",
+    "SVN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "England London Mission (Elder Sinclair) and England Manchester Mission (Elder Peter M. Johnson)."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Michael Cziesla was interim president of the Germany Frankfurt Mission in 2020."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Spain Barcelona Mission (Elder Villar)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "France Lyon Mission (Elder Giraud-Carrier)."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Ronald M. Barcellos was called as a mission leader in Portugal in 2021."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Paul B. Pieper and his wife were mission leaders in St. Petersburg."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ukraine Kyiv Mission (Elder Klebingat)."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Czech/Slovak Mission, based in Prague, 2013 to 2016 (Elder McConkie)."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Slovenia/Croatia Mission that Elder Rowe led from 2011 also covered Croatia."
+    },
+    {
+     "code": "SVK",
+     "name": "Slovakia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Czech/Slovak Mission that Elder McConkie led, 2013 to 2016, also covered Slovakia."
+    },
+    {
+     "code": "SVN",
+     "name": "Slovenia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Edward B. Rowe was called in 2011 to lead the Slovenia/Croatia Mission, based in Ljubljana."
+    }
+   ]
+  },
+  {
+   "id": "global-latam-first-general-authorities-1981-91",
+   "bank": "global",
+   "display_text": "Pin a Latin American mainland country whose first General Authority from that country was called between 1981 and 1991",
+   "text_original": "In the 1980s Latin American members began to be called as General Authorities. A Latin American mainland country (Mexico, Central America or Spanish- and Portuguese-speaking South America) whose first native General Authority was called between 1981 and 1991.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "1981-1991",
+   "citation": "Global Histories chronologies (Latin American mainland); Church News 1989, 1991 and 2021",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.thechurchnews.com/1989/7/1/23262815/call-is-in-keeping-with-ancient-promise",
+    "https://www.thechurchnews.com/2021/10/21/23217404/elder-horacio-a-tenorio-first-general-authority-of-mexican-ancestry-dies-obit",
+    "https://www.thechurchnews.com/1991/4/20/23260678/elder-julio-e-davila/",
+    "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-sustaining-of-church-officers?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Later firsts include Uruguay (Francisco J. Vinas, 1996), Venezuela (Rafael E. Pino, 2008) and Peru (Juan A. Uceda, 2010).",
+   "summary": "Angel Abrea of Argentina became the first General Authority from South America in 1981. Brazil followed in 1985, Mexico and Guatemala in 1989 as the Second Quorum of the Seventy was formed, Chile in 1990 and Colombia in 1991. Each call showed the Church's leadership growing with its Latin American membership.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Horacio A. Tenorio, the first General Authority of Mexican ancestry, was sustained to the Second Quorum of the Seventy, April 1, 1989."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Angel Abrea was called to the First Quorum of the Seventy in April 1981, the first General Authority from South America."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Helio da Rocha Camargo was called as a General Authority Seventy, April 6, 1985."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Eduardo Ayala became the first Chilean General Authority Seventy, March 31, 1990."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Carlos H. Amado was called as a General Authority Seventy, April 1, 1989."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Julio E. Davila, Colombia's first stake president, was sustained to the Second Quorum of the Seventy, April 6, 1991, the first General Authority from Colombia."
     }
    ]
   }

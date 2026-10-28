@@ -2,426 +2,448 @@
  "day": 30,
  "prompts": [
   {
-   "id": "history-dedicator-nelson",
-   "bank": "history2",
-   "display_text": "Pin a country with a temple standing today that Russell M. Nelson dedicated or rededicated.",
-   "text_original": "A country where Russell M. Nelson dedicated or rededicated a temple now in use (as of October 2026).",
+   "id": "temples-groundbreaking-2020",
+   "bank": "temples",
+   "display_text": "Pin a country where ground was broken for a new temple in 2020.",
+   "text_original": "Pin a country where ground was broken for a new temple in 2020.",
    "accepts": "country",
    "topic": "temples",
-   "era": "1955-2026",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "era": "2020",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/chronology/",
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
+   "summary": "In 2020 ground was broken for 21 temples in 11 countries or territories, the start of construction for each. India's first temple, in Bengaluru, broke ground on 2 December 2020.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "TON"
+    "HND",
+    "IND",
+    "ZWE"
    ],
    "gem_forced": true,
    "answers": [
     {
      "code": "USA",
-     "name": "United States",
+     "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Manti Utah (rededicated 2024); Washington D.C. (rededicated 2022); Deseret Peak Utah (2024); and others."
+     "fact": "Richmond Virginia (11 April 2020); Layton Utah (23 May 2020); Feather River California (18 July 2020); and 6 more."
     },
     {
-     "code": "ITA",
-     "name": "Italy",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Rome Italy (2019)."
+     "fact": "Brasília Brazil (26 September 2020)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Alabang Philippines (4 June 2020); Davao Philippines (14 November 2020)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Salta Argentina (4 November 2020); Mendoza Argentina (17 December 2020)."
     },
     {
      "code": "CHL",
      "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Concepción Chile (2018)."
+     "fact": "Antofagasta Chile (27 November 2020)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cobán Guatemala (14 November 2020)."
     },
     {
      "code": "JPN",
      "name": "Japan",
      "commonness": 3,
      "gem": false,
-     "fact": "Sapporo Japan (2016)."
+     "fact": "Okinawa Japan (5 December 2020)."
     },
     {
-     "code": "TON",
-     "name": "Tonga",
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Auckland New Zealand (13 June 2020)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
      "commonness": 2,
      "gem": true,
-     "fact": "Nuku'alofa Tonga (rededicated 2007)."
+     "fact": "San Pedro Sula Honduras (5 September 2020)."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bengaluru India (2 December 2020)."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Harare Zimbabwe (12 December 2020)."
     }
    ]
   },
   {
-   "id": "temples-first-announced-2019-20",
+   "id": "temples-announced-no-groundbreaking-asia-pacific",
    "bank": "temples",
-   "display_text": "Pin a country or territory whose first temple was announced in 2019 or 2020.",
-   "text_original": "Pin a country or territory whose first temple was announced in 2019 or 2020.",
+   "display_text": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
+   "text_original": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
    "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2019-2020",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
-   "difficulty": 3,
-   "note": "Hong Kong, which has had a temple since 1996, is counted separately from mainland China.",
-   "summary": "In 2019 and 2020 eight countries and territories got their first temple announcement, including Hungary, Sierra Leone, Papua New Guinea, Kiribati and China (Shanghai). As of October 2026 none of the eight is dedicated yet; most are under construction.",
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held. In Asia and the Pacific, the Philippines has the most, five, including Tuguegarao City and Iloilo.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ASM",
-    "KIR",
-    "PNG",
-    "SLE",
-    "VUT"
+    "MNG",
+    "NCL"
    ],
    "gem_forced": false,
    "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Brisbane Australia South; Liverpool Australia."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tuguegarao City Philippines; Santiago Philippines; Iloilo Philippines; and 2 more."
+    },
     {
      "code": "CHN",
      "name": "People's Republic of China",
      "commonness": 3,
      "gem": false,
-     "fact": "Shanghai, announced 2020."
+     "fact": "Shanghai People's Republic of China."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Osaka Japan."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Busan Korea."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Savai'i Samoa."
     },
     {
      "code": "ARE",
      "name": "United Arab Emirates",
      "commonness": 2,
      "gem": false,
-     "fact": "Dubai United Arab Emirates, announced 2020."
+     "fact": "Dubai United Arab Emirates."
     },
     {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "IDN",
+     "name": "Indonesia",
      "commonness": 2,
      "gem": false,
-     "fact": "Budapest Hungary, announced 2019."
+     "fact": "Jakarta Indonesia."
     },
     {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Pago Pago American Samoa, announced 2019."
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Uturoa French Polynesia."
     },
     {
-     "code": "KIR",
-     "name": "Kiribati",
+     "code": "MNG",
+     "name": "Mongolia",
      "commonness": 1,
      "gem": true,
-     "fact": "Tarawa Kiribati, announced 2020."
+     "fact": "Ulaanbaatar Mongolia."
     },
     {
-     "code": "PNG",
-     "name": "Papua New Guinea",
+     "code": "NCL",
+     "name": "New Caledonia",
      "commonness": 1,
      "gem": true,
-     "fact": "Port Moresby Papua New Guinea, announced 2019."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Freetown Sierra Leone, announced 2019."
-    },
-    {
-     "code": "VUT",
-     "name": "Vanuatu",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port Vila Vanuatu, announced 2020."
+     "fact": "Nouméa New Caledonia."
     }
    ]
   },
   {
-   "id": "nt-baptism-places",
-   "bank": "nt",
-   "display_text": "Pin a country holding a place where the New Testament records people being baptized",
-   "text_original": "A present-day country holding a place where the New Testament records people being baptized",
+   "id": "ot-psalm-83-confederacy",
+   "bank": "ot",
+   "display_text": "Pin a country holding the homeland of a people in the Psalm 83 confederacy against Israel",
+   "text_original": "A present-day country holding the homeland of a people in the confederacy against Israel in Psalm 83:6-11 (Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines, Tyre, Assur), or a people or place the psalm recalls from earlier victories (Midian, the brook Kison, En-dor)",
    "accepts": "country",
    "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Matthew 3:1-6; John 1:28; 10:40; Acts 2:41; 8:12; 9:18; 10:48; 16:15, 33; 18:8; 19:5",
+   "era": "Old Testament",
+   "citation": "Psalm 83",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/bethabara?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng"
    ],
-   "difficulty": 2,
-   "note": "The lower Jordan runs between Jordan and the West Bank, so both count; Israel counts through Jerusalem and Caesarea.",
-   "summary": "Baptism follows the gospel across the map. John baptized at the Jordan and in Bethabara beyond it. Three thousand were baptized at Jerusalem on Pentecost, Philip baptized in Samaria, and Saul was baptized in Damascus. Gentiles followed at Caesarea, then Lydia and a jailer at Philippi, many at Corinth, and twelve disciples at Ephesus.",
+   "difficulty": 3,
+   "note": "Philistine Gaza is in Palestine; Philistine Ashdod, Ashkelon, Ekron and Gath are in Israel, so both count.",
+   "summary": "Psalm 83, a psalm of Asaph, describes nations that took crafty counsel to cut Israel off: Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines and Tyre, helped by Assur. The psalmist asks the Lord to deal with them as with Midian and with Sisera and Jabin at the brook Kison (Ps 83).",
    "stamp": null,
    "gems": [
-    "GRC",
-    "SYR",
-    "TUR"
+    "PSE",
+    "SAU"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "About three thousand were baptized at Jerusalem on Pentecost, and Cornelius' household at Caesarea (Acts 2:41; 10:48)."
-    },
-    {
      "code": "JOR",
      "name": "Jordan",
-     "commonness": 4,
+     "commonness": 5,
      "gem": false,
-     "fact": "John baptized in Bethabara beyond Jordan, on the river's east side; BD Bethabara says the exact site is unknown, but scripture puts it beyond the river (John 1:28; 10:40)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Philip baptized men and women in the city of Samaria; John preached in the wilderness of Judea by the Jordan (Acts 8:12; Matthew 3:1-6)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Lydia and the jailer were baptized at Philippi, and many Corinthians at Corinth (Acts 16:15, 33; 18:8)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Saul arose and was baptized in Damascus after Ananias restored his sight (Acts 9:17-18)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 2,
-     "gem": true,
-     "fact": "About twelve disciples at Ephesus were baptized in the name of the Lord Jesus (Acts 19:1-7)."
-    }
-   ]
-  },
-  {
-   "id": "ot-ezra-return-and-temple",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place or people named in the book of Ezra, from Cyrus's Persia to Joppa",
-   "text_original": "A present-day country holding a place or people named in the book of Ezra: Cyrus king of Persia, the captives in Babylon, cedar from Lebanon floated to Joppa, the adversaries in Samaria, the roll found at Achmetha in Media, and the peoples Ezra warned against marrying (including Hittites, Ammonites, Moabites and Egyptians)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Ezra 1-10",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Samaria is in the West Bank (Palestine); Joppa (Jaffa) is in Israel. Jerusalem is scored as Israel, as in the other Bible prompts.",
-   "summary": "Cyrus of Persia let the Jews in Babylon return and rebuild the temple. They paid Zidon and Tyre for cedar from Lebanon, shipped to Joppa, and pressed on despite adversaries who wrote from Samaria to the Persian king. Darius found Cyrus's decree at Achmetha and the temple was finished; later Ezra came to teach the law (Ezra 1-10).",
-   "stamp": null,
-   "gems": [
-    "SYR",
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cyrus king of Persia proclaimed the return, and his decree was found at Achmetha in the province of the Medes (Ezra 1:1-2; 6:2); the Elamites were among Samaria's settlers who wrote against the Jews (Ezra 4:9)."
+     "fact": "Edom, Moab and Ammon are in the confederacy (Ps 83:6-7)."
     },
     {
      "code": "IRQ",
      "name": "Iraq",
-     "commonness": 4,
+     "commonness": 3,
      "gem": false,
-     "fact": "The captives went up from Babylon unto Jerusalem (Ezra 1:11)."
+     "fact": "Assur also is joined with them (Ps 83:8)."
     },
     {
      "code": "ISR",
      "name": "Israel",
-     "commonness": 4,
+     "commonness": 3,
      "gem": false,
-     "fact": "They rebuilt the house of God at Jerusalem, and cedar was brought by sea to Joppa (Ezra 3:7-8)."
+     "fact": "The psalm recalls Sisera and Jabin at the brook of Kison, who perished at En-dor (Ps 83:9-10)."
     },
     {
      "code": "LBN",
      "name": "Lebanon",
      "commonness": 3,
      "gem": false,
-     "fact": "Meat, drink and oil went to them of Zidon and Tyre for cedar trees from Lebanon (Ezra 3:7)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Egyptians are also in Ezra's list of peoples whose abominations Israel had joined (Ezra 9:1)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ezra mourned that the people had mingled with Ammonites and Moabites (Ezra 9:1)."
+     "fact": "The inhabitants of Tyre join the confederacy (Ps 83:7)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 2,
-     "gem": false,
-     "fact": "The adversaries wrote to Artaxerxes, and his answer went to Rehum and those dwelling in Samaria (Ezra 4:17)."
+     "gem": true,
+     "fact": "The Philistines are in the confederacy; their city Gaza is in the Gaza Strip (Ps 83:7)."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 1,
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
      "gem": true,
-     "fact": "Ezra 9:1 names the Hittites among the peoples Israel had mingled with; the Bible Dictionary places the Hittite nations north of Palestine from the Orontes to the Euphrates, with an empire reaching into Asia Minor."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Ezra 9:1 names the Hittites among the peoples Israel had mingled with; the Bible Dictionary places the Hittite nations north of Palestine from the Orontes to the Euphrates, with an empire reaching into Asia Minor."
+     "fact": "The psalm recalls the Midianites (Ps 83:9); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
     }
    ]
   },
   {
-   "id": "pioneer-wwi-missionaries-withdrawn",
-   "bank": "pioneer",
-   "display_text": "Pin a European country whose Global Histories chronology records its missionaries leaving when World War I began in 1914.",
-   "text_original": "When World War I broke out in 1914, Church leaders released the missionaries serving in continental Europe but left those in Great Britain in place. Pin a European country whose Church Global Histories chronology records its missionaries leaving or being evacuated when the war began.",
+   "id": "global-first-stakes-1995-97",
+   "bank": "global",
+   "display_text": "Pin a country whose very first stake (a group of congregations) was organized 1995-1997 (Northern Ireland counts as UK)",
+   "text_original": "In just three years, 1995 to 1997, the Church organized first stakes in countries as far apart as Ireland, Thailand, Kiribati and Haiti. A country whose very first stake of the Church was organized between 1995 and 1997.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1910s",
-   "citation": "Saints vol. 3 ch. 11; Global Histories chronologies",
+   "topic": "church growth",
+   "era": "1995-1997",
+   "citation": "Global Histories chronologies (Ireland, Singapore, Thailand, Papua New Guinea, Kiribati, DR Congo, Cote d'Ivoire, Haiti)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/11-too-heavy?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kiribati/ki-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/indonesia?lang=eng"
    ],
-   "difficulty": 2,
-   "note": "Great Britain does not count: its missionaries stayed. Norway does not either: its chronology records only that fewer were sent.",
-   "summary": "At the start of World War I, the First Presidency told European leaders to release German and French missionaries, and mission president Hyrum M. Smith then pulled missionaries out of the rest of continental Europe. Missionaries in Great Britain stayed. Local Saints across the continent led branches and preached on their own until the war ended.",
-   "stamp": null,
+   "difficulty": 3,
+   "note": "Ireland counts: Dublin's 1995 stake was its first. Belfast's 1974 stake is in the United Kingdom.",
+   "summary": "In 1995 the Church organized first stakes in Singapore, Dublin, Bangkok and Port Moresby. Kiribati and Zaire, now DR Congo, followed in 1996, and Cote d'Ivoire and Haiti in 1997, showing how quickly the Church was maturing in Asia, the Pacific, Africa and the Caribbean.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ISL",
-    "ROU"
+    "CIV",
+    "KIR"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 5,
-     "gem": false,
-     "fact": "All North American missionaries left Germany during World War I; local members were called to preach (GH Germany, 1914-1919)."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 5,
-     "gem": false,
-     "fact": "All missionaries left; the French Mission was absorbed, August 1914."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Full-time missionaries were evacuated from Belgium during the war (GH Belgium, 1914-18)."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
+     "code": "IRL",
+     "name": "Ireland",
      "commonness": 3,
      "gem": false,
-     "fact": "All missionaries evacuated, August 1914."
+     "fact": "The Dublin Ireland Stake, the first in the Republic of Ireland, was organized March 12, 1995."
     },
     {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Mission president told to release all missionaries, August 30, 1914."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries not native to Denmark sent home, October 1914."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries serving in the Netherlands were reassigned to safer missions (GH Netherlands, 1914-19)."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries from the United States left Sweden in October 1914; local Saints took over the branches."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "COD",
+     "name": "DR Congo",
      "commonness": 2,
      "gem": false,
-     "fact": "All missionaries evacuated, August 10, 1914."
+     "fact": "The Zaire Kinshasa Stake, the first in the country, was organized November 3, 1996."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Port-au-Prince Haiti Stake, the first in Haiti, was organized September 21, 1997."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Port Moresby Papua New Guinea Stake was created October 22, 1995, with Vaiba Rome as president."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Singapore Stake was organized February 26, 1995, with Leonard Woo as president."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Neal A. Maxwell created the Bangkok Thailand Stake, June 18-19, 1995."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Abidjan Cote d'Ivoire Stake, the country's first, was organized August 17, 1997."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder L. Tom Perry organized the Tarawa Kiribati Stake, August 11, 1996."
+    }
+   ]
+  },
+  {
+   "id": "bom-women-translators",
+   "bank": "bom",
+   "display_text": "Pin a country or territory whose Church chronology names a woman who translated the Book of Mormon",
+   "text_original": "A country or territory whose Global Histories chronology names a woman as a translator of the Book of Mormon, in whole or in part, into a local language",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1934-2001",
+   "citation": "Global Histories chronologies: Albania, Thailand, Ghana, Bulgaria, Iceland, Guam, Zimbabwe",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; women have translated scripture in many other languages too.",
+   "summary": "Local members, many of them women, have carried much of the work of translating the Book of Mormon. Church chronologies name Evangeline Coy for Bulgarian, Srilaksana Suntarahut for Thai, Sveinbjorg Gudmundsdottir for Icelandic, Maria Salas Calvo for CHamoru, Priscilla Sampson-Davis for Fante and two lead translators for Albanian.",
+   "stamp": null,
+   "gems": [
+    "BGR",
+    "GHA",
+    "GUM",
+    "ISL",
+    "ZWE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brikena Ribaj and Juventila Sinamati were lead translators of the Albanian edition of 1999."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Srilaksana Suntarahut joined the review committee in 1970 and was principal translator of the 1976 Thai edition."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Evangeline Kokotanova Coy, a convert in the United States, finished the first Bulgarian manuscript in 1934."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Priscilla Sampson-Davis began translating hymns into Fante in 1980 and later translated the Book of Mormon."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Maria Salas Calvo translated the CHamoru selections issued in book form in 1989."
     },
     {
      "code": "ISL",
      "name": "Iceland",
      "commonness": 1,
      "gem": true,
-     "fact": "Missionary work discontinued in 1914."
+     "fact": "Sveinbjorg Gudmundsdottir and Halldor Hansen translated the Icelandic edition published in 1981."
     },
     {
-     "code": "ROU",
-     "name": "Romania",
+     "code": "ZWE",
+     "name": "Zimbabwe",
      "commonness": 1,
      "gem": true,
-     "fact": "Last missionary in Brasso (Brasov) left after the war began."
+     "fact": "Dorothy Tembo was on the team whose Shona triple combination, Book of Mormon included, came out in 2007."
     }
    ]
   }

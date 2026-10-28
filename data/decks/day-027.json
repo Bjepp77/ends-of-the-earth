@@ -2,411 +2,411 @@
  "day": 27,
  "prompts": [
   {
-   "id": "temples-conf-april-2023",
+   "id": "temples-conf-april-2022",
    "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the April 2023 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the April 2023 general conference.",
+   "display_text": "Pin a country where a new temple was announced at the April 2022 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the April 2022 general conference.",
    "accepts": "country",
    "topic": "temples",
-   "era": "2023",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "era": "2022",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
    "source_urls": [
     "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/april-2023-general-conference-new-temples"
+    "https://www.thechurchnews.com/2022/4/3/23217529/17-new-temples-announced-by-president-nelson-totaling-100-during-his-ministry/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "At the end of the April 2023 general conference, President Russell M. Nelson announced 15 new temples in 8 countries or territories. Jakarta was the first temple announced for Indonesia, the most populous Muslim-majority country.",
+   "summary": "At the end of the April 2022 general conference, President Russell M. Nelson announced 17 new temples in 8 countries or territories. Brazzaville gave the Republic of the Congo its first temple announcement, and Birmingham was the third for England.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "IDN"
+    "COG"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
      "code": "USA",
      "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Bakersfield California; Charlotte North Carolina; Harrisburg Pennsylvania; and 3 more."
+     "fact": "Austin Texas; Cleveland Ohio; Knoxville Tennessee; and 5 more."
     },
     {
      "code": "BRA",
      "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Natal Brazil; Teresina Brazil."
+     "fact": "Maceió Brazil; Santos Brazil."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "MEX",
+     "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Iloilo Philippines; Tuguegarao City Philippines."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lethbridge Alberta."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Hamburg Germany."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Retalhuleu Guatemala."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Iquitos Peru."
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Jakarta Indonesia."
-    }
-   ]
-  },
-  {
-   "id": "temples-announced-no-groundbreaking-europe",
-   "bank": "temples",
-   "display_text": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
-   "text_original": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "IRL",
-    "NOR",
-    "PRT"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Edinburgh Scotland."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Hamburg Germany."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Milan Italy."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Russia."
-    },
-    {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Dublin Ireland."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Oslo Norway."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Porto Portugal."
-    }
-   ]
-  },
-  {
-   "id": "pioneer-benson-postwar-relief-1946",
-   "bank": "pioneer",
-   "display_text": "Pin a country where Saints vol. 3 or Global Histories record Ezra Taft Benson's 1946 postwar relief visit.",
-   "text_original": "In 1946 apostle Ezra Taft Benson presided over the European Mission and traveled widely to deliver Church relief and reorganize branches after World War II. Pin a country where Saints vol. 3 chapter 32 or the Global Histories place him that year.",
-   "accepts": "country",
-   "topic": "humanitarian aid",
-   "era": "1940s",
-   "citation": "Saints vol. 3 ch. 32; Global Histories chronologies",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/32-brothers-and-sisters?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Norway, France and Czechoslovakia got 1946 aid, but no record places Benson there, so they do not count.",
-   "summary": "Ezra Taft Benson arrived in Europe early in 1946 to oversee Church relief for Saints hit by World War II. He traveled from London to Germany, Austria, the Low Countries, Scandinavia and Switzerland, and won visas to reach Saints in Poland. He also rededicated Finland for missionary work.",
-   "stamp": null,
-   "gems": [
-    "FIN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Directed about 2,500 tons of Church aid; visited the Berlin mission home."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Reorganized the Austrian District in March 1946; saw Vienna."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Oversaw food and clothing distribution, spring 1946."
+     "fact": "Mexico City Benemérito Mexico; San Luis Potosí Mexico."
     },
     {
      "code": "GBR",
      "name": "United Kingdom",
      "commonness": 3,
      "gem": false,
-     "fact": "Saw the ruins of war from London, mission headquarters (saints-v3:32)."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Organized relief distribution in Rotterdam, May 1946."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Visited Antwerp and Liege, April 1946."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Visited Copenhagen branches, February 1946."
-    },
-    {
-     "code": "POL",
-     "name": "Poland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Reached Zelwagi in August 1946 after a long struggle for visas."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Saints vol. 3 says he saw Stockholm on his travels."
-    },
-    {
-     "code": "FIN",
-     "name": "Finland",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Rededicated Finland for preaching at Larsmo, July 16, 1946."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-mission-leaders-asia-pacific",
-   "bank": "people",
-   "display_text": "Pin an Asian or Pacific country where a current General Authority Seventy once led a mission (October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies had led missions in Asia or the Pacific. Pin a country there where one of those missions was headquartered, as named in the Church's official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1990s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/j-kimo-esplin?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/takashi-wada?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carl-b-cook?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/anthony-d-perkins?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kelly-r-johnson?lang=eng",
-    "https://www.thechurchnews.com/leaders-and-ministry/2009-05-16/elder-michael-t-ringwood-general-authority-seventy-2009-71649/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026, General Authority Seventies had led missions in Japan, the Philippines, New Zealand, Taiwan and Thailand. Elder Michael John U. Teh, born in the Philippines, presided over the Taiwan Taichung Mission.",
-   "stamp": null,
-   "gems": [
-    "THA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Japan Tokyo North and South missions (Elder Esplin) and Japan Tokyo South (Elder Wada)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Philippines Quezon City Mission, 2013 to 2016 (Elder Revillo)."
+     "fact": "Birmingham England."
     },
     {
      "code": "NZL",
      "name": "New Zealand",
      "commonness": 3,
      "gem": false,
-     "fact": "New Zealand Auckland Mission (Elder Carl B. Cook)."
+     "fact": "Wellington New Zealand."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
+     "code": "PER",
+     "name": "Peru",
      "commonness": 3,
      "gem": false,
-     "fact": "Taiwan Taipei (Elder Perkins) and Taiwan Taichung (Elder Teh) missions."
+     "fact": "Cusco Peru."
     },
     {
-     "code": "KOR",
-     "name": "South Korea",
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 2,
      "gem": false,
-     "fact": "Elder Michael T. Ringwood was called in 2004 to lead the Korea Seoul West Mission."
+     "fact": "Barcelona Spain."
     },
     {
-     "code": "THA",
-     "name": "Thailand",
+     "code": "COG",
+     "name": "Republic of the Congo",
      "commonness": 1,
      "gem": true,
-     "fact": "Elder Kelly R. Johnson returned to the Thailand Bangkok Mission as a leader, 2015 to 2018."
+     "fact": "Brazzaville Republic of the Congo."
     }
    ]
   },
   {
-   "id": "ot-foreign-gods-homelands",
+   "id": "temples-first-announced-2021",
+   "bank": "temples",
+   "display_text": "Pin a country whose first temple was announced in 2021.",
+   "text_original": "Pin a country whose first temple was announced in 2021.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2021",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 2021 seven countries got their first temple announcement: Austria, Belgium, Norway, Singapore, Mozambique, Madagascar and Liberia. As of October 2026 Oslo, Beira and Monrovia were still in the announced stage.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "LBR",
+    "MDG",
+    "MOZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Vienna Austria, announced 2021."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brussels Belgium, announced 2021."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Oslo Norway, announced 2021."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Singapore, announced 2021."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Monrovia Liberia, announced 2021."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Antananarivo Madagascar, announced 2021."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Beira Mozambique, announced 2021."
+    }
+   ]
+  },
+  {
+   "id": "ot-daniel-lands",
    "bank": "ot",
-   "display_text": "Pin a country that was home to a foreign god named in the Old Testament, from Chemosh to Dagon",
-   "text_original": "A present-day country holding the home city or land of a foreign god named in the Old Testament: Chemosh of Moab, Milcom of Ammon, Ashtoreth of the Zidonians, Dagon of Ashdod and Gaza, Baal-zebub of Ekron, Rimmon of Damascus, Ashima of Hamath, Nisroch of Nineveh, Nergal of Cuth, Bel and Nebo of Babylon, and the gods of Egypt",
+   "display_text": "Pin a country holding a land or people named in the book of Daniel, from Babylon to Grecia",
+   "text_original": "A present-day country holding a land, city or people named in the book of Daniel (Babylon, Shushan by the river Ulai, Media and Persia, Grecia, Egypt, the Libyans and the people of Cush, the Nile land south of Egypt, Edom, Moab and Ammon, the ships of Chittim, and the glorious land)",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "1 Samuel 5; 1 Kings 11; 2 Kings 1, 5, 17, 19; Judges 16; Isaiah 46; Exodus 12",
+   "citation": "Daniel 1-11",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Gaza is in Palestine; Ashdod and Ekron are in Israel.",
-   "summary": "The Old Testament names many gods of Israel's neighbours: Chemosh of Moab, Milcom of Ammon, Ashtoreth of Zidon, Dagon of the Philistines, Rimmon of Damascus and Nisroch of Nineveh. The ark toppled Dagon's image at Ashdod, Samson pulled down Dagon's house at Gaza, and Isaiah mocked Bel and Nebo of Babylon (1 Sam 5; Judg 16; Isa 46).",
+   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so Sudan counts for Daniel 11:43. Jerusalem is scored as Israel.",
+   "summary": "Daniel was taken captive to Babylon, served under Babylonian and Persian kings, and saw visions at Shushan. His visions trace Media and Persia, Grecia, and the long struggle of the kings of the north and south, which touches Egypt, Libya, Ethiopia, Edom, Moab, Ammon and the ships of Chittim (Dan 1-11).",
    "stamp": null,
    "gems": [
-    "PSE"
+    "CYP",
+    "SDN"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Daniel was carried to Babylon in the land of Shinar (Dan 1:1-2)."
+    },
     {
      "code": "EGY",
      "name": "Egypt",
      "commonness": 4,
      "gem": false,
-     "fact": "The Lord said he would execute judgment against all the gods of Egypt (Ex 12:12)."
+     "fact": "The king of the south of Daniel 11 rules Egypt (Dan 11:8, 42)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Daniel saw his vision at Shushan by the river of Ulai, and the ram stood for the kings of Media and Persia (Dan 8:2, 20)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Daniel prayed toward Jerusalem, and the king of the north enters the glorious land (Dan 6:10; 11:41)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The rough goat is the king of Grecia (Dan 8:21)."
     },
     {
      "code": "JOR",
      "name": "Jordan",
-     "commonness": 4,
+     "commonness": 3,
      "gem": false,
-     "fact": "Chemosh was the abomination of Moab and Milcom the abomination of the Ammonites (1 Kgs 11:5, 7)."
+     "fact": "Edom, Moab and the chief of the children of Ammon escape out of his hand (Dan 11:41)."
     },
     {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Libyans shall be at his steps (Dan 11:43)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The king of the north stands in the glorious land and plants his palace in the glorious holy mountain; that land includes the hill country now in the West Bank (Dan 11:16, 41, 45)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The ships of Chittim come against the king of the north (Dan 11:30); Chittim is Cyprus."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Ethiopians shall be at his steps (Dan 11:43); Bible Ethiopia (Cush) was the Nile land south of Egypt."
+    }
+   ]
+  },
+  {
+   "id": "global-latam-missionaries-withdrawn-1943-89",
+   "bank": "global",
+   "display_text": "Pin a Latin American mainland country where foreign missionaries were withdrawn because of war or unrest, 1943 to 1989",
+   "text_original": "War, revolution and political unrest sometimes forced the Church to pull foreign missionaries out, leaving local members to carry the work. A Latin American mainland country (Mexico, Central America or Spanish- and Portuguese-speaking South America) from which missionaries from abroad were withdrawn or evacuated between 1943 and 1989.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1943-1989",
+   "citation": "Global Histories chronologies (Latin American mainland)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Later withdrawals (Venezuela 2005 and 2013, Nicaragua again in 2018) and Mexico's 1912 to 1917 withdrawal fall outside the dates.",
+   "summary": "Several times the Church pulled foreign missionaries out of Latin American countries for their safety: Brazil during World War II, Costa Rica during its 1948 revolution, Nicaragua in 1978, El Salvador as civil war began in 1979, Panama in 1988 and Bolivia after two missionaries were killed in 1989. In each case local members and missionaries kept the Church going.",
+   "stamp": null,
+   "gems": [
+    "BOL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "All North American missionaries were evacuated in November 1943 as Brazil entered World War II."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries from outside Nicaragua were evacuated in September 1978 amid political instability."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "North American missionaries were moved to other Central American nations in November 1979 as civil war began."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Missionaries were moved to Guatemala in February 1948 because of a revolution."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "All foreign missionaries were evacuated in February 1988 because of rising political unrest."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "After rebels killed missionaries Jeffrey Ball and Todd Wilson in La Paz in May 1989, North American missionaries were temporarily removed."
+    }
+   ]
+  },
+  {
+   "id": "nt-revelation-places",
+   "bank": "nt",
+   "display_text": "Pin a country holding a place, city or river named in the book of Revelation",
+   "text_original": "A present-day country holding a place, city or river named in the book of Revelation",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Revelation 1:9-11; 9:14; 11:8; 16:12-16",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/armageddon?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/patmos?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "The Euphrates also rises in Turkey, which is already accepted.",
+   "summary": "John wrote Revelation on Patmos, a Greek island, to seven churches in western Turkey. The book names the great river Euphrates, which flows through Turkey, Syria and Iraq, and Armageddon, the mount of Megiddo in Israel. It also calls the wicked city spiritually Sodom and Egypt.",
+   "stamp": null,
+   "gems": [
+    "EGY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The seven churches, from Ephesus to Laodicea, were in the province of Asia in western Turkey (Revelation 1:11)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
      "commonness": 4,
      "gem": false,
-     "fact": "Solomon went after Ashtoreth the goddess of the Zidonians (1 Kgs 11:5)."
+     "fact": "John received the revelation on the isle of Patmos (Revelation 1:9)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Armageddon is Har Megiddo, the mount of Megiddo in northern Israel (Revelation 16:16; Bible Dictionary)."
     },
     {
      "code": "IRQ",
      "name": "Iraq",
      "commonness": 3,
      "gem": false,
-     "fact": "Sennacherib was slain worshipping in the house of Nisroch his god at Nineveh; Bel and Nebo were gods of Babylon (2 Kgs 19:36-37; Isa 46:1)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Philistines set the ark in the house of Dagon at Ashdod, and Baal-zebub was the god of Ekron (1 Sam 5:2; 2 Kgs 1:2)."
+     "fact": "The Euphrates and the site of Babylon are in Iraq (Revelation 9:14; 16:12; 14:8)."
     },
     {
      "code": "SYR",
      "name": "Syria",
-     "commonness": 3,
+     "commonness": 2,
      "gem": false,
-     "fact": "Naaman's master worshipped in the house of Rimmon at Damascus, and the men of Hamath made Ashima (2 Kgs 5:18; 17:30)."
+     "fact": "The great river Euphrates flows across Syria (Revelation 9:14; 16:12)."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
      "gem": true,
-     "fact": "The lords of the Philistines gathered at Gaza to sacrifice to Dagon when Samson was captured (Judg 16:21-23)."
+     "fact": "The great city is spiritually called Sodom and Egypt (Revelation 11:8)."
     }
    ]
   }

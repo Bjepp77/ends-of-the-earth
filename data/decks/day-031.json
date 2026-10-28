@@ -2,403 +2,440 @@
  "day": 31,
  "prompts": [
   {
-   "id": "temples-conf-october-2024",
+   "id": "temples-new-1987-98",
    "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the October 2024 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the October 2024 general conference.",
-   "accepts": "country",
+   "display_text": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
+   "text_original": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2024",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "era": "1987-1998",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/october-2024-general-conference-new-temples"
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "note": null,
-   "summary": "At the end of the October 2024 general conference, President Russell M. Nelson announced 17 new temples in 11 countries or territories. Dublin and Kampala were the first temples announced for Ireland and Uganda.",
+   "summary": "Only five countries and territories saw a new temple dedicated from 1987 through 1998: Frankfurt in 1987, Toronto in 1990, Hong Kong in 1996 and Preston, England, in 1998, plus nine in the United States. The wave of smaller temples began with Monticello, Utah, in 1998.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "MOZ",
-    "UGA"
+    "HKG"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
      "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Coeur d'Alene Idaho; El Paso Texas; Huntsville Alabama; and 4 more."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Juchitán de Zaragoza Mexico."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Puerto Montt Chile."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Milan Italy."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Medellín Colombia."
-    },
-    {
-     "code": "DOM",
-     "name": "Dominican Republic",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Santiago Dominican Republic."
-    },
-    {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Dublin Ireland."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Abuja Nigeria."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Santa Ana El Salvador."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Maputo Mozambique."
-    },
-    {
-     "code": "UGA",
-     "name": "Uganda",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Kampala Uganda."
-    }
-   ]
-  },
-  {
-   "id": "temples-second-dedicated-1987-2000",
-   "bank": "temples",
-   "display_text": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
-   "text_original": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1987-2000",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "A country's second temple usually means the Church there has grown past what one temple can serve. Each answer names the country's second temple to be dedicated and its date, counting only temples now in operation.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "JPN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Adelaide Australia (15 June 2000)."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Recife Brazil (15 December 2000)."
+     "fact": "Bountiful Utah, 1995; Las Vegas Nevada, 1989; Monticello Utah, 1998; and 6 more."
     },
     {
      "code": "CAN",
      "name": "Canada",
-     "commonness": 4,
+     "commonness": 3,
      "gem": false,
-     "fact": "Toronto Ontario (25 August 1990)."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Preston England (7 June 1998)."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Colonia Juárez Chihuahua Mexico (6 March 1999)."
+     "fact": "Toronto Ontario, 1990."
     },
     {
      "code": "DEU",
      "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Frankfurt Germany (28 August 1987)."
+     "fact": "Frankfurt Germany, 1987."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Preston England, 1998."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
      "commonness": 2,
      "gem": true,
-     "fact": "Fukuoka Japan (11 June 2000)."
+     "fact": "Hong Kong China, 1996."
     }
    ]
   },
   {
-   "id": "global-latam-first-stakes-1977-79",
-   "bank": "global",
-   "display_text": "Pin a Latin American mainland country whose first stake was organized from 1977 through 1979",
-   "text_original": "Stakes spread quickly through Latin America in the late 1970s. A country in Mexico, Central America or Spanish- or Portuguese-speaking South America whose first stake was organized from 1977 through 1979.",
+   "id": "temples-groundbreaking-2025-outside-americas",
+   "bank": "temples",
+   "display_text": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
+   "text_original": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
    "accepts": "country",
-   "topic": "church growth",
-   "era": "1977-1979",
-   "citation": "Global Histories chronologies (Latin America)",
+   "topic": "temples",
+   "era": "2025",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "In just three years eight Latin American countries got their first stakes, from San Jose and Bogota in January 1977 to Panama City in November 1979. Earlier firsts came in Mexico, Brazil, Argentina, Guatemala, Uruguay, Peru, Chile and El Salvador; Nicaragua followed in 1981, and Belize still has a district.",
+   "summary": "2025 was a busy year for temple groundbreakings outside the Americas, including first-temple groundbreakings in Belgium, Hungary, Madagascar, Singapore and the Republic of the Congo, and new temples in Ghana, Nigeria, South Africa, England, New Zealand and the Philippines.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "PAN"
+    "COG",
+    "HUN",
+    "MDG"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "COL",
-     "name": "Colombia",
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Birmingham England (22 March 2025)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tacloban City Philippines (18 January 2025)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
      "commonness": 3,
      "gem": false,
-     "fact": "Bogota Colombia Stake, January 23, 1977."
+     "fact": "Kumasi Ghana (18 October 2025)."
     },
     {
-     "code": "ECU",
-     "name": "Ecuador",
+     "code": "NGA",
+     "name": "Nigeria",
      "commonness": 3,
      "gem": false,
-     "fact": "Guayaquil, June 4, 1978, the first stake in Ecuador."
+     "fact": "Lagos Nigeria (10 May 2025); Benin City Nigeria (24 May 2025)."
     },
     {
-     "code": "VEN",
-     "name": "Venezuela",
+     "code": "NZL",
+     "name": "New Zealand",
      "commonness": 3,
      "gem": false,
-     "fact": "Caracas Venezuela Stake, May 15, 1977."
+     "fact": "Wellington New Zealand (2 August 2025)."
     },
     {
-     "code": "BOL",
-     "name": "Bolivia",
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cape Town South Africa (25 October 2025)."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
      "commonness": 2,
      "gem": false,
-     "fact": "Santa Cruz Bolivia Stake, January 14, 1979."
+     "fact": "Brussels Belgium (22 November 2025)."
     },
     {
-     "code": "CRI",
-     "name": "Costa Rica",
+     "code": "SGP",
+     "name": "Singapore",
      "commonness": 2,
      "gem": false,
-     "fact": "San Jose Costa Rica Stake, January 20, 1977."
+     "fact": "Singapore (28 June 2025)."
     },
     {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
-     "gem": false,
-     "fact": "San Pedro Sula Honduras Stake, April 10, 1977."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Asuncion Paraguay Stake, February 25, 1979."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
+     "code": "COG",
+     "name": "Republic of the Congo",
      "commonness": 1,
      "gem": true,
-     "fact": "Panama Stake, November 11, 1979."
+     "fact": "Brazzaville Republic of the Congo (23 August 2025)."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Budapest Hungary (21 June 2025)."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Antananarivo Madagascar (15 March 2025)."
     }
    ]
   },
   {
-   "id": "ot-assyria-takes-israel",
+   "id": "people-seventies-born-africa",
+   "bank": "people",
+   "display_text": "Pin an African country where a current General Authority Seventy was born (as of October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies were born in Africa. Pin an African country where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "2026",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/adeyinka-a-ojediran?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/thabo-lebethoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, seven African nations are birthplaces of current General Authority Seventies, including Nigeria, Ghana, Zimbabwe, the Democratic Republic of the Congo and Botswana. Elder Edward Dube of Zimbabwe serves in the Presidency of the Seventy.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BWA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Isaac K. Morrison, born in Takoradi."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Ojediran (Ibadan), Chigbundu (Ahiaba Okpuala) and Egbo (Port Harcourt)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Thabo Lebethoa, born in Soweto."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elders Alfred Kyungu and Thierry K. Mutombo (Kinshasa)."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Edward Dube of the Presidency of the Seventy, born in Chirumhanzu."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder D. Martin Goury, born in Gagnoa, Cote d'Ivoire."
+    },
+    {
+     "code": "BWA",
+     "name": "Botswana",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Clement M. Matswagothata, born in Middlepits."
+    }
+   ]
+  },
+  {
+   "id": "ot-joel-3-nations",
    "bank": "ot",
-   "display_text": "Pin a country holding a place in Assyria's conquest and resettlement of Israel, 2 Kings 15-17",
-   "text_original": "A present-day country holding a place named in Assyria's conquest and resettlement of the northern kingdom in 2 Kings 15-17: towns Tiglath-pileser took, Samaria, the lands the captives were sent to, and the cities settlers came from (sites agreed by scholars only)",
+   "display_text": "Pin a country holding Tyre, Zidon, Philistia, Egypt or Edom, judged in Joel 3, or Greece, where Judah's children were sold",
+   "text_original": "A present-day country holding a land the Lord calls to account in Joel 3 (Tyre, Zidon, the coasts of Palestine, Egypt, Edom), or Greece, where Judah's children were sold",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "2 Kings 15:29; 16:9; 17:5-6, 24",
+   "citation": "Joel 3:4-8, 19",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/gozan?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/media?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/sabeans?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/greece?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Samaria is in the West Bank (Palestine); Hazor, Kedesh and Galilee are in Israel.",
-   "summary": "Tiglath-pileser of Assyria took Gilead, Galilee and towns from Ijon to Hazor, then Damascus. Shalmaneser besieged Samaria, and in 721 BC its people were carried to Assyria, the Habor by the river of Gozan and the cities of the Medes, while settlers from Babylon, Cuthah and Hamath took their place (2 Kgs 15-17).",
+   "note": null,
+   "summary": "Joel 3 rebukes Tyre, Zidon and the Philistine coast for selling the children of Judah to the Grecians, and says Judah will in turn sell their children to the Sabeans, an Arab tribe. It also foretells desolation for Egypt and Edom, while Judah and Jerusalem endure forever (Joel 3:19-20).",
    "stamp": null,
    "gems": [
-    "IRN",
-    "JOR"
+    "GRC"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "IRQ",
-     "name": "Iraq",
+     "code": "EGY",
+     "name": "Egypt",
      "commonness": 5,
      "gem": false,
-     "fact": "Israel was carried away into Assyria, and settlers came from Babylon and Cuthah (2 Kgs 17:6, 24)."
+     "fact": "Egypt shall be a desolation (Joel 3:19)."
     },
     {
      "code": "ISR",
      "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "Tiglath-pileser took Abel-beth-maachah, Kedesh and Hazor, and Galilee (2 Kgs 15:29)."
+     "fact": "The coasts of Palestine, the Philistine shore, held Ashkelon and Ashdod (Joel 3:4)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tyre and Zidon are rebuked for selling the children of Judah (Joel 3:4)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Edom shall be a desolate wilderness (Joel 3:19)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 3,
      "gem": false,
-     "fact": "Shalmaneser besieged Samaria three years before it fell (2 Kgs 17:5-6)."
+     "fact": "The Philistine coast of Joel 3:4 also held Gaza, now in the Gaza Strip."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Assyria took Damascus (2 Kgs 16:9), and settlers were brought from Hamath (2 Kgs 17:24)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
+     "code": "GRC",
+     "name": "Greece",
      "commonness": 2,
      "gem": true,
-     "fact": "Captives from Samaria were placed in the cities of the Medes (2 Kgs 17:6)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Tiglath-pileser took Gilead and carried its people captive (2 Kgs 15:29)."
+     "fact": "Judah's children were sold unto the Grecians (Joel 3:6)."
     }
    ]
   },
   {
-   "id": "global-mtcs-closed-2019-2023",
+   "id": "global-hinckley-1998-travels",
    "bank": "global",
-   "display_text": "Pin a country whose Church missionary training center closed between 2019 and 2023",
-   "text_original": "Between 2019 and 2023 the Church closed several missionary training centers outside the United States as more missionaries trained at home or online. A country whose missionary training center closed in that period.",
+   "display_text": "Pin a country outside the United States that Gordon B. Hinckley visited in 1998",
+   "text_original": "In 1998 President Gordon B. Hinckley traveled about 77,000 miles to meet Saints around the world. A country outside the United States that he visited that year.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "2019-2023",
-   "citation": "Church News 2019-02-08; Newsroom (Guatemala MTC, Colombia MTC)",
+   "topic": "church leadership",
+   "era": "1998",
+   "citation": "Church News 1998-12-26",
    "source_urls": [
-    "https://www.thechurchnews.com/2019/2/8/23219280/heres-why-the-church-has-decided-to-close-4-international-mtcs/",
-    "https://newsroom.churchofjesuschrist.org/article/guatemala-missionary-training-center-closing",
-    "https://newsroom.churchofjesuschrist.org/article/colombia-mtc-closing-january-2023"
+    "https://www.thechurchnews.com/1998/12/26/23249519/travels-of-the-prophet-pres-hinckley-traveled-77-000-miles-during-1998"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "In 2019 the Church closed its training centers in Santiago, Madrid and Santo Domingo, then Buenos Aires that July. Guatemala City followed in January 2020 and Bogota in January 2023. Missionaries from those lands now train at home, online or at the remaining centers.",
-   "stamp": null,
+   "summary": "Gordon B. Hinckley logged about 77,000 miles in 1998. In February he toured West, East and Southern Africa, announcing a temple in Accra and stopping in Cape Verde and the Canary Islands. He also visited northern Mexico, western Europe including Preston, England, nine Canadian cities, and in November Nicaragua and Honduras.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "COL",
-    "DOM",
-    "GTM"
+    "CPV"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 5,
      "gem": false,
-     "fact": "The Buenos Aires MTC closed in July 2019."
+     "fact": "An August tour of nine Canadian cities, including Halifax."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In March he visited 10 cities in northern Mexico."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Preston, England, June 7-10."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 3,
      "gem": false,
-     "fact": "The Santiago MTC closed in January 2019."
+     "fact": "Geneva, on the June European trip."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Frankfurt, on the June European trip."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paris, June 4."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In Accra on February 16 he announced a temple for Ghana."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Port Harcourt, February."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Johannesburg, Durban and Cape Town, February."
     },
     {
      "code": "ESP",
      "name": "Spain",
-     "commonness": 3,
+     "commonness": 2,
      "gem": false,
-     "fact": "The Madrid MTC closed in January 2019."
+     "fact": "Las Palmas in the Canary Islands, February 13."
     },
     {
-     "code": "COL",
-     "name": "Colombia",
+     "code": "HND",
+     "name": "Honduras",
      "commonness": 2,
-     "gem": true,
-     "fact": "The Bogota MTC closed in January 2023."
+     "gem": false,
+     "fact": "San Pedro Sula and Tegucigalpa, November."
     },
     {
-     "code": "DOM",
-     "name": "Dominican Republic",
+     "code": "KEN",
+     "name": "Kenya",
      "commonness": 2,
-     "gem": true,
-     "fact": "The Santo Domingo MTC closed in January 2019."
+     "gem": false,
+     "fact": "Nairobi, February."
     },
     {
-     "code": "GTM",
-     "name": "Guatemala",
+     "code": "NIC",
+     "name": "Nicaragua",
      "commonness": 2,
+     "gem": false,
+     "fact": "Managua, November 19."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Harare, February."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
      "gem": true,
-     "fact": "The Guatemala City MTC closed in January 2020."
+     "fact": "Praia, February 22."
     }
    ]
   }

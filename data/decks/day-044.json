@@ -2,276 +2,232 @@
  "day": 44,
  "prompts": [
   {
-   "id": "temples-groundbreaking-2021",
-   "bank": "temples",
-   "display_text": "Pin a country or territory where ground was broken for a new temple in 2021.",
-   "text_original": "Pin a country or territory where ground was broken for a new temple in 2021.",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2021",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "id": "saints-v4-35-family-services",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as having a Church Family Services agency in the 2000s.",
+   "text_original": "Saints vol. 4 ch. 35: LDS Family Services ran agencies in only these countries in the 2000s. Pin one.",
+   "accepts": "country",
+   "topic": "welfare",
+   "era": "2000s",
+   "citation": "Saints vol. 4 ch. 35",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/35-hand-in-hand?lang=eng"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "A groundbreaking starts construction of a temple, usually a few years after it is announced. 12 temple groundbreakings were held in 2021 in 7 countries or territories; see each answer for the temple and date.",
-   "stamp": "as of 26 Oct 2026",
+   "summary": "In the 2000s LDS Family Services ran agencies in only six countries: the United States, Canada, Australia, New Zealand, Great Britain and Japan. Japan was the only Asian country on the list.",
+   "stamp": null,
    "gems": [
-    "ASM",
-    "KHM"
+    "JPN"
    ],
    "gem_forced": false,
    "answers": [
     {
      "code": "USA",
-     "name": "United States of America",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Deseret Peak Utah (15 May 2021); Tallahassee Florida (5 June 2021); Syracuse Utah (12 June 2021); and 3 more."
+     "fact": "Home base of the agency."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Salvador Brazil (7 August 2021)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Bacolod Philippines (11 December 2021)."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
+     "code": "CAN",
+     "name": "Canada",
      "commonness": 3,
      "gem": false,
-     "fact": "Neiafu Tonga (11 September 2021)."
+     "fact": "One of six countries with agencies."
     },
     {
-     "code": "KEN",
-     "name": "Kenya",
+     "code": "AUS",
+     "name": "Australia",
      "commonness": 2,
      "gem": false,
-     "fact": "Nairobi Kenya (11 September 2021)."
+     "fact": "One of six countries with agencies."
     },
     {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Pago Pago American Samoa (30 October 2021)."
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Listed as Great Britain."
     },
     {
-     "code": "KHM",
-     "name": "Cambodia",
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "One of six countries with agencies."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 1,
      "gem": true,
-     "fact": "Phnom Penh Cambodia (18 September 2021)."
+     "fact": "The only Asian country with an agency."
     }
    ]
   },
   {
-   "id": "global-central-america-dedications-1990-92",
-   "bank": "global",
-   "display_text": "Pin a Central American country an Apostle dedicated or rededicated for preaching from 1990 to 1992",
-   "text_original": "Spencer W. Kimball dedicated all of Central America in 1952. Between 1990 and 1992 Apostles returned and dedicated (or, in one case, rededicated) each Central American country individually for the preaching of the gospel. A Central American country dedicated in that period.",
+   "id": "people-seventies-born-europe",
+   "bank": "people",
+   "display_text": "Pin a European country where a current General Authority Seventy was born (as of October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies were born in Europe. Pin a European country where a current General Authority Seventy was born, according to the Church's official biographies.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1990-1992",
-   "citation": "Global Histories chronologies (Central America)",
+   "topic": "church leadership",
+   "era": "2026",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-t-phillips?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/karl-d-hirst?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jorg-klebingat?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-cziesla?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/massimo-de-feo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christophe-g-giraud-carrier?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hans-t-boom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Elder Spencer W. Kimball dedicated Central America as a whole in 1952. In a burst from 1990 to 1992, Russell M. Nelson, Richard G. Scott, Howard W. Hunter, Marvin J. Ashton and Boyd K. Packer offered prayers for each country in turn, so every Central American nation received its own dedication.",
-   "stamp": null,
-   "gems": [
-    "BLZ"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Rededicated by Marvin J. Ashton, October 19, 1991, in Quetzaltenango."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Boyd K. Packer, August 22, 1992."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Russell M. Nelson, June 1, 1991, on El Picacho above Tegucigalpa."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Russell M. Nelson, April 7, 1990, in San Salvador."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Richard G. Scott and Russell M. Nelson, April 9, 1990, in Managua."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Howard W. Hunter, August 24, 1991."
-    },
-    {
-     "code": "BLZ",
-     "name": "Belize",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Russell M. Nelson, June 23, 1991, with about 36 members present."
-    }
-   ]
-  },
-  {
-   "id": "global-first-stakes-1995-97",
-   "bank": "global",
-   "display_text": "Pin a country whose very first stake of the Church was organized between 1995 and 1997",
-   "text_original": "In just three years, 1995 to 1997, the Church organized first stakes in countries as far apart as Ireland, Thailand, Kiribati and Haiti. A country whose very first stake of the Church was organized between 1995 and 1997.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1995-1997",
-   "citation": "Global Histories chronologies (Ireland, Singapore, Thailand, Papua New Guinea, Kiribati, DR Congo, Cote d'Ivoire, Haiti)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/kiribati/ki-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/indonesia?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Ireland counts: Dublin's 1995 stake was its first. Belfast's 1974 stake is in the United Kingdom.",
-   "summary": "In 1995 the Church organized first stakes in Singapore, Dublin, Bangkok and Port Moresby. Kiribati and Zaire, now DR Congo, followed in 1996, and Cote d'Ivoire and Haiti in 1997, showing how quickly the Church was maturing in Asia, the Pacific, Africa and the Caribbean.",
+   "summary": "As of October 2026, six European countries are birthplaces of current General Authority Seventies: the United Kingdom, Germany, Italy, France, the Netherlands and Portugal. Elder Massimo De Feo of Taranto, Italy, and Elder Hans T. Boom of Amsterdam are among them.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CIV",
-    "KIR"
+    "NLD",
+    "PRT"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "IRL",
-     "name": "Ireland",
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Jorg Klebingat (Zweibrucken) and Michael Cziesla (Neumunster)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Alan T. Phillips (Kent, England) and Karl D. Hirst (Bury, Lancashire)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
      "commonness": 3,
      "gem": false,
-     "fact": "The Dublin Ireland Stake, the first in the Republic of Ireland, was organized March 12, 1995."
+     "fact": "Elder Christophe G. Giraud-Carrier, born in Lyon."
     },
     {
-     "code": "COD",
-     "name": "DR Congo",
-     "commonness": 2,
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
      "gem": false,
-     "fact": "The Zaire Kinshasa Stake, the first in the country, was organized November 3, 1996."
+     "fact": "Elder Massimo De Feo, born in Taranto."
     },
     {
-     "code": "HTI",
-     "name": "Haiti",
+     "code": "NLD",
+     "name": "Netherlands",
      "commonness": 2,
-     "gem": false,
-     "fact": "The Port-au-Prince Haiti Stake, the first in Haiti, was organized September 21, 1997."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Port Moresby Papua New Guinea Stake was created October 22, 1995, with Vaiba Rome as president."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Singapore Stake was organized February 26, 1995, with Leonard Woo as president."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Neal A. Maxwell created the Bangkok Thailand Stake, June 18-19, 1995."
-    },
-    {
-     "code": "CIV",
-     "name": "Cote d'Ivoire",
-     "commonness": 1,
      "gem": true,
-     "fact": "The Abidjan Cote d'Ivoire Stake, the country's first, was organized August 17, 1997."
+     "fact": "Elder Hans T. Boom, born in Amsterdam."
     },
     {
-     "code": "KIR",
-     "name": "Kiribati",
-     "commonness": 1,
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
      "gem": true,
-     "fact": "Elder L. Tom Perry organized the Tarawa Kiribati Stake, August 11, 1996."
+     "fact": "Elder Jose Teixeira, born in Vila Real."
     }
    ]
   },
   {
-   "id": "nt-country-names-in-kjv",
-   "bank": "nt",
-   "display_text": "Pin a country whose modern name, or its main word, appears as a land, river or people in the King James New Testament",
-   "text_original": "A present-day country whose name, or the main word of it, is spelled as a land, river or people in the King James New Testament",
+   "id": "ot-song-of-solomon-places",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place named in the Song of Solomon, from Engedi to Lebanon (leave out Tirzah and Kedar)",
+   "text_original": "A present-day country holding a place named in the Song of Solomon: Lebanon and the tops of Amana, Shenir and Hermon, the tower of Lebanon toward Damascus, Engedi, Carmel and Sharon, Heshbon and Gilead, or Pharaoh's chariots (Tirzah and the tents of Kedar are left out: their sites are not fixed in Church sources)",
    "accepts": "country",
-   "topic": "scripture geography",
-   "era": "New Testament",
-   "citation": "Matthew 2:13, 20; 3:6; 4:24; Acts 2:10-11; 4:36; 8:27; 16:9; 20:2; 27:1; Romans 15:24; Galatians 1:17",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Song of Solomon 1-7",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/1?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/7?lang=eng"
    ],
-   "difficulty": 2,
-   "note": "This prompt is about the name only, so Malta (Melita) and Romania (Romans) do not count.",
-   "summary": "A dozen modern countries carry a name the King James New Testament already uses. Egypt, Israel, Syria, Greece, Italy and Cyprus are familiar, and the nation of Jordan takes its name from the river. Arabia, Macedonia, the Ethiopians, Libya and Spain also appear, the last as the place Paul hoped to reach after Rome.",
+   "difficulty": 3,
+   "note": "Mount Hermon (Shenir) sits on the Lebanon-Syria border, so both count. Jerusalem is scored as Israel.",
+   "summary": "The Song of Solomon draws its imagery from the whole land: the vineyards of Engedi, the rose of Sharon, the cedars of Lebanon, the heights of Hermon, the pools of Heshbon and the goats of Gilead. It also borrows Pharaoh's chariots (Song 1-7).",
    "stamp": null,
    "gems": [
-    "ESP",
-    "LBY"
+    "EGY",
+    "JOR",
+    "SYR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Camphire in the vineyards of Engedi, the rose of Sharon, and a head like Carmel (Song 1:14; 2:1; 7:5)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Come with me from Lebanon; the tower of Lebanon looks toward Damascus (Song 4:8; 7:4)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": true,
+     "fact": "She is likened to a company of horses in Pharaoh's chariots (Song 1:9)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Her eyes are like the fishpools in Heshbon, and her hair as a flock of goats from mount Gilead (Song 4:1; 7:4)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": true,
+     "fact": "The tower of Lebanon looketh toward Damascus, and the bride is called from the top of Shenir and Hermon (Song 4:8; 7:4)."
+    }
+   ]
+  },
+  {
+   "id": "ot-josiah-and-pharaoh-necho",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place in Josiah's reforms, his death at Megiddo, or Pharaoh Necho's march",
+   "text_original": "A present-day country holding a place or kingdom named in Josiah's reforms and death and their aftermath (2 Kings 23; 2 Chronicles 35:20-36:4): the high places of the gods of Zidon, Moab and Ammon, Bethel and Samaria's high places, Megiddo, Necho's march against the king of Assyria toward Carchemish by Euphrates, Riblah in Hamath, and Egypt",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "2 Kings 23; 2 Chronicles 35:20-36:4",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/35?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/carchemish?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Bethel and Samaria are in the West Bank (Palestine); Megiddo is in Israel.",
+   "summary": "King Josiah of Judah purged idolatry from Jerusalem to Bethel and the cities of Samaria. When Pharaoh Necho marched north toward Carchemish to aid the king of Assyria, Josiah met him at Megiddo and was slain. Necho then bound Josiah's son Jehoahaz at Riblah and carried him to Egypt (2 Kgs 23; 2 Chr 35).",
+   "stamp": null,
+   "gems": [
+    "LBN",
+    "TUR"
    ],
    "gem_forced": false,
    "answers": [
@@ -280,164 +236,167 @@
      "name": "Egypt",
      "commonness": 5,
      "gem": false,
-     "fact": "Joseph was told to flee into Egypt (Matthew 2:13)."
+     "fact": "Pharaoh-nechoh king of Egypt came up, and he carried Jehoahaz to Egypt, where he died (2 Kgs 23:29, 34)."
     },
     {
      "code": "ISR",
      "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Joseph was told to go into the land of Israel (Matthew 2:20)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
      "commonness": 4,
      "gem": false,
-     "fact": "Paul came into Greece and stayed three months (Acts 20:2-3)."
+     "fact": "Josiah went against Necho and was slain at Megiddo (2 Kgs 23:29; 2 Chr 35:22-24)."
     },
     {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "It was determined that Paul should sail into Italy (Acts 27:1)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Jesus' fame went throughout all Syria (Matthew 4:24)."
-    },
-    {
-     "code": "CYP",
-     "name": "Cyprus",
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 3,
      "gem": false,
-     "fact": "Barnabas was a Levite of the country of Cyprus (Acts 4:36)."
+     "fact": "Josiah broke down the altar at Bethel and the high places in the cities of Samaria (2 Kgs 23:15, 19)."
     },
     {
      "code": "JOR",
      "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "John baptized in Jordan; the country takes its name from the river (Matthew 3:6)."
-    },
-    {
-     "code": "ETH",
-     "name": "Ethiopia",
      "commonness": 2,
      "gem": false,
-     "fact": "Philip met a eunuch of great authority under Candace, queen of the Ethiopians (Acts 8:27)."
+     "fact": "Josiah defiled the high places Solomon had built for Chemosh of the Moabites and Milcom of the children of Ammon (2 Kgs 23:13)."
     },
     {
-     "code": "MKD",
-     "name": "North Macedonia",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 2,
      "gem": false,
-     "fact": "Paul saw a man of Macedonia in a vision (Acts 16:9)."
+     "fact": "Necho put Jehoahaz in bands at Riblah in the land of Hamath (2 Kgs 23:33)."
     },
     {
-     "code": "SAU",
-     "name": "Saudi Arabia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Paul went into Arabia after his conversion; Arabians heard at Pentecost (Galatians 1:17; Acts 2:11)."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 1,
      "gem": true,
-     "fact": "Paul hoped to visit the Romans whenever he took his journey into Spain (Romans 15:24)."
+     "fact": "He also defiled the high place Solomon built for Ashtoreth the abomination of the Zidonians (2 Kgs 23:13)."
     },
     {
-     "code": "LBY",
-     "name": "Libya",
+     "code": "TUR",
+     "name": "Turkey",
      "commonness": 1,
      "gem": true,
-     "fact": "Pentecost pilgrims came from the parts of Libya about Cyrene (Acts 2:10)."
+     "fact": "Necho came to fight against Carchemish by Euphrates (2 Chr 35:20); the ruins of Carchemish lie at Turkey's border with Syria; Church Bible Maps 5, 6 and 9 plot Carchemish on the upper Euphrates."
     }
    ]
   },
   {
-   "id": "pioneer-wwi-nations-at-war-1914",
-   "bank": "pioneer",
-   "display_text": "Pin a country Saints vol. 3 names among the nations at war by early August 1914.",
-   "text_original": "Saints vol. 3 chapter 11 opens with German shells falling on Liege, Belgium, in August 1914, where a young Latter-day Saint named Arthur Horbach took cover. It names the nations already at war by early August. Pin a present-day country that matches one of those nations.",
-   "accepts": "country",
-   "topic": "world events",
-   "era": "1910s",
-   "citation": "Saints vol. 3 ch. 11",
+   "id": "people-seventies-born-latin-america",
+   "bank": "people",
+   "display_text": "Pin a Latin American or Caribbean country or territory where a current General Authority Seventy was born (October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies were born in Latin America or the Caribbean. Pin a country or territory in that region where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "2026",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/11-too-heavy?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-a-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ozani-farias?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/moises-villanueva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/sandino-roman?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-r-walker?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/eduardo-f-ortega?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/joaquin-e-costa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/patricio-m-giuffra?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ricardo-p-gimenez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/sergio-r-vargas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/taylor-g-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/valeri-v-cordon?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hugo-e-martinez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jorge-m-alvarado?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/mathias-held?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/pedro-x-larreal?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-g-brown?lang=eng",
+    "https://www.thechurchnews.com/leaders-and-ministry/2006-05-13/elder-anthony-d-perkins-general-authority-seventy-2006-86422/",
+    "https://www.churchofjesuschrist.org/study/ensign/2013/05/news/elder-arnulfo-valenzuela?lang=eng"
    ],
-   "difficulty": 1,
-   "note": "Austria-Hungary is scored as Austria and Hungary only; other lands it then ruled are not scored.",
-   "summary": "After a Serbian nationalist killed the heir to Austria-Hungary in 1914, the empire went to war with Serbia, and their allies quickly followed. By early August, Serbia, Russia, France, Belgium and Great Britain faced Austria-Hungary and Germany. Saints tells the war's start through Arthur Horbach, a teenage member in Liege, Belgium.",
-   "stamp": null,
+   "difficulty": 2,
+   "note": "Elder Perkins was born in Colorado and Elder Valenzuela in Mexico, so neither adds a country.",
+   "summary": "The Church's General Authority Seventies come from many nations. As of October 2026 their official biographies list birthplaces across Latin America and the Caribbean, from Brazil and Mexico to Jamaica, Venezuela and Puerto Rico. Brazil, Mexico, Argentina and Chile each have several.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "HUN",
-    "SRB"
+    "JAM"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "DEU",
-     "name": "Germany",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 5,
      "gem": false,
-     "fact": "Named as fighting alongside Austria-Hungary."
+     "fact": "Elders Aidukaitis, Godoy, Silva, Farias and others were born in Brazil."
     },
     {
-     "code": "FRA",
-     "name": "France",
+     "code": "MEX",
+     "name": "Mexico",
      "commonness": 5,
      "gem": false,
-     "fact": "Named on the side of Serbia."
+     "fact": "Elders Alonso (Mexico City), Casillas (Tijuana), Villanueva (Oaxaca), Roman (Iguala)."
     },
     {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Great Britain is named on the side of Serbia."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 4,
      "gem": false,
-     "fact": "Named on the side of Serbia."
+     "fact": "Elders Walker and Alliaud (Buenos Aires), Ortega, Costa."
     },
     {
-     "code": "AUT",
-     "name": "Austria",
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Giuffra and Villar (Valparaiso), Gimenez (Antofagasta), Vargas (Puerto Varas)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 3,
      "gem": false,
-     "fact": "Austria-Hungary, whose heir was assassinated, is named."
+     "fact": "Elder Valeri V. Cordon, born in Guatemala City."
     },
     {
-     "code": "BEL",
-     "name": "Belgium",
+     "code": "PER",
+     "name": "Peru",
      "commonness": 3,
      "gem": false,
-     "fact": "Named; Germany invaded France through Belgium, shelling Liege."
+     "fact": "Elder Taylor G. Godoy, born in Lima."
     },
     {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 2,
-     "gem": true,
-     "fact": "The other half of Austria-Hungary."
+     "gem": false,
+     "fact": "Elder Mathias Held, born in Bogota."
     },
     {
-     "code": "SRB",
-     "name": "Serbia",
+     "code": "PRI",
+     "name": "Puerto Rico",
      "commonness": 2,
+     "gem": false,
+     "fact": "Elders Hugo E. Martinez (Mayaguez) and Jorge M. Alvarado (Ponce)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Pedro X. Larreal, born in Valencia."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 1,
      "gem": true,
-     "fact": "Austria-Hungary first went to war with the Kingdom of Serbia."
+     "fact": "Elder Kevin G. Brown, born in Manchester, Jamaica."
     }
    ]
   }

@@ -2,93 +2,72 @@
  "day": 28,
  "prompts": [
   {
-   "id": "temples-conf-april-2022",
+   "id": "temples-conf-october-2011",
    "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the April 2022 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the April 2022 general conference.",
+   "display_text": "Pin a country where President Thomas S. Monson announced a new temple at the October 2011 general conference.",
+   "text_original": "Pin a country where President Thomas S. Monson announced a new temple at the October 2011 general conference.",
    "accepts": "country",
    "topic": "temples",
-   "era": "2022",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
+   "era": "2011",
+   "citation": "Thomas S. Monson, As We Meet Again, October 2011 general conference; ChurchofJesusChristTemples.org milestones",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://www.thechurchnews.com/2022/4/3/23217529/17-new-temples-announced-by-president-nelson-totaling-100-during-his-ministry/"
+    "https://www.churchofjesuschrist.org/study/general-conference/2011/10/as-we-meet-again",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "At the end of the April 2022 general conference, President Russell M. Nelson announced 17 new temples in 8 countries or territories. Brazzaville gave the Republic of the Congo its first temple announcement, and Birmingham was the third for England.",
+   "summary": "Opening the October 2011 general conference, President Thomas S. Monson named six new temples: Barranquilla, Colombia; Durban, South Africa; Kinshasa, Democratic Republic of the Congo; Star Valley, Wyoming; a second Provo temple in the burned Provo Tabernacle; and Paris, France, the first temple for that country.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "COG"
+    "COD"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
      "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Austin Texas; Cleveland Ohio; Knoxville Tennessee; and 5 more."
+     "fact": "Provo City Center; Star Valley Wyoming."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Maceió Brazil; Santos Brazil."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Mexico City Benemérito Mexico; San Luis Potosí Mexico."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 3,
      "gem": false,
-     "fact": "Birmingham England."
+     "fact": "Barranquilla Colombia."
     },
     {
-     "code": "NZL",
-     "name": "New Zealand",
+     "code": "FRA",
+     "name": "France",
      "commonness": 3,
      "gem": false,
-     "fact": "Wellington New Zealand."
+     "fact": "Paris France: President Monson said the Church was moving forward with plans for a Paris temple; Church sources date its announcement to this conference, 1 October 2011."
     },
     {
-     "code": "PER",
-     "name": "Peru",
+     "code": "ZAF",
+     "name": "South Africa",
      "commonness": 3,
      "gem": false,
-     "fact": "Cusco Peru."
+     "fact": "Durban South Africa."
     },
     {
-     "code": "ESP",
-     "name": "Spain",
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
      "commonness": 2,
-     "gem": false,
-     "fact": "Barcelona Spain."
-    },
-    {
-     "code": "COG",
-     "name": "Republic of the Congo",
-     "commonness": 1,
      "gem": true,
-     "fact": "Brazzaville Republic of the Congo."
+     "fact": "Kinshasa Democratic Republic of the Congo."
     }
    ]
   },
   {
-   "id": "temples-announced-no-groundbreaking-asia-pacific",
+   "id": "temples-second-dedicated-1987-2000",
    "bank": "temples",
-   "display_text": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
-   "text_original": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
-   "accepts": "country_or_territory",
+   "display_text": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
+   "text_original": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
+   "accepts": "country",
    "topic": "temples",
-   "era": "2026",
+   "era": "1987-2000",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
     "https://churchofjesuschristtemples.org/temples/chronology/",
@@ -96,90 +75,121 @@
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
+   "summary": "A country's second temple, counting only temples now in operation, usually means the Church there has outgrown one temple. Germany's second, in Frankfurt, was dedicated on 28 August 1987, the earliest in this set.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "MNG",
-    "NCL"
+    "JPN"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "AUS",
      "name": "Australia",
      "commonness": 4,
      "gem": false,
-     "fact": "Brisbane Australia South; Liverpool Australia."
+     "fact": "Adelaide Australia (15 June 2000)."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Tuguegarao City Philippines; Santiago Philippines; Iloilo Philippines; and 2 more."
+     "fact": "Recife Brazil (15 December 2000)."
     },
     {
-     "code": "CHN",
-     "name": "People's Republic of China",
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Toronto Ontario (25 August 1990)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Preston England (7 June 1998)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Colonia Juárez Chihuahua Mexico (6 March 1999)."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Shanghai People's Republic of China."
+     "fact": "Frankfurt Germany (28 August 1987)."
     },
     {
      "code": "JPN",
      "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Osaka Japan."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Busan Korea."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Savai'i Samoa."
-    },
-    {
-     "code": "ARE",
-     "name": "United Arab Emirates",
      "commonness": 2,
-     "gem": false,
-     "fact": "Dubai United Arab Emirates."
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jakarta Indonesia."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Uturoa French Polynesia."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 1,
      "gem": true,
-     "fact": "Ulaanbaatar Mongolia."
+     "fact": "Fukuoka Japan (11 June 2000)."
+    }
+   ]
+  },
+  {
+   "id": "ot-zechariah-9-burden",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place named in Zechariah 9, from Damascus and Tyre to Gaza and Greece",
+   "text_original": "A present-day country holding a place named in Zechariah 9 (Hadrach, Damascus, Hamath, Tyre, Zidon, the Philistine cities, Greece)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Zechariah 9:1-13",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/greece?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Zechariah 9 opens with a burden on Damascus and Hamath in Syria, on Tyre and Zidon, and on the Philistine cities of Ashkelon, Gaza, Ekron and Ashdod. The same chapter foretells the king coming lowly on an ass and names Greece, by its Hebrew name Javan, as a foe Judah will overcome.",
+   "stamp": null,
+   "gems": [
+    "GRC"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ashkelon, Ekron and Ashdod are Philistine cities in Israel (Zechariah 9:5-6)."
     },
     {
-     "code": "NCL",
-     "name": "New Caledonia",
-     "commonness": 1,
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tyrus and Zidon are named, and Tyre will be devoured with fire (Zechariah 9:2-4)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The burden falls on Damascus, and Hamath borders it (Zechariah 9:1-2)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Gaza shall be very sorrowful (Zechariah 9:5)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
      "gem": true,
-     "fact": "Nouméa New Caledonia."
+     "fact": "The Lord will raise Zion's sons against thy sons, O Greece (Zechariah 9:13)."
     }
    ]
   },
@@ -315,135 +325,80 @@
    ]
   },
   {
-   "id": "ot-zephaniah-2-nations",
-   "bank": "ot",
-   "display_text": "Pin a country holding a people judged in Zephaniah 2: Philistines, Moab, Ammon, Assyria, or the Nile land of Cush",
-   "text_original": "A present-day country holding a people judged in Zephaniah 2 (Philistines, Moab, Ammon, the Ethiopians of Cush on the Nile, Assyria)",
+   "id": "global-northern-europe-dedications-1977-98",
+   "bank": "global",
+   "display_text": "Pin a Northern European country opened to missionaries with a prayer of dedication (or rededication), 1977-1998",
+   "text_original": "Long after the first Scandinavian missions, Church leaders offered new dedicatory prayers across Northern Europe. A country in Northern Europe (the Nordic and Baltic countries, the United Kingdom and Ireland) that a Church leader dedicated or rededicated for the preaching of the gospel between 1977 and 1998.",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Zephaniah 2",
+   "topic": "missionary work",
+   "era": "1977-1998",
+   "citation": "Global Histories chronologies (Northern Europe)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/zeph/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "Zephaniah 2 calls Judah to seek meekness, then names the peoples who will be judged: the Philistine cities of Gaza, Ashkelon, Ashdod and Ekron, Moab and Ammon, the Ethiopians, and Assyria with its capital Nineveh. The Bible's Ethiopia, or Cush, was the Nile land south of Egypt, today Sudan, not modern Ethiopia.",
+   "note": "Only Ireland counts. The 1985 dedication of the whole island was given in Northern Ireland; the United Kingdom had none.",
+   "summary": "Between 1977 and 1998 Church leaders dedicated or rededicated six Northern European lands. Joseph B. Wirthlin dedicated Iceland in 1977 and Neal A. Maxwell dedicated Ireland in 1985. As the Soviet Union opened, Apostles dedicated Estonia in 1990 and Latvia and Lithuania in 1993, and Thomas S. Monson rededicated Denmark in 1998.",
    "stamp": null,
    "gems": [
-    "SDN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Lord will destroy Assyria and make Nineveh a desolation (Zephaniah 2:13)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Ashkelon, Ashdod and Ekron were Philistine cities (Zephaniah 2:4)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Moab and the children of Ammon shall be as Sodom (Zephaniah 2:8-9)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Gaza shall be forsaken (Zephaniah 2:4); it lies in the Gaza Strip."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Ye Ethiopians also, ye shall be slain (Zephaniah 2:12); Bible Ethiopia, or Cush, ran south from Syene along the Nile, today Sudan."
-    }
-   ]
-  },
-  {
-   "id": "bom-180th-anniversary-west-africa",
-   "bank": "bom",
-   "display_text": "Pin a country whose youth joined West Africa's 2010 celebrations of the Book of Mormon's 180th anniversary",
-   "text_original": "A country whose youth joined the August 2010 West Africa celebrations of the 180th anniversary of the coming forth of the Book of Mormon",
-   "accepts": "country",
-   "topic": "Book of Mormon history",
-   "era": "2010",
-   "citation": "Global Histories chronologies: Liberia (Aug 2010), Benin (dated Aug 2011)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/benin/bj-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Liberia's chronology dates it August 2010; Benin's says August 2011. 1830 plus 180 is 2010.",
-   "summary": "The Book of Mormon was first published in 1830. To mark 180 years, more than 11,000 young people in seven West African countries held celebrations: Liberia, Nigeria, Benin, Togo, Ghana, Cote d'Ivoire and Sierra Leone.",
-   "stamp": null,
-   "gems": [
-    "BEN",
-    "TGO"
+    "LTU",
+    "LVA"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Nigeria is named among the seven countries in the celebrations."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Ghana is named among the seven countries in the celebrations."
-    },
-    {
-     "code": "CIV",
-     "name": "Cote d'Ivoire",
+     "code": "DNK",
+     "name": "Denmark",
      "commonness": 3,
      "gem": false,
-     "fact": "Cote d'Ivoire is named among the seven countries."
+     "fact": "Thomas S. Monson of the First Presidency rededicated Denmark in 1998."
     },
     {
-     "code": "LBR",
-     "name": "Liberia",
+     "code": "IRL",
+     "name": "Ireland",
      "commonness": 3,
      "gem": false,
-     "fact": "Liberia's chronology records the celebrations in August 2010."
+     "fact": "Elder Neal A. Maxwell dedicated Ireland near the site of the first Irish baptism, October 23, 1985."
     },
     {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 3,
+     "code": "EST",
+     "name": "Estonia",
+     "commonness": 2,
      "gem": false,
-     "fact": "Sierra Leone is named among the seven countries."
+     "fact": "Elder Russell M. Nelson dedicated Estonia above the Tallinn song festival grounds, April 25, 1990."
     },
     {
-     "code": "BEN",
-     "name": "Benin",
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Joseph B. Wirthlin, then a Seventy, dedicated Iceland from Oskjuhlid in Reykjavik, September 18, 1977."
+    },
+    {
+     "code": "LTU",
+     "name": "Lithuania",
      "commonness": 1,
      "gem": true,
-     "fact": "Benin's chronology lists its youth among the more than 11,000 taking part."
+     "fact": "Elder M. Russell Ballard dedicated Lithuania in Vilnius, February 20, 1993."
     },
     {
-     "code": "TGO",
-     "name": "Togo",
+     "code": "LVA",
+     "name": "Latvia",
      "commonness": 1,
      "gem": true,
-     "fact": "Togo is named among the seven countries."
+     "fact": "Elder James E. Faust dedicated Latvia at Jurmala, March 17, 1993."
     }
    ]
   }

@@ -2,392 +2,374 @@
  "day": 45,
  "prompts": [
   {
-   "id": "temples-new-2016-18",
-   "bank": "temples",
-   "display_text": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
-   "text_original": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
+   "id": "missions-ten-plus",
+   "bank": "draft",
+   "display_text": "Pin a country with ten or more of the Church's missions (end of 2025).",
+   "text_original": "Pin a country with ten or more of the Church's missions (end of 2025).",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2016-2018",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "topic": "missionary work",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "From 2016 through 2018, new temples were dedicated in Sapporo, Japan (2016), Paris, France (2017), Concepcion, Chile (2018) and Barranquilla, Colombia (2018), alongside eight in the United States. Paris was the first temple in France.",
-   "stamp": "as of 26 Oct 2026",
+   "note": "Next below the line: Guatemala, Japan, Ecuador and DR Congo with 7 each.",
+   "summary": "At the end of 2025 the United States had 120 of the Church's missions. Brazil (37), Mexico (34) and the Philippines (26) came next, and Peru, Argentina, Chile and Nigeria had 11 or more each. Nigeria and the Philippines were the only countries outside the Americas with ten or more.",
+   "stamp": null,
    "gems": [
-    "COL"
+    "NGA"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
      "code": "USA",
-     "name": "United States of America",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Cedar City Utah, 2017; Fort Collins Colorado, 2016; Hartford Connecticut, 2016; and 5 more."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Concepción Chile, 2018."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Paris France, 2017."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sapporo Japan, 2016."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Barranquilla Colombia, 2018."
-    }
-   ]
-  },
-  {
-   "id": "ot-sennacherib-invasion",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place in the story of Sennacherib's invasion of Judah, 2 Kings 18-19",
-   "text_original": "A present-day country holding a place named in the story of Sennacherib's invasion of Judah in 2 Kings 18-19: Lachish, Samaria, the conquered cities his envoys boasted of (Hamath, Arpad, Gozan, Haran, Rezeph), Egypt and Tirhakah king of the Nile land of Cush, Nineveh, and the land of Armenia where his killers fled",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "2 Kings 18-19",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ararat?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted. Samaria is in the West Bank (Palestine).",
-   "summary": "In Hezekiah's fourteenth year Sennacherib of Assyria took Judah's fenced cities and besieged Lachish. His officer Rabshakeh mocked trust in Egypt and listed the gods of conquered cities. Hezekiah prayed, Isaiah prophesied, and the angel of the Lord smote the Assyrian camp; Sennacherib returned to Nineveh, where his sons slew him (2 Kgs 18-19).",
-   "stamp": null,
-   "gems": [
-    "ARM",
-    "SDN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Sennacherib took the fenced cities of Judah and camped at Lachish, then sent his army against Jerusalem (2 Kgs 18:13-17)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Rabshakeh mocked Judah's trust in Egypt, that bruised reed (2 Kgs 18:21)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 4,
-     "gem": false,
-     "fact": "After the angel smote the camp, Sennacherib went home and dwelt at Nineveh (2 Kgs 19:35-36)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "His envoys asked where the gods of Hamath and Arpad were, and named Gozan and Rezeph among lands Assyria destroyed (2 Kgs 18:34; 19:12)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "They also asked whether any god had delivered Samaria (2 Kgs 18:34)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Haran is among the places they boasted of destroying (2 Kgs 19:12); Bible Dictionary Haran places it near the source of the Euphrates."
-    },
-    {
-     "code": "ARM",
-     "name": "Armenia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "His sons Adrammelech and Sharezer smote him and escaped into the land of Armenia (2 Kgs 19:37); Bible Dictionary Ararat: the district the Assyrians called Urartu, now called Armenia."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Tirhakah king of Ethiopia marched out to fight him (2 Kgs 19:9); Bible Ethiopia was the Nile land south of Egypt."
-    }
-   ]
-  },
-  {
-   "id": "pioneer-ballard-south-america-1925",
-   "bank": "pioneer",
-   "display_text": "Pin an independent South American country in the land Melvin J. Ballard dedicated for preaching in 1925.",
-   "text_original": "On Christmas Day 1925 in Buenos Aires, apostle Melvin J. Ballard dedicated all of South America for the preaching of the gospel. Pin any independent country of South America.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1925",
-   "citation": "Global Histories chronologies (Argentina, Brazil, Chile, Colombia, Bolivia, Uruguay, Venezuela)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng"
-   ],
-   "difficulty": 1,
-   "note": "The prayer covered the whole continent, so every South American country counts. French Guiana is part of France and does not.",
-   "summary": "In late 1925 Elder Melvin J. Ballard of the Quorum of the Twelve Apostles arrived in Buenos Aires to open a South American mission. On December 25 he dedicated the whole continent for the preaching of the gospel. Global Histories chronologies across the continent record that 1925 prayer as the start of Church growth in South America.",
-   "stamp": null,
-   "gems": [
-    "GUY",
-    "SUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Ballard offered the prayer in Buenos Aires in December 1925."
+     "fact": "120 missions."
     },
     {
      "code": "BRA",
      "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Global Histories (Brazil) lists the 1925 dedication of South America."
+     "fact": "37 missions."
     },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Global Histories (Chile) lists the 1925 dedication of South America."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Global Histories (Colombia) lists the 1925 dedication."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Global Histories (Venezuela) lists the 1925 dedication."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Global Histories (Bolivia) lists the 1925 dedication."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Global Histories (Uruguay) lists the 1925 dedication."
-    },
-    {
-     "code": "GUY",
-     "name": "Guyana",
-     "commonness": 1,
-     "gem": true,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "SUR",
-     "name": "Suriname",
-     "commonness": 1,
-     "gem": true,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    }
-   ]
-  },
-  {
-   "id": "nt-acts-18-cities",
-   "bank": "nt",
-   "display_text": "Pin a country holding a city or town named in Acts 18, from Paul's stay in Corinth to Apollos at Ephesus",
-   "text_original": "A present-day country holding a city or town named in Acts 18, the chapter of Paul's stay in Corinth and his return to Antioch",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "New Testament",
-   "citation": "Acts 18",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Only cities count, not regions, so Syria and North Macedonia do not. Antioch is in Turkey.",
-   "summary": "Acts 18 covers Paul's long stay in Corinth, where he made tents with Aquila and Priscilla, Jews expelled from Rome. He sailed from Cenchrea to Ephesus, landed at Caesarea, and went down to Antioch. Meanwhile Apollos of Alexandria arrived at Ephesus and was taught the way of God more perfectly.",
-   "stamp": null,
-   "gems": [
-    "EGY"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Paul left Athens for Corinth, stayed a year and a half, and shaved his head in Cenchrea (Acts 18:1, 11, 18)."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Claudius had commanded all Jews to leave Rome, so Aquila and Priscilla came to Corinth (Acts 18:2)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Paul landed at Caesarea and went up to salute the church; he hoped to keep the feast at Jerusalem (Acts 18:21-22)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Paul reasoned at Ephesus, then went down to Antioch, today's Antakya (Acts 18:19-22)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Apollos, mighty in the scriptures, was born at Alexandria (Acts 18:24)."
-    }
-   ]
-  },
-  {
-   "id": "global-latam-first-general-authorities-1981-91",
-   "bank": "global",
-   "display_text": "Pin a Latin American mainland country whose first General Authority from that country was called between 1981 and 1991",
-   "text_original": "In the 1980s Latin American members began to be called as General Authorities. A Latin American mainland country (Mexico, Central America or Spanish- and Portuguese-speaking South America) whose first native General Authority was called between 1981 and 1991.",
-   "accepts": "country",
-   "topic": "church leadership",
-   "era": "1981-1991",
-   "citation": "Global Histories chronologies (Latin American mainland); Church News 1989, 1991 and 2021",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.thechurchnews.com/1989/7/1/23262815/call-is-in-keeping-with-ancient-promise",
-    "https://www.thechurchnews.com/2021/10/21/23217404/elder-horacio-a-tenorio-first-general-authority-of-mexican-ancestry-dies-obit",
-    "https://www.thechurchnews.com/1991/4/20/23260678/elder-julio-e-davila/",
-    "https://www.churchofjesuschrist.org/study/general-conference/1991/04/the-sustaining-of-church-officers?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Later firsts include Uruguay (Francisco J. Vinas, 1996), Venezuela (Rafael E. Pino, 2008) and Peru (Juan A. Uceda, 2010).",
-   "summary": "Angel Abrea of Argentina became the first General Authority from South America in 1981. Brazil followed in 1985, Mexico and Guatemala in 1989 as the Second Quorum of the Seventy was formed, Chile in 1990 and Colombia in 1991. Each call showed the Church's leadership growing with its Latin American membership.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COL"
-   ],
-   "gem_forced": false,
-   "answers": [
     {
      "code": "MEX",
      "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Horacio A. Tenorio, the first General Authority of Mexican ancestry, was sustained to the Second Quorum of the Seventy, April 1, 1989."
+     "fact": "34 missions."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "26 missions."
     },
     {
      "code": "ARG",
      "name": "Argentina",
-     "commonness": 3,
+     "commonness": 2,
      "gem": false,
-     "fact": "Angel Abrea was called to the First Quorum of the Seventy in April 1981, the first General Authority from South America."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Helio da Rocha Camargo was called as a General Authority Seventy, April 6, 1985."
+     "fact": "14 missions."
     },
     {
      "code": "CHL",
      "name": "Chile",
      "commonness": 2,
      "gem": false,
-     "fact": "Eduardo Ayala became the first Chilean General Authority Seventy, March 31, 1990."
+     "fact": "11 missions."
     },
     {
-     "code": "GTM",
-     "name": "Guatemala",
+     "code": "PER",
+     "name": "Peru",
      "commonness": 2,
      "gem": false,
-     "fact": "Carlos H. Amado was called as a General Authority Seventy, April 1, 1989."
+     "fact": "15 missions."
     },
     {
-     "code": "COL",
-     "name": "Colombia",
+     "code": "NGA",
+     "name": "Nigeria",
      "commonness": 1,
      "gem": true,
-     "fact": "Julio E. Davila, Colombia's first stake president, was sustained to the Second Quorum of the Seventy, April 6, 1991, the first General Authority from Colombia."
+     "fact": "11 missions."
+    }
+   ]
+  },
+  {
+   "id": "global-warsaw-pact-dedications-1977-2006",
+   "bank": "global",
+   "display_text": "Pin a non-Soviet Warsaw Pact country (today's borders) dedicated or rededicated for the gospel between 1977 and 2006",
+   "text_original": "As communist rule eased and then ended, Church leaders dedicated or rededicated the former Soviet satellites of Europe for the preaching of the gospel. A country that was a Warsaw Pact member other than the Soviet Union (Poland, East Germany, Czechoslovakia, Hungary, Romania, Bulgaria, Albania), in its present-day form, dedicated or rededicated for preaching the gospel between 1977 and 2006.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1977-2006",
+   "citation": "Global Histories chronologies (Poland, Germany, Czech Republic, Slovakia, Hungary, Romania, Bulgaria, Albania)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Germany does not count. Elder Nelson's 1990 Prague rededication counts for the Czech Republic; Slovakia had its own in 2006.",
+   "summary": "Spencer W. Kimball rededicated Poland in 1977 while it was still communist. Russell M. Nelson dedicated Hungary in 1987, then Romania and Bulgaria and rededicated Czechoslovakia in early 1990. Dallin H. Oaks dedicated Albania in 1993, and Dieter F. Uchtdorf dedicated newly independent Slovakia in 2006.",
+   "stamp": null,
+   "gems": [
+    "ALB",
+    "SVK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "President Spencer W. Kimball rededicated Poland in Warsaw, August 24, 1977."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Russell M. Nelson rededicated Czechoslovakia in Prague, February 6, 1990."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Russell M. Nelson dedicated Hungary on Gellert Hill, Budapest, April 19, 1987."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Russell M. Nelson dedicated Romania in Cismigiu Park, Bucharest, February 8, 1990."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Russell M. Nelson dedicated Bulgaria in Sofia, February 13, 1990."
+    },
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Dallin H. Oaks dedicated Albania at Monument of Heroes Park, Tirana, April 23, 1993."
+    },
+    {
+     "code": "SVK",
+     "name": "Slovakia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Dieter F. Uchtdorf dedicated Slovakia in Trencin, May 12, 2006."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-mission-leaders-asia-pacific",
+   "bank": "people",
+   "display_text": "Pin an Asian or Pacific country where a current General Authority Seventy once led a mission (October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies had led missions in Asia or the Pacific. Pin a country there where one of those missions was headquartered, as named in the Church's official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1990s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/j-kimo-esplin?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/takashi-wada?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carl-b-cook?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/anthony-d-perkins?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kelly-r-johnson?lang=eng",
+    "https://www.thechurchnews.com/leaders-and-ministry/2009-05-16/elder-michael-t-ringwood-general-authority-seventy-2009-71649/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, General Authority Seventies had led missions in Japan, the Philippines, New Zealand, Taiwan and Thailand. Elder Michael John U. Teh, born in the Philippines, presided over the Taiwan Taichung Mission.",
+   "stamp": null,
+   "gems": [
+    "THA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Japan Tokyo North and South missions (Elder Esplin) and Japan Tokyo South (Elder Wada)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Philippines Quezon City Mission, 2013 to 2016 (Elder Revillo)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "New Zealand Auckland Mission (Elder Carl B. Cook)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taiwan Taipei (Elder Perkins) and Taiwan Taichung (Elder Teh) missions."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Michael T. Ringwood was called in 2004 to lead the Korea Seoul West Mission."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Kelly R. Johnson returned to the Thailand Bangkok Mission as a leader, 2015 to 2018."
+    }
+   ]
+  },
+  {
+   "id": "dc-gh-first-baptism-1883-1899",
+   "bank": "dc",
+   "display_text": "Pin a European country (Turkey counts) where Church histories place the first convert baptism on its soil in 1883-1899",
+   "text_original": "A European country (Turkey counts) whose first convert baptism on its soil, per Church histories, came between 1883 and 1899.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1880s-1890s",
+   "citation": "Church Global Histories chronologies: Austria, Czech Republic, Belgium, Russia, Romania; Church News country profile and Church History Topics: Turkey",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
+    "https://www.thechurchnews.com/2010/2/1/23228952/country-information-turkey/",
+    "https://www.churchofjesuschrist.org/study/history/topics/turkish-mission?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Poland, Hungary and Serbia do not count: their first converts were baptized outside their borders.",
+   "summary": "In the 1880s and 1890s missionaries carried the gospel into new corners of Europe. Church histories date first baptisms to Lambach, Austria (1883), Prague (1884), Constantinople (1885), Antwerp (1888), St. Petersburg (1895) and Constanta, Romania (1899).",
+   "stamp": null,
+   "gems": [
+    "ROU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1883: first convert baptism in Austria, at Lambach."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1895: first convert baptism in St. Petersburg."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1888: first convert baptism in Belgium, at Antwerp."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1884: first convert baptized in Prague."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": false,
+     "fact": "January 4, 1885: Hagop Vartooguian and his family were baptized in Constantinople by Jacob Spori, days after the Turkish Mission opened."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1899: first convert baptized at Constanta on the Black Sea."
+    }
+   ]
+  },
+  {
+   "id": "ot-jordan-river-lands",
+   "bank": "ot",
+   "display_text": "Pin a country holding part of the Jordan River, the sea of Chinnereth, or the Hermon springs that feed it",
+   "text_original": "A present-day country holding part of the Jordan River, the river Israel crossed under Joshua and Naaman washed in, including its sea of Chinnereth (Galilee) and the springs of Mount Hermon that feed it",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Joshua 3; 2 Kings 5; Bible Dictionary Jordan",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/jordan-river?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hermon?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Mount Hermon sits on the Lebanon-Syria border, and its springs feed the Jordan, so both count, as in the Song of Solomon prompt.",
+   "summary": "The Jordan River gathers springs on the slopes of Mount Hermon, flows through the sea of Chinnereth (Galilee), and winds down to the salt sea. Israel crossed it on dry ground at Jericho under Joshua, Elijah and Elisha parted it, and Naaman the Syrian was healed by dipping in it seven times (Josh 3; 2 Kgs 2, 5).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Jordan runs through the sea of Chinnereth, the Sea of Galilee, which lies in Israel (Deut 3:17; Bible Dictionary, Jordan River)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The river forms Jordan's western border; Israel camped on its east bank before crossing (Josh 3:1)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The lower river near Jericho, where the waters stood up as an heap for Israel, borders the West Bank (Josh 3:16)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Bible Dictionary says the Jordan is formed by several springs rising in Mount Hermon, a mountain on the Syria-Lebanon border."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Those Hermon springs feed the Jordan, and Mount Hermon's western slopes lie in Lebanon (Bible Dictionary, Jordan River and Hermon)."
     }
    ]
   }

@@ -2,410 +2,383 @@
  "day": 32,
  "prompts": [
   {
-   "id": "temples-conf-april-2021",
-   "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the April 2021 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the April 2021 general conference.",
+   "id": "history-temples-dedicated-1984",
+   "bank": "history2",
+   "display_text": "Pin a country where a new temple was dedicated in 1984 (not rededications).",
+   "text_original": "A country where a new temple was dedicated in 1984 (not counting rededications).",
    "accepts": "country",
    "topic": "temples",
-   "era": "2021",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "era": "1984",
+   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates), read 26 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/april-2021-general-conference-new-temples"
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "At the end of the April 2021 general conference, President Russell M. Nelson announced 20 new temples in 11 countries or territories. It was a then-record 20 temples, with firsts for Austria, Belgium, Norway, Singapore and Mozambique.",
+   "summary": "In 1984 new temples were dedicated in Asia, the Pacific and Latin America as well as the United States. Gordon B. Hinckley dedicated Sydney Australia, Manila Philippines, Taipei Taiwan and Guatemala City Guatemala that year, and Boise Idaho and Dallas Texas were also dedicated.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "MOZ"
+    "GTM",
+    "TWN"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
-     "name": "United States of America",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Burley Idaho; Casper Wyoming; Elko Nevada; and 6 more."
+     "fact": "Boise Idaho; Dallas Texas (dedicated 1984)."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
      "gem": false,
-     "fact": "Belo Horizonte Brazil."
+     "fact": "Sydney Australia (dedicated 1984)."
     },
     {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
      "gem": false,
-     "fact": "Querétaro Mexico; Torreón Mexico."
+     "fact": "Manila Philippines (dedicated 1984)."
     },
     {
-     "code": "AUT",
-     "name": "Austria",
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 2,
-     "gem": false,
-     "fact": "Vienna Austria."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Brussels Belgium."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Cali Colombia."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kumasi Ghana."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Oslo Norway."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Singapore."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Cape Town South Africa."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 1,
      "gem": true,
-     "fact": "Beira Mozambique."
+     "fact": "Guatemala City Guatemala (dedicated 1984)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Taipei Taiwan (dedicated 1984)."
     }
    ]
   },
   {
-   "id": "temples-announced-no-groundbreaking-africa",
+   "id": "temples-first-announced-2019-20",
    "bank": "temples",
-   "display_text": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
-   "text_original": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
-   "accepts": "country",
+   "display_text": "Pin a country or territory whose first temple was announced in 2019 or 2020.",
+   "text_original": "Pin a country or territory whose first temple was announced in 2019 or 2020.",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "era": "2019-2020",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
    "source_urls": [
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
    "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
+   "note": "Hong Kong, which has had a temple since 1996, is counted separately from mainland China.",
+   "summary": "In 2019 and 2020 eight countries and territories got their first temple announcement, including Hungary, Sierra Leone, Papua New Guinea, Kiribati and China (Shanghai). As of October 2026 none of the eight is dedicated yet; most are under construction.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "AGO",
-    "LBR",
-    "MOZ"
+    "ASM",
+    "KIR",
+    "PNG",
+    "SLE",
+    "VUT"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "GHA",
-     "name": "Ghana",
+     "code": "CHN",
+     "name": "People's Republic of China",
      "commonness": 3,
      "gem": false,
-     "fact": "Cape Coast Ghana."
+     "fact": "Shanghai, announced 2020."
     },
     {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Eket Nigeria; Calabar Nigeria; Abuja Nigeria; and 1 more."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
+     "code": "ARE",
+     "name": "United Arab Emirates",
      "commonness": 2,
      "gem": false,
-     "fact": "Kananga Democratic Republic of the Congo; Mbuji-Mayi Democratic Republic of the Congo."
+     "fact": "Dubai United Arab Emirates, announced 2020."
     },
     {
-     "code": "UGA",
-     "name": "Uganda",
+     "code": "HUN",
+     "name": "Hungary",
      "commonness": 2,
      "gem": false,
-     "fact": "Kampala Uganda."
+     "fact": "Budapest Hungary, announced 2019."
     },
     {
-     "code": "AGO",
-     "name": "Angola",
+     "code": "ASM",
+     "name": "American Samoa",
      "commonness": 1,
      "gem": true,
-     "fact": "Luanda Angola."
+     "fact": "Pago Pago American Samoa, announced 2019."
     },
     {
-     "code": "LBR",
-     "name": "Liberia",
+     "code": "KIR",
+     "name": "Kiribati",
      "commonness": 1,
      "gem": true,
-     "fact": "Monrovia Liberia."
+     "fact": "Tarawa Kiribati, announced 2020."
     },
     {
-     "code": "MOZ",
-     "name": "Mozambique",
+     "code": "PNG",
+     "name": "Papua New Guinea",
      "commonness": 1,
      "gem": true,
-     "fact": "Beira Mozambique; Maputo Mozambique."
+     "fact": "Port Moresby Papua New Guinea, announced 2019."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Freetown Sierra Leone, announced 2019."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Vila Vanuatu, announced 2020."
     }
    ]
   },
   {
-   "id": "people-seventies-born-europe",
-   "bank": "people",
-   "display_text": "Pin a European country where a current General Authority Seventy was born (as of October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Europe. Pin a European country where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "id": "ot-foreign-gods-homelands",
+   "bank": "ot",
+   "display_text": "Pin a country that was home to a foreign god named in the Old Testament, from Chemosh to Dagon",
+   "text_original": "A present-day country holding the home city or land of a foreign god named in the Old Testament: Chemosh of Moab, Milcom of Ammon, Ashtoreth of the Zidonians, Dagon of Ashdod and Gaza, Baal-zebub of Ekron, Rimmon of Damascus, Ashima of Hamath, Nisroch of Nineveh, Nergal of Cuth, Bel and Nebo of Babylon, and the gods of Egypt",
    "accepts": "country",
-   "topic": "church leadership",
-   "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Samuel 5; 1 Kings 11; 2 Kings 1, 5, 17, 19; Judges 16; Isaiah 46; Exodus 12",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alan-t-phillips?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/karl-d-hirst?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jorg-klebingat?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-cziesla?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/massimo-de-feo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christophe-g-giraud-carrier?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hans-t-boom?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026, six European countries are birthplaces of current General Authority Seventies: the United Kingdom, Germany, Italy, France, the Netherlands and Portugal. Elder Massimo De Feo of Taranto, Italy, and Elder Hans T. Boom of Amsterdam are among them.",
-   "stamp": "as of 26 Oct 2026",
+   "note": "Gaza is in Palestine; Ashdod and Ekron are in Israel.",
+   "summary": "The Old Testament names many gods of Israel's neighbours: Chemosh of Moab, Milcom of Ammon, Ashtoreth of Zidon, Dagon of the Philistines, Rimmon of Damascus and Nisroch of Nineveh. The ark toppled Dagon's image at Ashdod, Samson pulled down Dagon's house at Gaza, and Isaiah mocked Bel and Nebo of Babylon (1 Sam 5; Judg 16; Isa 46).",
+   "stamp": null,
    "gems": [
-    "NLD",
-    "PRT"
+    "PSE"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "DEU",
-     "name": "Germany",
+     "code": "EGY",
+     "name": "Egypt",
      "commonness": 4,
      "gem": false,
-     "fact": "Elders Jorg Klebingat (Zweibrucken) and Michael Cziesla (Neumunster)."
+     "fact": "The Lord said he would execute judgment against all the gods of Egypt (Ex 12:12)."
     },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Chemosh was the abomination of Moab and Milcom the abomination of the Ammonites (1 Kgs 11:5, 7)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Solomon went after Ashtoreth the goddess of the Zidonians (1 Kgs 11:5)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sennacherib was slain worshipping in the house of Nisroch his god at Nineveh; Bel and Nebo were gods of Babylon (2 Kgs 19:36-37; Isa 46:1)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Philistines set the ark in the house of Dagon at Ashdod, and Baal-zebub was the god of Ekron (1 Sam 5:2; 2 Kgs 1:2)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Naaman's master worshipped in the house of Rimmon at Damascus, and the men of Hamath made Ashima (2 Kgs 5:18; 17:30)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The lords of the Philistines gathered at Gaza to sacrifice to Dagon when Samson was captured (Judg 16:21-23)."
+    }
+   ]
+  },
+  {
+   "id": "ot-genesis-14-war-of-kings",
+   "bank": "ot",
+   "display_text": "Pin a country holding a kingdom or battle site in the war of the kings, Genesis 14",
+   "text_original": "A present-day country holding a kingdom or battle site in the war of the kings in Genesis 14: the eastern kings of Shinar and Elam, the peoples they smote from Ashteroth Karnaim to mount Seir and El-paran, the vale of Siddim by the salt sea, and Abram's pursuit to Dan and Hobah near Damascus",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 14",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/seir?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "The salt sea (Dead Sea) is shared by Israel, Jordan and the West Bank, so all three count for the vale of Siddim.",
+   "summary": "Four eastern kings led by Chedorlaomer of Elam crushed a revolt by five cities of the plain, swept through Bashan, Moab, Seir and Kadesh, and carried Lot away from Sodom. Abram armed 318 servants, pursued them to Dan and beyond Damascus, rescued Lot, and paid tithes to Melchizedek king of Salem (Gen 14).",
+   "stamp": null,
+   "gems": [
+    "EGY",
+    "PSE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Amraphel was king of Shinar, the land of Babylon (Gen 14:1)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The kings smote the Amorites at Hazezon-tamar, which is Engedi, and Abram pursued them unto Dan (Gen 14:7, 14; 2 Chr 20:2)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Chedorlaomer, who led the war, was king of Elam (Gen 14:1, 4-5)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "They smote the Zuzims in Ham and the Horites in their mount Seir (Gen 14:5-6)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "They smote the Rephaims in Ashteroth Karnaim, and Abram chased them to Hobah, on the left hand of Damascus (Gen 14:5, 15)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Horites were smitten in mount Seir unto El-paran, the wilderness of Paran in the central Sinai peninsula (Gen 14:6; Bible Dictionary, Paran)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The battle was in the vale of Siddim, which is the salt sea (Gen 14:3); the Dead Sea's northwest shore is in the West Bank."
+    }
+   ]
+  },
+  {
+   "id": "dc-hyde-1841-journey-stops",
+   "bank": "dc",
+   "display_text": "Pin a country where Orson Hyde stopped on his 1841 trip to dedicate the Holy Land (marked map stops).",
+   "text_original": "A country holding a city where Orson Hyde stopped on his 1841 mission journey from London to Jerusalem and back to Trieste, as mapped by the Joseph Smith Papers (Jerusalem itself not counted).",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1840s",
+   "citation": "Joseph Smith Papers map, Orson Hyde's mission travels June-December 1841; Saints vol. 1 ch. 36",
+   "source_urls": [
+    "https://josephsmithpapers.org/bc-jsp/content/jsp/images/content/library/pdf/D8_Map_Orson-Hyde-travels-1841.pdf",
+    "https://rsc.byu.edu/fall-2017/orson-hyde-nauvoo-jerusalem-back-again",
+    "https://www.churchofjesuschrist.org/study/history/topics/dedication-of-the-holy-land?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Only the cities marked on the JSP map count. The Danube leg (Austria, Hungary, Serbia, Bulgaria, Romania) has no marked stops.",
+   "summary": "In 1840 Orson Hyde saw London, Amsterdam, Constantinople and Jerusalem in vision and was sent to dedicate the Holy Land. He crossed Europe, sailed by way of Smyrna and Beirut to Jaffa, and prayed on the Mount of Olives on October 24, 1841. He returned through Egypt, Trieste and Germany and reached Nauvoo in December 1842.",
+   "stamp": null,
+   "gems": [
+    "ITA"
+   ],
+   "gem_forced": false,
+   "answers": [
     {
      "code": "GBR",
      "name": "United Kingdom",
      "commonness": 4,
      "gem": false,
-     "fact": "Elders Alan T. Phillips (Kent, England) and Karl D. Hirst (Bury, Lancashire)."
+     "fact": "London, where he departed in June 1841 after helping the Twelve in England."
     },
     {
-     "code": "FRA",
-     "name": "France",
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jaffa, where he landed in October 1841 before going inland to Jerusalem."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Christophe G. Giraud-Carrier, born in Lyon."
+     "fact": "Mainz, Frankfurt and Regensburg, where he boarded a Danube steamer in August 1841."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Damietta, Cairo and Alexandria on the way home, November 1841."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Constantinople (Istanbul) and Smyrna (Izmir)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Beirut, on the sea route from Smyrna to Jaffa."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Rotterdam, Amsterdam and Arnhem."
     },
     {
      "code": "ITA",
      "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Massimo De Feo, born in Taranto."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Elder Hans T. Boom, born in Amsterdam."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Elder Jose Teixeira, born in Vila Real."
-    }
-   ]
-  },
-  {
-   "id": "bom-heads-of-state-given-copy",
-   "bank": "bom",
-   "display_text": "Pin a country whose king, queen or president was given a Book of Mormon, per the Church's country chronologies",
-   "text_original": "A country whose king, queen or president received a copy of the Book of Mormon from Church representatives, as recorded in the Church's Global Histories chronologies",
-   "accepts": "country",
-   "topic": "Book of Mormon history",
-   "era": "1888-1999",
-   "citation": "Global Histories chronologies: Sweden, Netherlands, Costa Rica, Panama, Thailand, Slovakia",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; leaders of other countries have also received copies.",
-   "summary": "Church representatives have often given the Book of Mormon to heads of state. The Church's country chronologies record gifts to King Oscar II of Sweden in 1897, the Dutch royal family in 1888 and 1952, Costa Rica's president in 1947, Panama's in 1961, the king of Thailand in 1968 and Slovakia's president in 1999.",
-   "stamp": null,
-   "gems": [
-    "CRI",
-    "SVK"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 3,
-     "gem": false,
-     "fact": "A copy of John Volker's 1888 Dutch translation went to the king and queen; Queen Juliana later accepted one after meeting David O. McKay in 1952."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Jan M. Sjodahl presented a copy to King Oscar II in 1897, his 25th year on the throne."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Marion G. Romney presented a copy to President Roberto F. Chiari in 1961."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ezra Taft Benson gave King Bhumibol Adulyadej an English copy in Bangkok in 1968."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
      "commonness": 1,
      "gem": true,
-     "fact": "President Teodoro Picado was given a copy in San Jose in 1947."
-    },
-    {
-     "code": "SVK",
-     "name": "Slovakia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "President Rudolf Schuster and his wife accepted a copy at a Church open house in Bratislava in 1999."
-    }
-   ]
-  },
-  {
-   "id": "pioneer-servicemen-first-meetings",
-   "bank": "pioneer",
-   "display_text": "Pin a country or territory where US servicemen held the first Church meetings or were the first members (before 1955).",
-   "text_original": "In several places the Church took root not through missionaries but through Latter-day Saints serving in the United States military, who were the first known members or held the first Church meetings there. Pin a country or territory where the Global Histories record this happening before 1955.",
-   "accepts": "country_or_territory",
-   "topic": "missionary work",
-   "era": "1898-1955",
-   "citation": "Global Histories chronologies",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/marshall-islands/mh-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Before formal missions arrived, Latter-day Saints in the US military often became the Church's first presence in a land. Two soldiers held the first service in Manila in 1898, and in World War II and after, servicemen's groups met in Costa Rica, Guam, New Guinea, the Marshall Islands, Puerto Rico, Korea and the Azores.",
-   "stamp": null,
-   "gems": [
-    "MHL",
-    "PRT"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 4,
-     "gem": false,
-     "fact": "First Church meetings in Korea held by US servicemen, 1945-47."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Soldiers George Seaman and Willard Call held the first service in Manila, August 21, 1898."
-    },
-    {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 3,
-     "gem": false,
-     "fact": "First members on Guam were with the US military, 1944-46."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Servicemen met in homes in the 1940s; 1953 meetings at Fort Buchanan chapel."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 2,
-     "gem": false,
-     "fact": "First members in Costa Rica were US servicemen, July 1944."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Servicemen held services in New Guinea, 1944-45."
-    },
-    {
-     "code": "MHL",
-     "name": "Marshall Islands",
-     "commonness": 1,
-     "gem": true,
-     "fact": "First Church services held by American military personnel in the 1940s."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Earliest known members were servicemen at Lajes Field, Azores, in the 1950s."
+     "fact": "Trieste, then Austrian and now in Italy, reached in December 1841."
     }
    ]
   }

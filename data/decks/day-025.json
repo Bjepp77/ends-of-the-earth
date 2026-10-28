@@ -2,26 +2,99 @@
  "day": 25,
  "prompts": [
   {
-   "id": "temples-first-before-1960",
-   "bank": "draft",
-   "display_text": "Pin a country whose first temple was dedicated before 1960.",
-   "text_original": "Pin a country whose first temple of the Church was dedicated before 1960.",
-   "accepts": "country",
+   "id": "temples-first-announced-2018",
+   "bank": "temples",
+   "display_text": "Pin a country or territory whose first temple was announced in 2018.",
+   "text_original": "Pin a country or territory whose first temple was announced in 2018.",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "1877-1959",
-   "citation": "temple list, 26 Oct 2026",
+   "era": "2018",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
-   "difficulty": 1,
+   "difficulty": 3,
    "note": null,
-   "summary": "For most of its history the Church's temples stood in the United States, with St. George, Utah (1877) the oldest still on the list. Before 1960 only four other countries had one: Canada (Cardston, 1923), Switzerland (near Bern, 1955, the first in Europe), and New Zealand and the United Kingdom (both 1958).",
+   "summary": "In 2018, his first year as Church president, Russell M. Nelson announced first temples for seven countries and territories, from Russia and India to Guam and Cape Verde. Five of those have since been dedicated; Bengaluru and the Russia temple had not been as of October 2026.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CHE",
-    "GBR",
-    "NZL"
+    "CPV",
+    "GUM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bengaluru India, announced 2018."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A temple for a major city in Russia, announced 2018."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Phnom Penh Cambodia, announced 2018."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Managua Nicaragua, announced 2018."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Juan Puerto Rico, announced 2018."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde, announced 2018."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo Guam, announced 2018."
+    }
+   ]
+  },
+  {
+   "id": "history-temples-dedicated-2024",
+   "bank": "history2",
+   "display_text": "Pin a country where a temple was dedicated in 2024.",
+   "text_original": "A country where a temple was dedicated in 2024.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2024",
+   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 2024 the Church dedicated new temples across the Americas and Asia. Argentina gained two, Salta and Mendoza, and others were dedicated in Puebla Mexico, Salvador Brazil, Lima Peru Los Olivos, Urdaneta Philippines, San Pedro Sula Honduras and Cobán Guatemala. The United States had eight, including Deseret Peak, Taylorsville and Orem in Utah.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "GTM",
+    "HND"
    ],
    "gem_forced": true,
    "answers": [
@@ -30,177 +103,85 @@
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "St. George, 1877."
+     "fact": "Deseret Peak Utah, Taylorsville Utah, Orem Utah and 5 more dedicated in 2024."
     },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cardston, Alberta, 1923."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Near Bern, 1955, the first in Europe."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
-     "gem": true,
-     "fact": "London, near Lingfield, 1958."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Hamilton, 1958."
-    }
-   ]
-  },
-  {
-   "id": "temples-announced-no-groundbreaking-latin-america",
-   "bank": "temples",
-   "display_text": "Pin a Latin American country with an announced temple not yet under construction (as of October 2026).",
-   "text_original": "Pin a Latin American country with an announced temple not yet under construction (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held, some with a groundbreaking already scheduled. Each answer names the announced temple or temples in that country.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "BOL",
-    "DOM",
-    "SLV",
-    "URY",
-    "VEN"
-   ],
-   "gem_forced": true,
-   "answers": [
     {
      "code": "BRA",
      "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "São Paulo East Brazil; Vitória Brazil; Florianópolis Brazil; and 2 more."
+     "fact": "Salvador Brazil dedicated in 2024."
     },
     {
      "code": "MEX",
      "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Cuernavaca Mexico; Mexico City Benemérito Mexico; Toluca Mexico; and 7 more."
+     "fact": "Puebla Mexico dedicated in 2024."
     },
     {
      "code": "ARG",
      "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Buenos Aires City Center Argentina; Rosario Argentina."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Viña del Mar Chile; Puerto Montt Chile."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Medellín Colombia."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Otavalo Ecuador."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Retalhuleu Guatemala."
+     "fact": "Salta Argentina, Mendoza Argentina dedicated in 2024."
     },
     {
      "code": "PER",
      "name": "Peru",
      "commonness": 3,
      "gem": false,
-     "fact": "Piura Peru; Cusco Peru; Chiclayo Peru; and 2 more."
+     "fact": "Lima Peru Los Olivos dedicated in 2024."
     },
     {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "La Paz Bolivia."
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Urdaneta Philippines dedicated in 2024."
     },
     {
-     "code": "DOM",
-     "name": "Dominican Republic",
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 2,
      "gem": true,
-     "fact": "Santiago Dominican Republic."
+     "fact": "Cobán Guatemala dedicated in 2024."
     },
     {
-     "code": "SLV",
-     "name": "El Salvador",
+     "code": "HND",
+     "name": "Honduras",
      "commonness": 2,
      "gem": true,
-     "fact": "Santa Ana El Salvador."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Rivera Uruguay."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Maracaibo Venezuela."
+     "fact": "San Pedro Sula Honduras dedicated in 2024."
     }
    ]
   },
   {
-   "id": "pioneer-mischa-markow-missions",
-   "bank": "pioneer",
-   "display_text": "Pin a present-day country where Mischa Markow served his two missions (about 1887 to 1900s).",
-   "text_original": "Mischa Markow, one of the first converts in eastern Europe, served two missions in lands that today belong to several countries. Pin one of those present-day countries.",
+   "id": "global-western-europe-legal-recognition-1952-74",
+   "bank": "global",
+   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) that recognized the Church, 1952 to 1974",
+   "text_original": "After World War II, the Church sought official legal standing from European governments so it could own property and operate freely. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) whose government officially recognized the Church between 1952 and 1974.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1880s-1900s",
-   "citation": "Church History Topics: Mischa Markow",
+   "topic": "religious freedom",
+   "era": "1952-1974",
+   "citation": "Global Histories chronologies (continental Western Europe)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/topics/mischa-markow?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
    ],
    "difficulty": 3,
-   "note": null,
-   "summary": "Mischa Markow (1854-1934) was among the first Latter-day Saint converts in eastern Europe. Within 15 years of his conversion he served two missions across lands now in Hungary, Russia, Romania, Bulgaria, Turkey, Serbia, Croatia, Germany, Belgium and Latvia.",
+   "note": "Switzerland (1864) and Italy (1993) recognized the Church outside these years, so they do not count.",
+   "summary": "In the decades after World War II, Western European governments gave the Church legal standing one by one: France in 1952, West Germany in 1953, Austria and the Netherlands in 1955, Spain in 1968 and Portugal in 1974. Recognition let the Church own meetinghouses, hold meetings openly and bring in missionaries.",
    "stamp": null,
    "gems": [
-    "BGR",
-    "HRV",
-    "LVA"
+    "PRT"
    ],
    "gem_forced": false,
    "answers": [
@@ -209,226 +190,204 @@
      "name": "Germany",
      "commonness": 4,
      "gem": false,
-     "fact": "Named by Church History Topics among the countries of Markow's missions."
+     "fact": "West Germany recognized the Church as a public-law corporation, December 7, 1953."
     },
     {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "France registered the Church as a foreign association in September 1952."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 3,
      "gem": false,
-     "fact": "Named among Markow's mission countries."
+     "fact": "Spain officially recognized the Church, October 22, 1968."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Austria granted the Church legal recognition, September 27, 1955."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Netherlands recognized the Church, August 22, 1955, after 19 years of requests."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 1,
+     "gem": true,
+     "fact": "David M. Kennedy secured official recognition in Lisbon in 1974."
+    }
+   ]
+  },
+  {
+   "id": "global-hinckley-world-trip-2005",
+   "bank": "global",
+   "display_text": "Pin a country or territory outside the US where President Hinckley met Saints on his 2005 round-the-world trip",
+   "text_original": "In July and August 2005, at age 95, President Gordon B. Hinckley flew around the world, stopping to meet Saints in seven cities. A country or territory outside the United States where he stopped to meet members or dedicate a building on that trip.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "2005",
+   "citation": "Liahona, Dec. 2005, President Hinckley Travels the World",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/liahona/2005/12/news-of-the-church/president-hinckley-travels-the-world?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Hong Kong is the answer for the Hong Kong stop; mainland China was not visited.",
+   "summary": "In mid-2005 President Gordon B. Hinckley, then 95, circled the globe. He greeted Saints at Vladivostok, spoke in Seoul, dedicated office buildings in Taipei and Hong Kong, dedicated the Aba Nigeria Temple, and met small groups of members in Delhi and Nairobi.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IND",
+    "KEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He spoke at a regional conference in Seoul marking 50 years of the Church in Korea."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He dedicated the Aba Nigeria Temple."
     },
     {
      "code": "RUS",
      "name": "Russia",
      "commonness": 3,
      "gem": false,
-     "fact": "Named among Markow's mission countries."
+     "fact": "He greeted about 200 members at the Vladivostok airport during a refueling stop."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Named among Markow's mission countries (Ottoman lands)."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
+     "code": "HKG",
+     "name": "Hong Kong",
      "commonness": 2,
      "gem": false,
-     "fact": "Named among Markow's mission countries."
+     "fact": "He met members in Hong Kong and dedicated a Church office building."
     },
     {
-     "code": "ROU",
-     "name": "Romania",
+     "code": "TWN",
+     "name": "Taiwan",
      "commonness": 2,
      "gem": false,
-     "fact": "Named; he dreamed of preaching in Temesvar, now Timisoara, Romania."
+     "fact": "He met members in Taipei and dedicated a Church office building."
     },
     {
-     "code": "SRB",
-     "name": "Serbia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "BGR",
-     "name": "Bulgaria",
+     "code": "IND",
+     "name": "India",
      "commonness": 1,
      "gem": true,
-     "fact": "Named among Markow's mission countries."
+     "fact": "He met a small group of members in Delhi during a brief stop."
     },
     {
-     "code": "HRV",
-     "name": "Croatia",
+     "code": "KEN",
+     "name": "Kenya",
      "commonness": 1,
      "gem": true,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "LVA",
-     "name": "Latvia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named among Markow's mission countries."
+     "fact": "He met a small group of members in Nairobi during a brief stop."
     }
    ]
   },
   {
-   "id": "pioneer-wwii-allied-servicemen",
-   "bank": "pioneer",
-   "display_text": "Pin a British Commonwealth country whose Latter-day Saint servicemen fought in the early Allied operations of World War II.",
-   "text_original": "Latter-day Saint servicemen from several British Commonwealth countries took part in the early Allied military operations of World War II. Pin one of those countries.",
-   "accepts": "country",
-   "topic": "World War II",
-   "era": "1939-1941",
-   "citation": "Church History Topics: World War II",
+   "id": "people-seventies-born-asia-pacific",
+   "bank": "people",
+   "display_text": "Pin an Asian or Pacific country or territory where a current General Authority Seventy was born (October 2026, not US states).",
+   "text_original": "As of October 2026, several General Authority Seventies were born in Asia or the Pacific islands. Pin a country or territory there where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "2026",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/topics/world-war-ii?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/presidency-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-o-fantone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/takashi-wada?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christopher-h-kim?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/yoon-hwan-choi?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/vaiangina-sikahema?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/chi-hong-sam-wong?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/benjamin-m-z-tai?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/taniela-b-wakolo?lang=eng"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "The United States did not enter World War II until December 1941. Before then, Church History Topics notes, Latter-day Saint servicemen from Great Britain, Canada, Australia, New Zealand and South Africa were already taking part in Allied operations.",
-   "stamp": null,
+   "note": "Elder J. Kimo Esplin was born in Kahuku, Hawaii, a US state, so the display rules out US states.",
+   "summary": "As of October 2026, current General Authority Seventies were born in the Philippines, Japan, South Korea, Taiwan, Hong Kong, Tonga and Fiji. Elder Benjamin M. Z. Tai of Hong Kong serves in the Presidency of the Seventy.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ZAF"
+    "FJI",
+    "TWN"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "PHL",
+     "name": "Philippines",
      "commonness": 5,
      "gem": false,
-     "fact": "Great Britain is named; it declared war on Germany in September 1939."
+     "fact": "Elders Revillo (General Santos City), Fantone (Manila) and Teh (Davao City)."
     },
     {
-     "code": "CAN",
-     "name": "Canada",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 4,
      "gem": false,
-     "fact": "Named among the countries whose Saints served early in the war."
+     "fact": "Elder Takashi Wada, born in Nagano."
     },
     {
-     "code": "AUS",
-     "name": "Australia",
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Christopher H. Kim (Daegu) and Yoon Hwan Choi (Seoul)."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
      "commonness": 3,
      "gem": false,
-     "fact": "Named among the countries whose Saints served early in the war."
+     "fact": "Elders Chi Hong (Sam) Wong and Benjamin M. Z. Tai of the Presidency of the Seventy."
     },
     {
-     "code": "NZL",
-     "name": "New Zealand",
+     "code": "TON",
+     "name": "Tonga",
      "commonness": 3,
      "gem": false,
-     "fact": "Named among the countries whose Saints served early in the war."
+     "fact": "Elder Vaiangina Sikahema, born in Nuku'alofa."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
+     "code": "FJI",
+     "name": "Fiji",
      "commonness": 2,
      "gem": true,
-     "fact": "Named among the countries whose Saints served early in the war."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-missions-africa",
-   "bank": "people",
-   "display_text": "Pin an African country where a current Seventy served as a missionary or mission leader (October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies had served as young missionaries or as mission leaders in Africa. Pin an African country where one of their missions was headquartered, as named in the Church's official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1980s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-a-dunn?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/joni-l-koch?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Africa is now a training ground for Church leaders. As of October 2026, current Seventies had served or presided in missions based in nine African countries, from Nigeria and Ghana to Angola, Mozambique and Benin. Elder Edward Dube served both as a young missionary and as a mission president in his native Zimbabwe.",
-   "stamp": null,
-   "gems": [
-    "AGO",
-    "BEN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Lagos and Port Harcourt missionaries (Egbo, Morrison); Enugu and Calabar mission presidents (Chigbundu, Egbo)."
+     "fact": "Elder Taniela B. Wakolo, born in Lomaloma, Lau."
     },
     {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elder Isaac K. Morrison presided over the Ghana Cape Coast Mission."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elder Matswagothata served in the Cape Town mission; Elder Dunn led the Johannesburg mission."
-    },
-    {
-     "code": "CIV",
-     "name": "Ivory Coast",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Thierry K. Mutombo served in the Cote d'Ivoire Abidjan Mission."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Alfred Kyungu presided over the Mbuji-Mayi mission, 2016 to 2019."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Edward Dube: young missionary in Zimbabwe, later president of the Zimbabwe Harare Mission."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
+     "code": "TWN",
+     "name": "Taiwan",
      "commonness": 2,
-     "gem": false,
-     "fact": "Elder Joni L. Koch presided over the Mozambique Maputo Mission."
-    },
-    {
-     "code": "AGO",
-     "name": "Angola",
-     "commonness": 1,
      "gem": true,
-     "fact": "Elder Denelson Silva presided over the Angola Luanda Mission."
-    },
-    {
-     "code": "BEN",
-     "name": "Benin",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder D. Martin Goury presided over the Benin Cotonou Mission."
+     "fact": "Elder Wan-Liang Wu, born in Taipei."
     }
    ]
   }

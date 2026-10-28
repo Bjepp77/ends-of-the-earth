@@ -2,25 +2,25 @@
  "day": 36,
  "prompts": [
   {
-   "id": "temples-conf-october-2021",
+   "id": "temples-conf-october-2024",
    "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the October 2021 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the October 2021 general conference.",
+   "display_text": "Pin a country where a new temple was announced at the October 2024 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the October 2024 general conference.",
    "accepts": "country",
    "topic": "temples",
-   "era": "2021",
+   "era": "2024",
    "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
    "source_urls": [
     "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/october-2021-general-conference-new-temples"
+    "https://newsroom.churchofjesuschrist.org/article/october-2024-general-conference-new-temples"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "At the end of the October 2021 general conference, President Russell M. Nelson announced 13 new temples in 10 countries or territories. Antananarivo and Monrovia were the first temples announced for Madagascar and Liberia.",
+   "summary": "At the end of the October 2024 general conference, President Russell M. Nelson announced 17 new temples in 11 countries or territories. Dublin and Kampala were the first temples announced for Ireland and Uganda.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "LBR",
-    "MDG"
+    "MOZ",
+    "UGA"
    ],
    "gem_forced": false,
    "answers": [
@@ -29,194 +29,261 @@
      "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Cody Wyoming; Fort Worth Texas; Heber Valley Utah; and 1 more."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Vitória Brazil."
+     "fact": "Coeur d'Alene Idaho; El Paso Texas; Huntsville Alabama; and 4 more."
     },
     {
      "code": "MEX",
      "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Culiacán Mexico."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tacloban City Philippines."
+     "fact": "Juchitán de Zaragoza Mexico."
     },
     {
      "code": "CHL",
      "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Santiago West Chile."
+     "fact": "Puerto Montt Chile."
     },
     {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "La Paz Bolivia."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kananga Democratic Republic of the Congo."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kaohsiung Taiwan."
-    },
-    {
-     "code": "LBR",
-     "name": "Liberia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Monrovia Liberia."
-    },
-    {
-     "code": "MDG",
-     "name": "Madagascar",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Antananarivo Madagascar."
-    }
-   ]
-  },
-  {
-   "id": "temples-second-dedicated-2010-2026",
-   "bank": "temples",
-   "display_text": "Pin a country whose second dedicated temple was dedicated in 2010 or later.",
-   "text_original": "Pin a country whose second dedicated temple was dedicated in 2010 or later.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2010-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "A country's second temple usually means the Church there has grown past what one temple can serve. Each answer names the country's second temple to be dedicated and its date, counting only temples now in operation.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "HND"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cebu City Philippines (13 June 2010)."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "ITA",
+     "name": "Italy",
      "commonness": 3,
      "gem": false,
-     "fact": "Córdoba Argentina (17 May 2015)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Concepción Chile (28 October 2018)."
+     "fact": "Milan Italy."
     },
     {
      "code": "COL",
      "name": "Colombia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Barranquilla Colombia (9 December 2018)."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Quito Ecuador (20 November 2022)."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Quetzaltenango Guatemala (11 December 2011)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Auckland New Zealand (13 April 2025)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Trujillo Peru (21 June 2015)."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Durban South Africa (16 February 2020)."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
      "commonness": 2,
+     "gem": false,
+     "fact": "Medellín Colombia."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santiago Dominican Republic."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dublin Ireland."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Abuja Nigeria."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santa Ana El Salvador."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
      "gem": true,
-     "fact": "San Pedro Sula Honduras (13 October 2024)."
+     "fact": "Maputo Mozambique."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kampala Uganda."
     }
    ]
   },
   {
-   "id": "people-seventies-young-missions-mexico-caribbean",
-   "bank": "people",
-   "display_text": "Pin a country or territory in Mexico, Central America or the Caribbean where a current Seventy served as a young missionary.",
-   "text_original": "Several General Authority Seventies serving as of October 2026 were once young full-time missionaries in Mexico, Central America or the Caribbean. Pin a country or territory there where one of them served, as named in the Church's official biographies.",
+   "id": "temples-first-announced-2022-25",
+   "bank": "temples",
+   "display_text": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
+   "text_original": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
    "accepts": "country_or_territory",
-   "topic": "missionary work",
-   "era": "1970s-2000s",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "topic": "temples",
+   "era": "2022-2025",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/mark-a-bragg?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hugo-montoya?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/arnulfo-valenzuela?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/paul-b-pieper?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/brik-v-eyre?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/marcus-b-nash?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/valeri-v-cordon?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/mark-d-eddy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ahmad-s-corbitt?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-g-brown?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in Mexico, Guatemala, El Salvador, the Dominican Republic, Puerto Rico and Jamaica. Elder Kevin G. Brown served in his native Jamaica.",
+   "summary": "From 2022 to 2025 first temples were announced for the Republic of the Congo, Indonesia, Mongolia, Angola, Ireland, Uganda and New Caledonia. Brazzaville is under construction; the others were announced but not yet under construction as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO",
+    "COG",
+    "NCL",
+    "UGA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jakarta Indonesia, announced 2023."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dublin Ireland, announced 2024."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ulaanbaatar Mongolia, announced 2023."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Luanda Angola, announced 2023."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Brazzaville Republic of the Congo, announced 2022."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nouméa New Caledonia, announced 2025."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kampala Uganda, announced 2024."
+    }
+   ]
+  },
+  {
+   "id": "bom-heads-of-state-given-copy",
+   "bank": "bom",
+   "display_text": "Pin a country whose king, queen or president was given a Book of Mormon, per the Church's country chronologies",
+   "text_original": "A country whose king, queen or president received a copy of the Book of Mormon from Church representatives, as recorded in the Church's Global Histories chronologies",
+   "accepts": "country",
+   "topic": "Book of Mormon history",
+   "era": "1888-1999",
+   "citation": "Global Histories chronologies: Sweden, Netherlands, Costa Rica, Panama, Thailand, Slovakia",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; leaders of other countries have also received copies.",
+   "summary": "Church representatives have often given the Book of Mormon to heads of state. The Church's country chronologies record gifts to King Oscar II of Sweden in 1897, the Dutch royal family in 1888 and 1952, Costa Rica's president in 1947, Panama's in 1961, the king of Thailand in 1968 and Slovakia's president in 1999.",
+   "stamp": null,
+   "gems": [
+    "CRI",
+    "SVK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A copy of John Volker's 1888 Dutch translation went to the king and queen; Queen Juliana later accepted one after meeting David O. McKay in 1952."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jan M. Sjodahl presented a copy to King Oscar II in 1897, his 25th year on the throne."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Marion G. Romney presented a copy to President Roberto F. Chiari in 1961."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ezra Taft Benson gave King Bhumibol Adulyadej an English copy in Bangkok in 1968."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 1,
+     "gem": true,
+     "fact": "President Teodoro Picado was given a copy in San Jose in 1947."
+    },
+    {
+     "code": "SVK",
+     "name": "Slovakia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "President Rudolf Schuster and his wife accepted a copy at a Church open house in Bratislava in 1999."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-mission-leaders-latin-america",
+   "bank": "people",
+   "display_text": "Pin a Latin American or Caribbean country or territory where a current Seventy once led a mission (October 2026).",
+   "text_original": "As of October 2026, many General Authority Seventies had led missions in Latin America and the Caribbean. Pin a country or territory there where one of those missions was headquartered, as named in the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1990s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/adilson-de-paula-parrella?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/aroldo-b-cavalcante?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-a-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-r-walker?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-r-duncan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-b-strong?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/mark-d-eddy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ryan-k-olsen?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hugo-e-martinez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/sandino-roman?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ahmad-s-corbitt?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jorge-m-alvarado?lang=eng",
+    "https://www.thechurchnews.com/leaders/2025/05/24/new-general-authority-seventy-elder-kevin-brown-lord-does-not-have-veil/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Latin America has given many Seventies their first experience leading missionaries. As of October 2026, their biographies name missions they led in ten countries and territories, from Brazil and Mexico to Uruguay, Ecuador and Puerto Rico.",
    "stamp": null,
    "gems": [
     "JAM"
@@ -224,246 +291,140 @@
    "gem_forced": false,
    "answers": [
     {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Belo Horizonte, Rio de Janeiro South, Belem and Brasilia missions, among others."
+    },
+    {
      "code": "MEX",
      "name": "Mexico",
      "commonness": 5,
      "gem": false,
-     "fact": "Mexico Hermosillo, Monterrey, Torreon, Tampico and North missions, and Veracruz."
+     "fact": "Mexico Monterrey East, Mexico City South and Tijuana missions (Elders Walker, Casillas, Alonso)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Argentina Cordoba Mission (Elder Alliaud)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Chile Santiago North (Elder Duncan) and Chile Antofagasta (Elder Wu) missions."
     },
     {
      "code": "GTM",
      "name": "Guatemala",
-     "commonness": 4,
+     "commonness": 3,
      "gem": false,
-     "fact": "Guatemala Guatemala City Mission (Elder Eyre)."
+     "fact": "Guatemala City Central Mission (Elder Hugo E. Martinez)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Peru Lima Central Mission (Elder Strong)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Uruguay Montevideo (Elder Eddy) and Montevideo West (Elder Olsen) missions."
     },
     {
      "code": "DOM",
      "name": "Dominican Republic",
-     "commonness": 3,
+     "commonness": 2,
      "gem": false,
-     "fact": "Dominican Republic Santo Domingo East Mission (Elder Eddy)."
+     "fact": "Dominican Republic Santo Domingo East Mission (Elder Corbitt)."
     },
     {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 3,
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
      "gem": false,
-     "fact": "El Salvador missions (Elders Nash and Cordon)."
+     "fact": "Ecuador Quito North Mission (Elder Roman)."
     },
     {
      "code": "PRI",
      "name": "Puerto Rico",
      "commonness": 2,
      "gem": false,
-     "fact": "Puerto Rico San Juan Mission (Elder Corbitt)."
+     "fact": "Puerto Rico San Juan Mission (Elder Alvarado)."
     },
     {
      "code": "JAM",
      "name": "Jamaica",
      "commonness": 1,
      "gem": true,
-     "fact": "Jamaica Kingston Mission (Elder Kevin G. Brown)."
+     "fact": "Elder Kevin G. Brown led the Jamaica Kingston Mission, 2013 to 2016."
     }
    ]
   },
   {
-   "id": "dc-gh-land-dedicated-1850-1881",
-   "bank": "dc",
-   "display_text": "Pin a country that Church Global Histories say was dedicated for preaching the gospel in 1850-1881",
-   "text_original": "A country that, per its Church Global Histories chronology, an apostle or missionary formally dedicated for the preaching of the gospel between 1850 and 1881.",
+   "id": "ot-zephaniah-2-nations",
+   "bank": "ot",
+   "display_text": "Pin a country holding a people judged in Zephaniah 2: Philistines, Moab, Ammon, Assyria, or the Nile land of Cush",
+   "text_original": "A present-day country holding a people judged in Zephaniah 2 (Philistines, Moab, Ammon, the Ethiopians of Cush on the Nile, Assyria)",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1850-1881",
-   "citation": "Church Global Histories chronologies: France, Italy, Switzerland, South Africa, Sweden, Mexico",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Zephaniah 2",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/zeph/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
    ],
-   "difficulty": 3,
-   "note": "Israel does not count: the 1873 Mount of Olives prayer was for the gathering of the Jews, not a dedication for preaching.",
-   "summary": "Opening a new land often began with a prayer of dedication. Global Histories record John Taylor dedicating France and Lorenzo Snow dedicating Italy in 1850, Snow dedicating Switzerland in 1851, missionaries on Lion's Head above Cape Town in 1853, Sweden in 1857 and Moses Thatcher in Mexico in 1880-81.",
+   "difficulty": 2,
+   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted.",
+   "summary": "Zephaniah 2 calls Judah to seek meekness, then names the peoples who will be judged: the Philistine cities of Gaza, Ashkelon, Ashdod and Ekron, Moab and Ammon, the Ethiopians, and Assyria with its capital Nineveh. The Bible's Ethiopia, or Cush, was the Nile land south of Egypt, today Sudan, not modern Ethiopia.",
    "stamp": null,
    "gems": [
-    "CHE",
-    "SWE",
-    "ZAF"
+    "SDN"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1850: John Taylor dedicated France for missionary work."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1850: Lorenzo Snow, T. B. H. Stenhouse and Jabez Woodard dedicated Italy."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1880-81: Moses Thatcher dedicated Mexico for missionary work."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
-     "gem": true,
-     "fact": "1851: Lorenzo Snow dedicated Switzerland."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 2,
-     "gem": true,
-     "fact": "1857: Apostle Ezra T. Benson and mission leaders dedicated Sweden for preaching."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 2,
-     "gem": true,
-     "fact": "1853: missionaries dedicated the land on Lion's Head above Cape Town."
-    }
-   ]
-  },
-  {
-   "id": "global-hinckley-1998-travels",
-   "bank": "global",
-   "display_text": "Pin a country outside the United States that Gordon B. Hinckley visited in 1998",
-   "text_original": "In 1998 President Gordon B. Hinckley traveled about 77,000 miles to meet Saints around the world. A country outside the United States that he visited that year.",
-   "accepts": "country",
-   "topic": "church leadership",
-   "era": "1998",
-   "citation": "Church News 1998-12-26",
-   "source_urls": [
-    "https://www.thechurchnews.com/1998/12/26/23249519/travels-of-the-prophet-pres-hinckley-traveled-77-000-miles-during-1998"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Gordon B. Hinckley logged about 77,000 miles in 1998. In February he toured West, East and Southern Africa, announcing a temple in Accra and stopping in Cape Verde and the Canary Islands. He also visited northern Mexico, western Europe including Preston, England, nine Canadian cities, and in November Nicaragua and Honduras.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "CPV"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 5,
-     "gem": false,
-     "fact": "An August tour of nine Canadian cities, including Halifax."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "In March he visited 10 cities in northern Mexico."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 4,
      "gem": false,
-     "fact": "Preston, England, June 7-10."
+     "fact": "The Lord will destroy Assyria and make Nineveh a desolation (Zephaniah 2:13)."
     },
     {
-     "code": "CHE",
-     "name": "Switzerland",
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ashkelon, Ashdod and Ekron were Philistine cities (Zephaniah 2:4)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Moab and the children of Ammon shall be as Sodom (Zephaniah 2:8-9)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 3,
      "gem": false,
-     "fact": "Geneva, on the June European trip."
+     "fact": "Gaza shall be forsaken (Zephaniah 2:4); it lies in the Gaza Strip."
     },
     {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Frankfurt, on the June European trip."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Paris, June 4."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In Accra on February 16 he announced a temple for Ghana."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Port Harcourt, February."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Johannesburg, Durban and Cape Town, February."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
+     "code": "SDN",
+     "name": "Sudan",
      "commonness": 2,
-     "gem": false,
-     "fact": "Las Palmas in the Canary Islands, February 13."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
-     "gem": false,
-     "fact": "San Pedro Sula and Tegucigalpa, November."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Nairobi, February."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Managua, November 19."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Harare, February."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
-     "commonness": 1,
      "gem": true,
-     "fact": "Praia, February 22."
+     "fact": "Ye Ethiopians also, ye shall be slain (Zephaniah 2:12); Bible Ethiopia, or Cush, ran south from Syene along the Nile, today Sudan."
     }
    ]
   }

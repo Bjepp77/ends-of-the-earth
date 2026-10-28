@@ -2,371 +2,334 @@
  "day": 46,
  "prompts": [
   {
-   "id": "temples-eleven-year-wait",
-   "bank": "temples",
-   "display_text": "Pin a country with a temple that was dedicated 11 or more years after it was announced.",
-   "text_original": "Pin a country with a temple that was dedicated 11 or more years after it was announced.",
+   "id": "bom-wentworth-letter-1842",
+   "bank": "bom",
+   "display_text": "Pin a country holding a land the 1842 Wentworth letter says the gospel had reached (East Indies aside)",
+   "text_original": "A present-day country holding a land the 1842 Wentworth letter names as reached by the restored gospel (leave aside 'the East Indies')",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1847-2026",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "topic": "Articles of Faith",
+   "era": "1842",
+   "citation": "Church History, 1 March 1842 (Wentworth letter), Joseph Smith Papers, p. 709 and note 29",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Most temples are dedicated a few years after they are announced, but some wait more than a decade because of land, permits or unrest. Guayaquil and Bogota were announced in the early 1980s and dedicated in 1999, and Kyiv took 12 years.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COL",
-    "ECU",
-    "UKR"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Los Angeles California, announced 1937, dedicated 1956; Manti Utah, announced 1875, dedicated 1888; Salt Lake, announced 1847, dedicated 1893."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Urdaneta Philippines, announced 2010, dedicated 2024."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Bogotá Colombia, announced 1984, dedicated 1999."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Guayaquil Ecuador, announced 1982, dedicated 1999."
-    },
-    {
-     "code": "UKR",
-     "name": "Ukraine",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Kyiv Ukraine, announced 1998, dedicated 2010."
-    }
-   ]
-  },
-  {
-   "id": "dc-hyde-1841-journey-stops",
-   "bank": "dc",
-   "display_text": "Pin a country with a city marked as a stop on the Joseph Smith Papers map of Orson Hyde's 1841 journey (not counting Jerusalem)",
-   "text_original": "A country holding a city where Orson Hyde stopped on his 1841 mission journey from London to Jerusalem and back to Trieste, as mapped by the Joseph Smith Papers (Jerusalem itself not counted).",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1840s",
-   "citation": "Joseph Smith Papers map, Orson Hyde's mission travels June-December 1841; Saints vol. 1 ch. 36",
-   "source_urls": [
-    "https://josephsmithpapers.org/bc-jsp/content/jsp/images/content/library/pdf/D8_Map_Orson-Hyde-travels-1841.pdf",
-    "https://rsc.byu.edu/fall-2017/orson-hyde-nauvoo-jerusalem-back-again",
-    "https://www.churchofjesuschrist.org/study/history/topics/dedication-of-the-holy-land?lang=eng"
+    "https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4"
    ],
    "difficulty": 2,
-   "note": "Only the cities marked on the JSP map count. The Danube leg (Austria, Hungary, Serbia, Bulgaria, Romania) has no marked stops.",
-   "summary": "In 1840 Orson Hyde saw London, Amsterdam, Constantinople and Jerusalem in vision and was sent to dedicate the Holy Land. He crossed Europe, sailed by way of Smyrna and Beirut to Jaffa, and prayed on the Mount of Olives on October 24, 1841. He returned through Egypt, Trieste and Germany and reached Nauvoo in December 1842.",
+   "note": "'Palestine' in the letter covers both ISR and PSE. 'East Indies' is left out because the term is too vague to map to one country.",
+   "summary": "In 1842 Joseph Smith sent Chicago editor John Wentworth a history of the Church that ends with the 13 Articles of Faith. It reports the gospel had spread across the United States and the British Isles, and that the standard of truth had been raised in Germany, Palestine, New Holland (Australia) and the East Indies.",
    "stamp": null,
    "gems": [
-    "ITA"
+    "AUS"
    ],
    "gem_forced": false,
    "answers": [
     {
      "code": "GBR",
      "name": "United Kingdom",
-     "commonness": 4,
+     "commonness": 5,
      "gem": false,
-     "fact": "London, where he departed in June 1841 after helping the Twelve in England."
+     "fact": "It names England, Scotland and Wales; the Twelve preached across the British Isles in 1840-41."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
      "gem": false,
-     "fact": "Jaffa, where he landed in October 1841 before going inland to Jerusalem."
+     "fact": "The letter says the elders had planted the gospel in almost every state in the Union."
     },
     {
      "code": "DEU",
      "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Mainz, Frankfurt and Regensburg, where he boarded a Danube steamer in August 1841."
+     "fact": "Germany is named; Orson Hyde passed through Munich on his way to Jerusalem."
     },
     {
-     "code": "EGY",
-     "name": "Egypt",
+     "code": "IRL",
+     "name": "Ireland",
      "commonness": 3,
      "gem": false,
-     "fact": "Damietta, Cairo and Alexandria on the way home, November 1841."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Constantinople (Istanbul) and Smyrna (Izmir)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Beirut, on the sea route from Smyrna to Jaffa."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Rotterdam, Amsterdam and Arnhem."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Trieste, then Austrian and now in Italy, reached in December 1841."
-    }
-   ]
-  },
-  {
-   "id": "ot-joel-3-nations",
-   "bank": "ot",
-   "display_text": "Pin a country holding Tyre, Zidon, Philistia, Egypt or Edom, judged in Joel 3, or Greece, where Judah's children were sold",
-   "text_original": "A present-day country holding a land the Lord calls to account in Joel 3 (Tyre, Zidon, the coasts of Palestine, Egypt, Edom), or Greece, where Judah's children were sold",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Joel 3:4-8, 19",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/sabeans?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/greece?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Joel 3 rebukes Tyre, Zidon and the Philistine coast for selling the children of Judah to the Grecians, and says Judah will in turn sell their children to the Sabeans, an Arab tribe. It also foretells desolation for Egypt and Edom, while Judah and Jerusalem endure forever (Joel 3:19-20).",
-   "stamp": null,
-   "gems": [
-    "GRC"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Egypt shall be a desolation (Joel 3:19)."
+     "fact": "Ireland is named in the letter; the island is shared today by Ireland and the United Kingdom."
     },
     {
      "code": "ISR",
      "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The coasts of Palestine, the Philistine shore, held Ashkelon and Ashdod (Joel 3:4)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tyre and Zidon are rebuked for selling the children of Judah (Joel 3:4)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
      "commonness": 3,
      "gem": false,
-     "fact": "Edom shall be a desolate wilderness (Joel 3:19)."
+     "fact": "Palestine is named; Orson Hyde dedicated the land at Jerusalem on 24 October 1841."
     },
     {
      "code": "PSE",
      "name": "Palestine",
-     "commonness": 3,
+     "commonness": 2,
      "gem": false,
-     "fact": "The Philistine coast of Joel 3:4 also held Gaza, now in the Gaza Strip."
+     "fact": "Palestine in 1842 also covered today's West Bank."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "New Holland is named; English convert William James Barratt emigrated there in July 1840."
+    }
+   ]
+  },
+  {
+   "id": "nt-evil-spirits-cast-out",
+   "bank": "nt",
+   "display_text": "Pin a country where Jesus or a disciple cast out an evil spirit (not the Gadarene swine or the boy after the Transfiguration)",
+   "text_original": "A present-day country holding a town or region where Jesus or one of his disciples, being there, cast out an evil spirit (not the Gadarene swine or the boy healed after the Transfiguration)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Mark 1:21-26; 7:24-30; Acts 8:5-7; 16:16-18; 19:11-12",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Jordan and Syria do not count: the Gadarene site is disputed. Samaria is in the West Bank (Palestine).",
+   "summary": "Jesus showed power over evil spirits from his first sermon at Capernaum, and he healed a Gentile girl near Tyre and Sidon. His servants carried the same power: Philip in Samaria, Paul at Philippi, where he freed a slave girl from a spirit of divination, and at Ephesus, where even cloths from him healed.",
+   "stamp": null,
+   "gems": [
+    "TUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In the synagogue at Capernaum Jesus rebuked an unclean spirit, and cast out devils throughout Galilee (Mark 1:21-26, 39)."
     },
     {
      "code": "GRC",
      "name": "Greece",
      "commonness": 2,
-     "gem": true,
-     "fact": "Judah's children were sold unto the Grecians (Joel 3:6)."
-    }
-   ]
-  },
-  {
-   "id": "nt-angels-and-visions",
-   "bank": "nt",
-   "display_text": "Pin a country where an angel, vision or dream came on land to someone living in New Testament times (not the Transfiguration)",
-   "text_original": "A present-day country holding a place on land where an angel appeared, or the Lord gave a vision or dream, to someone living in New Testament times, in the Gospels, Acts or Revelation (not the Transfiguration)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Luke 1:11, 26; 2:8-9; Matthew 2:12-19; Acts 9:3-12; 10:3-17; 16:9; 18:9; Revelation 1:9-10",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Bethlehem is in the West Bank (Palestine); Israel also counts.",
-   "summary": "Heavenly messengers appear all through the New Testament. Gabriel came to Zacharias and Mary, angels sang to shepherds near Bethlehem, and an angel guided Joseph in Egypt. Saul met the Lord near Damascus, Paul saw the man of Macedonia at Troas, the Lord comforted him at Corinth, and John saw his Revelation on Patmos.",
-   "stamp": null,
-   "gems": [
-    "GRC",
-    "TUR"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
      "gem": false,
-     "fact": "Gabriel came to Zacharias in the temple and to Mary in Nazareth; Peter saw a vision at Joppa (Luke 1:11, 26; Acts 10:9-17)."
+     "fact": "At Philippi Paul commanded the spirit of divination to come out of a damsel (Acts 16:16-18)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "In the borders of Tyre and Sidon Jesus cast the devil out of a Syrophenician woman's daughter (Mark 7:24-30)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
-     "commonness": 4,
+     "commonness": 2,
      "gem": false,
-     "fact": "An angel appeared to shepherds near Bethlehem, where the wise men were also warned in a dream (Luke 2:8-9; Matthew 2:12)."
+     "fact": "Philip, one of the seven, preached in the city of Samaria, and unclean spirits came out of many (Acts 6:5; 8:5-7)."
     },
     {
-     "code": "EGY",
-     "name": "Egypt",
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "At Ephesus evil spirits went out of the sick through handkerchiefs from Paul (Acts 19:11-12)."
+    }
+   ]
+  },
+  {
+   "id": "ot-assyria-takes-israel",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place in Assyria's conquest and resettlement of Israel, 2 Kings 15-17 (leave out Ijon)",
+   "text_original": "A present-day country holding a place named in Assyria's conquest and resettlement of the northern kingdom in 2 Kings 15-17: towns Tiglath-pileser took, Samaria, the lands the captives were sent to, and the cities settlers came from (sites agreed by scholars only)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "2 Kings 15:29; 16:9; 17:5-6, 24",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/gozan?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/media?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Samaria is in the West Bank (Palestine); Hazor, Kedesh and Galilee are in Israel.",
+   "summary": "Tiglath-pileser of Assyria took Gilead, Galilee, Kedesh and Hazor, then Damascus. Shalmaneser besieged Samaria, and in 721 BC its people were carried to Assyria, the Habor by the river of Gozan and the cities of the Medes, while settlers from Babylon, Cuthah and Hamath took their place (2 Kgs 15-17).",
+   "stamp": null,
+   "gems": [
+    "IRN",
+    "JOR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Israel was carried away into Assyria, and settlers came from Babylon and Cuthah (2 Kgs 17:6, 24)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tiglath-pileser took Abel-beth-maachah, Kedesh and Hazor, and Galilee (2 Kgs 15:29)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 3,
      "gem": false,
-     "fact": "An angel of the Lord appeared in a dream to Joseph in Egypt after Herod died (Matthew 2:19)."
+     "fact": "Shalmaneser besieged Samaria three years before it fell (2 Kgs 17:5-6)."
     },
     {
      "code": "SYR",
      "name": "Syria",
      "commonness": 3,
      "gem": false,
-     "fact": "Saul saw a light near Damascus, and Ananias saw the Lord in a vision there (Acts 9:3-12)."
+     "fact": "Assyria took Damascus (2 Kgs 16:9), and settlers were brought from Hamath (2 Kgs 17:24)."
     },
     {
-     "code": "GRC",
-     "name": "Greece",
+     "code": "IRN",
+     "name": "Iran",
      "commonness": 2,
      "gem": true,
-     "fact": "The Lord spoke to Paul in a vision at Corinth, and John received the Revelation on Patmos (Acts 18:9; Revelation 1:9-10)."
+     "fact": "Captives from Samaria were placed in the cities of the Medes (2 Kgs 17:6)."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "JOR",
+     "name": "Jordan",
      "commonness": 2,
      "gem": true,
-     "fact": "At Troas Paul saw a vision of a man of Macedonia pleading for help (Acts 16:8-9)."
+     "fact": "Tiglath-pileser took Gilead and carried its people captive (2 Kgs 15:29)."
     }
    ]
   },
   {
-   "id": "global-hinckley-1996-asia",
-   "bank": "global",
-   "display_text": "Pin a country or territory Gordon B. Hinckley visited on his May 1996 Asia trip",
-   "text_original": "In May 1996 President Gordon B. Hinckley toured Asia, dedicating the Hong Kong China Temple and offering prayers in Cambodia and Vietnam. A country or territory on that trip.",
-   "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "1996",
-   "citation": "Ensign, August 1996, News of the Church",
+   "id": "ot-nehemiah-wall-world",
+   "bank": "ot",
+   "display_text": "Pin a country holding a city or people in Nehemiah 1-4 and 13, from Shushan to Tobiah the Ammonite (leave out the Arabians)",
+   "text_original": "A present-day country holding a city or people named in Nehemiah 1-4 and 13 (leaving out the Arabians, whose land is unclear): the Persian palace at Shushan, Jerusalem's builders from Jericho and Tekoa, the wall's opponents (Samaria's army, Tobiah the Ammonite, the Ashdodites), and the men of Tyre who sold fish",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Nehemiah 1-4, 13",
    "source_urls": [
-    "https://churchofjesuschrist.org/study/ensign/1996/08/news-of-the-church/president-hinckley-visits-asian-saints-dedicates-hong-kong-temple"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng"
    ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "In May 1996 Gordon B. Hinckley met Saints across East Asia: Japan, Korea, Taiwan and the Philippines. He dedicated the Hong Kong China Temple, stopped in Shenzhen, dedicated Cambodia for preaching and prayed in Hanoi. Even a refueling stop on Saipan became a meeting with members.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 3,
+   "note": "Jericho, Tekoa and Samaria are in the West Bank (Palestine); Ashdod is in Israel. Jerusalem is scored as Israel.",
+   "summary": "Nehemiah, cupbearer to the Persian king at Shushan, won leave to rebuild Jerusalem's wall. Builders came from towns such as Jericho and Tekoa, while Sanballat, Tobiah the Ammonite, Geshem the Arabian and the Ashdodites mocked and plotted. The wall was finished in fifty and two days (Neh 1-6).",
+   "stamp": null,
    "gems": [
-    "KHM",
-    "MNP",
-    "VNM"
+    "IRQ"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "HKG",
-     "name": "Hong Kong",
+     "code": "IRN",
+     "name": "Iran",
      "commonness": 4,
      "gem": false,
-     "fact": "He dedicated the Hong Kong China Temple, May 26-27."
+     "fact": "Nehemiah was cupbearer to Artaxerxes in Shushan the palace (Neh 1:1, 11)."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "ISR",
+     "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "Tokyo, Osaka, Fukuoka and Naha, Okinawa."
+     "fact": "He rebuilt the wall of Jerusalem; the Ashdodites joined the plot against it (Neh 2:17; 4:7)."
     },
     {
-     "code": "CHN",
-     "name": "China",
+     "code": "JOR",
+     "name": "Jordan",
      "commonness": 3,
      "gem": false,
-     "fact": "A stop in Shenzhen."
+     "fact": "Tobiah the Ammonite mocked the builders, and no Ammonite or Moabite was to enter the congregation (Neh 2:19; 13:1)."
     },
     {
-     "code": "KOR",
-     "name": "South Korea",
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 3,
      "gem": false,
-     "fact": "Pusan and Seoul."
+     "fact": "Men of Jericho and the Tekoites built sections of the wall, and Sanballat spoke before the army of Samaria (Neh 3:2, 5; 4:2)."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 3,
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
      "gem": false,
-     "fact": "Manila and Cebu."
+     "fact": "Men of Tyre sold fish and wares in Jerusalem on the sabbath (Neh 13:16)."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Taipei."
-    },
-    {
-     "code": "KHM",
-     "name": "Cambodia",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 1,
      "gem": true,
-     "fact": "In Phnom Penh he dedicated Cambodia for the preaching of the gospel."
+     "fact": "Nehemiah went to Artaxerxes king of Babylon before returning (Neh 13:6)."
+    }
+   ]
+  },
+  {
+   "id": "nt-acts-18-cities",
+   "bank": "nt",
+   "display_text": "Pin a country holding a city or town named in Acts 18, from Paul's stay in Corinth to Apollos at Ephesus",
+   "text_original": "A present-day country holding a city or town named in Acts 18, the chapter of Paul's stay in Corinth and his return to Antioch",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Acts 18",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Only cities count, not regions, so Syria and North Macedonia do not. Antioch is in Turkey.",
+   "summary": "Acts 18 covers Paul's long stay in Corinth, where he made tents with Aquila and Priscilla, Jews expelled from Rome. He sailed from Cenchrea to Ephesus, landed at Caesarea, and went down to Antioch. Meanwhile Apollos of Alexandria arrived at Ephesus and was taught the way of God more perfectly.",
+   "stamp": null,
+   "gems": [
+    "EGY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul left Athens for Corinth, stayed a year and a half, and shaved his head in Cenchrea (Acts 18:1, 11, 18)."
     },
     {
-     "code": "MNP",
-     "name": "Northern Mariana Islands",
-     "commonness": 1,
-     "gem": true,
-     "fact": "A refueling stop on Saipan, where he met members."
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Claudius had commanded all Jews to leave Rome, so Aquila and Priscilla came to Corinth (Acts 18:2)."
     },
     {
-     "code": "VNM",
-     "name": "Vietnam",
-     "commonness": 1,
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul landed at Caesarea and went up to salute the church; he hoped to keep the feast at Jerusalem (Acts 18:21-22)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul reasoned at Ephesus, then went down to Antioch, today's Antakya (Acts 18:19-22)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 2,
      "gem": true,
-     "fact": "Ho Chi Minh City and Hanoi, where he offered an addendum prayer."
+     "fact": "Apollos, mighty in the scriptures, was born at Alexandria (Acts 18:24)."
     }
    ]
   }

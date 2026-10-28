@@ -2,23 +2,23 @@
  "day": 33,
  "prompts": [
   {
-   "id": "temples-new-1987-98",
+   "id": "temples-rededicated-2010-18",
    "bank": "temples",
-   "display_text": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
-   "text_original": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
-   "accepts": "country_or_territory",
+   "display_text": "Pin a country where a temple was rededicated after renovation from 2010 through 2018.",
+   "text_original": "Pin a country where a temple was rededicated after renovation from 2010 through 2018.",
+   "accepts": "country",
    "topic": "temples",
-   "era": "1987-1998",
+   "era": "2010-2018",
    "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "Only five countries and territories saw a new temple dedicated from 1987 through 1998: Frankfurt in 1987, Toronto in 1990, Hong Kong in 1996 and Preston, England, in 1998, plus nine in the United States. The wave of smaller temples began with Monticello, Utah, in 1998.",
+   "summary": "From 2010 through 2018 temples were rededicated in Buenos Aires (2012), Mexico City (2015), Montreal (2015), Freiberg (2016) and Suva (2016), plus seven in the United States. Freiberg, built in East Germany in 1985, was rededicated twice after expansions.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "HKG"
+    "FJI"
    ],
    "gem_forced": true,
    "answers": [
@@ -27,323 +27,410 @@
      "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Bountiful Utah, 1995; Las Vegas Nevada, 1989; Monticello Utah, 1998; and 6 more."
+     "fact": "Atlanta Georgia, 2011; Boise Idaho, 2012; Houston Texas, 2018; and 4 more."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico City Mexico, 2015."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires Argentina, 2012."
     },
     {
      "code": "CAN",
      "name": "Canada",
      "commonness": 3,
      "gem": false,
-     "fact": "Toronto Ontario, 1990."
+     "fact": "Montreal Quebec, 2015."
     },
     {
      "code": "DEU",
      "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Frankfurt Germany, 1987."
+     "fact": "Freiberg Germany, 2016."
     },
     {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Preston England, 1998."
-    },
-    {
-     "code": "HKG",
-     "name": "Hong Kong",
+     "code": "FJI",
+     "name": "Fiji",
      "commonness": 2,
      "gem": true,
-     "fact": "Hong Kong China, 1996."
+     "fact": "Suva Fiji, 2016."
     }
    ]
   },
   {
-   "id": "temples-first-announced-2022-25",
+   "id": "temples-one-plus-coming-elsewhere",
    "bank": "temples",
-   "display_text": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
-   "text_original": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
+   "display_text": "Pin a country or territory outside the Americas with one dedicated temple and more announced or being built (as of October 2026).",
+   "text_original": "Pin a country or territory outside the Americas with one dedicated temple and another announced or under construction (as of October 2026).",
    "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2022-2025",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "From 2022 to 2025 first temples were announced for the Republic of the Congo, Indonesia, Mongolia, Angola, Ireland, Uganda and New Caledonia. Brazzaville is under construction; the others were announced but not yet under construction as of October 2026.",
+   "summary": "These countries each have one dedicated temple and at least one more temple announced or under construction as of October 2026.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "AGO",
-    "COG",
-    "NCL",
-    "UGA"
+    "COD",
+    "PRT",
+    "PYF",
+    "TWN"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
      "gem": false,
-     "fact": "Jakarta Indonesia, announced 2023."
+     "fact": "Barcelona Spain Temple under construction or announced; Madrid Spain Temple dedicated (19 March 1999)."
     },
     {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 2,
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
      "gem": false,
-     "fact": "Dublin Ireland, announced 2024."
+     "fact": "Kumasi Ghana Temple under construction or announced; Cape Coast Ghana Temple under construction or announced; Accra Ghana Temple dedicated (11 January 2004)."
     },
     {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 2,
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
      "gem": false,
-     "fact": "Ulaanbaatar Mongolia, announced 2023."
+     "fact": "Milan Italy Temple under construction or announced; Rome Italy Temple dedicated (10 March 2019)."
     },
     {
-     "code": "AGO",
-     "name": "Angola",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Luanda Angola, announced 2023."
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Busan Korea Temple under construction or announced; Seoul Korea Temple dedicated (14 December 1985)."
     },
     {
-     "code": "COG",
-     "name": "Republic of the Congo",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Brazzaville Republic of the Congo, announced 2022."
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lagos Nigeria Temple under construction or announced; Benin City Nigeria Temple under construction or announced; Eket Nigeria Temple under construction or announced; and 4 more."
     },
     {
-     "code": "NCL",
-     "name": "New Caledonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nouméa New Caledonia, announced 2025."
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Neiafu Tonga Temple under construction or announced; Nuku'alofa Tonga Temple dedicated (9 August 1983)."
     },
     {
-     "code": "UGA",
-     "name": "Uganda",
-     "commonness": 1,
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Savai'i Samoa Temple under construction or announced; Apia Samoa Temple dedicated (5 August 1983)."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
      "gem": true,
-     "fact": "Kampala Uganda, announced 2024."
+     "fact": "Lubumbashi Democratic Republic of the Congo Temple under construction or announced; Kananga Democratic Republic of the Congo Temple under construction or announced; Mbuji-Mayi Democratic Republic of the Congo Temple under construction or announced; and 1 more."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Porto Portugal Temple under construction or announced; Lisbon Portugal Temple dedicated (15 September 2019)."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Uturoa French Polynesia Temple under construction or announced; Papeete Tahiti Temple dedicated (27 October 1983)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Kaohsiung Taiwan Temple under construction or announced; Taipei Taiwan Temple dedicated (17 November 1984)."
     }
    ]
   },
   {
-   "id": "global-nelson-balkans-2010",
-   "bank": "global",
-   "display_text": "Pin a country Russell M. Nelson dedicated for the preaching of the gospel in September 2010",
-   "text_original": "In September 2010 Elder Russell M. Nelson of the Quorum of the Twelve traveled through the former Yugoslavia and dedicated six lands for the preaching of the gospel. A country he dedicated on that trip.",
-   "accepts": "country",
+   "id": "pioneer-pacific-preaching-before-1900",
+   "bank": "pioneer",
+   "display_text": "Pin an Oceania country or territory (Hawaii counts as USA) where Latter-day Saint missionaries preached before 1900.",
+   "text_original": "Before 1900, Latter-day Saint missionaries had preached in only a handful of Pacific island lands and Australia. Pin a country or territory where, according to the Church Global Histories, they preached before 1900.",
+   "accepts": "country_or_territory",
    "topic": "missionary work",
-   "era": "2010",
-   "citation": "Newsroom, President Nelson timeline",
+   "era": "1844-1899",
+   "citation": "Global Histories chronologies (Pacific)",
    "source_urls": [
-    "https://newsroom.churchofjesuschrist.org/multimedia/file/President-Nelson-Timeline.pdf",
-    "https://thechurchnews.com/archives/2010-09-23/elder-nelson-pronounces-blessings-on-six-balkan-nations-62114"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hawaii/hi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In one September 2010 journey Russell M. Nelson, then an Apostle, offered dedicatory prayers in six lands of the former Yugoslavia: Croatia, Slovenia, Bosnia and Herzegovina, Montenegro, Kosovo and Macedonia. It was one of many such prayers he offered across Eastern Europe and Central Asia.",
+   "difficulty": 2,
+   "note": "USA is scored for Hawaii. Fiji's first known member arrived in 1924, so Fiji is not scored.",
+   "summary": "The Church reached the Pacific early: Addison Pratt landed in the Austral Islands in 1844, missionaries reached Hawaii in 1850 and New Zealand in 1854. Hawaiian missionaries carried the gospel to Samoa in 1863, and Tonga opened in 1891. Fiji, Guam and the Micronesian islands came only in the 20th century.",
    "stamp": null,
    "gems": [
-    "MKD",
-    "XKX"
+    "COK"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "HRV",
-     "name": "Croatia",
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ordained convert William Barratt reached Adelaide in 1840 and baptized the first Australian in 1842."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Augustus Farnham and William Cooke reached Auckland in October 1854."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
      "commonness": 3,
      "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Addison Pratt arrived at Tubuai in the Austral Islands in April 1844."
     },
     {
-     "code": "SVN",
-     "name": "Slovenia",
+     "code": "TON",
+     "name": "Tonga",
      "commonness": 3,
      "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "First Church meeting held at Pea, Tongatapu, in August 1891."
     },
     {
-     "code": "BIH",
-     "name": "Bosnia and Herzegovina",
-     "commonness": 2,
+     "code": "USA",
+     "name": "United States",
+     "commonness": 3,
      "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Hawaii: first missionaries arrived in 1850; 50th anniversary marked in 1900."
     },
     {
-     "code": "MNE",
-     "name": "Montenegro",
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Samoan Mission opened 1888; Ifopa baptized on Upolu in 1889."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
      "commonness": 2,
      "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Kimo Pelio and Samuela Manoa preached on Aunuu from 1863; Deans arrived 1888."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries made occasional visits, as at Mangaia, between 1845 and 1899."
+    }
+   ]
+  },
+  {
+   "id": "nt-country-names-in-kjv",
+   "bank": "nt",
+   "display_text": "Pin a country whose modern name, or its main word, appears as a land, river or people in the King James New Testament",
+   "text_original": "A present-day country whose name, or the main word of it, is spelled as a land, river or people in the King James New Testament",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Matthew 2:13, 20; 3:6; 4:24; Acts 2:10-11; 4:36; 8:27; 16:9; 20:2; 27:1; Romans 15:24; Galatians 1:17",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/1?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "This prompt is about the name only, so Malta (Melita) and Romania (Romans) do not count.",
+   "summary": "A dozen modern countries carry a name the King James New Testament already uses. Egypt, Israel, Syria, Greece, Italy and Cyprus are familiar, and the nation of Jordan takes its name from the river. Arabia, Macedonia, the Ethiopians, Libya and Spain also appear, the last as the place Paul hoped to reach after Rome.",
+   "stamp": null,
+   "gems": [
+    "ESP",
+    "LBY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Joseph was told to flee into Egypt (Matthew 2:13)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Joseph was told to go into the land of Israel (Matthew 2:20)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul came into Greece and stayed three months (Acts 20:2-3)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "It was determined that Paul should sail into Italy (Acts 27:1)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jesus' fame went throughout all Syria (Matthew 4:24)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barnabas was a Levite of the country of Cyprus (Acts 4:36)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "John baptized in Jordan; the country takes its name from the river (Matthew 3:6)."
+    },
+    {
+     "code": "ETH",
+     "name": "Ethiopia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Philip met a eunuch of great authority under Candace, queen of the Ethiopians (Acts 8:27)."
     },
     {
      "code": "MKD",
      "name": "North Macedonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Dedicated for preaching in September 2010, then called Macedonia."
+     "commonness": 2,
+     "gem": false,
+     "fact": "Paul saw a man of Macedonia in a vision (Acts 16:9)."
     },
     {
-     "code": "XKX",
-     "name": "Kosovo",
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Paul went into Arabia after his conversion; Arabians heard at Pentecost (Galatians 1:17; Acts 2:11)."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 1,
      "gem": true,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Paul hoped to visit the Romans whenever he took his journey into Spain (Romans 15:24)."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Pentecost pilgrims came from the parts of Libya about Cyrene (Acts 2:10)."
     }
    ]
   },
   {
-   "id": "global-northern-europe-dedications-1977-98",
-   "bank": "global",
-   "display_text": "Pin a Northern European country dedicated or rededicated for preaching the gospel between 1977 and 1998",
-   "text_original": "Long after the first Scandinavian missions, Church leaders offered new dedicatory prayers across Northern Europe. A country in Northern Europe (the Nordic and Baltic countries, the United Kingdom and Ireland) that a Church leader dedicated or rededicated for the preaching of the gospel between 1977 and 1998.",
+   "id": "pioneer-postwar-servicemember-pioneers",
+   "bank": "pioneer",
+   "display_text": "Pin one of the 5 Asian countries Church History Topics names where servicemembers helped introduce the Church after World War II.",
+   "text_original": "After World War II, Latter-day Saint servicemembers helped introduce or reestablish the Church in Asian countries where they were stationed. Pin one of the countries Church History Topics names.",
    "accepts": "country",
    "topic": "missionary work",
-   "era": "1977-1998",
-   "citation": "Global Histories chronologies (Northern Europe)",
+   "era": "1945-1970",
+   "citation": "Church History Topics: Globalization; Growth of Missionary Work",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/topics/globalization?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/growth-of-missionary-work?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Only Ireland counts. The 1985 dedication of the whole island was given in Northern Ireland; the United Kingdom had none.",
-   "summary": "Between 1977 and 1998 Church leaders dedicated or rededicated six Northern European lands. Joseph B. Wirthlin dedicated Iceland in 1977 and Neal A. Maxwell dedicated Ireland in 1985. As the Soviet Union opened, Apostles dedicated Estonia in 1990 and Latvia and Lithuania in 1993, and Thomas S. Monson rededicated Denmark in 1998.",
+   "note": null,
+   "summary": "Church History Topics credits American Latter-day Saint servicemembers stationed abroad after World War II with helping introduce or reestablish the Church, especially in Japan, Korea, the Philippines, Vietnam and Thailand. Their servicemen's groups often grew into the first local branches.",
    "stamp": null,
    "gems": [
-    "LTU",
-    "LVA"
+    "THA",
+    "VNM"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 3,
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
      "gem": false,
-     "fact": "Thomas S. Monson of the First Presidency rededicated Denmark in 1998."
+     "fact": "Named; servicemembers met in postwar Japan (Saints vol. 3 ch. 31)."
     },
     {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Neal A. Maxwell dedicated Ireland near the site of the first Irish baptism, October 23, 1985."
-    },
-    {
-     "code": "EST",
-     "name": "Estonia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson dedicated Estonia above the Tallinn song festival grounds, April 25, 1990."
-    },
-    {
-     "code": "ISL",
-     "name": "Iceland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Joseph B. Wirthlin, then a Seventy, dedicated Iceland from Oskjuhlid in Reykjavik, September 18, 1977."
-    },
-    {
-     "code": "LTU",
-     "name": "Lithuania",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder M. Russell Ballard dedicated Lithuania in Vilnius, February 20, 1993."
-    },
-    {
-     "code": "LVA",
-     "name": "Latvia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder James E. Faust dedicated Latvia at Jurmala, March 17, 1993."
-    }
-   ]
-  },
-  {
-   "id": "global-northern-europe-first-stakes-1960-77",
-   "bank": "global",
-   "display_text": "Pin a Northern European country whose first stake was organized between 1960 and 1977",
-   "text_original": "Stakes came to Europe in 1960 and spread north over the next two decades. A country in Northern Europe (the Nordic and Baltic countries, the United Kingdom and Ireland) whose first stake was organized between 1960 and 1977.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1960-1977",
-   "citation": "Global Histories chronologies (Northern Europe)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Ireland's first stake came in 1995. Belfast's 1974 stake is in the United Kingdom, which already had stakes.",
-   "summary": "Europe's first stake was organized in Manchester, England, in 1960. Scandinavia followed in the 1970s: Copenhagen in 1974, Stockholm in 1975, and Oslo and Helsinki in 1977. Ireland waited until 1995, and Iceland and the Baltic states still have districts rather than stakes as of October 2026.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "FIN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "KOR",
+     "name": "South Korea",
      "commonness": 4,
      "gem": false,
-     "fact": "The Manchester England Stake, the first stake in Europe, was organized March 27, 1960."
+     "fact": "Named; Korean War servicemen helped plant the Church."
     },
     {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 3,
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
      "gem": false,
-     "fact": "The Copenhagen Denmark Stake, the first in Scandinavia, was organized June 16, 1974."
+     "fact": "Named; servicemen met in the Philippines after the war."
     },
     {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Stockholm Sweden Stake was organized April 20, 1975."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
+     "code": "THA",
+     "name": "Thailand",
      "commonness": 2,
-     "gem": false,
-     "fact": "The Oslo Norway Stake, Norway's first, was created May 22, 1977."
+     "gem": true,
+     "fact": "Named among countries where servicemembers helped establish the Church."
     },
     {
-     "code": "FIN",
-     "name": "Finland",
-     "commonness": 1,
+     "code": "VNM",
+     "name": "Vietnam",
+     "commonness": 2,
      "gem": true,
-     "fact": "The Helsinki Finland Stake, Finland's first, was organized October 16, 1977."
+     "fact": "Named; servicemember groups met there during the Vietnam War."
     }
    ]
   }

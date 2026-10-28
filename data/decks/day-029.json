@@ -2,110 +2,124 @@
  "day": 29,
  "prompts": [
   {
-   "id": "temples-conf-october-2023",
+   "id": "temples-conf-april-2020",
    "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the October 2023 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the October 2023 general conference.",
+   "display_text": "Pin a country where a new temple was announced at the April 2020 general conference.",
+   "text_original": "Pin a country where a new temple was announced at the April 2020 general conference.",
    "accepts": "country",
    "topic": "temples",
-   "era": "2023",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "era": "2020",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
    "source_urls": [
     "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/october-2023-general-conference-temples"
+    "https://www.thechurchnews.com/temples/2020-04-05/general-conference-april-2020-new-temples-announced-president-nelson-180501/"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "note": null,
-   "summary": "At the end of the October 2023 general conference, President Russell M. Nelson announced 20 new temples in 13 countries or territories. The 20 included firsts for Mongolia and Angola: Ulaanbaatar and Luanda.",
+   "summary": "At the end of the April 2020 general conference, President Russell M. Nelson announced 8 new temples in 6 countries or territories. The list named Shanghai and Dubai, the first temple plans for China and the United Arab Emirates.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "AGO"
+    "ARE",
+    "COD",
+    "NGA"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
      "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Colorado Springs Colorado; Fairbanks Alaska; Kahului Hawaii; and 3 more."
+     "fact": "Pittsburgh Pennsylvania; Syracuse Utah; Tallahassee Florida."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Goiânia Brazil; João Pessoa Brazil."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cancún Mexico."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Laoag Philippines."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Viña del Mar Chile."
+     "fact": "Bahía Blanca Argentina."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "CHN",
+     "name": "People's Republic of China",
      "commonness": 3,
      "gem": false,
-     "fact": "Osaka Japan."
+     "fact": "Shanghai."
     },
     {
-     "code": "PER",
-     "name": "Peru",
+     "code": "ARE",
+     "name": "United Arab Emirates",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Dubai United Arab Emirates."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Lubumbashi Democratic Republic of the Congo."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Benin City Nigeria."
+    }
+   ]
+  },
+  {
+   "id": "temples-announced-no-groundbreaking-africa",
+   "bank": "temples",
+   "display_text": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
+   "text_original": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held. In Africa, Nigeria has the most, four, including Eket, Calabar and Abuja.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO",
+    "LBR",
+    "MOZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
      "commonness": 3,
      "gem": false,
-     "fact": "Huancayo Peru; Piura Peru."
+     "fact": "Cape Coast Ghana."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Eket Nigeria; Calabar Nigeria; Abuja Nigeria; and 1 more."
     },
     {
      "code": "COD",
      "name": "Democratic Republic of the Congo",
      "commonness": 2,
      "gem": false,
-     "fact": "Mbuji-Mayi Democratic Republic of the Congo."
+     "fact": "Kananga Democratic Republic of the Congo; Mbuji-Mayi Democratic Republic of the Congo."
     },
     {
-     "code": "GHA",
-     "name": "Ghana",
+     "code": "UGA",
+     "name": "Uganda",
      "commonness": 2,
      "gem": false,
-     "fact": "Cape Coast Ghana."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ulaanbaatar Mongolia."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Calabar Nigeria."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Savai'i Samoa."
+     "fact": "Kampala Uganda."
     },
     {
      "code": "AGO",
@@ -113,297 +127,249 @@
      "commonness": 1,
      "gem": true,
      "fact": "Luanda Angola."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Monrovia Liberia."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Beira Mozambique; Maputo Mozambique."
     }
    ]
   },
   {
-   "id": "temples-first-announced-2018",
-   "bank": "temples",
-   "display_text": "Pin a country or territory whose first temple was announced in 2018.",
-   "text_original": "Pin a country or territory whose first temple was announced in 2018.",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2018",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "id": "global-western-europe-dedications-1966-98",
+   "bank": "global",
+   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) an Apostle dedicated or rededicated, 1966 to 1998",
+   "text_original": "Many European lands were first dedicated in the 1850s; later Apostles dedicated new ones or rededicated old ones. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) that an Apostle dedicated or rededicated for the preaching of the gospel between 1966 and 1998.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1966-1998",
+   "citation": "Global Histories chronologies (continental Western Europe)",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.thechurchnews.com/2017/8/18/23221901/history-moment-president-monson-in-east-germany/",
+    "https://www.thechurchnews.com/2018/6/8/23221490/president-monsons-revisit-to-a-sacred-site-in-germany/"
    ],
    "difficulty": 3,
-   "note": null,
-   "summary": "In 2018, his first year as Church president, Russell M. Nelson announced first temples for seven countries and territories, from Russia and India to Guam and Cape Verde. Five of those have since been dedicated; Bengaluru and the Russia temple had not been as of October 2026.",
-   "stamp": "as of 26 Oct 2026",
+   "note": "France (1850) and Switzerland (1851) were dedicated long before. Germany counts through the 1975 East German dedication.",
+   "summary": "Between 1966 and 1998 Apostles offered dedicatory prayers over seven Western European lands. Ezra Taft Benson rededicated Italy in 1966 and Marion G. Romney dedicated Spain in 1968. Thomas S. Monson dedicated East Germany and Portugal in 1975. L. Tom Perry and Howard W. Hunter dedicated the Netherlands and Austria in 1992, and Jeffrey R. Holland rededicated Belgium in 1998.",
+   "stamp": null,
    "gems": [
-    "CPV",
-    "GUM"
+    "BEL"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "IND",
-     "name": "India",
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 3,
      "gem": false,
-     "fact": "Bengaluru India, announced 2018."
+     "fact": "Elder Marion G. Romney dedicated Spain from Casa de Campo in Madrid, October 1968."
     },
     {
-     "code": "RUS",
-     "name": "Russia",
+     "code": "ITA",
+     "name": "Italy",
      "commonness": 3,
      "gem": false,
-     "fact": "A temple for a major city in Russia, announced 2018."
+     "fact": "Ezra Taft Benson rededicated Italy at Torre Pellice, where Lorenzo Snow had dedicated it, November 10, 1966."
     },
     {
-     "code": "KHM",
-     "name": "Cambodia",
+     "code": "AUT",
+     "name": "Austria",
      "commonness": 2,
      "gem": false,
-     "fact": "Phnom Penh Cambodia, announced 2018."
+     "fact": "Howard W. Hunter dedicated Austria from the Kahlenberg above Vienna, September 12, 1992."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Thomas S. Monson dedicated the German Democratic Republic (East Germany) on a hillside near Radebeul, April 27, 1975."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder L. Tom Perry dedicated the Netherlands, September 10, 1992."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Thomas S. Monson dedicated Portugal near the Sintra Mountains, March 1975."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Jeffrey R. Holland rededicated Belgium at Tervuren, May 26, 1998."
+    }
+   ]
+  },
+  {
+   "id": "global-central-america-dedications-1990-92",
+   "bank": "global",
+   "display_text": "Pin a Central American country an Apostle opened to missionaries with a prayer of dedication (or rededication), 1990-1992",
+   "text_original": "Spencer W. Kimball dedicated all of Central America in 1952. Between 1990 and 1992 Apostles returned and dedicated (or, in one case, rededicated) each Central American country individually for the preaching of the gospel. A Central American country dedicated in that period.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1990-1992",
+   "citation": "Global Histories chronologies (Central America)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Elder Spencer W. Kimball dedicated Central America as a whole in 1952. In a burst from 1990 to 1992, Russell M. Nelson, Richard G. Scott, Howard W. Hunter, Marvin J. Ashton and Boyd K. Packer offered prayers for each country in turn, so every Central American nation received its own dedication.",
+   "stamp": null,
+   "gems": [
+    "BLZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rededicated by Marvin J. Ashton, October 19, 1991, in Quetzaltenango."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Boyd K. Packer, August 22, 1992."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Russell M. Nelson, June 1, 1991, on El Picacho above Tegucigalpa."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Russell M. Nelson, April 7, 1990, in San Salvador."
     },
     {
      "code": "NIC",
      "name": "Nicaragua",
      "commonness": 2,
      "gem": false,
-     "fact": "Managua Nicaragua, announced 2018."
+     "fact": "Richard G. Scott and Russell M. Nelson, April 9, 1990, in Managua."
     },
     {
-     "code": "PRI",
-     "name": "Puerto Rico",
+     "code": "PAN",
+     "name": "Panama",
      "commonness": 2,
      "gem": false,
-     "fact": "San Juan Puerto Rico, announced 2018."
+     "fact": "Howard W. Hunter, August 24, 1991."
     },
     {
-     "code": "CPV",
-     "name": "Cape Verde",
+     "code": "BLZ",
+     "name": "Belize",
      "commonness": 1,
      "gem": true,
-     "fact": "Praia Cape Verde, announced 2018."
-    },
-    {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Yigo Guam, announced 2018."
+     "fact": "Russell M. Nelson, June 23, 1991, with about 36 members present."
     }
    ]
   },
   {
-   "id": "nt-old-testament-outsiders",
-   "bank": "nt",
-   "display_text": "Pin a country home to an Old Testament outsider the New Testament mentions (not Balaam, the queen of the south or Sodom)",
-   "text_original": "A present-day country that was home to an Old Testament person or people from outside Abraham's family whom the New Testament mentions (not Balaam, the queen of the south or Sodom)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Luke 4:26-27; Matthew 1:5; 12:41; Hebrews 7:1; 11:31; Romans 9:17; Galatians 4:24-25; 2 Timothy 3:8; Matthew 1:6",
+   "id": "global-first-stakes-1974-76",
+   "bank": "global",
+   "display_text": "Pin a country or territory whose first stake (group of congregations) came 1974-1976 (Northern Ireland counts as UK)",
+   "text_original": "From 1974 to 1976 the Church organized first stakes in Scandinavia, France and Chinese-speaking Asia. A country or territory whose very first stake of the Church was organized between 1974 and 1976.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "1974-1976",
+   "citation": "Global Histories chronologies (Denmark, Sweden, France, Hong Kong, Taiwan)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/salem?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Jericho is in the West Bank (PSE). Balaam's Pethor and the queen of the south's Sheba are disputed sites and are not counted.",
-   "summary": "The New Testament keeps pointing to outsiders in Israel's story. Jesus praised Naaman of Syria, a widow of Sidon and the repentant Ninevites. Ruth of Moab and Rahab of Jericho appear in his genealogy, Melchizedek king of Salem in Hebrews, and Paul names Pharaoh, Hagar and the magicians of Egypt.",
-   "stamp": null,
+   "note": "The United Kingdom does not count: its first stake was in Manchester, England, in 1960.",
+   "summary": "Copenhagen became the first stake in Scandinavia in 1974, and Stockholm and Paris followed in 1975. In April 1976 Taipei and Hong Kong received stakes within days of each other, the first in Chinese-speaking lands.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "TUR"
+    "HKG",
+    "TWN"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Paul names Pharaoh, Agar (Hagar the Egyptian), and the magicians Jannes and Jambres who withstood Moses (Romans 9:17; Galatians 4:24; 2 Timothy 3:8)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
+     "code": "DNK",
+     "name": "Denmark",
      "commonness": 3,
      "gem": false,
-     "fact": "Jesus said the men of Nineveh, who repented at Jonah's preaching, would rise in judgment (Matthew 12:41)."
+     "fact": "The Copenhagen Denmark Stake, the first stake in Scandinavia, was organized June 16, 1974."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "FRA",
+     "name": "France",
      "commonness": 3,
      "gem": false,
-     "fact": "Jesus recalled that Naaman the Syrian, of all the lepers, was cleansed (Luke 4:27)."
+     "fact": "The first stake in France was organized in Paris, November 16, 1975, with Gerard Giraud-Carrier as president."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 2,
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
      "gem": false,
-     "fact": "Melchisedec was king of Salem, which the Bible Dictionary identifies with Jerusalem (Hebrews 7:1)."
+     "fact": "The Stockholm Sweden Stake was organized April 20, 1975, with Evert W. Perciwall as president."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "HKG",
+     "name": "Hong Kong",
      "commonness": 2,
-     "gem": false,
-     "fact": "Ruth, a woman of Moab (Ruth 1:4), is named in Jesus' genealogy; Moab lay east of the Dead Sea (Matthew 1:5)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jesus recalled Elijah being sent to a widow of Sarepta, a city of Sidon (Luke 4:26)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "By faith Rahab of Jericho, a Canaanite, perished not with them that believed not (Hebrews 11:31; Joshua 2)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 1,
      "gem": true,
-     "fact": "The genealogy names Urias, Uriah the Hittite (Matthew 1:6; 2 Samuel 11:3); BD Hittites says their empire extended to the extreme northwest of Asia Minor."
-    }
-   ]
-  },
-  {
-   "id": "ot-joshua-tribal-allotments",
-   "bank": "ot",
-   "display_text": "Pin a country holding land allotted to a tribe of Israel in Joshua 13-19",
-   "text_original": "A present-day country holding land allotted to a tribe of Israel in Joshua 13-19, from Bashan and Gilead east of the Jordan to Asher's border at great Zidon and Judah's border at the river of Egypt",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Joshua 13-19",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/15?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/19?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/edrei?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/egypt-river-of?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Jericho, Bethel and Hebron are in the West Bank (Palestine); much of Judah and the northern tribes lie in Israel.",
-   "summary": "After the conquest, Joshua divided the land by lot. Reuben, Gad and half of Manasseh took Gilead and Bashan east of the Jordan, while the other tribes took Canaan, with Asher's coast stretching toward Zidon and Tyre and Judah's south border reaching the river of Egypt (Josh 13-19).",
-   "stamp": null,
-   "gems": [
-    "EGY"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Most tribes, including Naphtali, Zebulun, Issachar and much of Judah, were given land west of the Jordan (Josh 15-19)."
+     "fact": "The Hong Kong Stake was created April 25, 1976, with Poon Shiu-Tat (Sheldon) as president."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Benjamin, Ephraim and Judah held land now in the West Bank, such as Jericho, Bethel and Hebron (Josh 15:54; 16:1; 18:21-22)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Reuben, Gad and half of Manasseh received Gilead and the plains east of the Jordan (Josh 13:8-25)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "TWN",
+     "name": "Taiwan",
      "commonness": 2,
-     "gem": false,
-     "fact": "Asher's border reached to great Zidon and the strong city Tyre (Josh 19:28-29)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Half of Manasseh received all Bashan, the kingdom of Og with Edrei and Ashtaroth (Josh 13:12, 29-31)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 1,
      "gem": true,
-     "fact": "Judah's south border went out unto the river of Egypt, the Wady el Arish in northern Sinai (Josh 15:4, 47; Bible Dictionary)."
-    }
-   ]
-  },
-  {
-   "id": "bom-first-editions-1980",
-   "bank": "bom",
-   "display_text": "Pin the homeland of a language (not Arabic) whose first Book of Mormon, whole or in part, came out in 1980",
-   "text_original": "A country that is the home of a language, other than Arabic, in which the Book of Mormon was first published, in selections or in full, in 1980",
-   "accepts": "country",
-   "topic": "scripture translation",
-   "era": "1980",
-   "citation": "Church translations table, Book of Mormon; Church News, 27 Feb 2022; Global Histories chronology: Fiji",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/manual/translations-and-downloads/scriptures/book-of-mormon?lang=eng",
-    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Arabic, also first published in 1980 as selections, is left out so the list stays closed. Russian is dated 1981 by Church News.",
-   "summary": "The year 1980 brought the Book of Mormon into six new languages, mostly as selections that were completed later. Besides Arabic they were Bulgarian, Navajo, Ecuadorian Quichua, Vietnamese and Fijian, whose first 50 copies reached Suva that October.",
-   "stamp": null,
-   "gems": [
-    "ECU"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Fijian, 1980; the first 50 copies reached Suva on 29 October 1980."
-    },
-    {
-     "code": "VNM",
-     "name": "Vietnam",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Vietnamese selections came out in 1980 and the full book in 1982."
-    },
-    {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Bulgarian selections came out in 1980 and the full book in 1999."
-    },
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Navajo selections came out in 1980 and the full book in 1998."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Quichua (Ecuador) selections came out in 1980 and the full book in 2011."
+     "fact": "The Taipei Taiwan Stake was created April 22, 1976, with Chang I-ch'ing as first stake president."
     }
    ]
   }

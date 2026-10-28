@@ -2,410 +2,410 @@
  "day": 37,
  "prompts": [
   {
-   "id": "temples-conf-april-2019",
+   "id": "temples-rededicated-1970-99",
    "bank": "temples",
-   "display_text": "Pin a country or territory where a new temple was announced at the April 2019 general conference.",
-   "text_original": "Pin a country or territory where a new temple was announced at the April 2019 general conference.",
-   "accepts": "country_or_territory",
+   "display_text": "Pin a country where a temple was rededicated after renovation from 1970 through 1999.",
+   "text_original": "Pin a country where a temple was rededicated after renovation from 1970 through 1999.",
+   "accepts": "country",
    "topic": "temples",
-   "era": "2019",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "era": "1970-1999",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/eight-new-temples-april-2019-general-conference"
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "At the end of the April 2019 general conference, President Russell M. Nelson announced 8 new temples in 7 countries or territories. Budapest gave Hungary its first temple announcement, and Pago Pago did the same for American Samoa.",
+   "summary": "Older temples are closed for renovation and then rededicated. From 1970 through 1999 this happened in Canada (Cardston, 1991), Switzerland (Bern, 1992), England (London, 1992) and Australia (Sydney, 1991), as well as at nine temples in the United States, including St. George and Laie.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ASM"
+    "CHE"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
      "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Deseret Peak Utah; Moses Lake Washington."
+     "fact": "Atlanta Georgia, 1997; Boise Idaho, 1987; Chicago Illinois, 1989; and 6 more."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "AUS",
+     "name": "Australia",
      "commonness": 3,
      "gem": false,
-     "fact": "Antofagasta Chile."
+     "fact": "Sydney Australia, 1991."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "CAN",
+     "name": "Canada",
      "commonness": 3,
      "gem": false,
-     "fact": "Okinawa Japan."
+     "fact": "Cardston Alberta, 1991."
     },
     {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
      "gem": false,
-     "fact": "San Pedro Sula Honduras."
+     "fact": "London England, 1992."
     },
     {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 2,
-     "gem": false,
-     "fact": "Budapest Hungary."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Neiafu Tonga."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 1,
      "gem": true,
-     "fact": "Pago Pago American Samoa."
+     "fact": "Bern Switzerland, 1992."
     }
    ]
   },
   {
-   "id": "global-first-stakes-1974-76",
-   "bank": "global",
-   "display_text": "Pin a country or territory whose very first stake of the Church was organized between 1974 and 1976",
-   "text_original": "From 1974 to 1976 the Church organized first stakes in Scandinavia, France and Chinese-speaking Asia. A country or territory whose very first stake of the Church was organized between 1974 and 1976.",
-   "accepts": "country_or_territory",
-   "topic": "church growth",
-   "era": "1974-1976",
-   "citation": "Global Histories chronologies (Denmark, Sweden, France, Hong Kong, Taiwan)",
+   "id": "pioneer-europe-first-baptisms-1849-51",
+   "bank": "pioneer",
+   "display_text": "Pin a European country where the first Latter-day Saint converts were baptized between 1849 and 1851.",
+   "text_original": "Between 1849 and 1851, apostles and other missionaries sent from Utah and Britain baptized the first Latter-day Saint converts in several European countries. Pin a country where, according to the Church Global Histories, the first converts were baptized in those years.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1849-1851",
+   "citation": "Global Histories chronologies (Europe)",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
     "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
     "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
     "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng"
    ],
-   "difficulty": 3,
-   "note": "The United Kingdom does not count: its first stake was in Manchester, England, in 1960.",
-   "summary": "Copenhagen became the first stake in Scandinavia in 1974, and Stockholm and Paris followed in 1975. In April 1976 Taipei and Hong Kong received stakes within days of each other, the first in Chinese-speaking lands.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 2,
+   "note": "The Netherlands (1861), Belgium (1888) and Austria (1883) had their first baptisms later, so they do not count.",
+   "summary": "Within three years of reaching the Salt Lake Valley, the Church sent apostles to open Europe beyond Britain. Erastus Snow led the Scandinavian work from Copenhagen, Lorenzo Snow opened Italy and Switzerland, and John Taylor went to France. Between 1849 and 1851 the first converts were baptized from Le Havre to Copenhagen, Schleswig and the Westman Islands.",
+   "stamp": null,
    "gems": [
-    "HKG",
-    "TWN"
+    "ISL"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
      "code": "DNK",
      "name": "Denmark",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "The Copenhagen Denmark Stake, the first stake in Scandinavia, was organized June 16, 1974."
+     "fact": "Fifteen people, including Ole and Marie Monster, became the first converts baptized in Denmark, August 12, 1850."
     },
     {
      "code": "FRA",
      "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Augustus Saint d'Anna, the first known convert in France, was baptized at Le Havre on July 30, 1849."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "The first stake in France was organized in Paris, November 16, 1975, with Gerard Giraud-Carrier as president."
+     "fact": "George P. Dykes baptized Anna Hoth and her daughter Oline at Schleswig, September 15, 1851, the first recorded baptisms in present-day Germany."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jean Antoine Bosc was baptized by Lorenzo Snow on October 27, 1850, the first convert baptized in Italy."
     },
     {
      "code": "SWE",
      "name": "Sweden",
      "commonness": 3,
      "gem": false,
-     "fact": "The Stockholm Sweden Stake was organized April 20, 1975, with Evert W. Perciwall as president."
+     "fact": "John E. Forsgren baptized 21 converts in Gavle and Stockholm, June-September 1850."
     },
     {
-     "code": "HKG",
-     "name": "Hong Kong",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Hong Kong Stake was created April 25, 1976, with Poon Shiu-Tat (Sheldon) as president."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Taipei Taiwan Stake was created April 22, 1976, with Chang I-ch'ing as first stake president."
-    }
-   ]
-  },
-  {
-   "id": "global-western-europe-legal-recognition-1952-74",
-   "bank": "global",
-   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) that recognized the Church, 1952 to 1974",
-   "text_original": "After World War II, the Church sought official legal standing from European governments so it could own property and operate freely. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) whose government officially recognized the Church between 1952 and 1974.",
-   "accepts": "country",
-   "topic": "religious freedom",
-   "era": "1952-1974",
-   "citation": "Global Histories chronologies (continental Western Europe)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Switzerland (1864) and Italy (1993) recognized the Church outside these years, so they do not count.",
-   "summary": "In the decades after World War II, Western European governments gave the Church legal standing one by one: France in 1952, West Germany in 1953, Austria and the Netherlands in 1955, Spain in 1968 and Portugal in 1974. Recognition let the Church own meetinghouses, hold meetings openly and bring in missionaries.",
-   "stamp": null,
-   "gems": [
-    "PRT"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "West Germany recognized the Church as a public-law corporation, December 7, 1953."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 4,
-     "gem": false,
-     "fact": "France registered the Church as a foreign association in September 1952."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Spain officially recognized the Church, October 22, 1968."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 2,
      "gem": false,
-     "fact": "Austria granted the Church legal recognition, September 27, 1955."
+     "fact": "The first converts in Switzerland were baptized in Geneva in March 1851."
     },
     {
-     "code": "NLD",
-     "name": "Netherlands",
+     "code": "NOR",
+     "name": "Norway",
      "commonness": 2,
      "gem": false,
-     "fact": "The Netherlands recognized the Church, August 22, 1955, after 19 years of requests."
+     "fact": "Hans F. Petersen baptized John Olsen and Peter Adamsen at Risor, November 26, 1851, the first baptisms in Norway."
     },
     {
-     "code": "PRT",
-     "name": "Portugal",
+     "code": "ISL",
+     "name": "Iceland",
      "commonness": 1,
      "gem": true,
-     "fact": "David M. Kennedy secured official recognition in Lisbon in 1974."
+     "fact": "Benedikt Hansson and Ragnhildur Stefansdottir became the first converts baptized in Iceland, May 1851."
     }
    ]
   },
   {
-   "id": "ot-daniel-lands",
+   "id": "ot-ezra-return-and-temple",
    "bank": "ot",
-   "display_text": "Pin a country holding a land or people named in the book of Daniel, from Babylon to Grecia",
-   "text_original": "A present-day country holding a land, city or people named in the book of Daniel (Babylon, Shushan by the river Ulai, Media and Persia, Grecia, Egypt, the Libyans and the people of Cush, the Nile land south of Egypt, Edom, Moab and Ammon, the ships of Chittim, and the glorious land)",
+   "display_text": "Pin a country holding a place or people named in the book of Ezra, from Cyrus's Persia to Joppa",
+   "text_original": "A present-day country holding a place or people named in the book of Ezra: Cyrus king of Persia, the captives in Babylon, cedar from Lebanon floated to Joppa, the adversaries in Samaria, the roll found at Achmetha in Media, and the peoples Ezra warned against marrying (including Hittites, Ammonites, Moabites and Egyptians)",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Daniel 1-11",
+   "citation": "Ezra 1-10",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so Sudan counts for Daniel 11:43. Jerusalem is scored as Israel.",
-   "summary": "Daniel was taken captive to Babylon, served under Babylonian and Persian kings, and saw visions at Shushan. His visions trace Media and Persia, Grecia, and the long struggle of the kings of the north and south, which touches Egypt, Libya, Ethiopia, Edom, Moab, Ammon and the ships of Chittim (Dan 1-11).",
+   "note": "Samaria is in the West Bank (Palestine); Joppa (Jaffa) is in Israel. Jerusalem is scored as Israel, as in the other Bible prompts.",
+   "summary": "Cyrus of Persia let the Jews in Babylon return and rebuild the temple. They paid Zidon and Tyre for cedar from Lebanon, shipped to Joppa, and pressed on despite adversaries who wrote from Samaria to the Persian king. Darius found Cyrus's decree at Achmetha and the temple was finished; later Ezra came to teach the law (Ezra 1-10).",
    "stamp": null,
    "gems": [
-    "CYP",
-    "SDN"
+    "EGY",
+    "JOR",
+    "PSE"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Daniel was carried to Babylon in the land of Shinar (Dan 1:1-2)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The king of the south of Daniel 11 rules Egypt (Dan 11:8, 42)."
-    },
     {
      "code": "IRN",
      "name": "Iran",
      "commonness": 4,
      "gem": false,
-     "fact": "Daniel saw his vision at Shushan by the river of Ulai, and the ram stood for the kings of Media and Persia (Dan 8:2, 20)."
+     "fact": "Cyrus king of Persia proclaimed the return, and his decree was found at Achmetha in the province of the Medes (Ezra 1:1-2; 6:2); the Elamites were among Samaria's settlers who wrote against the Jews (Ezra 4:9)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The captives went up from Babylon unto Jerusalem (Ezra 1:11)."
     },
     {
      "code": "ISR",
      "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "Daniel prayed toward Jerusalem, and the king of the north enters the glorious land (Dan 6:10; 11:41)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The rough goat is the king of Grecia (Dan 8:21)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Edom, Moab and the chief of the children of Ammon escape out of his hand (Dan 11:41)."
-    },
-    {
-     "code": "LBY",
-     "name": "Libya",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Libyans shall be at his steps (Dan 11:43)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The king of the north stands in the glorious land and plants his palace in the glorious holy mountain; that land includes the hill country now in the West Bank (Dan 11:16, 41, 45)."
-    },
-    {
-     "code": "CYP",
-     "name": "Cyprus",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The ships of Chittim come against the king of the north (Dan 11:30); Chittim is Cyprus."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The Ethiopians shall be at his steps (Dan 11:43); Bible Ethiopia (Cush) was the Nile land south of Egypt."
-    }
-   ]
-  },
-  {
-   "id": "ot-josiah-and-pharaoh-necho",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place in Josiah's reforms, his death at Megiddo, or Pharaoh Necho's march",
-   "text_original": "A present-day country holding a place or kingdom named in Josiah's reforms and death and their aftermath (2 Kings 23; 2 Chronicles 35-36): the high places of the gods of Zidon, Moab and Ammon, Bethel and Samaria's high places, Megiddo, Necho's march against the king of Assyria toward Carchemish by Euphrates, Riblah in Hamath, Egypt, Babylon, and the kingdom of Persia",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "2 Kings 23; 2 Chronicles 35:20-36:4",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/35?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/carchemish?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Bethel and Samaria are in the West Bank (Palestine); Megiddo is in Israel.",
-   "summary": "King Josiah of Judah purged idolatry from Jerusalem to Bethel and the cities of Samaria. When Pharaoh Necho marched north toward Carchemish to aid the king of Assyria, Josiah met him at Megiddo and was slain. Necho then bound Josiah's son Jehoahaz at Riblah and carried him to Egypt (2 Kgs 23; 2 Chr 35).",
-   "stamp": null,
-   "gems": [
-    "IRN",
-    "LBN",
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Pharaoh-nechoh king of Egypt came up, and he carried Jehoahaz to Egypt, where he died (2 Kgs 23:29, 34)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Josiah went against Necho and was slain at Megiddo (2 Kgs 23:29; 2 Chr 35:22-24)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Josiah broke down the altar at Bethel and the high places in the cities of Samaria (2 Kgs 23:15, 19)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Necho went up against the king of Assyria, whose homeland was on the Tigris (2 Kgs 23:29); Nebuchadnezzar later carried Jehoiakim and the temple vessels to Babylon (2 Chr 36:6-7)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Josiah defiled the high places Solomon had built for Chemosh of the Moabites and Milcom of the children of Ammon (2 Kgs 23:13)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Necho put Jehoahaz in bands at Riblah in the land of Hamath (2 Kgs 23:33)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The captives served in Babylon until the reign of the kingdom of Persia, when Cyrus king of Persia proclaimed the return (2 Chr 36:20-23)."
+     "fact": "They rebuilt the house of God at Jerusalem, and cedar was brought by sea to Joppa (Ezra 3:7-8)."
     },
     {
      "code": "LBN",
      "name": "Lebanon",
-     "commonness": 1,
-     "gem": true,
-     "fact": "He also defiled the high place Solomon built for Ashtoreth the abomination of the Zidonians (2 Kgs 23:13)."
+     "commonness": 3,
+     "gem": false,
+     "fact": "Meat, drink and oil went to them of Zidon and Tyre for cedar trees from Lebanon (Ezra 3:7)."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Egyptians are also in Ezra's list of peoples whose abominations Israel had joined (Ezra 9:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Ezra mourned that the people had mingled with Ammonites and Moabites (Ezra 9:1)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The adversaries wrote to Artaxerxes, and his answer went to Rehum and those dwelling in Samaria (Ezra 4:17)."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-pacific-missionaries-called-home-1940",
+   "bank": "pioneer",
+   "display_text": "Pin a South Pacific country or territory whose foreign missionaries were called home early in World War II.",
+   "text_original": "As World War II spread, the Church called foreign missionaries home from its South Pacific missions in 1940 and early 1941, and local Saints led the branches. Pin a country or territory where a Global Histories chronology records this.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1940-1941",
+   "citation": "Global Histories chronologies (Australia, New Zealand, Tonga, Samoa, French Polynesia)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Hawaii does not count; it received evacuated missionaries. The Samoan Mission covered Samoa and American Samoa, so both count.",
+   "summary": "In 1940 the Church withdrew foreign missionaries from its South Pacific missions, and Australia's were gone by January 1941. Local members became branch presidents, mission Relief Society leaders and missionaries. Some evacuated elders were sent on to Hawaii.",
+   "stamp": null,
+   "gems": [
+    "ASM",
+    "PYF",
+    "WSM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Overseas missionaries had been evacuated by January 1941."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1940 leaders told all missionaries in New Zealand to return home."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1940: foreign missionaries evacuated; Emile C. Dunn stayed as mission president."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Samoa chronology's 1940-45 entry covers the Samoan Islands: missionaries were called home and Samoan Saints led."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Tahitian Mission was closed on November 19, 1940; local members led the branches."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1940: missionaries of the Samoan Mission called home; Samoan Saints led."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-ballard-south-america-1925",
+   "bank": "pioneer",
+   "display_text": "Pin an independent South American country in the land Melvin J. Ballard opened to missionaries with a prayer of dedication in 1925",
+   "text_original": "On Christmas Day 1925 in Buenos Aires, apostle Melvin J. Ballard dedicated all of South America for the preaching of the gospel. Pin any independent country of South America.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1925",
+   "citation": "Global Histories chronologies (Argentina, Brazil, Chile, Colombia, Bolivia, Uruguay, Venezuela)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "The prayer covered the whole continent, so every South American country counts. French Guiana is part of France and does not.",
+   "summary": "In late 1925 Elder Melvin J. Ballard of the Quorum of the Twelve Apostles arrived in Buenos Aires to open a South American mission. On December 25 he dedicated the whole continent for the preaching of the gospel. Global Histories chronologies across the continent record that 1925 prayer as the start of Church growth in South America.",
+   "stamp": null,
+   "gems": [
+    "GUY",
+    "SUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Ballard offered the prayer in Buenos Aires in December 1925."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Global Histories (Brazil) lists the 1925 dedication of South America."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Global Histories (Chile) lists the 1925 dedication of South America."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Global Histories (Colombia) lists the 1925 dedication."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "part of South America, all of which Ballard dedicated in 1925."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Global Histories (Venezuela) lists the 1925 dedication."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Global Histories (Bolivia) lists the 1925 dedication."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "part of South America, all of which Ballard dedicated in 1925."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "part of South America, all of which Ballard dedicated in 1925."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Global Histories (Uruguay) lists the 1925 dedication."
+    },
+    {
+     "code": "GUY",
+     "name": "Guyana",
      "commonness": 1,
      "gem": true,
-     "fact": "Necho came to fight against Carchemish by Euphrates (2 Chr 35:20); the ruins of Carchemish lie at Turkey's border with Syria; Church Bible Maps 5, 6 and 9 plot Carchemish on the upper Euphrates."
+     "fact": "part of South America, all of which Ballard dedicated in 1925."
+    },
+    {
+     "code": "SUR",
+     "name": "Suriname",
+     "commonness": 1,
+     "gem": true,
+     "fact": "part of South America, all of which Ballard dedicated in 1925."
     }
    ]
   }

@@ -16,7 +16,7 @@
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "A groundbreaking starts construction of a temple, usually a few years after it is announced. 16 temple groundbreakings were held in 2022 in 7 countries or territories; see each answer for the temple and date.",
+   "summary": "In 2022 ground was broken for 16 temples in 7 countries or territories, 10 of them in the United States. Sierra Leone's temple in Freetown broke ground on 19 March 2022.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
     "SLE"
@@ -75,243 +75,270 @@
    ]
   },
   {
-   "id": "global-first-stakes-abroad-1958-62",
-   "bank": "global",
-   "display_text": "Pin a country whose very first stake of the Church was organized between 1958 and 1962",
-   "text_original": "Between 1958 and 1962 the Church organized its first stakes in a run of countries far from Utah, a sign that Saints abroad were being asked to build Zion where they lived. A country whose first stake of the Church was organized between 1958 and 1962.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1958-1962",
-   "citation": "Global Histories chronologies (New Zealand, England, Australia, Netherlands, Germany, Switzerland, Samoa, Mexico)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Mexico does not count: its first stake, in the Chihuahua and Sonora colonies, came in 1895. Canada's also came in 1895.",
-   "summary": "After New Zealand received its first stake at Auckland in 1958, stakes followed in Manchester, England and Sydney, Australia on the same day in 1960. Rotterdam, Berlin and Zurich gained the first stakes in the Netherlands, Germany and Switzerland in 1961, and Apia, Samoa followed in 1962.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "WSM"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Manchester England Stake, the first in Europe, was organized March 27, 1960."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The first stake in Australia was organized in Sydney, March 27, 1960."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Berlin Germany Stake, the first in Germany, was organized September 10, 1961."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The first stake in New Zealand was created in Auckland, May 18, 1958."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Zurich Switzerland Stake, the first in Switzerland, was organized October 27, 1961."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Holland Stake, the first in continental Europe, was created at Rotterdam, March 12, 1961."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The first stake in the Samoan Islands was organized at Apia, Western Samoa, March 18, 1962."
-    }
-   ]
-  },
-  {
-   "id": "global-warsaw-pact-dedications-1977-2006",
-   "bank": "global",
-   "display_text": "Pin a non-Soviet Warsaw Pact country (today's borders) dedicated or rededicated for the gospel between 1977 and 2006",
-   "text_original": "As communist rule eased and then ended, Church leaders dedicated or rededicated the former Soviet satellites of Europe for the preaching of the gospel. A country that was a Warsaw Pact member other than the Soviet Union (Poland, East Germany, Czechoslovakia, Hungary, Romania, Bulgaria, Albania), in its present-day form, dedicated or rededicated for preaching the gospel between 1977 and 2006.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1977-2006",
-   "citation": "Global Histories chronologies (Poland, Germany, Czech Republic, Slovakia, Hungary, Romania, Bulgaria, Albania)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Germany does not count. Elder Nelson's 1990 Prague rededication counts for the Czech Republic; Slovakia had its own in 2006.",
-   "summary": "Spencer W. Kimball rededicated Poland in 1977 while it was still communist. Russell M. Nelson dedicated Hungary in 1987, then Romania and Bulgaria and rededicated Czechoslovakia in early 1990. Dallin H. Oaks dedicated Albania in 1993, and Dieter F. Uchtdorf dedicated newly independent Slovakia in 2006.",
-   "stamp": null,
-   "gems": [
-    "ALB",
-    "SVK"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "POL",
-     "name": "Poland",
-     "commonness": 4,
-     "gem": false,
-     "fact": "President Spencer W. Kimball rededicated Poland in Warsaw, August 24, 1977."
-    },
-    {
-     "code": "CZE",
-     "name": "Czech Republic",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson rededicated Czechoslovakia in Prague, February 6, 1990."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson dedicated Hungary on Gellert Hill, Budapest, April 19, 1987."
-    },
-    {
-     "code": "ROU",
-     "name": "Romania",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson dedicated Romania in Cismigiu Park, Bucharest, February 8, 1990."
-    },
-    {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson dedicated Bulgaria in Sofia, February 13, 1990."
-    },
-    {
-     "code": "ALB",
-     "name": "Albania",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Dallin H. Oaks dedicated Albania at Monument of Heroes Park, Tirana, April 23, 1993."
-    },
-    {
-     "code": "SVK",
-     "name": "Slovakia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Dieter F. Uchtdorf dedicated Slovakia in Trencin, May 12, 2006."
-    }
-   ]
-  },
-  {
-   "id": "ot-jeremiah-25-cup-of-wrath",
+   "id": "ot-sennacherib-invasion",
    "bank": "ot",
-   "display_text": "Pin a country holding a nation made to drink the wine cup of fury in Jeremiah 25 (leave out Arabia)",
-   "text_original": "A present-day country holding a nation or city made to drink the wine cup of the Lord's fury in Jeremiah 25:17-26 (Jerusalem and Judah, Egypt, the Philistine cities, Edom, Moab, Ammon, Tyrus, Zidon, Elam, the Medes, and Sheshach); Dedan, Tema, Buz and Arabia are left out because their extent is unclear",
+   "display_text": "Pin a country holding a place in the story of Sennacherib's invasion of Judah, 2 Kings 18-19",
+   "text_original": "A present-day country holding a place named in the story of Sennacherib's invasion of Judah in 2 Kings 18-19: Lachish, Samaria, the conquered cities his envoys boasted of (Hamath, Arpad, Gozan, Haran, Rezeph), Egypt and Tirhakah king of the Nile land of Cush, Nineveh, and the land of Armenia where his killers fled",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Jeremiah 25:15-26",
+   "citation": "2 Kings 18-19",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/51?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ararat?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Gaza (Azzah) is in Palestine; Ashkelon, Ekron and Ashdod are in Israel. Jerusalem is scored as Israel.",
-   "summary": "Jeremiah is told to take the wine cup of the Lord's fury and make every nation drink it, starting with Jerusalem and ending with Babylon under the cipher Sheshach. Between them come Egypt, the Philistine cities, Edom, Moab, Ammon, Tyre and Zidon, the kings of Arabia, and Elam and the Medes (Jer 25:15-26).",
+   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted. Samaria is in the West Bank (Palestine).",
+   "summary": "In Hezekiah's fourteenth year Sennacherib of Assyria took Judah's fenced cities and besieged Lachish. His officer Rabshakeh mocked trust in Egypt and listed the gods of conquered cities. Hezekiah prayed, Isaiah prophesied, and the angel of the Lord smote the Assyrian camp; Sennacherib returned to Nineveh, where his sons slew him (2 Kgs 18-19).",
    "stamp": null,
    "gems": [
-    "IRN",
-    "PSE"
+    "ARM",
+    "SDN"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Pharaoh king of Egypt, his princes and all his people drink the cup (Jer 25:19)."
-    },
     {
      "code": "ISR",
      "name": "Israel",
-     "commonness": 4,
+     "commonness": 5,
      "gem": false,
-     "fact": "The cup begins with Jerusalem and the cities of Judah, and includes Ashkelon, Ekron and Ashdod (Jer 25:18, 20)."
+     "fact": "Sennacherib took the fenced cities of Judah and camped at Lachish, then sent his army against Jerusalem (2 Kgs 18:13-17)."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "EGY",
+     "name": "Egypt",
      "commonness": 4,
      "gem": false,
-     "fact": "Edom, Moab and the children of Ammon drink it (Jer 25:21)."
+     "fact": "Rabshakeh mocked Judah's trust in Egypt, that bruised reed (2 Kgs 18:21)."
     },
     {
      "code": "IRQ",
      "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "After the angel smote the camp, Sennacherib went home and dwelt at Nineveh (2 Kgs 19:35-36)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 3,
      "gem": false,
-     "fact": "The king of Sheshach, a coded name for Babylon, drinks after them all (Jer 25:26; compare Jer 51:41)."
+     "fact": "His envoys asked where the gods of Hamath and Arpad were, and named Gozan and Rezeph among lands Assyria destroyed (2 Kgs 18:34; 19:12)."
     },
     {
      "code": "LBN",
      "name": "Lebanon",
-     "commonness": 3,
-     "gem": false,
-     "fact": "All the kings of Tyrus and Zidon drink it (Jer 25:22)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
      "commonness": 2,
-     "gem": true,
-     "fact": "All the kings of Elam and of the Medes drink it (Jer 25:25)."
+     "gem": false,
+     "fact": "Sennacherib boasted he had come up with his chariots to the sides of Lebanon to cut its cedars (2 Kgs 19:23)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 2,
+     "gem": false,
+     "fact": "They also asked whether any god had delivered Samaria (2 Kgs 18:34)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Haran is among the places they boasted of destroying (2 Kgs 19:12); Bible Dictionary Haran places it near the source of the Euphrates."
+    },
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 1,
      "gem": true,
-     "fact": "Azzah, which is Gaza, is among the Philistine cities named (Jer 25:20)."
+     "fact": "His sons Adrammelech and Sharezer smote him and escaped into the land of Armenia (2 Kgs 19:37); Bible Dictionary Ararat: the district the Assyrians called Urartu, now called Armenia."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tirhakah king of Ethiopia marched out to fight him (2 Kgs 19:9); Bible Ethiopia was the Nile land south of Egypt."
+    }
+   ]
+  },
+  {
+   "id": "global-hinckley-south-america-1996-97",
+   "bank": "global",
+   "display_text": "Pin a South American country President Hinckley visited on his November 1996 or August 1997 tours",
+   "text_original": "President Gordon B. Hinckley made two sweeping South American tours: six countries in November 1996 and four more in August 1997, where his addresses in Paraguay and Ecuador were believed to be the first by a Church President. A country he visited on either tour.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "1996-1997",
+   "citation": "Ensign, Feb. 1997 and Nov. 1997, News of the Church",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/ensign/1997/02/news-of-the-church/president-hinckley-visits-south-america-florida-washington-d-c?lang=eng",
+    "https://www.churchofjesuschrist.org/study/ensign/1997/11/news-of-the-church/president-hinckley-focuses-on-new-converts-and-families-in-south-american-visits?lang=eng",
+    "https://www.deseret.com/1996/11/16/20770887/prophet-visits-south-america/",
+    "https://www.thechurchnews.com/1997/8/23/23251842/rapid-pace-across-south-america/"
+   ],
+   "difficulty": 2,
+   "note": "Guyana, Suriname and French Guiana were not visited on either tour.",
+   "summary": "In November 1996 President Gordon B. Hinckley spoke to more than 218,000 Saints in Colombia, Peru, Bolivia, Chile, Argentina and Brazil. In August 1997 he returned for Uruguay, Paraguay, Ecuador and Venezuela; his talks in Paraguay and Ecuador were believed to be the first by a Church President there.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY",
+    "URY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "November 1996: he addressed about 50,000 members in Buenos Aires."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "November 1996: he spoke in Porto Alegre, Sao Paulo, Recife and Manaus, and broke ground for the Recife temple."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "November 1996: he spoke to about 48,000 members in two stadium sessions in Santiago."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "November 1996: he held two conferences in Lima attended by about 28,000 members."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "November 1996: he broke ground for a temple in Cochabamba in heavy rain."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "November 1996: he toured the Bogota temple site and addressed about 7,000 members."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "August 11-12, 1997: he toured the Guayaquil temple site and addressed members in Guayaquil and Quito."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "August 13, 1997: he spoke to missionaries in Caracas and to 10,000 members in Valencia."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "August 10, 1997: he spoke to about 7,000 members in a stadium in Asuncion."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "August 9, 1997: he addressed more than 11,000 members at a regional conference in Montevideo."
+    }
+   ]
+  },
+  {
+   "id": "nt-angels-and-visions",
+   "bank": "nt",
+   "display_text": "Pin a country where an angel, vision or dream came on land to someone living in New Testament times (not the Transfiguration)",
+   "text_original": "A present-day country holding a place on land where an angel appeared, or the Lord gave a vision or dream, to someone living in New Testament times, in the Gospels, Acts or Revelation (not the Transfiguration)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Luke 1:11, 26; 2:8-9; Matthew 2:12-19; Acts 9:3-12; 10:3-17; 16:9; 18:9; Revelation 1:9-10",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Bethlehem is in the West Bank (Palestine); Israel also counts.",
+   "summary": "Heavenly messengers appear all through the New Testament. Gabriel came to Zacharias and Mary, angels sang to shepherds near Bethlehem, and an angel guided Joseph in Egypt. Saul met the Lord near Damascus, Paul saw the man of Macedonia at Troas, the Lord comforted him at Corinth, and John saw his Revelation on Patmos.",
+   "stamp": null,
+   "gems": [
+    "GRC",
+    "TUR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Gabriel came to Zacharias in the temple and to Mary in Nazareth; Peter saw a vision at Joppa (Luke 1:11, 26; Acts 10:9-17)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "An angel appeared to shepherds near Bethlehem, where the wise men were also warned in a dream (Luke 2:8-9; Matthew 2:12)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "An angel of the Lord appeared in a dream to Joseph in Egypt after Herod died (Matthew 2:19)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Saul saw a light near Damascus, and Ananias saw the Lord in a vision there (Acts 9:3-12)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Lord spoke to Paul in a vision at Corinth, and John received the Revelation on Patmos (Acts 18:9; Revelation 1:9-10)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": true,
+     "fact": "At Troas Paul saw a vision of a man of Macedonia pleading for help (Acts 16:8-9)."
     }
    ]
   },
   {
    "id": "global-former-soviet-dedications-1990-93",
    "bank": "global",
-   "display_text": "Pin a former Soviet republic an Apostle dedicated or rededicated for preaching the gospel between 1990 and 1993",
+   "display_text": "Pin a former Soviet republic that an Apostle opened to missionaries with a prayer, 1990-1993.",
    "text_original": "As the Soviet Union opened and then broke apart, Apostles dedicated or rededicated several of its former republics for the preaching of the gospel. A former Soviet republic, in its present-day borders, that an Apostle dedicated or rededicated between 1990 and 1993.",
    "accepts": "country",
    "topic": "missionary work",

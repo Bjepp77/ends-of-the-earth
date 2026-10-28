@@ -2,413 +2,470 @@
  "day": 41,
  "prompts": [
   {
-   "id": "history-dedicator-christofferson",
-   "bank": "history2",
-   "display_text": "Pin a country or territory with a temple standing today that D. Todd Christofferson dedicated or rededicated.",
-   "text_original": "A country where D. Todd Christofferson dedicated or rededicated a temple now in use (as of October 2026).",
+   "id": "temples-groundbreaking-2021",
+   "bank": "temples",
+   "display_text": "Pin a country or territory where ground was broken for a new temple in 2021.",
+   "text_original": "Pin a country or territory where ground was broken for a new temple in 2021.",
    "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "1955-2026",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "era": "2021",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/chronology/",
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "D. Todd Christofferson rededicated Asunción Paraguay in 2019 and dedicated San Juan Puerto Rico in 2023, the island's first temple. In 2024 he dedicated Orem Utah, Lima Peru Los Olivos and Salta Argentina, and in 2026 he dedicated Yorba Linda California and rededicated San Diego California.",
+   "summary": "In 2021 ground was broken for 12 temples in 7 countries or territories, the start of construction for each. Tonga and Kenya both broke ground on 11 September 2021, at Neiafu and Nairobi.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "PRY"
+    "ASM",
+    "KHM"
    ],
    "gem_forced": false,
    "answers": [
     {
      "code": "USA",
-     "name": "United States",
+     "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "San Diego California (rededicated 2026); Orem Utah (2024); Yorba Linda California (2026)."
+     "fact": "Deseret Peak Utah (15 May 2021); Tallahassee Florida (5 June 2021); Syracuse Utah (12 June 2021); and 3 more."
     },
     {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Salta Argentina (2024)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lima Peru Los Olivos (2024)."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 2,
-     "gem": false,
-     "fact": "San Juan Puerto Rico (2023)."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Asunción Paraguay (rededicated 2019)."
-    }
-   ]
-  },
-  {
-   "id": "global-western-europe-first-stakes-1975-82",
-   "bank": "global",
-   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) whose first stake came 1975 to 1982",
-   "text_original": "The first European stakes, from 1960 to 1961, were in Britain, the Netherlands, Germany and Switzerland. A second wave followed. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) whose first stake was organized between 1975 and 1982.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1975-1982",
-   "citation": "Global Histories chronologies (continental Western Europe)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Only the nine countries named count. The Netherlands, Germany and Switzerland had stakes from 1961.",
-   "summary": "After the Netherlands, Germany and Switzerland received stakes in 1961, the rest of continental Western Europe waited. Paris got France's first stake in 1975, then Brussels in 1977, Vienna in 1980, Milan and Lisbon in 1981 and Madrid in 1982.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "PRT"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "FRA",
-     "name": "France",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "France's first stake was organized in Paris, November 16, 1975."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Madrid Spain Stake was organized March 14, 1982."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Italy's first stake was organized in Milan in 1981."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ezra Taft Benson organized Austria's first stake in Vienna, April 20, 1980."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Brussels Belgium Stake was organized February 20, 1977."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The Lisbon Stake was organized June 10, 1981."
-    }
-   ]
-  },
-  {
-   "id": "global-wfp-unicef-gifts",
-   "bank": "global",
-   "display_text": "Pin a country named in the Church's 2022 World Food Programme or 2023 or 2026 UNICEF gifts",
-   "text_original": "The Church gave US$32 million to the World Food Programme in September 2022, and US$10 million (August 2023) and US$25 million (May 2026) to UNICEF for mothers and children. A country named as receiving help from one of these three gifts.",
-   "accepts": "country",
-   "topic": "humanitarian aid",
-   "era": "2022-2026",
-   "citation": "Newsroom 2022 WFP; Church News 2023-08-17; Church News 2026-05-20",
-   "source_urls": [
-    "https://newsroom.churchofjesuschrist.org/article/church-of-jesus-christ-32-million-world-food-programme",
-    "https://www.thechurchnews.com/global/2023/8/17/23811733/10-million-donation-unicef-mothers-children-central-african-republic-mail-haiti-mozambique",
-    "https://www.thechurchnews.com/living-faith/2026/05/20/church-of-jesus-christ-unicef-donation-25-million-child-nutrition/"
-   ],
-   "difficulty": 2,
-   "note": "Somaliland is scored as part of Somalia.",
-   "summary": "In 2022 the Church gave the World Food Programme US$32 million for hunger in nine countries from Afghanistan to Yemen. UNICEF received US$10 million in 2023 for mothers and children in four countries and US$25 million in 2026 for child nutrition in five more.",
-   "stamp": null,
-   "gems": [
-    "CAF",
-    "MLI",
-    "SLE"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "HTI",
-     "name": "Haiti",
-     "commonness": 4,
-     "gem": false,
-     "fact": "WFP 2022 and UNICEF 2023."
-    },
-    {
-     "code": "AFG",
-     "name": "Afghanistan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 food aid."
-    },
-    {
-     "code": "COD",
-     "name": "DR Congo",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 and UNICEF 2026."
-    },
-    {
-     "code": "ETH",
-     "name": "Ethiopia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 food aid."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 and UNICEF 2026."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 (northeast) and UNICEF 2026."
-    },
-    {
-     "code": "SOM",
-     "name": "Somalia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 food aid. The gift went to Somalia, which this map splits; a Somaliland pin scores as Somalia."
-    },
-    {
-     "code": "YEM",
-     "name": "Yemen",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 food aid."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 2,
-     "gem": false,
-     "fact": "UNICEF 2023 maternal and child health."
+     "fact": "Salvador Brazil (7 August 2021)."
     },
     {
      "code": "PHL",
      "name": "Philippines",
-     "commonness": 2,
-     "gem": false,
-     "fact": "UNICEF 2026 child nutrition."
-    },
-    {
-     "code": "SSD",
-     "name": "South Sudan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "WFP 2022 food aid."
-    },
-    {
-     "code": "CAF",
-     "name": "Central African Republic",
-     "commonness": 1,
-     "gem": true,
-     "fact": "UNICEF 2023 maternal and child health."
-    },
-    {
-     "code": "MLI",
-     "name": "Mali",
-     "commonness": 1,
-     "gem": true,
-     "fact": "UNICEF 2023 maternal and child health."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 1,
-     "gem": true,
-     "fact": "UNICEF 2026 child nutrition."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-born-asia-pacific",
-   "bank": "people",
-   "display_text": "Pin an Asian or Pacific country or territory where a current General Authority Seventy was born (October 2026, not US states).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Asia or the Pacific islands. Pin a country or territory there where a current General Authority Seventy was born, according to the Church's official biographies.",
-   "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/presidency-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/james-o-fantone?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/takashi-wada?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christopher-h-kim?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/yoon-hwan-choi?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/vaiangina-sikahema?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/chi-hong-sam-wong?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/benjamin-m-z-tai?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/taniela-b-wakolo?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Elder J. Kimo Esplin was born in Kahuku, Hawaii, a US state, so the display rules out US states.",
-   "summary": "As of October 2026, current General Authority Seventies were born in the Philippines, Japan, South Korea, Taiwan, Hong Kong, Tonga and Fiji. Elder Benjamin M. Z. Tai of Hong Kong serves in the Presidency of the Seventy.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "FJI",
-    "TWN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Elders Revillo (General Santos City), Fantone (Manila) and Teh (Davao City)."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
      "commonness": 4,
      "gem": false,
-     "fact": "Elder Takashi Wada, born in Nagano."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elders Christopher H. Kim (Daegu) and Yoon Hwan Choi (Seoul)."
-    },
-    {
-     "code": "HKG",
-     "name": "Hong Kong",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elders Chi Hong (Sam) Wong and Benjamin M. Z. Tai of the Presidency of the Seventy."
+     "fact": "Bacolod Philippines (11 December 2021)."
     },
     {
      "code": "TON",
      "name": "Tonga",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Vaiangina Sikahema, born in Nuku'alofa."
+     "fact": "Neiafu Tonga (11 September 2021)."
     },
     {
-     "code": "FJI",
-     "name": "Fiji",
+     "code": "KEN",
+     "name": "Kenya",
      "commonness": 2,
-     "gem": true,
-     "fact": "Elder Taniela B. Wakolo, born in Lomaloma, Lau."
+     "gem": false,
+     "fact": "Nairobi Kenya (11 September 2021)."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 1,
      "gem": true,
-     "fact": "Elder Wan-Liang Wu, born in Taipei."
+     "fact": "Pago Pago American Samoa (30 October 2021)."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Phnom Penh Cambodia (18 September 2021)."
     }
    ]
   },
   {
-   "id": "ot-nehemiah-wall-world",
-   "bank": "ot",
-   "display_text": "Pin a country holding a city or people in Nehemiah 1-4 and 13, from Shushan to Tobiah the Ammonite (leave out the Arabians)",
-   "text_original": "A present-day country holding a city or people named in Nehemiah 1-4 and 13 (leaving out the Arabians, whose land is unclear): the Persian palace at Shushan, Jerusalem's builders from Jericho and Tekoa, the wall's opponents (Samaria's army, Tobiah the Ammonite, the Ashdodites), and the men of Tyre who sold fish",
+   "id": "people-seventies-young-missions-south-america",
+   "bank": "people",
+   "display_text": "Pin a South American country where a current General Authority Seventy served as a young full-time missionary.",
+   "text_original": "Many General Authority Seventies serving as of October 2026 were once young full-time missionaries in South America. Pin a South American country where one of them served, as named in the Church's official biographies.",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Nehemiah 1-4, 13",
+   "topic": "missionary work",
+   "era": "1970s-2000s",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/b-corey-cuvelier?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/aroldo-b-cavalcante?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/aaron-t-hall?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-r-duncan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/matthew-j-eyring?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/patricio-m-giuffra?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ricardo-p-gimenez?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/allen-d-haynie?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ryan-k-olsen?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/taylor-g-godoy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/david-l-buckner?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/eduardo-f-ortega?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-b-strong?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/pedro-x-larreal?lang=eng"
    ],
-   "difficulty": 3,
-   "note": "Jericho, Tekoa and Samaria are in the West Bank (Palestine); Ashdod is in Israel. Jerusalem is scored as Israel.",
-   "summary": "Nehemiah, cupbearer to the Persian king at Shushan, won leave to rebuild Jerusalem's wall. Builders came from towns such as Jericho and Tekoa, while Sanballat, Tobiah the Ammonite, Geshem the Arabian and the Ashdodites mocked and plotted. The wall was finished in fifty and two days (Neh 1-6).",
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in nine South American countries. Brazil and Chile lead, and the list reaches Bolivia, Uruguay and Venezuela.",
    "stamp": null,
    "gems": [
-    "IRQ"
+    "BOL",
+    "COL",
+    "URY",
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Brazil Sao Paulo, Porto Alegre, Recife South and Curitiba missions, among others."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Chile Concepcion, Osorno, Santiago South and Vina del Mar missions, among others."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Argentina Cordoba (Elder Haynie) and Resistencia (Elder Olsen) missions."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ecuador Guayaquil Mission (Elder Buckner)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Peru Lima North Mission (Elder Taylor G. Godoy)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bolivia Cochabamba Mission (Elder Strong)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Colombia Cali Mission (Elder Ortega)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Uruguay Montevideo Mission (Elder Alliaud)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Venezuela Caracas Mission (Elder Larreal)."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-young-missions-mexico-caribbean",
+   "bank": "people",
+   "display_text": "Pin a country or territory in Mexico, Central America or the Caribbean where a current Seventy served as a young missionary.",
+   "text_original": "Several General Authority Seventies serving as of October 2026 were once young full-time missionaries in Mexico, Central America or the Caribbean. Pin a country or territory there where one of them served, as named in the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1970s-2000s",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/mark-a-bragg?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hugo-montoya?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/arnulfo-valenzuela?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/paul-b-pieper?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/brik-v-eyre?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/marcus-b-nash?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/valeri-v-cordon?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/mark-d-eddy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ahmad-s-corbitt?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-g-brown?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in Mexico, Guatemala, El Salvador, the Dominican Republic, Puerto Rico and Jamaica. Elder Kevin G. Brown served in his native Jamaica.",
+   "stamp": null,
+   "gems": [
+    "JAM"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "IRN",
-     "name": "Iran",
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico Hermosillo, Monterrey, Torreon, Tampico and North missions, and Veracruz."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 4,
      "gem": false,
-     "fact": "Nehemiah was cupbearer to Artaxerxes in Shushan the palace (Neh 1:1, 11)."
+     "fact": "Guatemala Guatemala City Mission (Elder Eyre)."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "He rebuilt the wall of Jerusalem; the Ashdodites joined the plot against it (Neh 2:17; 4:7)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "DOM",
+     "name": "Dominican Republic",
      "commonness": 3,
      "gem": false,
-     "fact": "Tobiah the Ammonite mocked the builders, and no Ammonite or Moabite was to enter the congregation (Neh 2:19; 13:1)."
+     "fact": "Dominican Republic Santo Domingo East Mission (Elder Eddy)."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "SLV",
+     "name": "El Salvador",
      "commonness": 3,
      "gem": false,
-     "fact": "Men of Jericho and the Tekoites built sections of the wall, and Sanballat spoke before the army of Samaria (Neh 3:2, 5; 4:2)."
+     "fact": "El Salvador missions (Elders Nash and Cordon)."
     },
     {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "PRI",
+     "name": "Puerto Rico",
      "commonness": 2,
      "gem": false,
-     "fact": "Men of Tyre sold fish and wares in Jerusalem on the sabbath (Neh 13:16)."
+     "fact": "Puerto Rico San Juan Mission (Elder Corbitt)."
     },
     {
-     "code": "IRQ",
-     "name": "Iraq",
+     "code": "JAM",
+     "name": "Jamaica",
      "commonness": 1,
      "gem": true,
-     "fact": "Nehemiah went to Artaxerxes king of Babylon before returning (Neh 13:6)."
+     "fact": "Jamaica Kingston Mission (Elder Kevin G. Brown)."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-wwi-missionaries-withdrawn",
+   "bank": "pioneer",
+   "display_text": "Pin a European country whose Global Histories chronology records its missionaries leaving when World War I began in 1914.",
+   "text_original": "When World War I broke out in 1914, Church leaders released the missionaries serving in continental Europe but left those in Great Britain in place. Pin a European country whose Church Global Histories chronology records its missionaries leaving or being evacuated when the war began.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1910s",
+   "citation": "Saints vol. 3 ch. 11; Global Histories chronologies",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/11-too-heavy?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Great Britain does not count: its missionaries stayed. Norway does not either: its chronology records only that fewer were sent.",
+   "summary": "At the start of World War I, the First Presidency told European leaders to release German and French missionaries, and mission president Hyrum M. Smith then pulled missionaries out of the rest of continental Europe. Missionaries in Great Britain stayed. Local Saints across the continent led branches and preached on their own until the war ended.",
+   "stamp": null,
+   "gems": [
+    "ISL",
+    "ROU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "All North American missionaries left Germany during World War I; local members were called to preach (GH Germany, 1914-1919)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 5,
+     "gem": false,
+     "fact": "All missionaries left; the French Mission was absorbed, August 1914."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Full-time missionaries were evacuated from Belgium during the war (GH Belgium, 1914-18)."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "All missionaries evacuated, August 1914."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mission president told to release all missionaries, August 30, 1914."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries not native to Denmark sent home, October 1914."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries serving in the Netherlands were reassigned to safer missions (GH Netherlands, 1914-19)."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries from the United States left Sweden in October 1914; local Saints took over the branches."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 2,
+     "gem": false,
+     "fact": "All missionaries evacuated, August 10, 1914."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionary work discontinued in 1914."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Last missionary in Brasso (Brasov) left after the war began."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-missions-africa",
+   "bank": "people",
+   "display_text": "Pin an African country where a current Seventy served as a missionary or mission leader (October 2026).",
+   "text_original": "As of October 2026, several General Authority Seventies had served as young missionaries or as mission leaders in Africa. Pin an African country where one of their missions was headquartered, as named in the Church's official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1980s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-a-dunn?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/joni-l-koch?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Africa is now a training ground for Church leaders. As of October 2026, current Seventies had served or presided in missions based in nine African countries, from Nigeria and Ghana to Angola, Mozambique and Benin. Elder Edward Dube served both as a young missionary and as a mission president in his native Zimbabwe.",
+   "stamp": null,
+   "gems": [
+    "AGO",
+    "BEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Lagos and Port Harcourt missionaries (Egbo, Morrison); Enugu and Calabar mission presidents (Chigbundu, Egbo)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Isaac K. Morrison presided over the Ghana Cape Coast Mission."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elder Matswagothata served in the Cape Town mission; Elder Dunn led the Johannesburg mission."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Thierry K. Mutombo served in the Cote d'Ivoire Abidjan Mission."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Alfred Kyungu presided over the Mbuji-Mayi mission, 2016 to 2019."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Edward Dube: young missionary in Zimbabwe, later president of the Zimbabwe Harare Mission."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Joni L. Koch presided over the Mozambique Maputo Mission."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Denelson Silva presided over the Angola Luanda Mission."
+    },
+    {
+     "code": "BEN",
+     "name": "Benin",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder D. Martin Goury presided over the Benin Cotonou Mission."
     }
    ]
   }

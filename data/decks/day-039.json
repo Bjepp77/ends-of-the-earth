@@ -2,387 +2,336 @@
  "day": 39,
  "prompts": [
   {
-   "id": "temples-rededicated-2000-09",
-   "bank": "temples",
-   "display_text": "Pin a country or territory where a temple was rededicated after renovation or rebuilding from 2000 through 2009.",
-   "text_original": "Pin a country or territory where a temple was rededicated after renovation or rebuilding from 2000 through 2009.",
-   "accepts": "country_or_territory",
+   "id": "history-dedicator-nelson",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that Russell M. Nelson dedicated or rededicated.",
+   "text_original": "A country where Russell M. Nelson dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
    "topic": "temples",
-   "era": "2000-2009",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "Many temples of the late 1970s and early 1980s were renovated in the 2000s. Rededications included Freiberg (2002), Sao Paulo (2004), Apia (2005), Santiago and Papeete (2006), Nukualofa (2007) and Mexico City (2008). Apia had been rebuilt after a 2003 fire.",
+   "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "PYF",
-    "TON",
-    "WSM"
+    "TON"
    ],
    "gem_forced": true,
    "answers": [
     {
      "code": "USA",
-     "name": "United States of America",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Anchorage Alaska, 2004; Monticello Utah, 2002."
+     "fact": "Manti Utah (rededicated 2024); Washington D.C. (rededicated 2022); Deseret Peak Utah (2024); and others."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "ITA",
+     "name": "Italy",
      "commonness": 4,
      "gem": false,
-     "fact": "São Paulo Brazil, 2004."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Mexico City Mexico, 2008."
+     "fact": "Rome Italy (2019)."
     },
     {
      "code": "CHL",
      "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Santiago Chile, 2006."
+     "fact": "Concepción Chile (2018)."
     },
     {
-     "code": "DEU",
-     "name": "Germany",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 3,
      "gem": false,
-     "fact": "Freiberg Germany, 2002."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Papeete Tahiti, 2006."
+     "fact": "Sapporo Japan (2016)."
     },
     {
      "code": "TON",
      "name": "Tonga",
      "commonness": 2,
      "gem": true,
-     "fact": "Nuku'alofa Tonga, 2007."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Apia Samoa, 2005."
+     "fact": "Nuku'alofa Tonga (rededicated 2007)."
     }
    ]
   },
   {
-   "id": "global-western-europe-first-general-authorities",
-   "bank": "global",
-   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) whose first General Authority was called 1975 to 2016",
-   "text_original": "From the 1970s onward, European converts were called as General Authorities. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) whose first General Authority from that country was called between 1975 and 2016.",
+   "id": "bom-180th-anniversary-west-africa",
+   "bank": "bom",
+   "display_text": "Pin a country whose youth joined West Africa's 2010 celebrations of the Book of Mormon's 180th anniversary",
+   "text_original": "A country whose youth joined the August 2010 West Africa celebrations of the 180th anniversary of the coming forth of the Book of Mormon",
    "accepts": "country",
-   "topic": "church leadership",
-   "era": "1975-2016",
-   "citation": "Global Histories chronologies (continental Western Europe); Ensign, May 1985",
+   "topic": "Book of Mormon history",
+   "era": "2010",
+   "citation": "Global Histories chronologies: Liberia (Aug 2010), Benin (dated Aug 2011)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/ensign/1985/05/the-sustaining-of-church-officers?lang=eng",
-    "https://www.churchofjesuschrist.org/study/general-conference/1985/04/the-sustaining-of-church-officers?lang=eng",
-    "https://www.thechurchnews.com/2010/10/21/23227698/elder-hans-b-ringger-dies-at-age-84/"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/benin/bj-chronology?lang=eng"
    ],
-   "difficulty": 3,
-   "note": "Only the nine countries named count. The Spain and Austria chronologies name no General Authority from those countries.",
-   "summary": "Belgium's Charles A. Didier and the Netherlands' Jacob de Jager were among the first Europeans called to the new First Quorum of the Seventy in 1975 and 1976. Germany followed in 1977 and Switzerland in 1985. France and Portugal had their first General Authorities in 2008, and Italy in 2016.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 2,
+   "note": "Liberia's chronology dates it August 2010; Benin's says August 2011. 1830 plus 180 is 2010.",
+   "summary": "The Book of Mormon was first published in 1830. To mark 180 years, more than 11,000 young people in seven West African countries held celebrations: Liberia, Nigeria, Benin, Togo, Ghana, Cote d'Ivoire and Sierra Leone.",
+   "stamp": null,
    "gems": [
-    "BEL"
+    "BEN",
+    "TGO"
    ],
    "gem_forced": false,
    "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "F. Enzio Busche, the first German citizen to be a General Authority, was called October 1, 1977."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Gerald Causse became the first General Authority from France, April 5, 2008."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Massimo De Feo was sustained as the first Italian General Authority, April 3, 2016."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Hans B. Ringger, the first Swiss General Authority, was sustained to the First Quorum of the Seventy, April 6, 1985."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jacob de Jager, the first Dutch General Authority, joined the First Quorum of the Seventy, April 4, 1976."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jose A. Teixeira became the first Portuguese General Authority Seventy, April 5, 2008."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Charles A. Didier was called as a General Authority Seventy, October 3, 1975."
-    }
-   ]
-  },
-  {
-   "id": "global-hinckley-world-trip-2005",
-   "bank": "global",
-   "display_text": "Pin a country or territory outside the US where President Hinckley met Saints on his 2005 round-the-world trip",
-   "text_original": "In July and August 2005, at age 95, President Gordon B. Hinckley flew around the world, stopping to meet Saints in seven cities. A country or territory outside the United States where he stopped to meet members or dedicate a building on that trip.",
-   "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "2005",
-   "citation": "Liahona, Dec. 2005, President Hinckley Travels the World",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/liahona/2005/12/news-of-the-church/president-hinckley-travels-the-world?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Hong Kong is the answer for the Hong Kong stop; mainland China was not visited.",
-   "summary": "In mid-2005 President Gordon B. Hinckley, then 95, circled the globe. He greeted Saints at Vladivostok, spoke in Seoul, dedicated office buildings in Taipei and Hong Kong, dedicated the Aba Nigeria Temple, and met small groups of members in Delhi and Nairobi.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "IND",
-    "KEN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
-     "gem": false,
-     "fact": "He spoke at a regional conference in Seoul marking 50 years of the Church in Korea."
-    },
     {
      "code": "NGA",
      "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Nigeria is named among the seven countries in the celebrations."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ghana is named among the seven countries in the celebrations."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
      "commonness": 3,
      "gem": false,
-     "fact": "He dedicated the Aba Nigeria Temple."
+     "fact": "Cote d'Ivoire is named among the seven countries."
     },
     {
-     "code": "RUS",
-     "name": "Russia",
+     "code": "LBR",
+     "name": "Liberia",
      "commonness": 3,
      "gem": false,
-     "fact": "He greeted about 200 members at the Vladivostok airport during a refueling stop."
+     "fact": "Liberia's chronology records the celebrations in August 2010."
     },
     {
-     "code": "HKG",
-     "name": "Hong Kong",
-     "commonness": 2,
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 3,
      "gem": false,
-     "fact": "He met members in Hong Kong and dedicated a Church office building."
+     "fact": "Sierra Leone is named among the seven countries."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "He met members in Taipei and dedicated a Church office building."
-    },
-    {
-     "code": "IND",
-     "name": "India",
+     "code": "BEN",
+     "name": "Benin",
      "commonness": 1,
      "gem": true,
-     "fact": "He met a small group of members in Delhi during a brief stop."
+     "fact": "Benin's chronology lists its youth among the more than 11,000 taking part."
     },
     {
-     "code": "KEN",
-     "name": "Kenya",
+     "code": "TGO",
+     "name": "Togo",
      "commonness": 1,
      "gem": true,
-     "fact": "He met a small group of members in Nairobi during a brief stop."
+     "fact": "Togo is named among the seven countries."
     }
    ]
   },
   {
-   "id": "global-latam-missionaries-withdrawn-1943-89",
-   "bank": "global",
-   "display_text": "Pin a Latin American mainland country where foreign missionaries were withdrawn because of war or unrest, 1943 to 1989",
-   "text_original": "War, revolution and political unrest sometimes forced the Church to pull foreign missionaries out, leaving local members to carry the work. A Latin American mainland country (Mexico, Central America or Spanish- and Portuguese-speaking South America) from which missionaries from abroad were withdrawn or evacuated between 1943 and 1989.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1943-1989",
-   "citation": "Global Histories chronologies (Latin American mainland)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Later withdrawals (Venezuela 2005 and 2013, Nicaragua again in 2018) and Mexico's 1912 to 1917 withdrawal fall outside the dates.",
-   "summary": "Several times the Church pulled foreign missionaries out of Latin American countries for their safety: Brazil during World War II, Costa Rica during its 1948 revolution, Nicaragua in 1978, El Salvador as civil war began in 1979, Panama in 1988 and Bolivia after two missionaries were killed in 1989. In each case local members and missionaries kept the Church going.",
-   "stamp": null,
-   "gems": [
-    "BOL"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 3,
-     "gem": false,
-     "fact": "All North American missionaries were evacuated in November 1943 as Brazil entered World War II."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries from outside Nicaragua were evacuated in September 1978 amid political instability."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "North American missionaries were moved to other Central American nations in November 1979 as civil war began."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Missionaries were moved to Guatemala in February 1948 because of a revolution."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
-     "commonness": 2,
-     "gem": false,
-     "fact": "All foreign missionaries were evacuated in February 1988 because of rising political unrest."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "After rebels killed missionaries Jeffrey Ball and Todd Wilson in La Paz in May 1989, North American missionaries were temporarily removed."
-    }
-   ]
-  },
-  {
-   "id": "ot-jordan-river-lands",
+   "id": "ot-jeremiah-25-cup-of-wrath",
    "bank": "ot",
-   "display_text": "Pin a country holding part of the Jordan River, the sea of Chinnereth, or the Hermon springs that feed it",
-   "text_original": "A present-day country holding part of the Jordan River, the river Israel crossed under Joshua and Naaman washed in, including its sea of Chinnereth (Galilee) and the springs of Mount Hermon that feed it",
+   "display_text": "Pin a country holding a nation made to drink the wine cup of fury in Jeremiah 25 (leave out Arabia)",
+   "text_original": "A present-day country holding a nation or city made to drink the wine cup of the Lord's fury in Jeremiah 25:17-26 (Jerusalem and Judah, Egypt, the Philistine cities, Edom, Moab, Ammon, Tyrus, Zidon, Elam, the Medes, and Sheshach); Dedan, Tema, Buz and Arabia are left out because their extent is unclear",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Joshua 3; 2 Kings 5; Bible Dictionary Jordan",
+   "citation": "Jeremiah 25:15-26",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/jordan-river?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hermon?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/51?lang=eng"
    ],
-   "difficulty": 2,
-   "note": "Mount Hermon sits on the Lebanon-Syria border, and its springs feed the Jordan, so both count, as in the Song of Solomon prompt.",
-   "summary": "The Jordan River gathers springs on the slopes of Mount Hermon, flows through the sea of Chinnereth (Galilee), and winds down to the salt sea. Israel crossed it on dry ground at Jericho under Joshua, Elijah and Elisha parted it, and Naaman the Syrian was healed by dipping in it seven times (Josh 3; 2 Kgs 2, 5).",
+   "difficulty": 3,
+   "note": "Gaza (Azzah) is in Palestine; Ashkelon, Ekron and Ashdod are in Israel. Jerusalem is scored as Israel.",
+   "summary": "Jeremiah is told to take the wine cup of the Lord's fury and make every nation drink it, starting with Jerusalem and ending with Babylon under the cipher Sheshach. Between them come Egypt, the Philistine cities, Edom, Moab, Ammon, Tyre and Zidon, the kings of Arabia, and Elam and the Medes (Jer 25:15-26).",
    "stamp": null,
    "gems": [
-    "LBN"
+    "IRN",
+    "PSE"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pharaoh king of Egypt, his princes and all his people drink the cup (Jer 25:19)."
+    },
     {
      "code": "ISR",
      "name": "Israel",
-     "commonness": 5,
+     "commonness": 4,
      "gem": false,
-     "fact": "The Jordan runs through the sea of Chinnereth, the Sea of Galilee, which lies in Israel (Deut 3:17; Bible Dictionary, Jordan River)."
+     "fact": "The cup begins with Jerusalem and the cities of Judah, and includes Ashkelon, Ekron and Ashdod (Jer 25:18, 20)."
     },
     {
      "code": "JOR",
      "name": "Jordan",
-     "commonness": 5,
+     "commonness": 4,
      "gem": false,
-     "fact": "The river forms Jordan's western border; Israel camped on its east bank before crossing (Josh 3:1)."
+     "fact": "Edom, Moab and the children of Ammon drink it (Jer 25:21)."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 3,
      "gem": false,
-     "fact": "The lower river near Jericho, where the waters stood up as an heap for Israel, borders the West Bank (Josh 3:16)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Bible Dictionary says the Jordan is formed by several springs rising in Mount Hermon, a mountain on the Syria-Lebanon border."
+     "fact": "The king of Sheshach, a coded name for Babylon, drinks after them all (Jer 25:26; compare Jer 51:41)."
     },
     {
      "code": "LBN",
      "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "All the kings of Tyrus and Zidon drink it (Jer 25:22)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": true,
+     "fact": "All the kings of Elam and of the Medes drink it (Jer 25:25)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Azzah, which is Gaza, is among the Philistine cities named (Jer 25:20)."
+    }
+   ]
+  },
+  {
+   "id": "people-general-officers-missions-outside-americas",
+   "bank": "people",
+   "display_text": "Pin a country outside the Americas where a current Presiding Bishopric or Church-wide auxiliary leader served or led a mission.",
+   "text_original": "Several general officers serving as of October 2026 (the Presiding Bishopric and the general presidencies of the Relief Society, Young Women, Primary, Young Men and Sunday School) served as missionaries or mission leaders. Pin a country outside the Americas where one of them served, as named in their official biographies.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1970s-2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/global-leadership-of-the-church?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/l-todd-budge?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/tamara-w-runia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gabriel-w-reid?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/w-christopher-waddell?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/paul-v-johnson?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/david-j-wunderli?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "General officers often bring mission experience. As of October 2026, Bishop Waddell had served twice in Spain, Bishop Budge twice in Japan, and Brother Wunderli presided over the Cape Verde Praia Mission. Sister Runia and Brother Reid both served as leaders in Sydney, Australia.",
+   "stamp": null,
+   "gems": [
+    "CPV"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bishop L. Todd Budge: missionary in the Japan Fukuoka Mission, later president of the Japan Tokyo Mission."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Australia Sydney Mission leaders: Sister Tamara W. Runia (2018 to 2021) and Brother Gabriel W. Reid."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bishop W. Christopher Waddell: missionary in Spain, later president of the Spain Barcelona Mission."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brother Paul V. Johnson: missionary in the Norway Oslo Mission."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
      "commonness": 1,
      "gem": true,
-     "fact": "Those Hermon springs feed the Jordan, and Mount Hermon's western slopes lie in Lebanon (Bible Dictionary, Jordan River and Hermon)."
+     "fact": "Brother David J. Wunderli: president of the Cape Verde Praia Mission, 2020 to 2023."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-africa-baptisms-before-1955",
+   "bank": "pioneer",
+   "display_text": "Pin an African country where Latter-day Saint converts were baptized before 1955.",
+   "text_original": "Before 1955, Latter-day Saint converts had been baptized in only a few African countries, mostly through the South African Mission. Pin a country where, according to the Church Global Histories, converts were baptized before 1955.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1853-1955",
+   "citation": "Global Histories chronologies (South Africa, Mauritius, Namibia, Zimbabwe, Zambia)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mauritius/mu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/namibia/na-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zambia/zm-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Nigeria is not scored: a request for missionaries was sent in 1946, but no baptisms are recorded before 1955.",
+   "summary": "Missionaries reached Cape Town in 1853 and organized the first branch in Africa at Mowbray. A convert from South Africa baptized six people in Mauritius in 1856. In the 1900s the South African Mission reached members in South West Africa and the Rhodesias, today Namibia, Zimbabwe and Zambia.",
+   "stamp": null,
+   "gems": [
+    "MUS",
+    "NAM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Joseph Patterson and John Dodel, the first converts in South Africa, were baptized at Mowbray, Cape Town, May 26, 1853."
+    },
+    {
+     "code": "ZMB",
+     "name": "Zambia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Johanna and William A. Jubber Jr. were baptized at Ndola in 1947."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "In 1928 near Shangani, Southern Rhodesia, the Jubber family invited mission leaders to baptize their sons."
+    },
+    {
+     "code": "MUS",
+     "name": "Mauritius",
+     "commonness": 1,
+     "gem": true,
+     "fact": "George F. W. Kershaw baptized six converts during a 1856 mission."
+    },
+    {
+     "code": "NAM",
+     "name": "Namibia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Lawrence C. Ratcliff baptized Johannes and Martha Cloete at Karibib in 1928."
     }
    ]
   }

@@ -2,240 +2,334 @@
  "day": 47,
  "prompts": [
   {
-   "id": "dc-gh-branch-before-1847",
-   "bank": "dc",
-   "display_text": "Pin a country where Church Global Histories record a branch of the Church organized before 1847",
-   "text_original": "A country where, per Church Global Histories, a branch of the Church was organized before the pioneers left Nauvoo in 1846 and 1847.",
+   "id": "people-first-presidency-twelve-birth-countries",
+   "bank": "people",
+   "display_text": "Pin the country, by today's borders, where a current Apostle was born.",
+   "text_original": "Pin a country where a member of the First Presidency or the Quorum of the Twelve Apostles serving as of October 2026 was born.",
    "accepts": "country",
-   "topic": "church growth",
-   "era": "1830-1846",
-   "citation": "Church Global Histories chronologies: United States, Canada, England, Australia, Germany",
+   "topic": "apostles",
+   "era": "2026",
+   "citation": "Church leader biographies, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/united-states/us-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-twelve-apostles?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/dallin-h-oaks?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/henry-b-eyring?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/david-a-bednar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gerrit-w-gong?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/clark-g-gilbert?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ronald-a-rasband?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/ulisses-soares?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/patrick-kearon?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/dieter-f-uchtdorf?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/gerald-j-causse?lang=eng",
+    "https://history.churchofjesuschrist.org/chd/individual/d-todd-christofferson-1945",
+    "https://history.churchofjesuschrist.org/chd/individual/gary-e-stevenson-1955",
+    "https://history.churchofjesuschrist.org/chd/individual/quentin-l-cook-1940",
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-twelve-apostles?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/first-presidency?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Ireland does not count: the 1840 Hillsborough branch is in Northern Ireland, part of the United Kingdom.",
-   "summary": "Before the exodus west, the Church was already more than an American church. Global Histories record a branch at Ernestown, Canada in 1832, Preston, England in 1837, Darmstadt, Germany in 1843, and Montefiores in South Australia in 1844.",
+   "note": "Elder Uchtdorf's birthplace, Ostrava, is in today's Czech Republic.",
+   "summary": "As of October 2026, President Dallin H. Oaks leads the Church, and the senior councils include leaders born outside the United States: Elder Uchtdorf in Ostrava (then Czechoslovakia), Elder Kearon in England, Elder Causse in France and Elder Soares in Brazil.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "DEU"
+    "FRA"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "1830: the Church was organized in New York; branches followed across the states."
+     "fact": "President Oaks (Provo, Utah), President Eyring (Princeton, New Jersey), Elders Bednar, Gong, Gilbert, Rasband and others."
     },
     {
-     "code": "CAN",
-     "name": "Canada",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "1832: a branch was organized at Ernestown, Upper Canada."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "1837: a branch was organized at Preston, England; by 1840 there were branches in Scotland, Wales and at Hillsborough in Northern Ireland."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "1844: a branch was organized at Montefiores near Adelaide."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 1,
-     "gem": true,
-     "fact": "1843: Johann Greenig, a German convert baptized in the United States, preached in Darmstadt and reported establishing the first branch in Germany."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-mission-leaders-europe",
-   "bank": "people",
-   "display_text": "Pin a European country where a current General Authority Seventy once led a mission (as of October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies had led missions in Europe as mission presidents. Pin a European country where one of those missions was headquartered, as named in the Church's official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1990s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/paul-h-sinclair?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/peter-m-johnson?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christophe-g-giraud-carrier?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ronald-m-barcellos?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/paul-b-pieper?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jorg-klebingat?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/james-w-mcconkie-iii?lang=eng",
-    "https://www.thechurchnews.com/leaders/2025/06/21/elder-michael-cziesla-new-general-authority-seventy-bio-2025-germany-promises/",
-    "https://www.thechurchnews.com/2011/6/4/23226781/new-mission-presidents-91"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Many General Authority Seventies first led missions. As of October 2026, they had led European missions in England, France, Spain, Portugal, Germany, Russia, Ukraine, the Czech Republic and Slovakia, and Slovenia and Croatia. Elder Jorg Klebingat, born in Germany, presided in Kyiv, Ukraine.",
-   "stamp": null,
-   "gems": [
-    "CZE",
-    "HRV",
-    "SVK",
-    "SVN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "England London Mission (Elder Sinclair) and England Manchester Mission (Elder Peter M. Johnson)."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Michael Cziesla was interim president of the Germany Frankfurt Mission in 2020."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Spain Barcelona Mission (Elder Villar)."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "France Lyon Mission (Elder Giraud-Carrier)."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Ronald M. Barcellos was called as a mission leader in Portugal in 2021."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Paul B. Pieper and his wife were mission leaders in St. Petersburg."
-    },
-    {
-     "code": "UKR",
-     "name": "Ukraine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ukraine Kyiv Mission (Elder Klebingat)."
+     "fact": "Elder Ulisses Soares, born in Sao Paulo in 1958."
     },
     {
      "code": "CZE",
      "name": "Czech Republic",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Dieter F. Uchtdorf, born in 1940 in Ostrava, then Czechoslovakia."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Patrick Kearon, born in Carlisle, England, in 1961."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Elder Gerald Causse, born in Bordeaux in 1963."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-mischa-markow-missions",
+   "bank": "pioneer",
+   "display_text": "Pin a present-day country that Church History Topics lists for the area of Mischa Markow's missions.",
+   "text_original": "Mischa Markow, one of the first converts in eastern Europe, served two missions in lands that today belong to several countries. Pin one of those present-day countries.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1880s-1900s",
+   "citation": "Church History Topics: Mischa Markow",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/mischa-markow?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Mischa Markow (1854-1934) was among the first Latter-day Saint converts in eastern Europe. Within 15 years of his conversion he served two missions across lands now in Hungary, Russia, Romania, Bulgaria, Turkey, Serbia, Croatia, Germany, Belgium and Latvia.",
+   "stamp": null,
+   "gems": [
+    "BGR",
+    "HRV",
+    "LVA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named by Church History Topics among the countries of Markow's missions."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among Markow's mission countries (Ottoman lands)."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named; he dreamed of preaching in Temesvar, now Timisoara, Romania."
+    },
+    {
+     "code": "SRB",
+     "name": "Serbia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named among Markow's mission countries."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
      "commonness": 1,
      "gem": true,
-     "fact": "Czech/Slovak Mission, based in Prague, 2013 to 2016 (Elder McConkie)."
+     "fact": "Named among Markow's mission countries."
     },
     {
      "code": "HRV",
      "name": "Croatia",
      "commonness": 1,
      "gem": true,
-     "fact": "The Slovenia/Croatia Mission that Elder Rowe led from 2011 also covered Croatia."
+     "fact": "Named among Markow's mission countries."
     },
     {
-     "code": "SVK",
-     "name": "Slovakia",
+     "code": "LVA",
+     "name": "Latvia",
      "commonness": 1,
      "gem": true,
-     "fact": "The Czech/Slovak Mission that Elder McConkie led, 2013 to 2016, also covered Slovakia."
-    },
-    {
-     "code": "SVN",
-     "name": "Slovenia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Edward B. Rowe was called in 2011 to lead the Slovenia/Croatia Mission, based in Ljubljana."
+     "fact": "Named among Markow's mission countries."
     }
    ]
   },
   {
-   "id": "pioneer-africa-baptisms-before-1955",
-   "bank": "pioneer",
-   "display_text": "Pin an African country where Latter-day Saint converts were baptized before 1955.",
-   "text_original": "Before 1955, Latter-day Saint converts had been baptized in only a few African countries, mostly through the South African Mission. Pin a country where, according to the Church Global Histories, converts were baptized before 1955.",
+   "id": "nt-old-testament-outsiders",
+   "bank": "nt",
+   "display_text": "Pin a country home to an Old Testament outsider the New Testament mentions (not Balaam, the queen of the south or Sodom)",
+   "text_original": "A present-day country that was home to an Old Testament person or people from outside Abraham's family whom the New Testament mentions (not Balaam, the queen of the south or Sodom)",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1853-1955",
-   "citation": "Global Histories chronologies (South Africa, Mauritius, Namibia, Zimbabwe, Zambia)",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Luke 4:26-27; Matthew 1:5; 12:41; Hebrews 7:1; 11:31; Romans 9:17; Galatians 4:24-25; 2 Timothy 3:8",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mauritius/mu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/namibia/na-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/zambia/zm-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/salem?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Nigeria is not scored: a request for missionaries was sent in 1946, but no baptisms are recorded before 1955.",
-   "summary": "Missionaries reached Cape Town in 1853 and organized the first branch in Africa at Mowbray. A convert from South Africa baptized six people in Mauritius in 1856. In the 1900s the South African Mission reached members in South West Africa and the Rhodesias, today Namibia, Zimbabwe and Zambia.",
+   "note": "Jericho is in the West Bank (PSE). Balaam's Pethor and the queen of the south's Sheba are disputed sites and are not counted.",
+   "summary": "The New Testament keeps pointing to outsiders in Israel's story. Jesus praised Naaman of Syria, a widow of Sidon and the repentant Ninevites. Ruth of Moab and Rahab of Jericho appear in his genealogy, Melchizedek king of Salem in Hebrews, and Paul names Pharaoh, Hagar and the magicians of Egypt.",
    "stamp": null,
    "gems": [
-    "MUS",
-    "NAM"
+    "ISR",
+    "JOR",
+    "LBN",
+    "PSE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul names Pharaoh, Agar (Hagar the Egyptian), and the magicians Jannes and Jambres who withstood Moses (Romans 9:17; Galatians 4:24; 2 Timothy 3:8)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jesus said the men of Nineveh, who repented at Jonah's preaching, would rise in judgment (Matthew 12:41)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jesus recalled that Naaman the Syrian, of all the lepers, was cleansed (Luke 4:27)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Melchisedec was king of Salem, which the Bible Dictionary identifies with Jerusalem (Hebrews 7:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Ruth, a woman of Moab (Ruth 1:4), is named in Jesus' genealogy; Moab lay east of the Dead Sea (Matthew 1:5)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Jesus recalled Elijah being sent to a widow of Sarepta, a city of Sidon (Luke 4:26)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "By faith Rahab of Jericho, a Canaanite, perished not with them that believed not (Hebrews 11:31; Joshua 2)."
+    }
+   ]
+  },
+  {
+   "id": "global-first-stakes-abroad-1958-62",
+   "bank": "global",
+   "display_text": "Pin a country whose very first stake (a group of congregations) was organized between 1958 and 1962",
+   "text_original": "Between 1958 and 1962 the Church organized its first stakes in a run of countries far from Utah, a sign that Saints abroad were being asked to build Zion where they lived. A country whose first stake of the Church was organized between 1958 and 1962.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1958-1962",
+   "citation": "Global Histories chronologies (New Zealand, England, Australia, Netherlands, Germany, Switzerland, Samoa, Mexico)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Mexico does not count: its first stake, in the Chihuahua and Sonora colonies, came in 1895. Canada's also came in 1895.",
+   "summary": "After New Zealand received its first stake at Auckland in 1958, stakes followed in Manchester, England and Sydney, Australia on the same day in 1960. Rotterdam, Berlin and Zurich gained the first stakes in the Netherlands, Germany and Switzerland in 1961, and Apia, Samoa followed in 1962.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "WSM"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 5,
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
      "gem": false,
-     "fact": "Joseph Patterson and John Dodel, the first converts in South Africa, were baptized at Mowbray, Cape Town, May 26, 1853."
+     "fact": "The Manchester England Stake, the first in Europe, was organized March 27, 1960."
     },
     {
-     "code": "ZMB",
-     "name": "Zambia",
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first stake in Australia was organized in Sydney, March 27, 1960."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Berlin Germany Stake, the first in Germany, was organized September 10, 1961."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first stake in New Zealand was created in Auckland, May 18, 1958."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 2,
      "gem": false,
-     "fact": "Johanna and William A. Jubber Jr. were baptized at Ndola in 1947."
+     "fact": "The Zurich Switzerland Stake, the first in Switzerland, was organized October 27, 1961."
     },
     {
-     "code": "ZWE",
-     "name": "Zimbabwe",
+     "code": "NLD",
+     "name": "Netherlands",
      "commonness": 2,
      "gem": false,
-     "fact": "In 1928 near Shangani, Southern Rhodesia, the Jubber family invited mission leaders to baptize their sons."
+     "fact": "The Holland Stake, the first in continental Europe, was created at Rotterdam, March 12, 1961."
     },
     {
-     "code": "MUS",
-     "name": "Mauritius",
+     "code": "WSM",
+     "name": "Samoa",
      "commonness": 1,
      "gem": true,
-     "fact": "George F. W. Kershaw baptized six converts during a 1856 mission."
-    },
-    {
-     "code": "NAM",
-     "name": "Namibia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Lawrence C. Ratcliff baptized Johannes and Martha Cloete at Karibib in 1928."
+     "fact": "The first stake in the Samoan Islands was organized at Apia, Western Samoa, March 18, 1962."
     }
    ]
   },
@@ -264,8 +358,7 @@
    "summary": "Danger kept scattering the faithful, and the gospel went with them. Joseph took Jesus into Egypt to escape Herod. After Stephen was stoned, disciples fled through Judea and Samaria and on to Phenice, Cyprus and Antioch. Paul was later rushed by night to Tarsus, Berea, Athens and Caesarea.",
    "stamp": null,
    "gems": [
-    "LBN",
-    "MKD"
+    "LBN"
    ],
    "gem_forced": false,
    "answers": [
@@ -317,102 +410,6 @@
      "commonness": 1,
      "gem": true,
      "fact": "The scattered disciples also reached Phenice, the Phoenician coast of today's Lebanon (Acts 11:19)."
-    },
-    {
-     "code": "MKD",
-     "name": "North Macedonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "When the Jews laid wait for Paul, he turned back through Macedonia, the region BD Macedonia places north of Achaia and south of the Balkan Mountains (Acts 20:3)."
-    }
-   ]
-  },
-  {
-   "id": "global-first-stakes-1970-73",
-   "bank": "global",
-   "display_text": "Pin a country or territory whose very first stake of the Church was organized between 1970 and 1973",
-   "text_original": "In the early 1970s the Church organized the first stakes in several lands in Asia, Africa, Latin America and the Pacific. A country or territory whose very first stake of the Church was organized between 1970 and 1973.",
-   "accepts": "country_or_territory",
-   "topic": "church growth",
-   "era": "1970-1973",
-   "citation": "Global Histories chronologies and overviews (Peru, Japan, South Africa, French Polynesia, Chile, South Korea, El Salvador, Philippines)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-overview?lang=eng",
-    "https://www.churchofjesuschrist.org/study/ensign/1973/08/news-of-the-church/six-new-stakes-created-first-one-in-philippines?lang=eng",
-    "https://www.churchofjesuschrist.org/church/news/timeline-of-key-lds-church-events-in-the-philippines?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "American Samoa (1969), Tonga (1968) and Denmark (1974) fall just outside. The Philippines' first stake came in May 1973.",
-   "summary": "In 1970 the Church organized the first stakes in Peru, Japan and South Africa, Tokyo's being the first in Asia. Tahiti and Santiago, Chile followed in 1972, and in 1973 Seoul, San Salvador and Manila gained the first stakes in South Korea, El Salvador and the Philippines.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "SLV"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Tokyo Stake, the first stake in Asia, was organized March 15, 1970, with Kenji Tanaka as president."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Santiago Chile Stake, the first in Chile, was organized November 19, 1972."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Seoul Korea Stake, the first in mainland Asia, was organized March 8, 1973, with Rhee Ho Nam as president."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Lima Stake was organized February 22, 1970, with Roberto Vidal as president."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Ezra Taft Benson organized the Manila Philippines Stake, the first in the country, May 20, 1973, with Augusto A. Lim as president."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Transvaal Stake, the first in South Africa, was organized in Johannesburg, March 22, 1970."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Tahiti Stake, the first in French Polynesia, was organized at Papeete, May 14, 1972."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The San Salvador Stake was created June 3, 1973, with Mario Edmundo Scheel as president."
     }
    ]
   }

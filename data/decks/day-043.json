@@ -2,109 +2,113 @@
  "day": 43,
  "prompts": [
   {
-   "id": "history-dedicator-mckay-kimball-faust",
-   "bank": "history2",
-   "display_text": "Pin a country with a temple standing today that David O. McKay, Spencer W. Kimball or James E. Faust dedicated or rededicated.",
-   "text_original": "A country where David O. McKay, Spencer W. Kimball, or James E. Faust dedicated or rededicated a temple now in use (as of October 2026).",
+   "id": "membership-500k-plus",
+   "bank": "draft",
+   "display_text": "Pin a country with 500,000 or more Church members (end of 2025).",
+   "text_original": "Pin a country with 500,000 or more Church members (end of 2025).",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1955-2000",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/chronology/",
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina"
    ],
-   "difficulty": 3,
+   "difficulty": 1,
    "note": null,
-   "summary": "David O. McKay dedicated Bern Switzerland (1955), London England and Hamilton New Zealand (1958), and Los Angeles and Oakland in the United States. Spencer W. Kimball dedicated Washington D.C. (1974), São Paulo Brazil (1978) and Tokyo Japan (1980). James E. Faust dedicated several temples in 2000, including in Mexico, Costa Rica and the United States.",
+   "summary": "At the end of 2025 seven countries had 500,000 or more Church members. The United States led with about 6.93 million, followed by Brazil and Mexico at about 1.57 million each, then the Philippines, Peru, Chile and Argentina.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CRI"
+    "ARG",
+    "CHL",
+    "PER"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 1.57 million members, just ahead of Mexico."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 1.57 million members."
+    },
     {
      "code": "USA",
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "McKay: Los Angeles (1956), Oakland (1964). Kimball: Washington D.C. (1974), Seattle (1980), rededications of St. George, Mesa, Laie and Logan. Faust: Medford, Memphis, Nashville, Oklahoma City (2000), Boise rededication (1987)."
+     "fact": "About 6.93 million members."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "PHL",
+     "name": "Philippines",
      "commonness": 4,
      "gem": false,
-     "fact": "Kimball: São Paulo Brazil (1978)."
+     "fact": "About 905,000 members."
     },
     {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Faust: Oaxaca Mexico and Tuxtla Gutiérrez Mexico (2000)."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 3,
-     "gem": false,
-     "fact": "McKay: London England (1958)."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Kimball: Tokyo Japan (1980)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "McKay: Hamilton New Zealand (1958)."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "McKay: Bern Switzerland (1955)."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 1,
      "gem": true,
-     "fact": "Faust: San José Costa Rica (2000)."
+     "fact": "About 506,000 members."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": true,
+     "fact": "About 624,000 members."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": true,
+     "fact": "About 668,000 members."
     }
    ]
   },
   {
-   "id": "people-general-officers-missions-outside-americas",
-   "bank": "people",
-   "display_text": "Pin a country outside the Americas where a current general officer served as a missionary or mission leader.",
-   "text_original": "Several general officers serving as of October 2026 (the Presiding Bishopric and the general presidencies of the Relief Society, Young Women, Primary, Young Men and Sunday School) served as missionaries or mission leaders. Pin a country outside the Americas where one of them served, as named in their official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1970s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
+   "id": "global-first-stakes-1970-73",
+   "bank": "global",
+   "display_text": "Pin a country or territory whose very first stake (a group of congregations) was organized 1970-1973",
+   "text_original": "In the early 1970s the Church organized the first stakes in several lands in Asia, Africa, Latin America and the Pacific. A country or territory whose very first stake of the Church was organized between 1970 and 1973.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "1970-1973",
+   "citation": "Global Histories chronologies and overviews (Peru, Japan, South Africa, French Polynesia, Chile, South Korea, El Salvador, Philippines)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/global-leadership-of-the-church?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/l-todd-budge?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/tamara-w-runia?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/gabriel-w-reid?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/w-christopher-waddell?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/paul-v-johnson?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/david-j-wunderli?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-overview?lang=eng",
+    "https://www.churchofjesuschrist.org/study/ensign/1973/08/news-of-the-church/six-new-stakes-created-first-one-in-philippines?lang=eng",
+    "https://www.churchofjesuschrist.org/church/news/timeline-of-key-lds-church-events-in-the-philippines?lang=eng"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "General officers often bring mission experience. As of October 2026, Bishop Waddell had served twice in Spain, Bishop Budge twice in Japan, and Brother Wunderli presided over the Cape Verde Praia Mission. Sister Runia and Brother Reid both served as leaders in Sydney, Australia.",
-   "stamp": null,
+   "difficulty": 2,
+   "note": "American Samoa (1969), Tonga (1968) and Denmark (1974) fall just outside. The Philippines' first stake came in May 1973.",
+   "summary": "In 1970 the Church organized the first stakes in Peru, Japan and South Africa, Tokyo's being the first in Asia. Tahiti and Santiago, Chile followed in 1972, and in 1973 Seoul, San Salvador and Manila gained the first stakes in South Korea, El Salvador and the Philippines.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CPV"
+    "SLV"
    ],
    "gem_forced": false,
    "answers": [
@@ -113,35 +117,136 @@
      "name": "Japan",
      "commonness": 4,
      "gem": false,
-     "fact": "Bishop L. Todd Budge: missionary in the Japan Fukuoka Mission, later president of the Japan Tokyo Mission."
+     "fact": "The Tokyo Stake, the first stake in Asia, was organized March 15, 1970, with Kenji Tanaka as president."
     },
     {
-     "code": "AUS",
-     "name": "Australia",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Australia Sydney Mission leaders: Sister Tamara W. Runia (2018 to 2021) and Brother Gabriel W. Reid."
+     "fact": "The Santiago Chile Stake, the first in Chile, was organized November 19, 1972."
     },
     {
-     "code": "ESP",
-     "name": "Spain",
+     "code": "KOR",
+     "name": "South Korea",
      "commonness": 3,
      "gem": false,
-     "fact": "Bishop W. Christopher Waddell: missionary in Spain, later president of the Spain Barcelona Mission."
+     "fact": "The Seoul Korea Stake, the first in mainland Asia, was organized March 8, 1973, with Rhee Ho Nam as president."
     },
     {
-     "code": "NOR",
-     "name": "Norway",
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Lima Stake was organized February 22, 1970, with Roberto Vidal as president."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Ezra Taft Benson organized the Manila Philippines Stake, the first in the country, May 20, 1973, with Augusto A. Lim as president."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Transvaal Stake, the first in South Africa, was organized in Johannesburg, March 22, 1970."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
      "commonness": 2,
      "gem": false,
-     "fact": "Brother Paul V. Johnson: missionary in the Norway Oslo Mission."
+     "fact": "The Tahiti Stake, the first in French Polynesia, was organized at Papeete, May 14, 1972."
     },
     {
-     "code": "CPV",
-     "name": "Cape Verde",
+     "code": "SLV",
+     "name": "El Salvador",
      "commonness": 1,
      "gem": true,
-     "fact": "Brother David J. Wunderli: president of the Cape Verde Praia Mission, 2020 to 2023."
+     "fact": "The San Salvador Stake was created June 3, 1973, with Mario Edmundo Scheel as president."
+    }
+   ]
+  },
+  {
+   "id": "ot-solomon-builds-wives-allies",
+   "bank": "ot",
+   "display_text": "Pin a country holding a city Solomon built, or the homeland of one of his wives or royal allies (not Sheba)",
+   "text_original": "A present-day country holding a city Solomon built or fortified, or the homeland of one of his wives or royal allies (Kings and Chronicles; not the queen of Sheba). Trade lands of disputed site, such as Ophir and Tarshish, are not asked.",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Kings 3-11; 2 Chronicles 8-9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Jerusalem is scored as Israel, as in the other Bible prompts; Beth-horon the nether is in the West Bank.",
+   "summary": "Solomon fortified Hazor, Megiddo and Gezer, built Tadmor and store cities in Hamath, and traded cedar with Hiram of Tyre. He married Pharaoh's daughter and many foreign wives from Moab, Ammon, Edom, Zidon and the Hittites (1 Kgs 3-11; 2 Chr 8-9).",
+   "stamp": null,
+   "gems": [
+    "PSE",
+    "TUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Solomon built Hazor, Megiddo and Gezer (1 Kgs 9:15) and the temple at Jerusalem."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "He married Pharaoh's daughter, who brought Gezer as a dowry (1 Kgs 3:1; 9:16)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hiram king of Tyre sent cedars of Lebanon for the temple, and Solomon loved women of the Zidonians (1 Kgs 5:1-10; 11:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He loved women of the Moabites, Ammonites and Edomites (1 Kgs 11:1); Naamah the Ammonitess bore Rehoboam (1 Kgs 14:21)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "He built Tadmor in the wilderness and store cities in Hamath (2 Chr 8:3-4)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He built Beth-horon the nether, now in the West Bank (1 Kgs 9:17)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He loved Hittite women (1 Kgs 11:1); the Bible Dictionary says the Hittite empire reached into Asia Minor."
     }
    ]
   },
@@ -220,128 +325,111 @@
    ]
   },
   {
-   "id": "ot-song-of-solomon-places",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place named in the Song of Solomon, from Engedi to Lebanon (leave out Tirzah and Kedar)",
-   "text_original": "A present-day country holding a place named in the Song of Solomon: Lebanon and the tops of Amana, Shenir and Hermon, the tower of Lebanon toward Damascus, Engedi, Carmel and Sharon, Heshbon and Gilead, or Pharaoh's chariots (Tirzah and the tents of Kedar are left out: their sites are not fixed in Church sources)",
+   "id": "people-seventies-young-missions-europe",
+   "bank": "people",
+   "display_text": "Pin a European country where a current General Authority Seventy served as a young full-time missionary.",
+   "text_original": "Many General Authority Seventies serving as of October 2026 were once young full-time missionaries. Pin a European country where one of them served that mission, as named in the Church's official biographies.",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Song of Solomon 1-7",
+   "topic": "missionary work",
+   "era": "1970s-2000s",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/7?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alan-t-phillips?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/hans-t-boom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/karl-d-hirst?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/matthew-s-holland?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/brian-j-holmes?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carl-b-cook?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/vern-p-stanfill?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/massimo-de-feo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/matthew-l-carpenter?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/robert-m-daines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/alexander-dushku?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-j-hathaway?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kevin-w-pearson?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-w-mcconkie-iii?lang=eng",
+    "https://www.churchofjesuschrist.org/study/ensign/2017/05/news-of-the-church/elder-brian-k-taylor?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Mount Hermon (Shenir) sits on the Lebanon-Syria border, so both count. Jerusalem is scored as Israel.",
-   "summary": "The Song of Solomon draws its imagery from the whole land: the vineyards of Engedi, the rose of Sharon, the cedars of Lebanon, the heights of Hermon, the pools of Heshbon and the goats of Gilead. It also borrows Pharaoh's chariots (Song 1-7).",
+   "note": null,
+   "summary": "Before their calls as General Authorities, many Seventies served as young missionaries abroad. As of October 2026, their biographies name European missions in England, Scotland, Germany, France, Italy, Switzerland, Portugal, Russia, Finland and the Czech Republic.",
    "stamp": null,
    "gems": [
-    "EGY",
-    "JOR",
-    "SYR"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Camphire in the vineyards of Engedi, the rose of Sharon, and a head like Carmel (Song 1:14; 2:1; 7:5)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Come with me from Lebanon; the tower of Lebanon looks toward Damascus (Song 4:8; 7:4)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 3,
-     "gem": true,
-     "fact": "She is likened to a company of horses in Pharaoh's chariots (Song 1:9)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Her eyes are like the fishpools in Heshbon, and her hair as a flock of goats from mount Gilead (Song 4:1; 7:4)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": true,
-     "fact": "The tower of Lebanon looketh toward Damascus, and the bride is called from the top of Shenir and Hermon (Song 4:8; 7:4)."
-    }
-   ]
-  },
-  {
-   "id": "nt-evil-spirits-cast-out",
-   "bank": "nt",
-   "display_text": "Pin a country where Jesus or a disciple cast out an evil spirit (not the Gadarene swine or the boy after the Transfiguration)",
-   "text_original": "A present-day country holding a town or region where Jesus or one of his disciples, being there, cast out an evil spirit (not the Gadarene swine or the boy healed after the Transfiguration)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Mark 1:21-26; 7:24-30; Acts 8:5-7; 16:16-18; 19:11-12",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/7?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Jordan and Syria do not count: the Gadarene site is disputed. Samaria is in the West Bank (Palestine).",
-   "summary": "Jesus showed power over evil spirits from his first sermon at Capernaum, and he healed a Gentile girl near Tyre and Sidon. His servants carried the same power: Philip in Samaria, Paul at Philippi, where he freed a slave girl from a spirit of divination, and at Ephesus, where even cloths from him healed.",
-   "stamp": null,
-   "gems": [
-    "TUR"
+    "CZE"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "ISR",
-     "name": "Israel",
+     "code": "GBR",
+     "name": "United Kingdom",
      "commonness": 5,
      "gem": false,
-     "fact": "In the synagogue at Capernaum Jesus rebuked an unclean spirit, and cast out devils throughout Galilee (Mark 1:21-26, 39)."
+     "fact": "England Manchester, London East and London South; Scotland Edinburgh missions (Elders Phillips, Boom, Hirst, Holland)."
     },
     {
-     "code": "GRC",
-     "name": "Greece",
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Germany Munich (Elder Holmes) and Germany Hamburg (Elder Cook) missions."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "France Toulouse Mission (Elder Stanfill)."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Switzerland Geneva (Elder Carpenter) and Zurich (Elder Daines) missions."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Brian K. Taylor served in the Spain Seville Mission."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Italy Rome Mission, 1981 to 1983 (Elder De Feo)."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Portugal Lisbon Mission (Elders Dushku and Teixeira)."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
      "commonness": 2,
      "gem": false,
-     "fact": "At Philippi Paul commanded the spirit of divination to come out of a damsel (Acts 16:16-18)."
+     "fact": "Finland Helsinki Mission (Elder Pearson)."
     },
     {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "RUS",
+     "name": "Russia",
      "commonness": 2,
      "gem": false,
-     "fact": "In the borders of Tyre and Sidon Jesus cast the devil out of a Syrophenician woman's daughter (Mark 7:24-30)."
+     "fact": "Russia St. Petersburg Mission (Elder Hathaway)."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Philip, one of the seven, preached in the city of Samaria, and unclean spirits came out of many (Acts 6:5; 8:5-7)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "CZE",
+     "name": "Czech Republic",
      "commonness": 1,
      "gem": true,
-     "fact": "At Ephesus evil spirits went out of the sick through handkerchiefs from Paul (Acts 19:11-12)."
+     "fact": "Czech Prague Mission (Elder McConkie)."
     }
    ]
   }

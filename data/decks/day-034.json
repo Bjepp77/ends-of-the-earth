@@ -2,252 +2,230 @@
  "day": 34,
  "prompts": [
   {
-   "id": "temples-groundbreaking-2023",
-   "bank": "temples",
-   "display_text": "Pin a country where ground was broken for a new temple in 2023.",
-   "text_original": "Pin a country where ground was broken for a new temple in 2023.",
+   "id": "history-dedicator-mckay-kimball-faust",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that David O. McKay, Spencer W. Kimball or James E. Faust dedicated or rededicated.",
+   "text_original": "A country where David O. McKay, Spencer W. Kimball, or James E. Faust dedicated or rededicated a temple now in use (as of October 2026).",
    "accepts": "country",
    "topic": "temples",
-   "era": "2023",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "era": "1955-2000",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "A groundbreaking starts construction of a temple, usually a few years after it is announced. 8 temple groundbreakings were held in 2023 in 6 countries or territories; see each answer for the temple and date.",
+   "summary": "David O. McKay dedicated Bern Switzerland (1955), London England and Hamilton New Zealand (1958), and Los Angeles and Oakland in the United States. Spencer W. Kimball dedicated Washington D.C. (1974), São Paulo Brazil (1978) and Tokyo Japan (1980). James E. Faust dedicated several temples in 2000, including in Mexico, Costa Rica and the United States.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "PNG",
-    "VUT"
+    "CRI"
    ],
    "gem_forced": false,
    "answers": [
     {
      "code": "USA",
-     "name": "United States of America",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Montpelier Idaho (17 June 2023); Modesto California (7 October 2023); Fort Worth Texas (28 October 2023)."
+     "fact": "McKay: Los Angeles (1956), Oakland (1964). Kimball: Washington D.C. (1974), Seattle (1980), rededications of St. George, Mesa, Laie and Logan. Faust: Medford, Memphis, Nashville, Oklahoma City (2000), Boise rededication (1987)."
     },
     {
      "code": "BRA",
      "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Belo Horizonte Brazil (17 June 2023)."
+     "fact": "Kimball: São Paulo Brazil (1978)."
     },
     {
      "code": "MEX",
      "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Querétaro Mexico (7 January 2023)."
+     "fact": "Faust: Oaxaca Mexico and Tuxtla Gutiérrez Mexico (2000)."
     },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kaohsiung Taiwan (25 November 2023)."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port Moresby Papua New Guinea (22 April 2023)."
-    },
-    {
-     "code": "VUT",
-     "name": "Vanuatu",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port Vila Vanuatu (8 April 2023)."
-    }
-   ]
-  },
-  {
-   "id": "temples-groundbreaking-2025-outside-americas",
-   "bank": "temples",
-   "display_text": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
-   "text_original": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2025",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "2025 was a busy year for temple groundbreakings outside the Americas, including first-temple groundbreakings in Belgium, Hungary, Madagascar, Singapore and the Republic of the Congo, and new temples in Ghana, Nigeria, South Africa, England, New Zealand and the Philippines.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COG",
-    "HUN",
-    "MDG"
-   ],
-   "gem_forced": false,
-   "answers": [
     {
      "code": "GBR",
      "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Birmingham England (22 March 2025)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tacloban City Philippines (18 January 2025)."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
      "commonness": 3,
      "gem": false,
-     "fact": "Kumasi Ghana (18 October 2025)."
+     "fact": "McKay: London England (1958)."
     },
     {
-     "code": "NGA",
-     "name": "Nigeria",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 3,
      "gem": false,
-     "fact": "Lagos Nigeria (10 May 2025); Benin City Nigeria (24 May 2025)."
+     "fact": "Kimball: Tokyo Japan (1980)."
     },
     {
      "code": "NZL",
      "name": "New Zealand",
      "commonness": 3,
      "gem": false,
-     "fact": "Wellington New Zealand (2 August 2025)."
+     "fact": "McKay: Hamilton New Zealand (1958)."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "McKay: Bern Switzerland (1955)."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Faust: San José Costa Rica (2000)."
+    }
+   ]
+  },
+  {
+   "id": "temples-announced-no-groundbreaking-europe",
+   "bank": "temples",
+   "display_text": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
+   "text_original": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held. In Europe, one is announced for Russia with no city yet named.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IRL",
+    "NOR",
+    "PRT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Edinburgh Scotland."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Cape Town South Africa (25 October 2025)."
+     "fact": "Hamburg Germany."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Milan Italy."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Russia."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Dublin Ireland."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Oslo Norway."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Porto Portugal."
+    }
+   ]
+  },
+  {
+   "id": "global-western-europe-first-stakes-1975-82",
+   "bank": "global",
+   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) with its first stake (congregation group) 1975-82",
+   "text_original": "The first European stakes, from 1960 to 1961, were in Britain, the Netherlands, Germany and Switzerland. A second wave followed. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) whose first stake was organized between 1975 and 1982.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1975-1982",
+   "citation": "Global Histories chronologies (continental Western Europe)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "The Netherlands, Germany and Switzerland had stakes from 1961.",
+   "summary": "After the Netherlands, Germany and Switzerland received stakes in 1961, the rest of continental Western Europe waited. Paris got France's first stake in 1975, then Brussels in 1977, Vienna in 1980, Milan and Lisbon in 1981 and Madrid in 1982.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "France's first stake was organized in Paris, November 16, 1975."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Madrid Spain Stake was organized March 14, 1982."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Italy's first stake was organized in Milan in 1981."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ezra Taft Benson organized Austria's first stake in Vienna, April 20, 1980."
     },
     {
      "code": "BEL",
      "name": "Belgium",
      "commonness": 2,
      "gem": false,
-     "fact": "Brussels Belgium (22 November 2025)."
+     "fact": "The Brussels Belgium Stake was organized February 20, 1977."
     },
     {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Singapore (28 June 2025)."
-    },
-    {
-     "code": "COG",
-     "name": "Republic of the Congo",
+     "code": "PRT",
+     "name": "Portugal",
      "commonness": 1,
      "gem": true,
-     "fact": "Brazzaville Republic of the Congo (23 August 2025)."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Budapest Hungary (21 June 2025)."
-    },
-    {
-     "code": "MDG",
-     "name": "Madagascar",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Antananarivo Madagascar (15 March 2025)."
-    }
-   ]
-  },
-  {
-   "id": "ot-solomon-builds-wives-allies",
-   "bank": "ot",
-   "display_text": "Pin a country holding a city Solomon built, or the homeland of one of his wives or royal allies (not Sheba)",
-   "text_original": "A present-day country holding a city Solomon built or fortified, or the homeland of one of his wives or royal allies (Kings and Chronicles; not the queen of Sheba). Trade lands of disputed site, such as Ophir and Tarshish, are not asked.",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "1 Kings 3-11; 2 Chronicles 8-9",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Jerusalem is scored as Israel, as in the other Bible prompts; Beth-horon the nether is in the West Bank.",
-   "summary": "Solomon fortified Hazor, Megiddo and Gezer, built Tadmor and store cities in Hamath, and traded cedar with Hiram of Tyre. He married Pharaoh's daughter and many foreign wives from Moab, Ammon, Edom, Zidon and the Hittites (1 Kgs 3-11; 2 Chr 8-9).",
-   "stamp": null,
-   "gems": [
-    "PSE",
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Solomon built Hazor, Megiddo and Gezer (1 Kgs 9:15) and the temple at Jerusalem."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "He married Pharaoh's daughter, who brought Gezer as a dowry (1 Kgs 3:1; 9:16)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Hiram king of Tyre sent cedars of Lebanon for the temple, and Solomon loved women of the Zidonians (1 Kgs 5:1-10; 11:1)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "He loved women of the Moabites, Ammonites and Edomites (1 Kgs 11:1); Naamah the Ammonitess bore Rehoboam (1 Kgs 14:21)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "He built Tadmor in the wilderness and store cities in Hamath (2 Chr 8:3-4)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 1,
-     "gem": true,
-     "fact": "He built Beth-horon the nether, now in the West Bank (1 Kgs 9:17)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 1,
-     "gem": true,
-     "fact": "He loved Hittite women (1 Kgs 11:1); the Bible Dictionary says the Hittite empire reached into Asia Minor."
+     "fact": "The Lisbon Stake was organized June 10, 1981."
     }
    ]
   },
@@ -340,88 +318,80 @@
    ]
   },
   {
-   "id": "pioneer-europe-first-baptisms-1849-51",
-   "bank": "pioneer",
-   "display_text": "Pin a European country where the first Latter-day Saint converts were baptized between 1849 and 1851.",
-   "text_original": "Between 1849 and 1851, apostles and other missionaries sent from Utah and Britain baptized the first Latter-day Saint converts in several European countries. Pin a country where, according to the Church Global Histories, the first converts were baptized in those years.",
+   "id": "ot-wives-homelands",
+   "bank": "ot",
+   "display_text": "Pin a country that was home to a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz",
+   "text_original": "A present-day country that was the homeland of a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz: Sarai from Ur, Hagar the Egyptian, Rebekah, Leah and Rachel from Laban's family at Haran, Asenath of On, Zipporah of Midian, Moses' wife from Cush, the Nile land south of Egypt, and Ruth the Moabitess",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1849-1851",
-   "citation": "Global Histories chronologies (Europe)",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 11, 16, 24, 29, 41; Exodus 2; Numbers 12; Ruth 1-4",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ur?lang=eng"
    ],
    "difficulty": 2,
-   "note": "The Netherlands (1861), Belgium (1888) and Austria (1883) had their first baptisms later, so they do not count.",
-   "summary": "Within three years of reaching the Salt Lake Valley, the Church sent apostles to open Europe beyond Britain. Erastus Snow led the Scandinavian work from Copenhagen, Lorenzo Snow opened Italy and Switzerland, and John Taylor went to France. Between 1849 and 1851 the first converts were baptized from Le Havre to Copenhagen, Schleswig and the Westman Islands.",
+   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted.",
+   "summary": "Many founding wives of Israel came from abroad. Sarai left Ur with Abram, Hagar was Egyptian, and Rebekah, Leah and Rachel came from Laban's family at Haran. Joseph married Asenath of On in Egypt, Moses married Zipporah of Midian and an Ethiopian woman, and Ruth the Moabitess became great-grandmother of David.",
    "stamp": null,
    "gems": [
-    "ISL"
+    "SDN"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 4,
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
      "gem": false,
-     "fact": "Fifteen people, including Ole and Marie Monster, became the first converts baptized in Denmark, August 12, 1850."
+     "fact": "Hagar, Abraham's handmaid and wife, was an Egyptian; Joseph married Asenath, daughter of the priest of On (Gen 16:1-3; 41:45)."
     },
     {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Augustus Saint d'Anna, the first known convert in France, was baptized at Le Havre on July 30, 1849."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 3,
      "gem": false,
-     "fact": "George P. Dykes baptized Anna Hoth and her daughter Oline at Schleswig, September 15, 1851, the first recorded baptisms in present-day Germany."
+     "fact": "Sarai went out with Abram from Ur of the Chaldees (Gen 11:29-31); BD Ur identifies it with Mugheir near the Persian Gulf."
     },
     {
-     "code": "ITA",
-     "name": "Italy",
+     "code": "JOR",
+     "name": "Jordan",
      "commonness": 3,
      "gem": false,
-     "fact": "Jean Antoine Bosc was baptized by Lorenzo Snow on October 27, 1850, the first convert baptized in Italy."
+     "fact": "Boaz married Ruth the Moabitess (Ruth 1:4; 4:10, 13)."
     },
     {
-     "code": "SWE",
-     "name": "Sweden",
+     "code": "TUR",
+     "name": "Turkey",
      "commonness": 3,
      "gem": false,
-     "fact": "John E. Forsgren baptized 21 converts in Gavle and Stockholm, June-September 1850."
+     "fact": "Rebekah, Leah and Rachel came from the household of Laban, who lived at Haran (Gen 24:29; 27:43; 29:4-6); Church Bible Map 9 says Rebekah, Rachel, Leah, Bilhah and Zilpah came from the Haran area."
     },
     {
-     "code": "CHE",
-     "name": "Switzerland",
+     "code": "SAU",
+     "name": "Saudi Arabia",
      "commonness": 2,
      "gem": false,
-     "fact": "The first converts in Switzerland were baptized in Geneva in March 1851."
+     "fact": "Moses dwelt in the land of Midian and married Zipporah, daughter of its priest (Ex 2:15-21); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
     },
     {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Hans F. Petersen baptized John Olsen and Peter Adamsen at Risor, November 26, 1851, the first baptisms in Norway."
-    },
-    {
-     "code": "ISL",
-     "name": "Iceland",
+     "code": "SDN",
+     "name": "Sudan",
      "commonness": 1,
      "gem": true,
-     "fact": "Benedikt Hansson and Ragnhildur Stefansdottir became the first converts baptized in Iceland, May 1851."
+     "fact": "Miriam and Aaron spoke against Moses because of the Ethiopian woman he had married (Num 12:1); Bible Ethiopia was the Nile land south of Egypt."
     }
    ]
   }

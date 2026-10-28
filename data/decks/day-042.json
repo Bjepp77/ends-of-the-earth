@@ -2,346 +2,350 @@
  "day": 42,
  "prompts": [
   {
-   "id": "history-temples-dedicated-2024",
-   "bank": "history2",
-   "display_text": "Pin a country where a temple was dedicated in 2024.",
-   "text_original": "A country where a temple was dedicated in 2024.",
-   "accepts": "country",
+   "id": "temples-conf-april-2019",
+   "bank": "temples",
+   "display_text": "Pin a country or territory where a new temple was announced at the April 2019 general conference.",
+   "text_original": "Pin a country or territory where a new temple was announced at the April 2019 general conference.",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2024",
-   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
+   "era": "2019",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/chronology/",
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    "https://churchofjesuschristtemples.org/statistics/milestones/",
+    "https://newsroom.churchofjesuschrist.org/article/eight-new-temples-april-2019-general-conference"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "note": null,
-   "summary": "In 2024 the Church dedicated new temples across the Americas and Asia. Argentina gained two, Salta and Mendoza, and others were dedicated in Puebla Mexico, Salvador Brazil, Lima Peru Los Olivos, Urdaneta Philippines, San Pedro Sula Honduras and Cobán Guatemala. The United States had eight, including Deseret Peak, Taylorsville and Orem in Utah.",
+   "summary": "At the end of the April 2019 general conference, President Russell M. Nelson announced 8 new temples in 7 countries or territories. Budapest gave Hungary its first temple announcement, and Pago Pago did the same for American Samoa.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "GTM",
-    "HND"
+    "ASM"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
      "code": "USA",
-     "name": "United States",
+     "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Deseret Peak Utah, Taylorsville Utah, Orem Utah and 5 more dedicated in 2024."
+     "fact": "Deseret Peak Utah; Moses Lake Washington."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
      "gem": false,
-     "fact": "Salvador Brazil dedicated in 2024."
+     "fact": "Antofagasta Chile."
     },
     {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
      "gem": false,
-     "fact": "Puebla Mexico dedicated in 2024."
+     "fact": "Okinawa Japan."
     },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Pedro Sula Honduras."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Budapest Hungary."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Neiafu Tonga."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Pago Pago American Samoa."
+    }
+   ]
+  },
+  {
+   "id": "global-mtcs-closed-2019-2023",
+   "bank": "global",
+   "display_text": "Pin a country whose Church missionary training center closed between 2019 and 2023",
+   "text_original": "Between 2019 and 2023 the Church closed several missionary training centers outside the United States as more missionaries trained at home or online. A country whose missionary training center closed in that period.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "2019-2023",
+   "citation": "Church News 2019-02-08; Newsroom (Guatemala MTC, Colombia MTC)",
+   "source_urls": [
+    "https://www.thechurchnews.com/2019/2/8/23219280/heres-why-the-church-has-decided-to-close-4-international-mtcs/",
+    "https://newsroom.churchofjesuschrist.org/article/guatemala-missionary-training-center-closing",
+    "https://newsroom.churchofjesuschrist.org/article/colombia-mtc-closing-january-2023"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 2019 the Church closed its training centers in Santiago, Madrid and Santo Domingo, then Buenos Aires that July. Guatemala City followed in January 2020 and Bogota in January 2023. Missionaries from those lands now train at home, online or at the remaining centers.",
+   "stamp": null,
+   "gems": [
+    "COL",
+    "DOM",
+    "GTM"
+   ],
+   "gem_forced": true,
+   "answers": [
     {
      "code": "ARG",
      "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Salta Argentina, Mendoza Argentina dedicated in 2024."
+     "fact": "The Buenos Aires MTC closed in July 2019."
     },
     {
-     "code": "PER",
-     "name": "Peru",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Lima Peru Los Olivos dedicated in 2024."
+     "fact": "The Santiago MTC closed in January 2019."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 3,
      "gem": false,
-     "fact": "Urdaneta Philippines dedicated in 2024."
+     "fact": "The Madrid MTC closed in January 2019."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Bogota MTC closed in January 2023."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Santo Domingo MTC closed in January 2019."
     },
     {
      "code": "GTM",
      "name": "Guatemala",
      "commonness": 2,
      "gem": true,
-     "fact": "Cobán Guatemala dedicated in 2024."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
-     "gem": true,
-     "fact": "San Pedro Sula Honduras dedicated in 2024."
+     "fact": "The Guatemala City MTC closed in January 2020."
     }
    ]
   },
   {
-   "id": "pioneer-postwar-servicemember-pioneers",
-   "bank": "pioneer",
-   "display_text": "Pin one of the 5 Asian countries Church History Topics names where servicemembers helped introduce the Church after World War II.",
-   "text_original": "After World War II, Latter-day Saint servicemembers helped introduce or reestablish the Church in Asian countries where they were stationed. Pin one of the countries Church History Topics names.",
+   "id": "bom-first-editions-1980",
+   "bank": "bom",
+   "display_text": "Pin the homeland of a language (not Arabic) whose first Book of Mormon, whole or in part, came out in 1980",
+   "text_original": "A country that is the home of a language, other than Arabic, in which the Book of Mormon was first published, in selections or in full, in 1980",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1945-1970",
-   "citation": "Church History Topics: Globalization; Growth of Missionary Work",
+   "topic": "scripture translation",
+   "era": "1980",
+   "citation": "Church translations table, Book of Mormon; Church News, 27 Feb 2022; Global Histories chronology: Fiji",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/topics/globalization?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/topics/growth-of-missionary-work?lang=eng"
+    "https://www.churchofjesuschrist.org/study/manual/translations-and-downloads/scriptures/book-of-mormon?lang=eng",
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "Church History Topics credits American Latter-day Saint servicemembers stationed abroad after World War II with helping introduce or reestablish the Church, especially in Japan, Korea, the Philippines, Vietnam and Thailand. Their servicemen's groups often grew into the first local branches.",
+   "note": "Arabic, also first published in 1980 as selections, is left out so the list stays closed. Russian is dated 1981 by Church News.",
+   "summary": "The year 1980 brought the Book of Mormon into six new languages, mostly as selections that were completed later. Besides Arabic they were Bulgarian, Navajo, Ecuadorian Quichua, Vietnamese and Fijian, whose first 50 copies reached Suva that October.",
    "stamp": null,
    "gems": [
-    "THA",
-    "VNM"
+    "ECU"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Fijian, 1980; the first 50 copies reached Suva on 29 October 1980."
+    },
+    {
+     "code": "VNM",
+     "name": "Vietnam",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Vietnamese selections came out in 1980 and the full book in 1982."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bulgarian selections came out in 1980 and the full book in 1999."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Navajo selections came out in 1980 and the full book in 1998."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Quichua (Ecuador) selections came out in 1980 and the full book in 2011."
+    }
+   ]
+  },
+  {
+   "id": "global-northern-europe-first-stakes-1960-77",
+   "bank": "global",
+   "display_text": "Pin a Northern European country whose first stake (a group of congregations) came 1960-1977 (Northern Ireland counts as UK)",
+   "text_original": "Stakes came to Europe in 1960 and spread north over the next two decades. A country in Northern Europe (the Nordic and Baltic countries, the United Kingdom and Ireland) whose first stake was organized between 1960 and 1977.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1960-1977",
+   "citation": "Global Histories chronologies (Northern Europe)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Ireland's first stake came in 1995. Belfast's 1974 stake is in the United Kingdom, which already had stakes.",
+   "summary": "Europe's first stake was organized in Manchester, England, in 1960. Scandinavia followed in the 1970s: Copenhagen in 1974, Stockholm in 1975, and Oslo and Helsinki in 1977. Ireland waited until 1995, and Iceland and the Baltic states still have districts rather than stakes as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Manchester England Stake, the first stake in Europe, was organized March 27, 1960."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Copenhagen Denmark Stake, the first in Scandinavia, was organized June 16, 1974."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Stockholm Sweden Stake was organized April 20, 1975."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Oslo Norway Stake, Norway's first, was created May 22, 1977."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Helsinki Finland Stake, Finland's first, was organized October 16, 1977."
+    }
+   ]
+  },
+  {
+   "id": "people-seventies-young-missions-asia",
+   "bank": "people",
+   "display_text": "Pin an Asian country or territory where a current General Authority Seventy served as a young full-time missionary.",
+   "text_original": "Several General Authority Seventies serving as of October 2026 were once young full-time missionaries in Asia. Pin an Asian country or territory where one of them served, as named in the Church's official biographies.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1970s-2000s",
+   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/j-kimo-esplin?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kyle-s-mckay?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/john-a-mccune?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/scott-d-whiting?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-r-rasband?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-t-ringwood?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/yoon-hwan-choi?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/james-o-fantone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/david-p-homer?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/kelly-r-johnson?lang=eng",
+    "https://www.thechurchnews.com/leaders-and-ministry/2006-05-13/elder-anthony-d-perkins-general-authority-seventy-2006-86422/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in Japan, South Korea, the Philippines, Hong Kong and Thailand. Elder Kelly R. Johnson later returned to the Thailand Bangkok Mission with his wife as mission leaders.",
+   "stamp": null,
+   "gems": [
+    "THA"
+   ],
+   "gem_forced": false,
    "answers": [
     {
      "code": "JPN",
      "name": "Japan",
      "commonness": 5,
      "gem": false,
-     "fact": "Named; servicemembers met in postwar Japan (Saints vol. 3 ch. 31)."
+     "fact": "Japan Kobe, Fukuoka and Tokyo North missions (Elders Esplin, McKay, McCune, Whiting)."
     },
     {
      "code": "KOR",
      "name": "South Korea",
      "commonness": 4,
      "gem": false,
-     "fact": "Named; Korean War servicemen helped plant the Church."
+     "fact": "Korea Seoul and Busan missions (Elders Rasband, Ringwood, Choi)."
     },
     {
      "code": "PHL",
      "name": "Philippines",
      "commonness": 4,
      "gem": false,
-     "fact": "Named; servicemen met in the Philippines after the war."
+     "fact": "Philippines Bacolod and Cebu, Cagayan de Oro, and Davao missions (Elders Revillo, Fantone, Teh)."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "China Hong Kong Mission (Elders Homer and Wu)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Anthony D. Perkins served his young mission in Taiwan."
     },
     {
      "code": "THA",
      "name": "Thailand",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Named among countries where servicemembers helped establish the Church."
-    },
-    {
-     "code": "VNM",
-     "name": "Vietnam",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Named; servicemember groups met there during the Vietnam War."
-    }
-   ]
-  },
-  {
-   "id": "ot-jeremiah-fall-to-egypt",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place in Jeremiah 39-44, from Jerusalem's fall to the flight into Egypt",
-   "text_original": "A present-day country holding a place in Jeremiah 39-44, from the fall of Jerusalem to the flight into Egypt: Zedekiah judged at Riblah, captives taken to Babylon, Jeremiah freed at Ramah, Gedaliah at Mizpah, Ishmael's flight to the Ammonites, and the remnant's settlements at Tahpanhes and Pathros",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Jeremiah 39-44",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/39?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/40?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/41?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/44?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Ramah, Mizpah and Gibeon are in the West Bank (Palestine). Jerusalem is scored as Israel, as in the other Bible prompts.",
-   "summary": "After Babylon broke into Jerusalem, Zedekiah was blinded at Riblah and taken to Babylon. Jeremiah, freed at Ramah, stayed with the governor Gedaliah at Mizpah until Ishmael, sent by the Ammonite king, murdered him. Fearing Babylon, the remnant fled to Egypt and took Jeremiah with them to Tahpanhes (Jer 39-44).",
-   "stamp": null,
-   "gems": [
-    "JOR",
-    "SYR"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Against Jeremiah's word the remnant went to Tahpanhes, and Jews dwelt at Migdol, Noph and Pathros (Jer 43:7; 44:1)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Zedekiah was bound and carried to Babylon, with the rest of the people (Jer 39:7-9)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Jerusalem was broken up in Zedekiah's eleventh year (Jer 39:2)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Zedekiah was overtaken in the plains of Jericho, and mourners came from Shechem, Shiloh and Samaria; Jeremiah was loosed at Ramah and went to Gedaliah at Mizpah (Jer 39:5; 40:1, 6; 41:5)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Baalis king of the Ammonites sent Ishmael to slay Gedaliah, and Ishmael escaped to the Ammonites (Jer 40:14; 41:15); Jews returned from Moab, Ammon and Edom to Gedaliah (Jer 40:11)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Nebuchadrezzar judged Zedekiah at Riblah in the land of Hamath (Jer 39:5)."
-    }
-   ]
-  },
-  {
-   "id": "dc-gh-first-baptism-1883-1899",
-   "bank": "dc",
-   "display_text": "Pin a European country (Turkey counts) where Church histories place the first convert baptism on its soil in 1883-1899",
-   "text_original": "A European country (Turkey counts) whose first convert baptism on its soil, per Church histories, came between 1883 and 1899.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1880s-1890s",
-   "citation": "Church Global Histories chronologies: Austria, Czech Republic, Belgium, Russia, Romania; Church News country profile and Church History Topics: Turkey",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
-    "https://www.thechurchnews.com/2010/2/1/23228952/country-information-turkey/",
-    "https://www.churchofjesuschrist.org/study/history/topics/turkish-mission?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Poland, Hungary and Serbia do not count: their first converts were baptized outside their borders.",
-   "summary": "In the 1880s and 1890s missionaries carried the gospel into new corners of Europe. Church histories date first baptisms to Lambach, Austria (1883), Prague (1884), Constantinople (1885), Antwerp (1888), St. Petersburg (1895) and Constanta, Romania (1899).",
-   "stamp": null,
-   "gems": [
-    "ROU"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1883: first convert baptism in Austria, at Lambach."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1895: first convert baptism in St. Petersburg."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
-     "gem": false,
-     "fact": "1888: first convert baptism in Belgium, at Antwerp."
-    },
-    {
-     "code": "CZE",
-     "name": "Czech Republic",
-     "commonness": 2,
-     "gem": false,
-     "fact": "1884: first convert baptized in Prague."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 2,
-     "gem": false,
-     "fact": "January 4, 1885: Hagop Vartooguian and his family were baptized in Constantinople by Jacob Spori, days after the Turkish Mission opened."
-    },
-    {
-     "code": "ROU",
-     "name": "Romania",
      "commonness": 1,
      "gem": true,
-     "fact": "1899: first convert baptized at Constanta on the Black Sea."
-    }
-   ]
-  },
-  {
-   "id": "ot-rehoboam-forts-shishak-army",
-   "bank": "ot",
-   "display_text": "Pin a country holding one of Rehoboam's fenced cities, or a homeland of Shishak's army",
-   "text_original": "A present-day country holding one of Rehoboam's fenced cities of Judah (2 Chronicles 11:5-10) or the homeland of a people in Shishak's army that came against him (2 Chronicles 12:2-3: Egyptians, Lubims, and the people of Cush, the Nile land south of Egypt)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "2 Chronicles 11:5-12:9",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so Ethiopia does not count. Bethlehem, Tekoa and Hebron are in the West Bank.",
-   "summary": "After the kingdom split, Rehoboam built a ring of fenced cities to guard Judah, from Bethlehem and Hebron to Lachish and Aijalon. Because Judah forsook the law, Shishak of Egypt came with chariots and a host of Lubims, Sukkiims and Ethiopians, took the fenced cities and carried off the temple treasures (2 Chr 11-12).",
-   "stamp": null,
-   "gems": [
-    "SDN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Shishak king of Egypt came up against Jerusalem in Rehoboam's fifth year (2 Chr 12:2)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Rehoboam fortified Lachish, Azekah, Adullam, Gath, Zorah and Aijalon (2 Chr 11:7-10)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "He also fortified Bethlehem, Tekoa, Beth-zur and Hebron (2 Chr 11:6-10)."
-    },
-    {
-     "code": "LBY",
-     "name": "Libya",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Lubims marched with Shishak (2 Chr 12:3); the Church footnote reads Libyans, and BD Libya is the land west of Egypt."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The Ethiopians marched with him too (2 Chr 12:3); Bible Ethiopia was the Nile land south of Egypt."
+     "fact": "Thailand Bangkok Mission (Elder Kelly R. Johnson)."
     }
    ]
   }
