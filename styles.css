@@ -320,7 +320,8 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .tm-speck { fill: var(--ink-idle); opacity: .35; }
 .tm-frame { fill: none; stroke: var(--ink); stroke-width: 1.4; }
 .tm-edge { font-size: 7px; letter-spacing: .3em; fill: var(--ink-idle); }
-.tm-name { font-size: 8.5px; letter-spacing: .2em; fill: var(--ink); font-weight: 600; paint-order: stroke; stroke: var(--paper-3); stroke-width: 2.5px; stroke-linejoin: round; }
+.tm-name { font-size: 6.2px; letter-spacing: .12em; fill: var(--ink); font-weight: 600; paint-order: stroke; stroke: var(--paper-3); stroke-width: 1.8px; stroke-linejoin: round; }
+.tm-leader { fill: none; stroke: var(--ink-2); stroke-width: .5; }
 .tm-art { pointer-events: none; }
 .tm-ink, .tm-faint { fill: none; stroke: var(--ink-2); stroke-width: 1.1; stroke-linejoin: round; stroke-linecap: round; }
 .tm-faint { stroke: var(--ink-idle); stroke-width: .9; opacity: .45; }
@@ -648,8 +649,8 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 #tour-back { background: var(--sheet-2); color: var(--ink); box-shadow: 0 0 0 1px var(--ink); border: 0; border-radius: var(--radius-card); font: inherit; font-weight: 700; cursor: pointer; }
 @media (prefers-reduced-motion: reduce) { .tour-spot { transition: none; } }
 
-/* Expand and shrink (owner, 2026-10-28): a corner button on every panel. Full fills the screen;
-   compact folds the panel to a one-line bar with its name. The button always stays on top. */
+/* Expand and shrink (owner, 2026-10-28): a corner button on every panel. Expand pops the panel
+   out as a larger centered box over a grayed backdrop; shrink puts it back in its spot. */
 [data-label] { position: relative; }
 .size-li { list-style: none; display: contents; }
 .size-btn {
@@ -661,33 +662,22 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .stage > .size-btn { right: auto; left: 0; top: 0; z-index: 4; color: var(--ink); }
 .prompt-card[data-label], .result[data-label], .camp-rows[data-label] { padding-right: 44px; }
 
-[data-size="full"] {
-  position: fixed !important; inset: 0 !important; z-index: 40;
-  width: auto !important; height: auto !important; max-height: none !important;
-  margin: 0 !important; border-radius: 0 !important; overflow: auto;
-  padding-top: max(44px, env(safe-area-inset-top));
-  background: var(--sheet-2);
+.size-spot { flex: none !important; visibility: hidden; list-style: none; }
+.size-shade { position: fixed; inset: 0; z-index: 39; width: auto; max-width: none; margin: 0; background: rgb(40 36 30 / .55); backdrop-filter: grayscale(1); }
+.size-shade:has(+ [hidden]) { display: none; }
+[data-size="pop"] {
+  position: fixed !important; z-index: 40 !important; left: 50% !important; top: 50% !important; right: auto !important; bottom: auto !important;
+  transform: translate(-50%, -50%); order: 0 !important;
+  width: min(960px, calc(100vw - 16px)) !important; height: auto !important; max-height: calc(100dvh - 48px) !important;
+  margin: 0 !important; overflow: auto; flex: none !important;
+  padding-top: 44px; background: var(--sheet-2);
+  border-radius: var(--radius-card); box-shadow: 0 0 0 2px var(--ink), 0 18px 48px rgb(0 0 0 / .4) !important;
 }
-.stage[data-size="full"] { padding: 0; background: var(--sea); overflow: hidden; }
-#round > .trail[data-size="full"], #trail[data-size="full"] { display: block !important; background: var(--sheet-2); }
-.actions[data-size="full"] { display: grid; align-content: center; padding-inline: var(--edge); }
-.camp-rows[data-size="full"] { display: grid; }
-.poster[data-size="full"] { display: grid; }
-
-[data-size="compact"] {
-  flex: none !important;
-  height: 44px !important; min-height: 0 !important; max-height: 44px !important;
-  padding: 0 44px 0 12px !important; overflow: hidden;
-  display: flex !important; align-items: center;
-  background: var(--sheet-2); border-radius: var(--radius-card); box-shadow: 0 0 0 1px var(--ink);
-}
-[data-size="compact"]::before {
-  content: attr(data-label);
-  font-family: var(--font-figure); font-size: 13px; letter-spacing: .12em; color: var(--accent);
-}
-[data-size="compact"] > :not(.size-btn):not(.size-li) { display: none !important; }
-.stage[data-size="compact"] { padding-left: 52px !important; }
-.stage[data-size="compact"] > .size-btn { left: 0; }
+.stage[data-size="pop"] { height: min(720px, calc(100dvh - 48px)) !important; padding: 0; background: var(--sea); overflow: hidden; }
+#round > .trail[data-size="pop"], #trail[data-size="pop"] { display: block !important; background: var(--sheet-2); padding: 44px 16px 16px; }
+[data-size="pop"] .trail-map { max-height: none; width: 100%; }
+.actions[data-size="pop"] { display: grid; align-content: center; padding: 44px var(--edge) var(--edge); }
+.camp-rows[data-size="pop"] { display: grid; }
+.poster[data-size="pop"] { display: grid; }
 [data-size][hidden] { display: none !important; }
 @media (max-width: 767px) { #round:has(#result[hidden]) > .trail[data-size] { display: none !important; } }
-@media (min-width: 768px) { .stage[data-size="compact"] { align-self: start; margin: var(--edge); } }

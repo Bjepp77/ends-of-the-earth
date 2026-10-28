@@ -1,16 +1,16 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=6ff70c6c34';
-import { REFUSAL_TEXT } from './hit.js?v=6ff70c6c34';
-import * as R from './rules.js?v=6ff70c6c34';
-import * as G from './game.js?v=6ff70c6c34';
-import { createStore } from './store.js?v=6ff70c6c34';
-import { createMenu } from './menu.js?v=6ff70c6c34';
-import { createSound } from './sound.js?v=6ff70c6c34';
-import { shareOrCopy } from './share.js?v=6ff70c6c34';
-import { createTrail } from './trail.js?v=6ff70c6c34';
-import { createTour } from './tour.js?v=6ff70c6c34';
-import { createCounter } from './count.js?v=6ff70c6c34';
-import { createExpand } from './expand.js?v=6ff70c6c34';
+import { loadCountries, createMap } from './map.js?v=ed73f9d045';
+import { REFUSAL_TEXT } from './hit.js?v=ed73f9d045';
+import * as R from './rules.js?v=ed73f9d045';
+import * as G from './game.js?v=ed73f9d045';
+import { createStore } from './store.js?v=ed73f9d045';
+import { createMenu } from './menu.js?v=ed73f9d045';
+import { createSound } from './sound.js?v=ed73f9d045';
+import { shareOrCopy } from './share.js?v=ed73f9d045';
+import { createTrail } from './trail.js?v=ed73f9d045';
+import { createTour } from './tour.js?v=ed73f9d045';
+import { createCounter } from './count.js?v=ed73f9d045';
+import { createExpand } from './expand.js?v=ed73f9d045';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -840,7 +840,7 @@ window.addEventListener('storage', (e) => {
 });
 document.addEventListener('keydown', (e) => {
   if (menu.isOpen || tour.isOpen) return;
-  if (e.key === 'Escape' && expand.fullOpen) { e.preventDefault(); return expand.shrinkFull(); }
+  if (e.key === 'Escape' && expand.isOpen) { e.preventDefault(); return expand.close(); }
   if (['INPUT', 'SELECT', 'BUTTON', 'SUMMARY', 'TEXTAREA'].includes(e.target.tagName)) return;
   // F-U06 keyboard pinning: arrow keys pan the map; P pins the map centre, and so does
   // Space or Enter on the focused map while no pin is held.
@@ -914,7 +914,7 @@ const tour = createTour(TOUR_STEPS, {
   },
 });
 
-// Expand and shrink (owner, 2026-10-28): every panel can fill the screen or fold to a bar.
+// Expand and shrink (owner, 2026-10-28): every panel can pop out over a grayed backdrop and go back.
 const expand = createExpand([
   { selector: '.stage', label: 'MAP' },
   { selector: '#round > .prompt-card', label: 'PROMPT' },

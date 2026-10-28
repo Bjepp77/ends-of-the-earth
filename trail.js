@@ -3,7 +3,7 @@
 // each reveal. Each band stop sits on the path at min / EDGE_KM, so the wagon reaches a stop
 // exactly when the total reaches that band. Look (owner, 2026-10-27): speckled paper, framed
 // border, spaced mono labels and a faint field of landmark icons, in the Furrow palette.
-import * as R from './rules.js?v=6ff70c6c34';
+import * as R from './rules.js?v=ed73f9d045';
 
 const NS = 'http://www.w3.org/2000/svg';
 const W = 320;
@@ -43,14 +43,19 @@ export function rng(seed) {
   };
 }
 
-// Label placement per stop, chosen so no name crosses the trail, a landmark or another name.
-const LABEL = {
-  nauvoo: { x: 308, y: 124, anchor: 'end' },
-  'winter-quarters': { x: 228, y: 106, anchor: 'middle' },
-  'chimney-rock': { x: 130, y: 124, anchor: 'start' },
-  'south-pass': { x: 100, y: 106, anchor: 'middle' },
-  'salt-lake-valley': { x: 12, y: 124, anchor: 'start' },
-};
+// Labels (owner, 2026-10-28: smaller, less clutter; picked "C"): names alternate along the top and
+// bottom of the frame, east to west, each with a thin leader line to its stop. The end stops anchor
+// to the frame so the name never runs off it; the leader still lands inside the text.
+const TOP = 29;
+const BOTTOM = 122;
+function label(p, i, name, svg) {
+  const edge = p.x < 60 ? { x: 12, anchor: 'start' } : p.x > 260 ? { x: W - 12, anchor: 'end' } : { x: p.x, anchor: 'middle' };
+  const below = i % 2 === 1;
+  const y = below ? BOTTOM : TOP;
+  el('path', { d: below ? `M${p.x} ${p.y + 4} V${y - 6}` : `M${p.x} ${p.y - 32} V${y + 2}`, class: 'tm-leader' }, svg);
+  el('text', { x: edge.x, y, class: 'tm-name', 'text-anchor': edge.anchor }, svg).textContent = name;
+}
+
 export function createTrail(svg) {
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
   svg.textContent = '';
@@ -88,15 +93,14 @@ export function createTrail(svg) {
   walked.setAttribute('stroke-dasharray', `0 ${len}`);
 
   const dots = new Map();
-  for (const b of R.BANDS) {
+  for (const [i, b] of R.BANDS.entries()) {
     const p = pointAt(trailShare(b.min));
     const g = el('g', { transform: `translate(${p.x.toFixed(1)} ${p.y.toFixed(1)})` }, marks);
     const icon = el('image', { x: -13, y: -31, width: 26, height: 26,
       href: `img/trail-${b.id}-96.webp`, class: 'tm-art', 'aria-hidden': 'true' }, g);
     icon.addEventListener('error', () => icon.remove());
     dots.set(b.id, el('circle', { cx: p.x, cy: p.y, r: 3.2, class: 'tm-stop' }, svg));
-    const l = LABEL[b.id];
-    el('text', { x: l.x, y: l.y, class: 'tm-name', 'text-anchor': l.anchor }, svg).textContent = b.name;
+    label(p, i, b.name, svg);
   }
   el('text', { x: W - 12, y: 17, class: 'tm-edge', 'text-anchor': 'end' }, svg).textContent = 'EAST';
   el('text', { x: 12, y: 17, class: 'tm-edge' }, svg).textContent = 'WEST';
