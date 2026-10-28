@@ -279,13 +279,14 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .tier-stamp {
   --tier-ink: var(--ink);
   --tier-fill: var(--sheet-2);
-  display: inline-block; padding: 1px 8px 0;
+  display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; padding: 1px 8px 0;
   font-size: 16px; line-height: 22px;
   color: var(--tier-ink);
   background: color-mix(in srgb, var(--tier-fill) 15%, var(--sheet)); /* R3-U03 15% so all six pass 4.5:1 */
   font-weight: 600; border-radius: var(--radius-key);
   box-shadow: 0 0 0 1px var(--tier-ink);
 }
+.tier-stamp img { display: block; width: 28px; height: 28px; margin: -3px 0; object-fit: contain; flex: none; }
 
 /* home */
 .home-msg { margin: 0; font-size: 20px; line-height: 28px; }
@@ -319,7 +320,8 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .tm-speck { fill: var(--ink-idle); opacity: .35; }
 .tm-frame { fill: none; stroke: var(--ink); stroke-width: 1.4; }
 .tm-edge { font-size: 7px; letter-spacing: .3em; fill: var(--ink-idle); }
-.tm-name { font-size: 8.5px; letter-spacing: .2em; fill: var(--ink-2); font-weight: 600; }
+.tm-name { font-size: 8.5px; letter-spacing: .2em; fill: var(--ink); font-weight: 600; paint-order: stroke; stroke: var(--paper-3); stroke-width: 2.5px; stroke-linejoin: round; }
+.tm-art { pointer-events: none; }
 .tm-ink, .tm-faint { fill: none; stroke: var(--ink-2); stroke-width: 1.1; stroke-linejoin: round; stroke-linecap: round; }
 .tm-faint { stroke: var(--ink-idle); stroke-width: .9; opacity: .45; }
 .tm-water { fill: none; stroke: var(--sea); stroke-width: 2.6; stroke-linecap: round; }
@@ -525,6 +527,7 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .counts li, .pp-list li, .pw-list li { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
 .counts b { font-weight: normal; }
 .tier-stamp--sm { font-size: 12px; line-height: 16px; padding: 0 5px; }
+.tier-stamp--sm img { width: 14px; height: 14px; }
 .dd-pins li { display: grid; grid-template-columns: auto 1fr; gap: 0 8px; align-items: center; }
 .dd-pins li .fine { grid-column: 1 / -1; margin: 0; }
 .seg { display: flex; gap: 8px; }
@@ -537,6 +540,7 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .sv-list li { display: grid; padding: 4px 0; border-bottom: 1px solid var(--pencil); }
 .sv-list li:not(.sv-done) .sv-name { color: var(--ink-2); }
 .sv-name { display: flex; gap: 8px; align-items: center; }
+.sv-name img { display: block; width: 28px; height: 28px; object-fit: contain; flex: none; }
 .pw-name small { display: block; font-size: 12px; color: var(--ink-2); }
 .pips { display: flex; gap: 3px; }
 .pips i { width: 12px; height: 12px; box-shadow: 0 0 0 1px var(--ink); }

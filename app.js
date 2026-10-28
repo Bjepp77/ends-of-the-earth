@@ -1,16 +1,16 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js';
-import { REFUSAL_TEXT } from './hit.js';
-import * as R from './rules.js';
-import * as G from './game.js';
-import { createStore } from './store.js';
-import { createMenu } from './menu.js';
-import { createSound } from './sound.js';
-import { shareOrCopy } from './share.js';
-import { createTrail } from './trail.js';
-import { createTour } from './tour.js';
-import { createCounter } from './count.js';
-import { createExpand } from './expand.js';
+import { loadCountries, createMap } from './map.js?v=6ff70c6c34';
+import { REFUSAL_TEXT } from './hit.js?v=6ff70c6c34';
+import * as R from './rules.js?v=6ff70c6c34';
+import * as G from './game.js?v=6ff70c6c34';
+import { createStore } from './store.js?v=6ff70c6c34';
+import { createMenu } from './menu.js?v=6ff70c6c34';
+import { createSound } from './sound.js?v=6ff70c6c34';
+import { shareOrCopy } from './share.js?v=6ff70c6c34';
+import { createTrail } from './trail.js?v=6ff70c6c34';
+import { createTour } from './tour.js?v=6ff70c6c34';
+import { createCounter } from './count.js?v=6ff70c6c34';
+import { createExpand } from './expand.js?v=6ff70c6c34';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -128,6 +128,15 @@ function conflict() {
 function tierStamp(el, tierId) {
   const t = R.tierById(tierId);
   el.textContent = t.name.toUpperCase();
+  if (tierId !== 'miss') {
+    const img = document.createElement('img');
+    img.src = `img/tier-${tierId}-64.webp`;
+    img.alt = '';
+    img.width = 28;
+    img.height = 28;
+    img.addEventListener('error', () => img.remove());
+    el.prepend(img);
+  }
   el.style.setProperty('--tier-ink', G.TIER_COLORS[tierId].ink);
   el.style.setProperty('--tier-fill', G.TIER_COLORS[tierId].fill);
 }

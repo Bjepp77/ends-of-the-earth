@@ -1,6 +1,6 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor } from './hit.js';
-import { rng } from './trail.js';
+import { buildIndex, hitTest, refusalFor } from './hit.js?v=6ff70c6c34';
+import { rng } from './trail.js?v=6ff70c6c34';
 
 const maplibregl = window.maplibregl;
 
@@ -26,7 +26,7 @@ const MINOR_ZOOM = 3.5; // 5 degree graticule lines and ticks from here in; 15 d
 export const WORLD_BOUNDS = [[-170, -58], [190, 78]];
 
 export async function loadCountries(url = 'data/countries.json') {
-  const res = await fetch(url);
+  const res = await fetch(url, { cache: 'no-cache' });
   if (!res.ok) throw new Error(`countries.json: HTTP ${res.status}`);
   return res.json();
 }

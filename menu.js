@@ -1,7 +1,7 @@
 // Menu drawer and its panels (§22). Numbers come from panels.js and rules.js; this file only draws.
-import * as R from './rules.js';
-import * as P from './panels.js';
-import { TIER_COLORS, longDate, promptText } from './game.js';
+import * as R from './rules.js?v=6ff70c6c34';
+import * as P from './panels.js?v=6ff70c6c34';
+import { TIER_COLORS, longDate, promptText } from './game.js?v=6ff70c6c34';
 
 const SHORT_MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 const DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
@@ -37,6 +37,11 @@ function shortDay(dateStr) {
 function tierTag(tierId) {
   const t = R.tierById(tierId);
   const el = h('span', { class: 'tier-stamp tier-stamp--sm' }, t.name.toUpperCase());
+  if (tierId !== 'miss') {
+    const img = h('img', { src: `img/tier-${tierId}-32.webp`, alt: '', width: 14, height: 14 });
+    img.addEventListener('error', () => img.remove());
+    el.prepend(img);
+  }
   el.style.setProperty('--tier-ink', TIER_COLORS[tierId].ink);
   el.style.setProperty('--tier-fill', TIER_COLORS[tierId].fill);
   return el;
@@ -219,8 +224,11 @@ export function createMenu(ctx) {
           h('p', { class: 'eyebrow' }, `${g.name.toUpperCase()} · ${souvenirs.souvenirs.filter((s) => s.group === g.id && d.earned.includes(s.id)).length}/${souvenirs.souvenirs.filter((s) => s.group === g.id).length}`),
           h('ul', { class: 'sv-list' }, souvenirs.souvenirs.filter((s) => s.group === g.id).map((s) => {
             const pr = P.progress(s, d.facts);
+            const art = s.id === 'walking-stick'
+              ? h('img', { src: 'img/souvenir-walking-stick-64.webp', alt: '', width: 28, height: 28 }) : null;
+            art?.addEventListener('error', () => art.remove());
             return h('li', { class: pr.done ? 'sv-done' : '' },
-              h('span', { class: 'sv-name' }, pr.done ? '✓ ' : '', s.name, unseen.has(s.id) ? h('span', { class: 'new-tag' }, 'NEW') : null),
+              h('span', { class: 'sv-name' }, art, pr.done ? '✓ ' : '', s.name, unseen.has(s.id) ? h('span', { class: 'new-tag' }, 'NEW') : null),
               h('span', { class: 'fine' }, pr.done ? s.note : `${s.note} ${R.formatKm(pr.value)}/${R.formatKm(pr.goal)}`));
           })))),
         h('p', { class: 'fine' }, 'These souvenirs and their conditions are our own.'));
