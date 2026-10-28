@@ -110,3 +110,9 @@ kbd {
   h1 { font-size: 36px; }
   .timeline li { grid-template-columns: 1fr; gap: 2px; }
 }
+
+/* page banner (Midjourney set, owner 2026-10-28) */
+.banner {
+  display: block; width: 100%; height: auto; max-height: 320px; object-fit: cover;
+  border-bottom: 1px solid var(--ink);
+}

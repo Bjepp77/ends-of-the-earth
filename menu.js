@@ -309,7 +309,7 @@ export function createMenu(ctx) {
       return h('div', {},
         h('p', { class: 'panel-title' }, 'ACCOUNT'),
         h('p', { class: 'big-count' }, 'GUEST'),
-        h('p', {}, 'Saved on this device only. There is no sign in and nothing is sent anywhere.'),
+        h('p', {}, 'Saved on this device only. There is no sign in. The game sends only anonymous counts of visits and finished games: no names, no cookies, nothing that identifies you.'),
         h('button', { type: 'button', class: 'menu-item', id: 'download-data', onclick: () => {
           const dump = store.exportAll(new Date().toISOString());
           const blob = new Blob([JSON.stringify(dump, null, 2)], { type: 'application/json' });

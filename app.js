@@ -9,6 +9,8 @@ import { createSound } from './sound.js';
 import { shareOrCopy } from './share.js';
 import { createTrail } from './trail.js';
 import { createTour } from './tour.js';
+import { createCounter } from './count.js';
+import { createExpand } from './expand.js';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -42,6 +44,10 @@ const [config, manifest, countries, souvenirs] = await Promise.all([
   fetchJSON('config.json'), fetchJSON('data/manifest.json'), loadCountries(), fetchJSON('data/souvenirs.json'),
 ]);
 const store = createStore(safeStorage(), config.slot);
+// ?debug is the test hook; tests ask for counting with &count. Local play (the owner's copy, the
+// test server) never counts unless asked, so the numbers are real players only.
+const LOCAL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+const count = createCounter(config.goatcounter, params.has('count') || (!DEBUG && !LOCAL));
 store.ensureOwner(uuid());
 
 const S = {
@@ -234,8 +240,10 @@ async function startDay() {
   S.practice = false;
   S.deck = await fetchJSON(G.deckPath(S.deal.n));
   S.settings = store.settings();
+  const fresh = !store.run(S.date);
   S.run = store.run(S.date) ?? R.newRun(uuid(), Date.now());
   S.unsaved = false;
+  if (fresh) count(`expedition-${S.deal.n}/started`, true);
   // A finished day keeps the late flag it was played with; viewing it later is not late play.
   if (S.run.done) return showCamp();
   if (S.late) S.run.late = true;
@@ -476,6 +484,7 @@ function finish(pin, timedOut) {
       S.run.done = true;
       S.run.completedAt = Date.now();
       S.run.playedOn = today();
+      count(`expedition-${S.deal.n}/finished`, true);
       // §22 a day logs when its last pin lands. F2 the log and the finished run are kept
       // together or not at all: a refused log skips the run write, a refused run drops the log.
       if (store.saveLog(S.date, S.run.rounds.map(({ c, z: _z, k, ...r }) => r))) {
@@ -796,6 +805,7 @@ $('search').onchange = (e) => {
 };
 $('share').onclick = () => {
   sound.click();
+  count('share', true);
   shareOrCopy($('share'), $('share').dataset.shareText);
 };
 $('sound-btn').onclick = () => {
@@ -821,6 +831,7 @@ window.addEventListener('storage', (e) => {
 });
 document.addEventListener('keydown', (e) => {
   if (menu.isOpen || tour.isOpen) return;
+  if (e.key === 'Escape' && expand.fullOpen) { e.preventDefault(); return expand.shrinkFull(); }
   if (['INPUT', 'SELECT', 'BUTTON', 'SUMMARY', 'TEXTAREA'].includes(e.target.tagName)) return;
   // F-U06 keyboard pinning: arrow keys pan the map; P pins the map centre, and so does
   // Space or Enter on the focused map while no pin is held.
@@ -894,7 +905,21 @@ const tour = createTour(TOUR_STEPS, {
   },
 });
 
+// Expand and shrink (owner, 2026-10-28): every panel can fill the screen or fold to a bar.
+const expand = createExpand([
+  { selector: '.stage', label: 'MAP' },
+  { selector: '#round > .prompt-card', label: 'PROMPT' },
+  { selector: '#trail', label: 'TRAIL' },
+  { selector: '#result', label: 'RESULT' },
+  { selector: '#round > .actions', label: 'DROP PIN' },
+  { selector: '#camp-rows', label: 'ROUNDS' },
+  { selector: '.poster', label: 'SCORE' },
+  { selector: '.camp-trail', label: 'TRAIL' },
+  { selector: '#camp > .actions', label: 'SHARE' },
+], { onChange: () => view.map.resize() });
+
 async function startTour() {
+  expand.reset(); // the tour lights panels at their usual size
   if (S.mode !== 'round' || !S.practice) {
     if (roundOpen()) return;
     await startPractice();
@@ -903,6 +928,7 @@ async function startTour() {
 }
 
 goHome();
+count(location.pathname);
 // A first-time player gets the tour once. ?debug is the test hook; tests ask for it with &tour.
 if ((!DEBUG || params.has('tour')) && !store.tourSeen() && store.runs().length === 0 && S.deal?.status === 'ok') startTour();
 setInterval(checkDate, RECHECK_MS);
