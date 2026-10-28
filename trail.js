@@ -3,7 +3,7 @@
 // each reveal. Each band stop sits on the path at min / EDGE_KM, so the wagon reaches a stop
 // exactly when the total reaches that band. Look (owner, 2026-10-27): speckled paper, framed
 // border, spaced mono labels and a faint field of landmark icons, in the Furrow palette.
-import * as R from './rules.js?v=8cc8b3bdd2';
+import * as R from './rules.js?v=8c7fe955a6';
 
 const NS = 'http://www.w3.org/2000/svg';
 const W = 320;
@@ -20,6 +20,19 @@ const ROUTE = SEGMENTS.join(' ');
 const SHARES = [0, .2, .5, .7, 1];
 const WALK_MS = 1100;
 let made = 0; // each map gets its own pattern id; two maps share the page (round and camp)
+
+// The wagon picture's box around its anchor point, in map units.
+const WAGON = { left: -18, right: 18, top: -22, bottom: 2 };
+
+// Sections light up (owner, 2026-10-28): a section turns orange once any part of the wagon's box
+// overlaps the section's box, and every section behind it stays lit. At 0 km the wagon has not
+// travelled, so nothing is lit. Boxes are { x1, y1, x2, y2 }; sections run east to west.
+export function litSections(km, wagon, sections) {
+  if (km <= 0) return sections.map(() => false);
+  const touches = (s) => wagon.x1 <= s.x2 && wagon.x2 >= s.x1 && wagon.y1 <= s.y2 && wagon.y2 >= s.y1;
+  const last = sections.findLastIndex(touches);
+  return sections.map((_, i) => i <= last);
+}
 
 // Share of the route walked at a day total, 0 to 1.
 export function trailShare(km) {
@@ -77,20 +90,27 @@ export function createTrail(svg) {
 
   const marks = el('g', {}, svg);
   el('path', { d: ROUTE, class: 'tm-route' }, svg);
-  const walked = el('path', { d: ROUTE, class: 'tm-walked' }, svg);
-  const len = walked.getTotalLength();
+  // One path per section, shown orange once lit. (One dashed path for the whole route lit all of it on iOS.)
+  const sections = SEGMENTS.map((d) => el('path', { d, class: 'tm-walked' }, svg));
   const ends = [0];
-  for (const d of SEGMENTS) {
-    const segment = el('path', { d }, defs);
-    ends.push(ends.at(-1) + segment.getTotalLength());
-  }
+  for (const s of sections) ends.push(ends.at(-1) + s.getTotalLength());
+  // Each section's box, from points along it (works before the map is on screen).
+  const boxes = sections.map((s, i) => {
+    const pts = Array.from({ length: 25 }, (_, k) => s.getPointAtLength((ends[i + 1] - ends[i]) * k / 24));
+    const xs = pts.map((q) => q.x);
+    const ys = pts.map((q) => q.y);
+    return { x1: Math.min(...xs), y1: Math.min(...ys), x2: Math.max(...xs), y2: Math.max(...ys) };
+  });
   const lengthAt = (share) => {
     const i = Math.min(SEGMENTS.length - 1, SHARES.findIndex((s, j) => j && share <= s) - 1);
     const t = (share - SHARES[i]) / (SHARES[i + 1] - SHARES[i]);
     return ends[i] + (ends[i + 1] - ends[i]) * t;
   };
-  const pointAt = (share) => walked.getPointAtLength(lengthAt(share));
-  walked.setAttribute('stroke-dasharray', `0 ${len}`);
+  const pointAt = (share) => {
+    const at = lengthAt(share);
+    const i = Math.max(0, ends.findIndex((e, j) => j && at <= e) - 1);
+    return sections[i].getPointAtLength(at - ends[i]);
+  };
 
   const dots = new Map();
   for (const [i, b] of R.BANDS.entries()) {
@@ -117,18 +137,20 @@ export function createTrail(svg) {
   pic.addEventListener('error', () => { pic.remove(); drawn(); });
 
   let at = 0;
+  let km = 0;
   let frame = 0;
   const draw = (share) => {
-    const distance = lengthAt(share);
-    const p = walked.getPointAtLength(distance);
+    const p = pointAt(share);
     wagon.setAttribute('transform', `translate(${p.x.toFixed(1)} ${(p.y - 4).toFixed(1)})`);
-    walked.setAttribute('stroke-dasharray', `${distance.toFixed(1)} ${len}`);
+    const box = { x1: p.x + WAGON.left, x2: p.x + WAGON.right, y1: p.y + WAGON.top, y2: p.y + WAGON.bottom };
+    litSections(share > 0 ? km : 0, box, boxes).forEach((lit, i) => { sections[i].classList.toggle('tm-walked--lit', lit); });
   };
   draw(0);
 
   return {
     // Moves the wagon to a day total; walks there unless asked to jump or motion is reduced.
-    set(km, { jump = false } = {}) {
+    set(total, { jump = false } = {}) {
+      km = total;
       const to = trailShare(km);
       for (const b of R.BANDS) dots.get(b.id).classList.toggle('tm-stop--reached', km >= b.min);
       cancelAnimationFrame(frame);

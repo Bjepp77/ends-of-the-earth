@@ -1,17 +1,17 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=8cc8b3bdd2';
-import { REFUSAL_TEXT } from './hit.js?v=8cc8b3bdd2';
-import * as R from './rules.js?v=8cc8b3bdd2';
-import * as G from './game.js?v=8cc8b3bdd2';
-import { createStore } from './store.js?v=8cc8b3bdd2';
-import { createMenu } from './menu.js?v=8cc8b3bdd2';
-import { createSound } from './sound.js?v=8cc8b3bdd2';
-import { shareOrCopy } from './share.js?v=8cc8b3bdd2';
-import { createTrail } from './trail.js?v=8cc8b3bdd2';
-import { createTour } from './tour.js?v=8cc8b3bdd2';
-import { createThanks } from './thanks.js?v=8cc8b3bdd2';
-import { createCounter } from './count.js?v=8cc8b3bdd2';
-import { createExpand } from './expand.js?v=8cc8b3bdd2';
+import { loadCountries, createMap } from './map.js?v=8c7fe955a6';
+import { REFUSAL_TEXT } from './hit.js?v=8c7fe955a6';
+import * as R from './rules.js?v=8c7fe955a6';
+import * as G from './game.js?v=8c7fe955a6';
+import { createStore } from './store.js?v=8c7fe955a6';
+import { createMenu } from './menu.js?v=8c7fe955a6';
+import { createSound } from './sound.js?v=8c7fe955a6';
+import { shareOrCopy } from './share.js?v=8c7fe955a6';
+import { createTrail } from './trail.js?v=8c7fe955a6';
+import { createTour } from './tour.js?v=8c7fe955a6';
+import { createThanks } from './thanks.js?v=8c7fe955a6';
+import { createCounter } from './count.js?v=8c7fe955a6';
+import { createExpand } from './expand.js?v=8c7fe955a6';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -788,8 +788,7 @@ function renderCampNext() {
 function maybeThanks() {
   if ((DEBUG && !params.has('thanks')) || S.late || store.thanksShownOn(today())) return;
   store.markThanksShown(today());
-  const best = Math.max(...S.run.rounds.map((r) => R.TIERS.findIndex((t) => t.id === r.t)));
-  thanks.open(best > 0 ? R.TIERS[best] : null);
+  thanks.open();
 }
 
 // ---------- wiring ----------
@@ -930,12 +929,12 @@ const tour = createTour(TOUR_STEPS, {
 const thanks = createThanks();
 
 // Expand and shrink (owner, 2026-10-28): every panel can pop out over a grayed backdrop and go back.
+// The DROP PIN / NEXT PROMPT bar has no button (owner, 2026-10-28): it is a button row, not info.
 const expand = createExpand([
   { selector: '.stage', label: 'MAP' },
   { selector: '#round > .prompt-card', label: 'PROMPT' },
   { selector: '#trail', label: 'TRAIL' },
   { selector: '#result', label: 'RESULT' },
-  { selector: '#round > .actions', label: 'DROP PIN' },
   { selector: '#camp-rows', label: 'ROUNDS' },
   { selector: '.poster', label: 'SCORE' },
   { selector: '.camp-trail', label: 'TRAIL' },

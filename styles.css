@@ -328,7 +328,8 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .tm-water { fill: none; stroke: var(--sea); stroke-width: 2.6; stroke-linecap: round; }
 .tm-lake { fill: none; stroke: var(--ink-idle); stroke-width: 1; stroke-dasharray: 1.5 2; }
 .tm-route { fill: none; stroke: var(--ink-2); stroke-width: 1.8; stroke-dasharray: 3.5 3; }
-.tm-walked { fill: none; stroke: var(--route); stroke-width: 3; stroke-linecap: round; }
+.tm-walked { display: none; fill: none; stroke: var(--route); stroke-width: 3; stroke-linecap: round; }
+.tm-walked--lit { display: inline; }
 .tm-stop { fill: var(--sheet-2); stroke: var(--ink); stroke-width: 1.2; }
 .tm-stop--reached { fill: var(--route); }
 .tm-cover { fill: var(--sheet-2); stroke: var(--ink); stroke-width: 1.1; }
@@ -681,6 +682,8 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .poster[data-size="pop"] { display: grid; }
 [data-size][hidden] { display: none !important; }
 @media (max-width: 767px) { #round:has(#result[hidden]) > .trail[data-size] { display: none !important; } }
+/* On a phone the result card's own padding is set by #round > .result; keep the km figure clear of the button. */
+@media (max-width: 767px) { #round > .result[data-label] { padding-right: 44px; } }
 
 /* Thanks for playing (owner, 2026-10-28): once a day at camp. The pop-out look: grayed backdrop,
    highlighted box. */
@@ -694,8 +697,7 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 }
 .thanks-box:focus { outline: none; }
 .thanks-box:focus-visible { outline: 2px solid var(--ink); outline-offset: 4px; }
-.thanks-badge { display: block; width: 96px; height: 96px; margin: 0 auto 8px; object-fit: contain; }
-.thanks-badge[hidden] { display: none; }
+.thanks-badge { display: block; width: 104px; height: 104px; margin: 0 auto 8px; border-radius: 50%; box-shadow: 0 0 0 2px var(--ink-2); }
 .thanks-title { font-weight: 700; font-size: 22px; margin: 0 0 6px; }
 .thanks-body { margin: 0 0 16px; line-height: 1.45; color: var(--ink-2); }
 .thanks-btn { width: auto; height: 44px; margin: 0; padding: 2px 24px 0; font-size: 16px; }
