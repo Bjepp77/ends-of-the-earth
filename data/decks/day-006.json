@@ -1,0 +1,393 @@
+{
+ "day": 6,
+ "prompts": [
+  {
+   "id": "temples-pending-europe",
+   "bank": "draft",
+   "display_text": "Pin a European country with a temple announced or being built, but none dedicated yet.",
+   "text_original": "Pin a European country with a temple announced or under construction but none dedicated yet (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, temples were under construction in Vienna, Brussels and Budapest, and announced for Dublin, Oslo and a city in Russia not yet named. Each would be the first temple in its country.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AUT",
+    "BEL",
+    "HUN",
+    "IRL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Oslo, announced."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Announced, city not yet named."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Vienna, under construction."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Brussels, under construction."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Budapest, under construction."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Dublin, announced."
+    }
+   ]
+  },
+  {
+   "id": "temples-first-in-1980s",
+   "bank": "draft",
+   "display_text": "Pin a country or territory whose first temple was dedicated in the 1980s.",
+   "text_original": "Pin a country or territory whose first temple was dedicated in the 1980s.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1980-1989",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The 1980s were a big decade for temple building around the world. Many countries got their first temple, starting with Tokyo, Japan, in 1980 and including Freiberg, then in East Germany, in 1985. By 1986 temples also stood in Lima, Peru, and Buenos Aires, Argentina.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City, 1983."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sydney, 1984."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo, 1980."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manila, 1984."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires, 1986."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago, 1983."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg, then in East Germany, 1985."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City, 1984."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lima, 1986."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nuku'alofa, 1983."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia, 1983."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Seoul, 1985."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Stockholm, 1985."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Taipei, 1984."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Johannesburg, 1985."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Papeete, 1983."
+    }
+   ]
+  },
+  {
+   "id": "scripture-scripture-printed-by-1852",
+   "bank": "scripture",
+   "display_text": "Pin a country where the Book of Mormon or Pearl of Great Price was published by the end of 1852.",
+   "text_original": "A country where an edition of the Book of Mormon or the Pearl of Great Price was published by the end of 1852",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1830-1852",
+   "citation": "BYU RSC; Pearl of Great Price introduction",
+   "source_urls": [
+    "https://rsc.byu.edu/coming-forth-book-mormon/every-nation-kindred-tongue-people",
+    "https://www.churchofjesuschrist.org/study/scriptures/pgp/introduction?lang=eng",
+    "https://rsc.byu.edu/descriptive-bibliography-mormon-church-volume-2/entries-500-599",
+    "https://rsc.byu.edu/descriptive-bibliography-mormon-church-volume-2/entries-600-699",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Book of Mormon was first published in Palmyra, New York, in 1830. A Liverpool edition followed in 1841, and the first Pearl of Great Price was printed there in 1851. By the end of 1852 there were also Danish, French and German editions tied to Copenhagen, Paris and Hamburg.",
+   "stamp": null,
+   "gems": [
+    "DEU",
+    "FRA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Book of Mormon was first published in Palmyra, New York, in 1830."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Liverpool saw a Book of Mormon edition in 1841 and the first Pearl of Great Price in 1851."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The 1851 Danish Book of Mormon was produced in Copenhagen."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The 1852 German edition came out of the translation work in Hamburg."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The 1852 French edition came out of the Paris-based French Mission."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-14-mexico-city-conference",
+   "bank": "history2",
+   "display_text": "Pin Mexico, or a country that Saints names as sending Saints to the 1972 Mexico City conference.",
+   "text_original": "Saints vol. 4 ch. 14: Saints came to the 1972 Mexico City area conference from Mexico and as far away as these countries. Pin one, or Mexico.",
+   "accepts": "country",
+   "topic": "general conference",
+   "era": "1972",
+   "citation": "Saints vol. 4 ch. 14",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-2/14-different-now?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "On August 26, 1972, more than 16,000 Saints gathered in Mexico City for an area conference, many hearing General Authorities in person for the first time. Mexico then had more than 80,000 members, the most outside the United States. Members also came from Guatemala, Honduras, Costa Rica and Panama, some traveling about 3,000 miles and sacrificing to pay their way.",
+   "stamp": null,
+   "gems": [
+    "CRI",
+    "GTM",
+    "HND",
+    "PAN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Host country, then home to more than 80,000 Saints."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Named as sending Saints to the conference."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Named as sending Saints to the conference."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Named as sending Saints to the conference."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Named as sending Saints to the conference."
+    }
+   ]
+  },
+  {
+   "id": "bible-acts-9-11-preaching",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where the gospel was preached in Acts 9-11, before Paul's first mission.",
+   "text_original": "A present-day country where the gospel was preached in Acts 9-11, before Paul's first mission",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Acts 9; 11:19-26",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Before Paul's first mission, the gospel was already spreading beyond Jerusalem. Saul preached in the Damascus synagogues right after his conversion, Peter healed Aeneas at Lydda and raised Tabitha at Joppa, and believers scattered after Stephen's death preached in Phoenicia and Cyprus (Acts 11:19). At Antioch, in today's Turkey, the disciples were first called Christians (Acts 11:26).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Peter healed Aeneas at Lydda and raised Tabitha at Joppa, and many believed (Acts 9:32-42)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Men preached to Greeks at Antioch, modern Antakya, where disciples were first called Christians (Acts 11:20, 26)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Believers scattered after Stephen's death travelled as far as Cyprus (Acts 11:19)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Right after his conversion Saul preached Christ in the Damascus synagogues (Acts 9:20)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "They also preached in Phenice, the Phoenician coast, now Lebanon (Acts 11:19)."
+    }
+   ]
+  }
+ ]
+}

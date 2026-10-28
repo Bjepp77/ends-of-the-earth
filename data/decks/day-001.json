@@ -1,0 +1,461 @@
+{
+ "day": 1,
+ "prompts": [
+  {
+   "id": "history-temples-dedicated-2004-08",
+   "bank": "history2",
+   "display_text": "Pin a country where a new temple was dedicated from 2004 to 2008 (not rededications).",
+   "text_original": "A country where a new temple was dedicated from 2004 through 2008 (not counting rededications).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2004-2008",
+   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates) and the Church temple list, read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "From 2004 through 2008 new temples reached Africa, Europe and Central America. Africa gained Accra Ghana (2004) and Aba Nigeria (2005), and Europe gained Copenhagen Denmark (2004) and Helsinki Finland (2006). Panama City (2008) was Panama's first temple, and the United States added temples such as Manhattan New York and Rexburg Idaho.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Manhattan New York (2004); San Antonio Texas and Newport Beach California (2005); Sacramento California (2006); Rexburg Idaho and Twin Falls Idaho (2008)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Curitiba Brazil (2008)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Accra Ghana (2004)."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Copenhagen Denmark (2004)."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Aba Nigeria (2005)."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Panama City Panama (2008)."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Helsinki Finland (2006)."
+    }
+   ]
+  },
+  {
+   "id": "temples-first-1996-2009",
+   "bank": "draft",
+   "display_text": "Pin a country or territory whose first temple was dedicated from 1996 to 2009.",
+   "text_original": "Pin a country or territory whose first temple was dedicated between 1996 and 2009.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1996-2009",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Between 1996 and 2009 many countries got their first temple, including Hong Kong (1996), Spain (1999), Ghana (2004) and Nigeria (2005). The year 2000 alone brought first temples to Bolivia, Costa Rica, Fiji, Venezuela and the Dominican Republic.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Madrid, 1999."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Accra, 2004."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Aba, 2005."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bogota, 1999."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guayaquil, 1999."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hong Kong China temple, 1996."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cochabamba, 2000."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Jose, 2000."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Copenhagen, 2004."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santo Domingo, 2000."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Suva, 2000."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Hague, 2002."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Panama City, 2008."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Asuncion, 2002."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Montevideo, 2001."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Caracas, 2000."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Helsinki, 2006."
+    }
+   ]
+  },
+  {
+   "id": "saints-v3-36-mckay-europe-1952",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names on David O. McKay's 1952 European tour.",
+   "text_original": "Saints vol. 3 ch. 36: David O. McKay's six-week European tour in 1952 took in these countries. Pin one.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "1952",
+   "citation": "Saints vol. 3 ch. 36",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/36-carefully-and-prayerfully?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 1952 President David O. McKay made a six-week tour of Europe, visiting Great Britain, the Netherlands, Denmark, Sweden, Norway, Finland, Switzerland, France and Germany. In Switzerland he chose a site for the first temple in Europe, which was dedicated near Bern in 1955.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Listed as Great Britain."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Where he chose a site for Europe's first temple."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "One of the tour stops."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of the tour stops."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of the tour stops."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of the tour stops."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of the tour stops."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of the tour stops."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "One of the tour stops."
+    }
+   ]
+  },
+  {
+   "id": "membership-200k-500k",
+   "bank": "draft",
+   "display_text": "Pin a country with 200,000 to 500,000 Church members (end of 2025).",
+   "text_original": "Pin a country with between 200,000 and 500,000 Church members (end of 2025).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/guatemala",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/ecuador",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/bolivia",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/colombia",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/canada",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/honduras"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of 2025 six countries had between 200,000 and 500,000 Church members: Guatemala, Ecuador, Nigeria, Bolivia, Colombia and Canada. Nigeria, with about 274,000, had the most Latter-day Saints in Africa.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "COL",
+    "NGA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 212,000 members."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 279,000 members."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 297,000 members."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 236,000 members."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 223,000 members."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 274,000 members, the most in Africa."
+    }
+   ]
+  },
+  {
+   "id": "bible-prophet-oracles",
+   "bank": "bible",
+   "display_text": "Pin a present-day country holding a nation judged in Amos 1-2, Jeremiah 46-51 or Ezekiel 25-29.",
+   "text_original": "A present-day country holding a nation judged in the oracles of Amos 1-2, Jeremiah 46-51 or Ezekiel 25-29",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Amos 1-2; Jeremiah 46-51; Ezekiel 25-29",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/amos/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/amos/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/25?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/26?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/29?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/46?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/49?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/50?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Amos, Jeremiah and Ezekiel each delivered oracles, or prophetic messages, warning the nations around Israel of coming judgment. Egypt, Babylon, Damascus, Tyre, Sidon, Moab, Ammon, Edom and the Philistine cities all received warnings, and Amos did not spare Israel itself (Amos 2:6). Jeremiah gave two long chapters to Babylon's fall (Jeremiah 50-51), and Ezekiel gave three to Tyre and Sidon.",
+   "stamp": null,
+   "gems": [
+    "IRN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Jeremiah 46 opens with Egypt, and Ezekiel calls Pharaoh a great dragon in the river (Ezekiel 29:3)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Two long chapters foretell Babylon's fall (Jeremiah 50-51)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Amos judges Israel itself, and all three prophets judge Philistine cities now in Israel (Amos 1:8; 2:6; Jeremiah 47:5; Ezekiel 25:15-17)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ammon, Moab and Edom are judged by all three prophets (Amos 1-2; Jeremiah 48-49; Ezekiel 25)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Tyre is judged for selling captives, and Ezekiel gives three chapters to Tyre and Sidon (Amos 1:9; Ezekiel 26-28)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Damascus gets the first oracle in Amos and is told it will grow feeble (Amos 1:3; Jeremiah 49:23-27)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elam, in south-west Iran, is promised scattering (Jeremiah 49:34-39)."
+    }
+   ]
+  }
+ ]
+}

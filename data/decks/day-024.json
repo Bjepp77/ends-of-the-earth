@@ -1,0 +1,387 @@
+{
+ "day": 24,
+ "prompts": [
+  {
+   "id": "history-dedicator-soares",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that Ulisses Soares dedicated or rededicated.",
+   "text_original": "A country where Ulisses Soares dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Ulisses Soares dedicated Fortaleza Brazil and Arequipa Peru in 2019 and Feather River California in 2023. In 2025 he dedicated Bahía Blanca Argentina and Nairobi Kenya, the first temple in Kenya.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Feather River California (2023)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Fortaleza Brazil (2019)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bahía Blanca Argentina (2025)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Arequipa Peru (2019)."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nairobi Kenya (2025)."
+    }
+   ]
+  },
+  {
+   "id": "history-first-temple-nelson-era",
+   "bank": "history2",
+   "display_text": "Pin a country or territory whose first temple was dedicated while Russell M. Nelson was Church president.",
+   "text_original": "A country whose first temple was dedicated while Russell M. Nelson was Church president.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2018-2025",
+   "citation": "Church temple list (first dedication per country) and presidency dates",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Russell M. Nelson was President of the Church from 2018 to 2025, and many countries and territories received their first temple in that time. President Nelson dedicated Rome Italy in 2019, and first temples followed in Haiti, Portugal and the Democratic Republic of the Congo (2019), Guam and Cape Verde (2022), Puerto Rico and Thailand (2023), and Kenya and Côte d'Ivoire (2025).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CIV",
+    "CPV",
+    "GUM",
+    "HTI",
+    "KEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rome Italy, 2019."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lisbon Portugal, 2019."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kinshasa Democratic Republic of the Congo, 2019."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Juan Puerto Rico, 2023."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bangkok Thailand, 2023."
+    },
+    {
+     "code": "CIV",
+     "name": "Côte d'Ivoire",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Abidjan Ivory Coast, 2025."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde, 2022."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo Guam, 2022."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port-au-Prince Haiti, 2019."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nairobi Kenya, 2025."
+    }
+   ]
+  },
+  {
+   "id": "scripture-creole-languages",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory where Haitian, Papiamento, Bislama or Tok Pisin is official.",
+   "text_original": "A country or territory where a creole language with a Book of Mormon edition (Haitian, Papiamento, Bislama, Tok Pisin) is official",
+   "accepts": "country_or_territory",
+   "topic": "scripture geography",
+   "era": "1983-2004",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Papiamento"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Book of Mormon text exists in creole languages including Haitian Creole (full text 1999), Tok Pisin of Papua New Guinea (2002), Bislama of Vanuatu (2004) and Papiamento (selections 1987). Papiamento is spoken in Aruba, Curacao and Bonaire.",
+   "stamp": null,
+   "gems": [
+    "BES"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Haitian Creole selections came in 1983 and the full text in 1999."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Tok Pisin Book of Mormon appeared in 2002."
+    },
+    {
+     "code": "ABW",
+     "name": "Aruba",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Papiamento, given selections in 1987, is official in Aruba."
+    },
+    {
+     "code": "CUW",
+     "name": "Curacao",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Papiamento selections appeared in 1987."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bislama selections came in 1985 and the full text in 2004."
+    },
+    {
+     "code": "BES",
+     "name": "Caribbean Netherlands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Papiamento, given selections in 1987, kept its official status in the Caribbean Netherlands, which includes Bonaire, in 2010."
+    }
+   ]
+  },
+  {
+   "id": "bible-isaiah-13-23",
+   "bank": "bible",
+   "display_text": "Pin a present-day country holding a place named in Isaiah's oracles against the nations (Isaiah 13-23).",
+   "text_original": "A present-day country holding a place named in Isaiah's oracles against the nations (Isaiah 13-23)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Isaiah 13-23",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/23?lang=eng",
+    "https://en.wikipedia.org/wiki/Tayma",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "In Isaiah 13 to 23, the prophet delivers burdens, or warnings, against the nations around Judah. They open with Babylon's fall and include Egypt, Damascus, Moab, Tyre and Sidon, and the Arabian oasis of Tema. Isaiah also names Elam and Media, and Cush, the Nile land south of Egypt (Isaiah 20:3-5).",
+   "stamp": null,
+   "gems": [
+    "SAU",
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Babylon's fall opens the oracles (Isaiah 13)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Isaiah 19 is the burden of Egypt."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Assyria took Ashdod, a Philistine city now in Israel (Isaiah 20:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Moab gets two chapters (Isaiah 15-16)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Isaiah 23 laments Tyre and Sidon."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Damascus will become a ruinous heap (Isaiah 17:1)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elam and Media are called to attack Babylon (Isaiah 21:2)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tema, the oasis of Tayma, is told to bring water (Isaiah 21:14)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Isaiah 20:3-5 names Ethiopia (Cush), the Nile land from Syene to near Khartoum."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-26-eastern-europe-1991",
+   "bank": "draft",
+   "display_text": "Pin a formerly communist country that Saints names as newly open to missionaries about 1991.",
+   "text_original": "Saints vol. 4 ch. 26: around 1991, missionaries were newly permitted in these formerly communist countries. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1989-1991",
+   "citation": "Saints vol. 4 ch. 26",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/26-i-want-to-serve?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As communist governments fell around 1989 to 1991, countries that had kept missionaries out began to let them in. Saints vol. 4 ch. 26 names Poland, Hungary, Bulgaria, Romania, Slovenia and Croatia among the newly opened countries.",
+   "stamp": null,
+   "gems": [
+    "HRV",
+    "SVN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Opened to missionaries as the Iron Curtain fell."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Part of the Yugoslav breakup era; named in the list."
+    },
+    {
+     "code": "SVN",
+     "name": "Slovenia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Part of the Yugoslav breakup era; named in the list."
+    }
+   ]
+  }
+ ]
+}

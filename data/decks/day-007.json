@@ -1,0 +1,416 @@
+{
+ "day": 7,
+ "prompts": [
+  {
+   "id": "history-dedicator-hinckley-asiapac",
+   "bank": "history2",
+   "display_text": "Pin a country or territory in Asia or the Pacific with a temple standing today that Gordon B. Hinckley dedicated or rededicated.",
+   "text_original": "Pin a country or territory in Asia or the Pacific where Gordon B. Hinckley dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1983-2008",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Gordon B. Hinckley dedicated many temples in Asia and the Pacific. In 1983 he dedicated Apia Samoa, Nuku'alofa Tonga and Papeete Tahiti, followed by Sydney, Manila and Taipei in 1984, Seoul in 1985 and Hong Kong in 1996. In 2000 he added Adelaide, Melbourne, Fukuoka Japan and Suva Fiji.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FJI",
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manila Philippines (1984)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sydney Australia (1984); Adelaide Australia (2000); Melbourne Australia (2000); and others."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Fukuoka Japan (2000)."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hong Kong China (1996)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Seoul Korea (1985)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Nuku'alofa Tonga (1983)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Taipei Taiwan (1984)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Apia Samoa (1983); Apia Samoa (rededicated 2005)."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Suva Fiji (2000)."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Papeete Tahiti (1983)."
+    }
+   ]
+  },
+  {
+   "id": "history-first-temple-monson-era",
+   "bank": "history2",
+   "display_text": "Pin a country whose first temple was dedicated while Thomas S. Monson was Church president.",
+   "text_original": "A country whose first temple was dedicated while Thomas S. Monson was Church president.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2008-2018",
+   "citation": "Church temple list (first dedication per country) and presidency dates",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Thomas S. Monson was President of the Church from 2008 to 2018. In those years Panama (2008), Ukraine (2010), El Salvador (2011), Honduras (2013) and France (2017) each received their first temple. President Monson dedicated Panama City and Kyiv himself, and Henry B. Eyring dedicated Paris.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PAN",
+    "UKR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paris France, 2017."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tegucigalpa Honduras, 2013."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Salvador El Salvador, 2011."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Panama City Panama, 2008."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kyiv Ukraine, 2010."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-29-top-five-membership",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as one of the five with the most Latter-day Saints in the mid-1990s.",
+   "text_original": "Saints vol. 4 ch. 29 (mid-1990s): these were the five countries with the most Latter-day Saints. Pin one.",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "mid-1990s",
+   "citation": "Saints vol. 4 ch. 29",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/29-one-great-family?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "In the mid-1990s the five countries with the most Latter-day Saints were the United States, Mexico, Brazil, Chile and the Philippines, in that order. The Philippines was fifth with about 360,000 members. Four of the top five were outside the United States.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CHL",
+    "PHL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Second largest."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Largest by far."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Third largest."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Fourth largest."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Fifth, with about 360,000 members."
+    }
+   ]
+  },
+  {
+   "id": "bible-foreign-queens",
+   "bank": "bible",
+   "display_text": "Pin a country that was home to a foreign queen named in the Bible (not Sheba).",
+   "text_original": "A present-day country home to a foreign queen named in the Bible (not Sheba)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Kings 11; 16; Esther 1-2; Daniel 5; Acts 8",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://en.wikipedia.org/wiki/Kandake",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Several queens from other nations appear in scripture. Jezebel, daughter of the king of the Sidonians, married King Ahab of Israel (1 Kings 16:31), and Vashti and Esther were queens at Shushan in Persia. In Babylon, Belshazzar's queen urged him to call for Daniel, and in Acts a treasurer of Candace, queen of the Ethiopians, was baptized by Philip (Acts 8:27-38).",
+   "stamp": null,
+   "gems": [
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Vashti and Esther were queens at Shushan (Esther 1-2)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Tahpenes was queen to the Pharaoh who sheltered Hadad (1 Kings 11:19)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jezebel was the daughter of the king of the Sidonians (1 Kings 16:31)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Belshazzar's queen advised calling Daniel in Babylon (Daniel 5:10)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Candace was a title of the queens of Kush at Meroe (Acts 8:27)."
+    }
+   ]
+  },
+  {
+   "id": "scripture-african-languages",
+   "bank": "scripture",
+   "display_text": "Pin a sub-Saharan African country where an African language with Book of Mormon text is official or widely spoken.",
+   "text_original": "A sub-Saharan African country where an African language with Book of Mormon text (Afrikaans, Swahili, Zulu, Shona, Twi, Yoruba...) is official or widely spoken",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1972-2007",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Republic_of_the_Congo",
+    "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+    "https://en.wikipedia.org/wiki/Languages_of_Rwanda",
+    "https://raw.githubusercontent.com/factbook/factbook.json/master/africa/wa.json"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Book of Mormon text now exists in many African languages, from Afrikaans (1972) to Yoruba (2007). Swahili, with a full edition in 2000, reaches Kenya, Tanzania, Uganda and beyond. Nigeria has Efik, Igbo and Yoruba, and Ghana has Fante and Twi.",
+   "stamp": null,
+   "gems": [
+    "BEN",
+    "NAM",
+    "RWA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Fante (full 2003) and Twi (2005) both have the Book of Mormon."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Efik (1983), Igbo (2000) and Yoruba (2007) all have Book of Mormon text."
+    },
+    {
+     "code": "COD",
+     "name": "DR Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lingala (full 2004) and Swahili are national languages there."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Swahili (full 2000) and Kisii (selections 1983) cover Kenya."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Afrikaans (1972), Zulu, Xhosa and Setswana all have Book of Mormon text."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Malagasy selections came in 1986 and the full text in 2000."
+    },
+    {
+     "code": "TZA",
+     "name": "Tanzania",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Swahili, with a full Book of Mormon in 2000, is Tanzania's national language."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Shona selections came in 1988 and the full text in 1999."
+    },
+    {
+     "code": "BWA",
+     "name": "Botswana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Setswana got the Book of Mormon in 2003."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lingala, with a full Book of Mormon in 2004, is a recognized national language there."
+    },
+    {
+     "code": "ETH",
+     "name": "Ethiopia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Amharic Book of Mormon appeared in 2000."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Swahili, with a full Book of Mormon in 2000, is an official language of Uganda."
+    },
+    {
+     "code": "BEN",
+     "name": "Benin",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yoruba, translated 2007, is spoken in southern Benin."
+    },
+    {
+     "code": "NAM",
+     "name": "Namibia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Afrikaans, translated 1972, is one of Namibia's recognized national languages."
+    },
+    {
+     "code": "RWA",
+     "name": "Rwanda",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Swahili, with a full Book of Mormon in 2000, became an official language of Rwanda in 2017."
+    }
+   ]
+  }
+ ]
+}

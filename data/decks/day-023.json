@@ -1,0 +1,526 @@
+{
+ "day": 23,
+ "prompts": [
+  {
+   "id": "history-temples-dedicated-2010-15",
+   "bank": "history2",
+   "display_text": "Pin a country where a new temple was dedicated from 2010 to 2015 (not rededications).",
+   "text_original": "A country where a new temple was dedicated from 2010 through 2015 (not counting rededications).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2010-2015",
+   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates) and the Church temple list, read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "From 2010 to 2015 first temples were dedicated in Ukraine (Kyiv, 2010), El Salvador (San Salvador, 2011) and Honduras (Tegucigalpa, 2013). Other new temples included Cebu City Philippines, Vancouver and Calgary in Canada, Manaus Brazil, and Tijuana Mexico, Córdoba Argentina and Trujillo Peru in 2015.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "UKR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Gila Valley Arizona (2010); Kansas City Missouri and Brigham City Utah (2012); Gilbert Arizona, Fort Lauderdale Florida and Phoenix Arizona (2014); Payson Utah and Indianapolis Indiana (2015)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manaus Brazil (2012)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Vancouver British Columbia (2010); Calgary Alberta (2012)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tijuana Mexico (2015)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Córdoba Argentina (2015)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Trujillo Peru (2015)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cebu City Philippines (2010)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Quetzaltenango Guatemala (2011)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tegucigalpa Honduras (2013)."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Salvador El Salvador (2011)."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kyiv Ukraine (2010)."
+    }
+   ]
+  },
+  {
+   "id": "history-dedicator-hinckley-latam",
+   "bank": "history2",
+   "display_text": "Pin a Latin American country with a temple standing today that Gordon B. Hinckley dedicated or rededicated.",
+   "text_original": "Pin a Latin American country where Gordon B. Hinckley dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1983-2008",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Gordon B. Hinckley dedicated temples throughout Latin America. He dedicated Mexico City and Santiago Chile in 1983, Guatemala City in 1984 and Lima Peru in 1986. Later came Bogotá and Guayaquil (1999), Cochabamba, Caracas, Santo Domingo, Recife and Porto Alegre (2000), Montevideo (2001) and Asunción (2002).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil (rededicated 2004); Recife Brazil (2000); Porto Alegre Brazil (2000); and others."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico City Mexico (1983); Colonia Juárez Chihuahua Mexico (1999); Ciudad Juárez Mexico (2000); and others."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago Chile (1983); Santiago Chile (rededicated 2006)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lima Peru (1986)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cochabamba Bolivia (2000)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bogotá Colombia (1999)."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santo Domingo Dominican Republic (2000)."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Guayaquil Ecuador (1999)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Guatemala City Guatemala (1984)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Montevideo Uruguay (2001)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Caracas Venezuela (2000)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Asunción Paraguay (2002)."
+    }
+   ]
+  },
+  {
+   "id": "scripture-red-sea-shore",
+   "bank": "scripture",
+   "display_text": "Pin a present-day country on the Red Sea, whose shore Lehi's family followed (1 Nephi 2:5).",
+   "text_original": "Lehi's family traveled 'by the borders near the shore of the Red Sea' (1 Nephi 2:5). Pin a country on the Red Sea",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "about 600 BC",
+   "citation": "1 Nephi 2:5",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/2?lang=eng",
+    "https://en.wikipedia.org/wiki/Red_Sea",
+    "https://en.wikipedia.org/wiki/Gulf_of_Aqaba",
+    "https://en.wikipedia.org/wiki/Port_Sudan",
+    "https://en.wikipedia.org/wiki/Bab-el-Mandeb",
+    "https://en.wikipedia.org/wiki/Eritrea"
+   ],
+   "difficulty": 1,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Warned in a dream that people sought his life, Lehi left his home and lands with his family about 600 BC and traveled near the shore of the Red Sea (1 Nephi 2:1-5). After three days they camped in a valley by a river he named Laman, which emptied into the Red Sea (1 Nephi 2:6-8).",
+   "stamp": null,
+   "gems": [
+    "DJI",
+    "ERI"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Egypt's eastern coast lies on the Red Sea and the Gulf of Suez."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Has a long Red Sea coast on the Arabian side."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Has a Red Sea coast around Port Sudan."
+    },
+    {
+     "code": "YEM",
+     "name": "Yemen",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Holds the southern Arabian shore of the Red Sea down to the Bab-el-Mandeb strait."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Touches the Red Sea at Eilat on the Gulf of Aqaba."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Touches the Red Sea at Aqaba on the Gulf of Aqaba."
+    },
+    {
+     "code": "DJI",
+     "name": "Djibouti",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Sits at the Red Sea's southern mouth, the Bab-el-Mandeb."
+    },
+    {
+     "code": "ERI",
+     "name": "Eritrea",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Has an extensive Red Sea coastline, including the Dahlak Archipelago."
+    }
+   ]
+  },
+  {
+   "id": "scripture-pacific-languages",
+   "bank": "scripture",
+   "display_text": "Pin a Pacific country or territory whose Indigenous language has Book of Mormon text.",
+   "text_original": "A Pacific country or territory whose Indigenous language has a Book of Mormon translation or selections",
+   "accepts": "country_or_territory",
+   "topic": "scripture geography",
+   "era": "1855-2015",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://rsc.byu.edu/coming-forth-book-mormon/every-nation-kindred-tongue-people"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Book of Mormon has a long history in Pacific languages. Hawaiian came first, in 1855, translated by George Q. Cannon, followed by Maori (1889), Samoan (1903), Tahitian (1904) and Tongan (1946). Later translations reached Fiji, Kiribati, the Marshall Islands, Micronesia and other islands.",
+   "stamp": null,
+   "gems": [
+    "GUM",
+    "MNP",
+    "NIU",
+    "PLW"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Maori got the Book of Mormon in 1889."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Tongan got the Book of Mormon in 1946."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Samoan got the Book of Mormon in 1903."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Fijian got the Book of Mormon in 1980."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Tahitian got the Book of Mormon in 1904."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hawaiian, translated by George Q. Cannon, appeared in 1855."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Samoan, translated 1903, is the territory's own language."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Rarotongan got the Book of Mormon in 1965."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Pohnpeian, Chuukese, Yapese and Kosraean all have Book of Mormon text."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kiribati selections came in 1988 and the full text in 2001."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Marshallese selections came in 1984 and the full text in 2003."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Chamorro selections appeared in 1989."
+    },
+    {
+     "code": "MNP",
+     "name": "Northern Mariana Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Chamorro, given selections in 1989, is Indigenous here too."
+    },
+    {
+     "code": "NIU",
+     "name": "Niue",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Niuean selections appeared in 1981."
+    },
+    {
+     "code": "PLW",
+     "name": "Palau",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Palauan selections appeared in 1988."
+    }
+   ]
+  },
+  {
+   "id": "bible-capitals",
+   "bank": "bible",
+   "display_text": "Pin a country with a Bible city that is or was a nation's or kingdom's capital (not Jerusalem).",
+   "text_original": "A present-day country holding a city named in the Bible that is or was the capital of a nation or kingdom (not Jerusalem)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 14; Joshua 11; 1 Samuel 27; 2 Samuel 12; 1 Kings 5; 2 Kings 16; Esther; Jonah; Jeremiah 46; Acts 17; Romans 1",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng",
+    "https://en.wikipedia.org/wiki/Amman",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/27?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Many Bible stories take place in royal cities. Nineveh and Babylon were capitals in today's Iraq, Shushan in Iran was a Persian royal seat in the book of Esther, and Damascus was the capital of Aram and is the capital of Syria today. Tyre was the seat of King Hiram, who supplied cedar for Solomon's temple, and Rabbah of the Ammonites is modern Amman in Jordan.",
+   "stamp": null,
+   "gems": [
+    "JOR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Nineveh of Assyria and Babylon were both capitals in Iraq."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Rome is the destination of Acts and of Paul's letter."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Noph (Memphis) and No (Thebes) were Egyptian capitals (Jeremiah 46)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul preached at the Areopagus in Athens (Acts 17)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Damascus, capital of Aram and of Syria today, appears from Genesis to Acts."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Shushan (Susa) was a Persian royal seat in Esther."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hazor was the head of the northern kingdoms (Joshua 11:10), Achish was king of Gath (1 Samuel 27:2), and Ashdod was a Philistine seat."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tyre was the seat of King Hiram (1 Kings 5)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Rabbah of the Ammonites is modern Amman (2 Samuel 12:26)."
+    }
+   ]
+  }
+ ]
+}

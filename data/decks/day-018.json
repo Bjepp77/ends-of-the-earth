@@ -1,0 +1,377 @@
+{
+ "day": 18,
+ "prompts": [
+  {
+   "id": "history-temples-dedicated-2022-23",
+   "bank": "history2",
+   "display_text": "Pin a country or territory where a new temple was dedicated in 2022 or 2023 (not rededications).",
+   "text_original": "A country or territory where a new temple was dedicated in 2022 or 2023 (not counting rededications).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2022-2023",
+   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates) and the Church temple list, read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 2022 and 2023 temples reached several lands for the first time. Yigo Guam and Praia Cape Verde (2022) and San Juan Puerto Rico and Bangkok Thailand (2023) were each the first in their lands. Brazil added Rio de Janeiro, Belém and Brasília, and Quito Ecuador and Okinawa Japan were also dedicated.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV",
+    "GUM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Moses Lake Washington, McAllen Texas, Bentonville Arkansas and 5 more (2023)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rio de Janeiro Brazil and Belém Brazil (2022); Brasília Brazil (2023)."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Okinawa Japan (2023)."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Quito Ecuador (2022)."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Juan Puerto Rico (2023)."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bangkok Thailand (2023)."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde (2022)."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo Guam (2022)."
+    }
+   ]
+  },
+  {
+   "id": "temples-pending-africa",
+   "bank": "draft",
+   "display_text": "Pin an African country with a temple announced or being built, but none dedicated yet.",
+   "text_original": "Pin an African country with a temple announced or under construction but none dedicated yet (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, several African countries were waiting for their first temple. Temples were under construction in Madagascar, the Republic of the Congo and Sierra Leone, and announced in Angola, Liberia, Mozambique and Uganda.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brazzaville, under construction."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Monrovia, announced."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Antananarivo, under construction."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Beira and Maputo, both announced."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Freetown, under construction."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kampala, announced."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Luanda, announced."
+    }
+   ]
+  },
+  {
+   "id": "scripture-west-central-asia-languages",
+   "bank": "scripture",
+   "display_text": "Pin a country where Turkish, Armenian, Persian, Georgian or Mongolian is official.",
+   "text_original": "A country where Turkish, Armenian, Persian, Georgian or Mongolian, each with a Book of Mormon edition, is official",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1906-2019",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Eastern_Armenian",
+    "https://en.wikipedia.org/wiki/Dari"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "A Turkish Book of Mormon appeared as early as 1906. Armenian followed in 1937 (Western) and 2000 (Eastern), Mongolian in 2001, the full Persian text in 2015 and Georgian in 2019. Persian also serves Afghanistan, where its Dari variety is an official language.",
+   "stamp": null,
+   "gems": [
+    "AFG",
+    "CYP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Western Armenian came in 1937 and Eastern Armenian, the standard spoken in Armenia, in 2000."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "A Turkish Book of Mormon appeared in 1906."
+    },
+    {
+     "code": "GEO",
+     "name": "Georgia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Georgian Book of Mormon appeared in 2019."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Persian selections came in 1983 and the full text in 2015."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Mongolian Book of Mormon appeared in 2001."
+    },
+    {
+     "code": "AFG",
+     "name": "Afghanistan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Dari, Afghanistan's variety of Persian (full Book of Mormon 2015), is an official language."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Turkish, translated 1906, is one of Cyprus's official languages."
+    }
+   ]
+  },
+  {
+   "id": "membership-europe-40k",
+   "bank": "draft",
+   "display_text": "Pin a European country with 40,000+ Church members (end of 2025).",
+   "text_original": "Pin a European country with 40,000 or more Church members (end of 2025).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-kingdom",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/spain",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/portugal",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/germany",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/france",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/italy"
+   ],
+   "difficulty": 3,
+   "note": "Next below the line: Italy (about 30,000).",
+   "summary": "The United Kingdom had the most Church members in Europe at the end of 2025, about 190,000. Spain (about 72,000), Portugal (about 50,000), Germany (about 42,000) and France (about 40,500) followed.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 190,000 members."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 42,000 members."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 72,000 members."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 40,500 members, just over the line."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 50,000 members."
+    }
+   ]
+  },
+  {
+   "id": "saints-v3-26-evacuation-order-1939",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names in the August 1939 order moving missionaries out of Europe, as left or refuge.",
+   "text_original": "Saints vol. 3 ch. 26: on August 24, 1939, the First Presidency ordered missionaries out of five European missions and into the nearest neutral country. Pin a country named in that order, as a mission left or a refuge.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1939",
+   "citation": "Saints vol. 3 ch. 26; Saints vol. 3 ch. 15",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-3/26-wars-foul-brood?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/15-no-greater-reward?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "On August 24, 1939, as war threatened Europe, the First Presidency ordered missionaries out of the West German, East German, British, French and Czechoslovak Missions. They were sent to nearby neutral countries such as Denmark, Sweden, Norway and the Netherlands. Norman Seibold searched Germany for missing elders and brought the last of them to Copenhagen.",
+   "stamp": null,
+   "gems": [
+    "CZE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The West German and East German Missions were evacuated; Norman Seibold searched Germany for missing elders."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The British Mission was on the evacuation list."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Neutral refuge; Seibold brought the last German-mission elders to Copenhagen. In 1923 Reed Smoot had petitioned Denmark to readmit missionaries (ch. 15)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The French Mission was on the evacuation list."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Neutral refuge in 1939. In 1923 Reed Smoot had petitioned Sweden to readmit missionaries (ch. 15)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Neutral refuge, though it soon barred noncitizens from entering."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Neutral refuge in 1939. In 1923 Reed Smoot met the king of Norway to seek missionaries' return (ch. 15)."
+    },
+    {
+     "code": "CZE",
+     "name": "Czechia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Czechoslovak Mission was on the evacuation list."
+    }
+   ]
+  }
+ ]
+}

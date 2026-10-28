@@ -1,0 +1,412 @@
+{
+ "day": 13,
+ "prompts": [
+  {
+   "id": "temples-dedicated-2000",
+   "bank": "draft",
+   "display_text": "Pin a country where a temple was dedicated in 2000, the record year of 34 dedications.",
+   "text_original": "Pin a country where at least one temple was dedicated in 2000, the record year of 34 dedications.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2000",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": "Counts only temples still listed as operating or in renovation; none from 2000 appear to have closed.",
+   "summary": "The year 2000 set the record for temple dedications, with 34. Fifteen were in the United States and eight in Mexico, and five countries got their first temple: Bolivia, the Dominican Republic, Venezuela, Costa Rica and Fiji.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FJI"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "8 dedications that year."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "15 dedications that year."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 dedications that year."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 dedications that year."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedication that year."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cochabamba, the country's first."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Jose, the country's first."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santo Domingo, the country's first."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 dedication that year."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Caracas, the country's first."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Suva, the country's first."
+    }
+   ]
+  },
+  {
+   "id": "history-temples-construction-europe",
+   "bank": "history2",
+   "display_text": "Pin a European country with a temple under construction, not yet dedicated.",
+   "text_original": "Pin a European country with a temple under construction but not yet dedicated (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "Church temple list and ChurchofJesusChristTemples.org (temples under construction), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, several European temples are under construction but not yet dedicated, including Birmingham England, Budapest Hungary, Vienna Austria, Brussels Belgium and Barcelona Spain. They will join older European temples such as Bern Switzerland (1955) and London England (1958).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "HUN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Birmingham England (under construction)."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barcelona Spain (under construction)."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Vienna Austria (under construction)."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brussels Belgium (under construction)."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Budapest Hungary (under construction)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v2-09-12-missions-abroad-1849-1853",
+   "bank": "draft",
+   "display_text": "Pin a country or territory where Saints places missionaries in the first big push abroad, 1849 to 1853.",
+   "text_original": "Saints vol. 2 chs. 9 and 12 follow the Church's first big push of missionaries abroad, 1849 to 1853. Pin a country or territory where these chapters place missionaries at work.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1849-1853",
+   "citation": "Saints vol. 2 ch. 9; Saints vol. 2 ch. 12",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v2/part-1/09-as-the-spirit-dictates?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/saints-v2/part-2/12-their-faces-are-zionward?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Starting in 1849, Church leaders sent apostles and missionaries far abroad. Franklin D. Richards led the work in Great Britain, Erastus Snow went to Denmark, John Taylor to France and Lorenzo Snow to Italy. By 1853 missionaries had reached Cape Town and Tubuai in the South Pacific, and the Deseret News printed letters from Sweden, Australia and India.",
+   "stamp": null,
+   "gems": [
+    "IND",
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Apostle Franklin D. Richards was sent to lead the work in Great Britain in 1849."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Erastus Snow went in 1849 with Danish Saint Peter Hansen, who reached Copenhagen in May 1850."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apostle John Taylor was sent to France in 1849."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lorenzo Snow went in 1849 with Italian Saint Joseph Toronto; the Deseret News later printed letters from there."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Deseret News printed missionary letters from Sweden."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Deseret News printed missionary letters from Australia."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "William Walker and fellow missionaries reached Cape Town in April 1853 and organized two branches."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Deseret News printed missionary letters from India."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Louisa Pratt and other Saints sailed to Tubuai for the South Pacific mission."
+    }
+   ]
+  },
+  {
+   "id": "saints-v2-15-liverpool-emigrants",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as home to a company of about 500 Saints sailing from Liverpool in the 1850s.",
+   "text_original": "Saints vol. 2 ch. 15: a company of about 500 Saints that sailed from Liverpool in the 1850s came from these places. Pin one.",
+   "accepts": "country",
+   "topic": "emigration",
+   "era": "1850s",
+   "citation": "Saints vol. 2 ch. 15",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v2/part-2/15-in-storms-and-in-calms?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Saints says East India; mapped to India.",
+   "summary": "In the 1850s a company of about 500 Saints sailed from Liverpool, England. Most came from Britain, but the group also included converts from Switzerland, Denmark, South Africa and East India, a sign of how far the gospel had already spread.",
+   "stamp": null,
+   "gems": [
+    "IND"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Most emigrants then came from Britain."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Danish converts sailed with them."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Swiss converts sailed with them."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "South African emigrants were in the company."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Listed as East India."
+    }
+   ]
+  },
+  {
+   "id": "bible-mountains",
+   "bank": "bible",
+   "display_text": "Pin a present-day country holding a Bible mountain whose site is agreed, or part of the land of Ararat.",
+   "text_original": "A present-day country holding a Bible mountain whose site is agreed, or part of the land of Ararat where the ark rested (Genesis 8:4)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 8:4; Deuteronomy 3; 34; 1 Kings 18",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng",
+    "https://en.wikipedia.org/wiki/Mount_Hermon",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8?lang=eng",
+    "https://en.wikipedia.org/wiki/Urartu",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ararat?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Several Bible mountains can still be located today. Elijah challenged the prophets of Baal on Mount Carmel in Israel, and Moses viewed the promised land from Mount Nebo in Jordan before he died. Noah's ark rested on the mountains of Ararat (Genesis 8:4), the land of the ancient kingdom of Urartu, which at its height spread across parts of Turkey, Armenia, Iran and nearby countries.",
+   "stamp": null,
+   "gems": [
+    "AZE",
+    "GEO",
+    "IRQ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mount Carmel and Mount Tabor are in Israel."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mount Ararat and the Urartian capital at Van are in eastern Turkey."
+    },
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Yerevan grew from the Urartian fortress of Erebuni."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mount Nebo, where Moses viewed the promised land, is in Jordan."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Urartu reached into north-west Iran around Lake Urmia."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Mount Hermon's summit ridge lies along Lebanon's border."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Mount Hermon's summit ridge is shared with Syria."
+    },
+    {
+     "code": "AZE",
+     "name": "Azerbaijan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "At its peak Urartu took in Nakhchivan."
+    },
+    {
+     "code": "GEO",
+     "name": "Georgia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "At its widest Urartu reached southern Georgia."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Urartian lands touched the far north of Iraq."
+    }
+   ]
+  }
+ ]
+}

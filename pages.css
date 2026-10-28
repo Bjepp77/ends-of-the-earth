@@ -1,0 +1,112 @@
+/* Content pages (spec 27, tokens from spec 28). Shared by how-to-play, about, blog, rulings, changelog. */
+/* Hallmark theme: Furrow (MIT), adapted by hand; same tokens as styles.css. See RESKIN.md. */
+@font-face { font-family: "National Park"; src: url("fonts/NationalPark-Bold.ttf") format("truetype"); font-weight: 600 700; font-display: swap; }
+@font-face { font-family: "Instrument Sans"; src: url("fonts/InstrumentSans-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Instrument Sans"; src: url("fonts/InstrumentSans-Bold.ttf") format("truetype"); font-weight: 600 700; font-display: swap; }
+@font-face { font-family: "Red Hat Mono"; src: url("fonts/RedHatMono-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+
+:root {
+  --sheet: #E9E6E0; /* Neutral 10 */
+  --sheet-2: #EFEFE7; /* Neutral 5 */
+  --paper-3: #E9E3D9; /* Neutral 15 */
+  --ink: #000000; /* Black */
+  --ink-2: #53575B; /* Gray 40 */
+  --pencil: #C8C0AB; /* Neutral 25 */
+  --accent: #974A07; /* Yellow 35 */
+  --accent-fill: #E66A1F; /* Yellow 25, black text only */
+  --focus: #974A07; /* Yellow 35: Yellow 30 is 2.27:1 on the sea */
+  --font-display: "National Park", "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-text: "Instrument Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-figure: "Red Hat Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --edge: 12px;
+  --radius-card: 10px;
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.08), 0 14px 28px -16px rgb(0 0 0 / 0.28);
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+html, body { overflow-x: clip; }
+body {
+  margin: 0;
+  background: var(--sheet);
+  color: var(--ink);
+  font-family: var(--font-text);
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+a:hover { text-decoration-color: var(--accent-fill); text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+.site-head {
+  border-bottom: 1px solid var(--ink);
+  padding: 14px max(var(--edge), env(safe-area-inset-left));
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 20px;
+}
+.wordmark {
+  font-family: var(--font-display); font-size: 22px;
+  color: var(--ink); text-decoration: none; white-space: nowrap;
+}
+.site-nav { display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.site-nav a {
+  font-family: var(--font-text); font-size: 16px; font-weight: 600;
+  color: var(--ink-2); text-decoration: none;
+}
+.site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--accent); text-decoration: underline; }
+
+main { max-width: 640px; margin: 0 auto; padding: 36px var(--edge) 48px; }
+.eyebrow {
+  margin: 0 0 6px; color: var(--accent);
+  font-size: 15px; font-weight: 600;
+}
+h1 {
+  margin: 0 0 18px; font-family: var(--font-display); font-weight: 700;
+  font-size: 44px; line-height: 1.05; overflow-wrap: break-word; min-width: 0;
+}
+h2 {
+  margin: 36px 0 10px;
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 22px; line-height: 1.15; color: var(--ink);
+}
+.lede { font-size: 20px; }
+.fine { font-size: 15px; color: var(--ink-2); }
+
+.card {
+  background: var(--sheet-2);
+  border-radius: var(--radius-card);
+  box-shadow: 0 0 0 1px var(--ink), var(--shadow-card);
+  padding: 16px 20px; margin: 18px 0;
+}
+.card ol { margin: 0; padding-left: 22px; }
+.card li + li { margin-top: 6px; }
+
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 17px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--pencil); vertical-align: top; }
+th { font-family: var(--font-text); font-weight: 600; font-size: 15px; color: var(--ink-2); }
+td.num { text-align: right; white-space: nowrap; font-family: var(--font-figure); font-size: 15px; }
+
+kbd {
+  font-family: var(--font-figure); font-size: 15px; border-radius: 4px;
+  border: 1px solid var(--pencil); padding: 0 5px; background: var(--sheet-2);
+}
+
+.timeline { list-style: none; margin: 18px 0; padding: 0; }
+.timeline li { display: grid; grid-template-columns: 120px 1fr; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--pencil); }
+.timeline time { color: var(--accent); font-family: var(--font-figure); font-size: 14px; }
+.timeline b { display: block; }
+.timeline p { margin: 2px 0 0; }
+
+.empty { border-radius: var(--radius-card); border: 1px dashed var(--ink-2); padding: 14px 18px; color: var(--ink-2); }
+
+.site-foot {
+  border-top: 1px solid var(--pencil);
+  max-width: 640px; margin: 0 auto; padding: 16px var(--edge) 32px;
+  font-size: 15px; color: var(--ink-2);
+}
+.site-foot p { margin: 4px 0; }
+
+@media (max-width: 520px) {
+  h1 { font-size: 36px; }
+  .timeline li { grid-template-columns: 1fr; gap: 2px; }
+}

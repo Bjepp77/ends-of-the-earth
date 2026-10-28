@@ -1,0 +1,394 @@
+{
+ "day": 21,
+ "prompts": [
+  {
+   "id": "history-temples-dedicated-1999",
+   "bank": "history2",
+   "display_text": "Pin a country where a temple was dedicated in 1999.",
+   "text_original": "A country where a temple was dedicated in 1999.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1999",
+   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "1999 saw new temples dedicated across North and South America and Europe. They included Billings Montana, Columbia South Carolina and Anchorage Alaska, Edmonton, Halifax and Regina in Canada, Colonia Juárez in Mexico, Madrid Spain, Bogotá Colombia and Guayaquil Ecuador. Gordon B. Hinckley dedicated Madrid, Bogotá, Guayaquil and Colonia Juárez.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COL",
+    "ECU",
+    "ESP"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Billings Montana, Columbia South Carolina, Anchorage Alaska and 5 more dedicated in 1999."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Colonia Juárez Chihuahua Mexico dedicated in 1999."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Edmonton Alberta, Halifax Nova Scotia, Regina Saskatchewan dedicated in 1999."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bogotá Colombia dedicated in 1999."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Guayaquil Ecuador dedicated in 1999."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Madrid Spain dedicated in 1999."
+    }
+   ]
+  },
+  {
+   "id": "temples-pending-asia-pacific",
+   "bank": "draft",
+   "display_text": "Pin an Asian or Pacific country or territory with a temple announced or being built, but none dedicated yet.",
+   "text_original": "Pin an Asian or Pacific country or territory with a temple announced or under construction but none dedicated yet (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "As of October 2026, many Asian and Pacific places were waiting for their first temple. Temples were under construction in Bengaluru, Singapore, Kiribati, Papua New Guinea and Vanuatu, and announced for Shanghai, Jakarta, Ulaanbaatar, Dubai and Noumea. Pago Pago in American Samoa was listed as opening soon.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KIR",
+    "NCL",
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bengaluru, under construction."
+    },
+    {
+     "code": "ARE",
+     "name": "United Arab Emirates",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Dubai, announced."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jakarta, announced."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ulaanbaatar, announced."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Port Moresby, under construction."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Singapore, under construction."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tarawa, under construction."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Noumea, announced."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Vila, under construction."
+    }
+   ]
+  },
+  {
+   "id": "bible-kings-and-exiles",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where a king of Israel or Judah died, or where their people were carried or fled into exile.",
+   "text_original": "A present-day country where a king of Israel or Judah died, or where their people were carried or fled into exile",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Samuel 31; 1 Kings 22; 2 Kings 17; 23; 25; Jeremiah 43",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/31?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng",
+    "https://en.wikipedia.org/wiki/Tell_Halaf"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "The Old Testament tells how Israel and Judah lost their kingdoms. Assyria carried Israelites to the river Gozan and the cities of the Medes (2 Kings 17:6), and later Babylon carried Judah's people to Babylon, where King Jehoiachin lived out his days. Some kings died in battle, like Saul on Gilboa and Ahab at Ramoth-gilead, and Jehoahaz was taken to Egypt and died there.",
+   "stamp": null,
+   "gems": [
+    "SYR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Judah's people were carried to Babylon, where Jehoiachin lived out his days (2 Kings 25)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jehoahaz was taken to Egypt and died there; later survivors fled to Tahpanhes (2 Kings 23:34; Jeremiah 43:7)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Saul died on Gilboa; Ahaziah and Josiah died at Megiddo."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Assyria placed Israelites in the cities of the Medes (2 Kings 17:6)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ahab was mortally hit in battle at Ramoth-gilead (1 Kings 22)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Exiles went to the river Gozan, now Tell Halaf in Syria (2 Kings 17:6)."
+    }
+   ]
+  },
+  {
+   "id": "bible-miracle-places",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where a prophet or apostle worked a miracle, in Kings or Acts.",
+   "text_original": "A present-day country where a prophet or apostle worked a miracle, in Kings or Acts",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "1 Kings 17; Acts 9; 13-14; 16; 20; 28",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "The Bible records miracles by prophets and apostles in many lands. Elijah raised a widow's son at Zarephath (1 Kings 17:22), and Peter healed Aeneas at Lydda and raised Tabitha at Joppa. Paul healed a lame man at Lystra, raised Eutychus at Troas, struck the sorcerer Elymas blind on Cyprus, cast out a spirit at Philippi, and healed the father of Publius on Malta (Acts 28:8).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Peter healed Aeneas at Lydda and raised Tabitha at Joppa (Acts 9:34, 40)."
+    },
+    {
+     "code": "MLT",
+     "name": "Malta",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul healed the father of Publius on Malta (Acts 28:8)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul healed a lame man at Lystra and raised Eutychus at Troas (Acts 14:8-10; 20:9-12)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul cast a spirit out of a slave girl at Philippi (Acts 16:18)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Paul struck the sorcerer Elymas blind at Paphos (Acts 13:11)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elijah raised the widow's son at Zarephath (1 Kings 17:22)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-34-relief-before-2004",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as getting Church disaster or refugee relief before 2004.",
+   "text_original": "Saints vol. 4 ch. 34 lists places the Church sent disaster or refugee relief in the years before 2004. Pin one.",
+   "accepts": "country",
+   "topic": "humanitarian aid",
+   "era": "1998-2003",
+   "citation": "Saints vol. 4 ch. 34",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/34-strength-for-any-situation?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Kosovo uses the user-assigned code XKX, which is not an official ISO 3166 code.",
+   "summary": "In the years before 2004, the Church sent help to people hurt by war and natural disasters around the world. Refugees from wars in Kosovo, Sierra Leone and Afghanistan received aid, as did flood victims in Venezuela and Mozambique and earthquake survivors in El Salvador, Turkey, Colombia and Taiwan.",
+   "stamp": null,
+   "gems": [
+    "MOZ",
+    "SLE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Earthquake survivors received aid."
+    },
+    {
+     "code": "AFG",
+     "name": "Afghanistan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "War refugees received aid."
+    },
+    {
+     "code": "XKX",
+     "name": "Kosovo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Refugees from the 1999 war received aid."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Earthquake survivors received aid."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Earthquake survivors received aid."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Earthquake survivors received aid."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Flood victims received aid."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Flood victims received aid."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Civil war refugees received aid."
+    }
+   ]
+  }
+ ]
+}

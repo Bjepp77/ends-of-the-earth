@@ -1,0 +1,361 @@
+{
+ "day": 2,
+ "prompts": [
+  {
+   "id": "history-dedicator-monson",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that Thomas S. Monson dedicated or rededicated.",
+   "text_original": "A country where Thomas S. Monson dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Thomas S. Monson, President of the Church from 2008 to 2018, dedicated temples around the world. They include Buenos Aires Argentina (1986), Panama City Panama and Curitiba Brazil (2008), Kyiv Ukraine and Cebu City Philippines (2010), and Calgary Alberta (2012). He also rededicated older temples such as Mexico City (2008) and Laie Hawaii (2010).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PAN",
+    "UKR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Laie Hawaii (rededicated 2010); Ogden Utah (rededicated 2014); Atlanta Georgia (rededicated 2011); and others."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Curitiba Brazil (2008)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico City Mexico (rededicated 2008); Tampico Mexico (2000); Villahermosa Mexico (2000); and others."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (1986)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Vancouver British Columbia (2010); Calgary Alberta (2012)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cebu City Philippines (2010)."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Panama City Panama (2008)."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kyiv Ukraine (2010)."
+    }
+   ]
+  },
+  {
+   "id": "temples-asia-dedicated",
+   "bank": "draft",
+   "display_text": "Pin an Asian country or territory with a dedicated temple.",
+   "text_original": "Pin an Asian country or territory with at least one dedicated temple (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1980-2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Asia's first temple was dedicated in Tokyo, Japan, in 1980. Manila, Taipei and Seoul followed by 1985, and Hong Kong in 1996. After a long gap, Bangkok, Thailand (2023) and Phnom Penh, Cambodia (2026) got their first temples.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KHM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Tokyo, 1980, Asia's first."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manila, 1984."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hong Kong China temple, 1996."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Seoul, 1985."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taipei, 1984."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bangkok, 2023."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Phnom Penh, 2026."
+    }
+   ]
+  },
+  {
+   "id": "bible-israel-enemies",
+   "bank": "bible",
+   "display_text": "Pin a present-day country holding the homeland of a nation Israel fought in the Old Testament.",
+   "text_original": "A present-day country holding the homeland of a nation Israel fought in the Old Testament",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Judges; Samuel; Kings",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
+    "https://en.wikipedia.org/wiki/Midian"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Ancient Israel was surrounded by rival nations, and the Old Testament records wars with many of them. The Philistines held coastal cities now in Israel, Moab, Ammon and Edom lay east of the Jordan, Gideon fought the Midianites, and Aramean kings ruled from Damascus. In the end the great empires of Assyria and Babylon, based in today's Iraq, conquered Israel and Judah.",
+   "stamp": null,
+   "gems": [
+    "SAU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pharaoh Shishak attacked Judah (1 Kings 14:25)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Assyria and Babylon, centred in Iraq, conquered Israel and Judah."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Philistine cities such as Ashdod, Ashkelon and Gath lie in Israel."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Moab, Ammon and Edom all lay east of the Jordan."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Aramean kings of Damascus fought Israel for generations (1 Kings 20)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Gideon fought the Midianites, whose homeland was in north-west Arabia (Judges 7)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v3-33-mexican-mission-1947",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as added to the Mexican Mission in the 1940s.",
+   "text_original": "Saints vol. 3 ch. 33: in the 1940s the Mexican Mission's boundaries were enlarged to take in these countries. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1946-1947",
+   "citation": "Saints vol. 3 ch. 33",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/33-our-fathers-hand?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "The prompt is about the mission's boundaries. Saints vol. 4 ch. 4 dates some missionary arrivals later.",
+   "summary": "In the 1940s the Church enlarged the Mexican Mission so that it also covered Guatemala, Costa Rica, El Salvador, Honduras, Nicaragua and Panama. Soon after the change, the first missionaries arrived in Guatemala City. Missionaries reached some of the other countries later.",
+   "stamp": null,
+   "gems": [
+    "CRI",
+    "HND",
+    "NIC",
+    "PAN",
+    "SLV"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First missionaries arrived in Guatemala City soon after the change."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Added to the mission's boundaries."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Added to the mission's boundaries."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Added to the mission's boundaries."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Added to the mission's boundaries."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Added to the mission's boundaries."
+    }
+   ]
+  },
+  {
+   "id": "bible-jesus-regions",
+   "bank": "bible",
+   "display_text": "Pin a present-day country holding a region Jesus entered, or that sent crowds to him, in the Gospels.",
+   "text_original": "A present-day country holding a region Jesus entered, or one that crowds came from to see him, in the Gospels",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Matthew 2; Mark 3:7-8; 5:20; 7:24-31; 10:1",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/5?lang=eng",
+    "https://en.wikipedia.org/wiki/Decapolis"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Jesus centered his ministry around Nazareth and Capernaum in Galilee, in today's Israel. As a young child he was taken into Egypt when Joseph and Mary fled there (Matthew 2:14). Later he went into the region of Tyre and Sidon in Lebanon and through the Decapolis, a group of cities now in Jordan and Syria, and crowds came from those lands to hear him (Mark 3:7-8; 7:24-31).",
+   "stamp": null,
+   "gems": [
+    "LBN",
+    "SYR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Nazareth and Capernaum, centres of his ministry, are in Israel; crowds came from Galilee and Idumea (Mark 3:7-8)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Joseph and Mary fled with the child Jesus into Egypt (Matthew 2:14)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He taught beyond the Jordan, and Gerasa, Gadara and Philadelphia (Amman) were Decapolis cities (Mark 3:8; 10:1)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Jesus went into the region of Tyre and Sidon, and crowds came from there to see him (Mark 3:8; 7:24)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Jesus passed through the Decapolis (Mark 7:31); Canatha, Dion and Raphana on Pliny's list of its cities are in Syria."
+    }
+   ]
+  }
+ ]
+}

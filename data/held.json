@@ -1,0 +1,1930 @@
+{
+ "count": 31,
+ "held": [
+  {
+   "id": "bible-euphrates",
+   "bank": "bible",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "bible-euphrates",
+    "bank": "bible",
+    "display_text": "",
+    "text_original": "A present-day country the Euphrates flows through",
+    "accepts": "country",
+    "topic": "Bible",
+    "era": "Old Testament",
+    "citation": "Genesis 15:18; Revelation 9:14",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng",
+     "https://en.wikipedia.org/wiki/Euphrates"
+    ],
+    "difficulty": 1,
+    "note": null,
+    "summary": "The Euphrates is one of the great rivers of the Bible. When the Lord made a covenant with Abram, He named the Euphrates as a boundary of the land given to his seed (Genesis 15:18). The river rises in eastern Turkey, crosses Syria past ancient Carchemish and Mari, and flows through Iraq past Babylon and Ur.",
+    "stamp": null,
+    "gems": [
+     "SYR",
+     "TUR"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "IRQ",
+      "name": "Iraq",
+      "commonness": 5,
+      "gem": false,
+      "fact": "The Euphrates passes ancient Babylon and Ur in Iraq."
+     },
+     {
+      "code": "SYR",
+      "name": "Syria",
+      "commonness": 3,
+      "gem": true,
+      "fact": "The river crosses eastern Syria past Carchemish and Mari."
+     },
+     {
+      "code": "TUR",
+      "name": "Turkey",
+      "commonness": 3,
+      "gem": true,
+      "fact": "The Euphrates rises in the highlands of eastern Turkey."
+     }
+    ]
+   }
+  },
+  {
+   "id": "bible-king-inscriptions",
+   "bank": "bible",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "bible-king-inscriptions",
+    "bank": "bible",
+    "display_text": "",
+    "text_original": "A present-day country where an ancient inscription naming a king of Israel or Judah was found",
+    "accepts": "country",
+    "topic": "Bible",
+    "era": "Old Testament",
+    "citation": "Archaeology: Mesha Stele, Tel Dan, Kurkh, Black Obelisk",
+    "source_urls": [
+     "https://en.wikipedia.org/wiki/Mesha_Stele",
+     "https://en.wikipedia.org/wiki/Tel_Dan_stele",
+     "https://en.wikipedia.org/wiki/Kurkh_Monoliths",
+     "https://en.wikipedia.org/wiki/Black_Obelisk_of_Shalmaneser_III"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Archaeologists have found ancient stone monuments that name kings from the Bible. The Mesha Stele from Jordan names Omri of Israel, the Kurkh Monolith from Turkey names Ahab, and the Black Obelisk from Iraq shows Jehu, while Sennacherib's prisms name Hezekiah. The Tel Dan stele, found in Israel, mentions the House of David.",
+    "stamp": null,
+    "gems": [
+     "TUR"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 5,
+      "gem": false,
+      "fact": "The Tel Dan stele mentions the 'House of David'."
+     },
+     {
+      "code": "IRQ",
+      "name": "Iraq",
+      "commonness": 3,
+      "gem": false,
+      "fact": "The Black Obelisk from Nimrud shows Jehu, and Sennacherib's prisms name Hezekiah."
+     },
+     {
+      "code": "JOR",
+      "name": "Jordan",
+      "commonness": 2,
+      "gem": false,
+      "fact": "The Mesha Stele, found at Dhiban, names Omri of Israel."
+     },
+     {
+      "code": "TUR",
+      "name": "Turkey",
+      "commonness": 1,
+      "gem": true,
+      "fact": "The Kurkh Monolith, found near Diyarbakir, names Ahab."
+     }
+    ]
+   }
+  },
+  {
+   "id": "bible-philistine-phoenician",
+   "bank": "bible",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "bible-philistine-phoenician",
+    "bank": "bible",
+    "display_text": "",
+    "text_original": "A present-day country with a Philistine or Phoenician city named in the Old Testament",
+    "accepts": "country",
+    "topic": "Bible",
+    "era": "Old Testament",
+    "citation": "1 Samuel 5-6; 1 Kings 5; Ezekiel 27",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/6?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/5?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/27?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "The Philistines lived along the southern coast in cities like Ashdod, Ashkelon, Ekron and Gath, now in Israel, and they were often at war with Israel. To the north, the Phoenicians built cities such as Tyre, Sidon, Gebal (Byblos) and the island city of Arvad, today's Arwad off Syria (Ezekiel 27:8).",
+    "stamp": null,
+    "gems": [
+     "SYR"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Ashdod, Ashkelon, Ekron and Gath were Philistine cities now in Israel."
+     },
+     {
+      "code": "LBN",
+      "name": "Lebanon",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Tyre, Sidon and Gebal (Byblos) were Phoenician."
+     },
+     {
+      "code": "SYR",
+      "name": "Syria",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Arvad, Phoenician island-city Arwad, is off Syria (Ezekiel 27:8)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-area-conferences-1971-74",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "history-area-conferences-1971-74",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country that hosted one of the Church's first four area general conferences (1971 to 1974).",
+    "accepts": "country",
+    "topic": "general conference",
+    "era": "1971-1974",
+    "citation": "Ensign, Nov. 1974, \"Making Conferences Turning Points in Our Lives\"; Ensign, Dec. 1973, Stockholm announcement",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/ensign/1974/11/making-conferences-turning-points-in-our-lives?lang=eng",
+     "https://www.churchofjesuschrist.org/study/ensign/1973/12/news-of-the-church/stockholm-is-site-of-1974-area-general-conference?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "In the early 1970s the Church began holding area general conferences so Saints who could not travel to Salt Lake City could be taught by Church leaders close to home. The first was in Manchester, England, in 1971, followed by Mexico City (1972) and Munich (1973). The fourth, in Stockholm in August 1974, was for members in Sweden, Norway, Denmark and Finland.",
+    "stamp": null,
+    "gems": [
+     "SWE"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Manchester, England, 1971, the first area conference."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Mexico City, 1972."
+     },
+     {
+      "code": "DEU",
+      "name": "Germany",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Munich, 1973."
+     },
+     {
+      "code": "SWE",
+      "name": "Sweden",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Stockholm, August 1974, for Scandinavian and Finnish Saints."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-dedicator-bednar",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "history-dedicator-bednar",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where David A. Bednar dedicated or rededicated a temple now in use (as of October 2026).",
+    "accepts": "country_or_territory",
+    "topic": "temples",
+    "era": "1955-2026",
+    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://www.thechurchnews.com/temples/2026/01/18/alabang-philippines-temple-dedication-manila-elder-david-a-bednar/"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "David A. Bednar dedicated Port-au-Prince Haiti in 2019 and Yigo Guam in 2022, each the first temple in its country or territory. He has also dedicated Star Valley Wyoming (2016), Bentonville Arkansas (2023), Layton Utah (2024) and Alabang Philippines (2026).",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "GUM",
+     "HTI"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Star Valley Wyoming (2016); Bentonville Arkansas (2023); Layton Utah (2024); and others."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Alabang Philippines (2026)."
+     },
+     {
+      "code": "GUM",
+      "name": "Guam",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Yigo Guam (2022)."
+     },
+     {
+      "code": "HTI",
+      "name": "Haiti",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Port-au-Prince Haiti (2019)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-dedicator-kearon",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "history-dedicator-kearon",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where Patrick Kearon dedicated or rededicated a temple now in use (as of October 2026).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1955-2026",
+    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://www.thechurchnews.com/temples/2024/12/08/tallahassee-florida-temple-patrick-kearon-dedicates-we-can-be-found-here/"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Patrick Kearon has dedicated temples in three countries in recent years: Tallahassee Florida in 2024, Auckland New Zealand in 2025, and Phnom Penh Cambodia in 2026.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "KHM"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Tallahassee Florida (2024)."
+     },
+     {
+      "code": "NZL",
+      "name": "New Zealand",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Auckland New Zealand (2025)."
+     },
+     {
+      "code": "KHM",
+      "name": "Cambodia",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Phnom Penh Cambodia (2026)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-dedicator-oaks",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "history-dedicator-oaks",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where Dallin H. Oaks dedicated or rededicated a temple now in use (as of October 2026).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1955-2026",
+    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://www.thechurchnews.com/temples/2026/08/16/dallin-h-oaks-church-president-dedicates-belo-horizonte-brazil-temple/"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Dallin H. Oaks became President of the Church on October 14, 2025. Earlier he dedicated Provo City Center (2016), Barranquilla Colombia (2018) and Urdaneta Philippines (2024), and rededicated Oakland (2019) and Mesa (2021). On August 16, 2026, he dedicated Belo Horizonte, Brazil's 12th operating temple and his first temple dedication outside the United States as President.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "COL"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Mesa Arizona (rededicated 2021); Oakland California (rededicated 2019); Provo City Center (2016); and others."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Belo Horizonte Brazil (2026)."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Urdaneta Philippines (2024)."
+     },
+     {
+      "code": "COL",
+      "name": "Colombia",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Barranquilla Colombia (2018)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-dedicator-stevenson",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "history-dedicator-stevenson",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where Gary E. Stevenson dedicated or rededicated a temple now in use (as of October 2026).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1955-2026",
+    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://newsroom.churchofjesuschrist.org/article/elder-stevenson-dedicates-helena-montana-temple",
+     "https://www.thechurchnews.com/temples/2025/10/12/elder-gary-e-stevenson-elko-nevada-temple-dedication/",
+     "https://newsroom.churchofjesuschrist.org/article/rio-de-janeiro-brazil-temple-dedication-elder-stevenson"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Gary E. Stevenson dedicated Rio de Janeiro Brazil in 2022, then Okinawa Japan and Helena Montana in 2023. In 2025 he dedicated Antofagasta Chile and Elko Nevada.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "CHL",
+     "JPN"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Helena Montana (2023); Elko Nevada (2025)."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Rio de Janeiro Brazil (2022)."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Antofagasta Chile (2025)."
+     },
+     {
+      "code": "JPN",
+      "name": "Japan",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Okinawa Japan (2023)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "saints-v2-14-dorius-wagon-train",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "saints-v2-14-dorius-wagon-train",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "Saints vol. 2 ch. 14: Nicolai Dorius set out from Mormon Grove with a wagon train of Saints from these places. Pin one.",
+    "accepts": "country",
+    "topic": "emigration",
+    "era": "1850s",
+    "citation": "Saints vol. 2 ch. 14",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v2/part-2/14-hard-to-be-separated?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Nicolai Dorius was a Danish convert who emigrated to Utah in 1855. His wagon train of nearly 400 Saints from Denmark, Norway, England and Nova Scotia left Mormon Grove, a prairie camp about a thousand miles east of the Salt Lake Valley, on June 13, 1855. Two of his daughters died on the journey, and the company reached the valley in early September.",
+    "stamp": null,
+    "gems": [
+     "CAN",
+     "NOR"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "DNK",
+      "name": "Denmark",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Named; Dorius had left Copenhagen six months earlier."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Named as England."
+     },
+     {
+      "code": "CAN",
+      "name": "Canada",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Named as Nova Scotia."
+     },
+     {
+      "code": "NOR",
+      "name": "Norway",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Named as a home of the company."
+     }
+    ]
+   }
+  },
+  {
+   "id": "saints-v2-22-stenhouse-missions",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "saints-v2-22-stenhouse-missions",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "Saints vol. 2 ch. 22: before meeting Abraham Lincoln in 1863, T. B. H. Stenhouse had served missions in these countries as a young man. Pin one.",
+    "accepts": "country",
+    "topic": "missionary work",
+    "era": "1840s-1850s",
+    "citation": "Saints vol. 2 ch. 22",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v2/part-2/22-like-coals-of-living-fire?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "T. B. H. Stenhouse was an editor from Scotland who had served missions in England, Italy and Switzerland as a young man. On June 5, 1863, he met President Abraham Lincoln to learn whether Lincoln would let the Saints govern themselves. Lincoln compared the Saints to a log he chose to plow around and said he would leave Brigham Young alone if Brigham left him alone.",
+    "stamp": null,
+    "gems": [
+     "CHE",
+     "ITA"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Named as England."
+     },
+     {
+      "code": "CHE",
+      "name": "Switzerland",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Named as a mission field."
+     },
+     {
+      "code": "ITA",
+      "name": "Italy",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Named as a mission field."
+     }
+    ]
+   }
+  },
+  {
+   "id": "saints-v3-35-french-speaking-europe",
+   "bank": "draft",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "saints-v3-35-french-speaking-europe",
+    "bank": "draft",
+    "display_text": "",
+    "text_original": "Saints vol. 3 ch. 35: in the early 1950s only about 900 Saints lived in the French-speaking area covering these countries. Pin one.",
+    "accepts": "country",
+    "topic": "membership",
+    "era": "early 1950s",
+    "citation": "Saints vol. 3 ch. 35",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/35-we-cannot-fail?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "In the early 1950s only about 900 Latter-day Saints lived in the French-speaking area covering France, Belgium and the French-speaking part of Switzerland. France was the mission's main country.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "BEL",
+     "CHE"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "FRA",
+      "name": "France",
+      "commonness": 5,
+      "gem": false,
+      "fact": "The mission's main country."
+     },
+     {
+      "code": "BEL",
+      "name": "Belgium",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Included in the French-speaking count."
+     },
+     {
+      "code": "CHE",
+      "name": "Switzerland",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Only its French-speaking part was included."
+     }
+    ]
+   }
+  },
+  {
+   "id": "saints-v4-01-southern-far-east-mission",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "saints-v4-01-southern-far-east-mission",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "Saints vol. 4 ch. 1: the Southern Far East Mission, opened in 1955, covered these places (among others). Pin one.",
+    "accepts": "country_or_territory",
+    "topic": "missionary work",
+    "era": "1955",
+    "citation": "Saints vol. 4 ch. 1",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/01-where-and-when?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "In 1955 President David O. McKay called Grant Heaton, a former missionary in Hong Kong, to open the Southern Far East Mission. He and his wife, Luana, arrived in Hong Kong, where an earlier mission had closed in 1951 amid unrest in China and war in nearby Korea. The new mission covered Hong Kong, Taiwan, the Philippines, Guam and other places.",
+    "stamp": null,
+    "gems": [
+     "GUM"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Named as part of the mission."
+     },
+     {
+      "code": "HKG",
+      "name": "Hong Kong",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Mission headquarters; reopened after closing in 1951."
+     },
+     {
+      "code": "TWN",
+      "name": "Taiwan",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Named as part of the mission."
+     },
+     {
+      "code": "GUM",
+      "name": "Guam",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Named as part of the mission."
+     }
+    ]
+   }
+  },
+  {
+   "id": "saints-v4-16-gdr-leaders-visits",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "saints-v4-16-gdr-leaders-visits",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "Saints vol. 4 ch. 16: East German Church leaders like Henry Burkhardt made periodic visits to Saints in these nearby countries. Pin one (Czechoslovakia counts as Czechia or Slovakia).",
+    "accepts": "country",
+    "topic": "cold war",
+    "era": "1970s",
+    "citation": "Saints vol. 4 ch. 16",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v4/part-2/16-just-this-day?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Henry Burkhardt and his wife, Inge, were sealed in the Swiss Temple and chose to return to communist East Germany, where he led the Dresden Mission. He and other East German Church leaders made periodic visits to Saints in Hungary, Poland and Czechoslovakia. Their service fit President Spencer W. Kimball's 1975 teaching that Saints could gather by staying in their own lands.",
+    "stamp": null,
+    "gems": [
+     "SVK"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "CZE",
+      "name": "Czechia",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Named as part of Czechoslovakia."
+     },
+     {
+      "code": "HUN",
+      "name": "Hungary",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Named as visited by East German leaders."
+     },
+     {
+      "code": "POL",
+      "name": "Poland",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Named as visited by East German leaders."
+     },
+     {
+      "code": "SVK",
+      "name": "Slovakia",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Named as part of Czechoslovakia."
+     }
+    ]
+   }
+  },
+  {
+   "id": "saints-v4-22-south-america-temple-plans",
+   "bank": "history2",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "saints-v4-22-south-america-temple-plans",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "Saints vol. 4 ch. 22 (mid-1980s): Argentina awaited a temple, and plans for temples were moving forward in these other South American countries. Pin one, or Argentina.",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1980s",
+    "citation": "Saints vol. 4 ch. 22",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/22-more-like-our-lord?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "By the mid-1980s Argentina had almost 80,000 members, up from about 700 when Betty Campi was baptized in 1942. Betty held a temple recommend and waited for the Buenos Aires temple, dedicated in 1986, while temple plans moved forward in Peru, Colombia and Ecuador. The chapter presents these temples as fulfilling prophecies that temples would be built across the earth.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "COL",
+     "ECU"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Betty awaited a temple in her home country; Buenos Aires was dedicated in 1986."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Named as having temple plans moving forward."
+     },
+     {
+      "code": "COL",
+      "name": "Colombia",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Named as having temple plans moving forward."
+     },
+     {
+      "code": "ECU",
+      "name": "Ecuador",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Named as having temple plans moving forward."
+     }
+    ]
+   }
+  },
+  {
+   "id": "scripture-1-nephi-prophecy-places",
+   "bank": "scripture",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "scripture-1-nephi-prophecy-places",
+    "bank": "scripture",
+    "display_text": "",
+    "text_original": "A country containing a place named in Lehi's and Nephi's prophecies in 1 Nephi 10-11 (Jerusalem, Babylon, Bethabara, Nazareth)",
+    "accepts": "country",
+    "topic": "scripture geography",
+    "era": "about 600 BC",
+    "citation": "1 Nephi 10:3, 10:9, 11:13",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/10?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/11?lang=eng",
+     "https://en.wikipedia.org/wiki/Al-Maghtas",
+     "https://en.wikipedia.org/wiki/Babylon",
+     "https://en.wikipedia.org/wiki/Nazareth"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "Lehi foretold that the Jews would be carried captive into Babylon, in today's Iraq, and that a prophet would baptize the Messiah at Bethabara beyond Jordan (1 Nephi 10:3, 9). In vision Nephi then saw Nazareth and a virgin who would be the mother of the Son of God (1 Nephi 11:13-18).",
+    "stamp": null,
+    "gems": [
+     "JOR"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Nephi sees the city of Nazareth in vision (1 Nephi 11:13)."
+     },
+     {
+      "code": "IRQ",
+      "name": "Iraq",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Lehi foretells the Jews being carried captive into Babylon (1 Nephi 10:3)."
+     },
+     {
+      "code": "JOR",
+      "name": "Jordan",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Bethabara beyond Jordan (1 Nephi 10:9) is traditionally placed at Al-Maghtas, the baptism site on the Jordan River's east bank, in Jordan."
+     }
+    ]
+   }
+  },
+  {
+   "id": "scripture-abraham-journey",
+   "bank": "scripture",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 4,
+   "prompt": {
+    "id": "scripture-abraham-journey",
+    "bank": "scripture",
+    "display_text": "",
+    "text_original": "A country containing a land Abraham lives in or travels through in the Book of Abraham (Chaldea, Haran, Canaan, Egypt)",
+    "accepts": "country",
+    "topic": "scripture geography",
+    "era": "Abraham's lifetime",
+    "citation": "Abraham 1-2; Gospel Topics essay on the Book of Abraham",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng",
+     "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/translation-and-historicity-of-the-book-of-abraham"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "In the Book of Abraham, a famine strikes Ur of the Chaldees and the Lord tells Abraham to leave for a land He will show him (Abraham 2:1-4). Abraham stays for a time in Haran, then at age 62 travels on to Canaan, where the Lord promises the land to his descendants (Abraham 2:14-19). When famine continues, he goes down into Egypt (Abraham 2:21).",
+    "stamp": null,
+    "gems": [
+     "TUR"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "EGY",
+      "name": "Egypt",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Abraham goes down into Egypt because of famine (Abraham 2:21)."
+     },
+     {
+      "code": "IRQ",
+      "name": "Iraq",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Most scholars place Ur of the Chaldees in southern Mesopotamia, now Iraq; some argue for a northern site."
+     },
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Abraham is promised and travels through the land of Canaan (Abraham 2:15-19)."
+     },
+     {
+      "code": "TUR",
+      "name": "Turkey",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Haran, where Abraham's family settled (Abraham 2:4), is identified with Harran in southeastern Turkey."
+     }
+    ]
+   }
+  },
+  {
+   "id": "scripture-abraham-papyri",
+   "bank": "scripture",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "scripture-abraham-papyri",
+    "bank": "scripture",
+    "display_text": "",
+    "text_original": "A country tied to the Joseph Smith papyri: where they were dug up, the excavator's homeland, or where Joseph Smith acquired them",
+    "accepts": "country",
+    "topic": "scripture geography",
+    "era": "1817-1967",
+    "citation": "Gospel Topics essay, Translation and Historicity of the Book of Abraham",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/translation-and-historicity-of-the-book-of-abraham"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "Antonio Lebolo, a former Italian cavalryman, took 11 mummies from a tomb near ancient Thebes in Egypt. In 1835 Saints in Kirtland, Ohio, bought the remaining mummies and papyrus scrolls, and Joseph Smith worked on a translation that became the Book of Abraham. Most of the papyri were likely lost in the 1871 Chicago fire, but New York's Metropolitan Museum gave surviving fragments to the Church in 1967.",
+    "stamp": null,
+    "gems": [
+     "ITA"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "EGY",
+      "name": "Egypt",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Antonio Lebolo took 11 mummies from a tomb near ancient Thebes."
+     },
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Saints in Kirtland, Ohio, bought the mummies and scrolls in 1835; New York's Metropolitan Museum gave fragments to the Church in 1967."
+     },
+     {
+      "code": "ITA",
+      "name": "Italy",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Lebolo was a former cavalryman in the Italian army working for the French consul general."
+     }
+    ]
+   }
+  },
+  {
+   "id": "scripture-exodus-places",
+   "bank": "scripture",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "scripture-exodus-places",
+    "bank": "scripture",
+    "display_text": "",
+    "text_original": "A country containing a place from the Exodus story retold in the Book of Mormon (Egypt, Mount Sinai, the river Jordan)",
+    "accepts": "country",
+    "topic": "scripture geography",
+    "era": "Moses' day, retold about 600-150 BC",
+    "citation": "1 Nephi 17:23-32; Mosiah 12:33",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/12?lang=eng",
+     "https://en.wikipedia.org/wiki/Jordan_River",
+     "https://en.wikipedia.org/wiki/Mount_Sinai"
+    ],
+    "difficulty": 1,
+    "note": null,
+    "summary": "When his brothers mocked his command to build a ship, Nephi reminded them how the Lord led Israel out of Egypt, through the Red Sea and over the Jordan (1 Nephi 17:23-32). Later the prophet Abinadi taught King Noah's priests about the commandments the Lord gave Moses on Mount Sinai (Mosiah 12:33).",
+    "stamp": null,
+    "gems": [
+     "JOR"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "EGY",
+      "name": "Egypt",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Nephi recalls Israel led out of Egypt; Mount Sinai (Mosiah 12:33) is traditionally placed in Egypt's Sinai Peninsula."
+     },
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 4,
+      "gem": false,
+      "fact": "The Jordan River, which Israel crossed (1 Nephi 17:32), forms in northern Israel and flows to the Sea of Galilee."
+     },
+     {
+      "code": "JOR",
+      "name": "Jordan",
+      "commonness": 3,
+      "gem": true,
+      "fact": "The Jordan River crossing in 1 Nephi 17:32 is on the river from which Jordan takes its name."
+     }
+    ]
+   }
+  },
+  {
+   "id": "scripture-lehi-trail-proposals",
+   "bank": "scripture",
+   "reason": "ruling 3: 4 or fewer answers",
+   "answers": 3,
+   "prompt": {
+    "id": "scripture-lehi-trail-proposals",
+    "bank": "scripture",
+    "display_text": "",
+    "text_original": "A country where Latter-day Saint scholars have proposed a site on Lehi's Arabian journey (Valley of Lemuel, Nahom, or Bountiful)",
+    "accepts": "country",
+    "topic": "scripture geography",
+    "era": "about 600 BC",
+    "citation": "1 Nephi 2, 16-17; scholarly proposals, not Church positions",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/16?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng",
+     "https://www.churchofjesuschrist.org/study/ensign/1978/08/comment?lang=eng",
+     "https://scripturecentral.org/archive/books/book-chapter/lehis-trailandnahomrevisited",
+     "https://en.wikipedia.org/wiki/Bountiful_(Book_of_Mormon)"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Lehi's family crossed the Arabian wilderness, buried Ishmael at a place called Nahom (1 Nephi 16:34), and after about eight years reached a fruitful coast they named Bountiful (1 Nephi 17:4-5). Latter-day Saint scholars have proposed real sites, such as a Nehem tribal area in Yemen for Nahom and Oman's Dhofar coast for Bountiful. These are scholarly proposals, not Church positions.",
+    "stamp": null,
+    "gems": [
+     "SAU",
+     "YEM"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "OMN",
+      "name": "Oman",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Proposed sites for Bountiful, such as Khor Kharfot and Khor Rori, are on Oman's Dhofar coast."
+     },
+     {
+      "code": "SAU",
+      "name": "Saudi Arabia",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Lynn and Hope Hilton proposed in 1976 that Nahom was near Al Qunfudhah on Saudi Arabia's Red Sea coast."
+     },
+     {
+      "code": "YEM",
+      "name": "Yemen",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Scholars propose Nahom matches the Nehem/NHM tribal area northeast of Sanaa."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-temples-dedicated-2026",
+   "bank": "history2",
+   "reason": "ruling 4: stale, cut by scholar",
+   "answers": 7,
+   "prompt": null
+  },
+  {
+   "id": "congregations-500-plus",
+   "bank": "draft",
+   "reason": "surplus: USA-common cap (at most 1 per deck)",
+   "answers": 9,
+   "prompt": {
+    "id": "congregations-500-plus",
+    "bank": "draft",
+    "display_text": "",
+    "text_original": "Pin a country with 500 or more Church congregations (wards and branches, end of 2025).",
+    "accepts": "country",
+    "topic": "membership",
+    "era": "2025",
+    "citation": "newsroom country pages, 31 Dec 2025",
+    "source_urls": [
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/canada"
+    ],
+    "difficulty": 2,
+    "note": "Next below the line: Guatemala (441) and DR Congo (431).",
+    "summary": "At the end of 2025 the United States had about 14,600 Church congregations (wards and branches). Brazil, Mexico and the Philippines followed, and Nigeria had about 880, many of them small. Canada just made the 500 mark with 501.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "ARG",
+     "CHL",
+     "NGA",
+     "PER"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "About 14,600 congregations."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "About 2,000 congregations."
+     },
+     {
+      "code": "CAN",
+      "name": "Canada",
+      "commonness": 4,
+      "gem": false,
+      "fact": "501 congregations, just over the line."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "About 1,900 congregations."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 3,
+      "gem": false,
+      "fact": "About 1,370 congregations."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 2,
+      "gem": true,
+      "fact": "About 740 congregations."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 2,
+      "gem": true,
+      "fact": "About 580 congregations."
+     },
+     {
+      "code": "NGA",
+      "name": "Nigeria",
+      "commonness": 2,
+      "gem": true,
+      "fact": "About 880 congregations, many of them small."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 2,
+      "gem": true,
+      "fact": "About 810 congregations."
+     }
+    ]
+   }
+  },
+  {
+   "id": "membership-500k-plus",
+   "bank": "draft",
+   "reason": "surplus: USA-common cap (at most 1 per deck)",
+   "answers": 7,
+   "prompt": {
+    "id": "membership-500k-plus",
+    "bank": "draft",
+    "display_text": "",
+    "text_original": "Pin a country with 500,000 or more Church members (end of 2025).",
+    "accepts": "country",
+    "topic": "membership",
+    "era": "2025",
+    "citation": "newsroom country pages, 31 Dec 2025",
+    "source_urls": [
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina"
+    ],
+    "difficulty": 1,
+    "note": null,
+    "summary": "At the end of 2025 seven countries had 500,000 or more Church members. The United States led with about 6.93 million, followed by Brazil and Mexico at about 1.57 million each, then the Philippines, Peru, Chile and Argentina.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "ARG",
+     "CHL",
+     "PER"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 5,
+      "gem": false,
+      "fact": "About 1.57 million members, just ahead of Mexico."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 5,
+      "gem": false,
+      "fact": "About 1.57 million members."
+     },
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "About 6.93 million members."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 4,
+      "gem": false,
+      "fact": "About 905,000 members."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": true,
+      "fact": "About 506,000 members."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 3,
+      "gem": true,
+      "fact": "About 624,000 members."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 3,
+      "gem": true,
+      "fact": "About 668,000 members."
+     }
+    ]
+   }
+  },
+  {
+   "id": "missions-ten-plus",
+   "bank": "draft",
+   "reason": "surplus: USA-common cap (at most 1 per deck)",
+   "answers": 8,
+   "prompt": {
+    "id": "missions-ten-plus",
+    "bank": "draft",
+    "display_text": "",
+    "text_original": "Pin a country with ten or more of the Church's missions (end of 2025).",
+    "accepts": "country",
+    "topic": "missionary work",
+    "era": "2025",
+    "citation": "newsroom country pages, 31 Dec 2025",
+    "source_urls": [
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+     "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria"
+    ],
+    "difficulty": 2,
+    "note": "Next below the line: Guatemala, Japan, Ecuador and DR Congo with 7 each.",
+    "summary": "At the end of 2025 the United States had 120 of the Church's missions. Brazil (37), Mexico (34) and the Philippines (26) came next, and Peru, Argentina, Chile and Nigeria had 11 or more each. Nigeria and the Philippines were the only countries outside the Americas with ten or more.",
+    "stamp": null,
+    "gems": [
+     "NGA"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "120 missions."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "37 missions."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "34 missions."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 3,
+      "gem": false,
+      "fact": "26 missions."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 2,
+      "gem": false,
+      "fact": "14 missions."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 2,
+      "gem": false,
+      "fact": "11 missions."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 2,
+      "gem": false,
+      "fact": "15 missions."
+     },
+     {
+      "code": "NGA",
+      "name": "Nigeria",
+      "commonness": 1,
+      "gem": true,
+      "fact": "11 missions."
+     }
+    ]
+   }
+  },
+  {
+   "id": "saints-v4-35-family-services",
+   "bank": "draft",
+   "reason": "surplus: USA-common cap (at most 1 per deck)",
+   "answers": 6,
+   "prompt": {
+    "id": "saints-v4-35-family-services",
+    "bank": "draft",
+    "display_text": "",
+    "text_original": "Saints vol. 4 ch. 35: LDS Family Services ran agencies in only these countries in the 2000s. Pin one.",
+    "accepts": "country",
+    "topic": "welfare",
+    "era": "2000s",
+    "citation": "Saints vol. 4 ch. 35",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/35-hand-in-hand?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "In the 2000s LDS Family Services ran agencies in only six countries: the United States, Canada, Australia, New Zealand, Great Britain and Japan. Japan was the only Asian country on the list.",
+    "stamp": null,
+    "gems": [
+     "JPN"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Home base of the agency."
+     },
+     {
+      "code": "CAN",
+      "name": "Canada",
+      "commonness": 3,
+      "gem": false,
+      "fact": "One of six countries with agencies."
+     },
+     {
+      "code": "AUS",
+      "name": "Australia",
+      "commonness": 2,
+      "gem": false,
+      "fact": "One of six countries with agencies."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Listed as Great Britain."
+     },
+     {
+      "code": "NZL",
+      "name": "New Zealand",
+      "commonness": 2,
+      "gem": false,
+      "fact": "One of six countries with agencies."
+     },
+     {
+      "code": "JPN",
+      "name": "Japan",
+      "commonness": 1,
+      "gem": true,
+      "fact": "The only Asian country with an agency."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-dedicator-christofferson",
+   "bank": "history2",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 5,
+   "prompt": {
+    "id": "history-dedicator-christofferson",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where D. Todd Christofferson dedicated or rededicated a temple now in use (as of October 2026).",
+    "accepts": "country_or_territory",
+    "topic": "temples",
+    "era": "1955-2026",
+    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "D. Todd Christofferson rededicated Asunción Paraguay in 2019 and dedicated San Juan Puerto Rico in 2023, the island's first temple. In 2024 he dedicated Orem Utah, Lima Peru Los Olivos and Salta Argentina, and in 2026 he dedicated Yorba Linda California and rededicated San Diego California.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "PRY"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "San Diego California (rededicated 2026); Orem Utah (2024); Yorba Linda California (2026)."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Salta Argentina (2024)."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Lima Peru Los Olivos (2024)."
+     },
+     {
+      "code": "PRI",
+      "name": "Puerto Rico",
+      "commonness": 2,
+      "gem": false,
+      "fact": "San Juan Puerto Rico (2023)."
+     },
+     {
+      "code": "PRY",
+      "name": "Paraguay",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Asunción Paraguay (rededicated 2019)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-dedicator-mckay-kimball-faust",
+   "bank": "history2",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 8,
+   "prompt": {
+    "id": "history-dedicator-mckay-kimball-faust",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where David O. McKay, Spencer W. Kimball, or James E. Faust dedicated or rededicated a temple now in use (as of October 2026).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1955-2000",
+    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "David O. McKay dedicated Bern Switzerland (1955), London England and Hamilton New Zealand (1958), and Los Angeles and Oakland in the United States. Spencer W. Kimball dedicated Washington D.C. (1974), São Paulo Brazil (1978) and Tokyo Japan (1980). James E. Faust dedicated several temples in 2000, including in Mexico, Costa Rica and the United States.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "CRI"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "McKay: Los Angeles (1956), Oakland (1964). Kimball: Washington D.C. (1974), Seattle (1980), rededications of St. George, Mesa, Laie and Logan. Faust: Medford, Memphis, Nashville, Oklahoma City (2000), Boise rededication (1987)."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Kimball: São Paulo Brazil (1978)."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Faust: Oaxaca Mexico and Tuxtla Gutiérrez Mexico (2000)."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 3,
+      "gem": false,
+      "fact": "McKay: London England (1958)."
+     },
+     {
+      "code": "JPN",
+      "name": "Japan",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Kimball: Tokyo Japan (1980)."
+     },
+     {
+      "code": "NZL",
+      "name": "New Zealand",
+      "commonness": 3,
+      "gem": false,
+      "fact": "McKay: Hamilton New Zealand (1958)."
+     },
+     {
+      "code": "CHE",
+      "name": "Switzerland",
+      "commonness": 2,
+      "gem": false,
+      "fact": "McKay: Bern Switzerland (1955)."
+     },
+     {
+      "code": "CRI",
+      "name": "Costa Rica",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Faust: San José Costa Rica (2000)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-dedicator-nelson",
+   "bank": "history2",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 5,
+   "prompt": {
+    "id": "history-dedicator-nelson",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where Russell M. Nelson dedicated or rededicated a temple now in use (as of October 2026).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1955-2026",
+    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "TON"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Manti Utah (rededicated 2024); Washington D.C. (rededicated 2022); Deseret Peak Utah (2024); and others."
+     },
+     {
+      "code": "ITA",
+      "name": "Italy",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Rome Italy (2019)."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Concepción Chile (2018)."
+     },
+     {
+      "code": "JPN",
+      "name": "Japan",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Sapporo Japan (2016)."
+     },
+     {
+      "code": "TON",
+      "name": "Tonga",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Nuku'alofa Tonga (rededicated 2007)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-temples-dedicated-1984",
+   "bank": "history2",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 5,
+   "prompt": {
+    "id": "history-temples-dedicated-1984",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where a new temple was dedicated in 1984 (not counting rededications).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1984",
+    "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "In 1984 new temples were dedicated in Asia, the Pacific and Latin America as well as the United States. Gordon B. Hinckley dedicated Sydney Australia, Manila Philippines, Taipei Taiwan and Guatemala City Guatemala that year, and Boise Idaho and Dallas Texas were also dedicated.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "GTM",
+     "TWN"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Boise Idaho; Dallas Texas (dedicated 1984)."
+     },
+     {
+      "code": "AUS",
+      "name": "Australia",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Sydney Australia (dedicated 1984)."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Manila Philippines (dedicated 1984)."
+     },
+     {
+      "code": "GTM",
+      "name": "Guatemala",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Guatemala City Guatemala (dedicated 1984)."
+     },
+     {
+      "code": "TWN",
+      "name": "Taiwan",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Taipei Taiwan (dedicated 1984)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-temples-dedicated-2024",
+   "bank": "history2",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 8,
+   "prompt": {
+    "id": "history-temples-dedicated-2024",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country where a temple was dedicated in 2024.",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "2024",
+    "citation": "Church temple list (original dedication dates), 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    ],
+    "difficulty": 2,
+    "note": null,
+    "summary": "In 2024 the Church dedicated new temples across the Americas and Asia. Argentina gained two, Salta and Mendoza, and others were dedicated in Puebla Mexico, Salvador Brazil, Lima Peru Los Olivos, Urdaneta Philippines, San Pedro Sula Honduras and Cobán Guatemala. The United States had eight, including Deseret Peak, Taylorsville and Orem in Utah.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "GTM",
+     "HND"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Deseret Peak Utah, Taylorsville Utah, Orem Utah and 5 more dedicated in 2024."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Salvador Brazil dedicated in 2024."
+     },
+     {
+      "code": "MEX",
+      "name": "Mexico",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Puebla Mexico dedicated in 2024."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Salta Argentina, Mendoza Argentina dedicated in 2024."
+     },
+     {
+      "code": "PER",
+      "name": "Peru",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Lima Peru Los Olivos dedicated in 2024."
+     },
+     {
+      "code": "PHL",
+      "name": "Philippines",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Urdaneta Philippines dedicated in 2024."
+     },
+     {
+      "code": "GTM",
+      "name": "Guatemala",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Cobán Guatemala dedicated in 2024."
+     },
+     {
+      "code": "HND",
+      "name": "Honduras",
+      "commonness": 2,
+      "gem": true,
+      "fact": "San Pedro Sula Honduras dedicated in 2024."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-temples-rededicated-2019-22",
+   "bank": "history2",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 6,
+   "prompt": {
+    "id": "history-temples-rededicated-2019-22",
+    "bank": "history2",
+    "display_text": "",
+    "text_original": "A country or territory where a temple was rededicated after renovation from 2019 through 2022.",
+    "accepts": "country_or_territory",
+    "topic": "temples",
+    "era": "2019-2022",
+    "citation": "ChurchofJesusChristTemples.org chronological list (rededication dates), read 26 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/statistics/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Older temples are sometimes renovated and then rededicated. From 2019 to 2022 this happened at Frankfurt Germany, Asunción Paraguay and Oakland California (2019), Mesa Arizona (2021), and Tokyo Japan, Hamilton New Zealand, Hong Kong and Washington D.C. (2022). Hamilton had first been dedicated by David O. McKay in 1958.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "PRY"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Oakland California, Raleigh North Carolina, Memphis Tennessee, Baton Rouge Louisiana and Oklahoma City Oklahoma (2019); Mesa Arizona (2021); Washington D.C. (2022)."
+     },
+     {
+      "code": "JPN",
+      "name": "Japan",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Tokyo Japan (rededicated 2022)."
+     },
+     {
+      "code": "NZL",
+      "name": "New Zealand",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Hamilton New Zealand (rededicated 2022)."
+     },
+     {
+      "code": "DEU",
+      "name": "Germany",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Frankfurt Germany (rededicated 2019)."
+     },
+     {
+      "code": "HKG",
+      "name": "Hong Kong",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Hong Kong China (rededicated 2022)."
+     },
+     {
+      "code": "PRY",
+      "name": "Paraguay",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Asunción Paraguay (rededicated 2019)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-first-before-1960",
+   "bank": "draft",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 5,
+   "prompt": {
+    "id": "temples-first-before-1960",
+    "bank": "draft",
+    "display_text": "",
+    "text_original": "Pin a country whose first temple of the Church was dedicated before 1960.",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1877-1959",
+    "citation": "temple list, 26 Oct 2026",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/"
+    ],
+    "difficulty": 1,
+    "note": null,
+    "summary": "For most of its history the Church's temples stood in the United States, with St. George, Utah (1877) the oldest still on the list. Before 1960 only four other countries had one: Canada (Cardston, 1923), Switzerland (near Bern, 1955, the first in Europe), and New Zealand and the United Kingdom (both 1958).",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "CHE",
+     "GBR",
+     "NZL"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "USA",
+      "name": "United States",
+      "commonness": 5,
+      "gem": false,
+      "fact": "St. George, 1877."
+     },
+     {
+      "code": "CAN",
+      "name": "Canada",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Cardston, Alberta, 1923."
+     },
+     {
+      "code": "CHE",
+      "name": "Switzerland",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Near Bern, 1955, the first in Europe."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 3,
+      "gem": true,
+      "fact": "London, near Lingfield, 1958."
+     },
+     {
+      "code": "NZL",
+      "name": "New Zealand",
+      "commonness": 3,
+      "gem": true,
+      "fact": "Hamilton, 1958."
+     }
+    ]
+   }
+  }
+ ]
+}

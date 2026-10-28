@@ -1,0 +1,408 @@
+{
+ "day": 15,
+ "prompts": [
+  {
+   "id": "temples-europe-dedicated",
+   "bank": "draft",
+   "display_text": "Pin a European country with a dedicated temple.",
+   "text_original": "Pin a European country with at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Europe's first temple was dedicated near Bern, Switzerland, in 1955, followed by London in 1958. As of October 2026, twelve European countries had a dedicated temple, the most recent being Rome, Italy, and Lisbon, Portugal, both in 2019.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN",
+    "UKR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bern, 1955, Europe's first."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Freiberg and Frankfurt."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "London 1958, Preston 1998."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Madrid, 1999."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paris, 2017."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Rome, 2019."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Stockholm, 1985."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Copenhagen, 2004."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Hague, 2002."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lisbon, 2019."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Helsinki, 2006."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kyiv, 2010."
+    }
+   ]
+  },
+  {
+   "id": "history-dedicator-gong",
+   "bank": "history2",
+   "display_text": "Pin a country or territory with a temple standing today that Gerrit W. Gong dedicated or rededicated.",
+   "text_original": "A country where Gerrit W. Gong dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Gerrit W. Gong has dedicated temples from North America to Africa and Asia. They include Winnipeg Manitoba (2021), the rededication of Hong Kong China (2022), Taylorsville Utah and Puebla Mexico (2024), and Harare Zimbabwe and Miraflores Guatemala City (2026).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ZWE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Taylorsville Utah (2024)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Puebla Mexico (2024)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Winnipeg Manitoba (2021)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Miraflores Guatemala City Guatemala (2026)."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hong Kong China (rededicated 2022)."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Harare Zimbabwe (2026)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-04-latam-1940s-50s",
+   "bank": "history2",
+   "display_text": "Pin a Spanish-speaking country that Saints names as reached after Argentina, in the 1940s and 1950s.",
+   "text_original": "Saints vol. 4 ch. 4: after Argentina, the gospel spread to these Spanish-speaking countries in the 1940s and 1950s. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1940s-1950s",
+   "citation": "Saints vol. 4 ch. 4",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/04-the-mission-of-the-church?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Saints volume 4 tells how the Church, after missionaries arrived in Argentina in the 1920s, spread to its Spanish-speaking neighbors. Missionaries entered Uruguay, Guatemala, Costa Rica and El Salvador in the 1940s, and preaching began in Chile, Peru, Honduras, Panama and Paraguay in the 1950s. In 1959 Elder Spencer W. Kimball toured South America to assess the needs of the growing Church there.",
+   "stamp": null,
+   "gems": [
+    "PRY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s; part of the Argentine Mission from 1955."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named as opened to preaching in the 1950s."
+    }
+   ]
+  },
+  {
+   "id": "bible-genesis-cities",
+   "bank": "bible",
+   "display_text": "Pin a present-day country with a city named in Genesis whose site is agreed.",
+   "text_original": "A present-day country with a city named in Genesis whose site is agreed",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 10-46",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
+    "https://en.wikipedia.org/wiki/Heliopolis_(ancient_Egypt)"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Genesis moves across the ancient Near East. Abraham's family set out from Ur, stopped at Haran, and Abraham and Isaac lived around Beersheba. Damascus appears in Abraham's story (Genesis 14:15), Joseph married the daughter of the priest of On in Egypt, and Jacob named Mahanaim and Penuel east of the Jordan (Genesis 32).",
+   "stamp": null,
+   "gems": [
+    "JOR",
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Ur, Babel and Nineveh are all in Iraq."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Joseph married the daughter of the priest of On, Heliopolis (Genesis 41:45)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Beersheba is central to Abraham and Isaac's stories."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Damascus is named in Genesis 14:15 and 15:2."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Haran lies in south-east Turkey."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Jacob named Mahanaim and Penuel, east of the Jordan (Genesis 32)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Sidon marks Canaan's border (Genesis 10:19)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-07-south-america-missions-1963",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as covered by the South American missions by 1963.",
+   "text_original": "Saints vol. 4 ch. 7: by 1963 the Church's South American missions covered these countries. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1963",
+   "citation": "Saints vol. 4 ch. 7",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/07-children-of-the-same-god?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "By 1963 the Church's missions in South America covered six countries. Brazil and Argentina had two missions each, Uruguay and Chile had one each, and Peru and Bolivia shared one. The first South American mission had opened in Buenos Aires, Argentina, in 1925.",
+   "stamp": null,
+   "gems": [
+    "BOL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Had two missions; the first South American mission opened in Buenos Aires in 1925."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Had two missions by then."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Had its own mission."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Shared one mission with Bolivia."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Had its own mission."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Shared one mission with Peru."
+    }
+   ]
+  }
+ ]
+}

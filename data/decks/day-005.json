@@ -1,0 +1,399 @@
+{
+ "day": 5,
+ "prompts": [
+  {
+   "id": "saints-v4-20-temples-announced-1980",
+   "bank": "draft",
+   "display_text": "Pin a country or territory that Saints names as having a temple announced or being built about 1980.",
+   "text_original": "Saints vol. 4 ch. 20 (about 1980): new temples were announced or under construction in these places. Pin one.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "about 1980",
+   "citation": "Saints vol. 4 ch. 20",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/20-marvelous-and-wonderful-way?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Around 1980 the Church announced or began building temples in many places outside the United States. Tokyo's temple was dedicated in 1980, and temples followed in Santiago, Mexico City, Apia, Papeete and Nuku'alofa in 1983, Sydney in 1984 and Buenos Aires in 1986. Several new US temples were also underway.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City temple followed in 1983."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Several new US temples were also underway."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo temple was dedicated in 1980."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires temple followed in 1986."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sydney temple followed in 1984."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago temple followed in 1983."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nuku'alofa temple followed in 1983."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia temple followed in 1983."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Listed as Tahiti; Papeete temple followed in 1983."
+    }
+   ]
+  },
+  {
+   "id": "temples-three-plus-outside-americas",
+   "bank": "draft",
+   "display_text": "Pin a country outside the Americas with three or more temples, counting announced and under construction.",
+   "text_original": "Counting dedicated, under construction and announced temples, pin a country outside the Americas with three or more (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": "Counts from the 26 Oct 2026 temple list. Next below the line: Mozambique (2).",
+   "summary": "Outside the Americas, the Philippines led with 14 temples dedicated, under construction or announced as of October 2026. Nigeria and Australia had 7 each, Nigeria's being the most in Africa, and Germany's 3 were the most in Europe.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COD"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "14 in all, the most outside the Americas."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "7 in all."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "5 in all."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "7 in all, the most in Africa."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "3 in all."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "3 in all."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 2,
+     "gem": false,
+     "fact": "3 in all, the most in Europe."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "3 in all."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "4 in all."
+    }
+   ]
+  },
+  {
+   "id": "bible-patriarch-places",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where Abraham or Jacob lived or travelled.",
+   "text_original": "A present-day country where Abraham or Jacob lived or travelled",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 11-49",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng",
+    "https://en.wikipedia.org/wiki/Ur",
+    "https://en.wikipedia.org/wiki/Harran",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Abraham's family set out from Ur, traditionally placed in southern Iraq, and stayed for a time at Haran in today's Turkey, where Jacob later served Laban for twenty years (Genesis 11:31; 29-31). Abraham lived at Beersheba and went down to Egypt during a famine. Jacob wrestled at Peniel by the Jabbok in Jordan, and he died in Egypt in the land of Goshen.",
+   "stamp": null,
+   "gems": [
+    "JOR",
+    "SYR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Abraham went down to Egypt in a famine, and Jacob died in Goshen (Genesis 12:10; 46-49)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Abraham's family set out from Ur of the Chaldees (Genesis 11:31), traditionally identified with the ancient city of Ur in southern Iraq."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Abraham lived at Beersheba, and Jacob offered sacrifices there (Genesis 21:33; 46:1)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Abraham settled for a time in Haran, and Jacob served Laban there twenty years (Genesis 11:31; 29-31)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Jacob wrestled at Peniel by the Jabbok, in Jordan (Genesis 32:22-30)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Abraham chased the captors of Lot to Hobah, north of Damascus (Genesis 14:15)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-10-pacific-church-schools",
+   "bank": "draft",
+   "display_text": "Pin a Pacific country or territory that Saints names as having Church schools in the early 1970s.",
+   "text_original": "Saints vol. 4 ch. 10: in the early 1970s the Church ran schools in these Pacific countries and territories. Pin one.",
+   "accepts": "country_or_territory",
+   "topic": "education",
+   "era": "early 1970s",
+   "citation": "Saints vol. 4 ch. 10",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-2/10-time-is-crucial?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In the early 1970s the Church ran schools in several Pacific countries and territories. The best known were the Church College of New Zealand and Liahona High School in Tonga. Others were in Samoa, American Samoa, Tahiti in French Polynesia, and Fiji.",
+   "stamp": null,
+   "gems": [
+    "ASM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Church College of New Zealand was the best known."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Liahona High School is the best known."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Called Western Samoa at the time."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named in the chapter's list of school locations."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Listed as Tahiti."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Listed separately from Western Samoa."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-29-early-seventies",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as the home of an early Seventy from outside the US.",
+   "text_original": "Saints vol. 4 ch. 29 names early Seventies from outside the United States. Pin a home country it names.",
+   "accepts": "country",
+   "topic": "church leadership",
+   "era": "1970s-1990s",
+   "citation": "Saints vol. 4 ch. 29",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/29-one-great-family?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Saints vol. 4 ch. 29 names some early Seventies called from outside the United States. They included Angel Abrea of Argentina, Helio da Rocha Camargo and Helvecio Martins of Brazil, Yoshihiko Kikuchi of Japan, Han In Sang of South Korea and Augusto A. Lim of the Philippines. Others came from Chile, Guatemala and Mexico.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "GTM",
+    "KOR",
+    "PHL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Helio da Rocha Camargo and Helvecio Martins."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Horacio A. Tenorio."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Angel Abrea."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Eduardo Ayala."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Yoshihiko Kikuchi."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Carlos H. Amado."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Han In Sang."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Augusto A. Lim."
+    }
+   ]
+  }
+ ]
+}

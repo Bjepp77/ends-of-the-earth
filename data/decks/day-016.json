@@ -1,0 +1,409 @@
+{
+ "day": 16,
+ "prompts": [
+  {
+   "id": "history-dedicator-rasband",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that Ronald A. Rasband dedicated or rededicated.",
+   "text_original": "A country where Ronald A. Rasband dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Ronald A. Rasband has dedicated temples on four continents. They include Durban South Africa (2020), Bangkok Thailand (2023), Mendoza Argentina (2024), Abidjan Ivory Coast (2025), and Ephraim Utah and Managua Nicaragua (2026). Bangkok was the first temple in Thailand, and Abidjan the first in Côte d'Ivoire.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CIV",
+    "NIC"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Ephraim Utah (2026)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mendoza Argentina (2024)."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bangkok Thailand (2023)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Durban South Africa (2020)."
+    },
+    {
+     "code": "CIV",
+     "name": "Côte d'Ivoire",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Abidjan Ivory Coast (2025)."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Managua Nicaragua (2026)."
+    }
+   ]
+  },
+  {
+   "id": "temples-africa-dedicated",
+   "bank": "draft",
+   "display_text": "Pin an African country with a dedicated temple.",
+   "text_original": "Pin an African country with at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1985-2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Africa's first temple was dedicated in Johannesburg, South Africa, in 1985. Accra, Ghana (2004) and Aba, Nigeria (2005) followed. Since 2019 the pace has picked up, with temples in Kinshasa, Praia, Nairobi, Abidjan and, in 2026, Harare.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Johannesburg, 1985, Africa's first."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Accra, 2004."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Aba, 2005."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kinshasa, 2019."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Abidjan, 2025."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Nairobi, 2025."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Harare, 2026."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia, 2022."
+    }
+   ]
+  },
+  {
+   "id": "bible-acts-hometowns",
+   "bank": "bible",
+   "display_text": "Pin a present-day country that was home to a person named in Acts.",
+   "text_original": "A present-day country that was home to a person named in Acts",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Acts 4; 8; 13; 16; 18; 21",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/21?lang=eng",
+    "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/col/4?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "The book of Acts names believers from all around the Mediterranean, showing how far the early Church reached. Barnabas came from Cyprus, Apollos from Alexandria in Egypt, Timothy from Lystra in Turkey, and Tabitha lived at Joppa. Even a treasurer of Candace, queen of the Ethiopians, whose land of Kush was centered in today's Sudan, was taught by Philip and baptized (Acts 8:27-38).",
+   "stamp": null,
+   "gems": [
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul came from Tarsus, Timothy from Lystra and Gaius from Derbe (Acts 21:39; 16:1; 20:4)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tabitha lived at Joppa and Aeneas at Lydda (Acts 9:32-36)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barnabas was a Levite from Cyprus (Acts 4:36)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apollos was born in Alexandria (Acts 18:24)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Dionysius and Damaris believed at Athens; Aristarchus came from Thessalonica and Sopater from Berea (Acts 17:34; 20:4)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Aquila and Priscilla had just come from Italy (Acts 18:2)."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lucius of Cyrene led the church at Antioch (Acts 13:1)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ananias, who baptised Paul, lived in Damascus (Acts 9:10)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The eunuch served Candace, a queen of Kush, centred on Meroe in Sudan (Acts 8:27)."
+    }
+   ]
+  },
+  {
+   "id": "bible-prophet-places",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where an Old Testament prophet lived or travelled (Moses counts; Sinai aside).",
+   "text_original": "A present-day country where an Old Testament prophet lived or travelled (Moses counts; Sinai aside)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Exodus 2; Deuteronomy 34; 1 Kings 17-18; 2 Kings 8; Jonah; Daniel; Jeremiah 43",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng",
+    "https://en.wikipedia.org/wiki/Midian",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Old Testament prophets often served far from home. Moses was raised in Egypt and fled to Midian in Arabia, Elijah stayed with a widow at Zarephath in Sidon's territory, and Jonah was sent to preach in Nineveh. Ezekiel and Daniel lived in Babylonia, and Jeremiah was taken to Tahpanhes in Egypt (Jeremiah 43:7).",
+   "stamp": null,
+   "gems": [
+    "LBN",
+    "SYR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Moses was born and raised in Egypt, and Jeremiah was taken to Tahpanhes (Exodus 2; Jeremiah 43:7)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Elijah challenged the prophets of Baal on Mount Carmel (1 Kings 18)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jonah preached in Nineveh; Ezekiel and Daniel lived in Babylonia."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Moses died in Moab after viewing Canaan from Nebo, and Elijah came from Tishbe in Gilead (Deuteronomy 34:5; 1 Kings 17:1)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Daniel saw a vision at Shushan by the river Ulai (Daniel 8:2)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Moses fled to Midian, in north-west Arabia, and married Zipporah (Exodus 2:15-21)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elijah stayed with the widow of Zarephath, in Sidon's territory (1 Kings 17:9)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elisha went to Damascus while Ben-hadad lay sick (2 Kings 8:7)."
+    }
+   ]
+  },
+  {
+   "id": "scripture-translations-1979",
+   "bank": "scripture",
+   "display_text": "Pin a country where Croatian, Greek, Hungarian, Peruvian Quechua, Kekchi or Quiche is official or Indigenous.",
+   "text_original": "A country where a language first given Book of Mormon text in 1979 is official or Indigenous (Croatian, Greek, Hungarian, Peruvian Quechua, Kekchi, Quiche)",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1979",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 1979 Book of Mormon text came out in six new languages: Croatian, Greek, Hungarian, Peruvian Quechua, and the Mayan languages Kekchi and Quiche from Guatemala. Several began as selections; the full Greek text followed in 1987 and the full Hungarian in 1991.",
+   "stamp": null,
+   "gems": [
+    "BIH",
+    "CYP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Greek selections appeared in 1979 and the full text in 1987."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Croatian Book of Mormon appeared in 1979."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hungarian selections appeared in 1979 and the full text in 1991."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kekchi and Quiche, Mayan languages of Guatemala, both got selections in 1979."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Quechua (Peru) selections appeared in 1979."
+    },
+    {
+     "code": "BIH",
+     "name": "Bosnia and Herzegovina",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Croatian, translated 1979, is one of Bosnia's official languages."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Greek, translated 1979, is an official language of Cyprus."
+    }
+   ]
+  }
+ ]
+}

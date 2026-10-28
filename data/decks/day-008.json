@@ -1,0 +1,423 @@
+{
+ "day": 8,
+ "prompts": [
+  {
+   "id": "history-temples-dedicated-2025",
+   "bank": "history2",
+   "display_text": "Pin a country where a new temple was dedicated in 2025 (not rededications).",
+   "text_original": "A country where a temple was dedicated in 2025 (not counting rededications).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2025",
+   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Temples dedicated in 2025 reached Africa, the Pacific and the Americas. Abidjan and Nairobi were the first temples in Côte d'Ivoire and Kenya, and Auckland New Zealand, Antofagasta Chile and Bahía Blanca Argentina were also dedicated. Four new temples were dedicated in the United States, including Elko Nevada and Farmington New Mexico.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CIV",
+    "KEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Elko Nevada, Farmington New Mexico, Grand Junction Colorado and 1 more dedicated in 2025."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bahía Blanca Argentina dedicated in 2025."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Antofagasta Chile dedicated in 2025."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Auckland New Zealand dedicated in 2025."
+    },
+    {
+     "code": "CIV",
+     "name": "Côte d'Ivoire",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Abidjan Ivory Coast dedicated in 2025."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nairobi Kenya dedicated in 2025."
+    }
+   ]
+  },
+  {
+   "id": "temples-first-2010-on",
+   "bank": "draft",
+   "display_text": "Pin a country or territory whose first temple was dedicated in 2010 or later.",
+   "text_original": "Pin a country or territory whose first temple was dedicated in 2010 or later.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2010-2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Since 2010 temples have reached many new nations. Kyiv, Ukraine (2010) was the first in the former Soviet Union, and later came Paris (2017), Rome (2019), Kinshasa (2019) and Bangkok (2023). In 2026 Zimbabwe, Cambodia and Nicaragua each got their first temple.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV",
+    "GUM",
+    "KHM",
+    "NIC"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paris, 2017."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rome, 2019."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kinshasa, 2019."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kyiv, 2010, the first in the former Soviet Union."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Abidjan, 2025."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tegucigalpa, 2013."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Port-au-Prince, 2019."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Nairobi, 2025."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Juan, 2023."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lisbon, 2019."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Salvador, 2011."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bangkok, 2023."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Harare, 2026."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia, 2022."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo, 2022."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Phnom Penh, 2026."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Managua, 2026."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-23-first-stakes-kimball",
+   "bank": "draft",
+   "display_text": "Pin a country or territory that Saints names as getting its first stake under Spencer W. Kimball (1973-1985).",
+   "text_original": "Saints vol. 4 ch. 23: these places got their first stakes during Spencer W. Kimball's presidency (1973-1985). Pin one.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "1973-1985",
+   "citation": "Saints vol. 4 ch. 23",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/23-every-effort?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Spencer W. Kimball was President of the Church from 1973 to 1985. During those years Bolivia, Colombia, Nicaragua, Paraguay, Puerto Rico and Venezuela each had its first stake organized.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NIC",
+    "PRI"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First stake organized in the Kimball years."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First stake organized in the Kimball years."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "First stake organized in the Kimball years."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "First stake organized in the Kimball years."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 1,
+     "gem": true,
+     "fact": "First stake organized in the Kimball years."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 1,
+     "gem": true,
+     "fact": "A US territory; first stake organized in the Kimball years."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-19-kennedy-recognition",
+   "bank": "draft",
+   "display_text": "Pin a country where, Saints says, David Kennedy won or sought official recognition for the Church in the late 1970s.",
+   "text_original": "Saints vol. 4 ch. 19 (late 1970s): David Kennedy had won official recognition for the Church, or was seeking it, in these countries. Pin one.",
+   "accepts": "country",
+   "topic": "church diplomacy",
+   "era": "about 1978",
+   "citation": "Saints vol. 4 ch. 19",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-2/19-united-as-a-family?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In the late 1970s David Kennedy worked to win official government recognition for the Church in other countries. He had already gained it in Portugal and in Poland, which was unusual for a communist state at the time. He was still seeking it in India, Sri Lanka, Pakistan, Hungary, Romania and Greece.",
+   "stamp": null,
+   "gems": [
+    "LKA",
+    "PAK",
+    "ROU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Recognition already won."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Recognition being sought."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Recognition being sought."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Recognition being sought."
+    },
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Recognition already won, unusual for a communist state then."
+    },
+    {
+     "code": "LKA",
+     "name": "Sri Lanka",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Recognition being sought."
+    },
+    {
+     "code": "PAK",
+     "name": "Pakistan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Recognition being sought."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Recognition being sought."
+    }
+   ]
+  },
+  {
+   "id": "saints-v3-11-oceania-1915",
+   "bank": "history2",
+   "display_text": "Pin a country or territory that Saints names in the Church's growth across Oceania about 1915.",
+   "text_original": "Saints vol. 3 ch. 11 (about 1915): the Church was expanding in Oceania. Pin a country or territory it names: strong branches, a reopened mission, or a mission press.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1915",
+   "citation": "Saints vol. 3 ch. 11",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/11-too-heavy?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Around 1915, while Europe was at war, the Church was growing in the Pacific. Saints in New Zealand, Australia and Samoa met in strong branches with Relief Societies, Sunday Schools and choirs, and the Maori Agricultural College had opened in Hastings, New Zealand, in 1913. The Church was taking root again in Tonga, and the Tahiti Mission printed a Church periodical in Tahitian on its own press.",
+   "stamp": null,
+   "gems": [
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Strong branches; the Maori Agricultural College opened in Hastings in 1913."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named as having strong branches."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Taking root again after more than ten years closed to missionaries."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as having strong branches (Samoa)."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Tahiti Mission ran its own printing press."
+    }
+   ]
+  }
+ ]
+}

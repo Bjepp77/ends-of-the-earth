@@ -1,0 +1,351 @@
+{
+ "day": 22,
+ "prompts": [
+  {
+   "id": "history-temples-dedicated-2001-02",
+   "bank": "history2",
+   "display_text": "Pin a country where a new temple was dedicated in 2001 or 2002 (not rededications).",
+   "text_original": "A country where a new temple was dedicated in 2001 or 2002 (not counting rededications).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2001-2002",
+   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates) and the Church temple list, read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 2001 and 2002 the Church dedicated new temples on several continents. Perth Australia, Guadalajara Mexico and Montevideo Uruguay were dedicated in 2001, and The Hague Netherlands, Asunción Paraguay, Campinas Brazil and Monterrey Mexico in 2002. In the United States, Winter Quarters Nebraska was dedicated in 2001 and Nauvoo Illinois in 2002.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Winter Quarters Nebraska; Columbia River Washington (2001); Nauvoo Illinois; Lubbock Texas; Snowflake Arizona (2002)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Campinas Brazil (2002)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Guadalajara Mexico (2001); Monterrey Mexico (2002)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Perth Australia (2001)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Hague Netherlands (2002)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Montevideo Uruguay (2001)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Asunción Paraguay (2002)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v3-39-swiss-temple-sessions-1955",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as sending Saints to the Swiss Temple's first sessions in 1955.",
+   "text_original": "Saints vol. 3 ch. 39: after the Swiss Temple's 1955 dedication, Saints from these countries took part in the first endowment sessions. Pin one.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955",
+   "citation": "Saints vol. 3 ch. 39",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/39-a-new-era?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "The Swiss Temple near Bern, dedicated in 1955, was the first temple in Europe. Saints from Sweden, Finland, the Netherlands, Denmark and Norway were among those who took part in its first endowment sessions.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among the first patrons."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among the first patrons."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among the first patrons."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named among the first patrons."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named among the first patrons."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-17-area-conferences-1975",
+   "bank": "draft",
+   "display_text": "Pin a country or territory that Saints names for one of President Kimball's 1975 area conferences.",
+   "text_original": "Saints vol. 4 ch. 17: in 1975 alone, President Kimball presided at large conferences in these places. Pin one.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "1975",
+   "citation": "Saints vol. 4 ch. 17",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-2/17-no-going-back?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 1975 alone, President Spencer W. Kimball presided at large conferences far from Church headquarters. He held two in South America, in Brazil and Argentina, and five in Asia: Japan, the Philippines, Taiwan, Hong Kong and South Korea.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "HKG",
+    "TWN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "One of two South American stops."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "One of five Asian stops."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of two South American stops."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of five Asian stops."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "One of five Asian stops."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Then a British territory; one of five Asian stops."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "One of five Asian stops."
+    }
+   ]
+  },
+  {
+   "id": "scripture-isaiah-2-nephi-21-24",
+   "bank": "scripture",
+   "display_text": "Pin a country holding Assyria, Egypt, Cush, Elam, Shinar, Hamath, Edom, Moab, Babylon, the Medes or Lebanon (2 Nephi 21-24).",
+   "text_original": "A country containing a land named in the Isaiah chapters 2 Nephi 21-24 (Assyria, Egypt, Cush, Elam, Shinar, Hamath, Edom, Moab, Babylon, the Medes, Lebanon)",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "about 700 BC, quoted about 550 BC",
+   "citation": "2 Nephi 21-24 (Isaiah 11-14)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/24?lang=eng",
+    "https://en.wikipedia.org/wiki/Babylon",
+    "https://en.wikipedia.org/wiki/Shinar",
+    "https://en.wikipedia.org/wiki/Pathros",
+    "https://en.wikipedia.org/wiki/Elam",
+    "https://en.wikipedia.org/wiki/Medes",
+    "https://en.wikipedia.org/wiki/Hama",
+    "https://en.wikipedia.org/wiki/Moab",
+    "https://en.wikipedia.org/wiki/Ammon",
+    "https://en.wikipedia.org/wiki/Edom",
+    "https://en.wikipedia.org/wiki/Kingdom_of_Kush"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "2 Nephi 21-24 quotes Isaiah 11-14. Isaiah foresees the Lord gathering His people a second time from many lands, including Assyria, Egypt, Cush, Elam, Shinar and Hamath (2 Nephi 21:11-12). He also foretells the fall of Babylon, over which even the cedars of Lebanon rejoice (2 Nephi 24:8).",
+   "stamp": null,
+   "gems": [
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Egypt and Pathros, Upper Egypt, are named in 2 Nephi 21:11."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Babylon, Shinar and Assyria (2 Nephi 21:11; 23:1) all lay in what is now Iraq."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elam (21:11) and the Medes (23:17) were peoples of what is now Iran."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Moab and Ammon (21:14) were kingdoms east of the Jordan, in today's Jordan; Edom also stretched into it."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamath (21:11) is the modern city of Hama in Syria."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The 'cedars of Lebanon' rejoice over Babylon's fall (2 Nephi 24:8)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Cush (21:11) was the ancient Nile kingdom of Kush, in today's northern Sudan."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-34-tsunami-2004",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as hit by the December 2004 Indian Ocean tsunami.",
+   "text_original": "Named in Saints vol. 4 ch. 34 as hit by the December 2004 Indian Ocean tsunami. Pin one.",
+   "accepts": "country",
+   "topic": "humanitarian aid",
+   "era": "2004",
+   "citation": "Saints vol. 4 ch. 34",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/34-strength-for-any-situation?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "The real tsunami also hit the Maldives, Myanmar, Somalia and others; the prompt is limited to the five Saints names.",
+   "summary": "In December 2004 a huge tsunami in the Indian Ocean struck Indonesia, Thailand, Sri Lanka, India and Malaysia, with Indonesia hit hardest. Church leaders met in Colombo, Sri Lanka, to plan relief for the survivors.",
+   "stamp": null,
+   "gems": [
+    "MYS"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The worst-hit country; Saints names it first."
+    },
+    {
+     "code": "LKA",
+     "name": "Sri Lanka",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Church leaders met in Colombo to plan relief."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Its coast and resorts were struck."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Southeast coast was struck."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Named among the countries struck."
+    }
+   ]
+  }
+ ]
+}

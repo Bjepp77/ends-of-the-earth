@@ -1,0 +1,186 @@
+{
+ "day": 0,
+ "practice": true,
+ "prompts": [
+  {
+   "id": "scripture-translations-1875-1886",
+   "bank": "scripture",
+   "display_text": "Pin a country where Spanish or Swedish is an official language.",
+   "text_original": "A country where Spanish or Swedish, both given the Book of Mormon from 1875 to 1886, is an official language",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1875-1886",
+   "citation": "Church News translation list; Encyclopedia of Mormonism",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://scripturecentral.org/archive/articles/encyclopedia-entry/book-ofmormontranslations"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Spanish selections from the Book of Mormon came out in 1875, and the full Spanish translation in 1886. That opened the book to readers in Spain, most of Latin America and Equatorial Guinea. Swedish got its edition in 1878, serving Sweden and Swedish speakers in Finland.",
+   "stamp": null,
+   "gems": [
+    "CUB",
+    "FIN",
+    "GNQ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Swedish Book of Mormon appeared in 1878."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "CUB",
+     "name": "Cuba",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Swedish, translated 1878, is co-official with Finnish."
+    },
+    {
+     "code": "GNQ",
+     "name": "Equatorial Guinea",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Spanish selections came in 1875 and the full Spanish Book of Mormon in 1886; Spanish is official here."
+    }
+   ]
+  }
+ ]
+}

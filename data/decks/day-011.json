@@ -1,0 +1,470 @@
+{
+ "day": 11,
+ "prompts": [
+  {
+   "id": "history-temples-two-plus-pending",
+   "bank": "history2",
+   "display_text": "Pin a country with two or more temples announced or under construction.",
+   "text_original": "A country with two or more temples announced or under construction (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "Church temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, the Church has many temples announced or under construction around the world. The United States leads with 49, followed by Mexico with 13, Brazil with 12, the Philippines with 8, and Peru and Nigeria with 6 each. Countries such as the Democratic Republic of the Congo, Chile, Ghana and Mozambique also have more than one on the way.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "MOZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "49 temples announced or under construction."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "12 temples announced or under construction."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "13 temples announced or under construction."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "3 temples announced or under construction."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "6 temples announced or under construction."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "8 temples announced or under construction."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "3 temples announced or under construction."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 temples announced or under construction."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "6 temples announced or under construction."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "2 temples announced or under construction."
+    }
+   ]
+  },
+  {
+   "id": "history-dedicator-renlund",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that Dale G. Renlund dedicated or rededicated.",
+   "text_original": "A country where Dale G. Renlund dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Dale G. Renlund dedicated the Kinshasa Democratic Republic of the Congo Temple in 2019, the first temple in that country. He went on to dedicate Belém Brazil (2022), Cobán Guatemala and San Pedro Sula Honduras (2024), and Davao Philippines (2026).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COD"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Belém Brazil (2022)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Davao Philippines (2026)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cobán Guatemala (2024)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Pedro Sula Honduras (2024)."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kinshasa Democratic Republic of the Congo (2019)."
+    }
+   ]
+  },
+  {
+   "id": "apostles-born-outside-usa",
+   "bank": "draft",
+   "display_text": "Pin a country other than the US where a member of the Quorum of the Twelve was born.",
+   "text_original": "Pin a country other than the United States where a member of the Quorum of the Twelve Apostles was born (through October 2026).",
+   "accepts": "country",
+   "topic": "apostles",
+   "era": "1838-2025",
+   "citation": "https://en.wikipedia.org/wiki/List_of_members_of_the_Quorum_of_the_Twelve_Apostles_(LDS_Church)",
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/List_of_members_of_the_Quorum_of_the_Twelve_Apostles_(LDS_Church)",
+    "https://www.deseret.com/faith/2023/12/14/23993671/how-the-newest-latter-day-saint-apostle-ties-a-church-history-record-for-the-quorum-of-the-twelve",
+    "https://en.wikipedia.org/wiki/John_A._Widtsoe",
+    "https://en.wikipedia.org/wiki/Charles_A._Callis",
+    "https://en.wikipedia.org/wiki/Marion_G._Romney",
+    "https://en.wikipedia.org/wiki/Marriner_W._Merrill",
+    "https://en.wikipedia.org/wiki/G%C3%A9rald_Causs%C3%A9",
+    "https://en.wikipedia.org/wiki/Patrick_Kearon"
+   ],
+   "difficulty": 2,
+   "note": "Uchtdorf's birthplace Ostrava is in today's Czechia, so only CZE is accepted, not SVK.",
+   "summary": "Most members of the Quorum of the Twelve Apostles were born in the United States, but many came from abroad. Six were born in England, from John Taylor to Patrick Kearon, and others came from Canada, Denmark, Norway, Ireland and Mexico. Dieter F. Uchtdorf was born in what is now Czechia, Ulisses Soares was the first from South America, and Gerald Causse of France was called in November 2025.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IRL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Six were born in England, from John Taylor to Patrick Kearon."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ulisses Soares, the first from South America."
+    },
+    {
+     "code": "CZE",
+     "name": "Czechia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dieter F. Uchtdorf, born in Ostrava, then Czechoslovakia."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Anthon H. Lund."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Gerald Causse, called in November 2025."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Marion G. Romney, born in Colonia Juarez."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Marriner W. Merrill, born in New Brunswick."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "John A. Widtsoe."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Charles A. Callis, born in Dublin."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-35-africa-stakes-2006",
+   "bank": "draft",
+   "display_text": "Pin an African country that Saints names as having stakes by the mid-2000s.",
+   "text_original": "Saints vol. 4 ch. 35: by the mid-2000s these African countries had stakes. Pin one.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "about 2006",
+   "citation": "Saints vol. 4 ch. 35",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/35-hand-in-hand?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "By the mid-2000s the Church in Africa had grown enough to have stakes in many countries. Saints vol. 4 ch. 35 lists them, starting with the Democratic Republic of the Congo and including Kenya, the Republic of the Congo, Ghana, Cote d'Ivoire, Liberia, Madagascar, Nigeria, South Africa and Zimbabwe.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COG",
+    "LBR",
+    "MDG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named first in the chapter's list."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named among countries with stakes."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named among countries with stakes."
+    }
+   ]
+  },
+  {
+   "id": "bible-pentecost-crowd",
+   "bank": "bible",
+   "display_text": "Pin a country holding a land named in the Pentecost crowd (Acts 2:9-11) or Stephen's synagogue (Acts 6:9).",
+   "text_original": "A present-day country holding a land named among Jews from abroad at Pentecost (Acts 2:9-11) or in the synagogue that disputed with Stephen (Acts 6:9)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Acts 2:9-11; 6:9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng",
+    "https://en.wikipedia.org/wiki/Parthian_Empire",
+    "https://en.wikipedia.org/wiki/Cyrenaica",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/6?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "At Pentecost, Jews from many lands were in Jerusalem when the apostles were filled with the Holy Ghost, and each listener heard them speak in his own language (Acts 2:1-11). The crowd came from lands now in Iraq, Iran, Turkey, Egypt, Libya, Italy and Greece. About three thousand were baptized that day (Acts 2:41), and men from some of the same lands later disputed with Stephen (Acts 6:9).",
+   "stamp": null,
+   "gems": [
+    "LBY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Cappadocia, Pontus, Asia, Phrygia and Pamphylia (Acts 2:9-10) and Cilicia (Acts 6:9) are all in Turkey."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Egypt is named among the homelands of the crowd, and Alexandrians disputed with Stephen (Acts 6:9)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Visitors from Rome heard the apostles at Pentecost (Acts 2:10)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cretans were in the crowd; Crete belongs to Greece."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mesopotamia, the land between the rivers, centres on Iraq."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Parthians, Medes and Elamites came from lands in today's Iran."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The parts of Libya about Cyrene are in eastern Libya; Cyrenians also disputed with Stephen (Acts 6:9)."
+    }
+   ]
+  }
+ ]
+}

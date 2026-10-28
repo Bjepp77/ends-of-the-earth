@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#E9E6E0">
+  <title>Ends of the Earth</title>
+  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/maplibre/maplibre-gl.js"></script>
+</head>
+<body>
+  <div class="app">
+    <section class="stage">
+      <div id="map" class="map" tabindex="0" aria-label="World map. Click or tap to place a pin. Arrow keys pan; P, or Enter with no pin, pins the centre."></div>
+      <div id="bom-map" class="map bom-map" tabindex="0" hidden aria-label="Illustrative Book of Mormon map. Click or tap to place a pin. Drag to pan. Arrow keys pan."></div>
+      <div class="map-ctl map-ctl--zoom">
+        <button type="button" class="sq" id="zoom-in" aria-label="Zoom in">+</button>
+        <button type="button" class="sq" id="zoom-out" aria-label="Zoom out">&minus;</button>
+      </div>
+      <button type="button" class="sq map-ctl map-ctl--reset" id="reset" aria-label="Whole world">&#x2316;</button>
+      <p class="credit" id="credit">Natural Earth</p>
+      <p class="bom-caption" id="bom-caption" hidden>Illustrative map drawn from the text. The Church takes no position on real-world locations of Book of Mormon events.</p>
+
+      <div class="dial" id="dial" hidden aria-hidden="true"><span id="dial-secs">60</span></div>
+      <p class="noclock" id="noclock" hidden>NO CLOCK<br>TAKE YOUR TIME</p>
+
+      <div class="title-card" id="title-card">
+        <p class="title-word">ENDS OF THE EARTH</p>
+        <p class="title-sub" id="title-sub">THE DAILY EXPEDITION</p>
+        <p class="title-tag">Five prompts. Pin a country. Rarer answers travel further.</p>
+      </div>
+
+      <div class="stamp-card" id="stamp-card" hidden>
+        <p class="eyebrow" id="sc-n"></p>
+        <p class="sc-name" id="sc-name"></p>
+        <p class="sc-row"><span class="tier-stamp" id="sc-tier"></span><span class="sc-km" id="sc-km"></span></p>
+        <span class="new-loc" id="sc-new" hidden>NEW LOCATION</span>
+      </div>
+
+      <p class="loading" id="loading">Unrolling the map&hellip;</p>
+    </section>
+
+    <aside class="panel">
+      <header class="hud" id="hud">
+        <button type="button" class="burger" id="menu-btn" aria-label="Menu" aria-controls="menu" aria-expanded="false"><span></span></button>
+        <span class="hud-line" id="hud-line"></span>
+        <span class="hud-dist" id="hud-dist" hidden>
+          <span class="hud-label">DISTANCE</span> <b id="hud-km">0</b> km
+          <span class="meter"><span id="hud-meter"></span></span>
+          <span class="hud-band" id="hud-band"></span>
+        </span>
+        <button type="button" class="speaker" id="sound-btn" aria-label="Mute">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path class="wave" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path class="cross" d="M16 9l6 6M22 9l-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </header>
+
+      <section class="screen" id="home">
+        <p class="home-msg" id="home-msg"></p>
+        <div class="actions">
+          <p class="home-wait" id="home-wait" hidden></p>
+          <button type="button" class="cta" id="play" hidden>PLAY DAILY EXPEDITION</button>
+          <p class="home-streak" id="home-streak" hidden></p>
+          <button type="button" class="textlink" id="practice">HOW TO PLAY · PRACTICE</button>
+        </div>
+      </section>
+
+      <section class="screen" id="round" hidden>
+        <div class="card prompt-card">
+          <p class="eyebrow" id="prompt-n"></p>
+          <p class="prompt" id="prompt-text"></p>
+        </div>
+
+        <label class="search" id="search-wrap" hidden>
+          <span class="eyebrow">FIND BY NAME</span>
+          <select id="search"><option value="">choose a country</option></select>
+        </label>
+
+        <div class="card trail" id="trail" aria-label="Trail">
+          <p class="eyebrow">THE TRAIL</p>
+          <svg class="trail-map" id="trail-map" aria-hidden="true"></svg>
+          <ol class="sr-only" id="trail-list"></ol>
+        </div>
+
+        <div class="card result" id="result" hidden>
+          <p class="result-head"><span class="tier-stamp" id="r-tier"></span><span class="r-km" id="r-km"></span></p>
+          <p class="r-name" id="r-name"></p>
+          <p class="r-line" id="r-line"></p>
+          <p class="fine" id="r-stamp" hidden></p>
+          <p class="fine" id="r-note" hidden></p>
+          <p class="fact-summary" id="r-summary" hidden></p>
+          <p class="fine" id="r-cite" hidden></p>
+          <p class="fine" id="r-ref" hidden></p>
+          <details class="answers" id="r-answers"><summary>SHOW ANSWERS</summary><div></div></details>
+        </div>
+
+        <div class="actions">
+          <p class="readout" id="readout" aria-live="polite">tap to pin</p>
+          <p class="sr-only" id="summary" aria-live="polite"></p>
+          <p class="sr-only" id="prompt-say" aria-live="polite"></p>
+          <p class="sr-only" id="clock-say" aria-live="polite"></p>
+          <button type="button" class="drop" id="drop" aria-disabled="true">DROP PIN</button>
+          <p class="hint" id="hint"><span class="hint-fine">pin &middot; P pins centre &middot; SPACE ENTER drop</span><span class="hint-coarse">tap to pin &middot; tap again to move</span></p>
+        </div>
+      </section>
+
+      <section class="screen" id="camp" hidden>
+        <div class="camp-top">
+          <ol class="card camp-rows" id="camp-rows"></ol>
+          <div class="card poster">
+            <p class="poster-word">ENDS OF THE EARTH</p>
+            <p class="poster-km"><b id="poster-km">0</b> km</p>
+            <p class="poster-band" id="poster-band"></p>
+          </div>
+        </div>
+        <div class="card trail camp-trail" aria-label="Trail">
+          <p class="eyebrow">THE TRAIL</p>
+          <svg class="trail-map" id="camp-trail-map" aria-hidden="true"></svg>
+        </div>
+        <button type="button" class="share" id="share">SHARE</button>
+        <p class="fine center" id="camp-saved">Saved on this device only.</p>
+        <p class="camp-line" id="camp-line"></p>
+        <div class="tiles" id="camp-tiles"></div>
+        <div class="card">
+          <p class="eyebrow">THE ANSWERS</p>
+          <div id="camp-answers"></div>
+        </div>
+        <div class="actions">
+          <p class="camp-next" id="camp-next"></p>
+          <button type="button" class="cta" id="home-btn">RETURN HOME</button>
+        </div>
+      </section>
+
+      <div class="card debug" id="debug" hidden>
+        <p class="eyebrow">HIT RESULT</p>
+        <pre id="hit-json">no pin</pre>
+      </div>
+    </aside>
+  </div>
+
+  <!-- §11 below the fold, home only. Our own words and drawings; every link is a local page (D8). -->
+  <section class="below" id="below" aria-label="About the game">
+    <ol class="steps">
+      <li class="step">
+        <svg viewBox="0 0 64 48" aria-hidden="true"><rect x="10" y="6" width="38" height="28" rx="3" class="ln"/><rect x="16" y="12" width="38" height="28" rx="3" class="ln fill"/><path d="M22 20h22M22 26h16M22 32h10" class="ln"/></svg>
+        <p class="step-t">Read the prompt</p>
+        <p class="fine">Five a day, the same for everyone.</p>
+      </li>
+      <li class="step">
+        <svg viewBox="0 0 64 48" aria-hidden="true"><path d="M6 36c8-6 14 2 22-3s12-9 20-4 10 3 10 3" class="ln"/><path d="M32 30c-6-8-9-12-9-16a9 9 0 0 1 18 0c0 4-3 8-9 16z" class="ln acc"/><circle cx="32" cy="14" r="3" class="ln"/></svg>
+        <p class="step-t">Pin a country</p>
+        <p class="fine">Tap the map, then drop your pin.</p>
+      </li>
+      <li class="step">
+        <svg viewBox="0 0 64 48" aria-hidden="true"><path d="M4 40h56" class="ln"/><path d="M8 40c10-4 16-2 24-8s14-10 22-12" class="ln dash"/><path d="M40 40l9-16 9 16" class="ln"/><path d="M54 20V6l7 3-7 3" class="ln acc"/></svg>
+        <p class="step-t">Go further</p>
+        <p class="fine">Answers few would think of carry you further west.</p>
+      </li>
+    </ol>
+
+    <h2 class="below-h">What is Ends of the Earth?</h2>
+    <p>A daily map game about Latter-day Saint history, the scriptures and the lands of the Bible. Five prompts, one pin each. Obvious answers move you a little along the trail; answers few would think of carry you further, from Nauvoo toward the Salt Lake Valley.</p>
+
+    <h2 class="below-h">Questions</h2>
+    <div class="faq" id="faq">
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q1" aria-expanded="false" aria-controls="faq-a1">What does the name mean?</button></h3>
+        <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1" hidden><p>Ends of the earth is our top tier: the answer few people would think of. Every prompt has at least one.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">How do I play?</button></h3>
+        <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden><p>Right here in the browser, no account. Read the prompt, tap a country, then press DROP PIN. You get 60 seconds a prompt, or 30 if you choose the shorter clock under Difficulty in the menu.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">Who made this?</button></h3>
+        <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden><p>A family made it to play at home. It is an independent project, not made or endorsed by The Church of Jesus Christ of Latter-day Saints. More on the About page.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">Can I play more than one a day?</button></h3>
+        <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden><p>There is no unlimited mode. Past week in the menu keeps the last seven days open, and How to play has a practice round that never counts.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">When does a new expedition start?</button></h3>
+        <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5" hidden><p>At midnight where you are. Everyone gets the same five prompts on the same date. A day played late is logged but does not count toward your streak.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">Why do some answers go further?</button></h3>
+        <div class="faq-a" id="faq-a6" role="region" aria-labelledby="faq-q6" hidden><p>Each answer is ranked by how readily it comes to mind: Home ward 40 km, Stake 55, Mission 70, Isles of the sea 85, Ends of the earth 100. A country that does not fit is a Miss, 0 km.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q7" aria-expanded="false" aria-controls="faq-a7">What if another answer should count?</button></h3>
+        <div class="faq-a" id="faq-a7" role="region" aria-labelledby="faq-q7" hidden><p>In camp, open a prompt under The answers and press SHOULD SOMETHING ELSE COUNT?. It writes a note you can copy and pass on. Nothing is sent from the game. Decisions so far are on the Rulings page.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3><button type="button" class="faq-q" id="faq-q8" aria-expanded="false" aria-controls="faq-a8">Is there a phone app?</button></h3>
+        <div class="faq-a" id="faq-a8" role="region" aria-labelledby="faq-q8" hidden><p>No. It runs in the browser on a phone or a computer.</p></div>
+      </div>
+    </div>
+
+    <footer class="foot">
+      <nav class="page-links" aria-label="Pages">
+        <a href="how-to-play/">HOW TO PLAY</a>
+        <a href="about/">ABOUT</a>
+        <a href="blog/">BLOG</a>
+        <a href="rulings/">RULINGS</a>
+      </nav>
+      <button type="button" class="textlink" id="back-top">BACK TO TODAY'S EXPEDITION</button>
+      <p class="fine">Map data: Natural Earth. Saved on this device only.</p>
+    </footer>
+  </section>
+
+  <div class="menu-shade" id="menu-shade" hidden></div>
+  <nav class="drawer" id="menu" aria-label="Menu" hidden>
+    <button type="button" class="menu-back" id="menu-back"><small>BACK TO</small><span id="menu-back-to">Home</span></button>
+    <div id="menu-body"></div>
+  </nav>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,420 @@
+{
+ "day": 9,
+ "prompts": [
+  {
+   "id": "temples-dedicated-1983",
+   "bank": "draft",
+   "display_text": "Pin a country or territory where a temple was dedicated in 1983.",
+   "text_original": "Pin a country or territory where a temple was dedicated in 1983.",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1983",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "1983 was a busy year for temple dedications. Temples were dedicated in Mexico City, in Santiago, Chile (the first in Spanish-speaking South America), in Atlanta, and in three Pacific island capitals: Apia, Nuku'alofa and Papeete.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City temple."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Atlanta Georgia temple."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago temple, the first in Spanish-speaking South America."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nuku'alofa temple."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia temple."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Papeete temple."
+    }
+   ]
+  },
+  {
+   "id": "temples-oceania-dedicated",
+   "bank": "draft",
+   "display_text": "Pin a country or territory in Oceania, not counting Hawaii, with a dedicated temple.",
+   "text_original": "Not counting Hawaii, pin a country or territory in Oceania with a dedicated temple (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1958-2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": "A USA pin does not count here, since Hawaii is excluded.",
+   "summary": "Outside Hawaii, the first temple in the Pacific was dedicated in Hamilton, New Zealand, in 1958. In 1983 three island temples were dedicated, in Samoa, Tonga and Tahiti in French Polynesia. Sydney followed in 1984, Suva, Fiji, in 2000, and Yigo, Guam, in 2022.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "GUM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hamilton, 1958."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sydney, 1984."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nuku'alofa, 1983."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia, 1983."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Suva, 2000."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Papeete, 1983."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo, 2022."
+    }
+   ]
+  },
+  {
+   "id": "scripture-isaiah-2-nephi-17-20",
+   "bank": "scripture",
+   "display_text": "Pin a present-day country holding Damascus, Assyria, Egypt, Carchemish, Galilee or Lebanon (2 Nephi 17-20, Isaiah 7-10).",
+   "text_original": "A country containing a land or city named in the Isaiah chapters 2 Nephi 17-20 (Damascus, Assyria, Egypt, Carchemish, Galilee, Lebanon)",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "about 735-700 BC, quoted about 550 BC",
+   "citation": "2 Nephi 17-20 (Isaiah 7-10)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/20?lang=eng",
+    "https://en.wikipedia.org/wiki/Carchemish",
+    "https://en.wikipedia.org/wiki/Hama",
+    "https://en.wikipedia.org/wiki/Arpad,_Syria",
+    "https://en.wikipedia.org/wiki/Nineveh",
+    "https://en.wikipedia.org/wiki/Galilee"
+   ],
+   "difficulty": 3,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "2 Nephi 17-20 quotes Isaiah 7-10, prophecies from about 735 to 700 BC that Nephi included in his record. The king of Assyria, whose heartland lay in today's northern Iraq, looms over these chapters, alongside places such as Damascus in Syria, Egypt, Galilee, Lebanon and Carchemish on the Euphrates.",
+   "stamp": null,
+   "gems": [
+    "TUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Galilee of the nations is named in 2 Nephi 19:1."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "'The head of Syria is Damascus' (2 Nephi 17:8); Hamath and Arpad (20:9) are also in Syria."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Lord hisses for 'the fly that is in the uttermost part of Egypt' (2 Nephi 17:18)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The king of Assyria, whose heartland was northern Iraq, runs through these chapters."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "'Lebanon shall fall by a mighty one' (2 Nephi 20:34)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Carchemish (2 Nephi 20:9) lies on the Euphrates, its ruins mostly on the Turkish side of the border."
+    }
+   ]
+  },
+  {
+   "id": "membership-100k-200k",
+   "bank": "draft",
+   "display_text": "Pin a country with 100,000 to 200,000 Church members (end of 2025).",
+   "text_original": "Pin a country with between 100,000 and 200,000 Church members (end of 2025).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/honduras",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-kingdom",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/venezuela",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/australia",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/democratic-republic-of-the-congo",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/dominican-republic",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/el-salvador",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/japan",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/ghana",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/new-zealand",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/uruguay",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nicaragua",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/paraguay",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/samoa",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/south-korea"
+   ],
+   "difficulty": 3,
+   "note": "Next below the line: Samoa (about 91,000) and South Korea (about 89,000).",
+   "summary": "At the end of 2025 thirteen countries had between 100,000 and 200,000 Church members. They span Latin America, Europe, Africa, Asia and the Pacific, from Honduras (about 197,000) and the United Kingdom (about 190,000) to Ghana, Japan and New Zealand.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NIC",
+    "PRY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 190,000 members."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 165,000 members."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 132,000 members."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 121,000 members."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 160,000 members."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 156,000 members."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 123,000 members."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 197,000 members."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 132,000 members."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 112,000 members."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 179,000 members."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 1,
+     "gem": true,
+     "fact": "About 107,000 members."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "About 106,000 members."
+    }
+   ]
+  },
+  {
+   "id": "bible-foreign-king-home",
+   "bank": "bible",
+   "display_text": "Pin a present-day country that was home to a foreign king named in the Old Testament.",
+   "text_original": "A present-day country that was home to a foreign king named in the Old Testament",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Kings; Ezra; Daniel",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "The Old Testament names kings from many neighboring lands. Hiram of Tyre supplied cedar for Solomon's temple, Mesha of Moab rebelled against Israel, and Achish of Gath took in David when he fled from Saul (1 Samuel 27:1-4). Later Cyrus, king of Persia, proclaimed that Jews could return to Jerusalem to build the house of the Lord (Ezra 1:1-3).",
+   "stamp": null,
+   "gems": [
+    "JOR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pharaohs from Joseph's day to Necho ruled from Egypt."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Nebuchadnezzar and Sennacherib ruled from Iraq."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cyrus and Darius were Persian kings (Ezra 1; 6)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Achish, king of Gath, sheltered David (1 Samuel 27)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hiram of Tyre supplied cedar for Solomon's temple (1 Kings 5)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ben-hadad and Hazael ruled Aram from Damascus."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Mesha, king of Moab, rebelled against Israel (2 Kings 3:4)."
+    }
+   ]
+  }
+ ]
+}

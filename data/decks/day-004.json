@@ -1,0 +1,433 @@
+{
+ "day": 4,
+ "prompts": [
+  {
+   "id": "history-dedicator-andersen",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that Neil L. Andersen dedicated or rededicated.",
+   "text_original": "A country where Neil L. Andersen dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/article/elder-neil-l-andersen-dedicates-the-farmington-new-mexico-temple",
+    "https://www.thechurchnews.com/temples/2023/9/17/23878168/brazil-capital-city-brasilia-nations-10th-dedicated-temple-elder-neil-andersen/",
+    "https://newsroom.churchofjesuschrist.org/article/elder-andersen-dedicates-the-salvador-brazil-temple",
+    "https://newsroom.churchofjesuschrist.org/article/elder-andersen-dedicates-bacolod-philippines-temple"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Neil L. Andersen of the Quorum of the Twelve Apostles has dedicated temples on several continents. They include Lisbon Portugal (2019), Praia Cape Verde (2022), Brasília (2023) and Salvador (2024) in Brazil, and Farmington New Mexico (2025). On May 31, 2026, he dedicated Bacolod, the sixth dedicated temple in the Philippines.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Farmington New Mexico (2025)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Brasília Brazil (2023); Salvador Brazil (2024)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bacolod Philippines (2026)."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lisbon Portugal (2019)."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde (2022)."
+    }
+   ]
+  },
+  {
+   "id": "temples-exactly-two",
+   "bank": "draft",
+   "display_text": "Pin a country with exactly two dedicated temples.",
+   "text_original": "Pin a country with exactly two dedicated temples (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Several countries had exactly two dedicated temples as of October 2026. Examples include New Zealand (Hamilton and Auckland), Germany (Freiberg and Frankfurt), South Africa (Johannesburg and Durban) and Ecuador (Guayaquil and Quito). In the United Kingdom both temples, London and Preston, are in England.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "HND"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "London and Preston, both in England."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg and Frankfurt."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamilton and Auckland."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bogota and Barranquilla."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Guayaquil and Quito."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Johannesburg and Durban."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tegucigalpa and San Pedro Sula."
+    }
+   ]
+  },
+  {
+   "id": "bible-table-of-nations",
+   "bank": "bible",
+   "display_text": "Pin a present-day country with a land or city from the Genesis 10 Table of Nations whose site is agreed.",
+   "text_original": "A present-day country with a land or city in the Genesis 10 Table of Nations whose site is agreed",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 10",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10?lang=eng",
+    "https://en.wikipedia.org/wiki/Kition",
+    "https://en.wikipedia.org/wiki/Generations_of_Noah",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/javan?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Genesis 10 lists the families of Noah's sons Shem, Ham and Japheth, from whom the nations spread after the flood (Genesis 10:1, 32). Many names match real places: Mizraim is Egypt, Javan is Greece, Elam and Madai are in Iran, and Babel and Nineveh are in Iraq. Sidon is called Canaan's firstborn (Genesis 10:15).",
+   "stamp": null,
+   "gems": [
+    "CYP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Babel, Erech, Accad, Nineveh and Calah are named (Genesis 10:10-11)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mizraim is the Hebrew name for Egypt."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Gerar, on the Canaanite border between Sidon and Gaza (Genesis 10:19), lies in Israel whichever proposed site is right."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sidon is Canaan's firstborn (Genesis 10:15)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Javan, son of Japheth, is the Hebrew name for the Greeks."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elam and Madai (the Medes) were in today's Iran."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Arvadites and Hamathites point to Arwad and Hama."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kittim takes its name from Kition, a city on Cyprus."
+    }
+   ]
+  },
+  {
+   "id": "bible-paul-travels-letters",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where Paul set foot in Acts, or that held a church he wrote to or a place he meant to visit.",
+   "text_original": "A present-day country where Paul set foot in Acts, or that held a church he wrote to or a place he planned to visit",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Acts 9; 13-28; Romans to Philemon; Romans 15",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/col/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "After his conversion, Paul preached in Damascus and then spent years carrying the gospel across the Roman world. Born in Tarsus in today's Turkey, he founded churches at Philippi, Thessalonica and Corinth in Greece and later wrote letters to them. Acts ends with Paul living under guard in Rome, and he told the Romans he hoped to go on to Spain (Romans 15:24, 28).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul founded churches at Philippi, Thessalonica and Corinth, was jailed at Philippi and wrote to all three (Acts 16-18)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul landed at Ptolemais and was held two years at Caesarea (Acts 21:7-8; 24:27)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul was born in Tarsus, was stoned at Lystra and wrote to the Galatians, Ephesians and Colossians (Acts 14:19; 21:39)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul preached in the synagogues of Salamis and went on to Paphos (Acts 13:5-6)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul wrote his longest letter to Rome and lived there two years under guard (Acts 28:16, 30)."
+    },
+    {
+     "code": "MLT",
+     "name": "Malta",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul spent three months on Malta after the shipwreck (Acts 28:1-11)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul preached in the Damascus synagogues and escaped over the wall in a basket (Acts 9:20, 25)."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Paul told the Romans he planned to go on to Spain by way of Rome (Romans 15:24, 28)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Paul stayed a week with disciples at Tyre and visited friends at Sidon (Acts 21:3-4; 27:3)."
+    }
+   ]
+  },
+  {
+   "id": "membership-asia-oceania-30k",
+   "bank": "draft",
+   "display_text": "Pin a country or territory in Asia or Oceania with 30,000+ Church members (end of 2025).",
+   "text_original": "Pin a country or territory in Asia or Oceania with 30,000 or more Church members (end of 2025).",
+   "accepts": "country_or_territory",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/australia",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/japan",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/new-zealand",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/samoa",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/south-korea",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/tonga",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/taiwan",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/papua-new-guinea",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/french-polynesia",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/hong-kong",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/thailand",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/fiji",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/kiribati"
+   ],
+   "difficulty": 2,
+   "note": "Next below the line: Hong Kong, Fiji and Thailand (about 25,000 each), Kiribati (about 23,600).",
+   "summary": "The Philippines had about 905,000 Church members at the end of 2025, by far the most in Asia or Oceania. Australia, Japan and New Zealand each had more than 100,000. Samoa, South Korea, Tonga, Taiwan, Papua New Guinea and French Polynesia also had 30,000 or more.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 905,000 members."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 165,000 members."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 132,000 members."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 121,000 members."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 89,000 members."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 70,000 members."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 63,000 members."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 91,000 members."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 47,000 members."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "About 30,000 members, just over the line."
+    }
+   ]
+  }
+ ]
+}

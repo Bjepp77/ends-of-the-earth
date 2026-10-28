@@ -1,0 +1,483 @@
+{
+ "day": 10,
+ "prompts": [
+  {
+   "id": "temples-south-america-dedicated",
+   "bank": "draft",
+   "display_text": "Pin a South American country with a dedicated temple.",
+   "text_original": "Pin a South American country with at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": "Only Guyana and Suriname lack one.",
+   "summary": "South America's first temple was dedicated in Sao Paulo, Brazil, in 1978. By 2002 ten South American countries had one, the last of them Asuncion, Paraguay. As of October 2026, only Guyana and Suriname lack a temple.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY",
+    "URY",
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Sao Paulo, 1978, South America's first."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Buenos Aires, 1986."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago, 1983."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima, 1986."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cochabamba, 2000."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bogota, 1999."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guayaquil, 1999."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Asuncion, 2002."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Montevideo, 2001."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Caracas, 2000."
+    }
+   ]
+  },
+  {
+   "id": "temples-central-america-caribbean",
+   "bank": "draft",
+   "display_text": "Pin a Central American or Caribbean country or territory, not Mexico, with a dedicated temple.",
+   "text_original": "Excluding Mexico, pin a Central American or Caribbean country or territory with a dedicated temple (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1984-2026",
+   "citation": "temple list, 26 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Guatemala City got the first temple in Central America in 1984, and Guatemala now has four. Costa Rica and the Dominican Republic followed in 2000, and more have come since, most recently Port-au-Prince (2019), San Juan (2023) and Managua (2026).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NIC"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Four temples; first in 1984."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santo Domingo, 2000."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Jose, 2000."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tegucigalpa, 2013."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Port-au-Prince, 2019."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Panama City, 2008."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Juan, 2023."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Salvador, 2011."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Managua, 2026."
+    }
+   ]
+  },
+  {
+   "id": "scripture-americas-indigenous-languages",
+   "bank": "scripture",
+   "display_text": "Pin a country where an Indigenous American language with Book of Mormon text is spoken natively.",
+   "text_original": "A country where an Indigenous American language with Book of Mormon text (Aymara, Quechua, Mayan languages, Navajo, Kuna, Guarani...) is spoken natively",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1977-2011",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Q%CA%BCeqchi%CA%BC_language",
+    "https://en.wikipedia.org/wiki/Languages_of_Belize"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Since 1977 Book of Mormon text has come out in many Indigenous languages of the Americas. Guatemala has Cakchiquel, Kekchi, Quiche and Mam; Bolivia has Aymara and Quechua; Paraguay has Guarani; and in the United States, Navajo got a full text in 1998.",
+   "stamp": null,
+   "gems": [
+    "ARG",
+    "BLZ",
+    "CHL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Cakchiquel, Kekchi, Quiche and Mam all got Book of Mormon text from 1978 to 1983."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Aymara and Bolivian Quechua have Book of Mormon text."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Maya (1983) and Tzotzil (1994) selections serve Mexico's south."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Peruvian Quechua selections came in 1979; Aymara is also spoken there."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Navajo selections came in 1980 and the full text in 1998."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ecuadorian Quichua selections came in 1980 and the full text in 2011."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guarani selections came in 1982 and the full text in 2009."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kuna selections appeared in 1981."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Guarani, with a full 2009 Book of Mormon, is spoken in northeast Argentina."
+    },
+    {
+     "code": "BLZ",
+     "name": "Belize",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kekchi (Q'eqchi'), with Book of Mormon text, is spoken in southern Belize; Yucatec Maya is also spoken in Belize."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Aymara, with a full 1986 Book of Mormon, is spoken in far northern Chile."
+    }
+   ]
+  },
+  {
+   "id": "membership-central-america-caribbean-25k",
+   "bank": "draft",
+   "display_text": "Pin a Central American or Caribbean country or territory, not Mexico, with 25,000+ Church members (end of 2025).",
+   "text_original": "Pin a Central American (Guatemala to Panama) or Caribbean country or territory with 25,000 or more Church members (end of 2025).",
+   "accepts": "country_or_territory",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/guatemala",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/honduras",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/dominican-republic",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/el-salvador",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nicaragua",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/panama",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/costa-rica",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/haiti",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/puerto-rico",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/jamaica",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/belize",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/trinidad-and-tobago"
+   ],
+   "difficulty": 2,
+   "note": "Next below the line: Jamaica (about 7,900), Belize (about 5,700).",
+   "summary": "Guatemala had about 297,000 Church members at the end of 2025, the most in Central America and the Caribbean. Honduras, the Dominican Republic, El Salvador and Nicaragua each had more than 100,000, and Panama, Costa Rica, Haiti and Puerto Rico had 25,000 or more.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRI"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 297,000 members."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 156,000 members."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 197,000 members."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 132,000 members."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 58,000 members."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 27,500 members."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 107,000 members."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 64,000 members."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 1,
+     "gem": true,
+     "fact": "About 27,000 members, just over the line."
+    }
+   ]
+  },
+  {
+   "id": "scripture-translations-1997-2021",
+   "bank": "scripture",
+   "display_text": "Pin a European country whose official language first got the Book of Mormon from 1997 to 2021.",
+   "text_original": "A European country where an official language first got the Book of Mormon between 1997 and 2021",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1997-2021",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Between 1997 and 2021 the Book of Mormon reached many languages of eastern and southern Europe, starting with Ukrainian (1997) and Albanian (1999). Estonian, Latvian and Lithuanian all came in 2000, followed by Slovenian (2002), Serbian (2008), Slovak (2013) and Macedonian (2021).",
+   "stamp": null,
+   "gems": [
+    "BIH",
+    "MKD"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Ukrainian Book of Mormon appeared in 1997."
+    },
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Albanian Book of Mormon appeared in 1999."
+    },
+    {
+     "code": "EST",
+     "name": "Estonia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Estonian Book of Mormon appeared in 2000."
+    },
+    {
+     "code": "LTU",
+     "name": "Lithuania",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Lithuanian Book of Mormon appeared in 2000."
+    },
+    {
+     "code": "LVA",
+     "name": "Latvia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Latvian Book of Mormon appeared in 2000."
+    },
+    {
+     "code": "SRB",
+     "name": "Serbia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Serbian Book of Mormon appeared in 2008."
+    },
+    {
+     "code": "SVK",
+     "name": "Slovakia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Slovak Book of Mormon appeared in 2013, eighty years after Czech."
+    },
+    {
+     "code": "SVN",
+     "name": "Slovenia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Slovenian Book of Mormon appeared in 2002."
+    },
+    {
+     "code": "BIH",
+     "name": "Bosnia and Herzegovina",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Serbian, translated 2008, is one of Bosnia's official languages."
+    },
+    {
+     "code": "MKD",
+     "name": "North Macedonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Macedonian got its Book of Mormon in 2021; Albanian (1999) is also co-official there."
+    }
+   ]
+  }
+ ]
+}

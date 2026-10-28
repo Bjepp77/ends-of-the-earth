@@ -1,0 +1,54 @@
+{
+  "source": "ours",
+  "note": "Our own 39 souvenirs (ruling 12). The original's conditions were never observed. Each condition is metric >= goal over the stored logs; metrics are defined in web/panels.js souvenirFacts.",
+  "groups": [
+    { "id": "kit", "name": "The wagon box" },
+    { "id": "trail", "name": "Trail markers" },
+    { "id": "long", "name": "The long road" },
+    { "id": "hard", "name": "Hard going" }
+  ],
+  "souvenirs": [
+    { "id": "walking-stick", "group": "kit", "name": "Walking stick", "note": "Finish your first expedition.", "metric": "played", "goal": 1, "source": "ours" },
+    { "id": "pioneer-journal", "group": "kit", "name": "Pioneer journal", "note": "Log 3 expeditions.", "metric": "played", "goal": 3, "source": "ours" },
+    { "id": "tin-cup", "group": "kit", "name": "Tin cup", "note": "Pin a Home ward answer.", "metric": "tier:home-ward", "goal": 1, "source": "ours" },
+    { "id": "patchwork-quilt", "group": "kit", "name": "Patchwork quilt", "note": "Pin a Stake answer.", "metric": "tier:stake", "goal": 1, "source": "ours" },
+    { "id": "brass-compass", "group": "kit", "name": "Brass compass", "note": "Pin a Mission answer.", "metric": "tier:mission", "goal": 1, "source": "ours" },
+    { "id": "spyglass", "group": "kit", "name": "Spyglass", "note": "Pin an Isles of the sea answer.", "metric": "tier:isles", "goal": 1, "source": "ours" },
+    { "id": "lantern", "group": "kit", "name": "Lantern", "note": "Pin an Ends of the earth answer.", "metric": "tier:ends", "goal": 1, "source": "ours" },
+    { "id": "hymnbook", "group": "kit", "name": "Hymnbook", "note": "Stamp 5 countries in your passport.", "metric": "stamped", "goal": 5, "source": "ours" },
+    { "id": "map-case", "group": "kit", "name": "Map case", "note": "Stamp 10 countries in your passport.", "metric": "stamped", "goal": 10, "source": "ours" },
+    { "id": "fiddle", "group": "kit", "name": "Fiddle", "note": "Finish a day with no misses.", "metric": "perfectDays", "goal": 1, "source": "ours" },
+    { "id": "sunbonnet", "group": "kit", "name": "Sunbonnet", "note": "Play 2 days in a row.", "metric": "longestStreak", "goal": 2, "source": "ours" },
+    { "id": "pocket-watch", "group": "kit", "name": "Pocket watch", "note": "Land a correct pin as the clock runs out.", "metric": "timeoutHits", "goal": 1, "source": "ours" },
+    { "id": "water-barrel", "group": "kit", "name": "Water barrel", "note": "Travel 500 km in total.", "metric": "traveled", "goal": 500, "source": "ours" },
+    { "id": "seed-sack", "group": "kit", "name": "Seed sack", "note": "Pin answers from 3 different tiers in one day.", "metric": "tiersInDay", "goal": 3, "source": "ours" },
+    { "id": "axe", "group": "kit", "name": "Axe", "note": "Make up a missed day from the past week.", "metric": "lateDays", "goal": 1, "source": "ours" },
+    { "id": "ox-yoke", "group": "kit", "name": "Ox yoke", "note": "Pin 25 correct answers in total.", "metric": "hits", "goal": 25, "source": "ours" },
+    { "id": "sourdough-crock", "group": "kit", "name": "Sourdough crock", "note": "Pin 10 Home ward answers.", "metric": "tier:home-ward", "goal": 10, "source": "ours" },
+
+    { "id": "sugar-creek", "group": "trail", "name": "Sugar Creek", "note": "Finish a day with at least 40 km.", "metric": "best", "goal": 40, "source": "ours" },
+    { "id": "winter-quarters", "group": "trail", "name": "Winter Quarters", "note": "End a day at Winter Quarters or beyond.", "metric": "bandDays:winter-quarters", "goal": 1, "source": "ours" },
+    { "id": "chimney-rock", "group": "trail", "name": "Chimney Rock", "note": "End a day at Chimney Rock or beyond.", "metric": "bandDays:chimney-rock", "goal": 1, "source": "ours" },
+    { "id": "independence-rock", "group": "trail", "name": "Independence Rock", "note": "End 3 days at Chimney Rock or beyond.", "metric": "bandDays:chimney-rock", "goal": 3, "source": "ours" },
+    { "id": "south-pass", "group": "trail", "name": "South Pass", "note": "End a day at South Pass or beyond.", "metric": "bandDays:south-pass", "goal": 1, "source": "ours" },
+    { "id": "fort-bridger", "group": "trail", "name": "Fort Bridger", "note": "End 3 days at South Pass or beyond.", "metric": "bandDays:south-pass", "goal": 3, "source": "ours" },
+    { "id": "this-is-the-place", "group": "trail", "name": "This is the place", "note": "Reach the Salt Lake Valley with a 500 km day.", "metric": "bandDays:salt-lake-valley", "goal": 1, "source": "ours" },
+
+    { "id": "three-days-march", "group": "long", "name": "Three days' march", "note": "Play 3 days in a row.", "metric": "longestStreak", "goal": 3, "source": "ours" },
+    { "id": "a-week-on-the-trail", "group": "long", "name": "A week on the trail", "note": "Play 7 days in a row.", "metric": "longestStreak", "goal": 7, "source": "ours" },
+    { "id": "ten-camps", "group": "long", "name": "Ten camps", "note": "Log 10 expeditions.", "metric": "played", "goal": 10, "source": "ours" },
+    { "id": "twenty-camps", "group": "long", "name": "Twenty camps", "note": "Log 20 expeditions.", "metric": "played", "goal": 20, "source": "ours" },
+    { "id": "a-thousand-km", "group": "long", "name": "A thousand kilometres", "note": "Travel 1,000 km in total.", "metric": "traveled", "goal": 1000, "source": "ours" },
+    { "id": "across-the-plains", "group": "long", "name": "Across the plains", "note": "Travel 3,000 km in total.", "metric": "traveled", "goal": 3000, "source": "ours" },
+    { "id": "full-passport", "group": "long", "name": "Well-thumbed passport", "note": "Stamp 25 countries in your passport.", "metric": "stamped", "goal": 25, "source": "ours" },
+    { "id": "many-nations", "group": "long", "name": "Many nations", "note": "Stamp 50 countries in your passport.", "metric": "stamped", "goal": 50, "source": "ours" },
+    { "id": "every-continent", "group": "long", "name": "Every continent", "note": "Stamp a country on all six inhabited continents.", "metric": "continents", "goal": 6, "source": "ours" },
+    { "id": "isles-of-the-sea", "group": "long", "name": "Ocean crossing", "note": "Stamp 5 countries in Oceania.", "metric": "continent:Oceania", "goal": 5, "source": "ours" },
+
+    { "id": "forced-march", "group": "hard", "name": "Forced march", "note": "Finish a day on the 30 s clock.", "metric": "assistDays:4", "goal": 1, "source": "ours" },
+    { "id": "no-signposts", "group": "hard", "name": "No signposts", "note": "Finish a day with country names off.", "metric": "assistDays:1", "goal": 1, "source": "ours" },
+    { "id": "open-prairie", "group": "hard", "name": "Open prairie", "note": "Finish a day with borders off.", "metric": "assistDays:2", "goal": 1, "source": "ours" },
+    { "id": "by-the-stars", "group": "hard", "name": "By the stars", "note": "Finish a day with all three assists off.", "metric": "assistDays:7", "goal": 1, "source": "ours" },
+    { "id": "big-mountain", "group": "hard", "name": "Big Mountain", "note": "End a day at South Pass or beyond with any assist off.", "metric": "hardBest", "goal": 350, "source": "ours" }
+  ]
+}

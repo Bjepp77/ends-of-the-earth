@@ -1,0 +1,449 @@
+{
+ "day": 12,
+ "prompts": [
+  {
+   "id": "history-dedicator-eyring",
+   "bank": "history2",
+   "display_text": "Pin a country with a temple standing today that Henry B. Eyring dedicated or rededicated.",
+   "text_original": "A country where Henry B. Eyring dedicated or rededicated a temple now in use (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Henry B. Eyring dedicated new temples in San Salvador El Salvador (2011) and Paris France (2017), the first temples in both countries. Many of his assignments were rededications of renovated temples, including Buenos Aires (2012), Mexico City and Montreal (2015), Suva Fiji (2016), Idaho Falls (2017) and Tokyo Japan (2022).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FJI"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Idaho Falls Idaho (rededicated 2017); Jordan River Utah (rededicated 2018); Oklahoma City Oklahoma (rededicated 2019); and others."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico City Mexico (rededicated 2015)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (rededicated 2012)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Montreal Quebec (rededicated 2015)."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Tokyo Japan (rededicated 2022)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Paris France (2017)."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Salvador El Salvador (2011)."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Suva Fiji (rededicated 2016)."
+    }
+   ]
+  },
+  {
+   "id": "history-temples-construction-asiapac",
+   "bank": "history2",
+   "display_text": "Pin a country or territory in Asia or the Pacific with a temple under construction, not yet dedicated.",
+   "text_original": "Pin a country or territory in Asia or the Pacific with a temple under construction but not yet dedicated (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "Church temple list and ChurchofJesusChristTemples.org (temples under construction), read 26 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/statistics/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As of October 2026, many Asia and Pacific temples are under construction. The Philippines has three underway, at Cagayan de Oro, Tacloban City and Naga, and others are being built in Bengaluru India, Singapore, Port Moresby Papua New Guinea, Kaohsiung Taiwan, Wellington New Zealand, Pago Pago American Samoa, and island nations such as Tonga, Vanuatu and Kiribati.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KIR",
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cagayan de Oro Philippines; Tacloban City Philippines; Naga Philippines (under construction)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Wellington New Zealand (under construction)."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Pago Pago American Samoa (under construction)."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bengaluru India (under construction)."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Port Moresby Papua New Guinea (under construction)."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Singapore (under construction)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Neiafu Tonga (under construction)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kaohsiung Taiwan (under construction)."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tarawa Kiribati (under construction)."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Vila Vanuatu (under construction)."
+    }
+   ]
+  },
+  {
+   "id": "bible-paul-sea-voyages",
+   "bank": "bible",
+   "display_text": "Pin a present-day country whose port, coast or island Paul's ship called at or sailed past (Acts 21:1-8; 27-28).",
+   "text_original": "A present-day country whose port, coast or island Paul's ship called at or sailed past (Acts 21:1-8; 27-28)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Acts 21:1-8; 27-28",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Paul made two long sea journeys late in Acts. First he sailed by Cos, Rhodes, Patara and Tyre to Ptolemais (Acts 21:1-8). Later, as a prisoner bound for Italy, he passed Cyprus, changed ships at Myra and sheltered at Crete before a storm wrecked the ship on Malta. All 276 people aboard reached land safely (Acts 27:37, 44), and the voyage ended at Puteoli in Italy.",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The voyage ended at Puteoli, after Syracuse on Sicily and Rhegium (Acts 28:12-13)."
+    },
+    {
+     "code": "MLT",
+     "name": "Malta",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The ship wrecked on Malta, called Melita (Acts 28:1)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The ships touched Cos and Rhodes and sheltered at Fair Havens on Crete (Acts 21:1; 27:8)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul landed at Ptolemais (Acre) and went on to Caesarea, where his later voyage began (Acts 21:7-8; 23:33; 24:27)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul changed ships at Patara and again at Myra in Lycia (Acts 21:1-2; 27:5-6)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The ship sailed under the lee of Cyprus because of contrary winds (Acts 27:4)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The ship unloaded at Tyre, and later Paul was let ashore to see friends at Sidon (Acts 21:3; 27:3)."
+    }
+   ]
+  },
+  {
+   "id": "scripture-translations-1965-1977",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory where Chinese, Rarotongan, Korean, Afrikaans, Thai, Indonesian or Aymara is official.",
+   "text_original": "A country or territory where Chinese, Rarotongan, Korean, Afrikaans, Thai, Indonesian or Aymara (Book of Mormon text 1965-1977) is official",
+   "accepts": "country_or_territory",
+   "topic": "scripture geography",
+   "era": "1965-1977",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Languages_of_Macau",
+    "https://raw.githubusercontent.com/factbook/factbook.json/master/east-n-southeast-asia/tw.json"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Between 1965 and 1977 the Book of Mormon reached Chinese and Rarotongan (1965), Korean (1967), Afrikaans (1972), Thai (1976), Indonesian (1977) and Aymara selections (1977). Chinese alone serves readers in China, Taiwan, Hong Kong, Macau and Singapore.",
+   "stamp": null,
+   "gems": [
+    "MAC",
+    "PER",
+    "PRK",
+    "SGP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Korean Book of Mormon appeared in 1967."
+    },
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Chinese Book of Mormon appeared in 1965."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Indonesian Book of Mormon appeared in 1977."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Thai Book of Mormon appeared in 1976."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Chinese, translated 1965, is Taiwan's official language (Mandarin)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Afrikaans Book of Mormon appeared in 1972."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Aymara selections appeared in 1977 and the full text in 1986."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Rarotongan (Cook Islands Maori) got its Book of Mormon in 1965."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Chinese, translated 1965, is official in Hong Kong."
+    },
+    {
+     "code": "MAC",
+     "name": "Macau",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Chinese, translated 1965, is one of Macau's two official languages, with Portuguese."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Aymara, given Book of Mormon selections in 1977, is co-official in Peru."
+    },
+    {
+     "code": "PRK",
+     "name": "North Korea",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Korean, translated 1967, is North Korea's language."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Mandarin Chinese, translated 1965, is one of Singapore's official languages."
+    }
+   ]
+  },
+  {
+   "id": "membership-africa-50k",
+   "bank": "draft",
+   "display_text": "Pin an African country with 50,000+ Church members (end of 2025).",
+   "text_original": "Pin an African country with 50,000 or more Church members (end of 2025).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/democratic-republic-of-the-congo",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/ghana",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/south-africa",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/cote-divoire",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/zimbabwe",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/sierra-leone",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mozambique"
+   ],
+   "difficulty": 2,
+   "note": "Next below the line: Sierra Leone (about 42,000) and Mozambique (about 39,000).",
+   "summary": "Nigeria had the most Church members in Africa at the end of 2025, about 274,000. The Democratic Republic of the Congo (about 160,000) and Ghana (about 123,000) came next, followed by South Africa, Cote d'Ivoire and Zimbabwe.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CIV",
+    "ZWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 274,000 members."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 123,000 members."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 79,000 members."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 160,000 members."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 71,000 members."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 52,000 members."
+    }
+   ]
+  }
+ ]
+}
