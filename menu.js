@@ -290,6 +290,7 @@ export function createMenu(ctx) {
         h('dl', { class: 'facts' }, facts.flatMap(([k, v]) => [h('dt', {}, k), h('dd', {}, v)])),
         h('button', { type: 'button', class: 'cta', id: 'practice-go', onclick: (e) => { if (blocked(e.currentTarget)) return; close(); ctx.onPractice(); } }, 'PRACTICE ROUND'),
         h('p', { class: 'fine center' }, 'One prompt, no clock, nothing kept. It does not use up today.'),
+        h('button', { type: 'button', class: 'textlink', id: 'tour-go', onclick: (e) => { if (blocked(e.currentTarget)) return; close(); ctx.onTour(); } }, 'TAKE THE TOUR'),
         h('p', { class: 'fine center' }, h('a', { href: 'how-to-play/' }, 'Read the full guide')));
     },
 

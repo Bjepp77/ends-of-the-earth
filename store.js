@@ -34,6 +34,8 @@ export function createStore(storage, slot) {
     ensureOwner(generation) {
       if (!get(OWNER_KEY)) set(OWNER_KEY, newOwner(slot, generation));
     },
+    tourSeen: () => get(keys.tour(slot)) === true,
+    markTourSeen: () => set(keys.tour(slot), true),
     settings: () => ({ ...defaultSettings(), ...(get(keys.settings(slot)) ?? {}) }),
     saveSettings(patch) {
       const next = { ...this.settings(), ...patch };

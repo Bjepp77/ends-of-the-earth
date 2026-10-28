@@ -8,6 +8,7 @@ import { createMenu } from './menu.js';
 import { createSound } from './sound.js';
 import { shareOrCopy } from './share.js';
 import { createTrail } from './trail.js';
+import { createTour } from './tour.js';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -819,7 +820,7 @@ window.addEventListener('storage', (e) => {
   if ((S.mode === 'round' || S.mode === 'reveal') && !S.practice && (e.key === null || e.key === prefix + S.date) && !runFresh()) conflict();
 });
 document.addEventListener('keydown', (e) => {
-  if (menu.isOpen) return;
+  if (menu.isOpen || tour.isOpen) return;
   if (['INPUT', 'SELECT', 'BUTTON', 'SUMMARY', 'TEXTAREA'].includes(e.target.tagName)) return;
   // F-U06 keyboard pinning: arrow keys pan the map; P pins the map centre, and so does
   // Space or Enter on the focused map while no pin is held.
@@ -841,6 +842,7 @@ const menu = createMenu({
   loadDeck: (n) => fetchJSON(G.deckPath(n)),
   fillAnswers: (el, prompt, row) => fillAnswers(el, prompt, row),
   onPractice: () => startPractice(),
+  onTour: () => startTour(),
   roundOpen,
   // §6 assists apply at once to the map; a new clock waits for the next prompt.
   onSettings: (next) => {
@@ -870,7 +872,39 @@ const menu = createMenu({
   onClose: () => { if (S.mode === 'camp') menu.renderCampTiles($('camp-tiles'), S.date); },
 });
 
+// ---------- walk-through (owner, 2026-10-28) ----------
+
+const TOUR_STEPS = [
+  { title: 'Welcome to Ends of the Earth', body: 'One expedition a day: five prompts about the Church, its history and the scriptures. This tour uses a practice prompt that never counts.' },
+  { target: '.prompt-card', title: 'The prompt', body: 'Each prompt has several right countries. Pin any one of them.' },
+  { target: '#map', title: 'The map', body: 'Tap a country to place your pin. Tap somewhere else to move it. Zoom with + and -, or pinch.' },
+  { target: '#search-wrap', title: 'Find by name', body: 'You turned on search, so you can also pick a country from this list.' },
+  { target: '#drop', title: 'Drop pin', body: 'When you are sure, press DROP PIN. Each prompt gets one drop.' },
+  { target: '#noclock', title: 'The clock', body: `In the daily game a clock sits here: ${R.CLOCKS.relaxed} seconds a prompt, or ${R.CLOCKS.standard} on the faster setting. Practice has no clock.` },
+  { target: '#hud-dist', title: 'Distance', body: `A right answer moves you along. Common answers go ${R.TIERS[1].km} km; the rarest go ${R.TIERS[5].km} km. A wrong pin is a Miss, 0 km.` },
+  { target: '#trail', title: 'The trail', body: `Your km walk the wagon from Nauvoo toward the Salt Lake Valley. ${R.EDGE_KM} km reaches the valley.` },
+  { target: '#menu-btn', title: 'The menu', body: 'Settings, the past week, your passport of stamps, and this tour again under How to play.' },
+  { title: 'Your turn', body: 'After five prompts you reach camp, where SHARE sends your result to friends. Now pin an answer for this practice prompt.', last: 'START PRACTICE' },
+];
+
+const tour = createTour(TOUR_STEPS, {
+  onClose: () => {
+    store.markTourSeen();
+    $('map').focus?.();
+  },
+});
+
+async function startTour() {
+  if (S.mode !== 'round' || !S.practice) {
+    if (roundOpen()) return;
+    await startPractice();
+  }
+  tour.start();
+}
+
 goHome();
+// A first-time player gets the tour once. ?debug is the test hook; tests ask for it with &tour.
+if ((!DEBUG || params.has('tour')) && !store.tourSeen() && store.runs().length === 0 && S.deal?.status === 'ok') startTour();
 setInterval(checkDate, RECHECK_MS);
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkDate(); });
 window.addEventListener('focus', checkDate);
