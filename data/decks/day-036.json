@@ -11,6 +11,7 @@
    "era": "2024",
    "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/statistics/milestones/",
     "https://newsroom.churchofjesuschrist.org/article/october-2024-general-conference-new-temples"
    ],
@@ -113,6 +114,7 @@
    "era": "2022-2025",
    "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -383,10 +385,11 @@
     "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted.",
-   "summary": "Zephaniah 2 calls Judah to seek meekness, then names the peoples who will be judged: the Philistine cities of Gaza, Ashkelon, Ashdod and Ekron, Moab and Ammon, the Ethiopians, and Assyria with its capital Nineveh. The Bible's Ethiopia, or Cush, was the Nile land south of Egypt, today Sudan, not modern Ethiopia.",
+   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt; modern Ethiopia is not counted.",
+   "summary": "Zephaniah 2 calls Judah to seek meekness, then names the peoples who will be judged: the Philistine cities of Gaza, Ashkelon, Ashdod and Ekron, Moab and Ammon, the Ethiopians, and Assyria with its capital Nineveh. The Bible's Ethiopia, or Cush, was the Nile land south of Egypt, mostly today's Sudan, not modern Ethiopia.",
    "stamp": null,
    "gems": [
+    "EGY",
     "SDN"
    ],
    "gem_forced": true,
@@ -420,11 +423,18 @@
      "fact": "Gaza shall be forsaken (Zephaniah 2:4); it lies in the Gaza Strip."
     },
     {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Ye Ethiopians also (Zeph 2:12): the Bible Dictionary's Cush began at Syene, today Aswan in Egypt."
+    },
+    {
      "code": "SDN",
      "name": "Sudan",
      "commonness": 2,
      "gem": true,
-     "fact": "Ye Ethiopians also, ye shall be slain (Zephaniah 2:12); Bible Ethiopia, or Cush, ran south from Syene along the Nile, today Sudan."
+     "fact": "Ye Ethiopians also, ye shall be slain (Zephaniah 2:12); Bible Ethiopia, or Cush, ran south from Syene along the Nile, mostly today's Sudan."
     }
    ]
   }

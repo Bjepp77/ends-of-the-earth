@@ -11,6 +11,7 @@
    "era": "2016-2018",
    "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 2,
@@ -69,6 +70,7 @@
    "era": "2010-2026",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -353,8 +355,8 @@
   {
    "id": "global-nelson-balkans-2010",
    "bank": "global",
-   "display_text": "Pin a country Russell M. Nelson dedicated for the preaching of the gospel in September 2010",
-   "text_original": "In September 2010 Elder Russell M. Nelson of the Quorum of the Twelve traveled through the former Yugoslavia and dedicated six lands for the preaching of the gospel. A country he dedicated on that trip.",
+   "display_text": "Pin a country where Russell M. Nelson offered a prayer dedicating or blessing the land in September 2010",
+   "text_original": "In September 2010 Elder Russell M. Nelson of the Quorum of the Twelve traveled through the former Yugoslavia and offered prayers dedicating or blessing six lands. A country where he offered such a prayer on that trip.",
    "accepts": "country",
    "topic": "missionary work",
    "era": "2010",
@@ -365,7 +367,7 @@
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "In one September 2010 journey Russell M. Nelson, then an Apostle, offered dedicatory prayers in six lands of the former Yugoslavia: Croatia, Slovenia, Bosnia and Herzegovina, Montenegro, Kosovo and Macedonia. It was one of many such prayers he offered across Eastern Europe and Central Asia.",
+   "summary": "In one September 2010 journey Russell M. Nelson, then an Apostle, offered prayers dedicating or blessing six lands of the former Yugoslavia: Croatia, Slovenia, Bosnia and Herzegovina, Montenegro, Kosovo and Macedonia. It was one of many such prayers he offered across Eastern Europe and Central Asia.",
    "stamp": null,
    "gems": [
     "MKD",
@@ -378,14 +380,14 @@
      "name": "Croatia",
      "commonness": 3,
      "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Blessed the land in September 2010."
     },
     {
      "code": "SVN",
      "name": "Slovenia",
      "commonness": 3,
      "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Blessed the land in September 2010."
     },
     {
      "code": "BIH",
@@ -399,21 +401,21 @@
      "name": "Montenegro",
      "commonness": 2,
      "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Blessed the land in September 2010."
     },
     {
      "code": "MKD",
      "name": "North Macedonia",
      "commonness": 1,
      "gem": true,
-     "fact": "Dedicated for preaching in September 2010, then called Macedonia."
+     "fact": "Dedicated in September 2010 from Mount Vodno at Skopje, then called Macedonia."
     },
     {
      "code": "XKX",
      "name": "Kosovo",
      "commonness": 1,
      "gem": true,
-     "fact": "Dedicated for preaching in September 2010."
+     "fact": "Blessed the land in September 2010."
     }
    ]
   }

@@ -11,6 +11,7 @@
    "era": "1970-1999",
    "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 3,
@@ -167,11 +168,10 @@
    "summary": "Cyrus of Persia let the Jews in Babylon return and rebuild the temple. They paid Zidon and Tyre for cedar from Lebanon, shipped to Joppa, and pressed on despite adversaries who wrote from Samaria to the Persian king. Darius found Cyrus's decree at Achmetha and the temple was finished; later Ezra came to teach the law (Ezra 1-10).",
    "stamp": null,
    "gems": [
-    "EGY",
-    "JOR",
-    "PSE"
+    "SYR",
+    "TUR"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
      "code": "IRN",
@@ -205,22 +205,36 @@
      "code": "EGY",
      "name": "Egypt",
      "commonness": 2,
-     "gem": true,
+     "gem": false,
      "fact": "Egyptians are also in Ezra's list of peoples whose abominations Israel had joined (Ezra 9:1)."
     },
     {
      "code": "JOR",
      "name": "Jordan",
      "commonness": 2,
-     "gem": true,
+     "gem": false,
      "fact": "Ezra mourned that the people had mingled with Ammonites and Moabites (Ezra 9:1)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 2,
-     "gem": true,
+     "gem": false,
      "fact": "The adversaries wrote to Artaxerxes, and his answer went to Rehum and those dwelling in Samaria (Ezra 4:17)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Ezra 9:1 names the Hittites; the Bible Dictionary places them north of Palestine, from the Orontes to the Euphrates."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Ezra 9:1 names the Hittites; the Bible Dictionary places them north of Palestine, from the Orontes to the Euphrates."
     }
    ]
   },

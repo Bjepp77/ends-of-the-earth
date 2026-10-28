@@ -177,6 +177,13 @@
      "fact": "Tiglath-pileser took Abel-beth-maachah, Kedesh and Hazor, and Galilee (2 Kgs 15:29)."
     },
     {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hoshea sent messengers to So king of Egypt, so Assyria shut him up and besieged Samaria (2 Kgs 17:4-5)."
+    },
+    {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 3,

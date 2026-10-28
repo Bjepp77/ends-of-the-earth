@@ -143,7 +143,7 @@
   {
    "id": "ot-song-of-solomon-places",
    "bank": "ot",
-   "display_text": "Pin a country holding a place named in the Song of Solomon, from Engedi to Lebanon (leave out Tirzah and Kedar)",
+   "display_text": "Pin a country holding a place named in the Song of Solomon, from Engedi to Lebanon, or Pharaoh's chariots (not Tirzah or Kedar)",
    "text_original": "A present-day country holding a place named in the Song of Solomon: Lebanon and the tops of Amana, Shenir and Hermon, the tower of Lebanon toward Damascus, Engedi, Carmel and Sharon, Heshbon and Gilead, or Pharaoh's chariots (Tirzah and the tents of Kedar are left out: their sites are not fixed in Church sources)",
    "accepts": "country",
    "topic": "Bible",
@@ -205,80 +205,73 @@
    ]
   },
   {
-   "id": "ot-josiah-and-pharaoh-necho",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place in Josiah's reforms, his death at Megiddo, or Pharaoh Necho's march",
-   "text_original": "A present-day country holding a place or kingdom named in Josiah's reforms and death and their aftermath (2 Kings 23; 2 Chronicles 35:20-36:4): the high places of the gods of Zidon, Moab and Ammon, Bethel and Samaria's high places, Megiddo, Necho's march against the king of Assyria toward Carchemish by Euphrates, Riblah in Hamath, and Egypt",
+   "id": "dc-gh-first-baptism-1883-1899",
+   "bank": "dc",
+   "display_text": "Pin a European country (Turkey counts) where Church histories place the first convert baptism on its soil in 1883-1899",
+   "text_original": "A European country (Turkey counts) whose first convert baptism on its soil, per Church histories, came between 1883 and 1899.",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "2 Kings 23; 2 Chronicles 35:20-36:4",
+   "topic": "missionary work",
+   "era": "1880s-1890s",
+   "citation": "Church Global Histories chronologies: Austria, Czech Republic, Belgium, Russia, Romania; Church News country profile and Church History Topics: Turkey",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/35?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/carchemish?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
+    "https://www.thechurchnews.com/2010/2/1/23228952/country-information-turkey/",
+    "https://www.churchofjesuschrist.org/study/history/topics/turkish-mission?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Bethel and Samaria are in the West Bank (Palestine); Megiddo is in Israel.",
-   "summary": "King Josiah of Judah purged idolatry from Jerusalem to Bethel and the cities of Samaria. When Pharaoh Necho marched north toward Carchemish to aid the king of Assyria, Josiah met him at Megiddo and was slain. Necho then bound Josiah's son Jehoahaz at Riblah and carried him to Egypt (2 Kgs 23; 2 Chr 35).",
+   "note": "Poland, Hungary and Serbia do not count: their first converts were baptized outside their borders.",
+   "summary": "In the 1880s and 1890s missionaries carried the gospel into new corners of Europe. Church histories date first baptisms to Lambach, Austria (1883), Prague (1884), Constantinople (1885), Antwerp (1888), St. Petersburg (1895) and Constanta, Romania (1899).",
    "stamp": null,
    "gems": [
-    "LBN",
-    "TUR"
+    "ROU"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Pharaoh-nechoh king of Egypt came up, and he carried Jehoahaz to Egypt, where he died (2 Kgs 23:29, 34)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Josiah went against Necho and was slain at Megiddo (2 Kgs 23:29; 2 Chr 35:22-24)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "AUT",
+     "name": "Austria",
      "commonness": 3,
      "gem": false,
-     "fact": "Josiah broke down the altar at Bethel and the high places in the cities of Samaria (2 Kgs 23:15, 19)."
+     "fact": "1883: first convert baptism in Austria, at Lambach."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1895: first convert baptism in St. Petersburg."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
      "commonness": 2,
      "gem": false,
-     "fact": "Josiah defiled the high places Solomon had built for Chemosh of the Moabites and Milcom of the children of Ammon (2 Kgs 23:13)."
+     "fact": "1888: first convert baptism in Belgium, at Antwerp."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "CZE",
+     "name": "Czech Republic",
      "commonness": 2,
      "gem": false,
-     "fact": "Necho put Jehoahaz in bands at Riblah in the land of Hamath (2 Kgs 23:33)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 1,
-     "gem": true,
-     "fact": "He also defiled the high place Solomon built for Ashtoreth the abomination of the Zidonians (2 Kgs 23:13)."
+     "fact": "1884: first convert baptized in Prague."
     },
     {
      "code": "TUR",
      "name": "Turkey",
+     "commonness": 2,
+     "gem": false,
+     "fact": "January 4, 1885: Hagop Vartooguian and his family were baptized in Constantinople by Jacob Spori, days after the Turkish Mission opened."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
      "commonness": 1,
      "gem": true,
-     "fact": "Necho came to fight against Carchemish by Euphrates (2 Chr 35:20); the ruins of Carchemish lie at Turkey's border with Syria; Church Bible Maps 5, 6 and 9 plot Carchemish on the upper Euphrates."
+     "fact": "1899: first convert baptized at Constanta on the Black Sea."
     }
    ]
   },

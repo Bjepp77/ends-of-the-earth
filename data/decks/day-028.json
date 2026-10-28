@@ -11,6 +11,7 @@
    "era": "2011",
    "citation": "Thomas S. Monson, As We Meet Again, October 2011 general conference; ChurchofJesusChristTemples.org milestones",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://www.churchofjesuschrist.org/study/general-conference/2011/10/as-we-meet-again",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -70,6 +71,7 @@
    "era": "1987-2000",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -122,7 +124,7 @@
      "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Frankfurt Germany (28 August 1987)."
+     "fact": "Frankfurt Germany (28 August 1987); Freiberg, dedicated in 1985 in then East Germany, was the first."
     },
     {
      "code": "JPN",
@@ -212,14 +214,15 @@
     "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng"
    ],
    "difficulty": 3,
-   "note": "France, Switzerland and Belgium are out (French selections from 1908), and so is Norway (Norwegian selections from 1934).",
+   "note": "France, Belgium, Switzerland and French Polynesia are out (French from 1908); so is Norway (Norwegian from 1934).",
    "summary": "After 1950 the Pearl of Great Price spread into many new languages, often bound with the Doctrine and Covenants. Finnish and Japanese came in the mid-1950s, Tongan in 1959, Italian in 1965, Korean in 1968, Chinese and Samoan in 1976, Tahitian in 1978, and Indonesian and Thai in 1979.",
    "stamp": null,
    "gems": [
     "ASM",
     "IDN",
     "MAC",
-    "PYF",
+    "PRK",
+    "SMR",
     "THA"
    ],
    "gem_forced": false,
@@ -309,11 +312,18 @@
      "fact": "Macau's chronology records the Chinese Pearl of Great Price of April 1976, printed in Hong Kong."
     },
     {
-     "code": "PYF",
-     "name": "French Polynesia",
+     "code": "PRK",
+     "name": "North Korea",
      "commonness": 1,
      "gem": true,
-     "fact": "The Tahitian Pearl of Great Price was published in 1978."
+     "fact": "Korean, its main language, got its first Pearl of Great Price in 1968."
+    },
+    {
+     "code": "SMR",
+     "name": "San Marino",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Italian, its main language, got its first Pearl of Great Price in 1965."
     },
     {
      "code": "THA",

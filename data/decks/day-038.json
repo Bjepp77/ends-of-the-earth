@@ -11,6 +11,7 @@
    "era": "2022",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -77,12 +78,12 @@
   {
    "id": "ot-sennacherib-invasion",
    "bank": "ot",
-   "display_text": "Pin a country holding a place in the story of Sennacherib's invasion of Judah, 2 Kings 18-19",
-   "text_original": "A present-day country holding a place named in the story of Sennacherib's invasion of Judah in 2 Kings 18-19: Lachish, Samaria, the conquered cities his envoys boasted of (Hamath, Arpad, Gozan, Haran, Rezeph), Egypt and Tirhakah king of the Nile land of Cush, Nineveh, and the land of Armenia where his killers fled",
+   "display_text": "Pin a country holding a place in the story of Sennacherib's invasion of Judah, 2 Kings 18:13-19:37",
+   "text_original": "A present-day country holding a place named in the story of Sennacherib's invasion of Judah in 2 Kings 18:13-19:37: Lachish, Samaria, the conquered cities his envoys boasted of (Hamath, Arpad, Gozan, Haran, Rezeph), Egypt and Tirhakah king of the Nile land of Cush, Nineveh, and the land of Armenia where his killers fled",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "2 Kings 18-19",
+   "citation": "2 Kings 18:13-19:37",
    "source_urls": [
     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
@@ -91,7 +92,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/bd/ararat?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted. Samaria is in the West Bank (Palestine).",
+   "note": "Cush lay mostly in Sudan, reaching into southern Egypt; modern Ethiopia is not counted. Samaria is in the West Bank.",
    "summary": "In Hezekiah's fourteenth year Sennacherib of Assyria took Judah's fenced cities and besieged Lachish. His officer Rabshakeh mocked trust in Egypt and listed the gods of conquered cities. Hezekiah prayed, Isaiah prophesied, and the angel of the Lord smote the Assyrian camp; Sennacherib returned to Nineveh, where his sons slew him (2 Kgs 18-19).",
    "stamp": null,
    "gems": [

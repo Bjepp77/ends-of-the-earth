@@ -11,8 +11,8 @@
    "era": "1955-2000",
    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/chronology/",
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 3,
    "note": null,
@@ -91,6 +91,7 @@
    "era": "2026",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -343,7 +344,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/bd/ur?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Bible Ethiopia (Cush) lay in today's Sudan, so modern Ethiopia is not counted.",
+   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt; modern Ethiopia is not counted.",
    "summary": "Many founding wives of Israel came from abroad. Sarai left Ur with Abram, Hagar was Egyptian, and Rebekah, Leah and Rachel came from Laban's family at Haran. Joseph married Asenath of On in Egypt, Moses married Zipporah of Midian and an Ethiopian woman, and Ruth the Moabitess became great-grandmother of David.",
    "stamp": null,
    "gems": [

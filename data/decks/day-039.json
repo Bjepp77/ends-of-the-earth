@@ -11,14 +11,15 @@
    "era": "1955-2026",
    "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/statistics/chronology/",
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
+   "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Sydney Australia (1991) and Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
    "stamp": "as of 26 Oct 2026",
    "gems": [
+    "AUS",
     "TON"
    ],
    "gem_forced": true,
@@ -50,6 +51,13 @@
      "commonness": 3,
      "gem": false,
      "fact": "Sapporo Japan (2016)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Sydney Australia (rededicated 24 November 1991)."
     },
     {
      "code": "TON",
@@ -137,7 +145,7 @@
   {
    "id": "ot-jeremiah-25-cup-of-wrath",
    "bank": "ot",
-   "display_text": "Pin a country holding a nation made to drink the wine cup of fury in Jeremiah 25 (leave out Arabia)",
+   "display_text": "Pin a country holding a nation made to drink the wine cup of fury in Jeremiah 25 (leave out the Arabian peninsula)",
    "text_original": "A present-day country holding a nation or city made to drink the wine cup of the Lord's fury in Jeremiah 25:17-26 (Jerusalem and Judah, Egypt, the Philistine cities, Edom, Moab, Ammon, Tyrus, Zidon, Elam, the Medes, and Sheshach); Dedan, Tema, Buz and Arabia are left out because their extent is unclear",
    "accepts": "country",
    "topic": "Bible",

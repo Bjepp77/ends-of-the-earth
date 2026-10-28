@@ -177,7 +177,7 @@
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Luke 4:26-27; Matthew 1:5; 12:41; Hebrews 7:1; 11:31; Romans 9:17; Galatians 4:24-25; 2 Timothy 3:8",
+   "citation": "Luke 4:26-27; Matthew 1:5-6; 12:41; Hebrews 7:1; 11:31; Romans 9:17; Galatians 4:24-25; 2 Timothy 3:8; 2 Samuel 11:3",
    "source_urls": [
     "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng",
@@ -188,19 +188,17 @@
     "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/4?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/3?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/bd/salem?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/11?lang=eng"
    ],
    "difficulty": 3,
    "note": "Jericho is in the West Bank (PSE). Balaam's Pethor and the queen of the south's Sheba are disputed sites and are not counted.",
    "summary": "The New Testament keeps pointing to outsiders in Israel's story. Jesus praised Naaman of Syria, a widow of Sidon and the repentant Ninevites. Ruth of Moab and Rahab of Jericho appear in his genealogy, Melchizedek king of Salem in Hebrews, and Paul names Pharaoh, Hagar and the magicians of Egypt.",
    "stamp": null,
    "gems": [
-    "ISR",
-    "JOR",
-    "LBN",
-    "PSE"
+    "TUR"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
      "code": "EGY",
@@ -227,29 +225,36 @@
      "code": "ISR",
      "name": "Israel",
      "commonness": 2,
-     "gem": true,
+     "gem": false,
      "fact": "Melchisedec was king of Salem, which the Bible Dictionary identifies with Jerusalem (Hebrews 7:1)."
     },
     {
      "code": "JOR",
      "name": "Jordan",
      "commonness": 2,
-     "gem": true,
+     "gem": false,
      "fact": "Ruth, a woman of Moab (Ruth 1:4), is named in Jesus' genealogy; Moab lay east of the Dead Sea (Matthew 1:5)."
     },
     {
      "code": "LBN",
      "name": "Lebanon",
      "commonness": 2,
-     "gem": true,
+     "gem": false,
      "fact": "Jesus recalled Elijah being sent to a widow of Sarepta, a city of Sidon (Luke 4:26)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 2,
-     "gem": true,
+     "gem": false,
      "fact": "By faith Rahab of Jericho, a Canaanite, perished not with them that believed not (Hebrews 11:31; Joshua 2)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Matthew 1:6 names Urias, Uriah the Hittite (2 Sam 11:3); the Bible Dictionary places the Hittites from the Orontes to the Euphrates, with an empire into Asia Minor."
     }
    ]
   },

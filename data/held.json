@@ -238,8 +238,8 @@
     "era": "1955-2026",
     "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
     "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
      "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/",
      "https://www.thechurchnews.com/temples/2026/01/18/alabang-philippines-temple-dedication-manila-elder-david-a-bednar/"
     ],
     "difficulty": 3,
@@ -298,8 +298,8 @@
     "era": "1955-2026",
     "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
     "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
      "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/",
      "https://www.thechurchnews.com/temples/2024/12/08/tallahassee-florida-temple-patrick-kearon-dedicates-we-can-be-found-here/"
     ],
     "difficulty": 3,
@@ -350,8 +350,8 @@
     "era": "1955-2026",
     "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
     "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
      "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/",
      "https://www.thechurchnews.com/temples/2026/08/16/dallin-h-oaks-church-president-dedicates-belo-horizonte-brazil-temple/"
     ],
     "difficulty": 3,
@@ -409,8 +409,8 @@
     "era": "1955-2026",
     "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
     "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
      "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/",
      "https://newsroom.churchofjesuschrist.org/article/elder-stevenson-dedicates-helena-montana-temple",
      "https://www.thechurchnews.com/temples/2025/10/12/elder-gary-e-stevenson-elko-nevada-temple-dedication/",
      "https://newsroom.churchofjesuschrist.org/article/rio-de-janeiro-brazil-temple-dedication-elder-stevenson"
@@ -1570,8 +1570,8 @@
     "era": "1955-2026",
     "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
     "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
-     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/"
     ],
     "difficulty": 3,
     "note": null,
@@ -1635,8 +1635,8 @@
     "era": "2019-2022",
     "citation": "ChurchofJesusChristTemples.org chronological list (rededication dates), read 26 Oct 2026",
     "source_urls": [
-     "https://churchofjesuschristtemples.org/statistics/chronology/",
-     "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/"
     ],
     "difficulty": 3,
     "note": null,
@@ -1707,6 +1707,7 @@
     "era": "1847-2026",
     "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
     "source_urls": [
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
      "https://churchofjesuschristtemples.org/statistics/milestones/"
     ],
     "difficulty": 3,
@@ -1773,6 +1774,7 @@
     "era": "2023",
     "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
     "source_urls": [
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
      "https://churchofjesuschristtemples.org/temples/chronology/",
      "https://churchofjesuschristtemples.org/statistics/milestones/"
     ],
@@ -1846,6 +1848,7 @@
     "era": "2000-2009",
     "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
     "source_urls": [
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
      "https://churchofjesuschristtemples.org/temples/chronology/"
     ],
     "difficulty": 3,

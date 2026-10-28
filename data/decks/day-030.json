@@ -11,6 +11,7 @@
    "era": "2020",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -114,6 +115,7 @@
    "era": "2026",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
@@ -209,7 +211,7 @@
   {
    "id": "ot-psalm-83-confederacy",
    "bank": "ot",
-   "display_text": "Pin a country holding the homeland of a people in the Psalm 83 confederacy against Israel",
+   "display_text": "Pin a country holding the homeland of a people in the Psalm 83 confederacy against Israel, or one it recalls (Midian, Sisera)",
    "text_original": "A present-day country holding the homeland of a people in the confederacy against Israel in Psalm 83:6-11 (Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines, Tyre, Assur), or a people or place the psalm recalls from earlier victories (Midian, the brook Kison, En-dor)",
    "accepts": "country",
    "topic": "Bible",
@@ -219,7 +221,9 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/amalek?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng"
    ],
    "difficulty": 3,
    "note": "Philistine Gaza is in Palestine; Philistine Ashdod, Ashkelon, Ekron and Gath are in Israel, so both count.",
@@ -239,6 +243,13 @@
      "fact": "Edom, Moab and Ammon are in the confederacy (Ps 83:6-7)."
     },
     {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Amalek is in the confederacy (Ps 83:7); the Bible Dictionary places Amalek in the desert of Paran, the central Sinai."
+    },
+    {
      "code": "IRQ",
      "name": "Iraq",
      "commonness": 3,
@@ -250,7 +261,7 @@
      "name": "Israel",
      "commonness": 3,
      "gem": false,
-     "fact": "The psalm recalls Sisera and Jabin at the brook of Kison, who perished at En-dor (Ps 83:9-10)."
+     "fact": "Philistine Ashdod, Ashkelon, Ekron and Gath lie in Israel (Ps 83:7); Sisera fell at the brook Kison (Ps 83:9)."
     },
     {
      "code": "LBN",
