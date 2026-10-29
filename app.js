@@ -1,17 +1,17 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=7eff5a1bb0';
-import { REFUSAL_TEXT } from './hit.js?v=7eff5a1bb0';
-import * as R from './rules.js?v=7eff5a1bb0';
-import * as G from './game.js?v=7eff5a1bb0';
-import { createStore } from './store.js?v=7eff5a1bb0';
-import { createMenu } from './menu.js?v=7eff5a1bb0';
-import { createSound } from './sound.js?v=7eff5a1bb0';
-import { shareOrCopy } from './share.js?v=7eff5a1bb0';
-import { createTrail } from './trail.js?v=7eff5a1bb0';
-import { createTour } from './tour.js?v=7eff5a1bb0';
-import { createThanks } from './thanks.js?v=7eff5a1bb0';
-import { createCounter } from './count.js?v=7eff5a1bb0';
-import { createExpand } from './expand.js?v=7eff5a1bb0';
+import { loadCountries, createMap } from './map.js?v=a1126bdd34';
+import { REFUSAL_TEXT } from './hit.js?v=a1126bdd34';
+import * as R from './rules.js?v=a1126bdd34';
+import * as G from './game.js?v=a1126bdd34';
+import { createStore } from './store.js?v=a1126bdd34';
+import { createMenu } from './menu.js?v=a1126bdd34';
+import { createSound } from './sound.js?v=a1126bdd34';
+import { shareOrCopy } from './share.js?v=a1126bdd34';
+import { createTrail } from './trail.js?v=a1126bdd34';
+import { createTour } from './tour.js?v=a1126bdd34';
+import { createThanks } from './thanks.js?v=a1126bdd34';
+import { createCounter } from './count.js?v=a1126bdd34';
+import { createExpand } from './expand.js?v=a1126bdd34';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -977,7 +977,7 @@ const TOUR_STEPS = [
   { target: '#search-wrap', title: 'Find by name', body: 'You turned on search, so you can also pick a country from this list.' },
   { target: '#drop', title: 'Drop pin', body: 'When you are sure, press DROP PIN. Each prompt gets one drop.' },
   { target: '#noclock', title: 'The clock', body: `In the daily game a clock sits here: ${R.CLOCKS.relaxed} seconds a prompt, or ${R.CLOCKS.standard} on the faster setting. Practice has no clock.` },
-  { target: '#hud-dist', title: 'Distance', body: `A right answer moves you along. Common answers go ${R.TIERS[1].km} km; the rarest go ${R.TIERS[5].km} km. A wrong pin is a Miss, 0 km.` },
+  { target: '#hud-dist', title: 'Distance', body: `A right answer moves you along. Common answers go ${R.TIERS[1].km} km; the rarest go ${R.TIERS[5].km} km. A wrong pin is a Lost sheep (miss), 0 km.` },
   { target: '#trail', title: 'The trail', body: `Your km walk the wagon from Nauvoo toward the Salt Lake Valley. ${R.EDGE_KM} km reaches the valley.` },
   { target: '#menu-btn', title: 'The menu', body: 'Settings, the past week, your passport of stamps, and this tour again under How to play.' },
   { title: 'Your turn', body: 'After five prompts you reach camp, where SHARE sends your result to friends. Now pin an answer for this practice prompt.', last: 'START PRACTICE' },

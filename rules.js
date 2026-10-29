@@ -3,7 +3,7 @@
 
 // §4 tiers. Order is low to high. km is the round score.
 export const TIERS = [
-  { id: 'miss', name: 'Miss', km: 0 },
+  { id: 'miss', name: 'Lost sheep (miss)', km: 0 },
   { id: 'home-ward', name: 'Home ward', km: 40 },
   { id: 'stake', name: 'Stake', km: 55 },
   { id: 'mission', name: 'Mission', km: 70 },

@@ -2,7 +2,7 @@
 import {
   TIERS, tierById, tierFor, answerCodeFor, rowsKm, roundKm, bandFor, BANDS, logRow,
   expeditionNumber, isExpired, addDays,
-} from './rules.js?v=7eff5a1bb0';
+} from './rules.js?v=a1126bdd34';
 
 export const DECK_SIZE = 5;
 

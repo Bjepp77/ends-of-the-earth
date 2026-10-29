@@ -1,7 +1,7 @@
 // Menu drawer and its panels (§22). Numbers come from panels.js and rules.js; this file only draws.
-import * as R from './rules.js?v=7eff5a1bb0';
-import * as P from './panels.js?v=7eff5a1bb0';
-import { TIER_COLORS, longDate, promptText } from './game.js?v=7eff5a1bb0';
+import * as R from './rules.js?v=a1126bdd34';
+import * as P from './panels.js?v=a1126bdd34';
+import { TIER_COLORS, longDate, promptText } from './game.js?v=a1126bdd34';
 
 const SHORT_MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 const DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
@@ -294,7 +294,7 @@ export function createMenu(ctx) {
         h('div', { class: 'card' },
           h('p', { class: 'eyebrow' }, 'HOW FAR EACH ANSWER TAKES YOU'),
           h('ul', { class: 'counts' }, ex.map((t) => h('li', {}, tierTag(t.id), h('b', {}, `${t.km} km`)))),
-          h('p', { class: 'fine' }, 'The rarest answers on each prompt count as Ends of the earth. A wrong country, a pin at sea or no pin is a Miss.')),
+          h('p', { class: 'fine' }, 'The rarest answers on each prompt count as Ends of the earth. A wrong country, a pin at sea or no pin is a Lost sheep (miss).')),
         h('dl', { class: 'facts' }, facts.flatMap(([k, v]) => [h('dt', {}, k), h('dd', {}, v)])),
         h('button', { type: 'button', class: 'cta', id: 'practice-go', onclick: (e) => { if (blocked(e.currentTarget)) return; close(); ctx.onPractice(); } }, 'PRACTICE ROUND'),
         h('p', { class: 'fine center' }, 'One prompt, no clock, nothing kept. It does not use up today.'),
