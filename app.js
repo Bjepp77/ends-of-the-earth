@@ -1,17 +1,17 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=ecbfc8e56f';
-import { REFUSAL_TEXT } from './hit.js?v=ecbfc8e56f';
-import * as R from './rules.js?v=ecbfc8e56f';
-import * as G from './game.js?v=ecbfc8e56f';
-import { createStore } from './store.js?v=ecbfc8e56f';
-import { createMenu } from './menu.js?v=ecbfc8e56f';
-import { createSound } from './sound.js?v=ecbfc8e56f';
-import { shareOrCopy } from './share.js?v=ecbfc8e56f';
-import { createTrail } from './trail.js?v=ecbfc8e56f';
-import { createTour } from './tour.js?v=ecbfc8e56f';
-import { createThanks } from './thanks.js?v=ecbfc8e56f';
-import { createCounter } from './count.js?v=ecbfc8e56f';
-import { createExpand } from './expand.js?v=ecbfc8e56f';
+import { loadCountries, createMap } from './map.js?v=931f9542fd';
+import { REFUSAL_TEXT } from './hit.js?v=931f9542fd';
+import * as R from './rules.js?v=931f9542fd';
+import * as G from './game.js?v=931f9542fd';
+import { createStore } from './store.js?v=931f9542fd';
+import { createMenu } from './menu.js?v=931f9542fd';
+import { createSound } from './sound.js?v=931f9542fd';
+import { shareOrCopy } from './share.js?v=931f9542fd';
+import { createTrail } from './trail.js?v=931f9542fd';
+import { createTour } from './tour.js?v=931f9542fd';
+import { createThanks } from './thanks.js?v=931f9542fd';
+import { createCounter } from './count.js?v=931f9542fd';
+import { createExpand } from './expand.js?v=931f9542fd';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -76,6 +76,7 @@ const S = {
   mode: 'home', practice: false, date: null, late: false, deal: null,
   deck: null, run: null, prompt: null, settings: store.settings(),
   open: null, timer: 0, typer: 0, revealReadyAt: 0, refusals: 0,
+  tapLog: DEBUG ? [] : undefined,
   // F2 true when the last write of this run was refused by storage.
   unsaved: false,
 };
@@ -98,7 +99,20 @@ function target() {
 const sound = createSound({ enabled: S.settings.sound });
 renderSpeaker();
 
-const view = createMap({ container: $('map'), data: countries, onPin });
+const view = createMap({
+  container: $('map'), data: countries, onPin,
+  onMapTap: (ignored) => {
+    if (DEBUG && S.mode === 'round') {
+      const row = S.tapLog.at(-1);
+      row.taps += 1;
+      if (ignored) row.ignored += 1;
+    }
+  },
+  onCloseCall: () => {
+    if (DEBUG) S.tapLog.at(-1).zooms += 1;
+    renderDrop('Close call. Tap again.');
+  },
+});
 await view.ready;
 $('loading').hidden = true;
 if (DEBUG) {
@@ -178,6 +192,7 @@ function goHome() {
   view.lock(true);
   view.clearPin();
   view.setFlags([]);
+  showScreen('home');
   view.resetView();
   view.setNames(S.settings.names);
   view.setBorders(S.settings.borders);
@@ -190,7 +205,6 @@ function goHome() {
   S.late = late;
   S.homeToday = today();
   S.deal = G.dealFor(date, config.day1, manifest.decks);
-  showScreen('home');
 
   const play = $('play');
   const wait = $('home-wait');
@@ -344,6 +358,7 @@ function enterRound() {
   S.mode = 'round';
   S.open = S.run.open;
   S.prompt = S.deck.prompts[S.open.n - 1];
+  if (DEBUG) S.tapLog.push({ prompt: S.prompt.id, taps: 0, ignored: 0, zooms: 0, finalCode: null });
   showScreen('round');
   view.setNames(S.settings.names);
   view.setBorders(S.settings.borders);
@@ -380,6 +395,11 @@ function enterRound() {
 // §15 the prompt types itself in.
 function typePrompt(text) {
   const el = $('prompt-text');
+  // The card is sized for the whole prompt before typing starts. Grown line by line, it pushed the
+  // phone map down 22px about a second into the round, under a finger already aiming at it.
+  el.style.minHeight = '';
+  el.textContent = text;
+  el.style.minHeight = `${el.offsetHeight}px`;
   el.textContent = '';
   el.setAttribute('aria-label', text);
   // F-U08 the typed node changes every few ms, so the full prompt is announced once from its own node.
@@ -389,7 +409,7 @@ function typePrompt(text) {
     i += 1;
     el.textContent = text.slice(0, i);
     if (i % 3 === 0) sound.type();
-    if (i >= text.length) clearInterval(S.typer);
+    if (i >= text.length) { clearInterval(S.typer); el.style.minHeight = ''; }
   }, TYPE_MS);
 }
 
@@ -512,10 +532,16 @@ function timeout() {
 
 function finish(pin, timedOut) {
   stopTimers();
+  if (DEBUG) {
+    const row = S.tapLog.at(-1);
+    row.finalCode = pin?.hit.code ?? null;
+    console.info('Tap log', row);
+  }
   if (!S.practice && !runFresh()) return conflict();
   // F1 a round opened before midnight and finished after it is judged late.
   if (!S.practice) markLate();
   $('prompt-text').textContent = G.promptText(S.prompt);
+  $('prompt-text').style.minHeight = '';
   const mask = R.roundMask(S.open, S.settings);
   const bySearch = !!pin?.bySearch || !!S.open.searched;
   const noNames = R.earnsNoNamesBonus(S.open, S.settings, bySearch);
@@ -947,7 +973,7 @@ const menu = createMenu({
 const TOUR_STEPS = [
   { title: 'Welcome to Ends of the Earth', body: 'One expedition a day: five prompts about the Church, its history and the scriptures. This tour uses a practice prompt that never counts.' },
   { target: '.prompt-card', title: 'The prompt', body: 'Each prompt has several right countries. Pin any one of them.' },
-  { target: '#map', title: 'The map', body: 'Tap a country to place your pin. Tap somewhere else to move it. Zoom with + and -, or pinch.' },
+  { target: '#map', title: 'The map', body: 'Tap a country to place your pin. Tap somewhere else to move it. Small country? Zoom in first. Zoom with + and -, or pinch.' },
   { target: '#search-wrap', title: 'Find by name', body: 'You turned on search, so you can also pick a country from this list.' },
   { target: '#drop', title: 'Drop pin', body: 'When you are sure, press DROP PIN. Each prompt gets one drop.' },
   { target: '#noclock', title: 'The clock', body: `In the daily game a clock sits here: ${R.CLOCKS.relaxed} seconds a prompt, or ${R.CLOCKS.standard} on the faster setting. Practice has no clock.` },

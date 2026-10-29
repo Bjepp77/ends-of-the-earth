@@ -1,6 +1,6 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor } from './hit.js?v=ecbfc8e56f';
-import { rng } from './trail.js?v=ecbfc8e56f';
+import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=931f9542fd';
+import { rng } from './trail.js?v=931f9542fd';
 
 const maplibregl = window.maplibregl;
 
@@ -281,8 +281,10 @@ function gratOverlay(map, container) {
   queue();
 }
 
-export function createMap({ container, data, onPin = () => {} }) {
+export function createMap({ container, data, onPin = () => {}, onCloseCall = () => {}, onMapTap = () => {} }) {
   const index = buildIndex(data);
+  const indexByCode = new Map(index.map((f) => [f.code, f]));
+  const phonePortrait = matchMedia('(max-width: 767px) and (orientation: portrait)');
   const map = new maplibregl.Map({
     container,
     style: style(toGeoJSON(data)),
@@ -293,9 +295,10 @@ export function createMap({ container, data, onPin = () => {} }) {
     pitchWithRotate: false,
     touchPitch: false,
     maxPitch: 0,
-    minZoom: 0,
+    minZoom: phonePortrait.matches ? -1 : 0,
     maxZoom: 9,
   });
+  phonePortrait.addEventListener('change', () => map.setMinZoom(phonePortrait.matches ? -1 : 0));
   map.touchZoomRotate.disableRotation();
   map.keyboard.disableRotation();
   map.on('styleimagemissing', ({ id }) => {
@@ -310,6 +313,8 @@ export function createMap({ container, data, onPin = () => {} }) {
   const byCode = new Map(data.features.map((f) => [f.code, f]));
   let pin = null;
   let locked = false;
+  let flying = false;
+  let exactNext = false;
   let flags = [];
 
   function focus(code, paint = null) {
@@ -376,7 +381,50 @@ export function createMap({ container, data, onPin = () => {} }) {
     });
   }
 
-  map.on('click', (e) => { if (!locked) place(e.lngLat); });
+  // A press during a flight stops the flight, so moveend clears flying before that press's click.
+  // Remember whether the press began mid-flight; a touch's emulated mousedown comes after moveend.
+  let pressInFlight = false;
+  let flyTarget = null;
+  function fly(target) {
+    flyTarget = target;
+    flying = true;
+    map.once('moveend', () => { flying = false; });
+    map.flyTo({ ...target, duration: 300 });
+  }
+  let touchAt = -Infinity;
+  map.on('touchstart', () => { pressInFlight = flying; touchAt = performance.now(); });
+  map.on('mousedown', () => { if (performance.now() - touchAt > 1000) pressInFlight = flying; });
+
+  map.on('click', (e) => {
+    if (locked) return;
+    const ignore = flying || pressInFlight;
+    pressInFlight = false;
+    onMapTap(ignore);
+    if (ignore) {
+      // The press stopped the close-call flight short: finish it, or the exact tap lands at world zoom.
+      if (!flying && exactNext && flyTarget) fly(flyTarget);
+      return;
+    }
+    if (exactNext) { exactNext = false; place(e.lngLat); return; }
+    const hit = hitTest(index, e.lngLat.lng, e.lngLat.lat);
+    const nearby = nearbyEdges(index, e.point, (lon, lat) => map.project([lon, lat]));
+    const candidates = new Map(nearby.map((f) => [f.code, f]));
+    if (hit.code) candidates.set(hit.code, indexByCode.get(hit.code));
+    if (map.getZoom() < 9 && ((!hit.code && candidates.size > 0) || (hit.code && candidates.size > 1))) {
+      const smallest = Math.min(...[...candidates.values()].map(squareSizeAtZoomZero));
+      const square = smallest * 2 ** map.getZoom();
+      // At most 4 levels in one fly: more, and a finger's few pixels of error land off screen.
+      const zoom = Math.min(9, map.getZoom() + 4, Math.max(map.getZoom() + 2, map.getZoom() + Math.log2(44 / Math.max(square, 0.01))));
+      exactNext = true;
+      clearPin();
+      onCloseCall();
+      fly({ center: e.lngLat, zoom });
+      return;
+    }
+    place(e.lngLat);
+  });
+
+  function clearPin() { pin = null; marker.remove(); dropSign(); focus(null); onPin(null); }
 
   return {
     map,
@@ -385,13 +433,13 @@ export function createMap({ container, data, onPin = () => {} }) {
     placeFeature,
     reveal,
     setFlags,
-    lock(v) { locked = v; },
+    lock(v) { locked = v; if (v) exactNext = false; },
     hit: (lng, lat) => hitTest(index, lng, lat),
     get pin() { return pin; },
-    clearPin() { pin = null; marker.remove(); dropSign(); focus(null); onPin(null); },
+    clearPin,
     zoomIn() { map.zoomIn(); },
     zoomOut() { map.zoomOut(); },
-    resetView() { map.fitBounds(WORLD_BOUNDS, { duration: 600 }); },
+    resetView() { exactNext = false; map.resize(); map.fitBounds(WORLD_BOUNDS, { duration: 600 }); },
     setNames(on) { names.set(on); },
     setBorders(on) { map.setLayoutProperty('borders', 'visibility', on ? 'visible' : 'none'); },
   };
