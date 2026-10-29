@@ -279,7 +279,7 @@
     "https://en.wikipedia.org/wiki/Heliopolis_(ancient_Egypt)"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Genesis moves across the ancient Near East. Abraham's family set out from Ur, stopped at Haran, and Abraham and Isaac lived around Beersheba. Damascus appears in Abraham's story (Genesis 14:15), Joseph married the daughter of the priest of On in Egypt, and Jacob named Mahanaim and Penuel east of the Jordan (Genesis 32).",
    "stamp": null,
    "gems": [
@@ -322,6 +322,13 @@
      "commonness": 3,
      "gem": false,
      "fact": "Haran lies in south-east Turkey."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hebron (Genesis 23:2) is in the West Bank."
     },
     {
      "code": "JOR",

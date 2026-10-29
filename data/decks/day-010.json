@@ -200,12 +200,13 @@
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Since 1977 Book of Mormon text has come out in many Indigenous languages of the Americas. Guatemala has Cakchiquel, Kekchi, Quiche and Mam; Bolivia has Aymara and Quechua; Paraguay has Guarani; and in the United States, Navajo got a full text in 1998.",
+   "summary": "Since 1977 Book of Mormon text has come out in many Indigenous languages of the Americas. Guatemala has Cakchiquel, Kekchi, Quiche and Mam; Bolivia has Aymara and Quechua; Paraguay has Guarani; and in the United States, Navajo has had selections since 1980.",
    "stamp": null,
    "gems": [
     "ARG",
     "BLZ",
-    "CHL"
+    "CHL",
+    "COL"
    ],
    "gem_forced": false,
    "answers": [
@@ -228,7 +229,7 @@
      "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Maya (1983) and Tzotzil (1994) selections serve Mexico's south."
+     "fact": "Maya (1983) and Tzotzil (1992) selections serve Mexico's south."
     },
     {
      "code": "PER",
@@ -242,7 +243,7 @@
      "name": "United States",
      "commonness": 4,
      "gem": false,
-     "fact": "Navajo selections came in 1980 and the full text in 1998."
+     "fact": "Navajo selections came in 1980, with a revised edition in 1998."
     },
     {
      "code": "ECU",
@@ -285,6 +286,13 @@
      "commonness": 1,
      "gem": true,
      "fact": "Aymara, with a full 1986 Book of Mormon, is spoken in far northern Chile."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kuna (Guna), with Book of Mormon selections, is spoken natively by the Guna of northwest Colombia."
     }
    ]
   },
@@ -399,11 +407,12 @@
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "Between 1997 and 2021 the Book of Mormon reached many languages of eastern and southern Europe, starting with Ukrainian (1997) and Albanian (1999). Estonian, Latvian and Lithuanian all came in 2000, followed by Slovenian (2002), Serbian (2008), Slovak (2013) and Macedonian (2021).",
+   "summary": "Between 1997 and 2021 the Book of Mormon reached many languages of eastern and southern Europe, starting with Ukrainian (1997) and Albanian (1999). Estonian, Latvian and Lithuanian all came in 2000, followed by Slovenian (2002), Serbian (2008) and Slovak (2013).",
    "stamp": null,
    "gems": [
     "BIH",
-    "MKD"
+    "MKD",
+    "XKX"
    ],
    "gem_forced": false,
    "answers": [
@@ -475,7 +484,14 @@
      "name": "North Macedonia",
      "commonness": 1,
      "gem": true,
-     "fact": "Macedonian got its Book of Mormon in 2021; Albanian (1999) is also co-official there."
+     "fact": "The full Macedonian Book of Mormon appeared in 2023; Albanian (1999) is also co-official there."
+    },
+    {
+     "code": "XKX",
+     "name": "Kosovo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Albanian (1999) and Serbian (2008) are both official in Kosovo."
     }
    ]
   }

@@ -166,12 +166,13 @@
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "As of October 2026, Latin America has many temples under construction. Brazil has several, including Natal, Teresina and Santos, and Mexico has Torreón, Querétaro and San Luis Potosí. Others are underway at Santiago West Chile, Cali Colombia, Santa Cruz Bolivia and Huehuetenango Guatemala.",
+   "summary": "As of October 2026, Latin America has many temples under construction. Brazil has several, including Natal, Teresina and Santos, and Mexico has Torreón, Querétaro and San Luis Potosí. Others are underway at Santiago West Chile, Cali Colombia, Santa Cruz Bolivia, Iquitos Peru and Huehuetenango Guatemala.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
     "BOL",
     "COL",
-    "GTM"
+    "GTM",
+    "PER"
    ],
    "gem_forced": true,
    "answers": [
@@ -216,6 +217,13 @@
      "commonness": 2,
      "gem": true,
      "fact": "Huehuetenango Guatemala (under construction)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Iquitos Peru (construction began 10 October 2026)."
     }
    ]
   },

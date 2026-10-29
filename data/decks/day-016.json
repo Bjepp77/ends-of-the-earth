@@ -170,7 +170,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/nt/col/4?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "The book of Acts names believers from all around the Mediterranean, showing how far the early Church reached. Barnabas came from Cyprus, Apollos from Alexandria in Egypt, Timothy from Lystra in Turkey, and Tabitha lived at Joppa. Even a treasurer of Candace, queen of the Ethiopians, whose land of Kush was centered in today's Sudan, was taught by Philip and baptized (Acts 8:27-38).",
    "stamp": null,
    "gems": [
@@ -228,6 +228,13 @@
      "fact": "Lucius of Cyrene led the church at Antioch (Acts 13:1)."
     },
     {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Simon lived in Samaria (Acts 8:9), in the West Bank."
+    },
+    {
      "code": "SYR",
      "name": "Syria",
      "commonness": 2,
@@ -265,7 +272,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Old Testament prophets often served far from home. Moses was raised in Egypt and fled to Midian in Arabia, Elijah stayed with a widow at Zarephath in Sidon's territory, and Jonah was sent to preach in Nineveh. Ezekiel and Daniel lived in Babylonia, and Jeremiah was taken to Tahpanhes in Egypt (Jeremiah 43:7).",
    "stamp": null,
    "gems": [
@@ -310,6 +317,13 @@
      "fact": "Daniel saw a vision at Shushan by the river Ulai (Daniel 8:2)."
     },
     {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elisha healed the waters at Jericho (2 Kings 2:19-22), in the West Bank."
+    },
+    {
      "code": "SAU",
      "name": "Saudi Arabia",
      "commonness": 2,
@@ -350,6 +364,7 @@
    "stamp": null,
    "gems": [
     "BIH",
+    "BLZ",
     "CYP"
    ],
    "gem_forced": false,
@@ -395,6 +410,13 @@
      "commonness": 1,
      "gem": true,
      "fact": "Croatian, translated 1979, is one of Bosnia's official languages."
+    },
+    {
+     "code": "BLZ",
+     "name": "Belize",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kekchi (Q'eqchi'), translated 1979, is an Indigenous Mayan language of Belize."
     },
     {
      "code": "CYP",

@@ -193,13 +193,15 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/46?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/34?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/26?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/26?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/47?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "In the later Old Testament period, Assyria, Babylon and Egypt fought over the lands around Israel. Sennacherib of Assyria besieged Lachish, Pharaoh Necho killed King Josiah at Megiddo, and Nebuchadnezzar of Babylon defeated Necho at Carchemish (Jeremiah 46:2). Nebuchadnezzar also laid a long siege to Tyre and judged King Zedekiah of Judah at Riblah in Syria (2 Kings 25:6).",
    "stamp": null,
    "gems": [
+    "PSE",
     "TUR"
    ],
    "gem_forced": false,
@@ -238,6 +240,13 @@
      "commonness": 2,
      "gem": false,
      "fact": "Tiglath-pileser took Damascus, and Nebuchadnezzar judged Zedekiah at Riblah (2 Kings 16:9; 25:6)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Jeremiah's oracle against the Philistines came before Pharaoh smote Gaza (Jeremiah 47:1)."
     },
     {
      "code": "TUR",

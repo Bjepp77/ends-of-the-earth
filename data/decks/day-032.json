@@ -77,10 +77,9 @@
    ],
    "difficulty": 3,
    "note": "Hong Kong, which has had a temple since 1996, is counted separately from mainland China.",
-   "summary": "In 2019 and 2020 eight countries and territories got their first temple announcement, including Hungary, Sierra Leone, Papua New Guinea, Kiribati and China (Shanghai). As of October 2026 none of the eight is dedicated yet; most are under construction.",
+   "summary": "In 2019 and 2020 seven countries and territories got their first temple announcement, including Hungary, Sierra Leone, Papua New Guinea, Kiribati and China (Shanghai). As of October 2026 none of the seven is dedicated yet; most are under construction.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ASM",
     "KIR",
     "PNG",
     "SLE",
@@ -108,13 +107,6 @@
      "commonness": 2,
      "gem": false,
      "fact": "Budapest Hungary, announced 2019."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Pago Pago American Samoa, announced 2019."
     },
     {
      "code": "KIR",

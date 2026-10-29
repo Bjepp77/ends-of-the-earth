@@ -449,7 +449,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/27?lang=eng"
    ],
    "difficulty": 1,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Many Bible stories take place in royal cities. Nineveh and Babylon were capitals in today's Iraq, Shushan in Iran was a Persian royal seat in the book of Esther, and Damascus was the capital of Aram and is the capital of Syria today. Tyre was the seat of King Hiram, who supplied cedar for Solomon's temple, and Rabbah of the Ammonites is modern Amman in Jordan.",
    "stamp": null,
    "gems": [
@@ -512,6 +512,20 @@
      "commonness": 2,
      "gem": false,
      "fact": "Tyre was the seat of King Hiram (1 Kings 5)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hebron was David's first capital (2 Samuel 2:11), in the West Bank."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Antioch (Acts 11:19) was the main seat of the Seleucid kingdom; it is modern Antakya."
     },
     {
      "code": "JOR",

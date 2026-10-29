@@ -408,10 +408,11 @@
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "At Pentecost, Jews from many lands were in Jerusalem when the apostles were filled with the Holy Ghost, and each listener heard them speak in his own language (Acts 2:1-11). The crowd came from lands now in Iraq, Iran, Turkey, Egypt, Libya, Italy and Greece. About three thousand were baptized that day (Acts 2:41), and men from some of the same lands later disputed with Stephen (Acts 6:9).",
+   "summary": "At Pentecost, Jews from many lands were in Jerusalem when the apostles were filled with the Holy Ghost, and each listener heard them speak in his own language (Acts 2:1-11). The crowd came from lands now in Israel, Iraq, Iran, Turkey, Egypt, Libya, Italy and Greece. About three thousand were baptized that day (Acts 2:41), and men from some of the same lands later disputed with Stephen (Acts 6:9).",
    "stamp": null,
    "gems": [
-    "LBY"
+    "LBY",
+    "PSE"
    ],
    "gem_forced": false,
    "answers": [
@@ -451,6 +452,13 @@
      "fact": "Mesopotamia, the land between the rivers, centres on Iraq."
     },
     {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Judaea is named among the lands of the crowd (Acts 2:9)."
+    },
+    {
      "code": "IRN",
      "name": "Iran",
      "commonness": 2,
@@ -463,6 +471,13 @@
      "commonness": 1,
      "gem": true,
      "fact": "The parts of Libya about Cyrene are in eastern Libya; Cyrenians also disputed with Stephen (Acts 6:9)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Judaea (Acts 2:9) includes the West Bank."
     }
    ]
   }

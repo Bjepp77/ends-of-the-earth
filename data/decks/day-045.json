@@ -244,7 +244,7 @@
    "id": "ot-josiah-and-pharaoh-necho",
    "bank": "ot",
    "display_text": "Pin a country holding a place in Josiah's reforms, his death at Megiddo, or Pharaoh Necho's march",
-   "text_original": "A present-day country holding a place or kingdom named in Josiah's reforms and death and their aftermath (2 Kings 23; 2 Chronicles 35:20-36:4): the high places of the gods of Zidon, Moab and Ammon, Bethel and Samaria's high places, Megiddo, Necho's march against the king of Assyria toward Carchemish by Euphrates, Riblah in Hamath, and Egypt",
+   "text_original": "A present-day country holding a place or kingdom named in Josiah's reforms and death and their aftermath (2 Kings 23; 2 Chronicles 35:20-36:4): Bethel and Samaria's high places, Megiddo, Necho's march against the king of Assyria toward Carchemish by Euphrates, Riblah in Hamath, and Egypt",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
@@ -262,7 +262,6 @@
    "summary": "King Josiah of Judah purged idolatry from Jerusalem to Bethel and the cities of Samaria. When Pharaoh Necho marched north toward Carchemish to aid the king of Assyria, Josiah met him at Megiddo and was slain. Necho then bound Josiah's son Jehoahaz at Riblah and carried him to Egypt (2 Kgs 23; 2 Chr 35).",
    "stamp": null,
    "gems": [
-    "LBN",
     "TUR"
    ],
    "gem_forced": false,
@@ -289,25 +288,11 @@
      "fact": "Josiah broke down the altar at Bethel and the high places in the cities of Samaria (2 Kgs 23:15, 19)."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Josiah defiled the high places Solomon had built for Chemosh of the Moabites and Milcom of the children of Ammon (2 Kgs 23:13)."
-    },
-    {
      "code": "SYR",
      "name": "Syria",
      "commonness": 2,
      "gem": false,
      "fact": "Necho put Jehoahaz in bands at Riblah in the land of Hamath (2 Kgs 23:33)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 1,
-     "gem": true,
-     "fact": "He also defiled the high place Solomon built for Ashtoreth the abomination of the Zidonians (2 Kgs 23:13)."
     },
     {
      "code": "TUR",

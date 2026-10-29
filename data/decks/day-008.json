@@ -404,6 +404,13 @@
      "fact": "Taking root again after more than ten years closed to missionaries."
     },
     {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hawaii: the Saints there and the Church school at Laie."
+    },
+    {
      "code": "WSM",
      "name": "Samoa",
      "commonness": 2,

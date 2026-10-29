@@ -154,7 +154,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/bd/javan?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Genesis 10 lists the families of Noah's sons Shem, Ham and Japheth, from whom the nations spread after the flood (Genesis 10:1, 32). Many names match real places: Mizraim is Egypt, Javan is Greece, Elam and Madai are in Iran, and Babel and Nineveh are in Iraq. Sidon is called Canaan's firstborn (Genesis 10:15).",
    "stamp": null,
    "gems": [
@@ -203,6 +203,13 @@
      "commonness": 2,
      "gem": false,
      "fact": "Elam and Madai (the Medes) were in today's Iran."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Gaza (Genesis 10:19) lies in the Gaza Strip."
     },
     {
      "code": "SYR",

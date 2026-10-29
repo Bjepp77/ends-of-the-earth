@@ -236,7 +236,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Some cities appear in both testaments, linking Old Testament stories to the New. Damascus is named in Genesis and is where Paul first preached, and Joppa is where Jonah boarded a ship and where Peter later had a vision (Jonah 1:3; Acts 10). Jesus spoke of Tyre, Sidon and Nineveh, and Haran, from Abraham's story, returns in Stephen's speech (Acts 7:4).",
    "stamp": null,
    "gems": [
@@ -271,6 +271,13 @@
      "commonness": 3,
      "gem": false,
      "fact": "Nineveh and Babylon are named by Jesus and in Revelation (Matthew 12:41)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bethlehem is named in both testaments (Ruth 1:1; Matthew 2:1), in the West Bank."
     },
     {
      "code": "TUR",

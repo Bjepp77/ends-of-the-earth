@@ -102,7 +102,7 @@
    ],
    "difficulty": 3,
    "note": "Counts from the 26 Oct 2026 temple list. Next below the line: Mozambique (2).",
-   "summary": "Outside the Americas, the Philippines led with 14 temples dedicated, under construction or announced as of October 2026. Nigeria and Australia had 7 each, Nigeria's being the most in Africa, and Germany's 3 were the most in Europe.",
+   "summary": "Outside the Americas, the Philippines led with 14 temples dedicated, under construction or announced as of October 2026. Nigeria and Australia had 7 each, Nigeria's being the most in Africa, and the United Kingdom's 4 were the most in Europe.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
     "COD"
@@ -138,6 +138,13 @@
      "fact": "7 in all, the most in Africa."
     },
     {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 in all: London, Preston, Birmingham and Edinburgh."
+    },
+    {
      "code": "NZL",
      "name": "New Zealand",
      "commonness": 3,
@@ -156,7 +163,7 @@
      "name": "Germany",
      "commonness": 2,
      "gem": false,
-     "fact": "3 in all, the most in Europe."
+     "fact": "3 in all: Frankfurt, Freiberg and Hamburg."
     },
     {
      "code": "GHA",
@@ -196,7 +203,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng"
    ],
    "difficulty": 1,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Abraham's family set out from Ur, traditionally placed in southern Iraq, and stayed for a time at Haran in today's Turkey, where Jacob later served Laban for twenty years (Genesis 11:31; 29-31). Abraham lived at Beersheba and went down to Egypt during a famine. Jacob wrestled at Peniel by the Jabbok in Jordan, and he died in Egypt in the land of Goshen.",
    "stamp": null,
    "gems": [
@@ -232,6 +239,13 @@
      "commonness": 3,
      "gem": false,
      "fact": "Abraham settled for a time in Haran, and Jacob served Laban there twenty years (Genesis 11:31; 29-31)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Abraham lived at Hebron (Genesis 13:18), in the West Bank."
     },
     {
      "code": "JOR",

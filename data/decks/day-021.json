@@ -108,6 +108,13 @@
      "fact": "Dubai, announced."
     },
     {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Pago Pago, under construction; dedication set for 13 December 2026."
+    },
+    {
      "code": "IDN",
      "name": "Indonesia",
      "commonness": 2,
@@ -175,13 +182,15 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng",
-    "https://en.wikipedia.org/wiki/Tell_Halaf"
+    "https://en.wikipedia.org/wiki/Tell_Halaf",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "The Old Testament tells how Israel and Judah lost their kingdoms. Assyria carried Israelites to the river Gozan and the cities of the Medes (2 Kings 17:6), and later Babylon carried Judah's people to Babylon, where King Jehoiachin lived out his days. Some kings died in battle, like Saul on Gilboa and Ahab at Ramoth-gilead, and Jehoahaz was taken to Egypt and died there.",
    "stamp": null,
    "gems": [
+    "PSE",
     "SYR"
    ],
    "gem_forced": false,
@@ -222,6 +231,13 @@
      "fact": "Ahab was mortally hit in battle at Ramoth-gilead (1 Kings 22)."
     },
     {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Menahem killed King Shallum in Samaria (2 Kings 15:14), in the West Bank."
+    },
+    {
      "code": "SYR",
      "name": "Syria",
      "commonness": 1,
@@ -251,7 +267,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "The Bible records miracles by prophets and apostles in many lands. Elijah raised a widow's son at Zarephath (1 Kings 17:22), and Peter healed Aeneas at Lydda and raised Tabitha at Joppa. Paul healed a lame man at Lystra, raised Eutychus at Troas, struck the sorcerer Elymas blind on Cyprus, cast out a spirit at Philippi, and healed the father of Publius on Malta (Acts 28:8).",
    "stamp": null,
    "gems": [
@@ -293,6 +309,13 @@
      "commonness": 2,
      "gem": false,
      "fact": "Paul struck the sorcerer Elymas blind at Paphos (Acts 13:11)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elisha healed the waters at Jericho (2 Kings 2:19-22), in the West Bank."
     },
     {
      "code": "LBN",

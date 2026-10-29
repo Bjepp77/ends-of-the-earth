@@ -155,15 +155,17 @@
     "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng"
    ],
    "difficulty": 1,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Acts follows the gospel outward along the Mediterranean coast. Peter worked at Joppa, believers gathered at Damascus and Antioch, men of Cyrene took part in the early Church, and Paul preached in Cyprus, Ephesus, Athens and Corinth. Paul's ship called at Tyre and Sidon, and after a shipwreck on Malta the book ends with him in Rome.",
    "stamp": null,
    "gems": [
     "LBN",
-    "LBY"
+    "LBY",
+    "PSE"
    ],
    "gem_forced": false,
    "answers": [
@@ -236,6 +238,13 @@
      "commonness": 1,
      "gem": true,
      "fact": "Men of Cyrene appear in Acts 2, 6, 11 and 13."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Philip met the Ethiopian on the road down to Gaza (Acts 8:26), now in the Gaza Strip."
     }
    ]
   },

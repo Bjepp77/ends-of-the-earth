@@ -398,7 +398,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/50?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Amos, Jeremiah and Ezekiel each delivered oracles, or prophetic messages, warning the nations around Israel of coming judgment. Egypt, Babylon, Damascus, Tyre, Sidon, Moab, Ammon, Edom and the Philistine cities all received warnings, and Amos did not spare Israel itself (Amos 2:6). Jeremiah gave two long chapters to Babylon's fall (Jeremiah 50-51), and Ezekiel gave three to Tyre and Sidon.",
    "stamp": null,
    "gems": [
@@ -440,6 +440,13 @@
      "commonness": 3,
      "gem": false,
      "fact": "Tyre is judged for selling captives, and Ezekiel gives three chapters to Tyre and Sidon (Amos 1:9; Ezekiel 26-28)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Amos judges Gaza (Amos 1:6-7), now in the Gaza Strip."
     },
     {
      "code": "SYR",

@@ -172,7 +172,7 @@
     "https://en.wikipedia.org/wiki/Midian"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Ancient Israel was surrounded by rival nations, and the Old Testament records wars with many of them. The Philistines held coastal cities now in Israel, Moab, Ammon and Edom lay east of the Jordan, Gideon fought the Midianites, and Aramean kings ruled from Damascus. In the end the great empires of Assyria and Babylon, based in today's Iraq, conquered Israel and Judah.",
    "stamp": null,
    "gems": [
@@ -214,6 +214,13 @@
      "commonness": 3,
      "gem": false,
      "fact": "Aramean kings of Damascus fought Israel for generations (1 Kings 20)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Gaza was a Philistine city; it lies in the Gaza Strip."
     },
     {
      "code": "SAU",
@@ -311,7 +318,7 @@
     "https://en.wikipedia.org/wiki/Decapolis"
    ],
    "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "Jesus centered his ministry around Nazareth and Capernaum in Galilee, in today's Israel. As a young child he was taken into Egypt when Joseph and Mary fled there (Matthew 2:14). Later he went into the region of Tyre and Sidon in Lebanon and through the Decapolis, a group of cities now in Jordan and Syria, and crowds came from those lands to hear him (Mark 3:7-8; 7:24-31).",
    "stamp": null,
    "gems": [
@@ -340,6 +347,13 @@
      "commonness": 3,
      "gem": false,
      "fact": "He taught beyond the Jordan, and Gerasa, Gadara and Philadelphia (Amman) were Decapolis cities (Mark 3:8; 10:1)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jesus entered Jericho (Luke 19:1), in the West Bank."
     },
     {
      "code": "LBN",

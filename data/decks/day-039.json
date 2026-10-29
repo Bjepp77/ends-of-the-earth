@@ -16,10 +16,9 @@
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Sydney Australia (1991) and Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
+   "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "AUS",
     "TON"
    ],
    "gem_forced": true,
@@ -51,13 +50,6 @@
      "commonness": 3,
      "gem": false,
      "fact": "Sapporo Japan (2016)."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Sydney Australia (rededicated 24 November 1991)."
     },
     {
      "code": "TON",

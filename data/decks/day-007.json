@@ -300,6 +300,7 @@
    "stamp": null,
    "gems": [
     "BEN",
+    "LSO",
     "NAM",
     "RWA"
    ],
@@ -395,6 +396,13 @@
      "commonness": 1,
      "gem": true,
      "fact": "Yoruba, translated 2007, is spoken in southern Benin."
+    },
+    {
+     "code": "LSO",
+     "name": "Lesotho",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Sesotho text is available from 1 Nephi through Mosiah 8; the full translation is in progress."
     },
     {
      "code": "NAM",

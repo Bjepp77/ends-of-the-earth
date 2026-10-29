@@ -223,7 +223,8 @@
     "MAC",
     "PRK",
     "SMR",
-    "THA"
+    "THA",
+    "VAT"
    ],
    "gem_forced": false,
    "answers": [
@@ -331,6 +332,13 @@
      "commonness": 1,
      "gem": true,
      "fact": "Thai translations of the Doctrine and Covenants and Pearl of Great Price were published in 1979."
+    },
+    {
+     "code": "VAT",
+     "name": "Vatican City",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Italian, its main working language, got its first Pearl of Great Price in 1965."
     }
    ]
   },

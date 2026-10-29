@@ -240,13 +240,15 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/23?lang=eng",
     "https://en.wikipedia.org/wiki/Tayma",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/20?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/14?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "note": null,
    "summary": "In Isaiah 13 to 23, the prophet delivers burdens, or warnings, against the nations around Judah. They open with Babylon's fall and include Egypt, Damascus, Moab, Tyre and Sidon, and the Arabian oasis of Tema. Isaiah also names Elam and Media, and Cush, the Nile land south of Egypt (Isaiah 20:3-5).",
    "stamp": null,
    "gems": [
+    "PSE",
     "SAU",
     "SDN"
    ],
@@ -300,6 +302,13 @@
      "commonness": 2,
      "gem": false,
      "fact": "Elam and Media are called to attack Babylon (Isaiah 21:2)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Isaiah 14:29-31 warns all Palestina (Philistia), whose city of Gaza is in the Gaza Strip."
     },
     {
      "code": "SAU",

@@ -158,7 +158,7 @@
   {
    "id": "scripture-south-southeast-asia-languages",
    "bank": "scripture",
-   "display_text": "Pin a South or Southeast Asian country whose official or national language has Book of Mormon text.",
+   "display_text": "Pin a South or Southeast Asian country with some Book of Mormon text in an official or national language.",
    "text_original": "A country in South or Southeast Asia where an official or national language has Book of Mormon text",
    "accepts": "country",
    "topic": "scripture geography",
@@ -175,7 +175,8 @@
    "gems": [
     "BGD",
     "BRN",
-    "SGP"
+    "SGP",
+    "TLS"
    ],
    "gem_forced": false,
    "answers": [
@@ -283,13 +284,20 @@
      "commonness": 1,
      "gem": true,
      "fact": "Malay (2013) and Tamil (2005) are official in Singapore."
+    },
+    {
+     "code": "TLS",
+     "name": "Timor-Leste",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Portuguese, an official language of Timor-Leste, has a full Book of Mormon."
     }
    ]
   },
   {
    "id": "saints-v4-27-africa-1990s",
    "bank": "draft",
-   "display_text": "Pin an African country that Saints names as reached by the gospel by the early 1990s.",
+   "display_text": "Pin an African country the gospel had reached by the early 1990s, as listed in the book Saints, volume 4.",
    "text_original": "Saints vol. 4 ch. 27 names these African countries as places the restored gospel had reached by the early 1990s. Pin one.",
    "accepts": "country",
    "topic": "missionary work",
@@ -476,7 +484,7 @@
   {
    "id": "saints-v4-12-first-stakes-mckay",
    "bank": "history2",
-   "display_text": "Pin a country that Saints names as having its first stake by 1970, as McKay's presidency ended.",
+   "display_text": "Pin a country that the book Saints says had its first stake before McKay's presidency ended in 1970.",
    "text_original": "Saints vol. 4 ch. 12: by 1970, at the end of David O. McKay's presidency, these countries had their first stakes. Pin one.",
    "accepts": "country",
    "topic": "church growth",
