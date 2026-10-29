@@ -358,6 +358,15 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .r-km { font-family: var(--font-figure); font-size: 18px; white-space: nowrap; }
 .r-name { margin: 8px 0 0; font-size: 20px; line-height: 26px; font-weight: 600; }
 .r-line { margin: 6px 0 0; }
+/* "See more…" (owner, 2026-10-29): a quiet line under the guess that opens the popped result.
+   The button is 44 px tall; the negative margins keep it to one text line in the card. */
+.r-more {
+  display: block; min-height: 44px; margin: -8px 0; padding: 0; border: 0; background: none;
+  font: inherit; font-size: 14px; line-height: 20px; color: var(--ink-2); text-align: left; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px;
+}
+.r-more:focus-visible { outline: 2px solid var(--ink); outline-offset: -8px; }
+.result[data-size="pop"] .r-more { display: none; }
 .fact-summary { margin: 8px 0 0; font-size: 14px; line-height: 20px; color: var(--ink); overflow-wrap: anywhere; }
 .answers { margin-top: 8px; }
 .answers summary {
@@ -444,10 +453,16 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
   #round > .trail { order: 3; flex: none; margin-top: var(--edge); padding: 0; background: none; box-shadow: none; }
   #round > .trail .eyebrow { display: none; }
   .trail-map { max-height: 140px; margin: 0 auto; width: auto; max-width: 100%; }
+  /* The reveal card on a phone (owner, 2026-10-29): tier, km, the guess and "See more…" only, always
+     whole. The rest of the answer shows in the popped card. The trail strip and the map give way. */
   #round > .result {
-    order: 3; flex: 0 1 auto; max-height: 34dvh; overflow: auto;
+    order: 3; flex: none;
     margin-top: var(--edge); padding: 8px 12px;
   }
+  #round > .result:not([data-size="pop"]) > :not(.result-head, .r-name, .r-more, .size-btn) { display: none; }
+  #round:has(#result:not([hidden])) > .trail .trail-map { max-height: clamp(64px, calc(100dvh - 580px), 140px); }
+  .app:has(#round:not([hidden]) #result:not([hidden])) .stage { min-height: 140px; }
+  #round:has(#result:not([hidden])) .readout:empty { display: none; }
   .actions {
     order: 4; flex: none; margin-top: 0;
     padding: var(--edge) 0 calc(var(--edge) + env(safe-area-inset-bottom));

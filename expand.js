@@ -42,8 +42,11 @@ export function createExpand(panels, { onChange } = {}) {
   }
 
   function pop(item) {
+    // A control inside the panel that opened it ("See more…") gets focus back on close.
+    const from = document.activeElement;
     close({ quiet: true });
     const { el } = item;
+    const back = from !== item.btn && el.contains(from) ? from : item.btn;
     // The placeholder takes the panel's measured box and its place in the flex or grid layout.
     const r = el.getBoundingClientRect();
     const cs = getComputedStyle(el);
@@ -60,7 +63,7 @@ export function createExpand(panels, { onChange } = {}) {
     shade.addEventListener('click', () => close());
     el.before(spot, shade);
     el.dataset.size = 'pop';
-    open = { item, spot, shade };
+    open = { item, spot, shade, back };
     watch.observe(document.body, { attributes: true, attributeFilter: ['hidden'], subtree: true });
     label(item);
     item.btn.focus({ preventScroll: true });
@@ -69,7 +72,7 @@ export function createExpand(panels, { onChange } = {}) {
 
   function close({ quiet = false, focus = true } = {}) {
     if (!open) return;
-    const { item, spot, shade } = open;
+    const { item, spot, shade, back } = open;
     open = null;
     watch.disconnect();
     spot.remove();
@@ -77,7 +80,7 @@ export function createExpand(panels, { onChange } = {}) {
     delete item.el.dataset.size;
     label(item);
     if (quiet) return;
-    if (focus) item.btn.focus({ preventScroll: true });
+    if (focus) (back.getClientRects().length ? back : item.btn).focus({ preventScroll: true });
     onChange?.();
   }
 

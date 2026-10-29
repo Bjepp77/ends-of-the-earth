@@ -1,17 +1,17 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=ae776d9246';
-import { REFUSAL_TEXT } from './hit.js?v=ae776d9246';
-import * as R from './rules.js?v=ae776d9246';
-import * as G from './game.js?v=ae776d9246';
-import { createStore } from './store.js?v=ae776d9246';
-import { createMenu } from './menu.js?v=ae776d9246';
-import { createSound } from './sound.js?v=ae776d9246';
-import { shareOrCopy } from './share.js?v=ae776d9246';
-import { createTrail } from './trail.js?v=ae776d9246';
-import { createTour } from './tour.js?v=ae776d9246';
-import { createThanks } from './thanks.js?v=ae776d9246';
-import { createCounter } from './count.js?v=ae776d9246';
-import { createExpand } from './expand.js?v=ae776d9246';
+import { loadCountries, createMap } from './map.js?v=7eff5a1bb0';
+import { REFUSAL_TEXT } from './hit.js?v=7eff5a1bb0';
+import * as R from './rules.js?v=7eff5a1bb0';
+import * as G from './game.js?v=7eff5a1bb0';
+import { createStore } from './store.js?v=7eff5a1bb0';
+import { createMenu } from './menu.js?v=7eff5a1bb0';
+import { createSound } from './sound.js?v=7eff5a1bb0';
+import { shareOrCopy } from './share.js?v=7eff5a1bb0';
+import { createTrail } from './trail.js?v=7eff5a1bb0';
+import { createTour } from './tour.js?v=7eff5a1bb0';
+import { createThanks } from './thanks.js?v=7eff5a1bb0';
+import { createCounter } from './count.js?v=7eff5a1bb0';
+import { createExpand } from './expand.js?v=7eff5a1bb0';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -597,7 +597,7 @@ function showReveal(row, isNew) {
   const bonus = G.bonusNote(row);
   $('r-km').textContent = bonus ? `${kmText(row.pts)} (${bonus})` : kmText(row.pts);
   sound.reveal(R.roundKm(row.t));
-  $('r-name').textContent = row.n ? `“${row.n}”` : 'No pin';
+  $('r-name').textContent = row.n ? `You pinned ${row.n}` : 'No pin';
   $('r-line').textContent = G.revealLine(row, S.prompt);
   setOptional('r-stamp', S.prompt.stamp ? `Facts ${S.prompt.stamp}.` : '');
   setOptional('r-note', S.prompt.note ?? '');
@@ -1004,6 +1004,8 @@ const expand = createExpand([
   { selector: '.camp-trail', label: 'TRAIL' },
   { selector: '#camp > .actions', label: 'SHARE' },
 ], { onChange: () => view.map.resize() });
+// "See more…" under the guess (owner, 2026-10-29) opens the same pop-out as the result card's corner button.
+$('r-more').addEventListener('click', () => $('result').querySelector('.size-btn')?.click());
 
 async function startTour() {
   expand.reset(); // the tour lights panels at their usual size

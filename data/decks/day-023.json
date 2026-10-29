@@ -446,7 +446,9 @@
     "https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/1?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/1?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/27?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/11?lang=eng",
+    "https://www.livius.org/articles/place/antioch-antakya/"
    ],
    "difficulty": 1,
    "note": null,
@@ -525,7 +527,7 @@
      "name": "Turkey",
      "commonness": 2,
      "gem": false,
-     "fact": "Antioch (Acts 11:19) was the main seat of the Seleucid kingdom; it is modern Antakya."
+     "fact": "Antioch (named in Acts 11:19) was the main seat of the Seleucid kingdom; it is modern Antakya."
     },
     {
      "code": "JOR",
