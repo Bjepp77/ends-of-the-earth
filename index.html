@@ -20,9 +20,9 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="A dotted trail winding across golden prairie toward far hills under a tall cloud.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css?v=95fbcb2922">
-  <link rel="stylesheet" href="styles.css?v=95fbcb2922">
-  <script src="vendor/maplibre/maplibre-gl.js?v=95fbcb2922"></script>
+  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css?v=ecbfc8e56f">
+  <link rel="stylesheet" href="styles.css?v=ecbfc8e56f">
+  <script src="vendor/maplibre/maplibre-gl.js?v=ecbfc8e56f"></script>
 </head>
 <body>
   <div class="app">
@@ -52,7 +52,7 @@
         <span class="new-loc" id="sc-new" hidden>NEW LOCATION</span>
       </div>
 
-      <p class="loading" id="loading">Unrolling the map&hellip;</p>
+      <div class="loading" id="loading"><p id="loading-text">Unrolling the map&hellip;</p><button type="button" class="textlink" id="load-retry" hidden>RETRY</button></div>
     </section>
 
     <aside class="panel">
@@ -71,6 +71,7 @@
 
       <section class="screen" id="home">
         <p class="home-msg" id="home-msg"></p>
+        <button type="button" class="textlink" id="home-retry" hidden>RETRY</button>
         <div class="actions">
           <p class="home-wait" id="home-wait" hidden></p>
           <button type="button" class="cta" id="play" hidden>PLAY DAILY EXPEDITION</button>
@@ -229,6 +230,6 @@
     <div id="menu-body"></div>
   </nav>
 
-  <script type="module" src="app.js?v=95fbcb2922"></script>
+  <script type="module" src="app.js?v=ecbfc8e56f"></script>
 </body>
 </html>

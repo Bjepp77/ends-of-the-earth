@@ -2,7 +2,7 @@
 import {
   TIERS, tierById, tierFor, answerCodeFor, rowsKm, roundKm, bandFor, BANDS, logRow,
   expeditionNumber, isExpired, addDays,
-} from './rules.js?v=95fbcb2922';
+} from './rules.js?v=ecbfc8e56f';
 
 export const DECK_SIZE = 5;
 
@@ -112,6 +112,21 @@ export function answersByTier(prompt) {
 export function resultLine(km) {
   const band = bandFor(km);
   return band.id === BANDS[0].id ? `Still in ${band.name}` : `Reached ${band.name}`;
+}
+
+// N5 stamps are written only once the run is kept: a round the game reports as "not saved"
+// leaves no stamp. When a later save succeeds it persists every round, so every earlier
+// round that earned an answer is stamped then (store.stamp is idempotent). Returns true when
+// the last round's country is new to the passport.
+export function stampIfSaved(store, saved, rounds, day, playedOn) {
+  if (!saved) return false;
+  let isNew = false;
+  rounds.forEach((r, i) => {
+    if (!r.a) return;
+    const n = store.stamp(r.a, r.t, day, r.p, playedOn);
+    if (i === rounds.length - 1) isNew = n;
+  });
+  return isNew;
 }
 
 export function runKm(run) {

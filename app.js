@@ -1,17 +1,17 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=95fbcb2922';
-import { REFUSAL_TEXT } from './hit.js?v=95fbcb2922';
-import * as R from './rules.js?v=95fbcb2922';
-import * as G from './game.js?v=95fbcb2922';
-import { createStore } from './store.js?v=95fbcb2922';
-import { createMenu } from './menu.js?v=95fbcb2922';
-import { createSound } from './sound.js?v=95fbcb2922';
-import { shareOrCopy } from './share.js?v=95fbcb2922';
-import { createTrail } from './trail.js?v=95fbcb2922';
-import { createTour } from './tour.js?v=95fbcb2922';
-import { createThanks } from './thanks.js?v=95fbcb2922';
-import { createCounter } from './count.js?v=95fbcb2922';
-import { createExpand } from './expand.js?v=95fbcb2922';
+import { loadCountries, createMap } from './map.js?v=ecbfc8e56f';
+import { REFUSAL_TEXT } from './hit.js?v=ecbfc8e56f';
+import * as R from './rules.js?v=ecbfc8e56f';
+import * as G from './game.js?v=ecbfc8e56f';
+import { createStore } from './store.js?v=ecbfc8e56f';
+import { createMenu } from './menu.js?v=ecbfc8e56f';
+import { createSound } from './sound.js?v=ecbfc8e56f';
+import { shareOrCopy } from './share.js?v=ecbfc8e56f';
+import { createTrail } from './trail.js?v=ecbfc8e56f';
+import { createTour } from './tour.js?v=ecbfc8e56f';
+import { createThanks } from './thanks.js?v=ecbfc8e56f';
+import { createCounter } from './count.js?v=ecbfc8e56f';
+import { createExpand } from './expand.js?v=ecbfc8e56f';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -41,9 +41,30 @@ function safeStorage() {
   }
 }
 
-const [config, manifest, countries, souvenirs] = await Promise.all([
-  fetchJSON('config.json'), fetchJSON('data/manifest.json'), loadCountries(), fetchJSON('data/souvenirs.json'),
-]);
+// N4 a failed start-up fetch shows one sentence and a Retry that runs the same fetches again,
+// instead of a loading screen that never ends.
+const LOAD_FAILED = 'Could not load the game. Check your connection.';
+async function loadStartup() {
+  for (;;) {
+    try {
+      return await Promise.all([
+        fetchJSON('config.json'), fetchJSON('data/manifest.json'), loadCountries(), fetchJSON('data/souvenirs.json'),
+      ]);
+    } catch {
+      const text = $('loading-text');
+      const retry = $('load-retry');
+      const first = text.textContent;
+      text.textContent = LOAD_FAILED;
+      $('loading').classList.add('failed');
+      retry.hidden = false;
+      await new Promise((done) => { retry.onclick = done; });
+      retry.hidden = true;
+      $('loading').classList.remove('failed');
+      text.textContent = first;
+    }
+  }
+}
+const [config, manifest, countries, souvenirs] = await loadStartup();
 const store = createStore(safeStorage(), config.slot);
 // ?debug is the test hook; tests ask for counting with &count. Local play (the owner's copy, the
 // test server) never counts unless asked, so the numbers are real players only.
@@ -105,7 +126,7 @@ function runFresh() {
   return (store.run(S.date)?.v ?? 0) === (S.run?.v ?? 0);
 }
 
-function saveRun() {
+function saveRun(stamp = true) {
   if (S.practice) return true;
   if (!runFresh()) {
     conflict();
@@ -117,6 +138,8 @@ function saveRun() {
   // F2 the failure is kept in S.unsaved so the player is told the result was not saved.
   S.unsaved = !store.saveRun(S.date, S.run);
   if (S.unsaved) S.run.v -= 1;
+  // N5 a refused round is stamped by the first save that keeps it; finish() stamps its own round.
+  else if (stamp) G.stampIfSaved(store, true, S.run.rounds, S.date, today());
   return true;
 }
 
@@ -175,6 +198,7 @@ function goHome() {
   play.hidden = wait.hidden = streakLine.hidden = true;
   $('title-sub').textContent = 'THE DAILY EXPEDITION';
   $('home-msg').textContent = '';
+  $('home-retry').hidden = true;
 
   if (S.deal.status !== 'ok') {
     $('hud-line').textContent = G.longDate(date).toUpperCase();
@@ -244,11 +268,26 @@ function lateNow() {
 
 // ---------- round ----------
 
+// N4 a deck that cannot be fetched leaves the player on home with one sentence and a Retry.
+async function fetchDeck(path, again) {
+  try {
+    return await fetchJSON(path);
+  } catch {
+    goHome();
+    $('home-msg').textContent = 'Could not load the expedition. Check your connection.';
+    $('home-retry').hidden = false;
+    $('home-retry').onclick = () => { $('home-retry').hidden = true; again(); };
+    return null;
+  }
+}
+
 async function startDay() {
   // A home screen drawn before midnight must not start yesterday's deck as today's.
   if (target().date !== S.date) return goHome();
   S.practice = false;
-  S.deck = await fetchJSON(G.deckPath(S.deal.n));
+  const deck = await fetchDeck(G.deckPath(S.deal.n), startDay);
+  if (!deck) return;
+  S.deck = deck;
   S.settings = store.settings();
   const fresh = !store.run(S.date);
   S.run = store.run(S.date) ?? R.newRun(uuid(), Date.now());
@@ -289,7 +328,8 @@ function roundOpen(exceptDate) {
 
 async function startPractice() {
   if (roundOpen()) return;
-  const deck = await fetchJSON(G.practicePath(manifest));
+  const deck = await fetchDeck(G.practicePath(manifest), startPractice);
+  if (!deck) return;
   S.practice = true;
   S.settings = store.settings();
   S.deck = deck;
@@ -482,10 +522,7 @@ function finish(pin, timedOut) {
   const { row } = G.judge(S.prompt, pin, { timedOut, bySearch, mask, late: S.late && !S.practice, noNames });
   let isNew = false;
   if (!S.practice) {
-    if (row.a) {
-      isNew = store.stamp(row.a, row.t, S.date, S.prompt.id, today());
-      row.s = R.stampKey(row.a, row.t);
-    }
+    if (row.a) row.s = R.stampKey(row.a, row.t);
     const z = Math.round(view.map.getZoom() * 10) / 10;
     S.run.rounds.push({ ...row, c: row.i, z, k: S.open.clock });
     S.run.open = null;
@@ -498,12 +535,13 @@ function finish(pin, timedOut) {
       // §22 a day logs when its last pin lands. F2 the log and the finished run are kept
       // together or not at all: a refused log skips the run write, a refused run drops the log.
       if (store.saveLog(S.date, S.run.rounds.map(({ c, z: _z, k, ...r }) => r))) {
-        if (!saveRun()) return;
+        if (!saveRun(false)) return;
         if (S.unsaved) store.removeLog(S.date);
       } else {
         S.unsaved = true;
       }
-    } else if (!saveRun()) return;
+    } else if (!saveRun(false)) return;
+    isNew = G.stampIfSaved(store, !S.unsaved, S.run.rounds, S.date, today());
   }
   showReveal(row, isNew);
 }

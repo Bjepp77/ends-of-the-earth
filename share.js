@@ -1,4 +1,4 @@
-// §7 share button. The text itself comes from rules.js shareText (2 lines, no link, D2).
+// §7 share button. The text itself comes from rules.js shareText (2 lines plus a link to a premade share card, D2; the text goes only to the clipboard or share sheet, and the click handler in app.js counts one anonymous share event).
 // Coarse pointer with a share sheet: native share, text only. Otherwise copy to the clipboard,
 // falling back to a hidden textarea and execCommand. The label reads COPIED for 1.6 s.
 
