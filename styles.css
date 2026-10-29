@@ -576,9 +576,9 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 
 /* §23 header speaker toggle */
 .speaker { width: 36px; height: 36px; padding: 0; border: 0; background: none; color: var(--ink); cursor: pointer; flex: none; display: grid; place-items: center; }
-.speaker .cross { display: none; }
-.speaker--off .wave { display: none; }
-.speaker--off .cross { display: inline; }
+.speaker .snd-off { display: none; }
+.speaker--off .snd-on { display: none; }
+.speaker--off .snd-off { display: inline; }
 
 /* Floor 7: honour reduced motion. Press offsets and any future transition fall back to none. */
 @media (prefers-reduced-motion: reduce) {
