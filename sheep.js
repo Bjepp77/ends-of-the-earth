@@ -1,4 +1,4 @@
-// Lost sheep (owner, 2026-10-29, Luke 15): on the first miss of the day a lamb on a paper card
+// Lost sheep (owner, 2026-10-29, Luke 15): on every miss (owner, 2026-10-30) a lamb on a paper card
 // bounces in over the trail strip and bleats. Its mouth is open from bleat onset to bleat end: 0.01 s to
 // 0.94 s of audio/lost-sheep-baa.m4a, which is 0.60 s to 1.60 s of the Wikimedia recording.
 // Sound off (or the bleat not loaded): one short open. Reduced motion: no bounce, and the open

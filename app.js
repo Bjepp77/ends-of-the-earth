@@ -1,18 +1,18 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=22a50c7322';
-import { REFUSAL_TEXT } from './hit.js?v=22a50c7322';
-import * as R from './rules.js?v=22a50c7322';
-import * as G from './game.js?v=22a50c7322';
-import { createStore } from './store.js?v=22a50c7322';
-import { createMenu } from './menu.js?v=22a50c7322';
-import { createSound } from './sound.js?v=22a50c7322';
-import { shareOrCopy } from './share.js?v=22a50c7322';
-import { createTrail } from './trail.js?v=22a50c7322';
-import { createTour } from './tour.js?v=22a50c7322';
-import { createThanks } from './thanks.js?v=22a50c7322';
-import { createSheep } from './sheep.js?v=22a50c7322';
-import { createCounter } from './count.js?v=22a50c7322';
-import { createExpand } from './expand.js?v=22a50c7322';
+import { loadCountries, createMap } from './map.js?v=9d356c3147';
+import { REFUSAL_TEXT } from './hit.js?v=9d356c3147';
+import * as R from './rules.js?v=9d356c3147';
+import * as G from './game.js?v=9d356c3147';
+import { createStore } from './store.js?v=9d356c3147';
+import { createMenu } from './menu.js?v=9d356c3147';
+import { createSound } from './sound.js?v=9d356c3147';
+import { shareOrCopy } from './share.js?v=9d356c3147';
+import { createTrail } from './trail.js?v=9d356c3147';
+import { createTour } from './tour.js?v=9d356c3147';
+import { createThanks } from './thanks.js?v=9d356c3147';
+import { createSheep } from './sheep.js?v=9d356c3147';
+import { createCounter } from './count.js?v=9d356c3147';
+import { createExpand } from './expand.js?v=9d356c3147';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -858,11 +858,10 @@ function maybeThanks() {
   thanks.open();
 }
 
-// Lost sheep (owner, 2026-10-29): the first miss of the day, practice aside. ?debug is the
-// test hook; tests ask for it with &sheep.
+// Lost sheep (owner, 2026-10-30): every miss, practice aside. ?debug is the test hook; tests ask
+// for it with &sheep.
 function maybeSheep() {
-  if ((DEBUG && !params.has('sheep')) || S.practice || store.sheepShownOn(today())) return;
-  store.markSheepShown(today());
+  if ((DEBUG && !params.has('sheep')) || S.practice) return;
   sheep.open();
 }
 

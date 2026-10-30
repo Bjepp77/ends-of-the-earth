@@ -280,7 +280,6 @@ export const keys = {
   souvenirsShown: (slot) => `${recordPrefix(slot)}souvenirs-shown`,
   tour: (slot) => `${recordPrefix(slot)}tour`,
   thanks: (slot) => `${recordPrefix(slot)}thanks`,
-  sheep: (slot) => `${recordPrefix(slot)}sheep`,
 };
 
 export function newOwner(slot, generation) {
