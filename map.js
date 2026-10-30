@@ -1,6 +1,6 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=10dda069c9';
-import { rng } from './trail.js?v=10dda069c9';
+import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=22a50c7322';
+import { rng } from './trail.js?v=22a50c7322';
 
 const maplibregl = window.maplibregl;
 
@@ -143,26 +143,6 @@ function style(fc) {
       },
     ],
   };
-}
-
-// Our own drawing: a pioneer in a wide hat holding up a board on a pole. The words are HTML so they take the figure font.
-const MISS_FIGURE = '<svg class="miss-sign__fig" viewBox="0 0 40 56" aria-hidden="true">'
-  + '<path d="M29 4v50" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round"/>'
-  + '<path d="M9 54l3-15h10l3 15" fill="var(--ink-2)"/>'
-  + '<path d="M10 40c0-8 2-15 7-15s7 7 7 15z" fill="var(--accent)"/>'
-  + '<path d="M22 30l7-9" stroke="var(--accent)" stroke-width="3.2" stroke-linecap="round"/>'
-  + '<circle cx="17" cy="19" r="4.6" fill="var(--paper-3)" stroke="var(--ink)" stroke-width="1.2"/>'
-  + '<path d="M8.5 15.6h17M12.5 15.6c.4-4 2-5.6 4.5-5.6s4.1 1.6 4.5 5.6" fill="var(--ink)" stroke="var(--ink)" stroke-width="1.6" stroke-linecap="round"/>'
-  + '<circle cx="15.4" cy="19.4" r=".7" fill="var(--ink)"/><circle cx="18.6" cy="19.4" r=".7" fill="var(--ink)"/>'
-  + '<path d="M15.2 22.4q1.8-1.2 3.6 0" fill="none" stroke="var(--ink)" stroke-width=".8" stroke-linecap="round"/>'
-  + '</svg>';
-
-function missSignElement() {
-  const el = document.createElement('div');
-  el.className = 'miss-sign';
-  el.innerHTML = `${MISS_FIGURE}<span class="miss-sign__board">WRONG<br>TRAIL</span>`;
-  el.setAttribute('aria-hidden', 'true');
-  return el;
 }
 
 function pinElement() {
@@ -326,10 +306,6 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     map.setPaintProperty('focus-line', 'line-opacity', paint?.lineOpacity ?? 1);
   }
 
-  // §16 on a miss, a small figure holds a sign beside the pin. Removed with the pin.
-  let sign = null;
-  function dropSign() { sign?.remove(); sign = null; }
-
   function show(p) {
     pin = p;
     marker.setLngLat([p.lng, p.lat]).addTo(map);
@@ -353,7 +329,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
   }
 
   // §16 reveal: fly to the pinned country and fill it in the tier colour at its §4 alpha.
-  // paint null is a miss: plain highlight, and the sign figure beside the pin.
+  // paint null is a miss: plain highlight.
   // coverTop: the viewport y where an overlay over the map's lower part begins; the camera keeps clear of it.
   function reveal(code, paint, coverTop = Infinity) {
     const f = byCode.get(code);
@@ -363,8 +339,6 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     const edge = Math.min(80, Math.round(box.height / 8));
     const padding = { top: edge, left: edge, right: edge, bottom: Math.max(edge, Math.round(box.bottom - coverTop) + 8) };
     focus(code, paint);
-    dropSign();
-    if (!paint && pin) sign = new maplibregl.Marker({ element: missSignElement(), anchor: 'bottom-left', offset: [12, 4] }).setLngLat([pin.lng, pin.lat]).addTo(map);
     const [w, s, e, n] = f.bbox;
     if (e - w > 300) map.flyTo({ center: f.label, zoom: 2, offset: [0, (padding.top - padding.bottom) / 2], duration: 800 }); // offset, not padding: padding would persist
     else map.fitBounds([[w, s], [e, n]], { padding, maxZoom: 5, duration: 800 });
@@ -424,7 +398,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     place(e.lngLat);
   });
 
-  function clearPin() { pin = null; marker.remove(); dropSign(); focus(null); onPin(null); }
+  function clearPin() { pin = null; marker.remove(); focus(null); onPin(null); }
 
   return {
     map,

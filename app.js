@@ -1,18 +1,18 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=10dda069c9';
-import { REFUSAL_TEXT } from './hit.js?v=10dda069c9';
-import * as R from './rules.js?v=10dda069c9';
-import * as G from './game.js?v=10dda069c9';
-import { createStore } from './store.js?v=10dda069c9';
-import { createMenu } from './menu.js?v=10dda069c9';
-import { createSound } from './sound.js?v=10dda069c9';
-import { shareOrCopy } from './share.js?v=10dda069c9';
-import { createTrail } from './trail.js?v=10dda069c9';
-import { createTour } from './tour.js?v=10dda069c9';
-import { createThanks } from './thanks.js?v=10dda069c9';
-import { createSheep } from './sheep.js?v=10dda069c9';
-import { createCounter } from './count.js?v=10dda069c9';
-import { createExpand } from './expand.js?v=10dda069c9';
+import { loadCountries, createMap } from './map.js?v=22a50c7322';
+import { REFUSAL_TEXT } from './hit.js?v=22a50c7322';
+import * as R from './rules.js?v=22a50c7322';
+import * as G from './game.js?v=22a50c7322';
+import { createStore } from './store.js?v=22a50c7322';
+import { createMenu } from './menu.js?v=22a50c7322';
+import { createSound } from './sound.js?v=22a50c7322';
+import { shareOrCopy } from './share.js?v=22a50c7322';
+import { createTrail } from './trail.js?v=22a50c7322';
+import { createTour } from './tour.js?v=22a50c7322';
+import { createThanks } from './thanks.js?v=22a50c7322';
+import { createSheep } from './sheep.js?v=22a50c7322';
+import { createCounter } from './count.js?v=22a50c7322';
+import { createExpand } from './expand.js?v=22a50c7322';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -610,7 +610,7 @@ function showReveal(row, isNew) {
   $('r-answers').open = false;
   $('result').hidden = false;
   // Frame the country above the stamp card, once the reveal layout is in (the map is shorter then at 390),
-  // so the fill and a miss sign are not hidden under the card.
+  // so the fill is not hidden under the card.
   if (row.i) view.reveal(row.i, G.revealPaint(row.t), $('stamp-card').getBoundingClientRect().top);
   $('summary').textContent = `${place}: ${tier.name}, ${kmText(row.pts)}.${isNew ? ' New Location' : ''}`;
 

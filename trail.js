@@ -3,7 +3,7 @@
 // each reveal. Each band stop sits on the path at min / EDGE_KM, so the wagon reaches a stop
 // exactly when the total reaches that band. Look (owner, 2026-10-27): speckled paper, framed
 // border, spaced mono labels and a faint field of landmark icons, in the Furrow palette.
-import * as R from './rules.js?v=10dda069c9';
+import * as R from './rules.js?v=22a50c7322';
 
 const NS = 'http://www.w3.org/2000/svg';
 const W = 320;
