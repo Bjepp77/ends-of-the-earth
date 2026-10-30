@@ -1,17 +1,18 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=a1126bdd34';
-import { REFUSAL_TEXT } from './hit.js?v=a1126bdd34';
-import * as R from './rules.js?v=a1126bdd34';
-import * as G from './game.js?v=a1126bdd34';
-import { createStore } from './store.js?v=a1126bdd34';
-import { createMenu } from './menu.js?v=a1126bdd34';
-import { createSound } from './sound.js?v=a1126bdd34';
-import { shareOrCopy } from './share.js?v=a1126bdd34';
-import { createTrail } from './trail.js?v=a1126bdd34';
-import { createTour } from './tour.js?v=a1126bdd34';
-import { createThanks } from './thanks.js?v=a1126bdd34';
-import { createCounter } from './count.js?v=a1126bdd34';
-import { createExpand } from './expand.js?v=a1126bdd34';
+import { loadCountries, createMap } from './map.js?v=10dda069c9';
+import { REFUSAL_TEXT } from './hit.js?v=10dda069c9';
+import * as R from './rules.js?v=10dda069c9';
+import * as G from './game.js?v=10dda069c9';
+import { createStore } from './store.js?v=10dda069c9';
+import { createMenu } from './menu.js?v=10dda069c9';
+import { createSound } from './sound.js?v=10dda069c9';
+import { shareOrCopy } from './share.js?v=10dda069c9';
+import { createTrail } from './trail.js?v=10dda069c9';
+import { createTour } from './tour.js?v=10dda069c9';
+import { createThanks } from './thanks.js?v=10dda069c9';
+import { createSheep } from './sheep.js?v=10dda069c9';
+import { createCounter } from './count.js?v=10dda069c9';
+import { createExpand } from './expand.js?v=10dda069c9';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -117,7 +118,7 @@ await view.ready;
 $('loading').hidden = true;
 if (DEBUG) {
   $('debug').hidden = false;
-  window.ends = { view, S, store };
+  window.ends = { view, S, store, sound };
 }
 
 function showScreen(id) {
@@ -132,6 +133,7 @@ function stopTimers() {
   clearInterval(S.timer);
   clearInterval(S.typer);
   S.timer = S.typer = 0;
+  sheep.close();
 }
 
 // F-U01 two tabs on one day: each write checks that storage still holds the version this tab
@@ -597,6 +599,7 @@ function showReveal(row, isNew) {
   const bonus = G.bonusNote(row);
   $('r-km').textContent = bonus ? `${kmText(row.pts)} (${bonus})` : kmText(row.pts);
   sound.reveal(R.roundKm(row.t));
+  if (row.t === 'miss') maybeSheep();
   $('r-name').textContent = row.n ? `You pinned ${row.n}` : 'No pin';
   $('r-line').textContent = G.revealLine(row, S.prompt);
   setOptional('r-stamp', S.prompt.stamp ? `Facts ${S.prompt.stamp}.` : '');
@@ -855,6 +858,14 @@ function maybeThanks() {
   thanks.open();
 }
 
+// Lost sheep (owner, 2026-10-29): the first miss of the day, practice aside. ?debug is the
+// test hook; tests ask for it with &sheep.
+function maybeSheep() {
+  if ((DEBUG && !params.has('sheep')) || S.practice || store.sheepShownOn(today())) return;
+  store.markSheepShown(today());
+  sheep.open();
+}
+
 // ---------- wiring ----------
 
 // F-U06 a mouse click on a map control drops focus, so Space and Enter go back to dropping the pin.
@@ -917,6 +928,7 @@ window.addEventListener('storage', (e) => {
 document.addEventListener('keydown', (e) => {
   if (menu.isOpen || tour.isOpen || thanks.isOpen) return;
   if (e.key === 'Escape' && expand.isOpen) { e.preventDefault(); return expand.close(); }
+  if (e.key === 'Escape' && sheep.isOpen) { e.preventDefault(); return sheep.close(); }
   if (['INPUT', 'SELECT', 'BUTTON', 'SUMMARY', 'TEXTAREA'].includes(e.target.tagName)) return;
   // F-U06 keyboard pinning: arrow keys pan the map; P pins the map centre, and so does
   // Space or Enter on the focused map while no pin is held.
@@ -991,6 +1003,7 @@ const tour = createTour(TOUR_STEPS, {
 });
 
 const thanks = createThanks();
+const sheep = createSheep({ host: $('trail'), baa: () => sound.baa() });
 
 // Expand and shrink (owner, 2026-10-28): every panel can pop out over a grayed backdrop and go back.
 // The DROP PIN / NEXT PROMPT bar has no button (owner, 2026-10-28): it is a button row, not info.

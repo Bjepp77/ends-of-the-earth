@@ -1,4 +1,5 @@
-// §23 sound. Our own Web Audio synth: short oscillator tones and noise bursts, no audio files.
+// §23 sound. Our own Web Audio synth: short oscillator tones and noise bursts. One recorded file,
+// the lost sheep's bleat (sheep.js), loads after the unlock and plays through the same switch.
 // Audio unlocks on the first pointer or key event and suspends while the tab is hidden.
 // Every play call is a no-op while sound is off or before the unlock.
 
@@ -19,6 +20,7 @@ export function createSound({ enabled = true } = {}) {
       noiseBuf = ctx.createBuffer(1, Math.floor(ctx.sampleRate * 0.5), ctx.sampleRate);
       const d = noiseBuf.getChannelData(0);
       for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+      loadBaa();
     }
     if (ctx.state === 'suspended' && !document.hidden) ctx.resume();
   }
@@ -30,6 +32,17 @@ export function createSound({ enabled = true } = {}) {
   });
 
   const ready = () => on && ctx && ctx.state === 'running';
+
+  // The bleat: "Sheep bleating" by earthcalling, public domain, Wikimedia Commons, cut to 1 s.
+  // Callback decodeAudioData for older Safari. A failed load leaves it silent.
+  let baaBuf = null;
+  function loadBaa() {
+    fetch('audio/lost-sheep-baa.m4a')
+      .then((r) => (r.ok ? r.arrayBuffer() : Promise.reject()))
+      .then((b) => new Promise((done, fail) => ctx.decodeAudioData(b, done, fail)))
+      .then((buf) => { baaBuf = buf; })
+      .catch(() => {});
+  }
 
   // One tone: type, start and end frequency, length, peak gain, delay, optional low-pass.
   function tone({ type = 'sine', f = 440, to = null, len = 0.08, gain = 0.3, at = 0, lp = null }) {
@@ -122,6 +135,17 @@ export function createSound({ enabled = true } = {}) {
   const api = {
     get on() { return on; },
     set(next) { on = !!next; },
+    // Returns a stop function when the bleat started (so the lamb's mouth can follow it), else null.
+    baa() {
+      if (!ready() || !baaBuf) return null;
+      const src = ctx.createBufferSource();
+      const g = ctx.createGain();
+      src.buffer = baaBuf;
+      g.gain.value = 0.6;
+      src.connect(g).connect(master);
+      src.start();
+      return () => src.stop();
+    },
   };
   for (const [name, fn] of Object.entries(sounds)) {
     api[name] = (...args) => { if (ready()) fn(...args); };

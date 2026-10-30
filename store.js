@@ -1,5 +1,5 @@
 // localStorage records under S1's keys. Takes any Storage-like object so node tests can use a fake.
-import { keys, OWNER_KEY, newOwner, defaultSettings, recordPrefix, rowsKm, stampKey, PREFIX } from './rules.js?v=a1126bdd34';
+import { keys, OWNER_KEY, newOwner, defaultSettings, recordPrefix, rowsKm, stampKey, PREFIX } from './rules.js?v=10dda069c9';
 
 export function createStore(storage, slot) {
   const get = (key) => {
@@ -39,6 +39,9 @@ export function createStore(storage, slot) {
     // The thanks box shows once a day: the record holds the last date it showed.
     thanksShownOn: (date) => get(keys.thanks(slot)) === date,
     markThanksShown: (date) => set(keys.thanks(slot), date),
+    // The lost sheep shows on the first miss of a day: the record holds the last date it showed.
+    sheepShownOn: (date) => get(keys.sheep(slot)) === date,
+    markSheepShown: (date) => set(keys.sheep(slot), date),
     settings: () => ({ ...defaultSettings(), ...(get(keys.settings(slot)) ?? {}) }),
     saveSettings(patch) {
       const next = { ...this.settings(), ...patch };
