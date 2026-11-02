@@ -1,7 +1,7 @@
 // Menu drawer and its panels (§22). Numbers come from panels.js and rules.js; this file only draws.
-import * as R from './rules.js?v=9d356c3147';
-import * as P from './panels.js?v=9d356c3147';
-import { TIER_COLORS, longDate, promptText } from './game.js?v=9d356c3147';
+import * as R from './rules.js?v=1e96aaa85d';
+import * as P from './panels.js?v=1e96aaa85d';
+import { TIER_COLORS, longDate, promptText } from './game.js?v=1e96aaa85d';
 
 const SHORT_MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 const DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
@@ -224,9 +224,8 @@ export function createMenu(ctx) {
           h('p', { class: 'eyebrow' }, `${g.name.toUpperCase()} · ${souvenirs.souvenirs.filter((s) => s.group === g.id && d.earned.includes(s.id)).length}/${souvenirs.souvenirs.filter((s) => s.group === g.id).length}`),
           h('ul', { class: 'sv-list' }, souvenirs.souvenirs.filter((s) => s.group === g.id).map((s) => {
             const pr = P.progress(s, d.facts);
-            const art = s.id === 'walking-stick'
-              ? h('img', { src: 'img/souvenir-walking-stick-64.webp', alt: '', width: 28, height: 28 }) : null;
-            art?.addEventListener('error', () => art.remove());
+            const art = h('img', { src: `img/souvenir-${s.id}-64.webp`, alt: '', width: 28, height: 28 });
+            art.addEventListener('error', () => art.remove());
             return h('li', { class: pr.done ? 'sv-done' : '' },
               h('span', { class: 'sv-name' }, art, pr.done ? '✓ ' : '', s.name, unseen.has(s.id) ? h('span', { class: 'new-tag' }, 'NEW') : null),
               h('span', { class: 'fine' }, pr.done ? s.note : `${s.note} ${R.formatKm(pr.value)}/${R.formatKm(pr.goal)}`));

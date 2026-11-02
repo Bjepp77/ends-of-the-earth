@@ -20,9 +20,9 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="A dotted trail winding across golden prairie toward far hills under a tall cloud.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css?v=9d356c3147">
-  <link rel="stylesheet" href="styles.css?v=9d356c3147">
-  <script src="vendor/maplibre/maplibre-gl.js?v=9d356c3147"></script>
+  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css?v=1e96aaa85d">
+  <link rel="stylesheet" href="styles.css?v=1e96aaa85d">
+  <script src="vendor/maplibre/maplibre-gl.js?v=1e96aaa85d"></script>
 </head>
 <body>
   <div class="app">
@@ -136,6 +136,11 @@
         <button type="button" class="share" id="share">SHARE</button>
         <p class="fine center" id="camp-saved">Saved on this device only.</p>
         <p class="camp-line" id="camp-line"></p>
+        <div class="q6-camp" id="q6-camp" hidden>
+          <button type="button" class="cta q6-open" hidden>QUESTION 6, BONUS, DOES NOT COUNT</button>
+          <p class="fine center q6-msg" hidden></p>
+          <button type="button" class="textlink q6-retry" hidden>Retry</button>
+        </div>
         <div class="tiles" id="camp-tiles"></div>
         <div class="card">
           <p class="eyebrow">THE ANSWERS</p>
@@ -231,6 +236,6 @@
     <div id="menu-body"></div>
   </nav>
 
-  <script type="module" src="app.js?v=9d356c3147"></script>
+  <script type="module" src="app.js?v=1e96aaa85d"></script>
 </body>
 </html>

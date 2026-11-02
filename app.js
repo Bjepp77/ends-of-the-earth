@@ -1,18 +1,19 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=9d356c3147';
-import { REFUSAL_TEXT } from './hit.js?v=9d356c3147';
-import * as R from './rules.js?v=9d356c3147';
-import * as G from './game.js?v=9d356c3147';
-import { createStore } from './store.js?v=9d356c3147';
-import { createMenu } from './menu.js?v=9d356c3147';
-import { createSound } from './sound.js?v=9d356c3147';
-import { shareOrCopy } from './share.js?v=9d356c3147';
-import { createTrail } from './trail.js?v=9d356c3147';
-import { createTour } from './tour.js?v=9d356c3147';
-import { createThanks } from './thanks.js?v=9d356c3147';
-import { createSheep } from './sheep.js?v=9d356c3147';
-import { createCounter } from './count.js?v=9d356c3147';
-import { createExpand } from './expand.js?v=9d356c3147';
+import { loadCountries, createMap } from './map.js?v=1e96aaa85d';
+import { REFUSAL_TEXT } from './hit.js?v=1e96aaa85d';
+import * as R from './rules.js?v=1e96aaa85d';
+import * as G from './game.js?v=1e96aaa85d';
+import { createStore } from './store.js?v=1e96aaa85d';
+import { createMenu } from './menu.js?v=1e96aaa85d';
+import { createSound } from './sound.js?v=1e96aaa85d';
+import { shareOrCopy } from './share.js?v=1e96aaa85d';
+import { createTrail } from './trail.js?v=1e96aaa85d';
+import { createTour } from './tour.js?v=1e96aaa85d';
+import { createThanks } from './thanks.js?v=1e96aaa85d';
+import { createSheep } from './sheep.js?v=1e96aaa85d';
+import { createCounter } from './count.js?v=1e96aaa85d';
+import { createExpand } from './expand.js?v=1e96aaa85d';
+import { createQ6 } from './q6.js?v=1e96aaa85d';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -67,6 +68,7 @@ async function loadStartup() {
 }
 const [config, manifest, countries, souvenirs] = await loadStartup();
 const store = createStore(safeStorage(), config.slot);
+const q6 = createQ6({ root: $('q6-camp'), store, getJSON: fetchJSON, day1: config.day1 });
 // ?debug is the test hook; tests ask for counting with &count. Local play (the owner's copy, the
 // test server) never counts unless asked, so the numbers are real players only.
 const LOCAL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
@@ -118,7 +120,7 @@ await view.ready;
 $('loading').hidden = true;
 if (DEBUG) {
   $('debug').hidden = false;
-  window.ends = { view, S, store, sound };
+  window.ends = { view, S, store, sound, q6 };
 }
 
 function showScreen(id) {
@@ -188,6 +190,7 @@ function kmText(pts) {
 // ---------- home ----------
 
 function goHome() {
+  q6.close();
   stopTimers();
   S.mode = 'home';
   S.practice = false;
@@ -608,6 +611,8 @@ function showReveal(row, isNew) {
   setCite(S.prompt.citation);
   fillAnswers($('r-answers').querySelector('div'), S.prompt);
   $('r-answers').open = false;
+  // Trial (owner, 2026-10-30): on a miss the popped phone card opens the answer list. Over 10 answers it stays shut.
+  $('r-answers').dataset.auto = row.t === 'miss' && S.prompt.answers.length <= AUTO_ANSWERS_MAX ? '1' : '';
   $('result').hidden = false;
   // Frame the country above the stamp card, once the reveal layout is in (the map is shorter then at 390),
   // so the fill is not hidden under the card.
@@ -659,6 +664,7 @@ function setOptional(id, text) {
   $(id).hidden = !text;
 }
 
+const AUTO_ANSWERS_MAX = 10;
 function fillAnswers(el, prompt, row) {
   el.textContent = '';
   if (row) {
@@ -799,6 +805,7 @@ function showCamp() {
   });
 
   renderCampNext();
+  q6.showCamp(S.date);
 }
 
 // §17 "SHOULD SOMETHING ELSE COUNT?": opens a note the player can fill in and copy.
@@ -1015,7 +1022,13 @@ const expand = createExpand([
   { selector: '.poster', label: 'SCORE' },
   { selector: '.camp-trail', label: 'TRAIL' },
   { selector: '#camp > .actions', label: 'SHARE' },
-], { onChange: () => view.map.resize() });
+], { onChange: () => { view.map.resize(); autoOpenAnswers(); } });
+function autoOpenAnswers() {
+  const a = $('r-answers');
+  if (a.dataset.auto !== '1' || $('result').dataset.size !== 'pop' || !matchMedia('(max-width: 767px)').matches) return;
+  a.dataset.auto = '';
+  a.open = true;
+}
 // "See more…" under the guess (owner, 2026-10-29) opens the same pop-out as the result card's corner button.
 $('r-more').addEventListener('click', () => $('result').querySelector('.size-btn')?.click());
 

@@ -1,5 +1,5 @@
 // localStorage records under S1's keys. Takes any Storage-like object so node tests can use a fake.
-import { keys, OWNER_KEY, newOwner, defaultSettings, recordPrefix, rowsKm, stampKey, PREFIX } from './rules.js?v=9d356c3147';
+import { keys, OWNER_KEY, newOwner, defaultSettings, recordPrefix, rowsKm, stampKey, PREFIX } from './rules.js?v=1e96aaa85d';
 
 export function createStore(storage, slot) {
   const get = (key) => {
@@ -88,6 +88,10 @@ export function createStore(storage, slot) {
     removeLog(date) {
       try { storage.removeItem(keys.log(slot, date)); } catch { /* blocked storage: nothing to remove */ }
     },
+
+    // Question 6 is unscored: its own record, never in a run, log, stamp or passport.
+    bonus: (date) => get(`${recordPrefix(slot)}bonus:${date}`),
+    saveBonus: (date, result) => set(`${recordPrefix(slot)}bonus:${date}`, result),
 
     // { "<date>": { km, late } } for rules.stats.
     logs() {
