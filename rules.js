@@ -274,11 +274,16 @@ export function formatKm(n) {
 
 // km is the day total from the log rows (it can include the D7 bonus); without it the tiers decide.
 // bonus is question 6's saved verdict, once checked (owner ruling 2026-11-03): a line of its own, out of the km.
+// The card shows it too (owner ask 2026-11-05): a checked bonus adds h (hit) or m (near or miss) to the code.
+export function shareCardCode(tierIds, bonus = null) {
+  return `${shareCode(tierIds)}${bonus ? (bonus === 'hit' ? 'h' : 'm') : ''}`;
+}
+
 export function shareText({ n, tierIds, km = dayKm(tierIds), mask = 0, usedSearch = false, bonus = null }) {
   const line1 = `${GAME_NAME} #${n} · ${formatKm(km)}/${formatKm(EDGE_KM)} km${asterisks(mask)}${usedSearch ? ' · ⌕' : ''}`;
   const line2 = tierIds.map((id) => tierById(id).name).join(' · ');
   const line3 = bonus ? `Bonus: ${bonus === 'hit' ? '✓' : '✗'}\n` : '';
-  return `${line1}\n${line2}\n${line3}${SITE_URL}s/${shareCode(tierIds)}.html`;
+  return `${line1}\n${line2}\n${line3}${SITE_URL}s/${shareCardCode(tierIds, bonus)}.html`;
 }
 
 // §7 replay share. Our replay is a late past-week day: unranked, km and asterisks only, two lines (D2).

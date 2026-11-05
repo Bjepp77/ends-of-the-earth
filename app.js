@@ -1,19 +1,19 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=dab967d0a8';
-import { REFUSAL_TEXT } from './hit.js?v=dab967d0a8';
-import * as R from './rules.js?v=dab967d0a8';
-import * as G from './game.js?v=dab967d0a8';
-import { createStore } from './store.js?v=dab967d0a8';
-import { createMenu } from './menu.js?v=dab967d0a8';
-import { createSound } from './sound.js?v=dab967d0a8';
-import { shareOrCopy } from './share.js?v=dab967d0a8';
-import { createTrail } from './trail.js?v=dab967d0a8';
-import { createTour } from './tour.js?v=dab967d0a8';
-import { createThanks } from './thanks.js?v=dab967d0a8';
-import { createSheep } from './sheep.js?v=dab967d0a8';
-import { createCounter } from './count.js?v=dab967d0a8';
-import { createExpand } from './expand.js?v=dab967d0a8';
-import { createQ6 } from './q6.js?v=dab967d0a8';
+import { loadCountries, createMap } from './map.js?v=2ec183197a';
+import { REFUSAL_TEXT } from './hit.js?v=2ec183197a';
+import * as R from './rules.js?v=2ec183197a';
+import * as G from './game.js?v=2ec183197a';
+import { createStore } from './store.js?v=2ec183197a';
+import { createMenu } from './menu.js?v=2ec183197a';
+import { createSound } from './sound.js?v=2ec183197a';
+import { shareOrCopy } from './share.js?v=2ec183197a';
+import { createTrail } from './trail.js?v=2ec183197a';
+import { createTour } from './tour.js?v=2ec183197a';
+import { createThanks } from './thanks.js?v=2ec183197a';
+import { createSheep } from './sheep.js?v=2ec183197a';
+import { createCounter } from './count.js?v=2ec183197a';
+import { createExpand } from './expand.js?v=2ec183197a';
+import { createQ6 } from './q6.js?v=2ec183197a';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);

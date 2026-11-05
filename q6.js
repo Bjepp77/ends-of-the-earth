@@ -1,6 +1,6 @@
 // Question 6: an unscored Book of Mormon map question offered at camp. Nothing here touches the run,
 // the log, stamps, the passport, km or the share. Coordinates are sheet units, as in data/q6.json.
-import { expeditionNumber, TIERS } from './rules.js?v=dab967d0a8';
+import { expeditionNumber, TIERS } from './rules.js?v=2ec183197a';
 
 // The expedition days that have a question. tools/validate.py checks these equal the first and last day in q6.json.
 export const Q6_FIRST_DAY = 8;
