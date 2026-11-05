@@ -176,7 +176,7 @@
   {
    "id": "scripture-translations-1965-1977",
    "bank": "scripture",
-   "display_text": "Pin a country or territory where Chinese, Rarotongan, Korean, Afrikaans, Thai, Indonesian or Aymara is official.",
+   "display_text": "Pin a country or territory where Chinese, Rarotongan, Korean, Afrikaans, Thai, Indonesian or Aymara is official (Book of Mormon).",
    "text_original": "A country or territory where Chinese, Rarotongan, Korean, Afrikaans, Thai, Indonesian or Aymara (Book of Mormon text 1965-1977) is official",
    "accepts": "country_or_territory",
    "topic": "scripture geography",
