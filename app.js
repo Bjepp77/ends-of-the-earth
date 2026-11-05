@@ -1,19 +1,19 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=2ec183197a';
-import { REFUSAL_TEXT } from './hit.js?v=2ec183197a';
-import * as R from './rules.js?v=2ec183197a';
-import * as G from './game.js?v=2ec183197a';
-import { createStore } from './store.js?v=2ec183197a';
-import { createMenu } from './menu.js?v=2ec183197a';
-import { createSound } from './sound.js?v=2ec183197a';
-import { shareOrCopy } from './share.js?v=2ec183197a';
-import { createTrail } from './trail.js?v=2ec183197a';
-import { createTour } from './tour.js?v=2ec183197a';
-import { createThanks } from './thanks.js?v=2ec183197a';
-import { createSheep } from './sheep.js?v=2ec183197a';
-import { createCounter } from './count.js?v=2ec183197a';
-import { createExpand } from './expand.js?v=2ec183197a';
-import { createQ6 } from './q6.js?v=2ec183197a';
+import { loadCountries, createMap } from './map.js?v=c301843b74';
+import { REFUSAL_TEXT } from './hit.js?v=c301843b74';
+import * as R from './rules.js?v=c301843b74';
+import * as G from './game.js?v=c301843b74';
+import { createStore } from './store.js?v=c301843b74';
+import { createMenu } from './menu.js?v=c301843b74';
+import { createSound } from './sound.js?v=c301843b74';
+import { shareOrCopy, preloadCard } from './share.js?v=c301843b74';
+import { createTrail } from './trail.js?v=c301843b74';
+import { createTour } from './tour.js?v=c301843b74';
+import { createThanks } from './thanks.js?v=c301843b74';
+import { createSheep } from './sheep.js?v=c301843b74';
+import { createCounter } from './count.js?v=c301843b74';
+import { createExpand } from './expand.js?v=c301843b74';
+import { createQ6 } from './q6.js?v=c301843b74';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -177,7 +177,7 @@ function conflict() {
   $('home-msg').textContent = 'This expedition moved on in another tab.';
 }
 
-function tierStamp(el, tierId) {
+function tierStamp(el, tierId, { slam = false } = {}) {
   const t = R.tierById(tierId);
   el.textContent = t.name.toUpperCase();
   if (tierId !== 'miss') {
@@ -191,6 +191,9 @@ function tierStamp(el, tierId) {
   }
   el.style.setProperty('--tier-ink', G.TIER_COLORS[tierId].ink);
   el.style.setProperty('--tier-fill', G.TIER_COLORS[tierId].fill);
+  // Stamp-slam: the CSS animation restarts each time; reduced motion lands on the final state at once (styles.css).
+  el.classList.remove('stamp-slam');
+  if (slam) { void el.offsetWidth; el.classList.add('stamp-slam'); }
 }
 
 function kmText(pts) {
@@ -226,6 +229,8 @@ function goHome() {
   const streakLine = $('home-streak');
   play.hidden = wait.hidden = streakLine.hidden = true;
   $('title-sub').textContent = 'THE DAILY EXPEDITION';
+  $('result-stamp').hidden = true;
+  $('result-stamp').classList.remove('stamp-slam');
   $('home-msg').textContent = '';
   $('home-retry').hidden = true;
 
@@ -243,6 +248,12 @@ function goHome() {
     const km = G.runKm(run);
     $('title-sub').textContent = `${late ? 'THAT DAY' : 'TODAY'}: ${R.formatKm(km)} KM · ${R.bandFor(km).name.toUpperCase()}`;
     play.textContent = late ? 'VIEW RESULTS' : "VIEW TODAY'S RESULTS";
+    // Design 2: the day's result stamped on the title card (the sub line keeps the same facts for screen readers).
+    $('rs-km').textContent = `${R.formatKm(km)} KM`;
+    $('rs-band').textContent = R.bandFor(km).name.toUpperCase();
+    $('result-stamp').hidden = false;
+    void $('result-stamp').offsetWidth;
+    $('result-stamp').classList.add('stamp-slam');
     renderHomeStreak();
     streakLine.hidden = false;
   } else if (phase.phase === 'new') {
@@ -608,12 +619,12 @@ function showReveal(row, isNew) {
   const place = row.n ?? 'No pin';
   $('sc-n').textContent = S.practice ? 'PRACTICE PIN' : `PIN ${S.open.n} OF ${G.DECK_SIZE}`;
   $('sc-name').textContent = place.toUpperCase();
-  tierStamp($('sc-tier'), row.t);
+  tierStamp($('sc-tier'), row.t, { slam: true });
   $('sc-km').textContent = kmText(row.pts);
   $('sc-new').hidden = !isNew;
   $('stamp-card').hidden = false;
 
-  tierStamp($('r-tier'), row.t);
+  tierStamp($('r-tier'), row.t, { slam: true });
   const bonus = G.bonusNote(row);
   $('r-km').textContent = bonus ? `${kmText(row.pts)} (${bonus})` : kmText(row.pts);
   sound.reveal(R.roundKm(row.t));
@@ -638,8 +649,9 @@ function showReveal(row, isNew) {
 
   const last = S.practice || S.open.n === G.DECK_SIZE;
   const drop = $('drop');
-  drop.className = 'drop drop--next';
-  drop.setAttribute('aria-disabled', 'false');
+  // UX4: the button reads as waiting (outline, aria-disabled) until the reveal lock ends; advance() ignores it till then.
+  drop.className = 'drop drop--next drop--wait';
+  drop.setAttribute('aria-disabled', 'true');
   drop.textContent = S.practice ? 'RETURN HOME' : last ? 'ON TO CAMP ↑' : 'NEXT PROMPT ↑';
   $('readout').textContent = '';
   $('readout').classList.remove('readout--warn');
@@ -648,7 +660,12 @@ function showReveal(row, isNew) {
     $('readout').classList.add('readout--warn');
   }
   // §30 the HUD distance updates after the reveal.
-  setTimeout(() => { if (S.mode === 'reveal') renderHud(G.runKm(S.run)); }, REVEAL_LOCK_MS);
+  setTimeout(() => {
+    if (S.mode !== 'reveal') return;
+    renderHud(G.runKm(S.run));
+    drop.classList.remove('drop--wait');
+    drop.setAttribute('aria-disabled', 'false');
+  }, REVEAL_LOCK_MS);
 }
 
 // Saints sources get the APA in-text cite plus the full reference, with the titles in <i>.
@@ -772,10 +789,52 @@ function setCampShare() {
     ? R.replayShareText({ n: S.deal.n, km, mask })
     : R.shareText({ n: S.deal.n, tierIds: rounds.map((r) => r.t), km, mask, usedSearch: rounds.some((r) => r.b), bonus: store.bonus(S.date)?.verdict });
   $('share').dataset.shareText = text;
+  // Other 1: the premade card image for this result; a late replay has none.
+  if (S.run.late) delete $('share').dataset.shareCard;
+  else {
+    $('share').dataset.shareCard = `s/${R.shareCardCode(rounds.map((r) => r.t), store.bonus(S.date)?.verdict ?? null)}.png`;
+    preloadCard($('share').dataset.shareCard);
+  }
+}
+
+// PX1: the camp reveals row by row once per date per session; a revisit, or reduced motion, shows the final state at once.
+const campAnimated = new Set();
+let campFrame = 0;
+const CAMP_STEP_MS = 320;
+function gateCamp(on) {
+  for (const id of ['share', 'home-btn']) {
+    const b = $(id);
+    b.setAttribute('aria-disabled', String(on));
+    b.classList.toggle('drop--wait', on);
+  }
+}
+function revealCamp(items, km) {
+  const kmEl = $('poster-km');
+  const total = CAMP_STEP_MS * items.length;
+  let t0 = null;
+  let shown = 0;
+  gateCamp(true);
+  const step = (now) => {
+    t0 ??= now; // the rAF clock, not performance.now: tests fake the latter
+    const e = now - t0;
+    while (shown < items.length && e >= shown * CAMP_STEP_MS) {
+      items[shown].li.classList.remove('camp-pending');
+      items[shown].li.classList.add('camp-in');
+      tierStamp(items[shown].st, items[shown].t, { slam: true });
+      shown++;
+    }
+    const t = Math.min(1, e / total);
+    kmEl.textContent = t < 1 ? R.formatKm(Math.round(km * (1 - (1 - t) ** 3))) : R.formatKm(km);
+    if (t < 1 || shown < items.length) campFrame = requestAnimationFrame(step);
+    else gateCamp(false);
+  };
+  campFrame = requestAnimationFrame(step);
 }
 
 function showCamp() {
   stopTimers();
+  cancelAnimationFrame(campFrame);
+  gateCamp(false);
   S.mode = 'camp';
   S.campToday = today();
   showScreen('camp');
@@ -795,21 +854,26 @@ function showCamp() {
 
   const rows = $('camp-rows');
   rows.textContent = '';
+  const animate = !campAnimated.has(S.date) && !matchMedia('(prefers-reduced-motion: reduce)').matches;
+  campAnimated.add(S.date);
+  const items = [];
   rounds.forEach((r, i) => {
     const li = document.createElement('li');
     const num = document.createElement('span');
     num.textContent = String(i + 1);
     const st = document.createElement('span');
     st.className = 'tier-stamp';
-    tierStamp(st, r.t);
+    if (animate) li.className = 'camp-pending'; else tierStamp(st, r.t);
     li.append(num, st);
     rows.appendChild(li);
+    items.push({ li, st, t: r.t });
   });
   setCampBonus();
   $('poster-km').textContent = R.formatKm(km);
   $('poster-band').textContent = G.resultLine(km);
   campTrail ??= createTrail($('camp-trail-map'));
-  campTrail.set(km, { jump: true });
+  campTrail.set(km, { jump: !animate });
+  if (animate) { $('poster-km').textContent = R.formatKm(0); revealCamp(items, km); }
 
   setCampShare();
   $('share').textContent = 'SHARE';
@@ -841,6 +905,12 @@ function showCamp() {
     item.appendChild(sum);
     const body = document.createElement('div');
     fillAnswers(body, prompt, r);
+    const rule = document.createElement('a');
+    rule.className = 'textlink ruling-link';
+    rule.href = 'rulings/';
+    rule.textContent = 'Should this count? See rulings';
+    rule.setAttribute('aria-label', `Should this count? See rulings, prompt ${i + 1}`);
+    body.appendChild(rule);
     body.appendChild(disputeBox(i, prompt, r));
     item.appendChild(body);
     list.appendChild(item);
@@ -925,7 +995,7 @@ $('reset').onclick = mapCtl(() => view.resetView());
 $('play').onclick = () => startDay();
 $('practice').onclick = () => menu.open('howto');
 $('menu-btn').onclick = () => (menu.isOpen ? menu.close() : menu.open());
-$('home-btn').onclick = () => { if (location.hash) history.replaceState(null, '', location.pathname + location.search); goHome(); };
+$('home-btn').onclick = () => { if ($('home-btn').getAttribute('aria-disabled') === 'true') return; if (location.hash) history.replaceState(null, '', location.pathname + location.search); goHome(); };
 // §11 FAQ accordion and the footer's way back up.
 for (const q of document.querySelectorAll('.faq-q')) {
   q.onclick = () => {
@@ -948,9 +1018,10 @@ $('search').onchange = (e) => {
   if (S.mode === 'round') $('drop').focus();
 };
 $('share').onclick = () => {
+  if ($('share').getAttribute('aria-disabled') === 'true') return;
   sound.click();
   count('share', true);
-  shareOrCopy($('share'), $('share').dataset.shareText);
+  shareOrCopy($('share'), $('share').dataset.shareText, 'SHARE', $('share').dataset.shareCard);
 };
 $('sound-btn').onclick = () => {
   S.settings = store.saveSettings({ sound: !store.settings().sound });

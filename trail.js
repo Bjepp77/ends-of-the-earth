@@ -3,7 +3,7 @@
 // each reveal. Each band stop sits on the path at min / EDGE_KM, so the wagon reaches a stop
 // exactly when the total reaches that band. Look (owner, 2026-10-27): speckled paper, framed
 // border, spaced mono labels and a faint field of landmark icons, in the Furrow palette.
-import * as R from './rules.js?v=2ec183197a';
+import * as R from './rules.js?v=c301843b74';
 
 const NS = 'http://www.w3.org/2000/svg';
 const W = 320;
@@ -31,6 +31,40 @@ export function litSections(share) {
 // Share of the route walked at a day total, 0 to 1.
 export function trailShare(km) {
   return Math.max(0, Math.min(1, km / R.EDGE_KM));
+}
+
+// PX4: the map paints terrain as the trail grows. The paint reaches west as far as the wagon: its
+// edge sits at the wagon's x, interpolated between the five stop x positions. At 0 nothing is painted.
+const STOP_X = [286, 228, 160, 100, 40];
+export function paintEdge(share) {
+  if (share <= 0) return W;
+  const s = Math.min(1, share);
+  const i = Math.min(SHARES.length - 2, SHARES.findIndex((v, j) => j && s <= v) - 1);
+  const t = (s - SHARES[i]) / (SHARES[i + 1] - SHARES[i]);
+  return STOP_X[i] + (STOP_X[i + 1] - STOP_X[i]) * t;
+}
+
+// Original drawn terrain per zone, east to west: green plains, tan flats, orange ridges, ice peaks, gold valley.
+const TERRAIN = [
+  { cls: 'tm-t-plains', x0: 228, x1: 316, hill: 'M228 112 C250 100 275 104 316 98 V112 Z', ticks: 'grass' },
+  { cls: 'tm-t-tan', x0: 160, x1: 228, hill: 'M160 112 C185 104 205 108 228 100 V112 Z', ticks: 'dots' },
+  { cls: 'tm-t-orange', x0: 100, x1: 160, hill: 'M100 112 L116 96 L128 106 L142 92 L160 108 V112 Z', ticks: 'ridge' },
+  { cls: 'tm-t-ice', x0: 40, x1: 100, hill: 'M40 112 L52 94 L62 104 L74 84 L88 102 L100 96 V112 Z', ticks: 'ridge' },
+  { cls: 'tm-t-gold', x0: 8, x1: 40, hill: 'M8 112 C16 102 28 104 40 100 V112 Z', ticks: 'grass' },
+];
+function terrain(layer) {
+  const r = rng(29);
+  for (const z of TERRAIN) {
+    el('path', { d: z.hill, class: `tm-t ${z.cls}` }, layer);
+    for (let i = 0; i < 9; i++) {
+      const x = z.x0 + 4 + r() * (z.x1 - z.x0 - 8);
+      const y = 102 + r() * 8;
+      const d = z.ticks === 'grass' ? `M${x.toFixed(1)} ${y.toFixed(1)} l-1.5 -3 M${x.toFixed(1)} ${y.toFixed(1)} l1.5 -3`
+        : z.ticks === 'ridge' ? `M${x.toFixed(1)} ${y.toFixed(1)} l2.5 -4 l2.5 4`
+          : `M${x.toFixed(1)} ${y.toFixed(1)} h1.2`;
+      el('path', { d, class: `tm-t-tick ${z.cls}` }, layer);
+    }
+  }
 }
 
 function el(name, attrs, parent) {
@@ -82,6 +116,11 @@ export function createTrail(svg) {
   el('rect', { x: 0, y: 0, width: W, height: H, fill: `url(#${speckId})` }, svg);
   el('rect', { x: 5, y: 5, width: W - 10, height: H - 10, class: 'tm-frame' }, svg);
 
+  const clipId = `tm-paint-${made}`;
+  const clip = el('rect', { x: W, y: 0, width: 0, height: H }, el('clipPath', { id: clipId }, defs));
+  const paint = el('g', { 'clip-path': `url(#${clipId})`, class: 'tm-terrain', 'aria-hidden': 'true' }, svg);
+  terrain(paint);
+
   const marks = el('g', {}, svg);
   el('path', { d: ROUTE, class: 'tm-route' }, svg);
   // One path per section, shown orange once lit. (One dashed path for the whole route lit all of it on iOS.)
@@ -126,6 +165,9 @@ export function createTrail(svg) {
   let at = 0;
   let frame = 0;
   const draw = (share) => {
+    const edge = paintEdge(share);
+    clip.setAttribute('x', edge.toFixed(1));
+    clip.setAttribute('width', (W - edge).toFixed(1));
     const p = pointAt(share);
     wagon.setAttribute('transform', `translate(${p.x.toFixed(1)} ${(p.y - 4).toFixed(1)})`);
     litSections(share).forEach((lit, i) => { sections[i].classList.toggle('tm-walked--lit', lit); });

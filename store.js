@@ -1,5 +1,5 @@
 // localStorage records under S1's keys. Takes any Storage-like object so node tests can use a fake.
-import { keys, OWNER_KEY, newOwner, defaultSettings, recordPrefix, rowsKm, stampKey, PREFIX } from './rules.js?v=2ec183197a';
+import { keys, OWNER_KEY, newOwner, defaultSettings, recordPrefix, rowsKm, stampKey, PREFIX } from './rules.js?v=c301843b74';
 
 export function createStore(storage, slot) {
   const get = (key) => {

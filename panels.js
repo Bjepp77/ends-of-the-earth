@@ -1,6 +1,6 @@
 // Menu panel logic: logbook, passport, past week, souvenirs, difficulty. Pure functions over
 // rules.js, no DOM, no storage access. logsFull = { "<date>": [5 log rows] } for finished days.
-import { TIERS, BANDS, bandFor, rowsKm, addDays, pastWeekDates, expeditionNumber, streak, assistMask, asterisks, ASSIST_BITS, dayMask } from './rules.js?v=2ec183197a';
+import { TIERS, BANDS, bandFor, rowsKm, addDays, pastWeekDates, expeditionNumber, streak, assistMask, asterisks, ASSIST_BITS, dayMask } from './rules.js?v=c301843b74';
 
 const TIER_RANK = Object.fromEntries(TIERS.map((t, i) => [t.id, i]));
 
@@ -231,6 +231,23 @@ export function broughtBackByDay(defs, logsFull, countryInfo, playedAt = {}) {
 // expedition date as day and, when played late, the play date as on (F-U07, F-E03).
 export function newStampsOn(passport, playDate, expedition = null) {
   return Object.values(passport).filter((x) => (x.on ?? x.day) === playDate && (!expedition || x.day === expedition)).length;
+}
+
+// UX1 the passport opens on the newest stamp's continent. Newest = latest play date (on, else day);
+// stamps from one date tie, and the last one saved wins (the record keeps insertion order). null when empty.
+export function newestStampContinent(passport, info) {
+  let best = null;
+  for (const [code, x] of Object.entries(passport ?? {})) {
+    const when = x.on ?? x.day;
+    if (!info.has(code)) continue;
+    if (!best || when >= best.when) best = { when, continent: info.get(code) };
+  }
+  return best?.continent ?? null;
+}
+
+// UX2 a day stays open for 7 days after its own date, so the 7th day is its last: it closes at midnight.
+export function isLastDay(week, today) {
+  return week.until === today;
 }
 
 export function countryInfoFrom(features) {

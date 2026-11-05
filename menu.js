@@ -1,7 +1,8 @@
 // Menu drawer and its panels (§22). Numbers come from panels.js and rules.js; this file only draws.
-import * as R from './rules.js?v=2ec183197a';
-import * as P from './panels.js?v=2ec183197a';
-import { TIER_COLORS, longDate, promptText } from './game.js?v=2ec183197a';
+import * as R from './rules.js?v=c301843b74';
+import * as P from './panels.js?v=c301843b74';
+import { TIER_COLORS, longDate, promptText } from './game.js?v=c301843b74';
+import { menuObject, previewFor } from './menu-art.js?v=c301843b74';
 
 const SHORT_MONTHS = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 const DAYS = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
@@ -84,6 +85,7 @@ export function createMenu(ctx) {
     const hadFocus = root.contains(document.activeElement) || document.activeElement === document.body;
     root.hidden = true;
     shade.hidden = true;
+    root.querySelector('.sv-present')?.remove();
     current = null;
     burger?.setAttribute('aria-expanded', 'false');
     if (hadFocus) burger?.focus();
@@ -105,20 +107,45 @@ export function createMenu(ctx) {
   document.addEventListener('keydown', (e) => {
     if (root.hidden) return;
     if (e.key === 'Escape') return close();
-    // F-U08 Tab stays inside the open drawer.
+    // F-U08 Tab stays inside the open drawer. While the souvenir overlay is open it stays inside the overlay.
     if (e.key !== 'Tab') return;
-    const items = [...root.querySelectorAll('button, a[href], input, select, summary, [tabindex]:not([tabindex="-1"])')]
+    const trap = root.querySelector('.sv-present') ?? root;
+    const items = [...trap.querySelectorAll('button, a[href], input, select, summary, [tabindex]:not([tabindex="-1"])')]
       .filter((el) => !el.disabled && el.getClientRects().length);
     if (!items.length) return;
     const first = items[0];
     const last = items[items.length - 1];
-    if (!root.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
+    if (!trap.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
     else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
     else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
   });
 
   const item = (panel, label, sub, tag) => h('button', { type: 'button', class: 'menu-item', onclick: () => show(panel) },
-    h('span', { class: 'mi-label' }, label, tag), h('span', { class: 'mi-sub' }, sub));
+    menuObject(panel), h('span', { class: 'mi-label' }, label, tag), h('span', { class: 'mi-sub' }, sub));
+
+  // PX2: new souvenirs are handed over one card at a time. They count as seen only when the flow ends or is skipped.
+  function presentSouvenirs(d) {
+    const ids = d.unseen;
+    let i = 0;
+    const finish = () => { store.markSouvenirsShown(d.earned); overlay.remove(); back.focus(); };
+    const overlay = h('div', { class: 'sv-present', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'New souvenirs' });
+    const draw = () => {
+      const def = souvenirs.souvenirs.find((s) => s.id === ids[i]);
+      const last = i === ids.length - 1;
+      const art = h('img', { src: `img/souvenir-${def.id}-64.webp`, alt: '', width: 96, height: 96 });
+      art.addEventListener('error', () => art.remove());
+      const next = h('button', { type: 'button', class: 'sv-next', onclick: () => (last ? finish() : (i++, draw())) }, last ? 'DONE' : 'NEXT');
+      overlay.textContent = '';
+      overlay.append(h('div', { class: 'sv-card' },
+        h('p', { class: 'eyebrow' }, 'BROUGHT BACK'), art,
+        h('p', { class: 'sv-title' }, def.name), h('p', { class: 'fine' }, def.note),
+        h('p', { class: 'sv-n' }, `${i + 1} OF ${ids.length}`),
+        h('div', { class: 'seg' }, ids.length > 1 && !last ? h('button', { type: 'button', class: 'sv-skip', onclick: finish }, 'SKIP ALL') : null, next)));
+      queueMicrotask(() => next.focus());
+    };
+    root.append(overlay);
+    draw();
+  }
 
   const PANELS = {
     menu() {
@@ -185,12 +212,19 @@ export function createMenu(ctx) {
     passport() {
       const d = data();
       const wrap = h('div', {});
-      let page = 0;
+      // UX1 open on the newest stamp's page.
+      const first = P.newestStampContinent(store.passport(), info);
+      let page = Math.max(0, d.passport.pages.findIndex((p) => p.continent === first));
       let filter = 'all';
+      // Design 1: a stamp earned today slams in the first time its row is shown.
+      const slammed = new Set();
       const draw = () => {
         const p = d.passport.pages[page];
         const rows = P.filterRows(p.rows, filter);
         const newCount = P.newStampsOn(store.passport(), d.today);
+        const pass = store.passport();
+        const isNew = (r) => r.tier && !slammed.has(r.code) && pass[r.code] && (pass[r.code].on ?? pass[r.code].day) === d.today;
+        let slamIx = 0;
         wrap.textContent = '';
         wrap.append(
           h('p', { class: 'panel-title' }, 'PASSPORT'),
@@ -202,8 +236,16 @@ export function createMenu(ctx) {
             h('span', {}, `${p.continent.toUpperCase()} · ${page + 1} OF ${d.passport.pages.length}`, h('small', {}, ` ${p.rows.filter((r) => r.tier && !r.territory).length}/${p.rows.filter((r) => !r.territory).length}`)),
             h('button', { type: 'button', class: 'sq', 'aria-label': 'Next continent', onclick: () => { page = (page + 1) % d.passport.pages.length; draw(); } }, '›')),
           h('div', { class: 'key' }, R.TIERS.filter((t) => t.id !== 'miss').map((t) => h('span', {}, h('i', { style: `background:${TIER_COLORS[t.id].fill}` }), t.name))),
-          h('ul', { class: 'pp-list' }, rows.length ? rows.map((r) => h('li', { class: r.tier ? 'pp-found' : '' },
-            h('span', {}, r.territory ? `${r.name} (territory)` : r.name), r.tier ? tierTag(r.tier) : h('span', { class: 'fine' }, 'not yet'))) : h('li', { class: 'fine' }, 'Nothing here yet.')),
+          h('ul', { class: 'pp-list' }, rows.length ? rows.map((r) => {
+            const stamp = r.tier ? tierTag(r.tier) : null;
+            if (stamp && isNew(r)) {
+              slammed.add(r.code);
+              stamp.classList.add('stamp-slam');
+              stamp.style.animationDelay = `${Math.min(slamIx++, 6) * 140 + 200}ms`;
+            }
+            return h('li', { class: r.tier ? 'pp-found' : '' },
+              h('span', {}, r.territory ? `${r.name} (territory)` : r.name), stamp ?? h('span', { class: 'fine' }, 'not yet'));
+          }) : h('li', { class: 'fine' }, 'Nothing here yet.')),
           h('p', { class: 'fine' }, 'A country is stamped the first time you pin it as a correct answer. A stamped territory is listed too, but only countries count toward the total.'));
       };
       draw();
@@ -213,7 +255,7 @@ export function createMenu(ctx) {
     souvenirs() {
       const d = data();
       const unseen = new Set(d.unseen);
-      store.markSouvenirsShown(d.earned);
+      if (d.unseen.length) presentSouvenirs(d);
       const near = P.nearlyThere(souvenirs.souvenirs, d.facts);
       return h('div', {},
         h('p', { class: 'panel-title' }, 'SOUVENIRS'),
@@ -239,8 +281,11 @@ export function createMenu(ctx) {
         h('p', { class: 'panel-title' }, 'PAST WEEK'),
         d.week.length ? h('ul', { class: 'pw-list' }, d.week.map((w) => {
           const { label, open } = P.pastWeekStatus(w, store.run(w.date));
-          return h('li', {},
-            h('span', { class: 'pw-name' }, `Expedition #${w.n}, ${shortDay(w.date)}`, h('small', {}, open ? `OPEN UNTIL ${shortDay(w.until)}` : 'PLAYED')),
+          const last = open && P.isLastDay(w, d.today);
+          return h('li', { class: last ? 'pw-last' : '' },
+            h('span', { class: 'pw-name' }, `Expedition #${w.n}, ${shortDay(w.date)}`, last ? h('span', { class: 'new-tag last-tag' }, 'LAST DAY') : null,
+              h('small', {}, open ? `OPEN UNTIL ${shortDay(w.until)}` : 'PLAYED'),
+              last ? h('small', { class: 'closes' }, 'Closes at midnight.') : null),
             h('span', { class: 'pips' }, Array.from({ length: 5 }, (_, i) => {
               const t = w.rows?.[i]?.t;
               return h('i', { style: t ? `background:${TIER_COLORS[t].fill}` : null, title: t ? R.tierById(t).name : null });
@@ -256,6 +301,7 @@ export function createMenu(ctx) {
         const s = store.settings();
         const choice = (label, key, a, b, note) => h('div', { class: 'choice' },
           h('p', { class: 'eyebrow' }, label),
+          h('div', { class: 'pv-pair' }, [a, b].map((opt) => previewFor(key, opt.value, s[key] === opt.value))),
           h('div', { class: 'seg' }, [a, b].map((opt) => h('button', {
             type: 'button', 'aria-pressed': String(s[key] === opt.value),
             onclick: () => { ctx.onSettings(store.saveSettings({ [key]: opt.value })); draw(); },

@@ -117,3 +117,5 @@ kbd {
   display: block; width: 100%; height: auto; max-height: 320px; object-fit: cover;
   border-bottom: 1px solid var(--ink);
 }
+
+.quip { display: block; color: var(--ink-2); font-size: 14px; margin-top: 2px; }

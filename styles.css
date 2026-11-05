@@ -219,6 +219,16 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 @media (max-width: 767px) {
   .title-art { width: calc(100% + 28px); margin: -12px -14px 10px; max-height: 120px; object-fit: cover; }
 }
+/* Design 2: result stamp on the title card after play. Shares the stamp-slam motion. */
+.result-stamp {
+  position: absolute; z-index: 1; top: 62px; right: 12px; display: grid; gap: 1px; justify-items: center;
+  padding: 4px 12px 5px; color: var(--accent); background: var(--notebook); box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  border: 3px double var(--accent); border-radius: 6px; font-family: var(--font-figure); text-transform: uppercase;
+  pointer-events: none;
+}
+.result-stamp[hidden] { display: none; }
+.result-stamp .rs-km { font-size: 24px; line-height: 26px; font-weight: 700; letter-spacing: .04em; }
+.result-stamp .rs-band { font-size: 11px; letter-spacing: .14em; }
 .title-word { margin: 0; font-family: var(--font-display); font-size: 40px; line-height: 44px; overflow-wrap: break-word; min-width: 0; }
 .title-sub {
   margin: 10px 0 0; padding-top: 8px; border-top: 2px solid var(--accent-fill);
@@ -321,6 +331,15 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .tm-faint { stroke: var(--ink-idle); stroke-width: .9; opacity: .45; }
 .tm-water { fill: none; stroke: var(--sea); stroke-width: 2.6; stroke-linecap: round; }
 .tm-lake { fill: none; stroke: var(--ink-idle); stroke-width: 1; stroke-dasharray: 1.5 2; }
+.tm-t { opacity: .38; stroke: none; }
+.tm-t-tick { fill: none; stroke-width: .8; stroke-linecap: round; opacity: .7; }
+.tm-t-plains { fill: var(--green); stroke: var(--green); }
+.tm-t-tan { fill: #C9A66B; stroke: #8E6F3C; }
+.tm-t-orange { fill: var(--route); stroke: var(--route); }
+.tm-t-ice { fill: #BFD8E0; stroke: #5E8797; }
+.tm-t-gold { fill: var(--gold); stroke: #B07F00; }
+.tm-t.tm-t { stroke: none; }
+.tm-t-tick { fill: none !important; }
 .tm-route { fill: none; stroke: var(--ink-2); stroke-width: 1.8; stroke-dasharray: 3.5 3; }
 .tm-walked { display: none; fill: none; stroke: var(--route); stroke-width: 3; stroke-linecap: round; }
 .tm-walked--lit { display: inline; }
@@ -338,6 +357,18 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
   background: var(--ink); color: var(--sheet); box-shadow: var(--ring-cta); opacity: 1;
 }
 .drop--next:active { transform: translateY(1px); }
+/* UX4: waiting for the reveal to finish. Outline only, then it fills in. */
+.drop--next { transition: background-color .25s ease, color .25s ease, box-shadow .25s ease; }
+.drop--wait { background: transparent; color: var(--ink-2); box-shadow: inset 0 0 0 2px var(--ink-2); }
+.drop--wait:active { transform: none; }
+
+/* Design 1: stamp-slam. Lands with a small overshoot and settles slightly tilted, like ink on paper. */
+.stamp-slam { transform: rotate(-2deg); animation: stamp-slam .42s cubic-bezier(.34,1.56,.64,1) both; }
+@keyframes stamp-slam {
+  0% { transform: scale(2.4) rotate(-14deg); opacity: 0; }
+  55% { opacity: 1; }
+  100% { transform: scale(1) rotate(-2deg); opacity: 1; }
+}
 
 /* result card */
 .result-head { margin: 0; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
@@ -372,6 +403,10 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .camp-top { display: grid; grid-template-columns: 1fr 1fr; gap: var(--edge); }
 .camp-rows { list-style: none; margin: 0; display: grid; gap: 8px; align-content: start; }
 .camp-rows li { display: flex; align-items: center; gap: 10px; }
+.camp-rows li.camp-pending { opacity: 0; transform: translateY(8px); }
+.camp-rows li.camp-in { animation: camp-in .3s ease-out both; }
+@keyframes camp-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .camp-rows li.camp-in { animation: none; } }
 .camp-rows li > span:first-child { width: 14px; color: var(--ink-2); }
 /* The camp Bonus row (owner ruling 2026-11-03): a tier stamp in green with a tick, or red with a cross. */
 .bonus-mark--got { --tier-ink: #235C35; --tier-fill: #50A83E; }
@@ -600,6 +635,7 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 }
 
 /* §17 camp note: "SHOULD SOMETHING ELSE COUNT?" */
+.ruling-link { display: inline-block; margin: 6px 0 0; font-size: 13.5px; }
 .dispute { margin: 6px 0 8px; display: grid; justify-items: start; gap: 6px; }
 .dispute .textlink { justify-self: start; padding-inline: 0; font-size: 13.5px; }
 .dispute-box { display: grid; gap: 8px; width: 100%; }
@@ -824,4 +860,95 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
   .q6-result { order: 3; padding: 8px 12px; }
   .q6-actions { order: 4; }
   .q6-caption { border: 0; padding: 0; margin: 0 var(--edge); flex: none; }
+}
+
+/* Hold to aim: the pin lifts above the finger and wobbles slightly so it reads as picked up. */
+.aiming .pin { transform-origin: center; box-shadow: 0 6px 10px rgba(0,0,0,.28); }
+
+/* UX2: the last open day of the past week */
+.pw-name .last-tag { margin-left: 8px; vertical-align: 1px; }
+.pw-list li.pw-last { background: var(--sheet-2); box-shadow: inset 3px 0 0 var(--accent-fill); padding: 4px 6px 4px 9px; }
+.pw-name small.closes { color: var(--accent); font-weight: 600; }
+
+/* Staggered menu motion: reduced motion drops the delay too, so everything lands at once. */
+@media (prefers-reduced-motion: reduce) {
+  .stamp-slam, .menu-list .menu-item, .sv-present, .sv-present * { animation-delay: 0s !important; }
+}
+
+/* Design 3: menu items as small illustrated objects, drawn in menu-art.js. Colour comes from these classes. */
+.menu-item { grid-template-columns: 44px 1fr; column-gap: 12px; align-items: center; }
+.menu-item .mi-icon { grid-row: 1 / 3; grid-column: 1; width: 44px; height: 44px; display: grid; place-items: center; transform-origin: 50% 80%; transition: transform .2s cubic-bezier(.34,1.56,.64,1); }
+.menu-item .mi-icon svg { width: 40px; height: 40px; overflow: visible; }
+.menu-item .mi-label { grid-column: 2; }
+.menu-item .mi-sub { grid-column: 2; }
+.menu-item:hover .mi-icon, .menu-item:focus-visible .mi-icon { transform: rotate(-5deg) scale(1.08); }
+.menu-list .menu-item { animation: mi-in .36s cubic-bezier(.34,1.56,.64,1) both; }
+.menu-list .menu-item:nth-child(1) { animation-delay: .02s; }
+.menu-list .menu-item:nth-child(2) { animation-delay: .07s; }
+.menu-list .menu-item:nth-child(3) { animation-delay: .12s; }
+.menu-list .menu-item:nth-child(4) { animation-delay: .17s; }
+.menu-list .menu-item:nth-child(5) { animation-delay: .22s; }
+.menu-list .menu-item:nth-child(6) { animation-delay: .27s; }
+.menu-list .menu-item:nth-child(7) { animation-delay: .32s; }
+@keyframes mi-in { from { opacity: 0; transform: translateX(-14px) scale(.97); } to { opacity: 1; transform: none; } }
+.mi-icon .ma-cloth { fill: var(--ink-2); stroke: var(--ink); stroke-width: 1.2; }
+.mi-icon .ma-paper, .mi-icon .ma-paper-card, .mi-icon .ma-tag { fill: var(--sheet); stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+.mi-icon .ma-line, .mi-icon .ma-paper-line, .mi-icon .ma-ticks { fill: none; stroke: var(--ink-2); stroke-width: 1.4; stroke-linecap: round; }
+.mi-icon .ma-paper-line { stroke: var(--sheet); }
+.mi-icon .ma-acc { fill: var(--accent-fill); stroke: var(--ink); stroke-width: 1; stroke-linejoin: round; }
+.mi-icon .ma-acc-line { fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; }
+.mi-icon .ma-edge { fill: none; stroke: var(--ink); stroke-width: 1.2; stroke-linecap: round; }
+.mi-icon .ma-ring { fill: none; stroke: var(--sheet); stroke-width: 1.2; }
+.mi-icon .ma-stamp { fill: var(--accent-fill); stroke: var(--ink); stroke-width: 1.2; }
+.mi-icon .ma-stamp-tick { fill: none; stroke: var(--ink); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.mi-icon .ma-box { fill: var(--pencil); stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+.mi-icon .ma-box-top { fill: none; stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+.mi-icon .ma-string { fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.mi-icon .ma-ticket { fill: var(--accent-fill); stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+.mi-icon .ma-perf { fill: none; stroke: var(--ink); stroke-width: 1.2; stroke-dasharray: 2 2; }
+.mi-icon .ma-dial { fill: var(--sheet); stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+.mi-icon .ma-needle { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; transform-origin: 20px 29px; transition: transform .35s cubic-bezier(.34,1.56,.64,1); }
+.mi-icon .ma-hub { fill: var(--ink); }
+.menu-item:hover .ma-needle, .menu-item:focus-visible .ma-needle { transform: rotate(-30deg); }
+.mi-icon .ma-fold { fill: var(--paper-3); stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+.mi-icon .ma-pencil { fill: var(--accent-fill); stroke: var(--ink); stroke-width: 1.1; stroke-linejoin: round; }
+.mi-icon .ma-hole { fill: var(--paper-3); stroke: var(--ink); stroke-width: 1.2; }
+
+/* Design 4: previews of each setting. */
+.pv-pair { display: flex; gap: 8px; }
+.pv { flex: 1; min-width: 0; margin: 0; display: grid; gap: 3px; padding: 4px; border-radius: var(--radius-key); background: var(--sheet-2); box-shadow: 0 0 0 1px var(--pencil); opacity: .75; transition: opacity .2s, box-shadow .2s; }
+.pv svg { width: 100%; height: auto; display: block; }
+.pv figcaption { font-size: 12px; line-height: 16px; text-align: center; color: var(--ink-2); }
+.pv--on { opacity: 1; box-shadow: 0 0 0 2px var(--ink); animation: pv-pop .3s cubic-bezier(.34,1.56,.64,1) both; }
+@keyframes pv-pop { from { transform: scale(.94); } to { transform: none; } }
+.pv-sea { fill: var(--paper-3); }
+.pv-land { fill: var(--sheet); stroke: var(--ink-2); stroke-width: 1; stroke-linejoin: round; }
+.pv-land--bare { stroke: var(--ink); stroke-width: 1.3; }
+.pv-text { font: 600 6px var(--font-body, sans-serif); fill: var(--ink); text-anchor: middle; }
+.pv-text--sea { fill: var(--ink-2); font-style: italic; }
+.pv-mono { font: 6px ui-monospace, monospace; fill: var(--ink); }
+.pv-pin { fill: var(--accent-fill); stroke: var(--ink); stroke-width: 1; }
+.pv-readout { fill: var(--sheet); stroke: var(--ink); stroke-width: .8; }
+.pv-border { fill: none; stroke: var(--accent); stroke-width: 1; stroke-dasharray: 3 1.5; stroke-linecap: round; }
+.pv-face { fill: var(--sheet); stroke: var(--ink); stroke-width: 1.2; }
+.pv-arc { fill: none; stroke: var(--accent-fill); stroke-width: 3; stroke-linecap: round; }
+.pv-hand { fill: none; stroke: var(--ink); stroke-width: 1.6; stroke-linecap: round; }
+.pv-big { font: 11px var(--font-figure, serif); fill: var(--ink); }
+.pv-list { fill: var(--sheet); stroke: var(--ink); stroke-width: .8; }
+.pv-row { fill: none; stroke: var(--ink-2); stroke-width: 1.4; stroke-linecap: round; }
+.pv-lens { fill: var(--sheet); fill-opacity: .6; stroke: var(--ink); stroke-width: 1.6; }
+.pv-handle { fill: none; stroke: var(--ink); stroke-width: 2.4; stroke-linecap: round; }
+
+/* PX2: souvenir present flow, one card at a time. */
+.sv-present { position: fixed; inset: 0; z-index: 30; display: grid; place-items: center; padding: var(--edge); background: rgb(0 0 0 / .55); animation: sv-fade .2s both; }
+.sv-card { width: min(100%, 320px); display: grid; justify-items: center; gap: 8px; text-align: center; padding: 20px 16px 16px; border-radius: var(--radius-card); background: var(--sheet); box-shadow: 0 0 0 1px var(--ink), var(--shadow-lift); animation: sv-pop .42s cubic-bezier(.34,1.56,.64,1) both; }
+.sv-card img { width: 96px; height: 96px; object-fit: contain; animation: sv-pop .5s .08s cubic-bezier(.34,1.56,.64,1) both; }
+.sv-card .sv-title { margin: 0; font-family: var(--font-display); font-size: 24px; line-height: 30px; }
+.sv-card .fine { margin: 0; }
+.sv-card .sv-n { margin: 0; font-size: 12px; color: var(--ink-2); letter-spacing: .06em; }
+.sv-card .seg { width: 100%; margin-top: 6px; }
+@keyframes sv-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes sv-pop { from { opacity: 0; transform: scale(.8) rotate(-3deg); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .menu-list .menu-item, .pv--on, .sv-present, .sv-present *, .menu-item .mi-icon, .mi-icon .ma-needle { animation: none !important; transition: none !important; }
 }

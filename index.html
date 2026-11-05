@@ -20,9 +20,9 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="A dotted trail winding across golden prairie toward far hills under a tall cloud.">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css?v=2ec183197a">
-  <link rel="stylesheet" href="styles.css?v=2ec183197a">
-  <script src="vendor/maplibre/maplibre-gl.js?v=2ec183197a"></script>
+  <link rel="stylesheet" href="vendor/maplibre/maplibre-gl.css?v=c301843b74">
+  <link rel="stylesheet" href="styles.css?v=c301843b74">
+  <script src="vendor/maplibre/maplibre-gl.js?v=c301843b74"></script>
 </head>
 <body>
   <div class="app">
@@ -40,6 +40,7 @@
 
       <div class="title-card" id="title-card">
         <img class="title-art" src="img/title-card-960.webp" srcset="img/title-card-480.webp 480w, img/title-card-960.webp 960w" sizes="(max-width: 600px) 92vw, 560px" width="960" height="538" alt="An open field notebook with a dotted trail on its page, lying on a map beside two compasses and a pencil, with the sea beyond.">
+        <div class="result-stamp" id="result-stamp" hidden aria-hidden="true"><span class="rs-km" id="rs-km"></span><span class="rs-band" id="rs-band"></span></div>
         <p class="title-word">ENDS OF THE EARTH</p>
         <p class="title-sub" id="title-sub">THE DAILY EXPEDITION</p>
         <p class="title-tag">Five prompts. Pin a country. Rarer answers travel further.</p>
@@ -116,7 +117,7 @@
           <p class="sr-only" id="prompt-say" aria-live="polite"></p>
           <p class="sr-only" id="clock-say" aria-live="polite"></p>
           <button type="button" class="drop" id="drop" aria-disabled="true">DROP PIN</button>
-          <p class="hint" id="hint"><span class="hint-fine">pin &middot; P pins centre &middot; SPACE ENTER drop</span><span class="hint-coarse">tap to pin &middot; tap again to move</span></p>
+          <p class="hint" id="hint"><span class="hint-fine">pin &middot; P pins centre &middot; SPACE ENTER drop</span><span class="hint-coarse">tap to pin &middot; hold to aim &middot; tap again to move</span></p>
         </div>
       </section>
 
@@ -236,6 +237,6 @@
     <div id="menu-body"></div>
   </nav>
 
-  <script type="module" src="app.js?v=2ec183197a"></script>
+  <script type="module" src="app.js?v=c301843b74"></script>
 </body>
 </html>

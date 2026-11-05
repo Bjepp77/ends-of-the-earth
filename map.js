@@ -1,6 +1,6 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=2ec183197a';
-import { rng } from './trail.js?v=2ec183197a';
+import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=c301843b74';
+import { rng } from './trail.js?v=c301843b74';
 
 const maplibregl = window.maplibregl;
 
@@ -532,8 +532,58 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
   map.on('touchstart', () => { pressInFlight = flying; touchAt = performance.now(); });
   map.on('mousedown', () => { if (performance.now() - touchAt > 1000) pressInFlight = flying; });
 
+  // Hold to aim (touch): press and hold ~350ms without moving, then the pin rides AIM_LIFT px above the
+  // finger so the fingertip never hides it; lifting the finger drops the pin there. Moving first = a pan.
+  const AIM_HOLD_MS = 350, AIM_SLOP = 8, AIM_LIFT = 56;
+  let aim = null; // { timer, x0, y0, on, lngLat }
+  let aimedAt = -Infinity;
+  const aimLngLat = (t) => {
+    const r = container.getBoundingClientRect();
+    return map.unproject([t.clientX - r.left, t.clientY - r.top - AIM_LIFT]);
+  };
+  function aimEnd(commit) {
+    if (!aim) return;
+    clearTimeout(aim.timer);
+    const a = aim;
+    aim = null;
+    if (!a.on) return;
+    map.dragPan.enable();
+    container.classList.remove('aiming');
+    aimedAt = performance.now();
+    if (commit && a.lngLat) { exactNext = false; onMapTap(false); place(a.lngLat); return; }
+    if (pin) marker.setLngLat([pin.lng, pin.lat]); else marker.remove();
+  }
+  container.addEventListener('touchstart', (e) => {
+    aimEnd(false);
+    if (e.touches.length !== 1 || locked || flying) return;
+    const t = e.touches[0];
+    const a = aim = { x0: t.clientX, y0: t.clientY, on: false, lngLat: null };
+    a.timer = setTimeout(() => {
+      if (aim !== a) return;
+      a.on = true;
+      map.dragPan.disable();
+      container.classList.add('aiming');
+      a.lngLat = aimLngLat(t);
+      marker.setLngLat(a.lngLat).addTo(map);
+      navigator.vibrate?.(8);
+    }, AIM_HOLD_MS);
+  }, { passive: true });
+  container.addEventListener('touchmove', (e) => {
+    if (!aim) return;
+    const t = e.touches[0];
+    if (!aim.on) {
+      if (e.touches.length > 1 || Math.hypot(t.clientX - aim.x0, t.clientY - aim.y0) > AIM_SLOP) aimEnd(false);
+      return;
+    }
+    if (e.cancelable) e.preventDefault();
+    aim.lngLat = aimLngLat(t);
+    marker.setLngLat(aim.lngLat);
+  }, { passive: false });
+  container.addEventListener('touchend', () => aimEnd(true));
+  container.addEventListener('touchcancel', () => aimEnd(false));
+
   map.on('click', (e) => {
-    if (locked) return;
+    if (locked || performance.now() - aimedAt < 500) return;
     const ignore = flying || pressInFlight;
     pressInFlight = false;
     onMapTap(ignore);
