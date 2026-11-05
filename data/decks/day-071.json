@@ -1,0 +1,500 @@
+{
+ "day": 71,
+ "prompts": [
+  {
+   "id": "place-tubuai",
+   "bank": "places",
+   "display_text": "Pin Tubuai, the island where Addison Pratt baptized the first Pacific converts in 1844.",
+   "text_original": "Drop a pin on Tubuai in French Polynesia, where Addison Pratt baptized the first converts in the Pacific Islands in 1844.",
+   "accepts": "place",
+   "kind": "abroad",
+   "place": {
+    "name": "Tubuai, Austral Islands, French Polynesia",
+    "lat": -23.37,
+    "lng": -149.48
+   },
+   "topic": "church history sites",
+   "era": "1844",
+   "citation": "Church History Topics, French Polynesia; Global Histories, Addison Pratt, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/french-polynesia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/stories-of-faith/pf-01-addison-pratt?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "OpenStreetMap centres the island about 0.4 km from the Wikipedia point; the island is about 10 km long.",
+   "summary": "Joseph Smith called Addison Pratt and three companions in 1843 as the first missionaries to the Pacific. Pratt landed on the small island of Tubuai in April 1844 and soon baptized a branch of converts, among the first outside North America and the British Isles. French Polynesia is the Church's oldest continuous mission field outside those areas.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-before-boston-100",
+   "bank": "sites-temples",
+   "display_text": "Pin a country that already had a dedicated temple when Boston became temple number 100.",
+   "text_original": "A country that had a dedicated temple on 1 October 2000, when the Boston Massachusetts Temple became the 100th in operation.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1877-2000",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "President Gordon B. Hinckley set a goal of 100 operating temples by the end of 2000, and Boston Massachusetts, dedicated 1 October 2000, was the 100th. Many of the first 100 were small temples built from 1998 on, including ten in Mexico. Hong Kong and Tahiti had temples but are territories, so they are excluded.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "COL",
+    "CRI",
+    "DOM",
+    "ECU",
+    "ESP",
+    "FJI",
+    "KOR",
+    "SWE",
+    "TWN",
+    "VEN",
+    "ZAF"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "10 dedicated temples by then, the first was Mexico City Mexico (1983)."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "51 dedicated temples by then, the first was St. George Utah (1877)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil (1978), Recife Brazil (2000), Porto Alegre Brazil (2000)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "6 dedicated temples by then, the first was Cardston Alberta (1923)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "2 dedicated temples by then, the first was London England (1958)."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "2 dedicated temples by then, the first was Tokyo Japan (1980)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hamilton New Zealand (1958)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (1986)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "3 dedicated temples by then, the first was Sydney Australia (1984)."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bern Switzerland (1955)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago Chile (1983)."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 dedicated temples by then, the first was Freiberg Germany (1985)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City Guatemala (1984)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lima Peru (1986)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Manila Philippines (1984)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nuku'alofa Tonga (1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia Samoa (1983)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Cochabamba Bolivia (2000)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bogotá Colombia (1999)."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": true,
+     "fact": "San José Costa Rica (2000)."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Santo Domingo Dominican Republic (2000)."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Guayaquil Ecuador (1999)."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Madrid Spain (1999)."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Suva Fiji (2000)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Seoul Korea (1985)."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Stockholm Sweden (1985)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Taipei Taiwan (1984)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Caracas Venezuela (2000)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Johannesburg South Africa (1985)."
+    }
+   ]
+  },
+  {
+   "id": "tb-equator",
+   "bank": "sites-temples",
+   "display_text": "Pin a country the equator runs through that has a temple, built or planned.",
+   "text_original": "A country the equator crosses that has a temple at any stage (dedicated, under construction or announced), as of November 2026.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The equator crosses South America, central Africa, Indonesia and the Pacific. Temples now stand or are planned in most of the countries on that line.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KIR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "São Paulo Brazil (dedicated 1978), the first of many Brazilian temples; Manaus (2012) sits close to the equator."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Guayaquil Ecuador (dedicated 1999); Quito Ecuador (dedicated 2022)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bogotá Colombia (dedicated 1999); Barranquilla Colombia (dedicated 2018)."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kinshasa Democratic Republic of the Congo (dedicated 2019)."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nairobi Kenya (dedicated 2025)."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brazzaville Republic of the Congo (under construction)."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jakarta Indonesia (announced)."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kampala Uganda (announced)."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tarawa Kiribati (under construction)."
+    }
+   ]
+  },
+  {
+   "id": "global-pacific-one-in-ten",
+   "bank": "global",
+   "display_text": "Pin a Pacific country or territory where more than 1 in 10 people is a Latter-day Saint (end of 2025 membership).",
+   "text_original": "A Pacific country or territory where more than 1 in 10 people is a member of the Church (Church membership at the end of 2025 against the UN 2023 population estimate; latest figures as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025) with UN population estimates (2023, via Wikipedia list)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/tonga?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/samoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/american-samoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/kiribati?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/marshall-islands?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/french-polynesia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cook-islands?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/micronesia?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Nowhere is the Church a larger share of the population than in the Pacific. Tonga is about two thirds Latter-day Saint by membership records, Samoa and American Samoa well over a third, and Kiribati, the Marshall Islands, French Polynesia and the Cook Islands all exceed 1 in 10. Micronesia (about 1 in 18), Vanuatu, Fiji and Guam fall below that line; Niue, Tuvalu, Nauru and Palau have no published count.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 5,
+     "gem": false,
+     "fact": "69,594 members among roughly 105,000 people, about 2 in 3."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "90,706 members among roughly 215,000 people, about 4 in 10."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "17,646 members among roughly 48,000 people, more than 1 in 3."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "30,350 members among roughly 280,000 people, about 1 in 9."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": false,
+     "fact": "23,585 members among roughly 130,000 people, about 1 in 5.5."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "6,927 members among roughly 40,000 people, about 1 in 6."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1,890 members among roughly 14,700 residents, about 1 in 8."
+    }
+   ]
+  },
+  {
+   "id": "sites-scandinavian-mission",
+   "bank": "sites",
+   "display_text": "Pin a country that was covered by the Church's Scandinavian Mission, organized in Copenhagen in 1850.",
+   "text_original": "In 1850 Erastus Snow organized the Scandinavian Mission in Copenhagen. Over the next decades it sent missionaries and gathered converts across several northern European lands. Pin a country that was part of the Scandinavian Mission.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1850-1905",
+   "citation": "Global Histories chronologies: Denmark, Sweden, Norway, Iceland, Finland",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Erastus Snow organized the Scandinavian Mission in Copenhagen in 1850. From Denmark it reached Sweden, Norway, Iceland and later Finland, and thousands of Scandinavian converts emigrated to Utah in the decades that followed.",
+   "stamp": null,
+   "gems": [
+    "FIN",
+    "ISL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mission headquarters; Erastus Snow organized it in Copenhagen in 1850."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Svend Larsen, the first Norwegian convert, was baptized in the mission in 1851."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Skane Conference, organized 1853, was part of the Scandinavian Mission."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1875 the Scandinavian Mission president sent the Sundstrom brothers to Finland."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The first missionaries to Iceland in 1851 were Icelanders baptized in Denmark."
+    }
+   ]
+  }
+ ]
+}

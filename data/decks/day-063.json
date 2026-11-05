@@ -1,0 +1,368 @@
+{
+ "day": 63,
+ "prompts": [
+  {
+   "id": "place-independence-rock",
+   "bank": "places",
+   "display_text": "Pin Independence Rock, the Wyoming landmark pioneers hoped to reach by July 4.",
+   "text_original": "Drop a pin on Independence Rock, the granite dome on the Sweetwater River in Wyoming that pioneers hoped to reach by the Fourth of July.",
+   "accepts": "place",
+   "kind": "trail",
+   "place": {
+    "name": "Independence Rock, Wyoming",
+    "lat": 42.494,
+    "lng": -107.133
+   },
+   "topic": "church history sites",
+   "era": "1847-1868",
+   "citation": "Church History Topics, Pioneer Trek; Wikipedia and OpenStreetMap for the location, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/pioneer-trek?lang=eng",
+    "https://en.wikipedia.org/wiki/Independence_Rock_(Wyoming)"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Independence Rock is a large granite dome beside the Sweetwater River in central Wyoming. Emigrants on the Oregon, California and Mormon trails tried to reach it by Independence Day to beat the mountain snows, and thousands carved their names on it. Brigham Young's 1847 vanguard company passed it in late June.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-capital-europe",
+   "bank": "sites-temples",
+   "display_text": "Pin a European country whose capital city lends its name to a dedicated temple.",
+   "text_original": "A European country with a dedicated temple named for its capital city (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2019",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Many European temples carry the name of a national capital, from Bern (1955) and London (1958) to Rome and Lisbon (2019). Bern is the Swiss federal city, which serves as its capital. The Hague Netherlands Temple does not count, since Amsterdam is the Dutch capital.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "London England (dedicated 1958)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Rome Italy (dedicated 2019)."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bern Switzerland (dedicated 1955)."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Madrid Spain (dedicated 1999)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paris France (dedicated 2017)."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Copenhagen Denmark (dedicated 2004)."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lisbon Portugal (dedicated 2019)."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Stockholm Sweden (dedicated 1985)."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kyiv Ukraine (dedicated 2010)."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Helsinki Finland (dedicated 2006)."
+    }
+   ]
+  },
+  {
+   "id": "tc-commonwealth-dedicated",
+   "bank": "sites-temples",
+   "display_text": "Pin a Commonwealth member country that has a dedicated temple.",
+   "text_original": "A Commonwealth of Nations member with at least one dedicated temple (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://thecommonwealth.org/our-member-countries"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Eleven Commonwealth members have dedicated temples, from Cardston Alberta (1923) to Nairobi Kenya (2025). They include the big four of Britain, Canada, Australia and New Zealand, four African members and three Pacific island nations. Members like Papua New Guinea, Kiribati and Sierra Leone have temples under construction.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FJI",
+    "KEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "5 dedicated; first was Sydney Australia (1984)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "9 dedicated; first was Cardston Alberta (1923)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "2 dedicated; first was London England (1958)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated; first was Accra Ghana (2004)."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated; first was Aba Nigeria (2005)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 dedicated; first was Hamilton New Zealand (1958)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated; first was Nuku'alofa Tonga (1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated; first was Apia Samoa (1983)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 dedicated; first was Johannesburg South Africa (1985)."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated; first was Suva Fiji (2000)."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated; first was Nairobi Kenya (2025)."
+    }
+   ]
+  },
+  {
+   "id": "hd-mission-president-1860-1879",
+   "bank": "sites-history",
+   "display_text": "Pin a country with a mission president called between 1860 and 1879.",
+   "text_original": "A country whose mission had a mission president called between 1860 and 1879.",
+   "accepts": "country",
+   "topic": "missions",
+   "era": "1860-1879",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Between 1860 and 1879 the Church called presidents over several European missions: Joseph Weiler over the new Netherlands Mission (1864), Karl G. Maeser over the Swiss and German Mission (1868), and a string of native presidents over the Scandinavian Mission (1870, 1873, 1875).",
+   "stamp": null,
+   "gems": [
+    "CHE",
+    "NOR",
+    "SWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Karl G. Maeser was appointed president of the Swiss and German Mission on June 12, 1868."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Christian Gries Larsen was called in 1873 to preside over the Scandinavian Mission from Copenhagen."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Netherlands Mission was formed on November 1, 1864, with Joseph Weiler as president; Sieberen van Dijk followed in 1871."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": true,
+     "fact": "The Swiss and German Mission, organized in 1868 under Karl G. Maeser, was headquartered at Bern."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1870 the first native of Norway was called to preside over the Scandinavian Mission."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1875 Nils C. Flygare, president of the Scandinavian Mission, called the Sundstrom brothers from Stockholm to Finland."
+    }
+   ]
+  },
+  {
+   "id": "bible-israel-battlefields",
+   "bank": "bible",
+   "display_text": "Pin a country with a battlefield where the Bible records Israel or Judah fighting.",
+   "text_original": "A present-day country with a battlefield where the Bible records Israel or Judah fighting",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Joshua 6; 8; 10; 11:8; Numbers 21:33; 1 Samuel 11; 14; 17; 31; 1 Kings 22; 2 Kings 23:29",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/31?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/edrei?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Israel's famous battles cluster in a small area. David met Goliath in the valley of Elah and Saul died on Gilboa, both in Israel, while Jericho, Ai and Michmash lie in the West Bank. East of the Jordan Ahab fell at Ramoth-gilead, Israel beat Og at Edrei in Syria, and Joshua pursued fleeing kings all the way to Sidon (Joshua 11:8).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "David fought Goliath in the valley of Elah, Saul fell on Mount Gilboa and Josiah died at Megiddo (1 Samuel 17; 31; 2 Kings 23:29)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jericho, Ai, Gibeon and Jonathan's fight at Michmash all lie in the West Bank (Joshua 6; 8; 10; 1 Samuel 14)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ahab fell at Ramoth-gilead and Saul rescued Jabesh-gilead, both east of the Jordan (1 Kings 22; 1 Samuel 11)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Israel defeated Og king of Bashan at Edrei, today's Daraa in southern Syria (Numbers 21:33)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Joshua chased the northern kings as far as great Zidon after the battle at the waters of Merom (Joshua 11:8)."
+    }
+   ]
+  }
+ ]
+}

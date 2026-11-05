@@ -1,0 +1,401 @@
+{
+ "day": 52,
+ "prompts": [
+  {
+   "id": "place-rome-italy-temple",
+   "bank": "places",
+   "display_text": "Pin the Rome Italy Temple.",
+   "text_original": "Drop a pin on the Rome Italy Temple, the first temple in Italy.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Rome Italy Temple",
+    "lat": 41.9704,
+    "lng": 12.5448
+   },
+   "topic": "temples",
+   "era": "2008-2019",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/rome-italy-temple/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Announced in October 2008, the Rome Italy Temple was the first temple built in Italy. President Russell M. Nelson dedicated it in March 2019, and the dedication was the first time the entire First Presidency and Quorum of the Twelve gathered in one place outside the United States.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-asia-pacific-by-1990",
+   "bank": "sites-temples",
+   "display_text": "Pin an Asia-Pacific country that had a dedicated temple before 1990.",
+   "text_original": "A country in Asia or the Pacific that had a dedicated temple by 1990.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1958-1985",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Hamilton New Zealand (1958) was the first temple in the Pacific and Tokyo Japan (1980) the first in Asia. A burst followed in 1983 to 1985: Apia, Nuku'alofa, Sydney, Manila, Taipei and Seoul. Papeete Tahiti (1983) is excluded as a territory.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KOR",
+    "TWN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Tokyo Japan (1980)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hamilton New Zealand (1958)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sydney Australia (1984)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manila Philippines (1984)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Nuku'alofa Tonga (1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Apia Samoa (1983)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Seoul Korea (1985)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Taipei Taiwan (1984)."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-mckay-world-tour-1921",
+   "bank": "pioneer",
+   "display_text": "Pin a country or territory in East Asia, the Pacific or Middle East on David O. McKay's 1920-21 world tour (Hawaii counts as USA)",
+   "text_original": "In 1920 and 1921, apostle David O. McKay and Hugh J. Cannon toured the Church's missions around the world. Pin a present-day country or territory in East Asia, the Pacific or the Middle East that they visited.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "1920s",
+   "citation": "Saints vol. 3 ch. 14; Saints vol. 3 ch. 15; Global Histories (Tonga, South Korea, Australia)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/14-fountains-of-light-and-hope?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/15-no-greater-reward?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://rsc.byu.edu/pioneers-pacific/apostle-oceania-elder-david-o-mckays-1921-trip-around-pacific"
+   ],
+   "difficulty": 2,
+   "note": "Palestine is split today, so Israel and Palestine both count.",
+   "summary": "David O. McKay and Hugh J. Cannon left Salt Lake City in December 1920 to survey the Church's missions. They went from Japan, Korea and China to Hawaii, Tahiti, New Zealand, Fiji, Tonga, both Samoas and Australia, then through Asia to Egypt, Palestine, Syria and Turkey. McKay's report urged better Church schools and more visits by general authorities.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ASM",
+    "EGY",
+    "FJI",
+    "PSE",
+    "PYF",
+    "SYR",
+    "TUR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 4,
+     "gem": false,
+     "fact": "McKay dedicated the land for future missionary work there."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First stop, home to about 130 Saints (saints-v3:14)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First apostle to visit; spoke at the Maori Saints' conference near Huntly."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 4,
+     "gem": false,
+     "fact": "They visited the Saints and the Laie school in Hawaii."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First apostle to visit Australia, 1921."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Part of the Palestine stop."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Passed through Korea in January 1921 (Global Histories)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "June 1921: McKay blessed the land and people in Nuku'alofa."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Met the Saints in Samoa in May 1921 (saints-v3:15)."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Visited the Church school at Mapusaga, American Samoa (BYU RSC)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Visited on the way to Palestine."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Visited after Samoa (saints-v3:15)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Part of the Palestine stop."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "They traveled from Hawaii to Tahiti."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Saints v3:15 lists Syria among his 1921 stops, after Egypt and Palestine."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Met about thirty Armenian Saints in Aintab."
+    }
+   ]
+  },
+  {
+   "id": "ha-hinckley-africa-1998",
+   "bank": "sites-history",
+   "display_text": "Pin an African country President Hinckley visited on his landmark February 1998 trip.",
+   "text_original": "A country President Gordon B. Hinckley visited on his February 1998 trip to Africa.",
+   "accepts": "country",
+   "topic": "church leaders",
+   "era": "1998",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kenya/ke-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cape-verde/cv-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In February 1998 Gordon B. Hinckley made a historic trip to Africa, the first visit by a Church President to several of its nations. In Accra, Ghana, before 6,700 members, he announced the first temple in West Africa.",
+   "stamp": null,
+   "gems": [
+    "CPV"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
+     "gem": false,
+     "fact": "February 16, 1998, Accra: told 6,700 members the first temple in West Africa would be built in Accra."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "February 14-15, 1998, Port Harcourt: first President of the Church to visit Nigeria."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "February 17, 1998, Nairobi: nearly 900 members from five African nations gathered to hear him."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "February 18, 1998, Harare: spoke to about 1,500 Latter-day Saints and government officials."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 2,
+     "gem": true,
+     "fact": "February 22, 1998, Praia: nearly 800 members heard the first Church President to visit the republic."
+    }
+   ]
+  },
+  {
+   "id": "hp-pioneer-commemorations",
+   "bank": "sites-history",
+   "display_text": "Pin a land outside the USA where Saints threw a pioneer celebration: Pioneer Day, the 1997 jubilee, Sea Trek.",
+   "text_original": "A country or territory outside the United States where Latter-day Saints held a celebration honoring the pioneers or pioneer emigrants.",
+   "accepts": "country",
+   "topic": "pioneer heritage",
+   "era": "1981-2025",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/micronesia/fm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Latter-day Saints around the world celebrate the pioneer story. Guam and Micronesia held Pioneer Day events, Ukraine and Haiti marked the 1997 sesquicentennial, and Denmark, Sweden and Norway honored their own emigrant pioneers with statues, Sea Trek 2001 and a 2025 anniversary.",
+   "stamp": null,
+   "gems": [
+    "FSM",
+    "GUM",
+    "HTI"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 2000 statues were unveiled honoring Danish emigrants, and in 2001 eight sailing ships left Esbjerg to commemorate the European Saints who emigrated."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 2001 members in Goteborg commemorated Scandinavian pioneers who emigrated, as part of Sea Trek 2001."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 2025 Norwegian Saints honored their pioneer legacy during the 200-year anniversary of Norwegian emigration to the United States."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1997 Saints in Donetsk and Kyiv observed the Pioneer Sesquicentennial with a handcart carried across eastern Europe."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1986 the Saints in Pohnpei held a special Pioneer Day celebration marking 10 years of the Church in Micronesia."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1981 local members organized a marathon to celebrate Pioneer Day; 66 runners took part."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1997, for the 150th anniversary of the pioneers entering the Salt Lake Valley, over 300 members cleaned Champ de Mars in Port-au-Prince."
+    }
+   ]
+  }
+ ]
+}

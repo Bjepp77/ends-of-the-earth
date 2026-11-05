@@ -2,439 +2,431 @@
  "day": 36,
  "prompts": [
   {
-   "id": "temples-conf-october-2024",
-   "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the October 2024 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the October 2024 general conference.",
+   "id": "pioneer-wwi-missionaries-withdrawn",
+   "bank": "pioneer",
+   "display_text": "Pin a European country other than the UK whose Church missionaries left when World War I began in 1914.",
+   "text_original": "When World War I broke out in 1914, Church leaders released the missionaries serving in continental Europe but left those in Great Britain in place. Pin a European country whose Church Global Histories chronology records its missionaries leaving or being evacuated when the war began.",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2024",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "topic": "missionary work",
+   "era": "1910s",
+   "citation": "Saints vol. 3 ch. 11; Global Histories chronologies",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/october-2024-general-conference-new-temples"
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/11-too-heavy?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "At the end of the October 2024 general conference, President Russell M. Nelson announced 17 new temples in 11 countries or territories. Dublin and Kampala were the first temples announced for Ireland and Uganda.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "MOZ",
-    "UGA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Coeur d'Alene Idaho; El Paso Texas; Huntsville Alabama; and 4 more."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Juchitán de Zaragoza Mexico."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Puerto Montt Chile."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Milan Italy."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Medellín Colombia."
-    },
-    {
-     "code": "DOM",
-     "name": "Dominican Republic",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Santiago Dominican Republic."
-    },
-    {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Dublin Ireland."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Abuja Nigeria."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Santa Ana El Salvador."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Maputo Mozambique."
-    },
-    {
-     "code": "UGA",
-     "name": "Uganda",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Kampala Uganda."
-    }
-   ]
-  },
-  {
-   "id": "temples-first-announced-2022-25",
-   "bank": "temples",
-   "display_text": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
-   "text_original": "Pin a country or territory whose first temple was announced between 2022 and 2025.",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2022-2025",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "From 2022 to 2025 first temples were announced for the Republic of the Congo, Indonesia, Mongolia, Angola, Ireland, Uganda and New Caledonia. Brazzaville is under construction; the others were announced but not yet under construction as of October 2026.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "AGO",
-    "COG",
-    "NCL",
-    "UGA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jakarta Indonesia, announced 2023."
-    },
-    {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Dublin Ireland, announced 2024."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ulaanbaatar Mongolia, announced 2023."
-    },
-    {
-     "code": "AGO",
-     "name": "Angola",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Luanda Angola, announced 2023."
-    },
-    {
-     "code": "COG",
-     "name": "Republic of the Congo",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Brazzaville Republic of the Congo, announced 2022."
-    },
-    {
-     "code": "NCL",
-     "name": "New Caledonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nouméa New Caledonia, announced 2025."
-    },
-    {
-     "code": "UGA",
-     "name": "Uganda",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Kampala Uganda, announced 2024."
-    }
-   ]
-  },
-  {
-   "id": "bom-heads-of-state-given-copy",
-   "bank": "bom",
-   "display_text": "Pin a country whose king, queen or president was given a Book of Mormon, per the Church's country chronologies",
-   "text_original": "A country whose king, queen or president received a copy of the Book of Mormon from Church representatives, as recorded in the Church's Global Histories chronologies",
-   "accepts": "country",
-   "topic": "Book of Mormon history",
-   "era": "1888-1999",
-   "citation": "Global Histories chronologies: Sweden, Netherlands, Costa Rica, Panama, Thailand, Slovakia",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; leaders of other countries have also received copies.",
-   "summary": "Church representatives have often given the Book of Mormon to heads of state. The Church's country chronologies record gifts to King Oscar II of Sweden in 1897, the Dutch royal family in 1888 and 1952, Costa Rica's president in 1947, Panama's in 1961, the king of Thailand in 1968 and Slovakia's president in 1999.",
+   "note": "Great Britain does not count: its missionaries stayed. Norway does not either: its chronology records only that fewer were sent.",
+   "summary": "At the start of World War I, the First Presidency told European leaders to release German and French missionaries, and mission president Hyrum M. Smith then pulled missionaries out of the rest of continental Europe. Missionaries in Great Britain stayed. Local Saints across the continent led branches and preached on their own until the war ended.",
    "stamp": null,
    "gems": [
-    "CRI",
-    "SVK"
+    "ISL",
+    "ROU"
    ],
    "gem_forced": false,
    "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "All North American missionaries left Germany during World War I; local members were called to preach (GH Germany, 1914-1919)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 5,
+     "gem": false,
+     "fact": "All missionaries left; the French Mission was absorbed, August 1914."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Full-time missionaries were evacuated from Belgium during the war (GH Belgium, 1914-18)."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "All missionaries evacuated, August 1914."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mission president told to release all missionaries, August 30, 1914."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries not native to Denmark sent home, October 1914."
+    },
     {
      "code": "NLD",
      "name": "Netherlands",
      "commonness": 3,
      "gem": false,
-     "fact": "A copy of John Volker's 1888 Dutch translation went to the king and queen; Queen Juliana later accepted one after meeting David O. McKay in 1952."
+     "fact": "Missionaries serving in the Netherlands were reassigned to safer missions (GH Netherlands, 1914-19)."
     },
     {
      "code": "SWE",
      "name": "Sweden",
      "commonness": 3,
      "gem": false,
-     "fact": "Jan M. Sjodahl presented a copy to King Oscar II in 1897, his 25th year on the throne."
+     "fact": "Missionaries from the United States left Sweden in October 1914; local Saints took over the branches."
     },
     {
-     "code": "PAN",
-     "name": "Panama",
+     "code": "HUN",
+     "name": "Hungary",
      "commonness": 2,
      "gem": false,
-     "fact": "Marion G. Romney presented a copy to President Roberto F. Chiari in 1961."
+     "fact": "All missionaries evacuated, August 10, 1914."
     },
     {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ezra Taft Benson gave King Bhumibol Adulyadej an English copy in Bangkok in 1968."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
+     "code": "ISL",
+     "name": "Iceland",
      "commonness": 1,
      "gem": true,
-     "fact": "President Teodoro Picado was given a copy in San Jose in 1947."
+     "fact": "Missionary work discontinued in 1914."
     },
     {
-     "code": "SVK",
-     "name": "Slovakia",
+     "code": "ROU",
+     "name": "Romania",
      "commonness": 1,
      "gem": true,
-     "fact": "President Rudolf Schuster and his wife accepted a copy at a Church open house in Bratislava in 1999."
+     "fact": "Last missionary in Brasso (Brasov) left after the war began."
     }
    ]
   },
   {
-   "id": "people-seventies-mission-leaders-latin-america",
-   "bank": "people",
-   "display_text": "Pin a Latin American or Caribbean country or territory where a current Seventy once led a mission (October 2026).",
-   "text_original": "As of October 2026, many General Authority Seventies had led missions in Latin America and the Caribbean. Pin a country or territory there where one of those missions was headquartered, as named in the Church's official biographies.",
-   "accepts": "country_or_territory",
-   "topic": "missionary work",
-   "era": "1990s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
+   "id": "scripture-missionary-translators",
+   "bank": "scripture",
+   "display_text": "Pin a country whose Church chronology records a foreign missionary leading or overseeing its first Book of Mormon translation.",
+   "text_original": "Several early Book of Mormon translations were led by missionaries from abroad who learned the language. Pin a country whose Church chronology records a foreign missionary or mission president leading or overseeing its first Book of Mormon translation.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "1851-1991",
+   "citation": "Global Histories chronologies: Japan, Hawaii, Mexico, Germany, Hungary",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/adilson-de-paula-parrella?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/aroldo-b-cavalcante?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-a-godoy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alan-r-walker?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-r-duncan?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-b-strong?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/mark-d-eddy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ryan-k-olsen?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hugo-e-martinez?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/sandino-roman?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ahmad-s-corbitt?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jorge-m-alvarado?lang=eng",
-    "https://www.thechurchnews.com/leaders/2025/05/24/new-general-authority-seventy-elder-kevin-brown-lord-does-not-have-veil/"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hawaii/hi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Latin America has given many Seventies their first experience leading missionaries. As of October 2026, their biographies name missions they led in eleven countries and territories, from Brazil and Mexico to Uruguay, Ecuador and Puerto Rico.",
+   "summary": "Many of the earliest translations were missionary projects. Alma O. Taylor spent five years on the Japanese Book of Mormon (1904-09), George Q. Cannon learned Hawaiian well enough to translate it with Jonathan Napela, Daniel W. Jones began the Spanish work in 1874, and John Taylor directed the German translation in Hamburg.",
    "stamp": null,
    "gems": [
-    "JAM"
+    "HUN"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 5,
      "gem": false,
-     "fact": "Belo Horizonte, Rio de Janeiro South, Belem and Brasilia missions, among others."
+     "fact": "Alma O. Taylor oversaw the first Japanese translation, 1904-1909."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 4,
+     "gem": false,
+     "fact": "George Q. Cannon translated into Hawaiian with Jonathan Napela, finishing in 1854."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Under John Taylor's direction, George P. Dykes and George Viett began the German translation in 1851."
     },
     {
      "code": "MEX",
      "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Brigham Young asked Daniel W. Jones and Henry Brizzee to translate portions into Spanish in 1874-75."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Arthur Gaeth, Czechoslovak Mission president, revived the Hungarian translation with a local member in 1931."
+    }
+   ]
+  },
+  {
+   "id": "global-africa-two-plus-missions-2025",
+   "bank": "global",
+   "display_text": "Pin an African country with two or more missions of the Church (end of 2025).",
+   "text_original": "An African country with two or more missions of the Church at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country",
+   "topic": "missions",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/democratic-republic-of-the-congo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/ghana?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/south-africa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cote-divoire?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/kenya?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/madagascar?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "At the end of 2025 ten African countries had two or more missions. Nigeria led with 11, followed by the Democratic Republic of the Congo (7), Ghana (6), South Africa and Ivory Coast (4 each), and Sierra Leone, Zimbabwe, Kenya, Mozambique and Madagascar (2 each). Every other African country had one mission or none.",
+   "stamp": null,
+   "gems": [
+    "MDG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
      "commonness": 5,
      "gem": false,
-     "fact": "Mexico Monterrey East, Mexico City South and Tijuana missions (Elders Walker, Casillas, Alonso)."
+     "fact": "6 missions, 122,978 members."
     },
     {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "11 missions, 274,043 members."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
      "commonness": 4,
      "gem": false,
-     "fact": "Argentina Cordoba Mission (Elder Alliaud)."
+     "fact": "7 missions, 159,771 members."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "ZAF",
+     "name": "South Africa",
      "commonness": 4,
      "gem": false,
-     "fact": "Chile Santiago North (Elder Duncan) and Chile Antofagasta (Elder Wu) missions."
+     "fact": "4 missions."
     },
     {
-     "code": "GTM",
-     "name": "Guatemala",
+     "code": "CIV",
+     "name": "Ivory Coast",
      "commonness": 3,
      "gem": false,
-     "fact": "Guatemala City Central Mission (Elder Hugo E. Martinez)."
+     "fact": "4 missions."
     },
     {
-     "code": "PER",
-     "name": "Peru",
+     "code": "KEN",
+     "name": "Kenya",
      "commonness": 3,
      "gem": false,
-     "fact": "Peru Lima Central Mission (Elder Strong)."
+     "fact": "2 missions, 24,547 members."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 missions, 52,430 members."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 missions, 39,282 members."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 missions, 41,775 members."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "2 missions, 20,395 members."
+    }
+   ]
+  },
+  {
+   "id": "temples-spanish-first-2001-on",
+   "bank": "temples",
+   "display_text": "Pin a Spanish-speaking country whose first temple was dedicated in 2001 or later (as of October 2026).",
+   "text_original": "A Spanish-speaking country whose first temple was dedicated in 2001 or later (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2001-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Six Spanish-speaking countries received their first temple after 2000: Uruguay (2001), Paraguay (2002), Panama (2008), El Salvador (2011), Honduras (2013) and Nicaragua, whose Managua temple was dedicated in October 2026. Every other Spanish-speaking country with a temple had one by 2000.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NIC"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tegucigalpa Honduras Temple dedicated 2013."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 4,
+     "gem": false,
+     "fact": "San Salvador El Salvador Temple dedicated 2011."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Panama City Panama Temple dedicated 2008."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Asunción Paraguay Temple dedicated 2002."
     },
     {
      "code": "URY",
      "name": "Uruguay",
      "commonness": 3,
      "gem": false,
-     "fact": "Uruguay Montevideo (Elder Eddy) and Montevideo West (Elder Olsen) missions."
+     "fact": "Montevideo Uruguay Temple dedicated 2001."
     },
     {
-     "code": "DOM",
-     "name": "Dominican Republic",
+     "code": "NIC",
+     "name": "Nicaragua",
      "commonness": 2,
-     "gem": false,
-     "fact": "Dominican Republic Santo Domingo East Mission (Elder Corbitt)."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ecuador Quito North Mission (Elder Roman)."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Puerto Rico San Juan Mission (Elder Alvarado)."
-    },
-    {
-     "code": "JAM",
-     "name": "Jamaica",
-     "commonness": 1,
      "gem": true,
-     "fact": "Elder Kevin G. Brown led the Jamaica Kingston Mission, 2013 to 2016."
+     "fact": "Managua Nicaragua Temple dedicated October 2026."
     }
    ]
   },
   {
-   "id": "ot-zephaniah-2-nations",
-   "bank": "ot",
-   "display_text": "Pin a country holding a people judged in Zephaniah 2: Philistines, Moab, Ammon, Assyria, or the Nile land of Cush",
-   "text_original": "A present-day country holding a people judged in Zephaniah 2 (Philistines, Moab, Ammon, the Ethiopians of Cush on the Nile, Assyria)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Zephaniah 2",
+   "id": "sites-labor-missionaries",
+   "bank": "sites",
+   "display_text": "Pin a country or territory where Church labor missionaries built chapels, schools or a temple in the 1950s or 1960s.",
+   "text_original": "In the 1950s and 1960s the Church called young men as labor or building missionaries, trained in construction, to raise chapels, schools and even a temple abroad. Pin a country or territory where labor missionaries built Church buildings in that era.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "1950s-1960s",
+   "citation": "Global Histories chronologies: New Zealand, Australia, Scotland, Northern Ireland, Uruguay, Austria, Cook Islands, Peru; Samoa overview",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/zeph/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-overview?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt; modern Ethiopia is not counted.",
-   "summary": "Zephaniah 2 calls Judah to seek meekness, then names the peoples who will be judged: the Philistine cities of Gaza, Ashkelon, Ashdod and Ekron, Moab and Ammon, the Ethiopians, and Assyria with its capital Nineveh. The Bible's Ethiopia, or Cush, was the Nile land south of Egypt, mostly today's Sudan, not modern Ethiopia.",
-   "stamp": null,
+   "note": null,
+   "summary": "The building missionary program of the 1950s and 1960s sent young men trained in construction to raise Church buildings. In New Zealand they built the Hamilton temple and Church College; in Australia they built 19 chapels; others worked in Britain, Uruguay, Austria, Peru, Samoa and the Cook Islands.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "EGY",
-    "SDN"
+    "COK"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 4,
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 5,
      "gem": false,
-     "fact": "The Lord will destroy Assyria and make Nineveh a desolation (Zephaniah 2:13)."
+     "fact": "Labor missionaries built much of the Hamilton temple and the Church College of New Zealand, dedicated in 1958."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
+     "code": "AUS",
+     "name": "Australia",
      "commonness": 4,
      "gem": false,
-     "fact": "Ashkelon, Ashdod and Ekron were Philistine cities (Zephaniah 2:4)."
+     "fact": "From 1956 labor missionaries were trained in construction and built 19 chapels across the country."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Moab and the children of Ammon shall be as Sodom (Zephaniah 2:8-9)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "GBR",
+     "name": "United Kingdom",
      "commonness": 3,
      "gem": false,
-     "fact": "Gaza shall be forsaken (Zephaniah 2:4); it lies in the Gaza Strip."
+     "fact": "In the 1960s labor missionaries and members built meetinghouses across Scotland, Northern Ireland and the rest of Great Britain."
     },
     {
-     "code": "EGY",
-     "name": "Egypt",
+     "code": "AUT",
+     "name": "Austria",
      "commonness": 2,
-     "gem": true,
-     "fact": "Ye Ethiopians also (Zeph 2:12): the Bible Dictionary's Cush began at Syene, today Aswan in Egypt."
+     "gem": false,
+     "fact": "Graz Branch members and labor missionaries built the Graz chapel from 1963 to 1965."
     },
     {
-     "code": "SDN",
-     "name": "Sudan",
+     "code": "PER",
+     "name": "Peru",
      "commonness": 2,
+     "gem": false,
+     "fact": "On June 24, 1962, two members were called as building-construction missionaries under the building program begun in 1961."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "In 1961 the Church built the Carrasco block in Montevideo to house building missionaries."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "After World War II many Samoans served as labor missionaries, and Samoan labor missionaries built the first Cook Islands chapels."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
      "gem": true,
-     "fact": "Ye Ethiopians also, ye shall be slain (Zephaniah 2:12); Bible Ethiopia, or Cush, ran south from Syene along the Nile, mostly today's Sudan."
+     "fact": "Samoan labor missionaries built the first purpose-built meetinghouses at Avarua and Aitutaki, dedicated 1955 and 1958."
     }
    ]
   }

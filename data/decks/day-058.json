@@ -1,0 +1,359 @@
+{
+ "day": 58,
+ "prompts": [
+  {
+   "id": "place-tokyo-japan-temple",
+   "bank": "places",
+   "display_text": "Pin the Tokyo Japan Temple, the first temple in Asia.",
+   "text_original": "Drop a pin on the Tokyo Japan Temple, the first temple built in Asia.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Tokyo Japan Temple",
+    "lat": 35.6528,
+    "lng": 139.7245
+   },
+   "topic": "temples",
+   "era": "1975-1980",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/tokyo-japan-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/tokyo-japan-temple/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "President Spencer W. Kimball dedicated the Tokyo Japan Temple in October 1980. It was the first temple in Asia and the first built in a non-Christian nation, and it was rededicated in 2022 after renovation.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-borders-brazil",
+   "bank": "sites-temples",
+   "display_text": "Pin one of Brazil's neighbours that has a dedicated temple.",
+   "text_original": "A country that borders Brazil and has at least one dedicated temple (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1986-2025",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Seven countries bordering Brazil have dedicated temples, beginning with Lima and Buenos Aires in 1986. Ecuador and Chile have temples but do not border Brazil. Guyana, Suriname and French Guiana have none.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "COL",
+    "PRY",
+    "URY",
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (1986), Córdoba Argentina (2015), Salta Argentina (2024) and others."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Lima Peru (1986), Trujillo Peru (2015), Arequipa Peru (2019) and others."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Cochabamba Bolivia (2000)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Bogotá Colombia (1999), Barranquilla Colombia (2018)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Asunción Paraguay (2002)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Montevideo Uruguay (2001)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Caracas Venezuela (2000)."
+    }
+   ]
+  },
+  {
+   "id": "hp-continental-emigrants",
+   "bank": "sites-history",
+   "display_text": "Pin a European homeland, outside the British Isles, of 19th-century converts who sailed for Zion in Utah.",
+   "text_original": "A country in continental Europe or Scandinavia (not the British Isles) whose 19th-century converts emigrated to gather with the Saints in Utah.",
+   "accepts": "country",
+   "topic": "gathering",
+   "era": "1852-1900",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-overview?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-overview?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-overview?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "In the 1800s thousands of European converts left home to gather with the Saints in Utah. Denmark alone sent more than 12,000 by 1900, and Swedes, Norwegians, Swiss, Germans, Dutch, Icelanders, Italians and Belgians followed. Their departures emptied many young branches back home.",
+   "stamp": null,
+   "gems": [
+    "BEL",
+    "ISL",
+    "ITA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The first group of Saints left Denmark for Utah in 1852; by the end of the century over 12,000 had emigrated."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Nearly half of the thousands who joined in Norway in the 1800s immigrated and helped build up the Church in Utah."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Many early Swedish converts immigrated to Utah to help build new settlements there."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first Swiss Saints immigrated to the United States in 1854."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The German Mission was discontinued in 1855 after most German Saints immigrated to Utah."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first of many Dutch converts immigrated to Utah in 1863."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Many early members from the branches in Antwerp, Liege and Brussels soon immigrated to Utah."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1854 the first Icelandic Saints moved to Spanish Fork, Utah; at least 379 more followed over 60 years."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 2,
+     "gem": true,
+     "fact": "From 1854 to 1871 converts from the Waldensian faith emigrated to Salt Lake City, many with help from the Perpetual Emigrating Fund."
+    }
+   ]
+  },
+  {
+   "id": "hp-apostles-open-lands",
+   "bank": "sites-history",
+   "display_text": "Pin a country where an Apostle came in person to open the work or dedicate the land, 1837 to 1857.",
+   "text_original": "A country where a member of the Quorum of the Twelve personally opened missionary work or dedicated the land between 1837 and 1857.",
+   "accepts": "country",
+   "topic": "apostles",
+   "era": "1837-1857",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Early Apostles often went themselves to open new lands. Heber C. Kimball led the first mission to England in 1837; Erastus Snow, Lorenzo Snow, John Taylor and Parley P. Pratt opened work in Scandinavia, Italy, Switzerland, France, Germany and Chile around 1850; and Ezra T. Benson helped dedicate Sweden in 1857.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "DEU",
+    "SWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1837 Heber C. Kimball led the first Latter-day Saint missionaries to England, landing at Liverpool and preaching in Preston."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1850 Elder Erastus Snow arrived in Copenhagen and organized the Scandinavian Mission."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1851 Lorenzo Snow visited Switzerland and dedicated the land in Geneva."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1851-52 Apostle Parley P. Pratt and his wife Phoebe served a five-month mission in Chile."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1850 John Taylor dedicated France for the preaching of the gospel on a beach north of Boulogne-sur-Mer."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1850 Lorenzo Snow and companions dedicated Italy for the preaching of the gospel at Torre Pellice."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1851 Elder John Taylor joined George P. Dykes preaching in Hamburg."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1857 Elder Ezra T. Benson, with mission president Carl Widerborg and John M. Kay, dedicated Sweden in Stockholm."
+    }
+   ]
+  },
+  {
+   "id": "bible-wildernesses",
+   "bank": "bible",
+   "display_text": "Pin a country that holds a wilderness the Bible names, the wilderness of Sinai aside.",
+   "text_original": "A present-day country that holds a wilderness the Bible names, Sinai aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old and New Testament",
+   "citation": "Genesis 16:7; 21:14; Exodus 13:20; Deuteronomy 2:8, 26; 1 Samuel 23:14; 24:1; 1 Kings 19:15; 2 Kings 3:8; 2 Chronicles 20:20; Matthew 3:1",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/24?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/3?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Wilderness in the Bible is any dry grazing land, and it has many names. Hagar fled toward Shur on the Egyptian border and later wandered near Beersheba, David hid from Saul at Ziph and Engedi, and John preached in the wilderness of Judaea (Matthew 3:1). Israel marched through the wilderness of Moab, and Elijah was sent to the wilderness of Damascus (1 Kings 19:15).",
+   "stamp": null,
+   "gems": [
+    "SYR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hagar fled toward the wilderness of Shur, and Israel camped at the edge of the wilderness of Etham (Genesis 16:7; Exodus 13:20)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hagar wandered in the wilderness of Beersheba, and David hid in the wildernesses of Ziph and Engedi (Genesis 21:14; 1 Samuel 23:14; 24:1)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "John the Baptist preached in the wilderness of Judaea, and Jehoshaphat marched into the wilderness of Tekoa (Matthew 3:1; 2 Chronicles 20:20)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Israel passed through the wilderness of Moab and sent messengers from Kedemoth (Deuteronomy 2:8, 26)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Lord sent Elijah to the wilderness of Damascus to anoint Hazael (1 Kings 19:15)."
+    }
+   ]
+  }
+ ]
+}

@@ -38,6 +38,8 @@
   /* Weathered paper (owner, 2026-10-27): seeded SVG noise, thresholded into sparse ink specks over a fine grain.
      Static and tiled under the panel only; the map draws its own paper as MapLibre patterns. */
   --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='s'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='4' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .404 0 0 0 0 .278 0 0 0 0 .188 7 0 0 0 -4.6'/%3E%3C/filter%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.6' seed='9' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .404 0 0 0 0 .278 0 0 0 0 .188 1 0 0 0 -.3'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23g)' opacity='.1'/%3E%3Crect width='180' height='180' filter='url(%23s)' opacity='.3'/%3E%3C/svg%3E");
+  /* map hover cursor (owner play-test 2026-11-04): black crosshair, white halo, hotspot at the centre */
+  --cursor-map: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><g fill='none' stroke-linecap='round'><path d='M16 3v8M16 21v8M3 16h8M21 16h8' stroke='%23FFF' stroke-width='5'/><circle cx='16' cy='16' r='3' stroke='%23FFF' stroke-width='5'/><path d='M16 3v8M16 21v8M3 16h8M21 16h8' stroke='%23000' stroke-width='2'/><circle cx='16' cy='16' r='3' stroke='%23000' stroke-width='2'/></g><circle cx='16' cy='16' r='1' fill='%23E66A1F'/></svg>") 16 16, crosshair;
   --frame: 9px; /* map frame band: paper, rule, paper strip, rule */
   --notebook: linear-gradient(var(--grid) 1px, transparent 1px) 0 0 / 8px 8px, linear-gradient(90deg, var(--grid) 1px, transparent 1px) 0 0 / 8px 8px, var(--sheet-2);
 }
@@ -64,7 +66,7 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 
 .stage { position: relative; min-height: 0; background: var(--sea); }
 .map { position: absolute; inset: 0; }
-.map .maplibregl-canvas { cursor: crosshair; }
+.map .maplibregl-canvas { cursor: var(--cursor-map); }
 .loading {
   position: absolute; inset: 0; margin: 0;
   display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px;
@@ -371,6 +373,9 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .camp-rows { list-style: none; margin: 0; display: grid; gap: 8px; align-content: start; }
 .camp-rows li { display: flex; align-items: center; gap: 10px; }
 .camp-rows li > span:first-child { width: 14px; color: var(--ink-2); }
+/* The camp Bonus row (owner ruling 2026-11-03): a tier stamp in green with a tick, or red with a cross. */
+.bonus-mark--got { --tier-ink: #235C35; --tier-fill: #50A83E; }
+.bonus-mark--missed { --tier-ink: #A1162B; --tier-fill: #E10F2A; }
 .poster {
   text-align: center; display: grid; align-content: center; gap: 4px;
   background: var(--notebook); border-radius: var(--radius-entry); box-shadow: 0 0 0 1px var(--ink), var(--shadow-lift);
@@ -484,6 +489,15 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
     order: 4; position: sticky; bottom: 0; z-index: 5; margin-top: var(--edge);
     background: var(--sheet); box-shadow: 0 -1px 0 var(--ink);
   }
+  /* Owner, 2026-11-04: on phone the bonus must show with no scrolling. #q6-camp sticks right above the
+     RETURN HOME bar; app.js keeps --camp-bar-h at that bar's height. Desktop keeps its place in the page. */
+  #camp > .q6-camp:not([hidden]) {
+    order: 4; position: sticky; bottom: var(--camp-bar-h, 104px); z-index: 5;
+    padding-top: var(--edge); background: var(--sheet); box-shadow: 0 -1px 0 var(--ink);
+  }
+  #camp:has(> .q6-camp:not([hidden])) > .actions { margin-top: 0; box-shadow: none; }
+  /* The round screen's trail clamp, so SHARE stays clear of the bonus bar on short phones (375x667). */
+  #camp:has(> .q6-camp:not([hidden])) > .camp-trail .trail-map { max-height: clamp(64px, calc(100dvh - 580px), 140px); }
   .camp-top { grid-template-columns: 1fr 1fr; }
   .camp-rows { padding: 10px; }
   .camp-rows li .tier-stamp { font-size: 13.5px; line-height: 18px; }
@@ -656,7 +670,7 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .tour-card--top { bottom: auto; top: max(16px, env(safe-area-inset-top)); }
 .tour--note .tour-card { bottom: auto; top: 50%; transform: translate(-50%, -50%); }
 .tour-title { font-weight: 700; font-size: 20px; margin: 4px 0 6px; }
-.tour-body { margin: 0 0 14px; line-height: 1.45; color: var(--ink-2); }
+.tour-body { margin: 0 0 14px; line-height: 1.45; color: var(--ink-2); white-space: pre-line; } /* card 1 breaks its lines */
 .tour-nav { display: flex; align-items: center; gap: 8px; }
 .tour-gap { flex: 1; }
 .tour-nav .tour-btn { width: auto; height: 44px; margin: 0; padding: 2px 16px 0; font-size: 16px; }
@@ -737,32 +751,44 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 }
 @media (prefers-reduced-motion: reduce) { .sheep--in { animation: none; } }
 
-/* Question 6: unscored map overlay. */
+/* Question 6: unscored map overlay. Laid out like the game (owner, 2026-11-03): the map on the
+   left, a panel on the right with the question card, the result card and the CHECK button; under
+   768 px the parts stack in the game's phone order. */
 .q6-camp { display: grid; gap: 6px; }
 .q6-open { font-size: 15px; }
 .q6 {
-  position: fixed; inset: 0; z-index: 30; display: flex; flex-direction: column;
+  position: fixed; inset: 0; z-index: 30; display: grid; grid-template-columns: 1fr clamp(380px, 36vw, 480px); grid-template-rows: 1fr auto;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) max(8px, env(safe-area-inset-bottom)) env(safe-area-inset-left);
   background: var(--sheet); color: var(--ink); overflow: hidden; touch-action: pan-y;
 }
 .q6:focus { outline: none; }
-/* Everything but the statement. It scrolls only on a screen too short to hold it; the statement stays below it. */
-.q6-body {
-  flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; gap: 6px;
-  padding: 8px var(--edge) 6px; overflow: hidden auto; overscroll-behavior: contain;
+/* The map and the panel, the same two columns as .app; the statement sits under the panel. */
+.q6-body { grid-column: 1 / -1; min-height: 0; display: grid; grid-template-columns: 1fr clamp(380px, 36vw, 480px); }
+.q6-panel {
+  min-height: 0; display: flex; flex-direction: column; gap: var(--edge);
+  padding: var(--edge) var(--edge) 0; border-left: 3px double var(--ink); overflow: hidden auto; overscroll-behavior: contain;
 }
-.q6-head { display: flex; align-items: center; gap: 8px; }
+.q6-head { display: flex; align-items: center; gap: 8px; flex: none; height: 46px; border-bottom: 1px solid var(--ink); }
 .q6-title { margin: 0; flex: 1; font-size: 12px; }
+.q6-ask-card { flex: none; }
+.q6-strip { position: relative; flex: none; height: 128px; }
+.q6-strip:not(:has(.sheep:not([hidden]))) { display: none; }
+.q6-actions { margin-top: auto; flex: none; display: grid; gap: 8px; }
 .q6-draft { font-family: var(--font-figure); font-size: 11px; letter-spacing: .08em; padding: 1px 6px; border: 1px solid var(--accent); color: var(--accent); border-radius: var(--radius-key); }
 .q6-close { height: 44px; padding: 0 12px; border: 0; background: none; cursor: pointer; font-size: 14px; font-weight: 600; }
 .q6-ask { margin: 0; font-size: 16px; line-height: 21px; font-weight: 600; }
 .q6-stage {
-  position: relative; flex: 1 1 0; min-height: 200px; overflow: hidden; touch-action: none;
-  background: var(--paper-3); box-shadow: 0 0 0 1px var(--ink); cursor: crosshair; user-select: none; -webkit-user-select: none;
+  position: relative; min-height: 200px; overflow: hidden; touch-action: none;
+  background: var(--paper-3); box-shadow: 0 0 0 1px var(--ink); cursor: var(--cursor-map); user-select: none; -webkit-user-select: none;
 }
 .q6-stage:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .q6-layer { position: absolute; left: 0; top: 0; transform-origin: 0 0; will-change: transform; }
 .q6-img { display: block; width: 100%; height: 100%; max-width: none; pointer-events: none; }
+.q6-tiles { position: absolute; inset: 0; pointer-events: none; }
+.q6-tile { position: absolute; display: block; max-width: none; pointer-events: none; }
+/* Multiply keeps the map's ink and names dark under the lit territory. */
+.q6-terr { position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; }
+.q6-borders { stroke-linejoin: round; stroke-linecap: round; }
 .q6-marks { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
 .q6-pin { fill: var(--accent-fill); stroke: var(--ink); stroke-width: 2; }
 .q6-ring { fill: none; stroke: var(--accent); stroke-width: 3; }
@@ -774,10 +800,28 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 .q6-hint { margin: 0; text-align: center; }
 .q6-check { height: 52px; flex: none; }
 .q6-check:disabled { background: var(--pencil); color: var(--ink-2); cursor: default; }
-.q6-caption { margin: 0 var(--edge); flex: none; }
-.q6-result { display: grid; gap: 2px; }
+.q6-caption { grid-column: 2; margin: 0; padding: var(--edge) var(--edge) 0; border-left: 3px double var(--ink); }
+.q6-result { flex: none; display: grid; gap: 2px; }
 .q6-result p { margin: 0; }
-.q6-verdict { font-family: var(--font-figure); font-size: 13px; letter-spacing: .12em; color: var(--accent); }
+.q6-result .result-head { margin-bottom: 6px; }
+.q6-verdict { line-height: 23px; } /* 24 px tall with its padding: the old verdict line's signed-off height */
+/* A fresh CHECK pops the verdict in, with the lost sheep's motion. */
+.q6-verdict--in { animation: sheep-in 250ms cubic-bezier(.34, 1.56, .64, 1) both; }
+@media (prefers-reduced-motion: reduce) { .q6-verdict--in { animation: none; } }
 .q6-answer { font-size: 18px; font-weight: 600; }
 .q6-cite { font-size: 14px; line-height: 19px; }
 .q6-link { font-size: 14px; color: var(--accent); min-height: 24px; }
+/* Phone: the game's stacked order, the body scrolling only on a screen too short to hold it. */
+@media (max-width: 767px) {
+  .q6 { display: flex; flex-direction: column; }
+  .q6-body { flex: 1 1 0; display: flex; flex-direction: column; gap: 8px; padding: 8px var(--edge) 6px; overflow: hidden auto; overscroll-behavior: contain; }
+  .q6-panel { display: contents; }
+  .q6-head { order: 0; height: auto; min-height: 46px; }
+  .q6-ask-card { order: 1; padding: 8px 12px; }
+  .q6-ask { font-size: 18px; line-height: 22px; min-height: 44px; }
+  .q6-stage { order: 2; flex: 1 1 auto; }
+  .q6-strip { order: 3; height: 96px; }
+  .q6-result { order: 3; padding: 8px 12px; }
+  .q6-actions { order: 4; }
+  .q6-caption { border: 0; padding: 0; margin: 0 var(--edge); flex: none; }
+}

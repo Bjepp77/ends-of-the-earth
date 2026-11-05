@@ -1,0 +1,358 @@
+{
+ "day": 61,
+ "prompts": [
+  {
+   "id": "place-laie-hawaii-temple",
+   "bank": "places",
+   "display_text": "Pin the Laie Hawaii Temple, the first temple outside the continental US.",
+   "text_original": "Drop a pin on the Laie Hawaii Temple, the first temple built outside the continental United States.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Laie Hawaii Temple",
+    "lat": 21.6472,
+    "lng": -157.9307
+   },
+   "topic": "temples",
+   "era": "1915-1919",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/laie-hawaii-temple/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "President Joseph F. Smith dedicated the site on June 1, 1915, on the north shore of Oahu. President Heber J. Grant dedicated the temple on Thanksgiving Day, November 27, 1919. It was the first temple built outside the continental United States and the first in Polynesia.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tb-first-in-region",
+   "bank": "sites-temples",
+   "display_text": "Pin a country that was home to the first temple in its part of the world, outside the US.",
+   "text_original": "A country that holds the first temple built in its continent or region outside the United States (Europe, Asia, Africa, South America, Central America, the Caribbean, the South Pacific, or outside the US at all).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-2000",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Temples spread beyond the United States one region at a time, starting with Canada in 1923. Each country here holds the first temple of a continent or region.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "DOM",
+    "GTM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil (dedicated 1978), the first temple in South America."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cardston Alberta (dedicated 1923), the first temple outside the United States."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bern Switzerland (dedicated 1955), the first temple in Europe."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo Japan (dedicated 1980), the first temple in Asia."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamilton New Zealand (dedicated 1958), the first temple in the South Pacific."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Johannesburg South Africa (dedicated 1985), the first temple in Africa."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Santo Domingo Dominican Republic (dedicated 2000), the first temple in the Caribbean."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Guatemala City Guatemala (dedicated 1984), the first temple in Central America."
+    }
+   ]
+  },
+  {
+   "id": "hf-first-native-mission-president",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose chronology names its first native mission president, called between 1975 and 2005.",
+   "text_original": "A country whose chronology names the first citizen of that country to be called as a mission president (1975-2005).",
+   "accepts": "country",
+   "topic": "people",
+   "era": "1975-2005",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belarus/by-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Local leadership matured as native members took charge of missions: a Korean led the Pusan Mission in 1975, Jose Armando Sousa opened Peru Lima North in 1977, Costa Rican and Ecuadorian presidents followed in 1985, and Ukrainians, Belarusians and Ivorians led missions from 1996 to 2005.",
+   "stamp": null,
+   "gems": [
+    "BLR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1975: the first Korean to serve as a mission president was called to preside over the newly organized Korean Pusan Mission."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "January 1, 1977: Jose Armando Sousa, the first Peruvian mission president, was assigned to the new Peru Lima North Mission."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2005: Norbert K. Ounleu began presiding over the Cote d'Ivoire Abidjan Mission, the first Ivorian mission president."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1985: Manuel Najera, the first Costa Rican called as a mission president, was assigned to Honduras."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1985: Cesar Hugo Cacuango became the first Ecuadorian to serve as a mission president, in Maracaibo, Venezuela."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1996: Oleksandr Manzhos was called as president of the Ukraine Donetsk Mission, the first mission president from independent Ukraine."
+    },
+    {
+     "code": "BLR",
+     "name": "Belarus",
+     "commonness": 2,
+     "gem": true,
+     "fact": "July 2004: Mikhail Davydik was called as the first mission president from Belarus, to the Russia Samara Mission."
+    }
+   ]
+  },
+  {
+   "id": "hg-native-missionaries-1952-69",
+   "bank": "sites-history",
+   "display_text": "Pin a country that sent out its first full-time missionary from among its own members between 1952 and 1969.",
+   "text_original": "A country whose first full-time missionary called from among its own members began service between 1952 and 1969.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1952-1969",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Each of these countries called its first missionary from its own members between 1952 and 1969.",
+   "summary": "A country's own members serving missions marks a turning point. Costa Rica and Japan called their first in 1952, Fiji in 1955, South Korea in 1956, Taiwan in 1959, South Africa in 1966, Bolivia in 1968 and Thailand in 1969.",
+   "stamp": null,
+   "gems": [
+    "FJI"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1952 Hide Kishigami became the first missionary called from Japan to teach the Japanese people."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1956 Lee Young Bum became the first full-time missionary from South Korea."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "On August 14, 1968, Carlos Pedraja became the first full-time missionary called from Bolivia."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1952 Sister Arredondo and Sister Peralta became the first missionaries from Costa Rica."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In January 1969 a Thai convert became the first local full-time missionary in Thailand."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1959 Chiu Siou-ping (Donna) became the first local missionary from Taiwan."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "On February 7, 1966, the first young missionaries from South Africa were called."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1955 a Fijian member left to serve a mission in Samoa, becoming the first full-time missionary from Fiji."
+    }
+   ]
+  },
+  {
+   "id": "bible-twelve-and-barnabas",
+   "bank": "bible",
+   "display_text": "Pin a country where the New Testament itself places one of the Twelve or Barnabas, Paul aside.",
+   "text_original": "A present-day country where the New Testament itself places one of the Twelve or Barnabas, Paul aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Matthew 15:21-23; John 10:40; 11:7-16; Acts 8:14; 9:36-43; 13-14; 15:39; Galatians 2:11; Revelation 1:9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/gal/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Set Paul aside and the Twelve still travel. Peter raised Tabitha at Joppa and went to Samaria with John, John wrote from Patmos, and Barnabas sailed home to Cyprus (Acts 15:39). The Gospels place the disciples beyond the Jordan with Jesus and in the coasts of Tyre and Sidon (Matthew 15:21).",
+   "stamp": null,
+   "gems": [
+    "JOR",
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Peter raised Tabitha at Joppa and stayed with Simon the tanner (Acts 9:36-43)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Peter and John were sent to the new believers in Samaria (Acts 8:14)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Peter was rebuked by Paul at Antioch, and Barnabas preached across Pisidia and Lycaonia (Galatians 2:11; Acts 13-14)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barnabas took Mark and sailed to his home island of Cyprus (Acts 15:39)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "John wrote Revelation on the isle of Patmos (Revelation 1:9)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The disciples were with Jesus beyond Jordan when word came of Lazarus (John 10:40; 11:7-16)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The disciples were with Jesus in the coasts of Tyre and Sidon when the Canaanite woman came (Matthew 15:21-23)."
+    }
+   ]
+  }
+ ]
+}

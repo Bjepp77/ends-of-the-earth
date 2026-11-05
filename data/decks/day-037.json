@@ -2,89 +2,377 @@
  "day": 37,
  "prompts": [
   {
-   "id": "temples-rededicated-1970-99",
-   "bank": "temples",
-   "display_text": "Pin a country where a temple was rededicated after renovation from 1970 through 1999.",
-   "text_original": "Pin a country where a temple was rededicated after renovation from 1970 through 1999.",
+   "id": "nt-synagogue-preaching",
+   "bank": "nt",
+   "display_text": "Pin a country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
+   "text_original": "A present-day country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1970-1999",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Luke 4:16; Mark 1:21; Acts 9:20; 13:5, 14; 14:1; 17:1-2, 10, 17; 18:4, 19; 19:8",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "Older temples are closed for renovation and then rededicated. From 1970 through 1999 this happened in Canada (Cardston, 1991), Switzerland (Bern, 1992), England (London, 1992) and Australia (Sydney, 1991), as well as at eight temples in the United States, including St. George and Laie.",
+   "summary": "Jesus began his public ministry by reading Isaiah in the Nazareth synagogue. Paul followed the same pattern on his missions, going first to the Jews: Damascus right after his conversion, Salamis on Cyprus, Antioch in Pisidia and Iconium, then Thessalonica, Berea, Athens, Corinth and Ephesus.",
+   "stamp": null,
+   "gems": [
+    "CYP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Jesus read Isaiah in the synagogue at Nazareth and taught in the synagogue at Capernaum (Luke 4:16; Mark 1:21)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul reasoned in synagogues at Thessalonica, Berea, Athens and Corinth (Acts 17:1-2, 10, 17; 18:4)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul and Barnabas spoke in synagogues at Antioch in Pisidia and Iconium; Paul later at Ephesus (Acts 13:14; 14:1; 19:8)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Straightway after his conversion Saul preached Christ in the synagogues of Damascus (Acts 9:20)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "At Salamis, Barnabas and Saul preached the word of God in the synagogues of the Jews (Acts 13:5)."
+    }
+   ]
+  },
+  {
+   "id": "global-hinckley-1996-asia",
+   "bank": "global",
+   "display_text": "Pin a country or territory Gordon B. Hinckley visited on his May 1996 Asia trip",
+   "text_original": "In May 1996 President Gordon B. Hinckley toured Asia, dedicating the Hong Kong China Temple and offering prayers in Cambodia and Vietnam. A country or territory on that trip.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "1996",
+   "citation": "Ensign, August 1996, News of the Church",
+   "source_urls": [
+    "https://churchofjesuschrist.org/study/ensign/1996/08/news-of-the-church/president-hinckley-visits-asian-saints-dedicates-hong-kong-temple"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In May 1996 Gordon B. Hinckley met Saints across East Asia: Japan, Korea, Taiwan and the Philippines. He dedicated the Hong Kong China Temple, stopped in Shenzhen, dedicated Cambodia for preaching and prayed in Hanoi. Even a refueling stop on Saipan became a meeting with members.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CHE"
+    "KHM",
+    "MNP",
+    "VNM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 4,
+     "gem": false,
+     "fact": "He dedicated the Hong Kong China Temple, May 26-27."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo, Osaka, Fukuoka and Naha, Okinawa."
+    },
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A stop in Shenzhen."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Pusan and Seoul."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Manila and Cebu."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taipei."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "In Phnom Penh he dedicated Cambodia for the preaching of the gospel."
+    },
+    {
+     "code": "MNP",
+     "name": "Northern Mariana Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "A refueling stop on Saipan, where he met members."
+    },
+    {
+     "code": "VNM",
+     "name": "Vietnam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Ho Chi Minh City and Hanoi, where he offered an addendum prayer."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-wwii-allied-servicemen",
+   "bank": "pioneer",
+   "display_text": "Pin a British Commonwealth country whose Latter-day Saint servicemen fought in the early Allied operations of World War II.",
+   "text_original": "Latter-day Saint servicemen from several British Commonwealth countries took part in the early Allied military operations of World War II. Pin one of those countries.",
+   "accepts": "country",
+   "topic": "World War II",
+   "era": "1939-1941",
+   "citation": "Church History Topics: World War II",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/world-war-ii?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The United States did not enter World War II until December 1941. Before then, Church History Topics notes, Latter-day Saint servicemen from Great Britain, Canada, Australia, New Zealand and South Africa were already taking part in Allied operations.",
+   "stamp": null,
+   "gems": [
+    "ZAF"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "USA",
-     "name": "United States of America",
+     "code": "GBR",
+     "name": "United Kingdom",
      "commonness": 5,
      "gem": false,
-     "fact": "Boise Idaho, 1987; Chicago Illinois, 1989; and 6 more."
+     "fact": "Great Britain is named; it declared war on Germany in September 1939."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named among the countries whose Saints served early in the war."
     },
     {
      "code": "AUS",
      "name": "Australia",
      "commonness": 3,
      "gem": false,
-     "fact": "Sydney Australia, 1991."
+     "fact": "Named among the countries whose Saints served early in the war."
     },
     {
-     "code": "CAN",
-     "name": "Canada",
+     "code": "NZL",
+     "name": "New Zealand",
      "commonness": 3,
      "gem": false,
-     "fact": "Cardston Alberta, 1991."
+     "fact": "Named among the countries whose Saints served early in the war."
     },
     {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
-     "gem": false,
-     "fact": "London England, 1992."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
+     "code": "ZAF",
+     "name": "South Africa",
      "commonness": 2,
      "gem": true,
-     "fact": "Bern Switzerland, 1992."
+     "fact": "Named among the countries whose Saints served early in the war."
     }
    ]
   },
   {
-   "id": "pioneer-europe-first-baptisms-1849-51",
-   "bank": "pioneer",
-   "display_text": "Pin a European country where the first Latter-day Saint converts were baptized between 1849 and 1851.",
-   "text_original": "Between 1849 and 1851, apostles and other missionaries sent from Utah and Britain baptized the first Latter-day Saint converts in several European countries. Pin a country where, according to the Church Global Histories, the first converts were baptized in those years.",
+   "id": "temples-capital-and-another-city",
+   "bank": "temples",
+   "display_text": "Pin a country with a dedicated temple named for its capital and another named for a different city (as of October 2026).",
+   "text_original": "A country with a dedicated temple named for its national capital and another dedicated temple named for a different city (as of October 2026).",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1849-1851",
-   "citation": "Global Histories chronologies (Europe)",
+   "topic": "temples",
+   "era": "1958-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
-   "difficulty": 2,
-   "note": "The Netherlands (1861), Belgium (1888) and Austria (1883) had their first baptisms later, so they do not count.",
-   "summary": "Within three years of reaching the Salt Lake Valley, the Church sent apostles to open Europe beyond Britain. Erastus Snow led the Scandinavian work from Copenhagen, Lorenzo Snow opened Italy and Switzerland, and John Taylor went to France. Between 1849 and 1851 the first converts were baptized from Le Havre to Copenhagen, Schleswig and the Westman Islands.",
+   "difficulty": 1,
+   "note": null,
+   "summary": "Thirteen countries have a dedicated temple named for the capital and at least one named for another city, from the United States and Mexico to Colombia, Ecuador, Honduras and the United Kingdom. Canada, Australia and South Africa have several temples but none in their capitals, and New Zealand's Wellington temple is still under construction.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COL",
+    "ECU",
+    "GBR",
+    "HND"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City 1983 plus thirteen more."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Washington D.C. Temple (1974, in nearby Maryland) plus temples nationwide."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Brasília 2023 plus São Paulo and others."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima 1986 plus Trujillo and Arequipa."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Buenos Aires 1986 plus Córdoba, Mendoza, Salta, Bahía Blanca."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago 1983 plus Concepción and Antofagasta."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City 1984 plus Quetzaltenango and Cobán."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Tokyo 1980 plus Fukuoka, Sapporo, Okinawa."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Manila 1984 plus Cebu City, Urdaneta and others."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bogotá 1999 plus Barranquilla 2018."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Quito 2022 plus Guayaquil 1999."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 2,
+     "gem": true,
+     "fact": "London 1958 plus Preston 1998."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Tegucigalpa 2013 plus San Pedro Sula 2024."
+    }
+   ]
+  },
+  {
+   "id": "scripture-member-translators",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory whose Church chronology names a local member as a translator or reviewer of the Book of Mormon.",
+   "text_original": "The Church's country chronologies often name local members, rather than foreign missionaries, who translated or reviewed the Book of Mormon in their own language. Pin a country whose chronology names one of its own members in that role.",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1851-2026",
+   "citation": "Global Histories chronologies: Denmark, France, Germany, Sweden, Netherlands, Spain, Hungary, Russia, Taiwan, Hong Kong, Hawaii, Thailand, Armenia",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hawaii/hi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/armenia/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "From the start, converts carried the Book of Mormon into their own languages: Peter Olsen Hansen into Danish, Louis Bertrand into French, Jonathan Napela into Hawaiian, August Carlson into Swedish. In the 1900s local members led translations in Thailand, Taiwan, Hong Kong, Russia, Hungary and Armenia.",
    "stamp": null,
    "gems": [
-    "ISL"
+    "ARM",
+    "BGR",
+    "GUM",
+    "HUN",
+    "ISL",
+    "ZWE"
    ],
    "gem_forced": false,
    "answers": [
@@ -93,333 +381,147 @@
      "name": "Denmark",
      "commonness": 4,
      "gem": false,
-     "fact": "Fifteen people, including Ole and Marie Monster, became the first converts baptized in Denmark, August 12, 1850."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Augustus Saint d'Anna, the first known convert in France, was baptized at Le Havre on July 30, 1849."
+     "fact": "Peter Olsen Hansen, brother of one of the first Danish converts, translated into Danish, published 1851."
     },
     {
      "code": "DEU",
      "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "George P. Dykes baptized Anna Hoth and her daughter Oline at Schleswig, September 15, 1851, the first recorded baptisms in present-day Germany."
+     "fact": "George Viett, a German convert baptized in Paris, helped translate into German in 1851-52."
     },
     {
-     "code": "ITA",
-     "name": "Italy",
+     "code": "FRA",
+     "name": "France",
      "commonness": 3,
      "gem": false,
-     "fact": "Jean Antoine Bosc was baptized by Lorenzo Snow on October 27, 1850, the first convert baptized in Italy."
+     "fact": "Louis A. Bertrand, an early Paris convert, translated the Book of Mormon into French."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "John W. F. Volker translated the Book of Mormon into Dutch, published 1890."
     },
     {
      "code": "SWE",
      "name": "Sweden",
      "commonness": 3,
      "gem": false,
-     "fact": "John E. Forsgren baptized 21 converts in Gavle and Stockholm, June-September 1850."
+     "fact": "August W. Carlson translated the Book of Mormon into Swedish in 1878."
     },
     {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
+     "code": "USA",
+     "name": "United States",
+     "commonness": 3,
      "gem": false,
-     "fact": "The first converts in Switzerland were baptized in Geneva in March 1851."
+     "fact": "Jonathan H. Napela, a Hawaiian convert, translated into Hawaiian with George Q. Cannon from 1852."
     },
     {
-     "code": "NOR",
-     "name": "Norway",
+     "code": "ALB",
+     "name": "Albania",
      "commonness": 2,
      "gem": false,
-     "fact": "Hans F. Petersen baptized John Olsen and Peter Adamsen at Risor, November 26, 1851, the first baptisms in Norway."
+     "fact": "Lead translators Brikena Ribaj and Juventila Sinamati produced the Albanian Book of Mormon, available in Tirana in November 1999."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Meliton Gonzalez Trejo, a Spaniard, was one of the main translators of the 1886 Spanish edition."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Priscilla Sampson-Davis of Accra translated the Book of Mormon and other Church materials into Fante."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "A translation committee of local members began the Chinese translation in 1957."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Stuart Meha and William Duncan Sr. worked with Matthew Cowley to revise the Maori Book of Mormon in 1917-19."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Andre Anastasion, who joined the Church in 1918, began the Russian translation in the 1920s."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Srilaksana Suntarahut, a Thai convert, was the principal translator of the 1976 Thai edition."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Chinese Book of Mormon published in Taipei on November 2, 1963, came through the efforts of Hu Wei-i."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Andre Anastasion, a native of Odesa, began translating the Book of Mormon into Russian in 1925."
+    },
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Four Armenian members served as the ecclesiastical review team for the Eastern Armenian edition in 2000."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Evangeline Kokotanova Coy, a Bulgarian convert, produced the first manuscript Bulgarian translation of the Book of Mormon in 1934."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Maria Salas Calvo translated selections of the Book of Mormon into CHamoru, available in book form in 1989."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Etus von Haragos, a Hungarian member, worked on the Hungarian translation from 1931."
     },
     {
      "code": "ISL",
      "name": "Iceland",
      "commonness": 1,
      "gem": true,
-     "fact": "Benedikt Hansson and Ragnhildur Stefansdottir became the first converts baptized in Iceland, May 1851."
-    }
-   ]
-  },
-  {
-   "id": "ot-ezra-return-and-temple",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place or people named in the book of Ezra, from Cyrus's Persia to Joppa",
-   "text_original": "A present-day country holding a place or people named in the book of Ezra: Cyrus king of Persia, the captives in Babylon, cedar from Lebanon floated to Joppa, the adversaries in Samaria, the roll found at Achmetha in Media, and the peoples Ezra warned against marrying (including Hittites, Ammonites, Moabites and Egyptians)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Ezra 1-10",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Samaria is in the West Bank (Palestine); Joppa (Jaffa) is in Israel. Jerusalem is scored as Israel, as in the other Bible prompts.",
-   "summary": "Cyrus of Persia let the Jews in Babylon return and rebuild the temple. They paid Zidon and Tyre for cedar from Lebanon, shipped to Joppa, and pressed on despite adversaries who wrote from Samaria to the Persian king. Darius found Cyrus's decree at Achmetha and the temple was finished; later Ezra came to teach the law (Ezra 1-10).",
-   "stamp": null,
-   "gems": [
-    "SYR",
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cyrus king of Persia proclaimed the return, and his decree was found at Achmetha in the province of the Medes (Ezra 1:1-2; 6:2); the Elamites were among Samaria's settlers who wrote against the Jews (Ezra 4:9)."
+     "fact": "Sveinbjorg Gudmundsdottir and Halldor Hansen translated the Icelandic Book of Mormon, published in Reykjavik in 1977."
     },
     {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The captives went up from Babylon unto Jerusalem (Ezra 1:11)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "They rebuilt the house of God at Jerusalem, and cedar was brought by sea to Joppa (Ezra 3:7-8)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Meat, drink and oil went to them of Zidon and Tyre for cedar trees from Lebanon (Ezra 3:7)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Egyptians are also in Ezra's list of peoples whose abominations Israel had joined (Ezra 9:1)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ezra mourned that the people had mingled with Ammonites and Moabites (Ezra 9:1)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The adversaries wrote to Artaxerxes, and his answer went to Rehum and those dwelling in Samaria (Ezra 4:17)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "ZWE",
+     "name": "Zimbabwe",
      "commonness": 1,
      "gem": true,
-     "fact": "Ezra 9:1 names the Hittites; the Bible Dictionary places them north of Palestine, from the Orontes to the Euphrates."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Ezra 9:1 names the Hittites; the Bible Dictionary places them north of Palestine, from the Orontes to the Euphrates."
-    }
-   ]
-  },
-  {
-   "id": "pioneer-pacific-missionaries-called-home-1940",
-   "bank": "pioneer",
-   "display_text": "Pin a South Pacific country or territory whose foreign missionaries were called home early in World War II.",
-   "text_original": "As World War II spread, the Church called foreign missionaries home from its South Pacific missions in 1940 and early 1941, and local Saints led the branches. Pin a country or territory where a Global Histories chronology records this.",
-   "accepts": "country_or_territory",
-   "topic": "missionary work",
-   "era": "1940-1941",
-   "citation": "Global Histories chronologies (Australia, New Zealand, Tonga, Samoa, French Polynesia)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Hawaii does not count; it received evacuated missionaries. The Samoan Mission covered Samoa and American Samoa, so both count.",
-   "summary": "In 1940 the Church withdrew foreign missionaries from its South Pacific missions, and Australia's were gone by January 1941. Local members became branch presidents, mission Relief Society leaders and missionaries. Some evacuated elders were sent on to Hawaii.",
-   "stamp": null,
-   "gems": [
-    "ASM",
-    "PYF",
-    "WSM"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Overseas missionaries had been evacuated by January 1941."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1940 leaders told all missionaries in New Zealand to return home."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1940: foreign missionaries evacuated; Emile C. Dunn stayed as mission president."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Samoa chronology's 1940-45 entry covers the Samoan Islands: missionaries were called home and Samoan Saints led."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Tahitian Mission was closed on November 19, 1940; local members led the branches."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 2,
-     "gem": true,
-     "fact": "1940: missionaries of the Samoan Mission called home; Samoan Saints led."
-    }
-   ]
-  },
-  {
-   "id": "pioneer-ballard-south-america-1925",
-   "bank": "pioneer",
-   "display_text": "Pin an independent South American country in the land Melvin J. Ballard opened to missionaries with a prayer of dedication in 1925",
-   "text_original": "On Christmas Day 1925 in Buenos Aires, apostle Melvin J. Ballard dedicated all of South America for the preaching of the gospel. Pin any independent country of South America.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1925",
-   "citation": "Global Histories chronologies (Argentina, Brazil, Chile, Colombia, Bolivia, Uruguay, Venezuela)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng"
-   ],
-   "difficulty": 1,
-   "note": "The prayer covered the whole continent, so every South American country counts. French Guiana is part of France and does not.",
-   "summary": "In late 1925 Elder Melvin J. Ballard of the Quorum of the Twelve Apostles arrived in Buenos Aires to open a South American mission. On December 25 he dedicated the whole continent for the preaching of the gospel. Global Histories chronologies across the continent record that 1925 prayer as the start of Church growth in South America.",
-   "stamp": null,
-   "gems": [
-    "GUY",
-    "SUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Ballard offered the prayer in Buenos Aires in December 1925."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Global Histories (Brazil) lists the 1925 dedication of South America."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Global Histories (Chile) lists the 1925 dedication of South America."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Global Histories (Colombia) lists the 1925 dedication."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Global Histories (Venezuela) lists the 1925 dedication."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Global Histories (Bolivia) lists the 1925 dedication."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Global Histories (Uruguay) lists the 1925 dedication."
-    },
-    {
-     "code": "GUY",
-     "name": "Guyana",
-     "commonness": 1,
-     "gem": true,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
-    },
-    {
-     "code": "SUR",
-     "name": "Suriname",
-     "commonness": 1,
-     "gem": true,
-     "fact": "part of South America, all of which Ballard dedicated in 1925."
+     "fact": "A translation team including Dorothy Tembo, George Murenza and Moses Murahwa produced the Shona triple combination, published 2007."
     }
    ]
   }

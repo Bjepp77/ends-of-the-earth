@@ -1,6 +1,6 @@
 // Question 6: an unscored Book of Mormon map question offered at camp. Nothing here touches the run,
 // the log, stamps, the passport, km or the share. Coordinates are sheet units, as in data/q6.json.
-import { expeditionNumber } from './rules.js?v=c4e24ebe09';
+import { expeditionNumber, TIERS } from './rules.js?v=dab967d0a8';
 
 // The expedition days that have a question. tools/validate.py checks these equal the first and last day in q6.json.
 export const Q6_FIRST_DAY = 8;
@@ -8,11 +8,44 @@ export const Q6_LAST_DAY = 37;
 
 const DRAG_PX = 6;
 const MAX_ZOOM = 10;
+// Owner ask 2026-11-03: zoom out about 20% past fill-width, so the farthest view shows 20% more map.
+export const MIN_ZOOM = 1 / 1.2;
 const NEAR_FACTOR = 2.5;
 const BOX_GROW = 8;
 const LINK_GUARD_MS = 400;
 const OPEN_GUARD_MS = 400; // The second tap of a double tap on the open button lands on the overlay.
-const VERDICT = { hit: 'HIT', near: 'NEAR', miss: 'MISS' };
+// Owner ruling 2026-11-03: only a hit earns the bonus; near shows as a miss. judge() and the saved verdict keep all three.
+export const VERDICT = { hit: 'Got the Bonus', near: 'Missed the Bonus', miss: 'Missed the Bonus' };
+// The question screens' right and wrong look: a tier stamp in the top tier's or the miss tier's colours (game.js TIER_COLORS).
+const VERDICT_TIER = { hit: 'ends', near: 'miss', miss: 'miss' };
+// Territory borders only, no fill (owner ruling 2026-11-02): the main map's border colour, from MAP_COLORS
+// in map.js (tests/q6.test.mjs checks it matches). Width is screen px at any zoom.
+export const Q6_COLORS = { border: '#674730' };
+const BORDER_PX = 1.3;
+// Zoom tiles (owner pick 2026-11-03): the base image stays loaded; past it, each frame shows only the tiles of
+// the first density at or above what the screen needs (device px per sheet unit), so decoded memory stays near
+// the screen's own size. TILE_SLACK lets the base serve a little past its density before tiles load.
+const TILE_SLACK = 1.15;
+
+// The tiles to show: a density level index and its [col, row] pairs, for scale s screen px per unit, offsets
+// tx, ty, a w x h stage and device pixel ratio dpr. Null when the base image is dense enough.
+export function tilesFor(image, basePx, { s, tx, ty }, w, h, dpr) {
+  const need = s * dpr;
+  const levels = image.levels ?? [];
+  if (!levels.length || need <= basePx * TILE_SLACK) return null;
+  let i = levels.findIndex((l) => l.px >= need);
+  if (i < 0) i = levels.length - 1;
+  const { px, w: lw, h: lh } = levels[i];
+  const k = px / s; // level px per screen px
+  const n = image.tile;
+  const c0 = Math.max(0, Math.floor(-tx * k / n));
+  const r0 = Math.max(0, Math.floor(-ty * k / n));
+  const c1 = Math.min(Math.ceil(lw / n) - 1, Math.floor((w - tx) * k / n));
+  const r1 = Math.min(Math.ceil(lh / n) - 1, Math.floor((h - ty) * k / n));
+  const tiles = [];
+  for (let r = r0; r <= r1; r++) for (let c = c0; c <= c1; c++) tiles.push([c, r]);
+  return { level: i, tiles };
+}
 
 function segmentDistance(px, py, [ax, ay], [bx, by]) {
   const dx = bx - ax;
@@ -40,6 +73,7 @@ export function judge(target, x, y) {
   return d <= NEAR_FACTOR * target.r ? 'near' : 'miss';
 }
 
+
 // Known without the file, so a day with no question never fetches it and never shows a failure.
 export function hasQuestionDay(date, day1) {
   const n = expeditionNumber(date, day1);
@@ -50,9 +84,10 @@ export function questionFor(data, date) {
   return data?.questions?.find((q) => q.date === date) ?? null;
 }
 
-// Screen pixels per sheet unit at zoom 1: the whole sheet fits the stage.
-export function fitScale(sheet, stageW, stageH) {
-  return Math.min(stageW / sheet[2], stageH / sheet[3]);
+// Screen pixels per sheet unit at zoom 1: the land fills the stage width, as the main game map does (owner
+// ruling 2026-11-03). A taller sheet pans vertically; clampOffset keeps it on the stage.
+export function fitScale(sheet, stageW) {
+  return stageW / sheet[2];
 }
 
 // Keeps the map on the stage: centred on an axis it does not fill, edge to edge on one it overfills.
@@ -81,7 +116,8 @@ function el(tag, cls, text) {
 
 // root is the camp block: button, failure message, Retry. getJSON fetches q6.json only when camp opens
 // on a day with a question. day1 is the game's epoch, config.day1.
-export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
+// makeSheep(host) builds the lost sheep for a miss (app.js passes createSheep); null means no sheep.
+export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json', sound = null, colors = null, onCheck = null, makeSheep = null }) {
   const open = root?.querySelector('.q6-open');
   const msg = root?.querySelector('.q6-msg');
   const retry = root?.querySelector('.q6-retry');
@@ -100,6 +136,7 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
   let checkedAt = -Infinity;
   let openedAt = -Infinity;
   let pageY = 0;
+  let sheep = null;
 
   function showCamp(forDate) {
     const mine = ++call;
@@ -133,7 +170,7 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
   function apply() {
     const { w, h } = stageSize();
     const sheet = data.image.sheet;
-    const s = fitScale(sheet, w, h) * zoom;
+    const s = fitScale(sheet, w) * zoom;
     view = {
       s,
       tx: clampOffset(view.tx, w, sheet[2] * s),
@@ -142,12 +179,61 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     // The image keeps its natural size and is scaled down, so zooming in never blurs a small raster.
     const natural = dom.img.naturalWidth / sheet[2] || 1;
     dom.layer.style.transform = `translate(${view.tx}px, ${view.ty}px) scale(${s / natural})`;
+    // One sheet unit is s screen px.
+    dom.borders.setAttribute('stroke-width', BORDER_PX / s);
+    drawTiles(w, h, natural);
     draw();
+  }
+
+  // Tiles sit in the layer in base image px, so they move and scale with it. Tiles no longer wanted are
+  // dropped, their src cleared so the browser can free them.
+  function drawTiles(w, h, natural) {
+    const image = data.image;
+    const want = tilesFor(image, natural, view, w, h, window.devicePixelRatio || 1);
+    const keep = new Set();
+    if (want) {
+      const level = image.levels[want.level];
+      const k = dom.img.naturalWidth / level.w;
+      for (const [c, r] of want.tiles) {
+        const key = `${want.level}/${c}-${r}`;
+        keep.add(key);
+        if (dom.tiles.has(key)) continue;
+        const t = document.createElement('img');
+        t.className = 'q6-tile';
+        t.alt = '';
+        t.draggable = false;
+        t.decoding = 'async';
+        const x = c * image.tile;
+        const y = r * image.tile;
+        // One px of overlap with the next tile, as built.
+        t.style.cssText = `left:${x * k}px;top:${y * k}px;width:${(Math.min(x + image.tile + 1, level.w) - x) * k}px;height:${(Math.min(y + image.tile + 1, level.h) - y) * k}px`;
+        t.src = `${level.dir}/${c}-${r}.webp`;
+        dom.tileLayer.appendChild(t);
+        dom.tiles.set(key, t);
+      }
+    }
+    dropTiles(keep);
+  }
+
+  function dropTiles(keep = new Set()) {
+    for (const [key, t] of dom.tiles) {
+      if (keep.has(key)) continue;
+      t.removeAttribute('src');
+      t.remove();
+      dom.tiles.delete(key);
+    }
   }
 
   function screen(x, y) {
     const sheet = data.image.sheet;
     return [(x - sheet[0]) * view.s + view.tx, (y - sheet[1]) * view.s + view.ty];
+  }
+
+  // The territory borders, drawn once per load of q6.json, in sheet units over the image.
+  function drawBorders() {
+    dom.terr.setAttribute('viewBox', data.image.sheet.join(' '));
+    dom.borders.setAttribute('d', (data.borders ?? []).map((line) => `M${line.map((p) => p.join(' ')).join('L')}`).join(''));
+    dom.terrFor = data;
   }
 
   function draw() {
@@ -176,7 +262,7 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
   }
 
   function zoomAt(factor, cx, cy) {
-    const next = Math.max(1, Math.min(MAX_ZOOM, zoom * factor));
+    const next = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, zoom * factor));
     const k = next / zoom;
     view = { s: view.s, tx: cx - (cx - view.tx) * k, ty: cy - (cy - view.ty) * k };
     zoom = next;
@@ -209,7 +295,7 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
     const { w, h } = stageSize();
     const sheet = data.image.sheet;
-    const fit = fitScale(sheet, w, h);
+    const fit = fitScale(sheet, w);
     const want = Math.min(w / ((x1 - x0 || 1) * 1.5), h / ((y1 - y0 || 1) * 1.5)) / fit;
     zoom = Math.max(1, Math.min(4, want));
     const s = fit * zoom;
@@ -222,7 +308,10 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     dom.check.hidden = true;
     dom.hint.hidden = true;
     const q = question;
+    dom.verdict.classList.remove('q6-verdict--in');
     dom.verdict.textContent = VERDICT[verdict];
+    const c = colors?.[VERDICT_TIER[verdict]];
+    if (c) { dom.verdict.style.setProperty('--tier-ink', c.ink); dom.verdict.style.setProperty('--tier-fill', c.fill); }
     dom.answer.textContent = q.answer;
     dom.cite.textContent = `${q.ref}: “${q.quote}”`;
     dom.link.href = q.link;
@@ -237,7 +326,14 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     const verdict = judge(question.target, pin.x, pin.y);
     store.saveBonus(date, { id: question.id, x: pin.x, y: pin.y, verdict });
     reveal(verdict);
+    // Only a fresh check plays: the question screens' reveal sound (top tier's chord or the miss's) and the pop.
+    sound?.reveal(verdict === 'hit' ? TIERS[TIERS.length - 1].km : 0);
+    // Owner, 2026-11-03: question 6 shows the miss as questions 1 to 5 do, lamb included.
+    if (verdict !== 'hit') sheep?.open();
+    void dom.verdict.offsetWidth;
+    dom.verdict.classList.add('q6-verdict--in');
     checkedAt = performance.now();
+    onCheck?.(verdict);
   }
 
   function wire() {
@@ -337,7 +433,9 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     close.onclick = (e) => { if ((e.detail ? closePressedAt : performance.now()) - openedAt >= OPEN_GUARD_MS) closeOverlay(); };
     head.append(title, draft, close);
 
-    const ask = el('p', 'q6-ask');
+    const askCard = el('div', 'card q6-ask-card');
+    const ask = el('p', 'prompt q6-ask');
+    askCard.append(ask);
 
     const stage = el('div', 'q6-stage');
     stage.tabIndex = 0;
@@ -346,7 +444,19 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     const img = el('img', 'q6-img');
     img.alt = 'Map of the geography the text describes, a drawing with no location claim.';
     img.draggable = false;
-    layer.appendChild(img);
+    // Territory borders, over the image and under the pin.
+    const SVG = 'http://www.w3.org/2000/svg';
+    const terr = document.createElementNS(SVG, 'svg');
+    terr.setAttribute('class', 'q6-terr');
+    terr.setAttribute('aria-hidden', 'true');
+    terr.setAttribute('preserveAspectRatio', 'none');
+    const borders = document.createElementNS(SVG, 'path');
+    borders.setAttribute('class', 'q6-borders');
+    borders.setAttribute('fill', 'none');
+    borders.setAttribute('stroke', Q6_COLORS.border);
+    terr.append(borders);
+    const tileLayer = el('div', 'q6-tiles');
+    layer.append(img, tileLayer, terr);
     const marks = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
     marks.setAttribute('class', 'q6-marks');
     marks.setAttribute('aria-hidden', 'true');
@@ -375,8 +485,13 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     checkBtn.type = 'button';
     checkBtn.onclick = check;
 
-    const result = el('div', 'q6-result');
-    const verdict = el('p', 'q6-verdict');
+    // The lamb's card: shown only while the lamb is (styles.css), where the trail card sits on questions 1 to 5.
+    const strip = el('div', 'card q6-strip');
+    strip.setAttribute('aria-hidden', 'true');
+    const result = el('div', 'card q6-result');
+    const head2 = el('p', 'result-head');
+    const verdict = el('span', 'q6-verdict tier-stamp');
+    head2.append(verdict);
     const answer = el('p', 'q6-answer');
     const cite = el('p', 'q6-cite');
     const link = el('a', 'q6-link', 'Read the chapter');
@@ -386,19 +501,27 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     let linkPressedAt = Infinity;
     link.addEventListener('pointerdown', () => { linkPressedAt = performance.now(); });
     link.onclick = (e) => { if ((e.detail ? linkPressedAt : performance.now()) - Math.max(checkedAt, openedAt) < LINK_GUARD_MS) e.preventDefault(); };
-    result.append(verdict, answer, cite, link);
+    result.append(head2, answer, cite, link);
     result.hidden = true;
     result.tabIndex = -1;
 
+    // Laid out like the game (owner, 2026-11-03): the map on the left, the panel on the right with the
+    // statement under it; on a phone the panel's parts stack around the map in the game's order and
+    // the body scrolls on a screen too short to hold them, the statement staying below (styles.css).
+    const actions = el('div', 'q6-actions');
+    actions.append(hint, checkBtn);
+    const panel = el('div', 'q6-panel');
+    panel.append(head, askCard, strip, result, actions);
     const body = el('div', 'q6-body');
-    body.append(head, ask, stage, result, hint, checkBtn);
+    body.append(stage, panel);
     overlay.append(body, caption);
+    sheep = makeSheep?.(strip) ?? null;
     overlay.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') { e.preventDefault(); closeOverlay(); return; }
+      if (e.key === 'Escape') { e.preventDefault(); if (sheep?.isOpen) sheep.close(); else closeOverlay(); return; }
       // Tab stays inside, as in the menu drawer (F-U08).
       if (e.key !== 'Tab') return;
       const items = [...overlay.querySelectorAll('button, a[href], [tabindex]:not([tabindex="-1"])')]
-        .filter((i) => !i.disabled && i.getClientRects().length);
+        .filter((i) => !i.disabled && i.tabIndex >= 0 && i.getClientRects().length);
       const first = items[0];
       const last = items[items.length - 1];
       const now = document.activeElement;
@@ -416,7 +539,7 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     img.onerror = () => {
       if (img.getAttribute('src')) dom.fail.hidden = false;
     };
-    dom = { stage, layer, img, marks, ask, draft, caption, hint, check: checkBtn, result, verdict, answer, cite, link, fail, close };
+    dom = { stage, layer, img, tileLayer, tiles: new Map(), terr, borders, terrFor: null, marks, ask, draft, caption, hint, check: checkBtn, result, verdict, answer, cite, link, fail, close };
     wire();
     if (typeof ResizeObserver === 'function') new ResizeObserver(() => { if (!overlay.hidden && dom.img.naturalWidth) apply(); }).observe(stage);
   }
@@ -432,6 +555,8 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     dom.check.hidden = false;
     dom.check.disabled = true;
     dom.marks.textContent = '';
+    sheep?.close();
+    if (dom.terrFor !== data) drawBorders();
     pin = null;
     answered = false;
     zoom = 1;
@@ -473,6 +598,8 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
   function closeOverlay() {
     if (!overlay || overlay.hidden) return;
     overlay.hidden = true;
+    sheep?.close();
+    dropTiles();
     unlockPage();
     open.focus({ preventScroll: true });
   }
@@ -485,7 +612,7 @@ export function createQ6({ root, store, getJSON, day1, url = 'data/q6.json' }) {
     close: closeOverlay,
     // Test aid: the current view and pin.
     get state() {
-      return { view, zoom, pin, answered, question };
+      return { view, zoom, pin, answered, question, tiles: dom ? [...dom.tiles.keys()] : [] };
     },
     get isOpen() {
       return !!overlay && !overlay.hidden;

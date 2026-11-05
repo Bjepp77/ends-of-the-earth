@@ -1,0 +1,413 @@
+{
+ "day": 70,
+ "prompts": [
+  {
+   "id": "place-sao-paulo-temple",
+   "bank": "places",
+   "display_text": "Pin the Sao Paulo Brazil Temple, the first temple in South America.",
+   "text_original": "Drop a pin on the Sao Paulo Brazil Temple, the first temple in South America.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Sao Paulo Brazil Temple",
+    "lat": -23.5852,
+    "lng": -46.7228
+   },
+   "topic": "temples",
+   "era": "1976-1978",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/sao-paulo-brazil-temple/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Ground was broken in March 1976, and President Spencer W. Kimball dedicated the temple from October 30 to November 2, 1978. It was the first temple in South America. The dedication came only months after the June 1978 revelation extending the priesthood to all worthy male members, which allowed many Brazilian Saints to enter.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-outside-americas-noncapital-temple",
+   "bank": "sites-temples",
+   "display_text": "Pin a country outside the Americas with a dedicated temple in a city that is not its capital.",
+   "text_original": "A country outside the Americas with a dedicated temple named for a city that is not its capital (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1958-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Ten countries outside the Americas have temples named for non-capital cities. Australia is the clearest case: all five of its temples sit outside Canberra. Others include Preston England, Frankfurt and Freiberg Germany, The Hague, Hamilton New Zealand, Aba Nigeria and Abidjan Côte d'Ivoire (the capital is Yamoussoukro).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CIV",
+    "NLD"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sydney, Melbourne, Adelaide, Perth and Brisbane (capital: Canberra)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Preston England (capital: London)."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Fukuoka, Sapporo and Okinawa (capital: Tokyo)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cebu City, Urdaneta, Davao and Bacolod (capital: Manila)."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg and Frankfurt (capital: Berlin)."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Aba (capital: Abuja)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamilton and Auckland (capital: Wellington)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Johannesburg and Durban (capital: Pretoria, Cape Town and Bloemfontein)."
+    },
+    {
+     "code": "CIV",
+     "name": "Côte d'Ivoire",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Abidjan (capital: Yamoussoukro)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Hague (capital: Amsterdam)."
+    }
+   ]
+  },
+  {
+   "id": "scripture-africa-asia-2000s",
+   "bank": "scripture",
+   "display_text": "Pin an African or Asian country where Swahili, Igbo, Yoruba, Xhosa, Tswana, Lingala, Khmer or Mongolian is official or national.",
+   "text_original": "Between 2000 and 2009 the Church published first complete Book of Mormon editions in Swahili, Igbo, Yoruba, Xhosa, Tswana, Lingala, Khmer and Mongolian. Pin an African or Asian country where one of those eight languages is an official or national language of the country.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "2000-2009",
+   "citation": "Global Histories chronologies: Kenya, DR Congo, Nigeria, South Africa, Cambodia, Mongolia",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kenya/ke-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mongolia/mn-chronology?lang=eng",
+    "https://en.wikipedia.org/wiki/Swahili_language",
+    "https://en.wikipedia.org/wiki/Lingala",
+    "https://en.wikipedia.org/wiki/Tswana_language",
+    "https://en.wikipedia.org/wiki/Yoruba_language"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The 2000s were a decade of African and Asian firsts. Swahili and Igbo editions came in 2000, Xhosa the same year, Mongolian and Khmer in 2001, Zulu and Tswana in 2003, Lingala in 2004 and Yoruba in 2007. Swahili alone serves members in Kenya, Tanzania, Uganda, Rwanda and the Congo.",
+   "stamp": null,
+   "gems": [
+    "BWA",
+    "COG",
+    "RWA",
+    "ZWE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Igbo (2000) and Yoruba (2007) editions were published; both are national languages of Nigeria."
+    },
+    {
+     "code": "COD",
+     "name": "DR Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Swahili (2000) and full Lingala (2004) editions; both are national languages."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Swahili Book of Mormon was published in September 2000; Swahili is official in Kenya."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Mongolian Book of Mormon was published in 2001."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Xhosa (2000), Zulu and Tswana (2003) editions were published."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The complete Khmer Book of Mormon was published in November 2001."
+    },
+    {
+     "code": "TZA",
+     "name": "Tanzania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Swahili, Tanzania's national language, received its Book of Mormon in 2000."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Swahili is an official language of Uganda; its Book of Mormon came in 2000."
+    },
+    {
+     "code": "BWA",
+     "name": "Botswana",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tswana, Botswana's national language, received its Book of Mormon in 2003."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Lingala, a national language of the Republic of the Congo, got its full Book of Mormon in 2004."
+    },
+    {
+     "code": "RWA",
+     "name": "Rwanda",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Swahili, given its Book of Mormon in 2000, is one of four official languages of Rwanda (since 2017)."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tswana and Xhosa, given Book of Mormon editions in 2003 and 2000, are among Zimbabwe's 16 official languages."
+    }
+   ]
+  },
+  {
+   "id": "global-own-mission-1900-1939",
+   "bank": "global",
+   "display_text": "Pin a country outside the Middle East that got its first Church mission headquartered there between 1900 and 1939.",
+   "text_original": "In the first four decades of the twentieth century the Church organized new missions with headquarters in countries that had never hosted one. Pin a country outside the Middle East that got its first Church mission headquartered there between 1900 and 1939.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1900-1939",
+   "citation": "Global Histories chronologies: Sweden, Tonga, Canada, Norway, Brazil, Japan, Argentina, Czech Republic (and facts page); Presidents of the Church Student Manual, chapter 7",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/czech-republic?lang=eng",
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-7?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Between 1900 and 1939 the Church placed a first mission headquarters in Japan (1901), Sweden (1905), Tonga (1916), Canada (1919), Norway (1920), Argentina (1926), Czechoslovakia (about 1929) and Brazil (1935). Denmark is not an answer: the Scandinavian Mission had been headquartered in Copenhagen since 1850.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CZE",
+    "NOR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Brazilian Mission was organized in 1935, separating Brazil from the South American Mission."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The South American Mission, headquartered in Buenos Aires, was established July 15, 1926, with Reinhold Stoof as president."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Canadian Mission, headquartered in Toronto, was organized April 22, 1919, covering eastern Canada."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Heber J. Grant opened the Japanese Mission in 1901; the first missionaries arrived at Yokohama on August 12, 1901."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Swedish Mission was formally established in July 1905 with Peter Matson as president."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Tongan Mission was organized in 1916, separate from the Samoan Mission."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "After legal recognition in Prague in 1928 and the 1929 dedication by Elder John A. Widtsoe, the Czechoslovak Mission was organized; it was publishing a periodical by February 1930."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Norwegian Mission was organized in 1920 when the Scandinavian Mission was divided."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-africa-first-missionaries-1978-89",
+   "bank": "pioneer",
+   "display_text": "Pin a West or Central African country where the first Latter-day Saint missionaries arrived between 1978 and 1989.",
+   "text_original": "A West or Central African country where the first Latter-day Saint missionaries arrived between 1978 and 1989.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1978-1989",
+   "citation": "Global Histories chronologies: Ghana, Nigeria, D.R. Congo, Liberia, Cote d'Ivoire, Sierra Leone, Cape Verde",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sierra-leone/sl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cape-verde/cv-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "After the June 1978 revelation on the priesthood, senior couples reached Nigeria and Ghana within months, where congregations had been waiting for years. In the following decade missionaries entered Zaire (1986), Liberia and Cote d'Ivoire (1987), Sierra Leone (1988) and Cape Verde (1989).",
+   "stamp": null,
+   "gems": [
+    "CPV"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Missionary couples Cannon and Mabey arrived on December 5, 1978."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The same two senior couples arrived to begin missionary work on November 9, 1978."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barnard and Cherry Silver arrived in Abidjan on April 22, 1988 as the first Church representatives."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ralph and Jean Hutchings, the first missionaries to Zaire, arrived in Kinshasa in February 1986."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first missionary couple assigned to Liberia arrived in Monrovia on July 3, 1987."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first missionaries assigned to Sierra Leone arrived in Freetown on May 7-8, 1988."
+    },
+    {
+     "code": "CPV",
+     "name": "Cabo Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The first missionaries arrived in Praia in March 1989."
+    }
+   ]
+  }
+ ]
+}

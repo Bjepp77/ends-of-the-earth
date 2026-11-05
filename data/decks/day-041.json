@@ -2,471 +2,363 @@
  "day": 41,
  "prompts": [
   {
-   "id": "temples-groundbreaking-2021",
-   "bank": "temples",
-   "display_text": "Pin a country or territory where ground was broken for a new temple in 2021.",
-   "text_original": "Pin a country or territory where ground was broken for a new temple in 2021.",
-   "accepts": "country_or_territory",
+   "id": "temples-first-before-1960",
+   "bank": "draft",
+   "display_text": "Pin a country whose first temple was dedicated before 1960.",
+   "text_original": "Pin a country whose first temple of the Church was dedicated before 1960.",
+   "accepts": "country",
    "topic": "temples",
-   "era": "2021",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "era": "1877-1959",
+   "citation": "temple list, 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 3,
+   "difficulty": 1,
    "note": null,
-   "summary": "In 2021 ground was broken for 12 temples in 7 countries or territories, the start of construction for each. Tonga and Kenya both broke ground on 11 September 2021, at Neiafu and Nairobi.",
+   "summary": "For most of its history the Church's temples stood in the United States, with St. George, Utah (1877) the oldest still on the list. Before 1960 only four other countries had one: Canada (Cardston, 1923), Switzerland (near Bern, 1955, the first in Europe), and New Zealand and the United Kingdom (both 1958).",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ASM",
-    "KHM"
+    "CHE",
+    "GBR",
+    "NZL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "St. George, 1877."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cardston, Alberta, 1923."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Near Bern, 1955, the first in Europe."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": true,
+     "fact": "London, near Lingfield, 1958."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Hamilton, 1958."
+    }
+   ]
+  },
+  {
+   "id": "ot-jeremiah-fall-to-egypt",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place in Jeremiah 39-44, from Jerusalem's fall to the flight into Egypt",
+   "text_original": "A present-day country holding a place in Jeremiah 39-44, from the fall of Jerusalem to the flight into Egypt: Zedekiah judged at Riblah, captives taken to Babylon, Jeremiah freed at Ramah, Gedaliah at Mizpah, Ishmael's flight to the Ammonites, and the remnant's settlements at Tahpanhes and Pathros",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Jeremiah 39-44",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/39?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/40?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/41?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/44?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Ramah, Mizpah and Gibeon are in the West Bank (Palestine). Jerusalem is scored as Israel, as in the other Bible prompts.",
+   "summary": "After Babylon broke into Jerusalem, Zedekiah was blinded at Riblah and taken to Babylon. Jeremiah, freed at Ramah, stayed with the governor Gedaliah at Mizpah until Ishmael, sent by the Ammonite king, murdered him. Fearing Babylon, the remnant fled to Egypt and took Jeremiah with them to Tahpanhes (Jer 39-44).",
+   "stamp": null,
+   "gems": [
+    "JOR",
+    "SYR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Against Jeremiah's word the remnant went to Tahpanhes, and Jews dwelt at Migdol, Noph and Pathros (Jer 43:7; 44:1)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Zedekiah was bound and carried to Babylon, with the rest of the people (Jer 39:7-9)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jerusalem was broken up in Zedekiah's eleventh year (Jer 39:2)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Zedekiah was overtaken in the plains of Jericho, and mourners came from Shechem, Shiloh and Samaria; Jeremiah was loosed at Ramah and went to Gedaliah at Mizpah (Jer 39:5; 40:1, 6; 41:5)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Baalis king of the Ammonites sent Ishmael to slay Gedaliah, and Ishmael escaped to the Ammonites (Jer 40:14; 41:15); Jews returned from Moab, Ammon and Edom to Gedaliah (Jer 40:11)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Nebuchadrezzar judged Zedekiah at Riblah in the land of Hamath (Jer 39:5)."
+    }
+   ]
+  },
+  {
+   "id": "ot-rehoboam-forts-shishak-army",
+   "bank": "ot",
+   "display_text": "Pin a country holding one of Rehoboam's fenced cities, or a homeland of Shishak's army",
+   "text_original": "A present-day country holding one of Rehoboam's fenced cities of Judah (2 Chronicles 11:5-10) or the homeland of a people in Shishak's army that came against him (2 Chronicles 12:2-3: Egyptians, Lubims, and the people of Cush, the Nile land south of Egypt)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "2 Chronicles 11:5-12:9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Cush lay mostly in Sudan, reaching into southern Egypt; Ethiopia does not count. Bethlehem, Tekoa and Hebron are in the West Bank.",
+   "summary": "After the kingdom split, Rehoboam built a ring of fenced cities to guard Judah, from Bethlehem and Hebron to Lachish and Aijalon. Because Judah forsook the law, Shishak of Egypt came with chariots and a host of Lubims, Sukkiims and Ethiopians, took the fenced cities and carried off the temple treasures (2 Chr 11-12).",
+   "stamp": null,
+   "gems": [
+    "SDN"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "USA",
-     "name": "United States of America",
+     "code": "EGY",
+     "name": "Egypt",
      "commonness": 5,
      "gem": false,
-     "fact": "Deseret Peak Utah (15 May 2021); Tallahassee Florida (5 June 2021); Syracuse Utah (12 June 2021); and 3 more."
+     "fact": "Shishak king of Egypt came up against Jerusalem in Rehoboam's fifth year (2 Chr 12:2)."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "ISR",
+     "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "Salvador Brazil (7 August 2021)."
+     "fact": "Rehoboam fortified Lachish, Azekah, Adullam, Gath, Zorah and Aijalon (2 Chr 11:7-10)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He also fortified Bethlehem, Tekoa, Beth-zur and Hebron (2 Chr 11:6-10)."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Lubims marched with Shishak (2 Chr 12:3); the Church footnote reads Libyans, and BD Libya is the land west of Egypt."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Ethiopians marched with him too (2 Chr 12:3); Bible Ethiopia was the Nile land south of Egypt."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-servicemen-first-meetings",
+   "bank": "pioneer",
+   "display_text": "Pin a country or territory where US servicemen held the first Church meetings or were the first members (before 1955).",
+   "text_original": "In several places the Church took root not through missionaries but through Latter-day Saints serving in the United States military, who were the first known members or held the first Church meetings there. Pin a country or territory where the Global Histories record this happening before 1955.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1898-1955",
+   "citation": "Global Histories chronologies",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/marshall-islands/mh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Before formal missions arrived, Latter-day Saints in the US military often became the Church's first presence in a land. Two soldiers held the first service in Manila in 1898, and in World War II and after, servicemen's groups met in Costa Rica, Guam, New Guinea, the Marshall Islands, Puerto Rico, Korea and the Azores.",
+   "stamp": null,
+   "gems": [
+    "MHL",
+    "PRT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First Church meetings in Korea held by US servicemen, 1945-47."
     },
     {
      "code": "PHL",
      "name": "Philippines",
      "commonness": 4,
      "gem": false,
-     "fact": "Bacolod Philippines (11 December 2021)."
+     "fact": "Soldiers George Seaman and Willard Call held the first service in Manila, August 21, 1898."
     },
     {
-     "code": "TON",
-     "name": "Tonga",
+     "code": "GUM",
+     "name": "Guam",
      "commonness": 3,
      "gem": false,
-     "fact": "Neiafu Tonga (11 September 2021)."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Nairobi Kenya (11 September 2021)."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Pago Pago American Samoa (30 October 2021)."
-    },
-    {
-     "code": "KHM",
-     "name": "Cambodia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Phnom Penh Cambodia (18 September 2021)."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-young-missions-south-america",
-   "bank": "people",
-   "display_text": "Pin a South American country where a current General Authority Seventy served as a young full-time missionary.",
-   "text_original": "Many General Authority Seventies serving as of October 2026 were once young full-time missionaries in South America. Pin a South American country where one of them served, as named in the Church's official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1970s-2000s",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/b-corey-cuvelier?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/aroldo-b-cavalcante?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/aaron-t-hall?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-r-duncan?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/matthew-j-eyring?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/patricio-m-giuffra?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ricardo-p-gimenez?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/allen-d-haynie?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ryan-k-olsen?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/taylor-g-godoy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/david-l-buckner?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/eduardo-f-ortega?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-b-strong?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/pedro-x-larreal?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in nine South American countries. Brazil and Chile lead, and the list reaches Bolivia, Uruguay and Venezuela.",
-   "stamp": null,
-   "gems": [
-    "BOL",
-    "COL",
-    "URY",
-    "VEN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Brazil Sao Paulo, Porto Alegre, Recife South and Curitiba missions, among others."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Chile Concepcion, Osorno, Santiago South and Vina del Mar missions, among others."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Argentina Cordoba (Elder Haynie) and Resistencia (Elder Olsen) missions."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Ecuador Guayaquil Mission (Elder Buckner)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Peru Lima North Mission (Elder Taylor G. Godoy)."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Bolivia Cochabamba Mission (Elder Strong)."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Colombia Cali Mission (Elder Ortega)."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Uruguay Montevideo Mission (Elder Alliaud)."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Venezuela Caracas Mission (Elder Larreal)."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-young-missions-mexico-caribbean",
-   "bank": "people",
-   "display_text": "Pin a country or territory in Mexico, Central America or the Caribbean where a current Seventy served as a young missionary.",
-   "text_original": "Several General Authority Seventies serving as of October 2026 were once young full-time missionaries in Mexico, Central America or the Caribbean. Pin a country or territory there where one of them served, as named in the Church's official biographies.",
-   "accepts": "country_or_territory",
-   "topic": "missionary work",
-   "era": "1970s-2000s",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/mark-a-bragg?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hugo-montoya?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/arnulfo-valenzuela?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/paul-b-pieper?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/brik-v-eyre?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/marcus-b-nash?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/valeri-v-cordon?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/mark-d-eddy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ahmad-s-corbitt?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-g-brown?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in Mexico, Guatemala, El Salvador, the Dominican Republic, Puerto Rico and Jamaica. Elder Kevin G. Brown served in his native Jamaica.",
-   "stamp": null,
-   "gems": [
-    "JAM"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Mexico Hermosillo, Monterrey, Torreon, Tampico and North missions, and Veracruz."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Guatemala Guatemala City Mission (Elder Eyre)."
-    },
-    {
-     "code": "DOM",
-     "name": "Dominican Republic",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Dominican Republic Santo Domingo East Mission (Elder Eddy)."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "El Salvador missions (Elders Nash and Cordon)."
+     "fact": "First members on Guam were with the US military, 1944-46."
     },
     {
      "code": "PRI",
      "name": "Puerto Rico",
-     "commonness": 2,
+     "commonness": 3,
      "gem": false,
-     "fact": "Puerto Rico San Juan Mission (Elder Corbitt)."
+     "fact": "Servicemen met in homes in the 1940s; 1953 meetings at Fort Buchanan chapel."
     },
     {
-     "code": "JAM",
-     "name": "Jamaica",
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "First members in Costa Rica were US servicemen, July 1944."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Servicemen held services in New Guinea, 1944-45."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
      "commonness": 1,
      "gem": true,
-     "fact": "Jamaica Kingston Mission (Elder Kevin G. Brown)."
+     "fact": "First Church services held by American military personnel in the 1940s."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Earliest known members were servicemen at Lajes Field, Azores, in the 1950s."
     }
    ]
   },
   {
-   "id": "pioneer-wwi-missionaries-withdrawn",
-   "bank": "pioneer",
-   "display_text": "Pin a European country whose Global Histories chronology records its missionaries leaving when World War I began in 1914.",
-   "text_original": "When World War I broke out in 1914, Church leaders released the missionaries serving in continental Europe but left those in Great Britain in place. Pin a European country whose Church Global Histories chronology records its missionaries leaving or being evacuated when the war began.",
+   "id": "temples-shared-island",
+   "bank": "temples",
+   "display_text": "Pin a country on Hispaniola, Ireland, New Guinea, Borneo, Timor or Tierra del Fuego with a temple at any stage as of October 2026.",
+   "text_original": "A country that shares one of these islands with another country: Hispaniola, Ireland, New Guinea, Borneo, Timor or Tierra del Fuego, and has a temple at any stage, dedicated, under construction or announced (as of October 2026).",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1910s",
-   "citation": "Saints vol. 3 ch. 11; Global Histories chronologies",
+   "topic": "temples",
+   "era": "1958-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/11-too-heavy?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Great Britain does not count: its missionaries stayed. Norway does not either: its chronology records only that fewer were sent.",
-   "summary": "At the start of World War I, the First Presidency told European leaders to release German and French missionaries, and mission president Hyrum M. Smith then pulled missionaries out of the rest of continental Europe. Missionaries in Great Britain stayed. Local Saints across the continent led branches and preached on their own until the war ended.",
-   "stamp": null,
-   "gems": [
-    "ISL",
-    "ROU"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 5,
-     "gem": false,
-     "fact": "All North American missionaries left Germany during World War I; local members were called to preach (GH Germany, 1914-1919)."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 5,
-     "gem": false,
-     "fact": "All missionaries left; the French Mission was absorbed, August 1914."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Full-time missionaries were evacuated from Belgium during the war (GH Belgium, 1914-18)."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "All missionaries evacuated, August 1914."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Mission president told to release all missionaries, August 30, 1914."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries not native to Denmark sent home, October 1914."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries serving in the Netherlands were reassigned to safer missions (GH Netherlands, 1914-19)."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries from the United States left Sweden in October 1914; local Saints took over the branches."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 2,
-     "gem": false,
-     "fact": "All missionaries evacuated, August 10, 1914."
-    },
-    {
-     "code": "ISL",
-     "name": "Iceland",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Missionary work discontinued in 1914."
-    },
-    {
-     "code": "ROU",
-     "name": "Romania",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Last missionary in Brasso (Brasov) left after the war began."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-missions-africa",
-   "bank": "people",
-   "display_text": "Pin an African country where a current Seventy served as a missionary or mission leader (October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies had served as young missionaries or as mission leaders in Africa. Pin an African country where one of their missions was headquartered, as named in the Church's official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1980s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-a-dunn?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/joni-l-koch?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_divided_islands"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "Africa is now a training ground for Church leaders. As of October 2026, current Seventies had served or presided in missions based in nine African countries, from Nigeria and Ghana to Angola, Mozambique and Benin. Elder Edward Dube served both as a young missionary and as a mission president in his native Zimbabwe.",
-   "stamp": null,
+   "summary": "Islands split between countries that have temples at some stage: Hispaniola (Dominican Republic and Haiti, both dedicated), Ireland (the United Kingdom through Northern Ireland, and Ireland with Dublin announced) and New Guinea (Papua New Guinea under construction, Indonesia announced). Timor-Leste, Malaysia and Brunei have no temple.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "AGO",
-    "BEN"
+    "IDN"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Lagos and Port Harcourt missionaries (Egbo, Morrison); Enugu and Calabar mission presidents (Chigbundu, Egbo)."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
+     "code": "DOM",
+     "name": "Dominican Republic",
      "commonness": 4,
      "gem": false,
-     "fact": "Elder Isaac K. Morrison presided over the Ghana Cape Coast Mission."
+     "fact": "Hispaniola, shared with Haiti; Santo Domingo temple dedicated 2000."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elder Matswagothata served in the Cape Town mission; Elder Dunn led the Johannesburg mission."
-    },
-    {
-     "code": "CIV",
-     "name": "Ivory Coast",
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Thierry K. Mutombo served in the Cote d'Ivoire Abidjan Mission."
+     "fact": "Tierra del Fuego, shared with Chile; Buenos Aires temple dedicated 1986 and four more."
     },
     {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Alfred Kyungu presided over the Mbuji-Mayi mission, 2016 to 2019."
+     "fact": "Tierra del Fuego, shared with Argentina; Santiago Chile Temple dedicated 1983."
     },
     {
-     "code": "ZWE",
-     "name": "Zimbabwe",
+     "code": "GBR",
+     "name": "United Kingdom",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Edward Dube: young missionary in Zimbabwe, later president of the Zimbabwe Harare Mission."
+     "fact": "Northern Ireland shares the island of Ireland; London and Preston temples."
     },
     {
-     "code": "MOZ",
-     "name": "Mozambique",
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hispaniola; Port-au-Prince temple dedicated 2019."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
      "commonness": 2,
      "gem": false,
-     "fact": "Elder Joni L. Koch presided over the Mozambique Maputo Mission."
+     "fact": "Island of Ireland; Dublin temple announced."
     },
     {
-     "code": "AGO",
-     "name": "Angola",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Denelson Silva presided over the Angola Luanda Mission."
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "New Guinea, shared with Indonesia; Port Moresby temple under construction."
     },
     {
-     "code": "BEN",
-     "name": "Benin",
+     "code": "IDN",
+     "name": "Indonesia",
      "commonness": 1,
      "gem": true,
-     "fact": "Elder D. Martin Goury presided over the Benin Cotonou Mission."
+     "fact": "Shares New Guinea, Borneo and Timor; Jakarta temple announced."
     }
    ]
   }

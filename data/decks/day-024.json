@@ -2,254 +2,29 @@
  "day": 24,
  "prompts": [
   {
-   "id": "history-dedicator-soares",
-   "bank": "history2",
-   "display_text": "Pin a country with a temple standing today that Ulisses Soares dedicated or rededicated.",
-   "text_original": "A country where Ulisses Soares dedicated or rededicated a temple now in use (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1955-2026",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Ulisses Soares dedicated Fortaleza Brazil and Arequipa Peru in 2019 and Feather River California in 2023. In 2025 he dedicated Bahía Blanca Argentina and Nairobi Kenya, the first temple in Kenya.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "KEN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Feather River California (2023)."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Fortaleza Brazil (2019)."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Bahía Blanca Argentina (2025)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Arequipa Peru (2019)."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nairobi Kenya (2025)."
-    }
-   ]
-  },
-  {
-   "id": "history-first-temple-nelson-era",
-   "bank": "history2",
-   "display_text": "Pin a country or territory whose first temple was dedicated while Russell M. Nelson was Church president.",
-   "text_original": "A country whose first temple was dedicated while Russell M. Nelson was Church president.",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2018-2025",
-   "citation": "Church temple list (first dedication per country) and presidency dates",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Russell M. Nelson was President of the Church from 2018 to 2025, and many countries and territories received their first temple in that time. President Nelson dedicated Rome Italy in 2019, and first temples followed in Haiti, Portugal and the Democratic Republic of the Congo (2019), Guam and Cape Verde (2022), Puerto Rico and Thailand (2023), and Kenya and Côte d'Ivoire (2025).",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "CIV",
-    "CPV",
-    "GUM",
-    "HTI",
-    "KEN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Rome Italy, 2019."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lisbon Portugal, 2019."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kinshasa Democratic Republic of the Congo, 2019."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 2,
-     "gem": false,
-     "fact": "San Juan Puerto Rico, 2023."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Bangkok Thailand, 2023."
-    },
-    {
-     "code": "CIV",
-     "name": "Côte d'Ivoire",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Abidjan Ivory Coast, 2025."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Praia Cape Verde, 2022."
-    },
-    {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Yigo Guam, 2022."
-    },
-    {
-     "code": "HTI",
-     "name": "Haiti",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port-au-Prince Haiti, 2019."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nairobi Kenya, 2025."
-    }
-   ]
-  },
-  {
-   "id": "scripture-creole-languages",
-   "bank": "scripture",
-   "display_text": "Pin a country or territory where Haitian, Papiamento, Bislama or Tok Pisin is official.",
-   "text_original": "A country or territory where a creole language with a Book of Mormon edition (Haitian, Papiamento, Bislama, Tok Pisin) is official",
-   "accepts": "country_or_territory",
-   "topic": "scripture geography",
-   "era": "1983-2004",
-   "citation": "Church News translation list",
-   "source_urls": [
-    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
-    "https://en.wikipedia.org/wiki/Papiamento"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Book of Mormon text exists in creole languages including Haitian Creole (full text 1999), Tok Pisin of Papua New Guinea (2002), Bislama of Vanuatu (2004) and Papiamento (selections 1987). Papiamento is spoken in Aruba, Curacao and Bonaire.",
-   "stamp": null,
-   "gems": [
-    "BES"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "HTI",
-     "name": "Haiti",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Haitian Creole selections came in 1983 and the full text in 1999."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Tok Pisin Book of Mormon appeared in 2002."
-    },
-    {
-     "code": "ABW",
-     "name": "Aruba",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Papiamento, given selections in 1987, is official in Aruba."
-    },
-    {
-     "code": "CUW",
-     "name": "Curacao",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Papiamento selections appeared in 1987."
-    },
-    {
-     "code": "VUT",
-     "name": "Vanuatu",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Bislama selections came in 1985 and the full text in 2004."
-    },
-    {
-     "code": "BES",
-     "name": "Caribbean Netherlands",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Papiamento, given selections in 1987, kept its official status in the Caribbean Netherlands, which includes Bonaire, in 2010."
-    }
-   ]
-  },
-  {
-   "id": "bible-isaiah-13-23",
-   "bank": "bible",
-   "display_text": "Pin a present-day country holding a place named in Isaiah's oracles against the nations (Isaiah 13-23).",
-   "text_original": "A present-day country holding a place named in Isaiah's oracles against the nations (Isaiah 13-23)",
+   "id": "ot-daniel-lands",
+   "bank": "ot",
+   "display_text": "Pin a country holding a land or people named in the book of Daniel, from Babylon to Grecia",
+   "text_original": "A present-day country holding a land, city or people named in the book of Daniel (Babylon, Shushan by the river Ulai, Media and Persia, Grecia, Egypt, the Libyans and the people of Cush, the Nile land south of Egypt, Edom, Moab and Ammon, the ships of Chittim, and the glorious land)",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Isaiah 13-23",
+   "citation": "Daniel 1-11",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/13?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/21?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/23?lang=eng",
-    "https://en.wikipedia.org/wiki/Tayma",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/14?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In Isaiah 13 to 23, the prophet delivers burdens, or warnings, against the nations around Judah. They open with Babylon's fall and include Egypt, Damascus, Moab, Tyre and Sidon, and the Arabian oasis of Tema. Isaiah also names Elam and Media, and Cush, the Nile land south of Egypt (Isaiah 20:3-5).",
+   "difficulty": 2,
+   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt, so Sudan counts for Daniel 11:43.",
+   "summary": "Daniel was taken captive to Babylon, served under Babylonian and Persian kings, and saw visions at Shushan. His visions trace Media and Persia, Grecia, and the long struggle of the kings of the north and south, which touches Egypt, Libya, Ethiopia, Edom, Moab, Ammon and the ships of Chittim (Dan 1-11).",
    "stamp": null,
    "gems": [
-    "PSE",
-    "SAU",
+    "CYP",
     "SDN"
    ],
    "gem_forced": false,
@@ -259,136 +34,507 @@
      "name": "Iraq",
      "commonness": 5,
      "gem": false,
-     "fact": "Babylon's fall opens the oracles (Isaiah 13)."
+     "fact": "Daniel was carried to Babylon in the land of Shinar (Dan 1:1-2)."
     },
     {
      "code": "EGY",
      "name": "Egypt",
      "commonness": 4,
      "gem": false,
-     "fact": "Isaiah 19 is the burden of Egypt."
+     "fact": "The king of the south of Daniel 11 rules Egypt (Dan 11:8, 42)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Daniel saw his vision at Shushan by the river of Ulai, and the ram stood for the kings of Media and Persia (Dan 8:2, 20)."
     },
     {
      "code": "ISR",
      "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Daniel prayed toward Jerusalem, and the king of the north enters the glorious land (Dan 6:10; 11:41)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
      "commonness": 3,
      "gem": false,
-     "fact": "Assyria took Ashdod, a Philistine city now in Israel (Isaiah 20:1)."
+     "fact": "The rough goat is the king of Grecia (Dan 8:21)."
     },
     {
      "code": "JOR",
      "name": "Jordan",
      "commonness": 3,
      "gem": false,
-     "fact": "Moab gets two chapters (Isaiah 15-16)."
+     "fact": "Edom, Moab and the chief of the children of Ammon escape out of his hand (Dan 11:41)."
     },
     {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Isaiah 23 laments Tyre and Sidon."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Damascus will become a ruinous heap (Isaiah 17:1)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
+     "code": "LBY",
+     "name": "Libya",
      "commonness": 2,
      "gem": false,
-     "fact": "Elam and Media are called to attack Babylon (Isaiah 21:2)."
+     "fact": "The Libyans shall be at his steps (Dan 11:43)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Isaiah 14:29-31 warns all Palestina (Philistia), whose city of Gaza is in the Gaza Strip."
+     "commonness": 2,
+     "gem": false,
+     "fact": "The king of the north stands in the glorious land and plants his palace in the glorious holy mountain; that land includes the hill country now in the West Bank (Dan 11:16, 41, 45)."
     },
     {
-     "code": "SAU",
-     "name": "Saudi Arabia",
+     "code": "CYP",
+     "name": "Cyprus",
      "commonness": 1,
      "gem": true,
-     "fact": "Tema, the oasis of Tayma, is told to bring water (Isaiah 21:14)."
+     "fact": "The ships of Chittim come against the king of the north (Dan 11:30); Chittim is Cyprus."
     },
     {
      "code": "SDN",
      "name": "Sudan",
      "commonness": 1,
      "gem": true,
-     "fact": "Isaiah 20:3-5 names Ethiopia (Cush), the Nile land from Syene to near Khartoum."
+     "fact": "The Ethiopians shall be at his steps (Dan 11:43); Bible Ethiopia (Cush) was the Nile land south of Egypt."
     }
    ]
   },
   {
-   "id": "saints-v4-26-eastern-europe-1991",
-   "bank": "draft",
-   "display_text": "Pin a formerly communist country that Saints names as newly open to missionaries about 1991.",
-   "text_original": "Saints vol. 4 ch. 26: around 1991, missionaries were newly permitted in these formerly communist countries. Pin one.",
+   "id": "nt-revelation-places",
+   "bank": "nt",
+   "display_text": "Pin a country holding a place, city or river named in the book of Revelation",
+   "text_original": "A present-day country holding a place, city or river named in the book of Revelation",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1989-1991",
-   "citation": "Saints vol. 4 ch. 26",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Revelation 1:9-11; 9:14; 11:8; 16:12-16",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/26-i-want-to-serve?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/armageddon?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/patmos?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "As communist governments fell around 1989 to 1991, countries that had kept missionaries out began to let them in. Saints vol. 4 ch. 26 names Poland, Hungary, Bulgaria, Romania, Slovenia and Croatia among the newly opened countries.",
+   "note": "The Euphrates also rises in Turkey, which is already accepted.",
+   "summary": "John wrote Revelation on Patmos, a Greek island, to seven churches in western Turkey. The book names the great river Euphrates, which flows through Turkey, Syria and Iraq, and Armageddon, the mount of Megiddo in Israel. It also calls the wicked city spiritually Sodom and Egypt.",
    "stamp": null,
    "gems": [
-    "HRV",
-    "SVN"
+    "EGY"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "POL",
-     "name": "Poland",
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The seven churches, from Ephesus to Laodicea, were in the province of Asia in western Turkey (Revelation 1:11)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
      "commonness": 4,
      "gem": false,
-     "fact": "Opened to missionaries as the Iron Curtain fell."
+     "fact": "John received the revelation on the isle of Patmos (Revelation 1:9)."
     },
     {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Armageddon is Har Megiddo, the mount of Megiddo in northern Israel (Revelation 16:16; Bible Dictionary)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 3,
      "gem": false,
-     "fact": "Named in the chapter's list of newly opened countries."
+     "fact": "The Euphrates and the site of Babylon are in Iraq (Revelation 9:14; 16:12; 14:8)."
     },
     {
-     "code": "BGR",
-     "name": "Bulgaria",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 2,
      "gem": false,
-     "fact": "Named in the chapter's list of newly opened countries."
+     "fact": "The great river Euphrates flows across Syria (Revelation 9:14; 16:12)."
     },
     {
-     "code": "ROU",
-     "name": "Romania",
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The great city is spiritually called Sodom and Egypt (Revelation 11:8)."
+    }
+   ]
+  },
+  {
+   "id": "temples-pacific-coast-americas",
+   "bank": "temples",
+   "display_text": "Pin a country in the Americas with a Pacific coastline and at least one dedicated temple (as of October 2026).",
+   "text_original": "A country in the Americas with a Pacific Ocean coastline and at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://en.wikipedia.org/wiki/Pacific_Ocean"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Thirteen Pacific-coast countries of the Americas have a dedicated temple, from Canada and the United States down through Mexico, Central America, Colombia, Ecuador, Peru and Chile. Honduras is the trick answer: its short Pacific shore on the Gulf of Fonseca is easy to forget. Belize and the Caribbean islands have no Pacific coast.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "HND"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Fourteen dedicated temples."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pacific coast from California to Alaska; most temples of any country."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Vancouver British Columbia Temple 2010 on the Pacific."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago, Concepción, Antofagasta."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima and three more."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Pacific and Caribbean coasts; Bogotá and Barranquilla."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guayaquil 1999 and Quito 2022."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City, Quetzaltenango, Cobán, Miraflores."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
      "commonness": 2,
      "gem": false,
-     "fact": "Named in the chapter's list of newly opened countries."
+     "fact": "San José Costa Rica Temple 2000."
     },
     {
-     "code": "HRV",
-     "name": "Croatia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Part of the Yugoslav breakup era; named in the list."
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Managua Nicaragua Temple October 2026."
     },
     {
-     "code": "SVN",
-     "name": "Slovenia",
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Panama City Panama Temple 2008."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "San Salvador El Salvador Temple 2011."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
      "commonness": 1,
      "gem": true,
-     "fact": "Part of the Yugoslav breakup era; named in the list."
+     "fact": "Honduras touches the Pacific at the Gulf of Fonseca; Tegucigalpa and San Pedro Sula temples."
+    }
+   ]
+  },
+  {
+   "id": "global-stake-under-five-thousand-members",
+   "bank": "global",
+   "display_text": "Pin a country or territory with a Church stake but fewer than 5,000 members as of October 2026.",
+   "text_original": "A country or territory that has at least one stake even though the Church counts fewer than 5,000 members there (as of October 2026, year-end 2025 figures).",
+   "accepts": "country_or_territory",
+   "topic": "membership",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/austria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/denmark?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/ireland?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/norway?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/singapore?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/albania?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/trinidad-and-tobago?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cameroon?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/bahrain?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/czech-republic?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/guam?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/new-caledonia?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-arab-emirates"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "A stake normally needs a few thousand members, so countries with stakes but under 5,000 members are rare. They include Austria, Ireland, Denmark, Norway, Singapore, Albania, the Czech Republic, Cameroon, Trinidad and Tobago, Guam, New Caledonia and the United Arab Emirates. Bahrain is the extreme case: its stake gathers members from across the Gulf, so the country itself counts only 231.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ARE",
+    "BHR",
+    "NCL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "2 stakes; 4,753 members."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1 stake; 4,923 members."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 stakes; 4,426 members."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 stakes; 4,547 members."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 stake; 3,262 members."
+    },
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake; 3,285 members."
+    },
+    {
+     "code": "CMR",
+     "name": "Cameroon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake; 3,673 members."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake; 2,628 members."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake; 2,768 members."
+    },
+    {
+     "code": "TTO",
+     "name": "Trinidad and Tobago",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake; 3,458 members."
+    },
+    {
+     "code": "ARE",
+     "name": "United Arab Emirates",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake; 2,002 members."
+    },
+    {
+     "code": "BHR",
+     "name": "Bahrain",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake; 231 members, the smallest membership with a stake."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake; 2,585 members."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-pacific-island-dedications-1947-98",
+   "bank": "pioneer",
+   "display_text": "Pin a Pacific island country or territory dedicated for the preaching of the gospel between 1947 and 1998.",
+   "text_original": "A Pacific island country or territory dedicated for the preaching of the gospel between 1947 and 1998.",
+   "accepts": "country_or_territory",
+   "topic": "missionary work",
+   "era": "1947-1998",
+   "citation": "Global Histories chronologies: Cook Islands, Guam, Kiribati, Papua New Guinea, French Polynesia, Fiji; RSC (New Caledonia); Newsroom (Solomon Islands); Ensign Nov 1996 (Nauru, Tuvalu, Vanuatu, Wallis and Futuna)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kiribati/ki-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
+    "https://rsc.byu.edu/pioneers-pacific/upon-rock-latter-day-saint-church-new-caledonia",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/solomon-islands",
+    "https://www.churchofjesuschrist.org/study/ensign/1996/11/news-of-the-church/first-stake-in-kiribati-formed-islands-dedicated?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Dedicatory prayers followed the Church across the Pacific long after the first Polynesian missions: the Cook Islands in 1947, Guam in 1955, New Caledonia in 1968, Kiribati in 1975, Papua New Guinea in 1983, the Solomon Islands in 1987, French Polynesia (rededicated) in 1994, six island groups by L. Tom Perry in 1996, and Fiji in 1998. Tonga, Samoa and New Zealand had been mission fields since the 1800s.",
+   "stamp": null,
+   "gems": [
+    "COK",
+    "NCL",
+    "NRU",
+    "SLB",
+    "TUV",
+    "VUT",
+    "WLF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 4,
+     "gem": false,
+     "fact": "L. Tom Perry offered the dedicatory prayer for Fiji in Suva on June 17, 1998."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "L. Tom Perry dedicated Papua New Guinea in Port Moresby on April 14, 1983."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Russell M. Nelson rededicated French Polynesia on May 8, 1994, for the 150th anniversary of the Church there."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Joseph Fielding Smith offered a dedicatory prayer on Guam on August 25, 1955."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Dedicated by mission president Kenneth M. Palmer on October 20, 1975 and rededicated by L. Tom Perry in 1996."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Matthew Cowley dedicated the Cook Islands for the preaching of the gospel on July 1, 1947."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Thomas S. Monson dedicated New Caledonia from Mount Coffyn above Noumea on May 2, 1968."
+    },
+    {
+     "code": "NRU",
+     "name": "Nauru",
+     "commonness": 1,
+     "gem": true,
+     "fact": "L. Tom Perry dedicated Nauru for the preaching of the gospel on August 10, 1996."
+    },
+    {
+     "code": "SLB",
+     "name": "Solomon Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "James E. Faust dedicated the Solomon Islands for the preaching of the gospel on March 10, 1987."
+    },
+    {
+     "code": "TUV",
+     "name": "Tuvalu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "L. Tom Perry dedicated Tuvalu for the preaching of the gospel on August 10, 1996."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "L. Tom Perry dedicated Vanuatu, with Kiribati, Nauru, Tuvalu, Tokelau and Wallis and Futuna, on August 10, 1996."
+    },
+    {
+     "code": "WLF",
+     "name": "Wallis and Futuna",
+     "commonness": 1,
+     "gem": true,
+     "fact": "L. Tom Perry dedicated Wallis and Futuna for the preaching of the gospel on August 10, 1996."
     }
    ]
   }

@@ -2,412 +2,421 @@
  "day": 15,
  "prompts": [
   {
-   "id": "temples-europe-dedicated",
+   "id": "temples-four-plus-dedicated",
    "bank": "draft",
-   "display_text": "Pin a European country with a dedicated temple.",
-   "text_original": "Pin a European country with at least one dedicated temple (as of October 2026).",
+   "display_text": "Pin a country with four or more dedicated temples.",
+   "text_original": "Pin a country with four or more dedicated temples (as of October 2026).",
    "accepts": "country",
    "topic": "temples",
-   "era": "1955-2026",
+   "era": "2026",
    "citation": "temple list, 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
    "note": null,
-   "summary": "Europe's first temple was dedicated near Bern, Switzerland, in 1955, followed by London in 1958. As of October 2026, twelve European countries had a dedicated temple, the most recent being Rome, Italy, and Lisbon, Portugal, both in 2019.",
+   "summary": "As of October 2026 the United States had 109 dedicated temples, far more than any other country. Mexico (14), Brazil (12), Canada (9), the Philippines (6), Australia and Argentina (5 each), and Japan, Guatemala and Peru (4 each) followed.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "FIN",
-    "UKR"
+    "GTM",
+    "JPN"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 4,
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
      "gem": false,
-     "fact": "Bern, 1955, Europe's first."
+     "fact": "14 dedicated temples."
     },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Freiberg and Frankfurt."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "London 1958, Preston 1998."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Madrid, 1999."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Paris, 2017."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Rome, 2019."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Stockholm, 1985."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Copenhagen, 2004."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Hague, 2002."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Lisbon, 2019."
-    },
-    {
-     "code": "FIN",
-     "name": "Finland",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Helsinki, 2006."
-    },
-    {
-     "code": "UKR",
-     "name": "Ukraine",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Kyiv, 2010."
-    }
-   ]
-  },
-  {
-   "id": "history-dedicator-gong",
-   "bank": "history2",
-   "display_text": "Pin a country or territory with a temple standing today that Gerrit W. Gong dedicated or rededicated.",
-   "text_original": "A country where Gerrit W. Gong dedicated or rededicated a temple now in use (as of October 2026).",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "1955-2026",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Gerrit W. Gong has dedicated temples from North America to Africa and Asia. They include Winnipeg Manitoba (2021), the rededication of Hong Kong China (2022), Taylorsville Utah and Puebla Mexico (2024), and Harare Zimbabwe and Miraflores Guatemala City (2026).",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "ZWE"
-   ],
-   "gem_forced": false,
-   "answers": [
     {
      "code": "USA",
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Taylorsville Utah (2024)."
+     "fact": "109 dedicated temples."
     },
     {
-     "code": "MEX",
-     "name": "Mexico",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Puebla Mexico (2024)."
+     "fact": "12 dedicated temples."
     },
     {
      "code": "CAN",
      "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "9 dedicated temples."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Winnipeg Manitoba (2021)."
+     "fact": "5 dedicated temples."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "5 dedicated temples."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 dedicated temples."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "6 dedicated temples."
     },
     {
      "code": "GTM",
      "name": "Guatemala",
      "commonness": 2,
-     "gem": false,
-     "fact": "Miraflores Guatemala City Guatemala (2026)."
-    },
-    {
-     "code": "HKG",
-     "name": "Hong Kong",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Hong Kong China (rededicated 2022)."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 1,
      "gem": true,
-     "fact": "Harare Zimbabwe (2026)."
+     "fact": "4 dedicated temples."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "4 dedicated temples."
     }
    ]
   },
   {
-   "id": "saints-v4-04-latam-1940s-50s",
-   "bank": "history2",
-   "display_text": "Pin a Spanish-speaking country that Saints names as reached after Argentina, in the 1940s and 1950s.",
-   "text_original": "Saints vol. 4 ch. 4: after Argentina, the gospel spread to these Spanish-speaking countries in the 1940s and 1950s. Pin one.",
+   "id": "saints-v4-23-lima-temple-district",
+   "bank": "draft",
+   "display_text": "Pin a country whose members were served by the Lima Peru temple when it was dedicated in January 1986.",
+   "text_original": "Saints vol. 4 ch. 23: the Lima temple, dedicated in 1986, served Saints from these countries. Pin one.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1940s-1950s",
-   "citation": "Saints vol. 4 ch. 4",
+   "topic": "temples",
+   "era": "1986",
+   "citation": "Saints vol. 4 ch. 23",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/04-the-mission-of-the-church?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/23-every-effort?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Saints volume 4 tells how the Church, after missionaries arrived in Argentina in the 1920s, spread to its Spanish-speaking neighbors. Missionaries entered Uruguay, Guatemala, Costa Rica and El Salvador in the 1940s, and preaching began in Chile, Peru, Honduras, Panama and Paraguay in the 1950s. In 1959 Elder Spencer W. Kimball toured South America to assess the needs of the growing Church there.",
-   "stamp": null,
+   "summary": "The Lima temple in Peru was dedicated in 1986. Peru then had about 119,000 Latter-day Saints, and members from Colombia, Ecuador, Bolivia and Venezuela also traveled to Lima to worship there.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Host country, with about 119,000 Saints then."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Its Saints travelled to Lima."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Its Saints travelled to Lima."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Its Saints travelled to Lima."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Its Saints travelled to Lima."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-09-kimball-south-america-1966",
+   "bank": "history2",
+   "display_text": "Pin a South American country that, Saints says, Elder Kimball named as growing in 1966.",
+   "text_original": "Saints vol. 4 ch. 9: creating the Sao Paulo Stake in 1966, Elder Kimball named these South American countries where the Church was growing. Pin one.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1966",
+   "citation": "Saints vol. 4 ch. 9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/09-this-marvelous-day?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "On May 1, 1966, Elder Spencer W. Kimball organized the São Paulo Stake in Brazil, the first stake in South America, with more than 1,500 Saints attending. Walter Spät, who had joined the Church in 1950, became its president. Elder Kimball spoke of the Church growing in Brazil, Argentina, Uruguay, Chile, Peru and Paraguay.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
     "PRY"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Named as opened to preaching in the 1950s; part of the Argentine Mission from 1955."
+     "fact": "Called \"great Brazil\"; site of the first stake in South America."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named by Elder Kimball."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named by Elder Kimball."
     },
     {
      "code": "PER",
      "name": "Peru",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Named as opened to preaching in the 1950s."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
      "commonness": 3,
      "gem": false,
-     "fact": "Named as entered by missionaries in the 1940s."
+     "fact": "Named by Elder Kimball."
     },
     {
      "code": "URY",
      "name": "Uruguay",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Named as entered by missionaries in the 1940s."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
      "commonness": 2,
      "gem": false,
-     "fact": "Named as entered by missionaries in the 1940s."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named as opened to preaching in the 1950s."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named as opened to preaching in the 1950s."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named as entered by missionaries in the 1940s."
+     "fact": "Named by Elder Kimball."
     },
     {
      "code": "PRY",
      "name": "Paraguay",
      "commonness": 1,
      "gem": true,
-     "fact": "Named as opened to preaching in the 1950s."
+     "fact": "Named by Elder Kimball."
     }
    ]
   },
   {
-   "id": "bible-genesis-cities",
+   "id": "bible-both-testaments-city",
    "bank": "bible",
-   "display_text": "Pin a present-day country with a city named in Genesis whose site is agreed.",
-   "text_original": "A present-day country with a city named in Genesis whose site is agreed",
+   "display_text": "Pin a present-day country with a city named in both Old and New Testaments (not Jerusalem).",
+   "text_original": "A present-day country with a city named in both Old and New Testaments (not Jerusalem)",
    "accepts": "country",
    "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Genesis 10-46",
+   "era": "New Testament",
+   "citation": "Matthew 11-12; Acts 9; Jonah; Kings",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
-    "https://en.wikipedia.org/wiki/Heliopolis_(ancient_Egypt)"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Genesis moves across the ancient Near East. Abraham's family set out from Ur, stopped at Haran, and Abraham and Isaac lived around Beersheba. Damascus appears in Abraham's story (Genesis 14:15), Joseph married the daughter of the priest of On in Egypt, and Jacob named Mahanaim and Penuel east of the Jordan (Genesis 32).",
+   "summary": "Some cities appear in both testaments, linking Old Testament stories to the New. Damascus is named in Genesis and is where Paul first preached, and Joppa is where Jonah boarded a ship and where Peter later had a vision (Jonah 1:3; Acts 10). Jesus spoke of Tyre, Sidon and Nineveh, and Haran, from Abraham's story, returns in Stephen's speech (Acts 7:4).",
    "stamp": null,
    "gems": [
-    "JOR",
-    "LBN"
+    "TUR"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Ur, Babel and Nineveh are all in Iraq."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Joseph married the daughter of the priest of On, Heliopolis (Genesis 41:45)."
-    },
-    {
      "code": "ISR",
      "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Joppa is Jonah's port and the place of Peter's vision (Jonah 1:3; Acts 10)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 4,
      "gem": false,
-     "fact": "Beersheba is central to Abraham and Isaac's stories."
+     "fact": "Tyre and Sidon appear in Kings and in the Gospels."
     },
     {
      "code": "SYR",
      "name": "Syria",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "Damascus is named in Genesis 14:15 and 15:2."
+     "fact": "Damascus appears in Genesis 14 and Acts 9."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 3,
      "gem": false,
-     "fact": "Haran lies in south-east Turkey."
+     "fact": "Nineveh and Babylon are named by Jesus and in Revelation (Matthew 12:41)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 2,
      "gem": false,
-     "fact": "Hebron (Genesis 23:2) is in the West Bank."
+     "fact": "Bethlehem is named in both testaments (Ruth 1:1; Matthew 2:1), in the West Bank."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "TUR",
+     "name": "Turkey",
      "commonness": 1,
      "gem": true,
-     "fact": "Jacob named Mahanaim and Penuel, east of the Jordan (Genesis 32)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Sidon marks Canaan's border (Genesis 10:19)."
+     "fact": "Haran appears in Genesis 11 and as Charran in Stephen's speech (Acts 7:4)."
     }
    ]
   },
   {
-   "id": "saints-v4-07-south-america-missions-1963",
+   "id": "saints-v4-26-28-asia-survey-1990s",
    "bank": "draft",
-   "display_text": "Pin a country that Saints names as covered by the South American missions by 1963.",
-   "text_original": "Saints vol. 4 ch. 7: by 1963 the Church's South American missions covered these countries. Pin one.",
+   "display_text": "Pin a country that Saints names in its 1991 or mid-1990s surveys of the Church in Asia.",
+   "text_original": "Saints vol. 4 surveys the Church across Asia twice: in 1991 (ch. 26) and in the mid-1990s (ch. 28), naming countries with temples, new branches, early growth or no presence yet. Pin a country named in either survey.",
    "accepts": "country",
    "topic": "missionary work",
-   "era": "1963",
-   "citation": "Saints vol. 4 ch. 7",
+   "era": "1991-1995",
+   "citation": "Saints vol. 4 ch. 26; Saints vol. 4 ch. 28",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/07-children-of-the-same-god?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/26-i-want-to-serve?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/28-the-lords-path?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "By 1963 the Church's missions in South America covered six countries. Brazil and Argentina had two missions each, Uruguay and Chile had one each, and Peru and Bolivia shared one. The first South American mission had opened in Buenos Aires, Argentina, in 1925.",
+   "summary": "In 1991 the Church had temples in only four Asian countries: Japan, whose Tokyo temple (1980) was the first in Asia, the Philippines, Taiwan and South Korea. New branches were forming in India, Singapore, Indonesia and Malaysia, while Mongolia, Myanmar, Laos and Nepal had no Church presence yet. Missionaries reached Mongolia in 1992, and the Church was recognized in Cambodia in 1994.",
    "stamp": null,
    "gems": [
-    "BOL"
+    "LAO",
+    "MMR",
+    "NPL",
+    "VNM"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 5,
      "gem": false,
-     "fact": "Had two missions; the first South American mission opened in Buenos Aires in 1925."
+     "fact": "Tokyo temple, dedicated 1980, was the first in Asia; one of four Asian temple countries in 1991."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "PHL",
+     "name": "Philippines",
      "commonness": 5,
      "gem": false,
-     "fact": "Had two missions by then."
+     "fact": "Manila temple, dedicated 1984; one of four Asian temple countries in 1991."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "IND",
+     "name": "India",
      "commonness": 4,
      "gem": false,
-     "fact": "Had its own mission."
+     "fact": "New branches in 1991 (ch. 26); named again as a place of new growth (ch. 28)."
     },
     {
-     "code": "PER",
-     "name": "Peru",
+     "code": "KOR",
+     "name": "South Korea",
      "commonness": 3,
      "gem": false,
-     "fact": "Shared one mission with Bolivia."
+     "fact": "Seoul temple, dedicated 1985; one of four Asian temple countries in 1991."
     },
     {
-     "code": "URY",
-     "name": "Uruguay",
+     "code": "MNG",
+     "name": "Mongolia",
      "commonness": 3,
      "gem": false,
-     "fact": "Had its own mission."
+     "fact": "No Church presence in 1991 (ch. 26); missionaries arrived in 1992 and growth followed (ch. 28)."
     },
     {
-     "code": "BOL",
-     "name": "Bolivia",
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named in ch. 28 as a place where the Church was starting to grow."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taipei temple, dedicated 1984; one of four Asian temple countries in 1991."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
      "commonness": 2,
+     "gem": false,
+     "fact": "Named in ch. 26 as a place with new branches in 1991."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in ch. 28 as a place of new growth; the Church was recognized there in 1994."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in ch. 26 as a place with new branches in 1991."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in ch. 26 as a place with new branches in 1991."
+    },
+    {
+     "code": "LAO",
+     "name": "Laos",
+     "commonness": 1,
      "gem": true,
-     "fact": "Shared one mission with Peru."
+     "fact": "Named in ch. 26 as having no Church presence yet in 1991."
+    },
+    {
+     "code": "MMR",
+     "name": "Myanmar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named in ch. 26 as having no Church presence yet in 1991."
+    },
+    {
+     "code": "NPL",
+     "name": "Nepal",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named in ch. 26 as having no Church presence yet in 1991."
+    },
+    {
+     "code": "VNM",
+     "name": "Vietnam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Ch. 28 says the Church was growing there once again."
     }
    ]
   }

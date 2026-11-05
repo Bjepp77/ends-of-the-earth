@@ -1,8 +1,8 @@
 // Round loop and camp logic. Pure functions over rules.js, no DOM, no storage access.
 import {
   TIERS, tierById, tierFor, answerCodeFor, rowsKm, roundKm, bandFor, BANDS, logRow,
-  expeditionNumber, isExpired, addDays,
-} from './rules.js?v=c4e24ebe09';
+  expeditionNumber, isExpired, addDays, haversineKm, placeTierFor, formatKm,
+} from './rules.js?v=dab967d0a8';
 
 export const DECK_SIZE = 5;
 
@@ -62,6 +62,7 @@ export function promptText(prompt) {
 
 // §4 judge one pin. pin = { lng, lat, hit } or null (timeout with no pin).
 export function judge(prompt, pin, { timedOut = false, bySearch = false, mask = 0, late = false, noNames = false } = {}) {
+  if (isPlacePrompt(prompt)) return judgePlace(prompt, pin, { timedOut, bySearch, mask, late, noNames });
   const hit = pin?.hit ?? null;
   const code = answerCodeFor(hit, prompt.answers.map((a) => a.code));
   const answer = code ? prompt.answers.find((a) => a.code === code) : null;
@@ -72,6 +73,28 @@ export function judge(prompt, pin, { timedOut = false, bySearch = false, mask = 
     name: hit?.name ?? null, timedOut, mask, bySearch, late, noNames,
   });
   return { row, answer };
+}
+
+export function isPlacePrompt(prompt) {
+  return prompt?.accepts === 'place';
+}
+
+// A place pin is judged by distance alone: land, sea or disputed ground all count. d is the km, to 0.1.
+function judgePlace(prompt, pin, { timedOut, bySearch, mask, late, noNames }) {
+  const hit = pin?.hit ?? null;
+  const km = pin ? haversineKm(pin, prompt.place) : null;
+  const row = logRow({
+    promptId: prompt.id, answer: null, countryCode: hit?.code ?? null, tierId: placeTierFor(km),
+    lon: pin ? round3(pin.lng) : null, lat: pin ? round3(pin.lat) : null,
+    name: pin ? (hit?.name ?? 'At sea') : null, timedOut, mask, bySearch, late, noNames,
+  });
+  if (km != null) row.d = Math.round(km * 10) / 10;
+  return { row, answer: null };
+}
+
+// "8.4 km" under 10 km, "1,234 km" from 10 km.
+export function placeKmText(km) {
+  return km < 10 ? `${km.toFixed(1)} km` : `${formatKm(Math.round(km))} km`;
 }
 
 function round3(x) {
@@ -87,6 +110,10 @@ export const MISS_LINES = {
 };
 
 export function revealLine(row, prompt) {
+  if (isPlacePrompt(prompt)) {
+    if (row.d == null) return MISS_LINES.noPin;
+    return `${placeKmText(row.d)} from ${prompt.place.name}.`;
+  }
   if (row.a) {
     const answer = prompt.answers.find((a) => a.code === row.a);
     return answer?.fact || tierById(row.t).name;
@@ -98,6 +125,10 @@ export function revealLine(row, prompt) {
 
 // §17 every accepted answer grouped by tier, top tier first, with each group's km.
 export function answersByTier(prompt) {
+  // A place pin has one answer: the place itself.
+  if (isPlacePrompt(prompt)) {
+    return [{ tier: 'ends', name: 'Within 25 km', km: tierById('ends').km, answers: [{ code: null, name: prompt.place.name, fact: null }] }];
+  }
   const groups = [...TIERS].reverse().filter((t) => t.id !== 'miss')
     .map((t) => ({ tier: t.id, name: t.name, km: t.km, answers: [] }));
   const byId = Object.fromEntries(groups.map((g) => [g.tier, g]));

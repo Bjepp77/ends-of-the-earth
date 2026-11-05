@@ -88,159 +88,6 @@
    ]
   },
   {
-   "id": "global-warsaw-pact-dedications-1977-2006",
-   "bank": "global",
-   "display_text": "Pin a non-Soviet Warsaw Pact country (today's borders) dedicated or rededicated for the gospel between 1977 and 2006",
-   "text_original": "As communist rule eased and then ended, Church leaders dedicated or rededicated the former Soviet satellites of Europe for the preaching of the gospel. A country that was a Warsaw Pact member other than the Soviet Union (Poland, East Germany, Czechoslovakia, Hungary, Romania, Bulgaria, Albania), in its present-day form, dedicated or rededicated for preaching the gospel between 1977 and 2006.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1977-2006",
-   "citation": "Global Histories chronologies (Poland, Germany, Czech Republic, Slovakia, Hungary, Romania, Bulgaria, Albania)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Germany does not count. Elder Nelson's 1990 Prague rededication counts for the Czech Republic; Slovakia had its own in 2006.",
-   "summary": "Spencer W. Kimball rededicated Poland in 1977 while it was still communist. Russell M. Nelson dedicated Hungary in 1987, then Romania and Bulgaria and rededicated Czechoslovakia in early 1990. Dallin H. Oaks dedicated Albania in 1993, and Dieter F. Uchtdorf dedicated newly independent Slovakia in 2006.",
-   "stamp": null,
-   "gems": [
-    "ALB",
-    "SVK"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "POL",
-     "name": "Poland",
-     "commonness": 4,
-     "gem": false,
-     "fact": "President Spencer W. Kimball rededicated Poland in Warsaw, August 24, 1977."
-    },
-    {
-     "code": "CZE",
-     "name": "Czech Republic",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson rededicated Czechoslovakia in Prague, February 6, 1990."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson dedicated Hungary on Gellert Hill, Budapest, April 19, 1987."
-    },
-    {
-     "code": "ROU",
-     "name": "Romania",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson dedicated Romania in Cismigiu Park, Bucharest, February 8, 1990."
-    },
-    {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Russell M. Nelson dedicated Bulgaria in Sofia, February 13, 1990."
-    },
-    {
-     "code": "ALB",
-     "name": "Albania",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Dallin H. Oaks dedicated Albania at Monument of Heroes Park, Tirana, April 23, 1993."
-    },
-    {
-     "code": "SVK",
-     "name": "Slovakia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Dieter F. Uchtdorf dedicated Slovakia in Trencin, May 12, 2006."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-mission-leaders-asia-pacific",
-   "bank": "people",
-   "display_text": "Pin an Asian or Pacific country where a current General Authority Seventy once led a mission (October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies had led missions in Asia or the Pacific. Pin a country there where one of those missions was headquartered, as named in the Church's official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1990s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/j-kimo-esplin?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/takashi-wada?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carl-b-cook?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/anthony-d-perkins?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kelly-r-johnson?lang=eng",
-    "https://www.thechurchnews.com/leaders-and-ministry/2009-05-16/elder-michael-t-ringwood-general-authority-seventy-2009-71649/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026, General Authority Seventies had led missions in Japan, the Philippines, New Zealand, Taiwan and Thailand. Elder Michael John U. Teh, born in the Philippines, presided over the Taiwan Taichung Mission.",
-   "stamp": null,
-   "gems": [
-    "THA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Japan Tokyo North and South missions (Elder Esplin) and Japan Tokyo South (Elder Wada)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Philippines Quezon City Mission, 2013 to 2016 (Elder Revillo)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "New Zealand Auckland Mission (Elder Carl B. Cook)."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Taiwan Taipei (Elder Perkins) and Taiwan Taichung (Elder Teh) missions."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Michael T. Ringwood was called in 2004 to lead the Korea Seoul West Mission."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Kelly R. Johnson returned to the Thailand Bangkok Mission as a leader, 2015 to 2018."
-    }
-   ]
-  },
-  {
    "id": "ot-josiah-and-pharaoh-necho",
    "bank": "ot",
    "display_text": "Pin a country holding a place in Josiah's reforms, his death at Megiddo, or Pharaoh Necho's march",
@@ -362,6 +209,152 @@
      "commonness": 1,
      "gem": true,
      "fact": "Those Hermon springs feed the Jordan, and Mount Hermon's western slopes lie in Lebanon (Bible Dictionary, Jordan River and Hermon)."
+    }
+   ]
+  },
+  {
+   "id": "temples-world-cup-winners",
+   "bank": "temples",
+   "display_text": "Pin a men's FIFA World Cup winning country with a temple dedicated, under construction or announced (as of October 2026).",
+   "text_original": "A country whose men's national team has won the FIFA World Cup (through 2022) and that has a temple dedicated, under construction or announced (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; FIFA World Cup records",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup",
+    "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Every men's World Cup winner has a temple as of October 2026. Brazil, Argentina, Germany, Italy, France, Spain and England (United Kingdom) all have dedicated temples, and Uruguay, the first champion in 1930, dedicated its Montevideo temple in 2001.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "URY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Three titles, latest 2022; Buenos Aires temple (1986)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Five titles; 12 dedicated temples."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Four titles; Freiberg (1985) and Frankfurt (1987) temples."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Two titles; Paris France Temple (2017)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Four titles; Rome Italy Temple (2019)."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Won in 2010; Madrid temple (1999)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "England won in 1966; London (1958) and Preston (1998) temples."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Won in 1930 and 1950; Montevideo temple (2001)."
+    }
+   ]
+  },
+  {
+   "id": "global-spanish-speaking-ten-to-nineteen-stakes",
+   "bank": "global",
+   "display_text": "Pin a Spanish-speaking country where the Church has 10 to 19 stakes as of October 2026.",
+   "text_original": "A Spanish-speaking country where the Church has between 10 and 19 stakes as of October 2026 (year-end 2025 figures).",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/uruguay?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/spain?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nicaragua?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/paraguay?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/costa-rica?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/panama?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_countries_where_Spanish_is_an_official_language"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Most Spanish-speaking countries have either 20 or more stakes (Mexico, Argentina, Chile, Peru, Guatemala and others) or fewer than 10 (Panama, Cuba, Equatorial Guinea). Five sit in between: Uruguay (18), Spain (17), Nicaragua (12), Paraguay (11) and Costa Rica (10). Puerto Rico, a territory, has 5.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CRI",
+    "PRY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 4,
+     "gem": false,
+     "fact": "17 stakes."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "18 stakes."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": true,
+     "fact": "10 stakes."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "11 stakes."
     }
    ]
   }

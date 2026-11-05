@@ -1,0 +1,317 @@
+{
+ "day": 64,
+ "prompts": [
+  {
+   "id": "place-cardston-alberta-temple",
+   "bank": "places",
+   "display_text": "Pin the Cardston Alberta Temple, the first temple outside the United States.",
+   "text_original": "Drop a pin on the Cardston Alberta Temple, the first temple built outside the United States.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Cardston Alberta Temple",
+    "lat": 49.1984,
+    "lng": -113.3094
+   },
+   "topic": "temples",
+   "era": "1913-1923",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/cardston-alberta-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/cardston-alberta-temple/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "President Joseph F. Smith dedicated the site in July 1913 in the Latter-day Saint settlement of Cardston, in southern Alberta. President Heber J. Grant dedicated the temple in August 1923. It was the first temple built outside the United States and the first in Canada.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "hc-asia-dedications-1901-96",
+   "bank": "sites-history",
+   "display_text": "Pin an Asian country that a Church leader dedicated for the preaching of the gospel between 1901 and 1996.",
+   "text_original": "An Asian country dedicated for the preaching of the gospel between 1901 and 1996.",
+   "accepts": "country",
+   "topic": "dedications",
+   "era": "1901-1996",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mongolia/mn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/malaysia/my-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Heber J. Grant opened Asia at Yokohama in 1901. Joseph Fielding Smith dedicated Korea and the Philippines in 1955, Gordon B. Hinckley Thailand in 1966 and Cambodia in 1996, Ezra Taft Benson Singapore in 1969, Neal A. Maxwell Mongolia in 1993 and Joseph B. Wirthlin Malaysia in 1996.",
+   "stamp": null,
+   "gems": [
+    "KHM",
+    "MNG",
+    "MYS",
+    "SGP"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "On September 1, 1901, Heber J. Grant dedicated Japan for the preaching of the gospel in Yokohama."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1955 Joseph Fielding Smith of the Quorum of the Twelve dedicated the Philippines for the preaching of the gospel."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1955 Joseph Fielding Smith of the Quorum of the Twelve dedicated South Korea for the preaching of the gospel."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1966 Gordon B. Hinckley of the Quorum of the Twelve dedicated Thailand for the preaching of the gospel in Bangkok."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1996 Church President Gordon B. Hinckley offered a dedicatory prayer over the land of Cambodia."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1993 Elder Neal A. Maxwell climbed Zaisan Hill in Ulaanbaatar to dedicate Mongolia for the preaching of the gospel."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1996 Elder Joseph B. Wirthlin of the Quorum of the Twelve dedicated Malaysia for the preaching of the restored gospel."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1969 Elder Ezra Taft Benson offered a dedicatory prayer for the preaching of the gospel in Singapore."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-south-america-first-preaching-pre-1951",
+   "bank": "pioneer",
+   "display_text": "Pin a South American country where a Latter-day Saint missionary first preached the gospel before 1951.",
+   "text_original": "A South American country where a Latter-day Saint missionary first preached the gospel before 1951.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1851-1950",
+   "citation": "Global Histories chronologies: Chile, Argentina, Bolivia, Brazil, Uruguay, Paraguay",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Parley P. Pratt preached in Chile as early as 1851, but lasting work in South America began in Argentina in 1925 and spread to Brazil, Bolivia, Uruguay and Paraguay before 1951. Peru (1956), Ecuador (1965), Colombia and Venezuela (1966) opened later.",
+   "stamp": null,
+   "gems": [
+    "BOL",
+    "PRY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Missionaries led by Melvin J. Ballard began work in Buenos Aires in 1925."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Missionary work began among German-speaking settlers at Joinville in 1928."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Parley P. Pratt preached in Valparaiso and Quillota in 1851-52."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first missionaries of the Uruguayan Mission arrived in Montevideo in October 1947."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "J. Vernon Sharp became the first missionary to preach in Bolivia in April 1927."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Missionaries were preaching in Asuncion by January 1950, after the first branch of 1948."
+    }
+   ]
+  },
+  {
+   "id": "global-caribbean-any-stake",
+   "bank": "global",
+   "display_text": "Pin a Caribbean island country or territory where the Church has at least one stake as of October 2026.",
+   "text_original": "A Caribbean island country or territory where the Church has at least one stake as of October 2026.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/dominican-republic?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/haiti?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/puerto-rico?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/jamaica?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/trinidad-and-tobago?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/bahamas?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/barbados?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/guadeloupe",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/martinique"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Five Caribbean islands have stakes. The Dominican Republic dominates with 22 stakes and about 156,000 members; Puerto Rico and Haiti have 5 each, and Jamaica and Trinidad and Tobago have one apiece. The Bahamas, Barbados, Aruba, Guadeloupe and Martinique have districts but no stake, and the Church lists no stake in Cuba.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "TTO"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 5,
+     "gem": false,
+     "fact": "22 stakes; about 156,000 members and a temple in Santo Domingo."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "5 stakes; temple in San Juan."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "5 stakes; temple in Port-au-Prince."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake, organized 2014."
+    },
+    {
+     "code": "TTO",
+     "name": "Trinidad and Tobago",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake, served from a mission based abroad."
+    }
+   ]
+  },
+  {
+   "id": "temples-spanish-speaking-before-1990",
+   "bank": "temples",
+   "display_text": "Pin a Spanish-speaking country where a temple was dedicated before 1990.",
+   "text_original": "A Spanish-speaking country where a temple was dedicated before 1990.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1983-1986",
+   "citation": "ChurchofJesusChristTemples.org chronology",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Five Spanish-speaking countries had temples before 1990, all dedicated within three years: Santiago Chile and Mexico City in 1983, Guatemala City in 1984, and Lima and Buenos Aires in January 1986. Spain's first temple came in 1999.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ARG"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City Mexico Temple, December 1983."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago Chile Temple, September 1983."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City Guatemala Temple, December 1984."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lima Peru Temple, January 1986."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Buenos Aires Argentina Temple, January 1986."
+    }
+   ]
+  }
+ ]
+}

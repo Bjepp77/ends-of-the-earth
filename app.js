@@ -1,19 +1,19 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=c4e24ebe09';
-import { REFUSAL_TEXT } from './hit.js?v=c4e24ebe09';
-import * as R from './rules.js?v=c4e24ebe09';
-import * as G from './game.js?v=c4e24ebe09';
-import { createStore } from './store.js?v=c4e24ebe09';
-import { createMenu } from './menu.js?v=c4e24ebe09';
-import { createSound } from './sound.js?v=c4e24ebe09';
-import { shareOrCopy } from './share.js?v=c4e24ebe09';
-import { createTrail } from './trail.js?v=c4e24ebe09';
-import { createTour } from './tour.js?v=c4e24ebe09';
-import { createThanks } from './thanks.js?v=c4e24ebe09';
-import { createSheep } from './sheep.js?v=c4e24ebe09';
-import { createCounter } from './count.js?v=c4e24ebe09';
-import { createExpand } from './expand.js?v=c4e24ebe09';
-import { createQ6 } from './q6.js?v=c4e24ebe09';
+import { loadCountries, createMap } from './map.js?v=dab967d0a8';
+import { REFUSAL_TEXT } from './hit.js?v=dab967d0a8';
+import * as R from './rules.js?v=dab967d0a8';
+import * as G from './game.js?v=dab967d0a8';
+import { createStore } from './store.js?v=dab967d0a8';
+import { createMenu } from './menu.js?v=dab967d0a8';
+import { createSound } from './sound.js?v=dab967d0a8';
+import { shareOrCopy } from './share.js?v=dab967d0a8';
+import { createTrail } from './trail.js?v=dab967d0a8';
+import { createTour } from './tour.js?v=dab967d0a8';
+import { createThanks } from './thanks.js?v=dab967d0a8';
+import { createSheep } from './sheep.js?v=dab967d0a8';
+import { createCounter } from './count.js?v=dab967d0a8';
+import { createExpand } from './expand.js?v=dab967d0a8';
+import { createQ6 } from './q6.js?v=dab967d0a8';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -68,7 +68,15 @@ async function loadStartup() {
 }
 const [config, manifest, countries, souvenirs] = await loadStartup();
 const store = createStore(safeStorage(), config.slot);
-const q6 = createQ6({ root: $('q6-camp'), store, getJSON: fetchJSON, day1: config.day1 });
+const q6 = createQ6({ root: $('q6-camp'), store, getJSON: fetchJSON, day1: config.day1,
+  sound: { reveal: (km) => sound.reveal(km) }, colors: G.TIER_COLORS, onCheck: () => { setCampBonus(); setCampShare(); },
+  // The lamb on a miss, under the same test gate as maybeSheep below.
+  makeSheep: DEBUG && !params.has('sheep') ? null : (host) => createSheep({ host, baa: () => sound.baa(), id: 'q6-sheep' }) });
+// Owner, 2026-11-04: on phone #q6-camp sticks on top of the RETURN HOME bar (styles.css), so it needs that bar's height.
+const campBar = document.querySelector('#camp > .actions');
+if (campBar && typeof ResizeObserver === 'function') {
+  new ResizeObserver(() => $('camp').style.setProperty('--camp-bar-h', `${campBar.offsetHeight}px`)).observe(campBar);
+}
 // ?debug is the test hook; tests ask for counting with &count. Local play (the owner's copy, the
 // test server) never counts unless asked, so the numbers are real players only.
 const LOCAL = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
@@ -121,6 +129,8 @@ $('loading').hidden = true;
 if (DEBUG) {
   $('debug').hidden = false;
   window.ends = { view, S, store, sound, q6 };
+  // Test hook: &physical shows the physical layer outside a place round.
+  if (params.has('physical')) window.ends.physicalReady = view.setPhysical(true);
 }
 
 function showScreen(id) {
@@ -368,6 +378,9 @@ function enterRound() {
   view.setNames(S.settings.names);
   view.setBorders(S.settings.borders);
   view.setFlags([]);
+  view.setPlaceMode(G.isPlacePrompt(S.prompt));
+  // Place rounds get the unlabelled physical layer; country rounds keep the plain sheet. A failed fetch leaves the plain sheet.
+  view.setPhysical(G.isPlacePrompt(S.prompt)).catch(() => {});
   view.clearPin();
   view.resetView();
   view.lock(false);
@@ -420,8 +433,10 @@ function typePrompt(text) {
 
 function renderSearch() {
   const wrap = $('search-wrap');
-  wrap.hidden = !S.settings.search;
-  if (!S.settings.search) return;
+  // A place round is pinned by eye: no search by name.
+  const on = S.settings.search && !G.isPlacePrompt(S.prompt);
+  wrap.hidden = !on;
+  if (!on) return;
   const sel = $('search');
   if (sel.options.length < 2) {
     for (const g of G.pickerGroups(countries.features)) {
@@ -489,7 +504,7 @@ function renderDrop(message) {
   if (message) out.textContent = message;
   else if (!pin) out.textContent = 'tap to pin';
   else if (pin.refusal) out.textContent = REFUSAL_TEXT[pin.refusal];
-  else out.textContent = `PIN ${S.settings.names ? pin.hit.name : coords(pin)}`;
+  else out.textContent = `PIN ${S.settings.names ? (pin.hit.name ?? coords(pin)) : coords(pin)}`; // a pin at sea has no name
 }
 
 function onPin(pin) {
@@ -603,7 +618,7 @@ function showReveal(row, isNew) {
   $('r-km').textContent = bonus ? `${kmText(row.pts)} (${bonus})` : kmText(row.pts);
   sound.reveal(R.roundKm(row.t));
   if (row.t === 'miss') maybeSheep();
-  $('r-name').textContent = row.n ? `You pinned ${row.n}` : 'No pin';
+  $('r-name').textContent = row.d != null && !row.i ? 'You pinned at sea' : row.n ? `You pinned ${row.n}` : 'No pin';
   $('r-line').textContent = G.revealLine(row, S.prompt);
   setOptional('r-stamp', S.prompt.stamp ? `Facts ${S.prompt.stamp}.` : '');
   setOptional('r-note', S.prompt.note ?? '');
@@ -616,7 +631,9 @@ function showReveal(row, isNew) {
   $('result').hidden = false;
   // Frame the country above the stamp card, once the reveal layout is in (the map is shorter then at 390),
   // so the fill is not hidden under the card.
-  if (row.i) view.reveal(row.i, G.revealPaint(row.t), $('stamp-card').getBoundingClientRect().top);
+  const coverTop = $('stamp-card').getBoundingClientRect().top;
+  if (G.isPlacePrompt(S.prompt)) view.revealPlace(row.lon != null ? { lng: row.lon, lat: row.lat } : null, S.prompt.place, coverTop);
+  else if (row.i) view.reveal(row.i, G.revealPaint(row.t), coverTop);
   $('summary').textContent = `${place}: ${tier.name}, ${kmText(row.pts)}.${isNew ? ' New Location' : ''}`;
 
   const last = S.practice || S.open.n === G.DECK_SIZE;
@@ -728,6 +745,35 @@ function advance() {
 
 // ---------- camp ----------
 
+// Owner ruling 2026-11-03: once question 6 is checked, the camp results card ends with a Bonus row, a tick on a
+// hit and a cross on a near or a miss, outside the km.
+function setCampBonus() {
+  $('camp-rows').querySelector('.camp-bonus')?.remove();
+  const verdict = store.bonus(S.date)?.verdict;
+  if (!verdict) return;
+  const li = document.createElement('li');
+  li.className = 'camp-bonus';
+  const num = document.createElement('span');
+  const st = document.createElement('span');
+  st.className = `tier-stamp bonus-mark bonus-mark--${verdict === 'hit' ? 'got' : 'missed'}`;
+  st.textContent = `BONUS ${verdict === 'hit' ? '✓' : '✗'}`;
+  st.setAttribute('aria-label', verdict === 'hit' ? 'Got the Bonus' : 'Missed the Bonus');
+  li.append(num, st);
+  $('camp-rows').appendChild(li);
+}
+
+// The camp share text. Question 6's CHECK calls it again, so its bonus line joins once the bonus is checked.
+function setCampShare() {
+  const rounds = S.run.rounds;
+  const km = G.runKm(S.run);
+  const mask = R.dayMask(rounds);
+  // §7 a late past-week day is our replay: it shares as unranked.
+  const text = S.run.late
+    ? R.replayShareText({ n: S.deal.n, km, mask })
+    : R.shareText({ n: S.deal.n, tierIds: rounds.map((r) => r.t), km, mask, usedSearch: rounds.some((r) => r.b), bonus: store.bonus(S.date)?.verdict });
+  $('share').dataset.shareText = text;
+}
+
 function showCamp() {
   stopTimers();
   S.mode = 'camp';
@@ -759,17 +805,13 @@ function showCamp() {
     li.append(num, st);
     rows.appendChild(li);
   });
+  setCampBonus();
   $('poster-km').textContent = R.formatKm(km);
   $('poster-band').textContent = G.resultLine(km);
   campTrail ??= createTrail($('camp-trail-map'));
   campTrail.set(km, { jump: true });
 
-  const mask = R.dayMask(rounds);
-  // §7 a late past-week day is our replay: it shares as unranked.
-  const text = S.run.late
-    ? R.replayShareText({ n: S.deal.n, km, mask })
-    : R.shareText({ n: S.deal.n, tierIds: rounds.map((r) => r.t), km, mask, usedSearch: rounds.some((r) => r.b) });
-  $('share').dataset.shareText = text;
+  setCampShare();
   $('share').textContent = 'SHARE';
 
   if (S.run.late) {
@@ -989,7 +1031,14 @@ const menu = createMenu({
 // ---------- walk-through (owner, 2026-10-28) ----------
 
 const TOUR_STEPS = [
-  { title: 'Welcome to Ends of the Earth', body: 'One expedition a day: five prompts about the Church, its history and the scriptures. This tour uses a practice prompt that never counts.' },
+  // Owner ask 2026-11-03: card 1 shows the scoring, so a SKIP on it still teaches it. One rule a line.
+  // Owner copy 2026-11-03 (second pass): "!" in the title, kilometers are points, This is the place.
+  { title: 'Welcome to Ends of the Earth!', body: `Each day brings ${G.DECK_SIZE} prompts. Pin the country where each one happened.\n`
+    + `A right pin earns ${R.TIERS[1].km} to ${R.TIERS[R.TIERS.length - 1].km} km. Kilometers are your points, and rarer answers go farther.\n`
+    + 'Wrong pin or no pin: a Lost sheep, 0 km.\n'
+    + `${R.EDGE_KM} km reaches the Salt Lake Valley (This is the place!).\n`
+    + 'Some days end with a bonus map question at camp. This one does not count towards your score.\n'
+    + 'This tour uses a practice prompt that never counts.' },
   { target: '.prompt-card', title: 'The prompt', body: 'Each prompt has several right countries. Pin any one of them.' },
   { target: '#map', title: 'The map', body: 'Tap a country to place your pin. Tap somewhere else to move it. Small country? Zoom in first. Zoom with + and -, or pinch.' },
   { target: '#search-wrap', title: 'Find by name', body: 'You turned on search, so you can also pick a country from this list.' },

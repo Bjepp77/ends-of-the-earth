@@ -1,0 +1,367 @@
+{
+ "day": 54,
+ "prompts": [
+  {
+   "id": "place-winter-quarters",
+   "bank": "places",
+   "display_text": "Pin Winter Quarters, where the Saints wintered in 1846-47.",
+   "text_original": "Drop a pin on Winter Quarters, the temporary settlement on the Missouri River where the Saints wintered in 1846-47.",
+   "accepts": "place",
+   "kind": "trail",
+   "place": {
+    "name": "Winter Quarters (Mormon Trail Center at Historic Winter Quarters, Omaha, Nebraska)",
+    "lat": 41.335,
+    "lng": -95.965
+   },
+   "topic": "church history sites",
+   "era": "1846-1848",
+   "citation": "Church History Topics, Winter Quarters; Mormon Trail Center at Winter Quarters page, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/winter-quarters?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/locations/mormon-trail-center-at-winter-quarters?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "After a slow 300-mile trek across Iowa, the Saints built a temporary settlement by the Missouri River, in what is now Omaha, Nebraska. About 4,000 people spent the winter of 1846-47 there amid hunger and disease. Brigham Young left Winter Quarters on April 7, 1847, with the vanguard pioneer company.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-portuguese-speaking",
+   "bank": "sites-temples",
+   "display_text": "Pin a Portuguese-speaking country with a temple, from announced to dedicated.",
+   "text_original": "A Portuguese-speaking country with a temple at any stage, from announced to dedicated (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Brazil has had a temple since São Paulo in 1978 and now has the most in the Portuguese-speaking world. Portugal (Lisbon, 2019) and Cape Verde (Praia, 2022) have dedicated temples. Angola and Mozambique have temples announced as of November 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO",
+    "CPV",
+    "MOZ"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "First dedicated: São Paulo Brazil (1978); 24 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First dedicated: Lisbon Portugal (2019); 2 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Luanda Angola (announced), as of November 2026."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 2,
+     "gem": true,
+     "fact": "First dedicated: Praia Cape Verde (2022); 1 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Beira Mozambique (announced); Maputo Mozambique (announced), as of November 2026."
+    }
+   ]
+  },
+  {
+   "id": "nt-baptism-places",
+   "bank": "nt",
+   "display_text": "Pin a country holding a place where the New Testament records people being baptized",
+   "text_original": "A present-day country holding a place where the New Testament records people being baptized",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Matthew 3:1-6; John 1:28; 10:40; Acts 2:41; 8:12; 9:18; 10:48; 16:15, 33; 18:8; 19:5",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/bethabara?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "The lower Jordan runs between Jordan and the West Bank, so both count; Israel counts through Jerusalem and Caesarea.",
+   "summary": "Baptism follows the gospel across the map. John baptized at the Jordan and in Bethabara beyond it. Three thousand were baptized at Jerusalem on Pentecost, Philip baptized in Samaria, and Saul was baptized in Damascus. Gentiles followed at Caesarea, then Lydia and a jailer at Philippi, many at Corinth, and twelve disciples at Ephesus.",
+   "stamp": null,
+   "gems": [
+    "GRC",
+    "SYR",
+    "TUR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About three thousand were baptized at Jerusalem on Pentecost, and Cornelius' household at Caesarea (Acts 2:41; 10:48)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "John baptized in Bethabara beyond Jordan, on the river's east side; BD Bethabara says the exact site is unknown, but scripture puts it beyond the river (John 1:28; 10:40)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Philip baptized men and women in the city of Samaria; John preached in the wilderness of Judea by the Jordan (Acts 8:12; Matthew 3:1-6)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Lydia and the jailer were baptized at Philippi, and many Corinthians at Corinth (Acts 16:15, 33; 18:8)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Saul arose and was baptized in Damascus after Ananias restored his sight (Acts 9:17-18)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About twelve disciples at Ephesus were baptized in the name of the Lord Jesus (Acts 19:1-7)."
+    }
+   ]
+  },
+  {
+   "id": "ha-jfsmith-europe-1906-1910",
+   "bank": "sites-history",
+   "display_text": "Pin a European country Joseph F. Smith visited as Church President in 1906 or 1910.",
+   "text_original": "A European country Joseph F. Smith visited as Church President on his 1906 or 1910 trips, the first by a sitting President outside the United States.",
+   "accepts": "country",
+   "topic": "church leaders",
+   "era": "1906-1910",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 1906 Joseph F. Smith became the first Church President to travel outside the United States while in office, visiting Saints across Europe. He returned in 1910 and urged Scandinavian members to build up the Church at home rather than emigrate.",
+   "stamp": null,
+   "gems": [
+    "BEL",
+    "DNK",
+    "SWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "1906: first Church President to visit Great Britain while in office."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "August 19, 1906: first Church President to visit Switzerland; in Bern he said temples would one day be built outside the United States."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "August 12, 1906: visited German Saints in Berlin, the first visit of a Church President to Germany."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 3,
+     "gem": true,
+     "fact": "August 5, 1906: visited the Saints in Antwerp."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": true,
+     "fact": "July 27, 1910: first Church President to visit Denmark."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": true,
+     "fact": "July 1910: visited Saints in Stockholm and encouraged them not to emigrate to Utah."
+    }
+   ]
+  },
+  {
+   "id": "temples-english-official-outside",
+   "bank": "temples",
+   "display_text": "Pin a non-African country or territory (not US, UK, Canada, Australia, NZ) with English official and any-stage temple, Oct 2026.",
+   "text_original": "A country or territory outside Africa, the United States, the United Kingdom, Canada, Australia and New Zealand where English is an official language and a temple is dedicated, under construction or announced (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; official-language lists",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is_an_official_language",
+    "https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "English is official far beyond the big English-speaking nations. As of October 2026 the Philippines, Fiji, Samoa, Tonga, Puerto Rico, Guam and Hong Kong all have dedicated temples, India, Singapore, Papua New Guinea, Vanuatu, Kiribati and American Samoa have temples under construction, and Ireland has one announced.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ASM",
+    "KIR",
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "English and Filipino official; six dedicated temples."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 4,
+     "gem": false,
+     "fact": "English official with Fijian and Hindi; Suva temple (2000)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "English and Tongan official; Nuku'alofa temple (1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "English and Samoan official; Apia temple (1983)."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 3,
+     "gem": false,
+     "fact": "English is an official language of the Union; Bengaluru temple under construction."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "English and Irish official; Dublin Ireland Temple announced 2024."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "English and Spanish official; San Juan temple (2023)."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 3,
+     "gem": false,
+     "fact": "English is one of four official languages; temple under construction."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 2,
+     "gem": false,
+     "fact": "English and Chamorro official; Yigo temple (2022)."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "English and Chinese official; Hong Kong temple (1996)."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "English official; Port Moresby temple under construction."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 1,
+     "gem": true,
+     "fact": "English and Samoan official; Pago Pago temple under construction."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "English and Gilbertese official; Tarawa temple under construction."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "English, French and Bislama official; Port Vila temple under construction."
+    }
+   ]
+  }
+ ]
+}

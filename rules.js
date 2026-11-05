@@ -46,6 +46,31 @@ export function answerCodeFor(pin, answerCodes) {
   return null;
 }
 
+// Place pins (owner rulings, 2026-11-03): the pin's great-circle distance to one named place sets the tier.
+// Each edge is inclusive: exactly 25.0 km is ends. Farther than 1000 km, or no pin, is a miss.
+export const EARTH_RADIUS_KM = 6371;
+export const PLACE_TIERS = [
+  { km: 25, id: 'ends' },
+  { km: 100, id: 'isles' },
+  { km: 250, id: 'mission' },
+  { km: 500, id: 'stake' },
+  { km: 1000, id: 'home-ward' },
+];
+
+// Haversine distance in km between two { lat, lng } points.
+export function haversineKm(a, b) {
+  const rad = Math.PI / 180;
+  const dLat = (b.lat - a.lat) * rad;
+  const dLng = (b.lng - a.lng) * rad;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLng / 2) ** 2;
+  return 2 * EARTH_RADIUS_KM * Math.asin(Math.min(1, Math.sqrt(h)));
+}
+
+export function placeTierFor(km) {
+  if (km == null || !Number.isFinite(km)) return 'miss';
+  return PLACE_TIERS.find((t) => km <= t.km)?.id ?? 'miss';
+}
+
 export const EDGE_KM = 500;
 
 // D7 (owner, 2026-10-26): a correct pin in a round played with names off scores 10% more,
@@ -248,10 +273,12 @@ export function formatKm(n) {
 }
 
 // km is the day total from the log rows (it can include the D7 bonus); without it the tiers decide.
-export function shareText({ n, tierIds, km = dayKm(tierIds), mask = 0, usedSearch = false }) {
+// bonus is question 6's saved verdict, once checked (owner ruling 2026-11-03): a line of its own, out of the km.
+export function shareText({ n, tierIds, km = dayKm(tierIds), mask = 0, usedSearch = false, bonus = null }) {
   const line1 = `${GAME_NAME} #${n} · ${formatKm(km)}/${formatKm(EDGE_KM)} km${asterisks(mask)}${usedSearch ? ' · ⌕' : ''}`;
   const line2 = tierIds.map((id) => tierById(id).name).join(' · ');
-  return `${line1}\n${line2}\n${SITE_URL}s/${shareCode(tierIds)}.html`;
+  const line3 = bonus ? `Bonus: ${bonus === 'hit' ? '✓' : '✗'}\n` : '';
+  return `${line1}\n${line2}\n${line3}${SITE_URL}s/${shareCode(tierIds)}.html`;
 }
 
 // §7 replay share. Our replay is a late past-week day: unranked, km and asterisks only, two lines (D2).

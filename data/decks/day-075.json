@@ -1,0 +1,366 @@
+{
+ "day": 75,
+ "prompts": [
+  {
+   "id": "place-hyde-park-chapel",
+   "bank": "places",
+   "display_text": "Pin the Hyde Park Chapel in London, dedicated by David O. McKay in 1961.",
+   "text_original": "Drop a pin on the Hyde Park Chapel on Exhibition Road in South Kensington, London, the Church's landmark meetinghouse dedicated by David O. McKay in 1961.",
+   "accepts": "place",
+   "kind": "abroad",
+   "place": {
+    "name": "Hyde Park Chapel, London",
+    "lat": 51.498,
+    "lng": -0.1737
+   },
+   "topic": "church history sites",
+   "era": "1961",
+   "citation": "Wikipedia and Church News; Wikidata and OpenStreetMap for the location, read 3 Nov 2026",
+   "source_urls": [
+    "https://en.wikipedia.org/wiki/Hyde_Park_Chapel",
+    "https://www.thechurchnews.com/2012/7/13/23225399/hyde-park-building-in-london-to-be-beacon-of-light-hope-truth-to-all-the-world/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Hyde Park Chapel stands on Exhibition Road in South Kensington, London, by the museums. President David O. McKay asked the British Mission to find a central London site; the building, with its gold-leaf spire and a dalle de verre stained-glass window, took 16 months to build and was dedicated by President McKay on 26 February 1961. It houses a chapel, a visitors' center and a family history center, and was refurbished and rededicated in 1995.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-capital-asia-africa-pacific",
+   "bank": "sites-temples",
+   "display_text": "Pin an Asian, African or Pacific nation with a dedicated temple named after its capital.",
+   "text_original": "A country in Asia, Africa or the Pacific with a dedicated temple named for its capital city (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1980-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Tokyo (1980) led the way, then Apia, Nuku'alofa, Manila, Taipei and Seoul in 1983 to 1985. Recent ones include Bangkok (2023), Nairobi (2025), and Phnom Penh and Harare (2026). Abidjan does not count, since the Ivory Coast capital is Yamoussoukro.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Tokyo Japan (dedicated 1980)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Seoul Korea (dedicated 1985)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manila Philippines (dedicated 1984)."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kinshasa Democratic Republic of the Congo (dedicated 2019)."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Accra Ghana (dedicated 2004)."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nairobi Kenya (dedicated 2025)."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bangkok Thailand (dedicated 2023)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nuku'alofa Tonga (dedicated 1983)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taipei Taiwan (dedicated 1984)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia Samoa (dedicated 1983)."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Suva Fiji (dedicated 2000)."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Phnom Penh Cambodia (dedicated 2026)."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Harare Zimbabwe (dedicated 2026)."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde (dedicated 2022)."
+    }
+   ]
+  },
+  {
+   "id": "hd-local-first-branch-president",
+   "bank": "sites-history",
+   "display_text": "Pin a country where a named local convert led a branch as its president before 1900.",
+   "text_original": "A country where a local convert was named as a branch president before 1900.",
+   "accepts": "country",
+   "topic": "leadership",
+   "era": "1843-1899",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Early branches abroad were usually led by local converts. The chronologies name some of them: John Skerry in Halifax (1843), Hans Peter Jensen in Aalborg (1850), Carl J. E. Fjeld in Christiania (1853), Gudmundur Gudmundsson in Iceland (1853), Timotheus Mets in Rotterdam (1863), Hare Te Katera in New Zealand (1883) and Frederick Pieper in Antwerp (1891).",
+   "stamp": null,
+   "gems": [
+    "BEL",
+    "ISL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "With the organization of the Halifax Branch in 1843, John Skerry became the first in Canada to be ordained an elder and serve as branch president."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "A branch was organized at Aalborg on November 25, 1850, with Hans Peter Jensen as branch president."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Timotheus Mets, the first Dutch branch president, led the Rotterdam Branch from November 1, 1863."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Christiania Branch was organized with nine members in 1853, with Carl J. E. Fjeld as its president."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first Maori branch was organized at Waotu in 1883 with Hare Te Katera as president."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "A branch was created in Antwerp before January 1891 with Frederick Pieper as president."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The first branch in Iceland was organized in 1853 with Gudmundur Gudmundsson as president."
+    }
+   ]
+  },
+  {
+   "id": "hc-church-banned-expelled",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose government banned the Church or expelled its missionaries during the 1900s.",
+   "text_original": "A country whose government banned Church activity or expelled its missionaries in the 20th century.",
+   "accepts": "country",
+   "topic": "opposition",
+   "era": "1901-1991",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Governments shut the Church out more than once in the 20th century: Hungary outlawed meetings around 1901, Mexico expelled foreign clergy in 1926, Communist Czechoslovakia banned the Church in 1950, Ghana locked meetinghouses in 1989, and Liberia's civil war closed its mission in 1991.",
+   "stamp": null,
+   "gems": [
+    "HUN",
+    "LBR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 4,
+     "gem": false,
+     "fact": "On April 6, 1950, Communist officials banned the Church from all public activity and expelled all foreign missionaries; no foreign missionaries served until 1989."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In June 1989 Ghana's government, acting on misinformation, banned the Church; foreign missionaries were deported, meetinghouses locked and public meetings prohibited until 1990."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "During the Cristero Rebellion in 1926 all foreign clergy and missionaries were expelled from Mexico, leaving local leaders to carry on."
+    },
+    {
+     "code": "SVK",
+     "name": "Slovakia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "As part of Czechoslovakia, Slovakia saw the Church banned from public activity and all foreign missionaries expelled on April 6, 1950."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Around 1901 missionaries renewed work in Hungary although they were legally banned from holding Church meetings."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In July 1990 Liberian missionaries fled the civil war to Sierra Leone, and in February 1991 the Liberia Monrovia Mission was discontinued."
+    }
+   ]
+  },
+  {
+   "id": "hd-small-branch-under-20",
+   "bank": "sites-history",
+   "display_text": "Pin a country where an early branch of the Church began with fewer than 20 members, before 1880.",
+   "text_original": "A country where an early branch was organized with fewer than 20 members, before 1880.",
+   "accepts": "country",
+   "topic": "branches",
+   "era": "1840-1879",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "The chronologies record the size of some founding branches: 12 members in Glasgow (1840), 12 in Hamburg (1852), 18 at Risor and 9 in Christiania (1852-53), 15 in Amsterdam (1862) and 8 in the Westman Islands (1874).",
+   "stamp": null,
+   "gems": [
+    "ISL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Hamburg Branch was organized on August 1, 1852, consisting of 12 members."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "A branch was organized in Glasgow with 12 members in August 1840."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Amsterdam Branch was organized in 1862 with 15 members."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first branch in Norway was created at Risor in 1852 with 18 members; the Christiania Branch followed in 1853 with nine."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "A new branch with eight members was organized in the Westman Islands on May 29, 1874."
+    }
+   ]
+  }
+ ]
+}

@@ -2,65 +2,6 @@
  "day": 39,
  "prompts": [
   {
-   "id": "history-dedicator-nelson",
-   "bank": "history2",
-   "display_text": "Pin a country with a temple standing today that Russell M. Nelson dedicated or rededicated.",
-   "text_original": "A country where Russell M. Nelson dedicated or rededicated a temple now in use (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1955-2026",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Russell M. Nelson, President of the Church from 2018 to 2025, dedicated the Rome Italy Temple in 2019, the first temple in Italy. He also dedicated Sapporo Japan (2016) and Concepción Chile (2018) and rededicated Nuku'alofa Tonga (2007). Later he rededicated Washington D.C. (2022) and Manti Utah (2024).",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "TON"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Manti Utah (rededicated 2024); Washington D.C. (rededicated 2022); Deseret Peak Utah (2024); and others."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Rome Italy (2019)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Concepción Chile (2018)."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sapporo Japan (2016)."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Nuku'alofa Tonga (rededicated 2007)."
-    }
-   ]
-  },
-  {
    "id": "bom-180th-anniversary-west-africa",
    "bank": "bom",
    "display_text": "Pin a country whose youth joined West Africa's 2010 celebrations of the Book of Mormon's 180th anniversary",
@@ -209,70 +150,6 @@
    ]
   },
   {
-   "id": "people-general-officers-missions-outside-americas",
-   "bank": "people",
-   "display_text": "Pin a country outside the Americas where a current Presiding Bishopric or Church-wide auxiliary leader served or led a mission.",
-   "text_original": "Several general officers serving as of October 2026 (the Presiding Bishopric and the general presidencies of the Relief Society, Young Women, Primary, Young Men and Sunday School) served as missionaries or mission leaders. Pin a country outside the Americas where one of them served, as named in their official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1970s-2026",
-   "citation": "Church leader biographies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/global-leadership-of-the-church?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/l-todd-budge?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/tamara-w-runia?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/gabriel-w-reid?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/w-christopher-waddell?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/paul-v-johnson?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/david-j-wunderli?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "General officers often bring mission experience. As of October 2026, Bishop Waddell had served twice in Spain, Bishop Budge twice in Japan, and Brother Wunderli presided over the Cape Verde Praia Mission. Sister Runia and Brother Reid both served as leaders in Sydney, Australia.",
-   "stamp": null,
-   "gems": [
-    "CPV"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Bishop L. Todd Budge: missionary in the Japan Fukuoka Mission, later president of the Japan Tokyo Mission."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Australia Sydney Mission leaders: Sister Tamara W. Runia (2018 to 2021) and Brother Gabriel W. Reid."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Bishop W. Christopher Waddell: missionary in Spain, later president of the Spain Barcelona Mission."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Brother Paul V. Johnson: missionary in the Norway Oslo Mission."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Brother David J. Wunderli: president of the Cape Verde Praia Mission, 2020 to 2023."
-    }
-   ]
-  },
-  {
    "id": "pioneer-africa-baptisms-before-1955",
    "bank": "pioneer",
    "display_text": "Pin an African country where Latter-day Saint converts were baptized before 1955.",
@@ -332,6 +209,166 @@
      "commonness": 1,
      "gem": true,
      "fact": "Lawrence C. Ratcliff baptized Johannes and Martha Cloete at Karibib in 1928."
+    }
+   ]
+  },
+  {
+   "id": "global-south-america-centennial-2025",
+   "bank": "global",
+   "display_text": "Pin a South American country where members celebrated 100 years of the Church in South America during 2025.",
+   "text_original": "On December 25, 1925, Elder Melvin J. Ballard dedicated South America for the preaching of the gospel in Buenos Aires. In 2025 members across the continent celebrated 100 years of the Church in South America. Pin a South American country where members held a centennial celebration or service day in 2025.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2025",
+   "citation": "Global Histories chronologies: Argentina, Peru, Chile, Paraguay, Uruguay (2025 entries)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Elder Melvin J. Ballard dedicated South America for the preaching of the gospel in Buenos Aires on December 25, 1925. One hundred years later, in 2025, members in Argentina, Chile, Peru, Uruguay and Paraguay marked the centennial with concerts, cultural nights and days of service.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY",
+    "URY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "On September 27, 2025, members held a day of service to celebrate 100 years of the restored gospel in South America, a century after the 1925 dedication in Buenos Aires."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "On June 14, 2025, members in Santiago broadcast a night of music and dance for the South America centennial."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In February 2025 the Tabernacle Choir performed in Lima and joined the celebration of 100 years of the Church in South America."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In June 2025 members in Paraguay joined in celebrating the centennial of the Church in South America."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On October 11, 2025, thousands gathered in Antel Arena in Montevideo for a centennial celebration with religious and traditional music and dance."
+    }
+   ]
+  },
+  {
+   "id": "temples-population-under-1m",
+   "bank": "temples",
+   "display_text": "Pin a country or territory of fewer than one million people with a temple at any stage (as of October 2026).",
+   "text_original": "A country or territory with fewer than one million people (UN World Population Prospects) and a temple at any stage (as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; UN World Population Prospects 2024",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://population.un.org/wpp/",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Small island populations have not stopped temples. Tonga, Samoa, French Polynesia, Fiji, Guam and Cabo Verde, each under one million people, have dedicated temples, and American Samoa, Vanuatu, Kiribati and New Caledonia have temples under construction or announced as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KIR",
+    "NCL",
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 105,000 people; Nuku'alofa temple (1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 220,000; Apia Samoa Temple (1983)."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 930,000; Suva Fiji Temple (2000)."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 280,000; Papeete Tahiti Temple (1983)."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 45,000; Pago Pago temple under construction."
+    },
+    {
+     "code": "CPV",
+     "name": "Cabo Verde",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 520,000; Praia Cape Verde Temple (2022)."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 2,
+     "gem": false,
+     "fact": "About 170,000; Yigo Guam Temple (2022)."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "About 135,000; Tarawa temple under construction."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "About 290,000; Nouméa temple announced."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "About 330,000; Port Vila temple under construction."
     }
    ]
   }

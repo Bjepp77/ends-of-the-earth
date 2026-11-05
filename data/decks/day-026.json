@@ -2,420 +2,436 @@
  "day": 26,
  "prompts": [
   {
-   "id": "temples-new-2016-18",
-   "bank": "temples",
-   "display_text": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
-   "text_original": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
-   "accepts": "country",
+   "id": "history-first-temple-nelson-era",
+   "bank": "history2",
+   "display_text": "Pin a country or territory whose first temple was dedicated while Russell M. Nelson was Church president.",
+   "text_original": "A country whose first temple was dedicated while Russell M. Nelson was Church president.",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2016-2018",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "era": "2018-2025",
+   "citation": "Church temple list (first dedication per country) and presidency dates",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "From 2016 through 2018, new temples were dedicated in Sapporo, Japan (2016), Paris, France (2017), Concepcion, Chile (2018) and Barranquilla, Colombia (2018), alongside eight in the United States. Paris was the first temple in France.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COL"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Cedar City Utah, 2017; Fort Collins Colorado, 2016; Hartford Connecticut, 2016; and 5 more."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Concepción Chile, 2018."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Paris France, 2017."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sapporo Japan, 2016."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Barranquilla Colombia, 2018."
-    }
-   ]
-  },
-  {
-   "id": "temples-second-dedicated-2010-2026",
-   "bank": "temples",
-   "display_text": "Pin a country whose second dedicated temple was dedicated in 2010 or later.",
-   "text_original": "Pin a country whose second dedicated temple was dedicated in 2010 or later.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2010-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "A country's second temple, counting only temples now in operation, usually means the Church there has outgrown one temple. New Zealand's second, in Auckland, was dedicated on 13 April 2025, the latest in this set.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "HND"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cebu City Philippines (13 June 2010)."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Córdoba Argentina (17 May 2015)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Concepción Chile (28 October 2018)."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Barranquilla Colombia (9 December 2018)."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Quito Ecuador (20 November 2022)."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Quetzaltenango Guatemala (11 December 2011)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Auckland New Zealand (13 April 2025)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Trujillo Peru (21 June 2015)."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Durban South Africa (16 February 2020)."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
-     "gem": true,
-     "fact": "San Pedro Sula Honduras (13 October 2024)."
-    }
-   ]
-  },
-  {
-   "id": "dc-gh-land-dedicated-1850-1881",
-   "bank": "dc",
-   "display_text": "Pin a country that Church leaders formally opened to missionaries with a prayer, 1850-1881.",
-   "text_original": "A country that, per its Church Global Histories chronology, an apostle or missionary formally dedicated for the preaching of the gospel between 1850 and 1881.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1850-1881",
-   "citation": "Church Global Histories chronologies: France, Italy, Switzerland, South Africa, Sweden, Mexico",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng"
-   ],
    "difficulty": 3,
-   "note": "Israel does not count: the 1873 Mount of Olives prayer was for the gathering of the Jews, not a dedication for preaching.",
-   "summary": "Opening a new land often began with a prayer of dedication. Global Histories record John Taylor dedicating France and Lorenzo Snow dedicating Italy in 1850, Snow dedicating Switzerland in 1851, missionaries on Lion's Head above Cape Town in 1853, Sweden in 1857 and Moses Thatcher in Mexico in 1880-81.",
-   "stamp": null,
+   "note": null,
+   "summary": "Russell M. Nelson was President of the Church from 2018 to 2025, and many countries and territories received their first temple in that time. President Nelson dedicated Rome Italy in 2019, and first temples followed in Haiti, Portugal and the Democratic Republic of the Congo (2019), Guam and Cape Verde (2022), Puerto Rico and Thailand (2023), and Kenya and Côte d'Ivoire (2025).",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CHE",
-    "SWE",
-    "ZAF"
+    "CIV",
+    "CPV",
+    "GUM",
+    "HTI",
+    "KEN"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1850: John Taylor dedicated France for missionary work."
-    },
     {
      "code": "ITA",
      "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rome Italy, 2019."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
      "commonness": 3,
      "gem": false,
-     "fact": "1850: Lorenzo Snow, T. B. H. Stenhouse and Jabez Woodard dedicated Italy."
+     "fact": "Lisbon Portugal, 2019."
     },
     {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 3,
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
      "gem": false,
-     "fact": "1880-81: Moses Thatcher dedicated Mexico for missionary work."
+     "fact": "Kinshasa Democratic Republic of the Congo, 2019."
     },
     {
-     "code": "CHE",
-     "name": "Switzerland",
+     "code": "PRI",
+     "name": "Puerto Rico",
      "commonness": 2,
-     "gem": true,
-     "fact": "1851: Lorenzo Snow dedicated Switzerland."
+     "gem": false,
+     "fact": "San Juan Puerto Rico, 2023."
     },
     {
-     "code": "SWE",
-     "name": "Sweden",
+     "code": "THA",
+     "name": "Thailand",
      "commonness": 2,
-     "gem": true,
-     "fact": "1857: Apostle Ezra T. Benson and mission leaders dedicated Sweden for preaching."
+     "gem": false,
+     "fact": "Bangkok Thailand, 2023."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 2,
+     "code": "CIV",
+     "name": "Côte d'Ivoire",
+     "commonness": 1,
      "gem": true,
-     "fact": "1853: missionaries dedicated the land on Lion's Head above Cape Town."
+     "fact": "Abidjan Ivory Coast, 2025."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde, 2022."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Yigo Guam, 2022."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port-au-Prince Haiti, 2019."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nairobi Kenya, 2025."
     }
    ]
   },
   {
-   "id": "global-wfp-unicef-gifts",
-   "bank": "global",
-   "display_text": "Pin a country named in the Church's 2022 World Food Programme or 2023 or 2026 UNICEF gifts",
-   "text_original": "The Church gave US$32 million to the World Food Programme in September 2022, and US$10 million (August 2023) and US$25 million (May 2026) to UNICEF for mothers and children. A country named as receiving help from one of these three gifts.",
-   "accepts": "country",
-   "topic": "humanitarian aid",
-   "era": "2022-2026",
-   "citation": "Newsroom 2022 WFP; Church News 2023-08-17; Church News 2026-05-20",
+   "id": "scripture-creole-languages",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory where Haitian, Papiamento, Bislama or Tok Pisin is official.",
+   "text_original": "A country or territory where a creole language with a Book of Mormon edition (Haitian, Papiamento, Bislama, Tok Pisin) is official",
+   "accepts": "country_or_territory",
+   "topic": "scripture geography",
+   "era": "1983-2004",
+   "citation": "Church News translation list",
    "source_urls": [
-    "https://newsroom.churchofjesuschrist.org/article/church-of-jesus-christ-32-million-world-food-programme",
-    "https://www.thechurchnews.com/global/2023/8/17/23811733/10-million-donation-unicef-mothers-children-central-african-republic-mail-haiti-mozambique",
-    "https://www.thechurchnews.com/living-faith/2026/05/20/church-of-jesus-christ-unicef-donation-25-million-child-nutrition/"
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Papiamento"
    ],
    "difficulty": 2,
-   "note": "Somaliland is scored as part of Somalia.",
-   "summary": "In 2022 the Church gave the World Food Programme US$32 million for hunger in nine countries from Afghanistan to Yemen. UNICEF received US$10 million in 2023 for mothers and children in four countries and US$25 million in 2026 for child nutrition in five more.",
+   "note": null,
+   "summary": "Book of Mormon text exists in creole languages including Haitian Creole (full text 1999), Tok Pisin of Papua New Guinea (2002), Bislama of Vanuatu (2004) and Papiamento (selections 1987). Papiamento is spoken in Aruba, Curacao and Bonaire.",
    "stamp": null,
    "gems": [
-    "CAF",
-    "MLI",
-    "SLE"
+    "BES"
    ],
    "gem_forced": false,
    "answers": [
     {
      "code": "HTI",
      "name": "Haiti",
-     "commonness": 4,
+     "commonness": 5,
      "gem": false,
-     "fact": "WFP 2022 and UNICEF 2023."
+     "fact": "Haitian Creole selections came in 1983 and the full text in 1999."
     },
     {
-     "code": "AFG",
-     "name": "Afghanistan",
+     "code": "PNG",
+     "name": "Papua New Guinea",
      "commonness": 3,
      "gem": false,
-     "fact": "WFP 2022 food aid."
+     "fact": "The Tok Pisin Book of Mormon appeared in 2002."
+    },
+    {
+     "code": "ABW",
+     "name": "Aruba",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Papiamento, given selections in 1987, is official in Aruba."
+    },
+    {
+     "code": "CUW",
+     "name": "Curacao",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Papiamento selections appeared in 1987."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bislama selections came in 1985 and the full text in 2004."
+    },
+    {
+     "code": "BES",
+     "name": "Caribbean Netherlands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Papiamento, given selections in 1987, kept its official status in the Caribbean Netherlands, which includes Bonaire, in 2010."
+    }
+   ]
+  },
+  {
+   "id": "bible-isaiah-13-23",
+   "bank": "bible",
+   "display_text": "Pin a present-day country holding a place named in Isaiah's oracles against the nations (Isaiah 13-23).",
+   "text_original": "A present-day country holding a place named in Isaiah's oracles against the nations (Isaiah 13-23)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Isaiah 13-23",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/23?lang=eng",
+    "https://en.wikipedia.org/wiki/Tayma",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/14?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In Isaiah 13 to 23, the prophet delivers burdens, or warnings, against the nations around Judah. They open with Babylon's fall and include Egypt, Damascus, Moab, Tyre and Sidon, and the Arabian oasis of Tema. Isaiah also names Elam and Media, and Cush, the Nile land south of Egypt (Isaiah 20:3-5).",
+   "stamp": null,
+   "gems": [
+    "PSE",
+    "SAU",
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Babylon's fall opens the oracles (Isaiah 13)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Isaiah 19 is the burden of Egypt."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Assyria took Ashdod, a Philistine city now in Israel (Isaiah 20:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Moab gets two chapters (Isaiah 15-16)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Isaiah 23 laments Tyre and Sidon."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Damascus will become a ruinous heap (Isaiah 17:1)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elam and Media are called to attack Babylon (Isaiah 21:2)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Isaiah 14:29-31 warns all Palestina (Philistia), whose city of Gaza is in the Gaza Strip."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tema, the oasis of Tayma, is told to bring water (Isaiah 21:14)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Isaiah 20:3-5 names Ethiopia (Cush), the Nile land from Syene to near Khartoum."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-26-eastern-europe-1991",
+   "bank": "draft",
+   "display_text": "Pin a formerly communist country that Saints names as newly open to missionaries about 1991.",
+   "text_original": "Saints vol. 4 ch. 26: around 1991, missionaries were newly permitted in these formerly communist countries. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1989-1991",
+   "citation": "Saints vol. 4 ch. 26",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/26-i-want-to-serve?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As communist governments fell around 1989 to 1991, countries that had kept missionaries out began to let them in. Saints vol. 4 ch. 26 names Poland, Hungary, Bulgaria, Romania, Slovenia and Croatia among the newly opened countries.",
+   "stamp": null,
+   "gems": [
+    "HRV",
+    "SVN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Opened to missionaries as the Iron Curtain fell."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Part of the Yugoslav breakup era; named in the list."
+    },
+    {
+     "code": "SVN",
+     "name": "Slovenia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Part of the Yugoslav breakup era; named in the list."
+    }
+   ]
+  },
+  {
+   "id": "temples-population-over-100m",
+   "bank": "temples",
+   "display_text": "Pin a country of more than 100 million people with a temple at any stage (as of October 2026).",
+   "text_original": "A country with a population above 100 million (UN World Population Prospects) and a temple at any stage (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; UN World Population Prospects 2024",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://population.un.org/wpp/",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Of the 15 countries with over 100 million people, 11 have a temple at some stage as of October 2026. Pakistan, Bangladesh, Ethiopia and Egypt do not. The Philippines, Mexico, Brazil and the United States have the most dedicated temples among them, while India, Indonesia, Russia and China have temples only under construction or announced.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CHN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 212 million; 12 dedicated temples."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 130 million; 14 dedicated temples."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Over 340 million people; more than 100 dedicated temples."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 123 million; 4 dedicated temples."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 116 million; 6 dedicated temples."
     },
     {
      "code": "COD",
      "name": "DR Congo",
      "commonness": 3,
      "gem": false,
-     "fact": "WFP 2022 and UNICEF 2026."
-    },
-    {
-     "code": "ETH",
-     "name": "Ethiopia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 food aid."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 and UNICEF 2026."
+     "fact": "About 109 million; Kinshasa temple."
     },
     {
      "code": "NGA",
      "name": "Nigeria",
      "commonness": 3,
      "gem": false,
-     "fact": "WFP 2022 (northeast) and UNICEF 2026."
+     "fact": "About 230 million; Aba Nigeria Temple."
     },
     {
-     "code": "SOM",
-     "name": "Somalia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 food aid. The gift went to Somalia, which this map splits; a Somaliland pin scores as Somalia."
-    },
-    {
-     "code": "YEM",
-     "name": "Yemen",
-     "commonness": 3,
-     "gem": false,
-     "fact": "WFP 2022 food aid."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
+     "code": "IDN",
+     "name": "Indonesia",
      "commonness": 2,
      "gem": false,
-     "fact": "UNICEF 2023 maternal and child health."
+     "fact": "About 283 million; Jakarta temple announced."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "IND",
+     "name": "India",
      "commonness": 2,
      "gem": false,
-     "fact": "UNICEF 2026 child nutrition."
+     "fact": "About 1.45 billion; Bengaluru temple under construction."
     },
     {
-     "code": "SSD",
-     "name": "South Sudan",
+     "code": "RUS",
+     "name": "Russia",
      "commonness": 2,
      "gem": false,
-     "fact": "WFP 2022 food aid."
+     "fact": "About 144 million; temple announced."
     },
     {
-     "code": "CAF",
-     "name": "Central African Republic",
+     "code": "CHN",
+     "name": "China",
      "commonness": 1,
      "gem": true,
-     "fact": "UNICEF 2023 maternal and child health."
-    },
-    {
-     "code": "MLI",
-     "name": "Mali",
-     "commonness": 1,
-     "gem": true,
-     "fact": "UNICEF 2023 maternal and child health."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 1,
-     "gem": true,
-     "fact": "UNICEF 2026 child nutrition."
-    }
-   ]
-  },
-  {
-   "id": "global-nelson-balkans-2010",
-   "bank": "global",
-   "display_text": "Pin a country where Russell M. Nelson offered a prayer dedicating or blessing the land in September 2010",
-   "text_original": "In September 2010 Elder Russell M. Nelson of the Quorum of the Twelve traveled through the former Yugoslavia and offered prayers dedicating or blessing six lands. A country where he offered such a prayer on that trip.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "2010",
-   "citation": "Newsroom, President Nelson timeline",
-   "source_urls": [
-    "https://newsroom.churchofjesuschrist.org/multimedia/file/President-Nelson-Timeline.pdf",
-    "https://thechurchnews.com/archives/2010-09-23/elder-nelson-pronounces-blessings-on-six-balkan-nations-62114"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In one September 2010 journey Russell M. Nelson, then an Apostle, offered prayers dedicating or blessing six lands of the former Yugoslavia: Croatia, Slovenia, Bosnia and Herzegovina, Montenegro, Kosovo and Macedonia. It was one of many such prayers he offered across Eastern Europe and Central Asia.",
-   "stamp": null,
-   "gems": [
-    "MKD",
-    "XKX"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "HRV",
-     "name": "Croatia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Blessed the land in September 2010."
-    },
-    {
-     "code": "SVN",
-     "name": "Slovenia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Blessed the land in September 2010."
-    },
-    {
-     "code": "BIH",
-     "name": "Bosnia and Herzegovina",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Dedicated for preaching in September 2010."
-    },
-    {
-     "code": "MNE",
-     "name": "Montenegro",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Blessed the land in September 2010."
-    },
-    {
-     "code": "MKD",
-     "name": "North Macedonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Dedicated in September 2010 from Mount Vodno at Skopje, then called Macedonia."
-    },
-    {
-     "code": "XKX",
-     "name": "Kosovo",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Blessed the land in September 2010."
+     "fact": "About 1.4 billion; Shanghai temple announced, Hong Kong temple dedicated."
     }
    ]
   }

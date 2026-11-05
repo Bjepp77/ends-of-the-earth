@@ -12,11 +12,11 @@ const BOUNCE_MS = 250;
 const MOUTH_MS = [10, 940];
 const MUTED_MOUTH_MS = [0, 300];
 
-export function createSheep({ host, baa }) {
+export function createSheep({ host, baa, id = 'sheep' }) {
   const root = document.createElement('button');
   root.type = 'button';
   root.className = 'sheep';
-  root.id = 'sheep';
+  root.id = id;
   root.hidden = true;
   root.tabIndex = -1;
   root.setAttribute('aria-label', 'Lost sheep: a lamb bleats. Tap to close.');

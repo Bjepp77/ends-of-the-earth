@@ -1,0 +1,353 @@
+{
+ "day": 56,
+ "prompts": [
+  {
+   "id": "place-kirtland-temple",
+   "bank": "places",
+   "display_text": "Pin the Kirtland Temple, dedicated in 1836.",
+   "text_original": "Drop a pin on the Kirtland Temple in Ohio, the first temple of the Restoration, dedicated in 1836.",
+   "accepts": "place",
+   "kind": "restoration",
+   "place": {
+    "name": "Kirtland Temple",
+    "lat": 41.6253,
+    "lng": -81.3621
+   },
+   "topic": "church history sites",
+   "era": "1832-1836",
+   "citation": "Kirtland Temple page, ChurchofJesusChrist.org, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/kirtland-temple?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/locations/historic-kirtland?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "The Saints sacrificed to build the Kirtland Temple, which was dedicated on March 27, 1836 (D&C 109). One week later Jesus Christ appeared to Joseph Smith and Oliver Cowdery there, followed by Moses, Elias and Elijah, who restored priesthood keys (D&C 110). Community of Christ cared for the temple for decades until stewardship passed to the Church in March 2024.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-island-nations",
+   "bank": "sites-temples",
+   "display_text": "Pin an island nation (Australia aside) that has at least one dedicated temple.",
+   "text_original": "An island country, not counting Australia, with at least one dedicated temple (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1958-2023",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Island nations with dedicated temples stretch from the United Kingdom and New Zealand (both 1958) to Samoa, Tonga, Fiji and Cape Verde. Hispaniola is shared by the Dominican Republic and Haiti, and both count. Territories such as Puerto Rico, Guam and Tahiti are excluded.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CPV"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Tokyo Japan (1980), Fukuoka Japan (2000), Sapporo Japan (2016) and others."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hamilton New Zealand (1958), Auckland New Zealand (2025)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Manila Philippines (1984), Cebu City Philippines (2010), Urdaneta Philippines (2024) and others."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "London England (1958), Preston England (1998)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Nuku'alofa Tonga (1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Apia Samoa (1983)."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santo Domingo Dominican Republic (2000)."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Suva Fiji (2000)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Taipei Taiwan (1984)."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Port-au-Prince Haiti (2019)."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia Cape Verde (2022)."
+    }
+   ]
+  },
+  {
+   "id": "tb-four-announced",
+   "bank": "sites-temples",
+   "display_text": "Pin a country outside the US with 4 or more temples announced but not yet being built.",
+   "text_original": "A country outside the United States with four or more temples announced but not yet under construction, as of November 2026.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2018-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Recent prophets announced temples faster than they can be built. As of November 2026 these countries each have at least four announced temples where work has not started.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NGA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Ten announced on the official list, including Cancún, Toluca, Culiacán and Reynosa."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "At least five announced, including Florianópolis, Goiânia, Vitória and Campo Grande."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "At least five announced, including Cusco, Piura, Chiclayo and Chorrillos."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Five announced: Tuguegarao City, Santiago, Iloilo, Laoag and San Jose del Monte."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Four announced: Eket, Calabar, Abuja and Uyo."
+    }
+   ]
+  },
+  {
+   "id": "ha-kimball-land-dedications",
+   "bank": "sites-history",
+   "display_text": "Pin a country Spencer W. Kimball dedicated for missionary work, from Central America to Poland.",
+   "text_original": "A country Spencer W. Kimball dedicated or rededicated for the preaching of the gospel, as an Apostle or as Church President.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1952-1977",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Spencer W. Kimball opened much of Latin America to missionary work while in the Twelve, dedicating Central America in 1952 and several Andean nations in the 1960s. As Church President he rededicated Poland in 1977.",
+   "stamp": null,
+   "gems": [
+    "BOL",
+    "COL",
+    "ECU",
+    "HND",
+    "POL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 4,
+     "gem": false,
+     "fact": "November 16, 1952, Guatemala City: dedicated Central America for the preaching of the gospel."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": true,
+     "fact": "June 1, 1967, La Paz: dedicated Bolivia for the preaching of the gospel."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": true,
+     "fact": "May 1966, Bogota: began formal preaching, dedicated the country and organized the Colombia Branch."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": true,
+     "fact": "October 9, 1965: dedicated Ecuador on the Panecillo hilltop in Quito."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 3,
+     "gem": true,
+     "fact": "1952: opened the Central American Mission and dedicated Central America, including Honduras."
+    },
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 3,
+     "gem": true,
+     "fact": "August 24, 1977, Warsaw: as Church President, rededicated Poland."
+    }
+   ]
+  },
+  {
+   "id": "bible-roman-officials",
+   "bank": "bible",
+   "display_text": "Pin a present-day country with a city or province where the New Testament places a named Roman official, the emperor aside.",
+   "text_original": "A present-day country with a city or province where the New Testament places a named Roman official, the emperor aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Luke 2:2; 23:1; Acts 10:1; 13:7; 18:12; 23:26; 24:27; 27:1-11 (Myra, Lycia); 28:7-16",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Roman officials appear across the New Testament. Pilate, Felix and Festus governed Judea, Gallio ruled at Corinth, and Sergius Paulus believed at Paphos (Acts 13:7). The centurion Julius escorted Paul from Caesarea past Sidon and Crete to Malta, where Publius hosted him, and on to Rome by way of Puteoli (Acts 27-28). Luke dates the Nativity by Cyrenius, governor of Syria.",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pilate judged Jesus at Jerusalem, and Felix, Festus, Cornelius and Claudius Lysias served at Caesarea (Luke 23:1; Acts 10:1; 23:26; 24:27)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Gallio was deputy of Achaia at Corinth, and the centurion Julius held Paul's ship at Fair Havens in Crete (Acts 18:12; 27:8-11)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sergius Paulus, the deputy at Paphos, believed when Elymas was struck blind (Acts 13:7)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The centurion Julius brought Paul ashore at Puteoli and on to Rome (Acts 28:13-16)."
+    },
+    {
+     "code": "MLT",
+     "name": "Malta",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Publius, the chief man of the island, hosted Paul for three days (Acts 28:7)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The centurion Julius changed ships at Myra, a city of Lycia (Acts 27:5-6)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Luke dates the birth of Jesus by Cyrenius, governor of Syria; the New Testament names the province, not a city (Luke 2:2)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Julius let Paul visit his friends when the ship touched at Sidon (Acts 27:3)."
+    }
+   ]
+  }
+ ]
+}

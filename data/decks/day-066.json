@@ -1,0 +1,330 @@
+{
+ "day": 66,
+ "prompts": [
+  {
+   "id": "place-copenhagen",
+   "bank": "places",
+   "display_text": "Pin Copenhagen, where the Scandinavian Mission opened in 1850.",
+   "text_original": "Drop a pin on Copenhagen, Denmark, where Erastus Snow opened the Scandinavian Mission in 1850 and the Book of Mormon was first printed in a language other than English.",
+   "accepts": "place",
+   "kind": "abroad",
+   "place": {
+    "name": "Copenhagen, Denmark (City Hall Square)",
+    "lat": 55.6761,
+    "lng": 12.5683
+   },
+   "topic": "church history sites",
+   "era": "1850-1851",
+   "citation": "Church History Topics, Denmark, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/denmark?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Elder Erastus Snow arrived in Copenhagen in June 1850 and organized the first branch in Scandinavia that September. The Danish Book of Mormon, printed in Copenhagen in 1851, was the first edition in a language other than English. Thousands of Danish converts later emigrated to Utah.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-same-city-two-temples",
+   "bank": "sites-temples",
+   "display_text": "Pin a non-US country where a single city has, or will have, two temples carrying its name.",
+   "text_original": "A country outside the United States where one city has two temples bearing its name, at any stage (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Seven countries outside the US have a city with a second temple named for it. Lima and Guatemala City already have two dedicated temples each. Santiago West Chile is under construction, and second temples are announced for Mexico City, São Paulo, Buenos Aires and Brisbane.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "GTM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "São Paulo Brazil (1978) and São Paulo East Brazil (announced)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City Mexico (1983) and Mexico City Benemérito Mexico (announced)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (1986) and Buenos Aires City Center (announced)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Brisbane Australia (2003) and Brisbane Australia South (announced)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago Chile (1983) and Santiago West Chile (under construction)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima Peru (1986) and Lima Peru Los Olivos (2024), Chorrillos (announced)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Guatemala City Guatemala (1984) and Miraflores Guatemala City (2026)."
+    }
+   ]
+  },
+  {
+   "id": "bible-marriages",
+   "bank": "bible",
+   "display_text": "Pin a country where the Bible records a marriage taking place.",
+   "text_original": "A present-day country where the Bible records a marriage taking place",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old and New Testament",
+   "citation": "Genesis 29; 41:45; Judges 14; Ruth 1:4; 4:13; Esther 2:16-17; John 2:1-11",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Bible marriages span the whole map. Jacob married Leah and Rachel at Haran in today's Turkey, Joseph married Asenath in Egypt, and Ruth first married in Moab and then Boaz at Bethlehem (Ruth 4:13). Esther was crowned at Shushan in Iran, and the best known wedding of all, at Cana of Galilee, is where Jesus turned water into wine (John 2).",
+   "stamp": null,
+   "gems": [
+    "PSE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Jesus turned water to wine at a wedding in Cana of Galilee, and Samson married at Timnath (John 2:1-11; Judges 14)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Pharaoh gave Joseph Asenath, daughter of the priest of On, as his wife (Genesis 41:45)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jacob married Leah and Rachel at Haran, in southeastern Turkey today (Genesis 29)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Esther became queen at Shushan when the king set the crown on her head (Esther 2:16-17)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Naomi's sons took Moabite wives, Orpah and Ruth, in the land of Moab (Ruth 1:4)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Boaz took Ruth to wife at Bethlehem (Ruth 4:13)."
+    }
+   ]
+  },
+  {
+   "id": "sites-church-schools-pre-1930",
+   "bank": "sites",
+   "display_text": "Pin a country or territory where the Church ran its own school before 1930.",
+   "text_original": "Long before today's seminaries, the Church ran its own schools in several lands, from academies in the United States to village schools in the Pacific. Pin a country or territory where the Church operated a school before 1930.",
+   "accepts": "country_or_territory",
+   "topic": "education",
+   "era": "1875-1930",
+   "citation": "Global Histories chronologies: New Zealand, Tonga, Samoa, American Samoa; Church History Topics: Church Academies (United States, Mexico, Canada)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/united-states/us-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/church-academies?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Church schooling reached far beyond Utah early. The stake-academy network of 1888 stretched from Alberta to Juarez Academy in Mexico, Samoa had central Church schools in the 1890s, New Zealand's Maori Agricultural College was dedicated in 1913, and Tonga ran Church schools in the 1920s, all decades before the modern Church school system in the Pacific.",
+   "stamp": null,
+   "gems": [
+    "ASM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Brigham Young Academy opened in Provo in 1875, later Brigham Young University."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Stake academies were operated in Alberta as part of the Church academy network begun in 1888."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Juarez Academy in the Mormon colonies of Chihuahua was the southern end of the stake-academy network begun in 1888."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Maori Agricultural College was dedicated in 1913."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Church schools operated before 1922, and the Makeke School ran 1925-27."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Central Church schools opened in the 1890s at Tuasivi and Malaela; classes at Sauniatu from 1905."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 1,
+     "gem": true,
+     "fact": "In the 1890s missionaries opened central schools, including at Pago Pago on Tutuila."
+    }
+   ]
+  },
+  {
+   "id": "scripture-century-wait",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory whose Church chronology shows 100+ years from first missionaries to its main-language Book of Mormon.",
+   "text_original": "In some lands more than a century passed between the first missionaries' arrival and a Book of Mormon in the main local language. Pin a country or territory where that gap, as recorded in the Church's chronologies, exceeded 100 years.",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1851-1991",
+   "citation": "Global Histories chronologies: India, South Africa, Iceland, Hong Kong, Thailand, Hungary",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Early missions did not always bring early scriptures. India was opened in 1851 but had no Hindi Book of Mormon until 1982; Thailand was visited in 1854 and waited until 1976; South Africa from 1853 to the Afrikaans edition of 1972; Iceland from 1851 to 1981. Hungary saw missionaries in 1885 and its Book of Mormon in 1991.",
+   "stamp": null,
+   "gems": [
+    "HUN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Missionary work began in Calcutta in 1851; the Hindi Book of Mormon came in 1982."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elam Luddington reached Bangkok in 1854; the Thai Book of Mormon came in 1976."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries reached Cape Town in 1853; the Afrikaans Book of Mormon came in 1972."
+    },
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The 1853 mission to Hong Kong was the Church's first to the Chinese; Chinese scriptures came in 1965."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hosea Stout and companions arrived in 1853; the Chinese Book of Mormon was printed there in 1965."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Icelandic converts returned as missionaries in 1851; the Icelandic Book of Mormon came in 1977."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries worked in Budapest in 1885; the Hungarian Book of Mormon came in 1991."
+    }
+   ]
+  }
+ ]
+}

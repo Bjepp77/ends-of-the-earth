@@ -2,377 +2,433 @@
  "day": 32,
  "prompts": [
   {
-   "id": "history-temples-dedicated-1984",
-   "bank": "history2",
-   "display_text": "Pin a country where a new temple was dedicated in 1984 (not rededications).",
-   "text_original": "A country where a new temple was dedicated in 1984 (not counting rededications).",
+   "id": "ot-psalm-83-confederacy",
+   "bank": "ot",
+   "display_text": "Pin a country holding the homeland of a people in the Psalm 83 confederacy against Israel, or one it recalls (Midian, Sisera)",
+   "text_original": "A present-day country holding the homeland of a people in the confederacy against Israel in Psalm 83:6-11 (Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines, Tyre, Assur), or a people or place the psalm recalls from earlier victories (Midian, the brook Kison, En-dor)",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1984",
-   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates), read 26 Oct 2026",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Psalm 83",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/amalek?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng"
    ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "In 1984 new temples were dedicated in Asia, the Pacific and Latin America as well as the United States. Gordon B. Hinckley dedicated Sydney Australia, Manila Philippines, Taipei Taiwan and Guatemala City Guatemala that year, and Boise Idaho and Dallas Texas were also dedicated.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 3,
+   "note": "Philistine Gaza is in Palestine; Philistine Ashdod, Ashkelon, Ekron and Gath are in Israel, so both count.",
+   "summary": "Psalm 83, a psalm of Asaph, describes nations that took crafty counsel to cut Israel off: Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines and Tyre, helped by Assur. The psalmist asks the Lord to deal with them as with Midian and with Sisera and Jabin at the brook Kison (Ps 83).",
+   "stamp": null,
    "gems": [
-    "GTM",
-    "TWN"
+    "PSE",
+    "SAU"
    ],
    "gem_forced": true,
+   "answers": [
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Edom, Moab and Ammon are in the confederacy (Ps 83:6-7)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Amalek is in the confederacy (Ps 83:7); the Bible Dictionary places Amalek in the desert of Paran, the central Sinai."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Assur also is joined with them (Ps 83:8)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Philistine Ashdod, Ashkelon, Ekron and Gath lie in Israel (Ps 83:7); Sisera fell at the brook Kison (Ps 83:9)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The inhabitants of Tyre join the confederacy (Ps 83:7)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Philistines are in the confederacy; their city Gaza is in the Gaza Strip (Ps 83:7)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The psalm recalls the Midianites (Ps 83:9); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
+    }
+   ]
+  },
+  {
+   "id": "global-africa-5k-20k",
+   "bank": "global",
+   "display_text": "Pin an African country where the Church has between 5,000 and 20,000 members (end of 2025).",
+   "text_original": "An African country where the Church had between 5,000 and 20,000 members at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cape-verde?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/republic-of-the-congo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/angola?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/togo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/benin?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/malawi?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zambia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/botswana?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/tanzania?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Nine African countries had between 5,000 and 20,000 members at the end of 2025: Cabo Verde (16,334), the Republic of the Congo (15,482), Angola (8,779), Togo (8,349), Benin (8,286), Malawi (7,857), Zambia (7,823), Tanzania (6,259) and Botswana (5,465). Cameroon (3,673) and Rwanda (3,625) were still under 4,000; Ethiopia has no published count.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BEN",
+    "TGO"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 3,
+     "gem": false,
+     "fact": "8,779 members."
+    },
+    {
+     "code": "ZMB",
+     "name": "Zambia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "7,823 members."
+    },
+    {
+     "code": "BWA",
+     "name": "Botswana",
+     "commonness": 2,
+     "gem": false,
+     "fact": "5,465 members."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "15,482 members."
+    },
+    {
+     "code": "CPV",
+     "name": "Cabo Verde",
+     "commonness": 2,
+     "gem": false,
+     "fact": "16,334 members (latest published figure)."
+    },
+    {
+     "code": "MWI",
+     "name": "Malawi",
+     "commonness": 2,
+     "gem": false,
+     "fact": "7,857 members."
+    },
+    {
+     "code": "TZA",
+     "name": "Tanzania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "6,259 members."
+    },
+    {
+     "code": "BEN",
+     "name": "Benin",
+     "commonness": 1,
+     "gem": true,
+     "fact": "8,286 members."
+    },
+    {
+     "code": "TGO",
+     "name": "Togo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "8,349 members."
+    }
+   ]
+  },
+  {
+   "id": "scripture-revised-translations",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory whose Church chronology records a revised or new Book of Mormon translation in its language.",
+   "text_original": "Translations age, and the Church has issued new or revised Book of Mormon translations in several languages. Pin a country or territory whose Church chronology records a revised or new translation of the Book of Mormon in its language.",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1917-2026",
+   "citation": "Global Histories chronologies: New Zealand, Russia, Hong Kong, Italy, Switzerland, Sweden, South Korea, Ukraine, Guatemala",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Translations get revised. The Maori Book of Mormon was reworked in 1917-19, Italian in 1951-65 by the Swiss Mission, Spanish in 1994, Korean in 2005, Chinese in 2007-08, Swedish in 2008 and Russian in 2012. Each revision aimed at clearer, more current language for members.",
+   "stamp": null,
+   "gems": [
+    "HKG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "A new Russian translation of the Book of Mormon was published in 2012."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Swiss Mission translated and published new Italian editions in 1951-65."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "New Korean translations of all three books were released in 2005."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Matthew Cowley, Stuart Meha and William Duncan Sr. revised the Maori translation in 1917-19."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Swiss Mission produced the new Italian editions of 1951-65."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "A new Spanish translation of the triple combination was released in February 1994."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": false,
+     "fact": "New Swedish editions of the Book of Mormon and other scriptures came out in 2008."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "A revised Ukrainian Book of Mormon appeared in 2005."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 1,
+     "gem": true,
+     "fact": "A revised Chinese translation in traditional and simplified characters was published in 2007-08."
+    }
+   ]
+  },
+  {
+   "id": "temples-un-security-council-permanent",
+   "bank": "temples",
+   "display_text": "Pin a permanent member of the UN Security Council with a temple dedicated, under construction or announced (as of October 2026).",
+   "text_original": "A permanent member of the United Nations Security Council with a temple dedicated, under construction or announced (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; UN Security Council membership",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://main.un.org/securitycouncil/en/content/current-members"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "All five permanent members of the UN Security Council have a temple at some stage as of October 2026. The United States, the United Kingdom and France have dedicated temples, China has the Hong Kong temple with Shanghai announced, and Russia has an announced temple with no city named.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "RUS"
+   ],
+   "gem_forced": false,
    "answers": [
     {
      "code": "USA",
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Boise Idaho; Dallas Texas (dedicated 1984)."
+     "fact": "More than 100 dedicated temples, from St. George (1877) on."
     },
     {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sydney Australia (dedicated 1984)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Manila Philippines (dedicated 1984)."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Guatemala City Guatemala (dedicated 1984)."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Taipei Taiwan (dedicated 1984)."
-    }
-   ]
-  },
-  {
-   "id": "temples-first-announced-2019-20",
-   "bank": "temples",
-   "display_text": "Pin a country or territory whose first temple was announced in 2019 or 2020.",
-   "text_original": "Pin a country or territory whose first temple was announced in 2019 or 2020.",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2019-2020",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://www.thechurchnews.com/temples/2026/08/24/pago-pago-american-samoa-temple-dedication-open-house-set/"
-   ],
-   "difficulty": 3,
-   "note": "Hong Kong, which has had a temple since 1996, is counted separately from mainland China.",
-   "summary": "In 2019 and 2020 seven countries and territories got their first temple announcement, including Hungary, Sierra Leone, Papua New Guinea, Kiribati and China (Shanghai). As of October 2026 none of the seven is dedicated yet; most are under construction.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "KIR",
-    "PNG",
-    "SLE",
-    "VUT"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "CHN",
-     "name": "People's Republic of China",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Shanghai, announced 2020."
-    },
-    {
-     "code": "ARE",
-     "name": "United Arab Emirates",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Dubai United Arab Emirates, announced 2020."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Budapest Hungary, announced 2019."
-    },
-    {
-     "code": "KIR",
-     "name": "Kiribati",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Tarawa Kiribati, announced 2020."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port Moresby Papua New Guinea, announced 2019."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Freetown Sierra Leone, announced 2019."
-    },
-    {
-     "code": "VUT",
-     "name": "Vanuatu",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port Vila Vanuatu, announced 2020."
-    }
-   ]
-  },
-  {
-   "id": "ot-foreign-gods-homelands",
-   "bank": "ot",
-   "display_text": "Pin a country that was home to a foreign god named in the Old Testament, from Chemosh to Dagon",
-   "text_original": "A present-day country holding the home city or land of a foreign god named in the Old Testament: Chemosh of Moab, Milcom of Ammon, Ashtoreth of the Zidonians, Dagon of Ashdod and Gaza, Baal-zebub of Ekron, Rimmon of Damascus, Ashima of Hamath, Nisroch of Nineveh, Nergal of Cuth, Bel and Nebo of Babylon, and the gods of Egypt",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "1 Samuel 5; 1 Kings 11; 2 Kings 1, 5, 17, 19; Judges 16; Isaiah 46; Exodus 12",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Gaza is in Palestine; Ashdod and Ekron are in Israel.",
-   "summary": "The Old Testament names many gods of Israel's neighbours: Chemosh of Moab, Milcom of Ammon, Ashtoreth of Zidon, Dagon of the Philistines, Rimmon of Damascus and Nisroch of Nineveh. The ark toppled Dagon's image at Ashdod, Samson pulled down Dagon's house at Gaza, and Isaiah mocked Bel and Nebo of Babylon (1 Sam 5; Judg 16; Isa 46).",
-   "stamp": null,
-   "gems": [
-    "PSE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
+     "code": "FRA",
+     "name": "France",
      "commonness": 4,
      "gem": false,
-     "fact": "The Lord said he would execute judgment against all the gods of Egypt (Ex 12:12)."
+     "fact": "Paris France Temple (2017)."
     },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Chemosh was the abomination of Moab and Milcom the abomination of the Ammonites (1 Kgs 11:5, 7)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Solomon went after Ashtoreth the goddess of the Zidonians (1 Kgs 11:5)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sennacherib was slain worshipping in the house of Nisroch his god at Nineveh; Bel and Nebo were gods of Babylon (2 Kgs 19:36-37; Isa 46:1)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Philistines set the ark in the house of Dagon at Ashdod, and Baal-zebub was the god of Ekron (1 Sam 5:2; 2 Kgs 1:2)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Naaman's master worshipped in the house of Rimmon at Damascus, and the men of Hamath made Ashima (2 Kgs 5:18; 17:30)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The lords of the Philistines gathered at Gaza to sacrifice to Dagon when Samson was captured (Judg 16:21-23)."
-    }
-   ]
-  },
-  {
-   "id": "ot-genesis-14-war-of-kings",
-   "bank": "ot",
-   "display_text": "Pin a country holding a kingdom or battle site in the war of the kings, Genesis 14",
-   "text_original": "A present-day country holding a kingdom or battle site in the war of the kings in Genesis 14: the eastern kings of Shinar and Elam, the peoples they smote from Ashteroth Karnaim to mount Seir and El-paran, the vale of Siddim by the salt sea, and Abram's pursuit to Dan and Hobah near Damascus",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Genesis 14",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/seir?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "The salt sea (Dead Sea) is shared by Israel, Jordan and the West Bank, so all three count for the vale of Siddim.",
-   "summary": "Four eastern kings led by Chedorlaomer of Elam crushed a revolt by five cities of the plain, swept through Bashan, Moab, Seir and Kadesh, and carried Lot away from Sodom. Abram armed 318 servants, pursued them to Dan and beyond Damascus, rescued Lot, and paid tithes to Melchizedek king of Salem (Gen 14).",
-   "stamp": null,
-   "gems": [
-    "EGY",
-    "PSE"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Amraphel was king of Shinar, the land of Babylon (Gen 14:1)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The kings smote the Amorites at Hazezon-tamar, which is Engedi, and Abram pursued them unto Dan (Gen 14:7, 14; 2 Chr 20:2)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Chedorlaomer, who led the war, was king of Elam (Gen 14:1, 4-5)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "They smote the Zuzims in Ham and the Horites in their mount Seir (Gen 14:5-6)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "They smote the Rephaims in Ashteroth Karnaim, and Abram chased them to Hobah, on the left hand of Damascus (Gen 14:5, 15)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The Horites were smitten in mount Seir unto El-paran, the wilderness of Paran in the central Sinai peninsula (Gen 14:6; Bible Dictionary, Paran)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The battle was in the vale of Siddim, which is the salt sea (Gen 14:3); the Dead Sea's northwest shore is in the West Bank."
-    }
-   ]
-  },
-  {
-   "id": "dc-hyde-1841-journey-stops",
-   "bank": "dc",
-   "display_text": "Pin a country where Orson Hyde stopped on his 1841 trip to dedicate the Holy Land (marked map stops).",
-   "text_original": "A country holding a city where Orson Hyde stopped on his 1841 mission journey from London to Jerusalem and back to Trieste, as mapped by the Joseph Smith Papers (Jerusalem itself not counted).",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1840s",
-   "citation": "Joseph Smith Papers map, Orson Hyde's mission travels June-December 1841; Saints vol. 1 ch. 36",
-   "source_urls": [
-    "https://josephsmithpapers.org/bc-jsp/content/jsp/images/content/library/pdf/D8_Map_Orson-Hyde-travels-1841.pdf",
-    "https://rsc.byu.edu/fall-2017/orson-hyde-nauvoo-jerusalem-back-again",
-    "https://www.churchofjesuschrist.org/study/history/topics/dedication-of-the-holy-land?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Only the cities marked on the JSP map count. The Danube leg (Austria, Hungary, Serbia, Bulgaria, Romania) has no marked stops.",
-   "summary": "In 1840 Orson Hyde saw London, Amsterdam, Constantinople and Jerusalem in vision and was sent to dedicate the Holy Land. He crossed Europe, sailed by way of Smyrna and Beirut to Jaffa, and prayed on the Mount of Olives on October 24, 1841. He returned through Egypt, Trieste and Germany and reached Nauvoo in December 1842.",
-   "stamp": null,
-   "gems": [
-    "ITA"
-   ],
-   "gem_forced": false,
-   "answers": [
     {
      "code": "GBR",
      "name": "United Kingdom",
      "commonness": 4,
      "gem": false,
-     "fact": "London, where he departed in June 1841 after helping the Twelve in England."
+     "fact": "London (1958) and Preston (1998) temples; Birmingham under construction."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Jaffa, where he landed in October 1841 before going inland to Jerusalem."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Mainz, Frankfurt and Regensburg, where he boarded a Danube steamer in August 1841."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Damietta, Cairo and Alexandria on the way home, November 1841."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Constantinople (Istanbul) and Smyrna (Izmir)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "CHN",
+     "name": "China",
      "commonness": 2,
      "gem": false,
-     "fact": "Beirut, on the sea route from Smyrna to Jaffa."
+     "fact": "Hong Kong China Temple (1996); Shanghai temple announced in 2020."
     },
     {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Rotterdam, Amsterdam and Arnhem."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
+     "code": "RUS",
+     "name": "Russia",
      "commonness": 1,
      "gem": true,
-     "fact": "Trieste, then Austrian and now in Italy, reached in December 1841."
+     "fact": "A temple in Russia was announced in 2018; no site named yet."
+    }
+   ]
+  },
+  {
+   "id": "global-africa-five-plus-stakes",
+   "bank": "global",
+   "display_text": "Pin an African country where the Church has 5 or more stakes as of October 2026.",
+   "text_original": "An African country where the Church has 5 or more stakes (as of October 2026, year-end 2025 figures).",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025) and Global Histories overviews, read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/democratic-republic-of-the-congo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/ghana?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/madagascar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/republic-of-the-congo?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Eleven African countries have 5 or more stakes. Nigeria leads with 80, followed by the Democratic Republic of the Congo (44), Ghana (31), Ivory Coast (23) and South Africa (18). Smaller but fast-growing stake networks exist in Zimbabwe, Sierra Leone, Mozambique, Liberia, Madagascar and the Republic of the Congo.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COG",
+    "MDG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
+     "gem": false,
+     "fact": "31 stakes; about 123,000 members."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "80 stakes, the most in Africa; about 274,000 members."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "44 stakes; about 160,000 members."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "18 stakes; about 79,000 members."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "23 stakes; about 71,000 members."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes; about 52,000 members."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "7 stakes; about 26,000 members."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "10 stakes; about 39,000 members."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "11 stakes; about 42,000 members."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "5 stakes; about 15,000 members."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "5 stakes; about 20,000 members."
     }
    ]
   }

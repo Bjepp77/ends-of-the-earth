@@ -2,25 +2,24 @@
  "day": 16,
  "prompts": [
   {
-   "id": "history-dedicator-rasband",
+   "id": "history-temples-dedicated-1985-86",
    "bank": "history2",
-   "display_text": "Pin a country with a temple standing today that Ronald A. Rasband dedicated or rededicated.",
-   "text_original": "A country where Ronald A. Rasband dedicated or rededicated a temple now in use (as of October 2026).",
+   "display_text": "Pin a country where a new temple was dedicated in 1985 or 1986 (not rededications).",
+   "text_original": "A country where a new temple was dedicated in 1985 or 1986 (not counting rededications).",
    "accepts": "country",
    "topic": "temples",
-   "era": "1955-2026",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "era": "1985-1986",
+   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates) and the Church temple list, read 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Ronald A. Rasband has dedicated temples on four continents. They include Durban South Africa (2020), Bangkok Thailand (2023), Mendoza Argentina (2024), Abidjan Ivory Coast (2025), and Ephraim Utah and Managua Nicaragua (2026). Bangkok was the first temple in Thailand, and Abidjan the first in Côte d'Ivoire.",
+   "summary": "In 1985 Gordon B. Hinckley dedicated temples at Freiberg Germany, Stockholm Sweden, Johannesburg South Africa and Seoul Korea. In 1986 South America gained temples at Buenos Aires and Lima. Saints vol. 4 tells of Betty Campi of Argentina, who held a temple recommend while she waited for a temple in her own country.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CIV",
-    "NIC"
+    "KOR"
    ],
    "gem_forced": false,
    "answers": [
@@ -29,149 +28,154 @@
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Ephraim Utah (2026)."
+     "fact": "Chicago Illinois (1985); Denver Colorado (1986)."
     },
     {
      "code": "ARG",
      "name": "Argentina",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "Mendoza Argentina (2024)."
+     "fact": "Buenos Aires Argentina (1986)."
     },
     {
-     "code": "THA",
-     "name": "Thailand",
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg Germany (1985)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lima Peru (1986)."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
      "commonness": 2,
      "gem": false,
-     "fact": "Bangkok Thailand (2023)."
+     "fact": "Stockholm Sweden (1985)."
     },
     {
      "code": "ZAF",
      "name": "South Africa",
      "commonness": 2,
      "gem": false,
-     "fact": "Durban South Africa (2020)."
+     "fact": "Johannesburg South Africa (1985)."
     },
     {
-     "code": "CIV",
-     "name": "Côte d'Ivoire",
+     "code": "KOR",
+     "name": "South Korea",
      "commonness": 1,
      "gem": true,
-     "fact": "Abidjan Ivory Coast (2025)."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Managua Nicaragua (2026)."
+     "fact": "Seoul Korea (1985)."
     }
    ]
   },
   {
-   "id": "temples-africa-dedicated",
-   "bank": "draft",
-   "display_text": "Pin an African country with a dedicated temple.",
-   "text_original": "Pin an African country with at least one dedicated temple (as of October 2026).",
+   "id": "bible-empires-at-war",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where a king of Assyria, Babylon or Egypt ruled or fought, in the Old Testament.",
+   "text_original": "A present-day country where a king of Assyria, Babylon or Egypt ruled or fought, in the Old Testament",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1985-2026",
-   "citation": "temple list, 26 Oct 2026",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "2 Kings 16; 18; 23-25; Isaiah 10; Jeremiah 34; 46; Ezekiel 26; Nahum 3",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/nahum/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/46?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/34?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/26?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/47?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Africa's first temple was dedicated in Johannesburg, South Africa, in 1985. Accra, Ghana (2004) and Aba, Nigeria (2005) followed. Since 2019 the pace has picked up, with temples in Kinshasa, Praia, Nairobi, Abidjan and, in 2026, Harare.",
-   "stamp": "as of 26 Oct 2026",
+   "summary": "In the later Old Testament period, Assyria, Babylon and Egypt fought over the lands around Israel. Sennacherib of Assyria besieged Lachish, Pharaoh Necho killed King Josiah at Megiddo, and Nebuchadnezzar of Babylon defeated Necho at Carchemish (Jeremiah 46:2). Nebuchadnezzar also laid a long siege to Tyre and judged King Zedekiah of Judah at Riblah in Syria (2 Kings 25:6).",
+   "stamp": null,
    "gems": [
-    "CPV"
+    "PSE",
+    "TUR"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "ZAF",
-     "name": "South Africa",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 5,
      "gem": false,
-     "fact": "Johannesburg, 1985, Africa's first."
+     "fact": "Nebuchadnezzar ruled from Babylon (Daniel 4:30)."
     },
     {
-     "code": "GHA",
-     "name": "Ghana",
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Sennacherib besieged Lachish, and Necho killed Josiah at Megiddo (2 Kings 18:14; 23:29)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
      "commonness": 4,
      "gem": false,
-     "fact": "Accra, 2004."
+     "fact": "Necho was king of Egypt, and Nahum recalls Assyria's sack of No-Amon, Egyptian Thebes (Nahum 3:8)."
     },
     {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Aba, 2005."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 3,
      "gem": false,
-     "fact": "Kinshasa, 2019."
+     "fact": "Ezekiel describes Nebuchadnezzar's long siege of Tyre (Ezekiel 26:7; 29:18)."
     },
     {
-     "code": "CIV",
-     "name": "Cote d'Ivoire",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 2,
      "gem": false,
-     "fact": "Abidjan, 2025."
+     "fact": "Tiglath-pileser took Damascus, and Nebuchadnezzar judged Zedekiah at Riblah (2 Kings 16:9; 25:6)."
     },
     {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Nairobi, 2025."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Harare, 2026."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 1,
      "gem": true,
-     "fact": "Praia, 2022."
+     "fact": "Jeremiah's oracle against the Philistines came before Pharaoh smote Gaza (Jeremiah 47:1)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Nebuchadnezzar beat Necho at Carchemish, on the Turkish side of the border (Jeremiah 46:2; Isaiah 10:9)."
     }
    ]
   },
   {
-   "id": "bible-acts-hometowns",
+   "id": "bible-acts-women",
    "bank": "bible",
-   "display_text": "Pin a present-day country that was home to a person named in Acts.",
-   "text_original": "A present-day country that was home to a person named in Acts",
+   "display_text": "Pin a present-day country with a place where a woman named in Acts lived.",
+   "text_original": "A present-day country with a place where a woman named in Acts lived",
    "accepts": "country",
    "topic": "Bible",
    "era": "New Testament",
-   "citation": "Acts 4; 8; 13; 16; 18; 21",
+   "citation": "Acts 8; 9; 16-18; 21",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/21?lang=eng",
-    "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
     "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/col/4?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "The book of Acts names believers from all around the Mediterranean, showing how far the early Church reached. Barnabas came from Cyprus, Apollos from Alexandria in Egypt, Timothy from Lystra in Turkey, and Tabitha lived at Joppa. Even a treasurer of Candace, queen of the Ethiopians, whose land of Kush was centered in today's Sudan, was taught by Philip and baptized (Acts 8:27-38).",
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Acts names several women in the early Church. Tabitha lived at Joppa, Lydia, who came from Thyatira, hosted Paul at Philippi, and Damaris believed at Athens. Priscilla and her husband Aquila had left Rome when Claudius expelled the Jews (Acts 18:2) and later lived at Ephesus.",
    "stamp": null,
    "gems": [
     "SDN"
@@ -179,252 +183,265 @@
    "gem_forced": false,
    "answers": [
     {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 5,
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
      "gem": false,
-     "fact": "Paul came from Tarsus, Timothy from Lystra and Gaius from Derbe (Acts 21:39; 16:1; 20:4)."
+     "fact": "Lydia hosted Paul at Philippi; Damaris lived at Athens."
     },
     {
      "code": "ISR",
      "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "Tabitha lived at Joppa and Aeneas at Lydda (Acts 9:32-36)."
-    },
-    {
-     "code": "CYP",
-     "name": "Cyprus",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Barnabas was a Levite from Cyprus (Acts 4:36)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Apollos was born in Alexandria (Acts 18:24)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Dionysius and Damaris believed at Athens; Aristarchus came from Thessalonica and Sopater from Berea (Acts 17:34; 20:4)."
+     "fact": "Tabitha lived at Joppa (Acts 9:36)."
     },
     {
      "code": "ITA",
      "name": "Italy",
      "commonness": 3,
      "gem": false,
-     "fact": "Aquila and Priscilla had just come from Italy (Acts 18:2)."
+     "fact": "Priscilla and Aquila had lived in Rome until Claudius expelled the Jews (Acts 18:2)."
     },
     {
-     "code": "LBY",
-     "name": "Libya",
-     "commonness": 2,
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
      "gem": false,
-     "fact": "Lucius of Cyrene led the church at Antioch (Acts 13:1)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Simon lived in Samaria (Acts 8:9), in the West Bank."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ananias, who baptised Paul, lived in Damascus (Acts 9:10)."
+     "fact": "Lydia came from Thyatira; Priscilla later lived at Ephesus."
     },
     {
      "code": "SDN",
      "name": "Sudan",
      "commonness": 1,
      "gem": true,
-     "fact": "The eunuch served Candace, a queen of Kush, centred on Meroe in Sudan (Acts 8:27)."
+     "fact": "Queen Candace ruled Kush from Meroe (Acts 8:27)."
     }
    ]
   },
   {
-   "id": "bible-prophet-places",
-   "bank": "bible",
-   "display_text": "Pin a present-day country where an Old Testament prophet lived or travelled (Moses counts; Sinai aside).",
-   "text_original": "A present-day country where an Old Testament prophet lived or travelled (Moses counts; Sinai aside)",
+   "id": "scripture-translations-1933-1954",
+   "bank": "scripture",
+   "display_text": "Pin a country where Czech, Portuguese, Tongan, Norwegian or Finnish is an official language.",
+   "text_original": "A country where Czech, Portuguese, Tongan, Norwegian or Finnish (Book of Mormon translations 1933-1954) is an official language",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Exodus 2; Deuteronomy 34; 1 Kings 17-18; 2 Kings 8; Jonah; Daniel; Jeremiah 43",
+   "topic": "scripture geography",
+   "era": "1933-1954",
+   "citation": "Church News translation list",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng",
-    "https://en.wikipedia.org/wiki/Midian",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng"
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Old Testament prophets often served far from home. Moses was raised in Egypt and fled to Midian in Arabia, Elijah stayed with a widow at Zarephath in Sidon's territory, and Jonah was sent to preach in Nineveh. Ezekiel and Daniel lived in Babylonia, and Jeremiah was taken to Tahpanhes in Egypt (Jeremiah 43:7).",
+   "summary": "From 1933 to 1954 the Book of Mormon came out in Czech (1933), Portuguese (1939), Tongan (1946), Norwegian (1950) and Finnish (1954). Norwegian got its own edition a century after Danish. Portuguese opened the book to Brazil, Portugal and several African nations.",
    "stamp": null,
    "gems": [
-    "LBN",
-    "SYR"
+    "CPV",
+    "GNB",
+    "GNQ",
+    "STP",
+    "TLS"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "EGY",
-     "name": "Egypt",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 5,
      "gem": false,
-     "fact": "Moses was born and raised in Egypt, and Jeremiah was taken to Tahpanhes (Exodus 2; Jeremiah 43:7)."
+     "fact": "Portuguese, translated 1939, is Brazil's official language."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
+     "code": "PRT",
+     "name": "Portugal",
      "commonness": 5,
      "gem": false,
-     "fact": "Elijah challenged the prophets of Baal on Mount Carmel (1 Kings 18)."
+     "fact": "Portuguese, translated 1939, is Portugal's national language."
     },
     {
-     "code": "IRQ",
-     "name": "Iraq",
+     "code": "TON",
+     "name": "Tonga",
      "commonness": 4,
      "gem": false,
-     "fact": "Jonah preached in Nineveh; Ezekiel and Daniel lived in Babylonia."
+     "fact": "The Tongan Book of Mormon appeared in 1946."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "CZE",
+     "name": "Czechia",
      "commonness": 3,
      "gem": false,
-     "fact": "Moses died in Moab after viewing Canaan from Nebo, and Elijah came from Tishbe in Gilead (Deuteronomy 34:5; 1 Kings 17:1)."
+     "fact": "The Czech Book of Mormon appeared in 1933."
     },
     {
-     "code": "IRN",
-     "name": "Iran",
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Finnish Book of Mormon appeared in 1954."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Norwegian got its own Book of Mormon in 1950, a century after Danish."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
      "commonness": 2,
      "gem": false,
-     "fact": "Daniel saw a vision at Shushan by the river Ulai (Daniel 8:2)."
+     "fact": "Portuguese, translated 1939, is Angola's official language."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "MOZ",
+     "name": "Mozambique",
      "commonness": 2,
      "gem": false,
-     "fact": "Elisha healed the waters at Jericho (2 Kings 2:19-22), in the West Bank."
+     "fact": "Portuguese, translated 1939, is Mozambique's official language."
     },
     {
-     "code": "SAU",
-     "name": "Saudi Arabia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Moses fled to Midian, in north-west Arabia, and married Zipporah (Exodus 2:15-21)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "CPV",
+     "name": "Cape Verde",
      "commonness": 1,
      "gem": true,
-     "fact": "Elijah stayed with the widow of Zarephath, in Sidon's territory (1 Kings 17:9)."
+     "fact": "Portuguese, translated 1939, is Cape Verde's official language."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "GNB",
+     "name": "Guinea-Bissau",
      "commonness": 1,
      "gem": true,
-     "fact": "Elisha went to Damascus while Ben-hadad lay sick (2 Kings 8:7)."
+     "fact": "Portuguese, translated 1939, is Guinea-Bissau's official language."
+    },
+    {
+     "code": "GNQ",
+     "name": "Equatorial Guinea",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Portuguese, translated 1939, is one of its official languages."
+    },
+    {
+     "code": "STP",
+     "name": "Sao Tome and Principe",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Portuguese, translated 1939, is the official language there."
+    },
+    {
+     "code": "TLS",
+     "name": "Timor-Leste",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Portuguese, translated 1939, is co-official with Tetum."
     }
    ]
   },
   {
-   "id": "scripture-translations-1979",
-   "bank": "scripture",
-   "display_text": "Pin a country where Croatian, Greek, Hungarian, Peruvian Quechua, Kekchi or Quiche is official or Indigenous.",
-   "text_original": "A country where a language first given Book of Mormon text in 1979 is official or Indigenous (Croatian, Greek, Hungarian, Peruvian Quechua, Kekchi, Quiche)",
+   "id": "temples-spanish-first-by-2000",
+   "bank": "temples",
+   "display_text": "Pin a Spanish-speaking country whose first temple was dedicated by the end of 2000.",
+   "text_original": "A Spanish-speaking country whose first temple was dedicated by the end of the year 2000 (as of October 2026).",
    "accepts": "country",
-   "topic": "scripture geography",
-   "era": "1979",
-   "citation": "Church News translation list",
+   "topic": "temples",
+   "era": "1983-2000",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
-    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
-    "https://en.wikipedia.org/wiki/Languages_of_Belize"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
-   "difficulty": 3,
+   "difficulty": 1,
    "note": null,
-   "summary": "In 1979 Book of Mormon text came out in six new languages: Croatian, Greek, Hungarian, Peruvian Quechua, and the Mayan languages Kekchi and Quiche from Guatemala. Several began as selections; the full Greek text followed in 1987 and the full Hungarian in 1991.",
-   "stamp": null,
+   "summary": "Twelve Spanish-speaking countries had a dedicated temple by the end of 2000. Mexico and Chile led in 1983, followed by Guatemala, Peru and Argentina in the 1980s. The building surge of 1999 and 2000 added Spain, Colombia, Ecuador, Bolivia, the Dominican Republic, Venezuela and Costa Rica.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "BIH",
-    "BLZ",
-    "CYP"
+    "CRI"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 4,
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
      "gem": false,
-     "fact": "Greek selections appeared in 1979 and the full text in 1987."
+     "fact": "Mexico City Mexico Temple dedicated 1983."
     },
     {
-     "code": "HRV",
-     "name": "Croatia",
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 4,
      "gem": false,
-     "fact": "The Croatian Book of Mormon appeared in 1979."
+     "fact": "Buenos Aires Argentina Temple dedicated 1986."
     },
     {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 4,
      "gem": false,
-     "fact": "Hungarian selections appeared in 1979 and the full text in 1991."
+     "fact": "Santiago Chile Temple dedicated 1983."
     },
     {
      "code": "GTM",
      "name": "Guatemala",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "Kekchi and Quiche, Mayan languages of Guatemala, both got selections in 1979."
+     "fact": "Guatemala City Guatemala Temple dedicated 1984."
     },
     {
      "code": "PER",
      "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima Peru Temple dedicated 1986."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 3,
      "gem": false,
-     "fact": "Quechua (Peru) selections appeared in 1979."
+     "fact": "Bogotá Colombia Temple dedicated 1999."
     },
     {
-     "code": "BIH",
-     "name": "Bosnia and Herzegovina",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Croatian, translated 1979, is one of Bosnia's official languages."
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guayaquil Ecuador Temple dedicated 1999."
     },
     {
-     "code": "BLZ",
-     "name": "Belize",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Kekchi (Q'eqchi'), translated 1979, is an Indigenous Mayan language of Belize."
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Madrid Spain Temple dedicated 1999."
     },
     {
-     "code": "CYP",
-     "name": "Cyprus",
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cochabamba Bolivia Temple dedicated 2000."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Santo Domingo Dominican Republic Temple dedicated 2000."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Caracas Venezuela Temple dedicated 2000."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
      "commonness": 1,
      "gem": true,
-     "fact": "Greek, translated 1979, is an official language of Cyprus."
+     "fact": "San José Costa Rica Temple dedicated 2000."
     }
    ]
   }

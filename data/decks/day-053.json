@@ -1,0 +1,377 @@
+{
+ "day": 53,
+ "prompts": [
+  {
+   "id": "place-preston-england",
+   "bank": "places",
+   "display_text": "Pin Preston, England, where the first British converts were baptized in 1837.",
+   "text_original": "Drop a pin on Preston, Lancashire, where the first missionaries to Britain preached and baptized their first converts in 1837.",
+   "accepts": "place",
+   "kind": "abroad",
+   "place": {
+    "name": "Preston, Lancashire, England",
+    "lat": 53.759,
+    "lng": -2.699
+   },
+   "topic": "church history sites",
+   "era": "1837",
+   "citation": "Church newsroom UK, History of the Church in the British Isles; Ensign Sept. 1971, read 3 Nov 2026",
+   "source_urls": [
+    "https://news-uk.churchofjesuschrist.org/article/history-of-the-mormon-church-in-the-british-isles",
+    "https://www.churchofjesuschrist.org/study/ensign/1971/09/history-of-the-church-in-great-britain?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Heber C. Kimball and other missionaries first preached in Preston's Vauxhall Chapel in July 1837. On July 30, only 10 days after they arrived, Kimball baptized the first converts in England in the River Ribble as thousands watched. The Preston Ward, founded in 1837, is the Church's oldest continuing congregation.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-president-dedicated-abroad-pre1990",
+   "bank": "sites-temples",
+   "display_text": "Pin a non-US country where the Church President himself dedicated a temple before 1990.",
+   "text_original": "A country outside the United States with a temple dedicated before 1990 by the sitting President of the Church.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-1987",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated-by column) and Wikipedia temple articles, read 3 Nov 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://en.wikipedia.org/wiki/Cardston_Alberta_Temple",
+    "https://en.wikipedia.org/wiki/Bern_Switzerland_Temple",
+    "https://en.wikipedia.org/wiki/Frankfurt_Germany_Temple"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Before 1990 only a handful of temples outside the United States were dedicated by the sitting Church President: Heber J. Grant at Cardston, David O. McKay at Bern, Hamilton and London, Spencer W. Kimball at São Paulo and Tokyo, and Ezra Taft Benson at Frankfurt. Most of the 1983 to 1986 temples abroad were dedicated by Gordon B. Hinckley while he served as a counselor in the First Presidency.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "DEU"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Bern Switzerland (1955), dedicated by President David O. McKay."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil (1978), dedicated by President Spencer W. Kimball."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cardston Alberta (1923), dedicated by President Heber J. Grant."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "London England (1958), dedicated by President David O. McKay."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo Japan (1980), dedicated by President Spencer W. Kimball."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hamilton New Zealand (1958), dedicated by President David O. McKay."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Frankfurt Germany (1987), dedicated by President Ezra Taft Benson."
+    }
+   ]
+  },
+  {
+   "id": "temples-capital-south-america",
+   "bank": "sites-temples",
+   "display_text": "Pin it: a South American nation with a dedicated temple bearing its capital's name.",
+   "text_original": "A South American country with a dedicated temple named for its capital city (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1983-2023",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Most South American capitals have a dedicated temple, from Santiago (1983) and Lima and Buenos Aires (1986) to Quito (2022) and Brasília (2023). La Paz, Bolivia is only announced as of November 2026, so Bolivia does not count.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (dedicated 1986)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago Chile (dedicated 1983)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima Peru (dedicated 1986)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Brasília Brazil (dedicated 2023)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bogotá Colombia (dedicated 1999)."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Quito Ecuador (dedicated 2022)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Montevideo Uruguay (dedicated 2001)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Caracas Venezuela (dedicated 2000)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Asunción Paraguay (dedicated 2002)."
+    }
+   ]
+  },
+  {
+   "id": "ha-servicemen-first-meetings",
+   "bank": "sites-history",
+   "display_text": "Pin a place where Latter-day Saint servicemen held some of the first Church meetings.",
+   "text_original": "A country or territory where Latter-day Saints serving in the U.S. military held some of the earliest Church meetings or groups (1940s-1950s).",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1944-1957",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/marshall-islands/mh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "During and after World War II, Latter-day Saints in the U.S. military met wherever they were stationed. In many places these servicemen's groups were the first Church meetings held, and some invited local friends who later joined the Church.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CRI",
+    "ISL",
+    "MHL",
+    "PRI",
+    "PRT",
+    "TWN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 5,
+     "gem": false,
+     "fact": "1945-47: first Church meetings in Korea held by Latter-day Saints in the U.S. military, who invited Korean friends."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1953: Luzon Servicemen's District organized; 1957: Navy serviceman Kendall B. Schaefermeyer baptized four Filipinos."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1956: American military personnel and families held the first Latter-day Saint group meetings in Spain."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1944-46: first Church members on Guam were with the U.S. military."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1944-45: groups of Latter-day Saint servicemen were organized throughout Italy."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": true,
+     "fact": "July 1944: first members of the Church in Costa Rica were U.S. servicemen."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "April 29, 1945: servicemen at Keflavik organized a Church group; servicemen's branch in 1947."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1940s: first Church services held by American military personnel during World War II."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1940s: small groups of servicemen held Church meetings in members' homes."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1950s: earliest known Latter-day Saints in Portugal were U.S. servicemen at Lajes Field, Azores."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1956: Chin Mu-tsung met the Church through Latter-day Saint servicemen and was baptized."
+    }
+   ]
+  },
+  {
+   "id": "bible-altars",
+   "bank": "bible",
+   "display_text": "Pin a country where the Bible records a person building, using or seeing an altar, Noah's and Moses's altars and Jerusalem aside.",
+   "text_original": "A present-day country where the Bible records a person building, using or seeing an altar, Noah's and Moses's altars and Jerusalem aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old and New Testament",
+   "citation": "Genesis 12:7; 26:25; 35:7; Numbers 23:1-29; Joshua 8:30; 22:10; Judges 13:20; 1 Samuel 7:17; 1 Kings 18:30; 2 Kings 16:10; Acts 17:23",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/26?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Altars mark where people met God. Abraham built them at Shechem and Bethel and Joshua on Mount Ebal, all in the West Bank, while Elijah's showdown altar stood on Carmel in Israel (1 Kings 18:30). Balaam's seven altars rose in Moab, Paul found an altar to the unknown god in Athens, and Ahaz copied an altar he admired in Damascus (2 Kings 16:10).",
+   "stamp": null,
+   "gems": [
+    "SYR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Elijah repaired the altar of the Lord on Carmel, Isaac built one at Beersheba, and Manoah offered at Zorah (1 Kings 18:30; Genesis 26:25; Judges 13:20)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Abraham built altars at Shechem and Bethel, Joshua on Mount Ebal, Samuel at Ramah, and the eastern tribes raised the great altar Ed in the land of Canaan by the Jordan (Genesis 12:7; 35:7; Joshua 8:30; 22:10-11; 1 Samuel 7:17)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paul found an altar in Athens inscribed to the unknown god (Acts 17:23)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Balaam had seven altars built on the heights of Moab (Numbers 23:1)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "King Ahaz saw an altar at Damascus and sent its pattern home to copy (2 Kings 16:10)."
+    }
+   ]
+  }
+ ]
+}

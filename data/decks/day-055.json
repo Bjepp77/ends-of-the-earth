@@ -1,0 +1,373 @@
+{
+ "day": 55,
+ "prompts": [
+  {
+   "id": "place-bern-switzerland-temple",
+   "bank": "places",
+   "display_text": "Pin the Bern Switzerland Temple, the first temple in Europe.",
+   "text_original": "Drop a pin on the Bern Switzerland Temple, the first temple built in Europe.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Bern Switzerland Temple",
+    "lat": 47.0022,
+    "lng": 7.4582
+   },
+   "topic": "temples",
+   "era": "1952-1955",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/bern-switzerland-temple/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "President David O. McKay dedicated the Bern Switzerland Temple in September 1955. It was the first temple in Europe, the first overseas temple, and the first to present the endowment on film.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-capital-mexico-central-caribbean",
+   "bank": "sites-temples",
+   "display_text": "Pin a country from Mexico to the Caribbean whose capital names a dedicated temple.",
+   "text_original": "A country in Mexico, Central America or the Caribbean with a dedicated temple named for its capital city (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1983-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Mexico City (1983) and Guatemala City (1984) came first, followed by San José and Santo Domingo (2000) and others. Managua Nicaragua is among the newest, dedicated in 2026. San Juan does not count, since Puerto Rico is a US territory.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "HND",
+    "HTI",
+    "NIC"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City Mexico (dedicated 1983)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Guatemala City Guatemala (dedicated 1984); Miraflores Guatemala City Guatemala (dedicated 2026)."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "San José Costa Rica (dedicated 2000)."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santo Domingo Dominican Republic (dedicated 2000)."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Panama City Panama (dedicated 2008)."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "San Salvador El Salvador (dedicated 2011)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Tegucigalpa Honduras (dedicated 2013)."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Port-au-Prince Haiti (dedicated 2019)."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Managua Nicaragua (dedicated 2026)."
+    }
+   ]
+  },
+  {
+   "id": "ha-grant-europe-1937",
+   "bank": "sites-history",
+   "display_text": "Pin a country on Heber J. Grant's 1937 European tour, two years before war closed the missions.",
+   "text_original": "A European country Church President Heber J. Grant visited in 1937, the year he marked the British Mission's centennial.",
+   "accepts": "country",
+   "topic": "church leaders",
+   "era": "1937",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 1937 President Heber J. Grant toured Europe to celebrate 100 years of the British Mission. He dedicated meetinghouses and encouraged Saints in several countries just two years before World War II forced missionaries home.",
+   "stamp": null,
+   "gems": [
+    "BEL",
+    "CZE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "July 1937: marked the British Mission centennial by dedicating seven new or renovated meetinghouses."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "July 1937: visited the Saints in Germany."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1937: visited the Saints in Austria."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1937: visited the Saints in Switzerland."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "August 19-25, 1937: visited Latter-day Saints in Stockholm, Malmo and Goteborg."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "June 27, 1937, Herstal: dedicated the Herstal meetinghouse before 200 Saints."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "July 9-12, 1937: visited Czechoslovakia to encourage members and meet government officials."
+    }
+   ]
+  },
+  {
+   "id": "scripture-italian-dutch-official-lands",
+   "bank": "scripture",
+   "display_text": "Pin a country where Italian (Book of Mormon 1852) or Dutch (Book of Mormon 1890) is an official language today.",
+   "text_original": "Italian received the Book of Mormon in 1852 and Dutch in 1890. Pin a country where Italian or Dutch is an official language today.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "1852-1890",
+   "citation": "Global Histories: Italy, Switzerland, Netherlands, Belgium chronologies",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://en.wikipedia.org/wiki/Italian_language",
+    "https://en.wikipedia.org/wiki/Dutch_language"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Italian was among the first five Book of Mormon translations, finished in 1852 under Lorenzo Snow. Dutch followed in 1890 through John W. F. Volker. Those two translations serve Italy, the Netherlands, Belgium and Switzerland, and also San Marino, Vatican City and Suriname.",
+   "stamp": null,
+   "gems": [
+    "SMR",
+    "SUR",
+    "VAT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Italian Book of Mormon was translated in 1851-52 and 1,000 copies printed in London."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Italian is a national language; the Swiss Mission published new Italian editions in 1951-65."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 4,
+     "gem": false,
+     "fact": "John W. F. Volker's Dutch translation was published in 1890 and a copy given to the king and queen."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Dutch is Belgium's majority official language; the Belgian chronology records the 1890 Dutch edition."
+    },
+    {
+     "code": "SMR",
+     "name": "San Marino",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Italian is the official language of San Marino."
+    },
+    {
+     "code": "SUR",
+     "name": "Suriname",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Dutch is the official language of Suriname."
+    },
+    {
+     "code": "VAT",
+     "name": "Vatican City",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Italian is the official language of Vatican City State."
+    }
+   ]
+  },
+  {
+   "id": "global-own-mission-1946-1969",
+   "bank": "global",
+   "display_text": "Pin a country or territory outside Europe that got its first Church mission headquartered there between 1946 and 1969.",
+   "text_original": "After World War II the Church began placing mission headquarters inside countries where it had only a few members. Pin a country or territory outside Europe that got its first Church mission headquartered there between 1946 and 1969.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "1946-1969",
+   "citation": "Global Histories chronologies: Uruguay, Hong Kong, South Korea, Philippines, Venezuela, Peru, Chile, Guatemala, Honduras, Costa Rica",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In the quarter century after World War II the Church placed its first mission headquarters in lands outside Europe that had only small branches before: Uruguay in 1947, Hong Kong in 1949, Guatemala in 1952, Peru in 1959, Chile in 1961, South Korea in 1962, Costa Rica in 1965, the Philippines in 1967 and Venezuela in 1968. Each mission became the base from which stakes and later temples grew.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CRI",
+    "HKG"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Philippine Mission was organized on June 28, 1967."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Korean Mission was organized in July 1962."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "On October 8, 1961, Chile was split off from the Andes Mission into its own mission, headquartered in Santiago."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Spencer W. Kimball opened the Central American Mission at Guatemala City on November 16, 1952."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Andes Mission, with headquarters in Lima, was organized November 1, 1959."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Uruguayan Mission was created in Montevideo in August 1947."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Colombia-Venezuela Mission, headquartered in Caracas, was created August 1, 1968."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The headquarters of the Central American Mission moved to San Jose, Costa Rica, on July 1, 1965."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": true,
+     "fact": "A Chinese Mission headquartered in Kowloon was established July 10, 1949."
+    }
+   ]
+  }
+ ]
+}

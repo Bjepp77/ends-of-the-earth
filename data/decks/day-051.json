@@ -1,0 +1,404 @@
+{
+ "day": 51,
+ "prompts": [
+  {
+   "id": "place-sacred-grove",
+   "bank": "places",
+   "display_text": "Pin the Sacred Grove, site of the First Vision in 1820.",
+   "text_original": "Drop a pin on the Sacred Grove near Palmyra, New York, where Joseph Smith prayed in the spring of 1820.",
+   "accepts": "place",
+   "kind": "restoration",
+   "place": {
+    "name": "Sacred Grove (Smith Family Farm), Palmyra, New York",
+    "lat": 43.0417,
+    "lng": -77.2432
+   },
+   "topic": "church history sites",
+   "era": "1820",
+   "citation": "Sacred Grove Historic Site page, ChurchofJesusChrist.org, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/sacred-grove-historic-site?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/history/sites/new-york-and-pennsylvania?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "On a spring day in 1820, 14-year-old Joseph Smith went alone to a grove near his family's farm to pray. God the Father and Jesus Christ appeared to him, an event called the First Vision. The Smith family farm nearby is also where the angel Moroni first visited Joseph in 1823.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tb-city-in-name",
+   "bank": "sites-temples",
+   "display_text": "Pin a country outside the US with City in a temple name. Mexico City is the easy one.",
+   "text_original": "A country outside the United States with a temple (any stage, as of November 2026) whose official name includes the word \"City\".",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1983-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Some temple names include the word City because the city itself does. Outside the US these include Mexico City, Guatemala City and Cebu City.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ARG",
+    "NGA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City Mexico (dedicated 1983); Mexico City Benemérito Mexico (announced)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Guatemala City Guatemala (dedicated 1984); Miraflores Guatemala City Guatemala (dedicated 2026)."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Panama City Panama (dedicated 2008)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cebu City Philippines (dedicated 2010); Tacloban City Philippines (under construction); Tuguegarao City Philippines (announced)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Buenos Aires City Center Argentina (announced)."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Benin City Nigeria (under construction)."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-mckay-pacific-tour-1955",
+   "bank": "pioneer",
+   "display_text": "Pin a South Pacific country or territory President David O. McKay visited on his 1955 tour.",
+   "text_original": "In January and February 1955, David O. McKay became the first Church president to tour the South Pacific missions, choosing a temple site in New Zealand along the way. Pin a South Pacific country or territory he visited on that tour.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "1950s",
+   "citation": "Global Histories chronologies; Church newsroom; Ensign Dec. 1998",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/article/local-history-hamilton-new-zealand-temple",
+    "https://www.churchofjesuschrist.org/study/ensign/1998/12/australia-coming-out-of-obscurity-down-under?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Hawaii counts as USA but lies in the North Pacific, so it is outside this South Pacific prompt.",
+   "summary": "Early in 1955, President David O. McKay and his wife, Emma Ray, flew through the South Pacific, meeting Saints in Fiji, Tonga, both Samoas, the Cook Islands and Tahiti before visiting New Zealand and Australia. In New Zealand he quietly chose the hill near Hamilton where the first temple in the Southern Hemisphere would rise.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First Church president to visit Australia, 1955."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Visited the Hamilton college project and chose the temple site; announced Feb. 17, 1955."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Visited Tongatapu and Vava'u and spoke of a future temple."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Met Saints in Pesega and Sauniatu, January 14-17, 1955."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Met Saints in Pago Pago and Mapusaga, January 14, 1955."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spoke to Saints in Suva, January 9, 1955."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "First Church president to visit Tahiti, January 18-20, 1955."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Held a one-hour meeting with 66 members at Aitutaki while his plane refueled."
+    }
+   ]
+  },
+  {
+   "id": "ha-nelson-dedications-apostle",
+   "bank": "sites-history",
+   "display_text": "Pin a land Russell M. Nelson dedicated for the preaching of the gospel while an Apostle.",
+   "text_original": "A country Russell M. Nelson, while serving in the Quorum of the Twelve, dedicated or rededicated for the preaching of the gospel.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1990-2010",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/namibia/na-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zambia/zm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bosnia-herzegovina/ba-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As a member of the Twelve, Russell M. Nelson offered prayers dedicating many nations for the preaching of the gospel. Several came in early 1990, just weeks after communist rule ended in Eastern Europe, and others followed in Africa, Central America and the Pacific.",
+   "stamp": null,
+   "gems": [
+    "BIH",
+    "NAM",
+    "PYF",
+    "ZMB"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "February 13, 1990, Sofia: dedicated Bulgaria for the preaching of the gospel."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 4,
+     "gem": false,
+     "fact": "February 6, 1990, Prague: rededicated Czechoslovakia for the preaching of the gospel."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 4,
+     "gem": false,
+     "fact": "February 8, 1990, Bucharest: dedicated Romania in Cismigiu Park, weeks after the Romanian Revolution."
+    },
+    {
+     "code": "EST",
+     "name": "Estonia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "April 25, 1990, Tallinn: dedicated Estonia above the Lauluvaljak amphitheater."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1991, Tegucigalpa: dedicated Honduras on the mountain El Picacho."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "April 7, 1990, San Salvador: dedicated El Salvador for the preaching of the gospel."
+    },
+    {
+     "code": "BIH",
+     "name": "Bosnia and Herzegovina",
+     "commonness": 2,
+     "gem": true,
+     "fact": "September 8, 2010, Sarajevo: dedicated the country at Vraca Memorial Park."
+    },
+    {
+     "code": "NAM",
+     "name": "Namibia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "August 22, 1992, Windhoek: dedicated Namibia for the preaching of the restored gospel."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1994, Papeete: dedicated the country at the 150th anniversary of the Church there."
+    },
+    {
+     "code": "ZMB",
+     "name": "Zambia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "August 20, 1992: dedicated Zambia for the preaching of the gospel."
+    }
+   ]
+  },
+  {
+   "id": "ha-wwi-missionaries-withdrawn",
+   "bank": "sites-history",
+   "display_text": "Pin a European country where World War I sent foreign missionaries home and local Saints carried on.",
+   "text_original": "A European country where World War I (1914-18) forced the Church to evacuate, release or sharply reduce its foreign missionaries.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1914-1919",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "When World War I began in 1914, the Church pulled most American missionaries out of Europe. Local members kept branches alive, served as missionaries at home, and in Germany baptized more than 500 converts during the war.",
+   "stamp": null,
+   "gems": [
+    "AUT",
+    "DNK",
+    "HUN",
+    "ISL",
+    "NOR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "1914-19: all North American missionaries left; local members served and baptized more than 500 converts."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1914-18: fewer American missionaries were called and local members began to serve as missionaries."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1914-18: full-time missionaries were evacuated; Saints held sacrament meetings in homes."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "August 30, 1914, Basel: mission president Hyrum W. Valentine was told to release all missionaries."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "August 1914: the French Mission was absorbed into other missions and all missionaries left France."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1914-19: missionaries were reassigned to safer missions; local members were called to serve."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "August 1914: all missionaries in Austria were evacuated."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": true,
+     "fact": "October 1914: many missionaries not native to Denmark were sent home."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 2,
+     "gem": true,
+     "fact": "August 10, 1914: the outbreak of war led to the evacuation of all missionaries."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1914: as the war began, missionary work in Iceland was discontinued."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1914-18: fewer North American missionaries; local members became home missionaries."
+    }
+   ]
+  }
+ ]
+}

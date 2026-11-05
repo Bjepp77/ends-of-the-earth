@@ -1,0 +1,331 @@
+{
+ "day": 57,
+ "prompts": [
+  {
+   "id": "place-gadfield-elm-chapel",
+   "bank": "places",
+   "display_text": "Pin the Gadfield Elm Chapel, where Wilford Woodruff preached in 1840.",
+   "text_original": "Drop a pin on the Gadfield Elm Chapel in rural England, the United Brethren meetinghouse where Wilford Woodruff preached in 1840.",
+   "accepts": "place",
+   "kind": "abroad",
+   "place": {
+    "name": "Gadfield Elm Chapel, near Pendock, England",
+    "lat": 51.9814,
+    "lng": -2.3144
+   },
+   "topic": "church history sites",
+   "era": "1840",
+   "citation": "Global Histories: England, The United Brethren; Church UK Gadfield Elm Chapel page, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/stories-of-faith/xe-02-the-united-brethren?lang=eng",
+    "https://uk.churchofjesuschrist.org/gadfield-elm-chapel",
+    "https://news-uk.churchofjesuschrist.org/article/history-of-the-mormon-church-in-the-british-isles"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 1840 Wilford Woodruff met John and Jane Benbow and preached to their congregation, the United Brethren, at Gadfield Elm on March 17. Many were baptized, and their leaders deeded the chapel to the Church, making it the first Church-owned meetinghouse in Europe. It is the oldest Latter-day Saint chapel still standing.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-borders-argentina",
+   "bank": "sites-temples",
+   "display_text": "Pin a neighbour of Argentina that has a dedicated temple.",
+   "text_original": "A country that shares a land border with Argentina and has a dedicated temple (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "All five of Argentina's neighbours have at least one dedicated temple. Brazil and Chile have several; Bolivia, Paraguay and Uruguay each have one. Argentina itself has five.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "PRY",
+    "URY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "12 dedicated, first was São Paulo Brazil (1978)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "3 dedicated, first was Santiago Chile (1983)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated, first was Cochabamba Bolivia (2000)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated, first was Asunción Paraguay (2002)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated, first was Montevideo Uruguay (2001)."
+    }
+   ]
+  },
+  {
+   "id": "temples-english-africa",
+   "bank": "sites-temples",
+   "display_text": "Pin an English-speaking African country with a temple, from announced to dedicated.",
+   "text_original": "An African country where English is an official language, with a temple at any stage (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1985-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Johannesburg South Africa (1985) was the first temple in Africa, followed by Accra Ghana and Aba Nigeria in 2004 and 2005. Nairobi and Harare were dedicated in 2025 and 2026. Freetown is under construction and Monrovia and Kampala are announced as of November 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "LBR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
+     "gem": false,
+     "fact": "First dedicated: Accra Ghana (2004); 3 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "First dedicated: Aba Nigeria (2005); 7 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "First dedicated: Johannesburg South Africa (1985); 3 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First dedicated: Nairobi Kenya (2025); 1 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freetown Sierra Leone (under construction), as of November 2026."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kampala Uganda (announced), as of November 2026."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First dedicated: Harare Zimbabwe (2026); 1 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Monrovia Liberia (announced), as of November 2026."
+    }
+   ]
+  },
+  {
+   "id": "hd-first-branch-pre-1850",
+   "bank": "sites-history",
+   "display_text": "Pin a country where the Church organized its first branch there before 1850.",
+   "text_original": "A country (by today's borders) where the Church's first branch was organized before 1850.",
+   "accepts": "country",
+   "topic": "branches",
+   "era": "1830-1849",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "GBR also covers the Overton Branch in Wales (1840) and the Paisley Branch in Scotland (1840).",
+   "summary": "Before 1850 the Church had organized branches in only a handful of lands outside the United States: Upper Canada in 1832, Preston, England in 1837, Ireland in 1840, Darmstadt in 1843 and Montefiores, Australia in 1844.",
+   "stamp": null,
+   "gems": [
+    "AUS"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1832 a small group of believers in Ernestown, Upper Canada, established a branch."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The first branch in England was created in Preston on August 6, 1837."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1843 Johann Greenig, a German convert baptized in the United States, reported establishing the first branch in Germany at Darmstadt."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1840 the first missionary to Ireland organized the few converts into the first branch in Ireland."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The first branch in Australia was organized at Montefiores in 1844 by Andrew Anderson."
+    }
+   ]
+  },
+  {
+   "id": "bible-sent-by-god",
+   "bank": "bible",
+   "display_text": "Pin a country with a place the Bible says God or an angel sent a prophet or an apostle to.",
+   "text_original": "A present-day country with a place God or an angel sent a prophet or apostle to",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old and New Testament",
+   "citation": "Exodus 3:10; 1 Kings 17:3-9; 2 Kings 2:2; Jonah 1:2; Acts 8:26; 9:11; 10; 16:9-10; 23:11; Deuteronomy 32:49",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "The Bible is full of divine sending. Moses was sent to Pharaoh, Jonah to Nineveh, and Elijah first to the brook Nebo east of the Jordan and then to a widow at Zarephath near Sidon (1 Kings 17). In Acts an angel sent Philip to the Gaza road, the Lord sent Ananias to Damascus, a vision called Paul to Macedonia, and Paul was promised Rome (Acts 23:11).",
+   "stamp": null,
+   "gems": [
+    "JOR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "At the burning bush the Lord sent Moses to Pharaoh in Egypt (Exodus 3:10)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Lord told Jonah to go to Nineveh, that great city (Jonah 1:2)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Lord sent Elijah to a widow at Zarephath near Zidon (1 Kings 17:9)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A vision of a man of Macedonia called Paul over to Europe (Acts 16:9-10)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "An angel told Cornelius to send for Peter, and Peter went to Caesarea (Acts 10)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "An angel sent Philip to the road toward Gaza, and the Lord sent Elijah to Bethel (Acts 8:26; 2 Kings 2:2)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Lord sent Ananias to the street called Straight in Damascus to find Saul (Acts 9:11)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Lord told Paul he must also bear witness at Rome (Acts 23:11)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Lord told Moses to go up Mount Nebo in the land of Moab (Deuteronomy 32:49)."
+    }
+   ]
+  }
+ ]
+}

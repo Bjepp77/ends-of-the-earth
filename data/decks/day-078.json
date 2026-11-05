@@ -1,0 +1,304 @@
+{
+ "day": 78,
+ "prompts": [
+  {
+   "id": "place-independence-temple-lot",
+   "bank": "places",
+   "display_text": "Pin the Temple Lot in Independence, Missouri, dedicated by Joseph Smith in 1831.",
+   "text_original": "Drop a pin on the Temple Lot in Independence, Missouri, which Joseph Smith dedicated in 1831 as the site of a future temple in Zion.",
+   "accepts": "place",
+   "kind": "restoration",
+   "place": {
+    "name": "Temple Lot, Independence, Missouri",
+    "lat": 39.0905,
+    "lng": -94.4276
+   },
+   "topic": "church history sites",
+   "era": "1831",
+   "citation": "Independence Temple Lot page, ChurchofJesusChrist.org; Church History Topics, Independence, Missouri, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/independence-temple-lot?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/independence-missouri?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "A July 1831 revelation named Independence the center place of Zion and said a temple would stand on a lot west of the courthouse (D&C 57). Joseph Smith dedicated the temple site on August 3, 1831. The Saints were driven from Jackson County in 1833, and the lot is now owned by the Church of Christ (Temple Lot), next to the Church's Independence Visitors' Center.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tb-port-names",
+   "bank": "sites-temples",
+   "display_text": "Pin a country with a temple named for a Port, Porto or Puerto city.",
+   "text_original": "A country with a temple (any stage, as of November 2026) named for a city whose name contains Port, Porto or Puerto.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2000-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Several temples are named for port cities with \"port\" in the name. They stretch from Haiti and Brazil to the South Pacific.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CHL",
+    "VUT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Porto Alegre Brazil (dedicated 2000)."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Port-au-Prince Haiti (dedicated 2019)."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Port Moresby Papua New Guinea (under construction)."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Porto Portugal (announced)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Puerto Montt Chile (announced)."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Port Vila Vanuatu (under construction)."
+    }
+   ]
+  },
+  {
+   "id": "he-church-schools-1948-69",
+   "bank": "sites-history",
+   "display_text": "Pin a country where the Church built or opened a Church-run school or college between 1948 and 1969.",
+   "text_original": "A country where the Church opened or built a Church-run school or college for members' children between 1948 and 1969.",
+   "accepts": "country",
+   "topic": "education",
+   "era": "1948-1969",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Chile closed its last Church school in 1981; the Church College of New Zealand closed in 2009.",
+   "summary": "After World War II the Church built schools where public education was scarce: Liahona College in Tonga (1948-52), the Church College of New Zealand (dedicated 1958), Benemerito de las Americas in Mexico (ground broken 1963), schools in Chile (1964), the Escuela Mormona de Bolivia (1968) and a primary school in Suva (1969).",
+   "stamp": null,
+   "gems": [
+    "BOL",
+    "FJI"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "November 4, 1963: ground was broken for Benemerito de las Americas, the flagship of a system of Church schools in Mexico."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1958: President David O. McKay dedicated the Church College of New Zealand at Hamilton, begun in 1950."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1964: the Church's educational association opened Church-run schools in La Cisterna and Vina del Mar."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1948-52: Liahona College, later Liahona High School, was built to replace the Makeke School."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1968: the Escuela Mormona de Bolivia, a Church-sponsored elementary school, opened in La Paz."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": true,
+     "fact": "February 3, 1969: the Latter-day Saint Primary School in Suva was officially opened."
+    }
+   ]
+  },
+  {
+   "id": "hc-caribbean-dedications-1978-97",
+   "bank": "sites-history",
+   "display_text": "Pin a Caribbean island nation that was dedicated for the preaching of the gospel between 1978 and 1997.",
+   "text_original": "A Caribbean island nation dedicated for the preaching of the gospel between 1978 and 1997.",
+   "accepts": "country",
+   "topic": "dedications",
+   "era": "1978-1997",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/jamaica/jm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/trinidad-tobago/tt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bahamas/bs-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Months after the 1978 revelation, M. Russell Ballard, then a Seventy, dedicated Jamaica and the Dominican Republic in December 1978. Thomas S. Monson dedicated Haiti in 1983, Elder Ballard returned as an Apostle for Trinidad and Tobago in 1990, and Neal A. Maxwell dedicated the Bahamas in 1997.",
+   "stamp": null,
+   "gems": [
+    "BHS",
+    "TTO"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In December 1978 Elder M. Russell Ballard of the Quorum of the Seventy dedicated the Dominican Republic for the preaching of the gospel."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1983 Elder Thomas S. Monson of the Quorum of the Twelve dedicated Haiti for the preaching of the gospel."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In December 1978 Elder M. Russell Ballard, then a member of the Quorum of the Seventy, dedicated Jamaica for the preaching of the gospel."
+    },
+    {
+     "code": "BHS",
+     "name": "Bahamas",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1997 Elder Neal A. Maxwell of the Quorum of the Twelve dedicated the Bahamas for the preaching of the restored gospel."
+    },
+    {
+     "code": "TTO",
+     "name": "Trinidad and Tobago",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1990 Elder M. Russell Ballard of the Quorum of the Twelve dedicated the republic for the preaching of the gospel."
+    }
+   ]
+  },
+  {
+   "id": "bible-kings-built-cities",
+   "bank": "bible",
+   "display_text": "Pin a country with a city the Bible says a king built, rebuilt or fortified, Jerusalem aside.",
+   "text_original": "A present-day country with a city the Bible says a king built, rebuilt or fortified, Jerusalem aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Exodus 1:11; 1 Kings 9:15; 12:25; 16:24; 2 Chronicles 8:4; Daniel 4:30",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/4?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Kings in the Bible were builders. Nebuchadnezzar boasted of the Babylon he built, Pharaoh forced Israel to raise Pithom and Raamses, and Solomon fortified Hazor, Megiddo and Gezer (1 Kings 9:15). Omri bought a hill and built Samaria on it, Jeroboam built Shechem and Penuel, and Solomon reached as far as Tadmor, the later Palmyra in Syria.",
+   "stamp": null,
+   "gems": [
+    "JOR",
+    "SYR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pharaoh made the Israelites build the treasure cities Pithom and Raamses (Exodus 1:11)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Nebuchadnezzar boasted of great Babylon that he had built for the house of the kingdom (Daniel 4:30)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Solomon built Hazor, Megiddo and Gezer (1 Kings 9:15)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Omri built Samaria on a hill he bought for two talents of silver, and Jeroboam built Shechem (1 Kings 16:24; 12:25)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Jeroboam went out from Shechem and built Penuel east of the Jordan (1 Kings 12:25)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Solomon built Tadmor in the wilderness and store cities in Hamath (2 Chronicles 8:4)."
+    }
+   ]
+  }
+ ]
+}

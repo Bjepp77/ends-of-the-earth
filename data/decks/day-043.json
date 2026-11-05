@@ -82,95 +82,6 @@
    ]
   },
   {
-   "id": "global-first-stakes-1970-73",
-   "bank": "global",
-   "display_text": "Pin a country or territory whose very first stake (a group of congregations) was organized 1970-1973",
-   "text_original": "In the early 1970s the Church organized the first stakes in several lands in Asia, Africa, Latin America and the Pacific. A country or territory whose very first stake of the Church was organized between 1970 and 1973.",
-   "accepts": "country_or_territory",
-   "topic": "church growth",
-   "era": "1970-1973",
-   "citation": "Global Histories chronologies and overviews (Peru, Japan, South Africa, French Polynesia, Chile, South Korea, El Salvador, Philippines)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-overview?lang=eng",
-    "https://www.churchofjesuschrist.org/study/ensign/1973/08/news-of-the-church/six-new-stakes-created-first-one-in-philippines?lang=eng",
-    "https://www.churchofjesuschrist.org/church/news/timeline-of-key-lds-church-events-in-the-philippines?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "American Samoa (1969), Tonga (1968) and Denmark (1974) fall just outside. The Philippines' first stake came in May 1973.",
-   "summary": "In 1970 the Church organized the first stakes in Peru, Japan and South Africa, Tokyo's being the first in Asia. Tahiti and Santiago, Chile followed in 1972, and in 1973 Seoul, San Salvador and Manila gained the first stakes in South Korea, El Salvador and the Philippines.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "SLV"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Tokyo Stake, the first stake in Asia, was organized March 15, 1970, with Kenji Tanaka as president."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Santiago Chile Stake, the first in Chile, was organized November 19, 1972."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Seoul Korea Stake, the first in mainland Asia, was organized March 8, 1973, with Rhee Ho Nam as president."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Lima Stake was organized February 22, 1970, with Roberto Vidal as president."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Ezra Taft Benson organized the Manila Philippines Stake, the first in the country, May 20, 1973, with Augusto A. Lim as president."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Transvaal Stake, the first in South Africa, was organized in Johannesburg, March 22, 1970."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Tahiti Stake, the first in French Polynesia, was organized at Papeete, May 14, 1972."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The San Salvador Stake was created June 3, 1973, with Mario Edmundo Scheel as president."
-    }
-   ]
-  },
-  {
    "id": "ot-solomon-builds-wives-allies",
    "bank": "ot",
    "display_text": "Pin a country holding a city Solomon built, or the homeland of one of his wives or royal allies (not Sheba)",
@@ -251,185 +162,237 @@
    ]
   },
   {
-   "id": "global-south-america-missionaries-1956-66",
-   "bank": "global",
-   "display_text": "Pin a Spanish- or Portuguese-speaking South American country where lasting missionary work began from 1956 to 1966",
-   "text_original": "After the first South American missions in Argentina, Brazil, Uruguay and Paraguay, missionaries pushed west and north. A Spanish- or Portuguese-speaking South American country where lasting full-time missionary work began between 1956 and 1966.",
+   "id": "temples-borders-france",
+   "bank": "temples",
+   "display_text": "Pin a country bordering France (overseas France included) with a temple dedicated, under construction or announced.",
+   "text_original": "A country that shares a land border with France (overseas France included: French Guiana and Saint Martin) and has a temple at any stage, dedicated, under construction or announced (as of October 2026).",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1956-1966",
-   "citation": "Global Histories chronologies (South America)",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://en.wikipedia.org/wiki/Borders_of_France"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Missionary work reached Argentina in 1925, Brazil by 1930, Uruguay in 1947 and Paraguay in 1950. Then came a second wave of lasting work: Chile and Peru in 1956, Bolivia in 1964, Ecuador in 1965, and Colombia and Venezuela in 1966.",
-   "stamp": null,
+   "summary": "Of France's land neighbours, Germany, Spain, Italy and Switzerland have dedicated temples and Belgium has one under construction in Brussels. The surprise is Brazil: French Guiana is part of France, so France's longest land border is with Brazil, which has twelve dedicated temples. Luxembourg, Monaco, Andorra and Suriname have none.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "VEN"
+    "BRA"
    ],
    "gem_forced": false,
    "answers": [
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Parley P. Pratt's 1851-52 mission was brief; Verle M. Allred and Joseph C. Bentley began lasting work in Santiago, June 1956."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The first full-time missionaries arrived in Lima, August 1956."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "J. Vernon Sharp preached briefly in La Paz in 1927; missionaries arrived to stay in La Paz and Cochabamba, November 1964."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Formal preaching began in Bogota in May 1966, with Spencer W. Kimball present."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Missionaries from the Andes Mission arrived in Quito, October 1965."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Full-time missionaries arrived in Caracas, November 1966."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-young-missions-europe",
-   "bank": "people",
-   "display_text": "Pin a European country where a current General Authority Seventy served as a young full-time missionary.",
-   "text_original": "Many General Authority Seventies serving as of October 2026 were once young full-time missionaries. Pin a European country where one of them served that mission, as named in the Church's official biographies.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1970s-2000s",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alan-t-phillips?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hans-t-boom?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/karl-d-hirst?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/matthew-s-holland?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/brian-j-holmes?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carl-b-cook?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/vern-p-stanfill?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/massimo-de-feo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/matthew-l-carpenter?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/robert-m-daines?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alexander-dushku?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-j-hathaway?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-w-pearson?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/james-w-mcconkie-iii?lang=eng",
-    "https://www.churchofjesuschrist.org/study/ensign/2017/05/news-of-the-church/elder-brian-k-taylor?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Before their calls as General Authorities, many Seventies served as young missionaries abroad. As of October 2026, their biographies name European missions in England, Scotland, Germany, France, Italy, Switzerland, Portugal, Russia, Finland and the Czech Republic.",
-   "stamp": null,
-   "gems": [
-    "CZE"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 5,
-     "gem": false,
-     "fact": "England Manchester, London East and London South; Scotland Edinburgh missions (Elders Phillips, Boom, Hirst, Holland)."
-    },
     {
      "code": "DEU",
      "name": "Germany",
      "commonness": 4,
      "gem": false,
-     "fact": "Germany Munich (Elder Holmes) and Germany Hamburg (Elder Cook) missions."
+     "fact": "Freiberg 1985, Frankfurt 1987, Hamburg announced."
     },
     {
-     "code": "FRA",
-     "name": "France",
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 4,
      "gem": false,
-     "fact": "France Toulouse Mission (Elder Stanfill)."
+     "fact": "Madrid 1999; Barcelona under construction."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rome 2019; Milan announced."
     },
     {
      "code": "CHE",
      "name": "Switzerland",
      "commonness": 3,
      "gem": false,
-     "fact": "Switzerland Geneva (Elder Carpenter) and Zurich (Elder Daines) missions."
+     "fact": "Bern Switzerland Temple dedicated 1955."
     },
     {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Brian K. Taylor served in the Spain Seville Mission."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Italy Rome Mission, 1981 to 1983 (Elder De Feo)."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Portugal Lisbon Mission (Elders Dushku and Teixeira)."
-    },
-    {
-     "code": "FIN",
-     "name": "Finland",
+     "code": "BEL",
+     "name": "Belgium",
      "commonness": 2,
      "gem": false,
-     "fact": "Finland Helsinki Mission (Elder Pearson)."
+     "fact": "Brussels Belgium Temple under construction."
     },
     {
-     "code": "RUS",
-     "name": "Russia",
+     "code": "NLD",
+     "name": "Netherlands",
      "commonness": 2,
      "gem": false,
-     "fact": "Russia St. Petersburg Mission (Elder Hathaway)."
+     "fact": "The Kingdom of the Netherlands borders France on Saint Martin/Sint Maarten; The Hague Netherlands Temple dedicated 2002."
     },
     {
-     "code": "CZE",
-     "name": "Czech Republic",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 1,
      "gem": true,
-     "fact": "Czech Prague Mission (Elder McConkie)."
+     "fact": "Brazil borders French Guiana; São Paulo 1978 and eleven more temples."
+    }
+   ]
+  },
+  {
+   "id": "global-central-america-five-plus-stakes",
+   "bank": "global",
+   "display_text": "Pin a Central American country (Guatemala to Panama) with 5 or more stakes as of October 2026.",
+   "text_original": "A Central American country (Guatemala to Panama) where the Church has 5 or more stakes as of October 2026.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/guatemala?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/panama?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/belize?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Six of the seven Central American countries have 5 or more stakes: Guatemala (51), Honduras (31), El Salvador (22), Nicaragua (12), Costa Rica (10) and Panama (7). Belize, the smallest, has a district but no stake.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PAN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 5,
+     "gem": false,
+     "fact": "51 stakes; about 297,000 members."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 4,
+     "gem": false,
+     "fact": "31 stakes; about 197,000 members."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 4,
+     "gem": false,
+     "fact": "22 stakes; about 132,000 members."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "10 stakes; about 58,000 members."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes; about 107,000 members."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": true,
+     "fact": "7 stakes; about 64,000 members."
+    }
+   ]
+  },
+  {
+   "id": "scripture-first-full-1990s",
+   "bank": "scripture",
+   "display_text": "Pin a country whose official or national language received its first complete Book of Mormon during the 1990s.",
+   "text_original": "The 1990s brought first complete Book of Mormon editions in several languages, from Hungarian (1991) to Haitian Creole (1999). Pin a country where an official or national language received its first complete Book of Mormon in the 1990s.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "1990-1999",
+   "citation": "Global Histories chronologies: Hungary, Ukraine, Romania, Albania, Bulgaria, Zimbabwe, Haiti, Philippines",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://en.wikipedia.org/wiki/Romanian_language"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As the Church entered Eastern Europe after 1989, the Book of Mormon followed: Hungarian in 1991, Ukrainian in 1997, Romanian in 1998, Albanian and Bulgarian in 1999. The same decade brought full editions in Shona for Zimbabwe, Haitian Creole for Haiti and three Philippine languages in 1998.",
+   "stamp": null,
+   "gems": [
+    "MDA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Complete Tagalog, Cebuano and Pangasinan editions were published in 1998."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The complete Haitian Creole translation was published in 1999."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Hungarian Book of Mormon was distributed in December 1991."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Ukrainian Book of Mormon was published in 1997."
+    },
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Albanian Book of Mormon became available in November 1999."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Bulgarian Book of Mormon was published in 1999."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "A complete Romanian translation was published in October 1998."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first full Shona edition was published in 1999."
+    },
+    {
+     "code": "MDA",
+     "name": "Moldova",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Romanian, Moldova's official language, received its complete Book of Mormon in 1998."
     }
    ]
   }

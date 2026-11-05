@@ -1,0 +1,396 @@
+{
+ "day": 73,
+ "prompts": [
+  {
+   "id": "place-accra-ghana-temple",
+   "bank": "places",
+   "display_text": "Pin the Accra Ghana Temple, the first temple in West Africa.",
+   "text_original": "Drop a pin on the Accra Ghana Temple, the first temple in West Africa.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Accra Ghana Temple",
+    "lat": 5.5675,
+    "lng": -0.1937
+   },
+   "topic": "temples",
+   "era": "2001-2004",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/accra-ghana-temple/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Elder Russell M. Nelson broke ground in November 2001 on Independence Avenue in Accra. President Gordon B. Hinckley dedicated the temple on January 11, 2004. It was the first temple in West Africa and the second in Africa, after Johannesburg.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-g7",
+   "bank": "sites-temples",
+   "display_text": "Pin a G7 country. Every one of the seven has a dedicated temple.",
+   "text_original": "A G7 country with at least one dedicated temple (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1877-2019",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "All seven G7 members have dedicated temples. The United States, Canada and Britain had theirs before 1960, Germany and Japan in the 1980s, and France and Italy only in 2017 and 2019. Italy was the last G7 country to get one, with the Rome Italy Temple.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "DEU",
+    "FRA",
+    "ITA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "First temple: St. George Utah (1877); 110 dedicated in all."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First temple: Cardston Alberta (1923); 9 dedicated in all."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First temple: London England (1958); 2 dedicated in all."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First temple: Tokyo Japan (1980); 4 dedicated in all."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": true,
+     "fact": "First temple: Freiberg Germany (1985); 2 dedicated in all."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": true,
+     "fact": "First temple: Paris France (2017); 1 dedicated in all."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": true,
+     "fact": "First temple: Rome Italy (2019); 1 dedicated in all."
+    }
+   ]
+  },
+  {
+   "id": "hd-mission-organized-1850s",
+   "bank": "sites-history",
+   "display_text": "Pin a country where a mission of the Church was opened between 1850 and 1859.",
+   "text_original": "A country where a mission of the Church was organized or opened between 1850 and 1859.",
+   "accepts": "country",
+   "topic": "missions",
+   "era": "1850-1859",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The 1850s saw the Church open missions far beyond Britain: Scandinavia, France, Italy and Switzerland in 1850, Australia and India in 1851, and South Africa in 1853.",
+   "stamp": null,
+   "gems": [
+    "IND"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1850 Erastus Snow and other Apostles arrived in Copenhagen and organized the Scandinavian Mission."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The arrival of John Taylor and his companions in 1850 marked the official opening of the French Mission."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "John Murdock and Charles W. Wandell arrived in Sydney in 1851 and established the Australian Mission."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1850 Lorenzo Snow assigned Thomas B. H. Stenhouse to Switzerland as part of the mission to Italy and surrounding countries."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lorenzo Snow was called in 1850 to open a mission in Italy; Jabez Woodard was called to preside over it in November 1850."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1852 Jesse C. Haven, Leonard I. Smith and William H. Walker were called to open a mission in South Africa; they reached Cape Town in 1853."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The East India Mission, opened in 1851, had baptized over 300 Europeans and Indians by the time it closed in 1856."
+    }
+   ]
+  },
+  {
+   "id": "global-region-named-first-mission",
+   "bank": "global",
+   "display_text": "Pin a country first served by the Scandinavian, South American, Andes or Central American Mission, before it had its own mission.",
+   "text_original": "Several early missions were named for a region rather than a single country and served several lands at once. Pin a country first served by the Scandinavian, South American, Andes or Central American Mission, before it had a mission of its own.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1850-1966",
+   "citation": "Global Histories chronologies: Denmark, Argentina, Sweden, Norway, Peru, Guatemala, Brazil, Costa Rica, Finland, Bolivia, Ecuador, Honduras, Nicaragua, El Salvador, Venezuela",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Four regional missions opened the way: the Scandinavian Mission (1850) for Denmark, Norway, Sweden and Finland; the South American Mission (1926) for Argentina and Brazil; the Central American Mission (1952) for Guatemala, Costa Rica, Honduras, Nicaragua, El Salvador and later Venezuela; the Andes Mission (1959) for Peru, Bolivia and Ecuador. Chile's first missionaries in 1956 came under the Argentine Mission.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "CRI",
+    "ECU",
+    "FIN",
+    "HND",
+    "NIC",
+    "SLV",
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Reinhold Stoof became president of the newly established South American Mission, headquartered in Buenos Aires, on July 15, 1926."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Erastus Snow organized the Scandinavian Mission in Copenhagen on June 14, 1850."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "South American Mission president Reinhold Stoof visited Brazil in December 1927, before the Brazilian Mission was organized in 1935."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Central American Mission was opened at Guatemala City on November 16, 1952."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Norway was served by the Scandinavian Mission from 1850 until a separate Norwegian Mission was created in 1920."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Andes Mission, with headquarters in Lima, was organized November 1, 1959."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sweden was served by the Scandinavian Mission from the 1850s; the Swedish Mission was not formed until July 1905."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Andes Mission, created November 1, 1959, included Bolivia."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Costa Rica was included in the Central American Mission from 1952; its headquarters moved to San Jose in 1965."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Missionaries from the Andes Mission arrived in Ecuador on October 4, 1965."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Scandinavian Mission president sent missionaries to Finland on October 2, 1875."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Honduras was served by the Central American Mission, opened at Guatemala City November 16, 1952."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Nicaragua was served by the Central American Mission from its opening on November 16, 1952."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "El Salvador was served by the Central American Mission from 1952 until its own mission was organized in 1976."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Missionaries from the Central American Mission arrived in Venezuela on November 29, 1966."
+    }
+   ]
+  },
+  {
+   "id": "scripture-chinese-scripts",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory where Chinese, given the Book of Mormon in 1965 (traditional) and 1999 (simplified), is official.",
+   "text_original": "The Chinese Book of Mormon was printed in Hong Kong in 1965 in traditional characters; a simplified-character edition followed in 1999. Pin a country or territory where Chinese is an official language.",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1965-2001",
+   "citation": "Global Histories chronologies: Hong Kong, Macau, Taiwan, Singapore",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/macau/mo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
+    "https://en.wikipedia.org/wiki/Chinese_language"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "After a stalled 1957 effort in Hong Kong, the Chinese Book of Mormon was finished through Hu Wei-i in Taiwan and printed in Hong Kong in December 1965. A simplified-character edition appeared in 2001, and a revised traditional and simplified translation in 2007-08. Chinese is official in China, Taiwan, Hong Kong, Macau and Singapore.",
+   "stamp": null,
+   "gems": [
+    "MAC"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Chinese is the official language; the simplified-character edition (1999) uses mainland script."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Chinese is official; the Chinese Book of Mormon was published in Taipei in 1963 through the efforts of Hu Wei-i."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Chinese and English are official; the 1965 edition was printed in Hong Kong."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Mandarin is one of Singapore's four official languages."
+    },
+    {
+     "code": "MAC",
+     "name": "Macau",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Chinese and Portuguese are official; Macau's chronology records the 1965 edition and the 1999 simplified-character edition."
+    }
+   ]
+  }
+ ]
+}

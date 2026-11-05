@@ -1,0 +1,387 @@
+{
+ "day": 49,
+ "prompts": [
+  {
+   "id": "place-salt-lake-temple",
+   "bank": "places",
+   "display_text": "Pin the Salt Lake Temple.",
+   "text_original": "Drop a pin on the Salt Lake Temple, the granite temple in the heart of Salt Lake City that took 40 years to build.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Salt Lake Temple",
+    "lat": 40.7705,
+    "lng": -111.892
+   },
+   "topic": "temples",
+   "era": "1853-1893",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/salt-lake-temple/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Brigham Young chose the temple site in July 1847, days after the pioneers reached the valley, and ground was broken in February 1853. The temple took 40 years to build and was dedicated in April 1893 by President Wilford Woodruff.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "hp-first-converts-1870-1899",
+   "bank": "sites-history",
+   "display_text": "Pin a land whose very first convert was baptized between 1870 and 1899.",
+   "text_original": "A country or territory where the first known convert was baptized between 1870 and 1899.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1876-1892",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "While the Saints were still settling the West, missionaries opened new lands. Finland, Mexico, Austria, Belgium, Samoa, American Samoa and Tonga all saw their first known convert baptisms between 1876 and 1892.",
+   "stamp": null,
+   "gems": [
+    "AUT",
+    "BEL",
+    "FIN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1877 Meliton Trejo and Louis Garff baptized Jose Epifanio Jesus at Hermosillo, the first convert in Mexico."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1892 Alipate, the first Tongan convert, was baptized and confirmed by Brigham Smoot at Mu‘a."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1889 Ifopa of Sale‘imoa village became the first convert baptized on Upolu."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1888 Malaea, on Aunu‘u, became the first convert baptized after the Samoan Mission opened."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1883 Paul Haslinger became the first convert baptized in Austria, at Lambach."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1888 Henrietta Esselmann and her son Frederick Pieper were the first baptized in Belgium, at Antwerp."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1876 Johanna Charlotta Berg became the first convert baptized in Finland, at Vaasa."
+    }
+   ]
+  },
+  {
+   "id": "hp-nauvoo-links",
+   "bank": "sites-history",
+   "display_text": "Pin a country outside the USA whose Church story has a chapter set in Nauvoo, Illinois.",
+   "text_original": "A country outside the United States whose Church story includes a chapter that took place in Nauvoo, Illinois (1839-1846).",
+   "accepts": "country",
+   "topic": "Nauvoo",
+   "era": "1840-1846",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Nauvoo was a launching point for the worldwide Church. A Welshman was baptized in the Mississippi there, a Dane began translating scripture while guarding the temple, Norwegians nearby joined, missionaries left for the Pacific, a mission to Russia was called, and leaders planned a move toward Mexican territory.",
+   "stamp": null,
+   "gems": [
+    "RUS"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dan Jones, a native of Wales, was baptized in the Mississippi River at Nauvoo in 1843."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1845 Peter Olsen Hansen began translating the Book of Mormon into Danish while serving as a guard in the Nauvoo Temple."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1844 Joseph Smith and the Apostles in Nauvoo began planning an expedition to seek a new home, possibly in Mexican territory."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In the 1840s several Norwegians living near Nauvoo joined the Church."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1843 Addison Pratt and three companions were set apart in Nauvoo; they ended up preaching on Tubuai in 1844."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1843 Joseph Smith in Nauvoo called Orson Hyde and George J. Adams on a mission to Russia, which never took place."
+    }
+   ]
+  },
+  {
+   "id": "ha-benson-europe-relief-1946",
+   "bank": "sites-history",
+   "display_text": "Pin a country where Elder Ezra Taft Benson brought postwar relief to the Saints in 1946.",
+   "text_original": "A country where Ezra Taft Benson, as European Mission president in 1946, visited Saints or directed postwar relief after World War II.",
+   "accepts": "country",
+   "topic": "welfare",
+   "era": "1946",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "After World War II, Elder Ezra Taft Benson spent 1946 as president of the European Mission. He reorganized branches and directed food and clothing shipments to struggling Saints across the continent.",
+   "stamp": null,
+   "gems": [
+    "BEL",
+    "DNK",
+    "FIN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "January 14, 1946: directed distribution of about 2,500 tons of relief supplies."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 4,
+     "gem": false,
+     "fact": "May 18-19, 1946, Rotterdam: organized distribution of relief supplies for European Saints."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "March 28, 1946: reorganized the Austrian District and oversaw food and clothing distribution."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Spring 1946: oversaw food and clothing distribution to members all over Europe."
+    },
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 30-August 7, 1946: arranged food, financial help and safe exodus of German members."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "April 1946: visited Antwerp and Liege to coordinate postwar relief."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": true,
+     "fact": "February 15-18, 1946: visited branches in Denmark and gave radio interviews."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "July 16, 1946, Larsmo: rededicated Finland for the preaching of the gospel."
+    }
+   ]
+  },
+  {
+   "id": "temples-largest-area-top20",
+   "bank": "temples",
+   "display_text": "Pin one of the 20 largest countries by area that has a temple dedicated, under construction or announced (as of October 2026).",
+   "text_original": "One of the 20 largest countries in the world by land area that has a temple dedicated, under construction or announced (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; UN Statistics Division area data",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://unstats.un.org/unsd/demographic-social/products/dyb/",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Thirteen of the 20 largest countries by area have a temple at some stage as of October 2026. The giants with dedicated temples include the United States, Canada, Brazil, Mexico, Australia, Argentina, China (Hong Kong) and Peru; India and DR Congo are building, and Russia, Indonesia and Mongolia have announced temples.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IDN",
+    "MNG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Fifth largest; São Paulo temple (1978)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Second largest; first temple Cardston Alberta (1923)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Thirteenth largest; Mexico City temple (1983)."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Third largest country; more than 100 dedicated temples."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Eighth largest; Buenos Aires temple (1986)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sixth largest; Sydney temple (1984)."
+    },
+    {
+     "code": "CHN",
+     "name": "China",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Fourth largest; Hong Kong temple (1996), Shanghai announced."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Seventh largest; Bengaluru temple under construction."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nineteenth largest; Lima temple (1986)."
+    },
+    {
+     "code": "COD",
+     "name": "DR Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Eleventh largest; Kinshasa temple (2019)."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Largest country; a temple in Russia was announced in 2018."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Fourteenth largest; Jakarta temple announced."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Eighteenth largest; Ulaanbaatar temple announced."
+    }
+   ]
+  }
+ ]
+}

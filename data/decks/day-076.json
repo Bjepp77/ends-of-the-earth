@@ -1,0 +1,334 @@
+{
+ "day": 76,
+ "prompts": [
+  {
+   "id": "place-hamilton-new-zealand-temple",
+   "bank": "places",
+   "display_text": "Pin the Hamilton New Zealand Temple, the first temple in the Southern Hemisphere.",
+   "text_original": "Drop a pin on the Hamilton New Zealand Temple, the first temple in the Southern Hemisphere.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Hamilton New Zealand Temple",
+    "lat": -37.8264,
+    "lng": 175.2249
+   },
+   "topic": "temples",
+   "era": "1955-1958",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/hamilton-new-zealand-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/hamilton-new-zealand-temple/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Ground was broken in December 1955 on a hill at Temple View, near Hamilton. Labor missionaries built much of the temple and the adjoining Church College of New Zealand. President David O. McKay dedicated it in April 1958, the first temple in the Southern Hemisphere, and it was rededicated in 2022.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tb-southeast-asia",
+   "bank": "sites-temples",
+   "display_text": "Pin a Southeast Asian country with a temple, finished or still planned.",
+   "text_original": "A country in Southeast Asia with a temple at any stage (dedicated, under construction or announced), as of November 2026.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1984-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "The Philippines has the most temples in Southeast Asia by far. Thailand and Cambodia now have dedicated temples, and more are coming in the region.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IDN",
+    "KHM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Manila Philippines (dedicated 1984) and over a dozen more at every stage."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Singapore (under construction)."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bangkok Thailand (dedicated 2023)."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Jakarta Indonesia (announced)."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Phnom Penh Cambodia (dedicated 2026)."
+    }
+   ]
+  },
+  {
+   "id": "hc-africa-legal-recognition-1982-2003",
+   "bank": "sites-history",
+   "display_text": "Pin an African country whose government officially recognized or registered the Church between 1982 and 2003.",
+   "text_original": "An African country that granted the Church official legal recognition or registration between 1982 and 2003.",
+   "accepts": "country",
+   "topic": "recognition",
+   "era": "1982-2003",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/namibia/na-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kenya/ke-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/republic-of-the-congo/cg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uganda/ug-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zambia/zm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/benin/bj-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/angola/ao-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cameroon/cm-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Legal recognition unlocked missionaries and meetinghouses across Africa: Nigeria in 1982, Liberia in 1987, newly independent Namibia in 1990, Uganda and the Republic of the Congo in 1991, Zambia and Angola in 1992, Cameroon in 1993 and Benin in 2003.",
+   "stamp": null,
+   "gems": [
+    "AGO",
+    "BEN",
+    "CMR",
+    "COG",
+    "NAM",
+    "ZMB"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "On August 5, 1982, the Nigerian government officially recognized the Church in Lagos."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kenya had not legally recognized the Church in 1985, so members met privately; recognition came in 1991 and Elder Faust dedicated the land that year."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "On May 12, 1987, the Church was officially recognized in Liberia."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1991 the Church was officially registered in Kampala and Jinja; on June 16, 1992, it received nationwide recognition."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On October 15, 1992, the official gazette Diario da Republica published legal recognition of the Church."
+    },
+    {
+     "code": "BEN",
+     "name": "Benin",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On March 7, 2003, the Church received official recognition in Benin."
+    },
+    {
+     "code": "CMR",
+     "name": "Cameroon",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1993 President Paul Biya approved the Church's request for legal recognition, when about 30 people had been baptized."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On October 15, 1991, the Church was officially recognized by the Congolese government."
+    },
+    {
+     "code": "NAM",
+     "name": "Namibia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On May 11, 1990, the Church was registered by the new Namibian government."
+    },
+    {
+     "code": "ZMB",
+     "name": "Zambia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On July 27, 1992, the government of Zambia formally recognized the Church."
+    }
+   ]
+  },
+  {
+   "id": "hd-dc-translated-pre-1900",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose language had a printed Doctrine and Covenants before 1900 (not the Book of Mormon).",
+   "text_original": "A country where the Doctrine and Covenants was published in a local language before 1900.",
+   "accepts": "country",
+   "topic": "scripture",
+   "era": "1851-1899",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Difficulty 3: the Swedish edition was printed in Salt Lake City; Germany and Switzerland share the 1876 German edition.",
+   "summary": "The Book of Mormon was translated early and often, but the Doctrine and Covenants reached only a few languages before 1900: Welsh (1851-52), Danish (1852), German (1876) and Swedish (1888).",
+   "stamp": null,
+   "gems": [
+    "CHE",
+    "GBR",
+    "SWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Doctrine and Covenants was published in German in April 1876."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Doctrine and Covenants was published in Danish in February 1852."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": true,
+     "fact": "The German Doctrine and Covenants of April 1876 was issued at Bern, headquarters of the Swiss Mission."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Welsh translations of the Doctrine and Covenants, Book of Mormon and Pearl of Great Price were published at Rhydybont in 1851-52."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": true,
+     "fact": "The Doctrine and Covenants was published in Swedish in 1888."
+    }
+   ]
+  },
+  {
+   "id": "sites-gathering-settlements-pre-1910",
+   "bank": "sites",
+   "display_text": "Pin a country or territory where Latter-day Saints built their own gathering settlement before 1910.",
+   "text_original": "Before 1910 the Saints built their own gathering settlements in several lands, from Utah towns to Pacific villages set apart for members. Pin a country or territory where Latter-day Saints founded a gathering settlement before 1910.",
+   "accepts": "country_or_territory",
+   "topic": "emigration",
+   "era": "1847-1910",
+   "citation": "Global Histories chronologies: Canada, Mexico, French Polynesia, Samoa, American Samoa; Church History Topics: Colonies in Mexico",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/united-states/us-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/colonies-in-mexico?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Gathering was not only to Utah. Saints founded Cardston in Canada in 1887 and colonies in Chihuahua, Mexico from 1885. In the Pacific, members built Tiona in French Polynesia, Mapusaga in American Samoa (1903) and Sauniatu in Samoa (1904) as gathering places.",
+   "stamp": null,
+   "gems": [
+    "ASM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Salt Lake City and hundreds of Utah settlements, from 1847."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Charles Ora Card founded Cardston, Alberta in 1887."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Colonies in Chihuahua from 1885, including Colonia Juarez."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tiona gathering communities on Tubuai and Tahiti in the 1860s-70s."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Land for the Sauniatu gathering place was cleared in November 1904."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Mapusaga was dedicated as a gathering place on May 30, 1903."
+    }
+   ]
+  }
+ ]
+}

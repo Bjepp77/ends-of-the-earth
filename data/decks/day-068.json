@@ -1,0 +1,411 @@
+{
+ "day": 68,
+ "prompts": [
+  {
+   "id": "place-chimney-rock",
+   "bank": "places",
+   "display_text": "Pin Chimney Rock, the Nebraska landmark on the pioneer trail.",
+   "text_original": "Drop a pin on Chimney Rock in western Nebraska, the spire the pioneers watched for days as they followed the North Platte River.",
+   "accepts": "place",
+   "kind": "trail",
+   "place": {
+    "name": "Chimney Rock, Nebraska",
+    "lat": 41.7036,
+    "lng": -103.3483
+   },
+   "topic": "church history sites",
+   "era": "1847-1868",
+   "citation": "Church History Topics, Pioneer Trek; Wikipedia and OpenStreetMap for the location, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/pioneer-trek?lang=eng",
+    "https://en.wikipedia.org/wiki/Chimney_Rock_National_Historic_Site"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Chimney Rock is a tall rock spire rising above the North Platte River valley in western Nebraska. It was the most noted landmark in emigrant journals and could be seen for days as companies walked toward it. Latter-day Saint companies passed it on the north side of the river on the way to Fort Laramie.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-first-temple-kimball-era",
+   "bank": "sites-temples",
+   "display_text": "Pin a country that received its first temple under President Spencer W. Kimball.",
+   "text_original": "A country whose first temple was dedicated while Spencer W. Kimball was Church president (December 1973 to November 1985).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-1985",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "President Kimball served from December 1973 until his death on 5 November 1985. His years brought the first temples in South America (São Paulo, 1978), Asia (Tokyo, 1980) and Africa (Johannesburg, 1985), plus the Pacific and Mexico. Seoul Korea does not count: it was dedicated in December 1985, after he died.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "SWE",
+    "TWN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "São Paulo Brazil, dedicated 30 October–2 November 1978."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Mexico City Mexico, dedicated 2–4 December 1983."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sydney Australia, dedicated 20–23 September 1984."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago Chile, dedicated 15–17 September 1983."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo Japan, dedicated 27–29 October 1980."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manila Philippines, dedicated 25–27 September 1984."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg Germany, dedicated 29–30 June 1985."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City Guatemala, dedicated 14–16 December 1984."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nuku'alofa Tonga, dedicated 9–11 August 1983."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia Samoa, dedicated 5–7 August 1983."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Johannesburg South Africa, dedicated 24–25 August 1985."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Stockholm Sweden, dedicated 2–4 July 1985."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Taipei Taiwan, dedicated 17–18 November 1984."
+    }
+   ]
+  },
+  {
+   "id": "tc-three-decades",
+   "bank": "sites-temples",
+   "display_text": "Pin a non-US country that has dedicated new temples in three or more different decades.",
+   "text_original": "A country outside the United States where new temples were dedicated in at least three different decades.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Nine countries outside the US have dedicated temples across three or more decades. Canada and Mexico span five decades each. Brazil and Japan span four, and Argentina, Chile, Peru, Guatemala and the Philippines three, usually the 1980s, 2010s and 2020s.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "GTM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Dedications in the 1970s, 2000s, 2010s, 2020s."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Dedications in the 1980s, 1990s, 2000s, 2010s, 2020s."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dedications in the 1980s, 2010s, 2020s."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dedications in the 1920s, 1990s, 2000s, 2010s, 2020s."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dedications in the 1980s, 2010s, 2020s."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dedications in the 1980s, 2000s, 2010s, 2020s."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dedications in the 1980s, 2010s, 2020s."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dedications in the 1980s, 2010s, 2020s."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Dedications in the 1980s, 2010s, 2020s."
+    }
+   ]
+  },
+  {
+   "id": "hd-native-mission-president-pre-1880",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose own convert was called to preside over a mission there before 1880.",
+   "text_original": "A country where one of its own converts was called to preside over a mission before 1880.",
+   "accepts": "country",
+   "topic": "leadership",
+   "era": "1845-1879",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Most early missions were led by Americans, but before 1880 several lands saw a local convert take charge: Dan Jones in Wales (1845), Carl Widerborg, a Swede, over Scandinavia (1858), Louis Bertrand in France (1859), Karl G. Maeser over the Swiss and German Mission (1868), and native presidents in Norway (1870), the Netherlands (1871) and Denmark (1873).",
+   "stamp": null,
+   "gems": [
+    "FRA",
+    "GBR",
+    "NLD",
+    "NOR",
+    "SWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Karl G. Maeser, a convert from Dresden, was appointed president of the Swiss and German Mission on June 12, 1868."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1873 Christian Gries Larsen became the first Dane called to preside over the Scandinavian Mission."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Louis Bertrand, baptized in Paris in 1850, was called in 1859 to reopen and preside over the French Mission."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Welsh convert Dan Jones was appointed president of the Church in Wales in December 1845 and called again to preside in 1854."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Sieberen van Dijk, the first native Netherlander to preside over the Netherlands Mission, was called in 1871."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1870 the first native of Norway was called to preside over the Scandinavian Mission."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1858 Carl Widerborg, a Swede, became president of the Scandinavian Mission."
+    }
+   ]
+  },
+  {
+   "id": "hd-first-branch-1850s",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose first branch of the Church was organized during the 1850s.",
+   "text_original": "A country whose first branch of the Church was organized in the 1850s.",
+   "accepts": "country",
+   "topic": "branches",
+   "era": "1850-1859",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The 1850s were the decade of first branches. Missions opened across Europe, Africa, Asia and the Pacific, and converts were gathered into branches from Copenhagen (1850) to Karori, New Zealand (1855).",
+   "stamp": null,
+   "gems": [
+    "IND",
+    "ISL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Copenhagen Branch, the first in Denmark, was organized on September 15, 1850."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "William Howells organized the first branch in France at Boulogne-sur-Mer in 1850."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The first branch in Norway was created at Risor on July 16, 1852, with 18 members."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mikael Johnson organized the first branch in Sweden at Skonaback in 1853."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Angrogna Branch, the first branch in present-day Italy, was organized in 1851."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Karori Branch became the first branch organized in New Zealand in April 1855."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Mowbray Branch, the first branch in Africa, was organized on August 16, 1853."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1851 a branch was organized in Calcutta after the first baptisms in India."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The first branch in Iceland was organized in the Westman Islands on June 19, 1853."
+    }
+   ]
+  }
+ ]
+}

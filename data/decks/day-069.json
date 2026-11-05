@@ -1,0 +1,316 @@
+{
+ "day": 69,
+ "prompts": [
+  {
+   "id": "place-peter-whitmer-farm",
+   "bank": "places",
+   "display_text": "Pin the Peter Whitmer farm in Fayette, New York, where the Church was organized in 1830.",
+   "text_original": "Drop a pin on the Peter Whitmer Sr. farm in Fayette, New York, where the Church was organized on April 6, 1830.",
+   "accepts": "place",
+   "kind": "restoration",
+   "place": {
+    "name": "Peter Whitmer Sr. Farm (Whitmer Farm Visitors' Center), Fayette, New York",
+    "lat": 42.8662,
+    "lng": -76.8689
+   },
+   "topic": "church history sites",
+   "era": "1829-1830",
+   "citation": "Whitmer Farm Visitors' Center page, ChurchofJesusChrist.org; Church History Topics, Founding Meeting of the Church of Christ, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/whitmer-farm-visitors-center?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/founding-meeting-of-the-church-of-christ?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Joseph Smith finished translating the Book of Mormon at the Whitmer family's log home in June 1829, and the Three Witnesses saw the plates nearby. On April 6, 1830, about 50 to 60 people gathered in the home to organize the Church. A reconstructed log home stands on the farm next to the visitors' center.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-more-coming-than-built",
+   "bank": "sites-temples",
+   "display_text": "Pin a non-US country with more temples on the way than already dedicated.",
+   "text_original": "A country outside the United States with more temples announced or under construction than dedicated (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2000-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Six countries have more temples in the pipeline than in operation. Nigeria leads with one dedicated temple and six more coming. Peru, the Philippines, Ghana, Bolivia and DR Congo also have more planned than built.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "COD"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "4 dedicated against 6 under construction or announced."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "6 dedicated against 8 under construction or announced."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated against 2 under construction or announced."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated against 6 under construction or announced."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated against 2 under construction or announced."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated against 3 under construction or announced."
+    }
+   ]
+  },
+  {
+   "id": "he-recognition-latam-asia-1952-68",
+   "bank": "sites-history",
+   "display_text": "Pin a Latin American or East Asian country that gave the Church legal or official recognition 1952-1968.",
+   "text_original": "A Latin American or East Asian country whose government granted the Church legal or official recognition between 1952 and 1968.",
+   "accepts": "country",
+   "topic": "legal",
+   "era": "1952-1968",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Western European recognition (1952-74), African recognition and post-communist recognition are separate prompts.",
+   "summary": "Legal recognition let the Church own property and station missionaries. Uruguay granted it in 1952, Peru in 1956, South Korea in 1957, the Philippines in 1961, Guatemala in 1966 and El Salvador in 1968.",
+   "stamp": null,
+   "gems": [
+    "SLV"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1957: with help from district president Kim Ho Jik, the Church secured legal recognition from the Republic of Korea."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1961: the government of the Philippines granted legal recognition to the Church."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "November 1966: the Church received official recognition from the Guatemalan government."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 11, 1956: the Church secured legal recognition in Peru."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "August 21, 1952: the Church was granted legal recognition in Uruguay."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "May 3, 1968: the Church was officially recognized by the Ministry of the Interior."
+    }
+   ]
+  },
+  {
+   "id": "global-french-official-25k",
+   "bank": "global",
+   "display_text": "Pin a country or territory where French is an official language and the Church has more than 25,000 members (end of 2025).",
+   "text_original": "A country or territory where French is an official language and the Church had more than 25,000 members at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (membership, 31 Dec 2025); Wikipedia country infoboxes (official languages)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/democratic-republic-of-the-congo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/canada?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/france?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/haiti?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cote-divoire?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/french-polynesia?lang=eng",
+    "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo",
+    "https://en.wikipedia.org/wiki/Canada",
+    "https://en.wikipedia.org/wiki/France",
+    "https://en.wikipedia.org/wiki/Haiti",
+    "https://en.wikipedia.org/wiki/Ivory_Coast",
+    "https://en.wikipedia.org/wiki/French_Polynesia"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "French is official in six places where the Church had more than 25,000 members at the end of 2025: the Democratic Republic of the Congo, Canada, France, Haiti, Cote d'Ivoire and French Polynesia. Madagascar (20,395), Vanuatu (14,042), Switzerland (9,630) and Belgium (7,164) are French-speaking but smaller.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PYF"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "French official; 159,771 members."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "French; 40,546 members."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "French and English official; 211,581 members."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "French and Haitian Creole; 27,550 members."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 2,
+     "gem": false,
+     "fact": "French; 71,182 members."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "French official in this French territory; 30,350 members."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-melanesia-micronesia-first-missionaries-1954-77",
+   "bank": "pioneer",
+   "display_text": "Pin a Melanesian or Micronesian island country where the first Latter-day Saint missionaries arrived between 1954 and 1977.",
+   "text_original": "A Melanesian or Micronesian island country where the first Latter-day Saint missionaries arrived between 1954 and 1977.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1954-1977",
+   "citation": "Global Histories chronologies: Fiji, Papua New Guinea, Vanuatu, Kiribati, Micronesia, Marshall Islands",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/vanuatu/vu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kiribati/ki-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/micronesia/fm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/marshall-islands/mh-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "While Polynesia had Latter-day Saint missions from the 1840s, the Church reached Melanesia and Micronesia much later: Fiji in 1954, Papua New Guinea briefly in 1961, then Vanuatu and Kiribati in 1975 and Pohnpei and Majuro in 1976-77.",
+   "stamp": null,
+   "gems": [
+    "FSM",
+    "MHL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Elders Boyd Harris and Sheldon Abbot, newly arrived, met the Saints in Suva on September 5, 1954."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first missionaries labored in Port Moresby and Lae in 1961 before being withdrawn; work resumed in 1980."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first six missionaries arrived in Tarawa in October 1975 and baptized 20 people within six weeks."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tongan elders began missionary work in the New Hebrides at Port Vila on January 12, 1975."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries began preaching on Pohnpei in October 1976."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries began preaching on Majuro on February 3, 1977."
+    }
+   ]
+  }
+ ]
+}

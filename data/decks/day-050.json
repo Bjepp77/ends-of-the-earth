@@ -1,0 +1,372 @@
+{
+ "day": 50,
+ "prompts": [
+  {
+   "id": "place-nauvoo",
+   "bank": "places",
+   "display_text": "Pin Nauvoo, Illinois, where the trek west began in 1846.",
+   "text_original": "Drop a pin on Nauvoo, Illinois, the Mississippi River city the Saints began leaving in February 1846 to start the trek west.",
+   "accepts": "place",
+   "kind": "trail",
+   "place": {
+    "name": "Nauvoo, Illinois",
+    "lat": 40.5535,
+    "lng": -91.3898
+   },
+   "topic": "church history sites",
+   "era": "1846",
+   "citation": "Church History Topics, Nauvoo (Commerce), Illinois; Historic Nauvoo North Visitors' Center page, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/nauvoo-commerce-illinois?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/locations/historic-nauvoo-visitors-center?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "The Saints built Nauvoo on land along the Mississippi River that included the small town of Commerce. After finishing the temple, where thousands received the endowment, they began leaving the city in February 1846. The temple was later destroyed, and the Church completed a rebuilt Nauvoo Temple in 2002.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tb-saint-city",
+   "bank": "sites-temples",
+   "display_text": "Pin a country with a temple named for a San, Santa, Santo, Santiago or São city.",
+   "text_original": "A country with a temple (any stage, as of November 2026) named for a city whose name begins San, Santa, Santo, Santiago or São.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Many cities in Spanish and Portuguese speaking lands are named for saints. Temples there often carry those names.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "PHL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil (dedicated 1978); São Paulo East Brazil (announced)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago Chile (dedicated 1983); Santiago West Chile (under construction)."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santo Domingo Dominican Republic (dedicated 2000); Santiago Dominican Republic (announced)."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 4,
+     "gem": false,
+     "fact": "San Salvador El Salvador (dedicated 2011); Santa Ana El Salvador (announced)."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "San José Costa Rica (dedicated 2000)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 3,
+     "gem": false,
+     "fact": "San Pedro Sula Honduras (dedicated 2024)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "San Luis Potosí Mexico (dedicated 2026)."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 3,
+     "gem": false,
+     "fact": "San Diego California (dedicated 1993); San Antonio Texas (dedicated 2005)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Santa Cruz Bolivia (under construction)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Santiago Philippines (announced); San Jose del Monte Philippines (announced)."
+    }
+   ]
+  },
+  {
+   "id": "temples-french-official",
+   "bank": "sites-temples",
+   "display_text": "Pin a nation with French as an official language and a temple at any stage.",
+   "text_original": "A country where French is an official language, with a temple at any stage (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "French is an official language in countries on four continents that have temples, from Canada and Switzerland to Haiti, Vanuatu and much of Africa. Paris, Bern, Port-au-Prince, Kinshasa and Abidjan are dedicated. Brussels, Brazzaville, Antananarivo and Port Vila are under construction as of November 2026.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 5,
+     "gem": false,
+     "fact": "First dedicated: Paris France (2017); 1 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First dedicated: Cardston Alberta (1923); 11 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First dedicated: Bern Switzerland (1955); 1 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Brussels Belgium (under construction), as of November 2026."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First dedicated: Abidjan Ivory Coast (2025); 1 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First dedicated: Kinshasa Democratic Republic of the Congo (2019); 4 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "First dedicated: Port-au-Prince Haiti (2019); 1 temple(s) in all, as of November 2026."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Brazzaville Republic of the Congo (under construction), as of November 2026."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Antananarivo Madagascar (under construction), as of November 2026."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Vila Vanuatu (under construction), as of November 2026."
+    }
+   ]
+  },
+  {
+   "id": "hp-baptisms-before-martyrdom",
+   "bank": "sites-history",
+   "display_text": "Pin a country where people were baptized on its soil while Joseph Smith was still alive.",
+   "text_original": "A country where converts were baptized on its own soil before the death of Joseph Smith on June 27, 1844.",
+   "accepts": "country",
+   "topic": "early missionary work",
+   "era": "1830-1844",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/united-states/us-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "By the time Joseph Smith was killed in June 1844, the Church had spread beyond the United States. Converts had been baptized in Canada, the British Isles and Australia, and on Tubuai in French Polynesia just days before the martyrdom.",
+   "stamp": null,
+   "gems": [
+    "AUS",
+    "PYF"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1837 George Watt and eight others, the first converts in England, were baptized in the River Ribble at Preston; Scotland, Wales and Ireland (at Loughbrickland, now Northern Ireland) followed by 1843."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Joseph Smith organized the restored Church on April 6, 1830."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1836 Parley P. Pratt baptized a group near Toronto that included John and Leonora Taylor and the Fieldings."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1842 William Barratt baptized Robert Beauchamp Dolling in Adelaide, the first known baptism in Australia."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On June 16, 1844, Ambrose Alexander became the first convert in French Polynesia, baptized on Tubuai."
+    }
+   ]
+  },
+  {
+   "id": "hp-baptized-abroad-first",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose earliest members joined the Church far from home, baptized abroad before any baptism there.",
+   "text_original": "A country whose earliest known converts were baptized in another country before anyone was baptized in their homeland.",
+   "accepts": "country",
+   "topic": "early converts",
+   "era": "1836-1899",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Some lands had members before missionaries ever baptized anyone there. English emigrants joined in Canada, Danes and an Italian in Boston, Norwegians near Nauvoo, a Netherlander in Wales, a Belgian in France, a Spaniard in Utah and a Bulgarian in Romania. Several later carried the gospel home.",
+   "stamp": null,
+   "gems": [
+    "BGR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Peter Clemensen and Hans Christian Hansen, the first Danish converts, were baptized in Boston in 1842; the first baptisms in Denmark came in 1850."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1836 Joseph Fielding, John Taylor, Leonora Cannon Taylor and other English immigrants joined the Church in Toronto, a year before the first baptisms in England."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Joseph Toronto (Giuseppe Taranto), the first known Italian convert, was baptized in Boston in 1843; the first baptism in Italy came in 1850."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Several Norwegians living near Nauvoo joined the Church in the 1840s, before the first baptisms in Norway in 1851."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Gustave Choprix, a Belgian convert baptized in France, preached in Brussels in 1861; the first baptisms in Belgium came in 1888."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Meliton Gonzalez Trejo, a native of Spain, was baptized in Salt Lake City in 1874; resident Spaniards were first baptized only in 1950."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Anne Wiegers van der Woude, the first Netherlander baptized, joined in Cardiff, Wales, in 1852; van der Woude was among the first missionaries to preach in the Netherlands in 1861."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Argir Dimitrov, a Bulgarian working in Turkey, was baptized by Mischa Markow at Constanta, Romania, in 1899."
+    }
+   ]
+  }
+ ]
+}

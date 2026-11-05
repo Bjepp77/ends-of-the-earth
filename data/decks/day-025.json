@@ -2,81 +2,6 @@
  "day": 25,
  "prompts": [
   {
-   "id": "temples-first-announced-2018",
-   "bank": "temples",
-   "display_text": "Pin a country or territory whose first temple was announced in 2018.",
-   "text_original": "Pin a country or territory whose first temple was announced in 2018.",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2018",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In 2018, his first year as Church president, Russell M. Nelson announced first temples for seven countries and territories, from Russia and India to Guam and Cape Verde. Five of those have since been dedicated; Bengaluru and the Russia temple had not been as of October 2026.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "CPV",
-    "GUM"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Bengaluru India, announced 2018."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "A temple for a major city in Russia, announced 2018."
-    },
-    {
-     "code": "KHM",
-     "name": "Cambodia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Phnom Penh Cambodia, announced 2018."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Managua Nicaragua, announced 2018."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 2,
-     "gem": false,
-     "fact": "San Juan Puerto Rico, announced 2018."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Praia Cape Verde, announced 2018."
-    },
-    {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Yigo Guam, announced 2018."
-    }
-   ]
-  },
-  {
    "id": "history-temples-dedicated-2024",
    "bank": "history2",
    "display_text": "Pin a country where a temple was dedicated in 2024.",
@@ -231,164 +156,382 @@
    ]
   },
   {
-   "id": "global-hinckley-world-trip-2005",
-   "bank": "global",
-   "display_text": "Pin a country or territory outside the US where President Hinckley met Saints on his 2005 round-the-world trip",
-   "text_original": "In July and August 2005, at age 95, President Gordon B. Hinckley flew around the world, stopping to meet Saints in seven cities. A country or territory outside the United States where he stopped to meet members or dedicate a building on that trip.",
-   "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "2005",
-   "citation": "Liahona, Dec. 2005, President Hinckley Travels the World",
+   "id": "bible-jesus-named-places",
+   "bank": "bible",
+   "display_text": "Pin a country with a place Jesus himself named aloud while teaching, Sodom and Gomorrah aside.",
+   "text_original": "A present-day country with a place Jesus himself named aloud when teaching, Sodom and Gomorrah aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Matthew 11:21-23; 12:41; Luke 4:26-27; 10:30; Acts 1:8",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/liahona/2005/12/news-of-the-church/president-hinckley-travels-the-world?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng"
    ],
-   "difficulty": 3,
-   "note": "Hong Kong is the answer for the Hong Kong stop; mainland China was not visited.",
-   "summary": "In mid-2005 President Gordon B. Hinckley, then 95, circled the globe. He greeted Saints at Vladivostok, spoke in Seoul, dedicated office buildings in Taipei and Hong Kong, dedicated the Aba Nigeria Temple, and met small groups of members in Delhi and Nairobi.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Jesus taught with place names his hearers knew. He rebuked Chorazin, Bethsaida and Capernaum, set the good Samaritan on the Jericho road, and said Tyre and Sidon would have repented sooner (Matthew 11:21). At Nazareth he pointed to the widow of Sarepta and Naaman the Syrian, and he held up the men of Nineveh as a rebuke (Matthew 12:41).",
+   "stamp": null,
    "gems": [
-    "IND",
-    "KEN"
+    "IRQ",
+    "SYR"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
      "gem": false,
-     "fact": "He spoke at a regional conference in Seoul marking 50 years of the Church in Korea."
+     "fact": "Jesus rebuked Chorazin, Bethsaida and Capernaum and spoke often of Jerusalem (Matthew 11:21-23)."
     },
     {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 3,
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
      "gem": false,
-     "fact": "He dedicated the Aba Nigeria Temple."
+     "fact": "The good Samaritan story runs from Jerusalem down to Jericho, and Jesus named Samaria as a mission field (Luke 10:30; Acts 1:8)."
     },
     {
-     "code": "RUS",
-     "name": "Russia",
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 3,
      "gem": false,
-     "fact": "He greeted about 200 members at the Vladivostok airport during a refueling stop."
+     "fact": "Jesus said Tyre and Sidon would have repented, and told of the widow of Sarepta (Matthew 11:21; Luke 4:26)."
     },
     {
-     "code": "HKG",
-     "name": "Hong Kong",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 2,
-     "gem": false,
-     "fact": "He met members in Hong Kong and dedicated a Church office building."
+     "gem": true,
+     "fact": "Jesus said the men of Nineveh would rise in judgment against his generation (Matthew 12:41)."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 2,
-     "gem": false,
-     "fact": "He met members in Taipei and dedicated a Church office building."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 1,
      "gem": true,
-     "fact": "He met a small group of members in Delhi during a brief stop."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 1,
-     "gem": true,
-     "fact": "He met a small group of members in Nairobi during a brief stop."
+     "fact": "At Nazareth Jesus recalled Naaman the Syrian (Luke 4:27)."
     }
    ]
   },
   {
-   "id": "people-seventies-born-asia-pacific",
-   "bank": "people",
-   "display_text": "Pin an Asian or Pacific country or territory where a current General Authority Seventy was born (October 2026, not US states).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Asia or the Pacific islands. Pin a country or territory there where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "id": "global-island-any-stake",
+   "bank": "global",
+   "display_text": "Pin an island country or territory (Australia excluded; Japan, UK and Philippines count) with a Church stake as of October 2026.",
+   "text_original": "An island country or territory (Australia and Hawaii excluded; Japan, the United Kingdom and the Philippines count) where the Church has at least one stake as of October 2026.",
    "accepts": "country_or_territory",
-   "topic": "church leadership",
+   "topic": "church growth",
    "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/presidency-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/james-o-fantone?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/takashi-wada?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christopher-h-kim?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/yoon-hwan-choi?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/vaiangina-sikahema?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/chi-hong-sam-wong?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/benjamin-m-z-tai?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/taniela-b-wakolo?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/japan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/united-kingdom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/new-zealand?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/dominican-republic?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/madagascar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/bahrain?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/micronesia?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_island_countries"
    ],
-   "difficulty": 2,
-   "note": "Elder J. Kimo Esplin was born in Kahuku, Hawaii, a US state, so the display rules out US states.",
-   "summary": "As of October 2026, current General Authority Seventies were born in the Philippines, Japan, South Korea, Taiwan, Hong Kong, Tonga and Fiji. Elder Benjamin M. Z. Tai of Hong Kong serves in the Presidency of the Seventy.",
+   "difficulty": 1,
+   "note": null,
+   "summary": "Islands hold some of the Church's strongest stake networks: the Philippines (141), the United Kingdom (41), New Zealand (28), Japan (22), the Dominican Republic (22), Tonga (21) and Samoa (20). Smaller island stakes stretch from Ireland and Cape Verde to Bahrain, Madagascar, Jamaica and Micronesia. Iceland, Malta, Cyprus, Sri Lanka, Cuba and Mauritius have no stake.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "FJI",
-    "TWN"
+    "BHR",
+    "CPV",
+    "FSM",
+    "MHL",
+    "NCL"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "41 stakes."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "22 stakes."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 5,
+     "gem": false,
+     "fact": "28 stakes."
+    },
     {
      "code": "PHL",
      "name": "Philippines",
      "commonness": 5,
      "gem": false,
-     "fact": "Elders Revillo (General Santos City), Fantone (Manila) and Teh (Davao City)."
+     "fact": "141 stakes."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "DOM",
+     "name": "Dominican Republic",
      "commonness": 4,
      "gem": false,
-     "fact": "Elder Takashi Wada, born in Nagano."
+     "fact": "22 stakes."
     },
     {
-     "code": "KOR",
-     "name": "South Korea",
+     "code": "TON",
+     "name": "Tonga",
      "commonness": 4,
      "gem": false,
-     "fact": "Elders Christopher H. Kim (Daegu) and Yoon Hwan Choi (Seoul)."
+     "fact": "21 stakes."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "16 stakes."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "20 stakes."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 stakes."
     },
     {
      "code": "HKG",
      "name": "Hong Kong",
      "commonness": 3,
      "gem": false,
-     "fact": "Elders Chi Hong (Sam) Wong and Benjamin M. Z. Tai of the Presidency of the Seventy."
+     "fact": "4 stakes."
     },
     {
-     "code": "TON",
-     "name": "Tonga",
+     "code": "HTI",
+     "name": "Haiti",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Vaiangina Sikahema, born in Nuku'alofa."
+     "fact": "5 stakes."
     },
     {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Elder Taniela B. Wakolo, born in Lomaloma, Lau."
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 stake."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "6 stakes."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "5 stakes."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "11 stakes."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
      "commonness": 2,
+     "gem": false,
+     "fact": "5 stakes."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 2,
+     "gem": false,
+     "fact": "5 stakes."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "TTO",
+     "name": "Trinidad and Tobago",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "BHR",
+     "name": "Bahrain",
+     "commonness": 1,
      "gem": true,
-     "fact": "Elder Wan-Liang Wu, born in Taipei."
+     "fact": "1 stake."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake."
+    }
+   ]
+  },
+  {
+   "id": "scripture-triple-combination-2000-2019",
+   "bank": "scripture",
+   "display_text": "Pin a country whose language received a full triple combination (three books of scripture in one) between 2000 and 2019.",
+   "text_original": "After the Book of Mormon, a language's next milestone is usually a triple combination: the Book of Mormon, Doctrine and Covenants and Pearl of Great Price in one volume. Pin a country whose Church chronology records its language's triple combination arriving between 2000 and 2019.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "2000-2019",
+   "citation": "Global Histories chronologies: Albania, Armenia, Cambodia, Kiribati, Lithuania, Malaysia, Zimbabwe, Ukraine",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/armenia/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kiribati/ki-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/malaysia/my-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "A triple combination gathers the Book of Mormon, Doctrine and Covenants and Pearl of Great Price in one volume. Between 2000 and 2019 languages gaining one included Albanian (2004), Ukrainian (2005), Armenian and Lithuanian (2006), Khmer and Shona (2007), Kiribati (2017) and Malay (2018).",
+   "stamp": null,
+   "gems": [
+    "KIR",
+    "LTU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Albanian triple combination was published August 11, 2004."
+    },
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Armenian triple combination arrived for distribution in August 2006."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Khmer Doctrine and Covenants and Pearl of Great Price were published in July 2007 with a triple combination."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The triple combination was translated into Malay in March 2018."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Shona triple combination was published in 2007."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Church announced the publication of the Kiribati-language triple combination on September 28, 2017."
+    },
+    {
+     "code": "LTU",
+     "name": "Lithuania",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Lithuanian triple combination was published in September 2006."
     }
    ]
   }

@@ -2,341 +2,428 @@
  "day": 46,
  "prompts": [
   {
-   "id": "bom-wentworth-letter-1842",
-   "bank": "bom",
-   "display_text": "Pin a country holding a land the 1842 Wentworth letter says the gospel had reached (East Indies aside)",
-   "text_original": "A present-day country holding a land the 1842 Wentworth letter names as reached by the restored gospel (leave aside 'the East Indies')",
+   "id": "congregations-500-plus",
+   "bank": "draft",
+   "display_text": "Pin a country with 500 or more Church congregations (wards and branches, end of 2025).",
+   "text_original": "Pin a country with 500 or more Church congregations (wards and branches, end of 2025).",
    "accepts": "country",
-   "topic": "Articles of Faith",
-   "era": "1842",
-   "citation": "Church History, 1 March 1842 (Wentworth letter), Joseph Smith Papers, p. 709 and note 29",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
    "source_urls": [
-    "https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4"
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-states",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/brazil",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/mexico",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/philippines",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/nigeria",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/peru",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/argentina",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/chile",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/canada"
    ],
    "difficulty": 2,
-   "note": "'Palestine' in the letter covers both ISR and PSE. 'East Indies' is left out because the term is too vague to map to one country.",
-   "summary": "In 1842 Joseph Smith sent Chicago editor John Wentworth a history of the Church that ends with the 13 Articles of Faith. It reports the gospel had spread across the United States and the British Isles, and that the standard of truth had been raised in Germany, Palestine, New Holland (Australia) and the East Indies.",
-   "stamp": null,
+   "note": "Next below the line: Guatemala (441) and DR Congo (431).",
+   "summary": "At the end of 2025 the United States had about 14,600 Church congregations (wards and branches). Brazil, Mexico and the Philippines followed, and Nigeria had about 880, many of them small. Canada just made the 500 mark with 501.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "AUS"
+    "ARG",
+    "CHL",
+    "NGA",
+    "PER"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 5,
-     "gem": false,
-     "fact": "It names England, Scotland and Wales; the Twelve preached across the British Isles in 1840-41."
-    },
     {
      "code": "USA",
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "The letter says the elders had planted the gospel in almost every state in the Union."
+     "fact": "About 14,600 congregations."
     },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 2,000 congregations."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "501 congregations, just over the line."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 1,900 congregations."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 1,370 congregations."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 740 congregations."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 580 congregations."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 880 congregations, many of them small."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 810 congregations."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-benson-postwar-relief-1946",
+   "bank": "pioneer",
+   "display_text": "Pin a country where Saints vol. 3 or Global Histories record Ezra Taft Benson's 1946 postwar relief visit.",
+   "text_original": "In 1946 apostle Ezra Taft Benson presided over the European Mission and traveled widely to deliver Church relief and reorganize branches after World War II. Pin a country where Saints vol. 3 chapter 32 or the Global Histories place him that year.",
+   "accepts": "country",
+   "topic": "humanitarian aid",
+   "era": "1940s",
+   "citation": "Saints vol. 3 ch. 32; Global Histories chronologies",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-4/32-brothers-and-sisters?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Norway, France and Czechoslovakia got 1946 aid, but no record places Benson there, so they do not count.",
+   "summary": "Ezra Taft Benson arrived in Europe early in 1946 to oversee Church relief for Saints hit by World War II. He traveled from London to Germany, Austria, the Low Countries, Scandinavia and Switzerland, and won visas to reach Saints in Poland. He also rededicated Finland for missionary work.",
+   "stamp": null,
+   "gems": [
+    "FIN"
+   ],
+   "gem_forced": false,
+   "answers": [
     {
      "code": "DEU",
      "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Germany is named; Orson Hyde passed through Munich on his way to Jerusalem."
-    },
-    {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Ireland is named in the letter; the island is shared today by Ireland and the United Kingdom."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Palestine is named; Orson Hyde dedicated the land at Jerusalem on 24 October 1841."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Palestine in 1842 also covered today's West Bank."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "New Holland is named; English convert William James Barratt emigrated there in July 1840."
-    }
-   ]
-  },
-  {
-   "id": "nt-evil-spirits-cast-out",
-   "bank": "nt",
-   "display_text": "Pin a country where Jesus or a disciple cast out an evil spirit (not the Gadarene swine or the boy after the Transfiguration)",
-   "text_original": "A present-day country holding a town or region where Jesus or one of his disciples, being there, cast out an evil spirit (not the Gadarene swine or the boy healed after the Transfiguration)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Mark 1:21-26; 7:24-30; Acts 8:5-7; 16:16-18; 19:11-12",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/7?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Jordan and Syria do not count: the Gadarene site is disputed. Samaria is in the West Bank (Palestine).",
-   "summary": "Jesus showed power over evil spirits from his first sermon at Capernaum, and he healed a Gentile girl near Tyre and Sidon. His servants carried the same power: Philip in Samaria, Paul at Philippi, where he freed a slave girl from a spirit of divination, and at Ephesus, where even cloths from him healed.",
-   "stamp": null,
-   "gems": [
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
      "commonness": 5,
      "gem": false,
-     "fact": "In the synagogue at Capernaum Jesus rebuked an unclean spirit, and cast out devils throughout Galilee (Mark 1:21-26, 39)."
+     "fact": "Directed about 2,500 tons of Church aid; visited the Berlin mission home."
     },
     {
-     "code": "GRC",
-     "name": "Greece",
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Reorganized the Austrian District in March 1946; saw Vienna."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Oversaw food and clothing distribution, spring 1946."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Saw the ruins of war from London, mission headquarters (saints-v3:32)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Organized relief distribution in Rotterdam, May 1946."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
      "commonness": 2,
      "gem": false,
-     "fact": "At Philippi Paul commanded the spirit of divination to come out of a damsel (Acts 16:16-18)."
+     "fact": "Visited Antwerp and Liege, April 1946."
     },
     {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "DNK",
+     "name": "Denmark",
      "commonness": 2,
      "gem": false,
-     "fact": "In the borders of Tyre and Sidon Jesus cast the devil out of a Syrophenician woman's daughter (Mark 7:24-30)."
+     "fact": "Visited Copenhagen branches, February 1946."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "POL",
+     "name": "Poland",
      "commonness": 2,
      "gem": false,
-     "fact": "Philip, one of the seven, preached in the city of Samaria, and unclean spirits came out of many (Acts 6:5; 8:5-7)."
+     "fact": "Reached Zelwagi in August 1946 after a long struggle for visas."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Saints vol. 3 says he saw Stockholm on his travels."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
      "commonness": 1,
      "gem": true,
-     "fact": "At Ephesus evil spirits went out of the sick through handkerchiefs from Paul (Acts 19:11-12)."
+     "fact": "Rededicated Finland for preaching at Larsmo, July 16, 1946."
     }
    ]
   },
   {
-   "id": "ot-assyria-takes-israel",
+   "id": "ot-joshua-tribal-allotments",
    "bank": "ot",
-   "display_text": "Pin a country holding a place in Assyria's conquest and resettlement of Israel, 2 Kings 15-17 (leave out Ijon)",
-   "text_original": "A present-day country holding a place named in Assyria's conquest and resettlement of the northern kingdom in 2 Kings 15-17: towns Tiglath-pileser took, Samaria, the lands the captives were sent to, and the cities settlers came from (sites agreed by scholars only)",
+   "display_text": "Pin a country holding land allotted to a tribe of Israel in Joshua 13-19",
+   "text_original": "A present-day country holding land allotted to a tribe of Israel in Joshua 13-19, from Bashan and Gilead east of the Jordan to Asher's border at great Zidon and Judah's border at the river of Egypt",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "2 Kings 15:29; 16:9; 17:5-6, 24",
+   "citation": "Joshua 13-19",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/gozan?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/media?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Samaria is in the West Bank (Palestine); Hazor, Kedesh and Galilee are in Israel.",
-   "summary": "Tiglath-pileser of Assyria took Gilead, Galilee, Kedesh and Hazor, then Damascus. Shalmaneser besieged Samaria, and in 721 BC its people were carried to Assyria, the Habor by the river of Gozan and the cities of the Medes, while settlers from Babylon, Cuthah and Hamath took their place (2 Kgs 15-17).",
-   "stamp": null,
-   "gems": [
-    "IRN",
-    "JOR"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Israel was carried away into Assyria, and settlers came from Babylon and Cuthah (2 Kgs 17:6, 24)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tiglath-pileser took Abel-beth-maachah, Kedesh and Hazor, and Galilee (2 Kgs 15:29)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Hoshea sent messengers to So king of Egypt, so Assyria shut him up and besieged Samaria (2 Kgs 17:4-5)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Shalmaneser besieged Samaria three years before it fell (2 Kgs 17:5-6)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Assyria took Damascus (2 Kgs 16:9), and settlers were brought from Hamath (2 Kgs 17:24)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Captives from Samaria were placed in the cities of the Medes (2 Kgs 17:6)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Tiglath-pileser took Gilead and carried its people captive (2 Kgs 15:29)."
-    }
-   ]
-  },
-  {
-   "id": "ot-nehemiah-wall-world",
-   "bank": "ot",
-   "display_text": "Pin a country holding a city or people in Nehemiah 1-4 and 13, from Shushan to Tobiah the Ammonite (leave out the Arabians)",
-   "text_original": "A present-day country holding a city or people named in Nehemiah 1-4 and 13 (leaving out the Arabians, whose land is unclear): the Persian palace at Shushan, Jerusalem's builders from Jericho and Tekoa, the wall's opponents (Samaria's army, Tobiah the Ammonite, the Ashdodites), and the men of Tyre who sold fish",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Nehemiah 1-4, 13",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Jericho, Tekoa and Samaria are in the West Bank (Palestine); Ashdod is in Israel. Jerusalem is scored as Israel.",
-   "summary": "Nehemiah, cupbearer to the Persian king at Shushan, won leave to rebuild Jerusalem's wall. Builders came from towns such as Jericho and Tekoa, while Sanballat, Tobiah the Ammonite, Geshem the Arabian and the Ashdodites mocked and plotted. The wall was finished in fifty and two days (Neh 1-6).",
-   "stamp": null,
-   "gems": [
-    "IRQ"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Nehemiah was cupbearer to Artaxerxes in Shushan the palace (Neh 1:1, 11)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "He rebuilt the wall of Jerusalem; the Ashdodites joined the plot against it (Neh 2:17; 4:7)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Tobiah the Ammonite mocked the builders, and no Ammonite or Moabite was to enter the congregation (Neh 2:19; 13:1)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Men of Jericho and the Tekoites built sections of the wall, and Sanballat spoke before the army of Samaria (Neh 3:2, 5; 4:2)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Men of Tyre sold fish and wares in Jerusalem on the sabbath (Neh 13:16)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nehemiah went to Artaxerxes king of Babylon before returning (Neh 13:6)."
-    }
-   ]
-  },
-  {
-   "id": "nt-acts-18-cities",
-   "bank": "nt",
-   "display_text": "Pin a country holding a city or town named in Acts 18, from Paul's stay in Corinth to Apollos at Ephesus",
-   "text_original": "A present-day country holding a city or town named in Acts 18, the chapter of Paul's stay in Corinth and his return to Antioch",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "New Testament",
-   "citation": "Acts 18",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/edrei?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/egypt-river-of?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Only cities count, not regions, so Syria and North Macedonia do not. Antioch is in Turkey.",
-   "summary": "Acts 18 covers Paul's long stay in Corinth, where he made tents with Aquila and Priscilla, Jews expelled from Rome. He sailed from Cenchrea to Ephesus, landed at Caesarea, and went down to Antioch. Meanwhile Apollos of Alexandria arrived at Ephesus and was taught the way of God more perfectly.",
+   "note": "Jericho, Bethel and Hebron are in the West Bank (Palestine); much of Judah and the northern tribes lie in Israel.",
+   "summary": "After the conquest, Joshua divided the land by lot. Reuben, Gad and half of Manasseh took Gilead and Bashan east of the Jordan, while the other tribes took Canaan, with Asher's coast stretching toward Zidon and Tyre and Judah's south border reaching the river of Egypt (Josh 13-19).",
    "stamp": null,
    "gems": [
     "EGY"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Paul left Athens for Corinth, stayed a year and a half, and shaved his head in Cenchrea (Acts 18:1, 11, 18)."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Claudius had commanded all Jews to leave Rome, so Aquila and Priscilla came to Corinth (Acts 18:2)."
-    },
     {
      "code": "ISR",
      "name": "Israel",
-     "commonness": 3,
+     "commonness": 5,
      "gem": false,
-     "fact": "Paul landed at Caesarea and went up to salute the church; he hoped to keep the feast at Jerusalem (Acts 18:21-22)."
+     "fact": "Most tribes, including Naphtali, Zebulun, Issachar and much of Judah, were given land west of the Jordan (Josh 15-19)."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Benjamin, Ephraim and Judah held land now in the West Bank, such as Jericho, Bethel and Hebron (Josh 15:54; 16:1; 18:21-22)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
      "commonness": 3,
      "gem": false,
-     "fact": "Paul reasoned at Ephesus, then went down to Antioch, today's Antakya (Acts 18:19-22)."
+     "fact": "Reuben, Gad and half of Manasseh received Gilead and the plains east of the Jordan (Josh 13:8-25)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Asher's border reached to great Zidon and the strong city Tyre (Josh 19:28-29)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Half of Manasseh received all Bashan, the kingdom of Og with Edrei and Ashtaroth (Josh 13:12, 29-31)."
     },
     {
      "code": "EGY",
      "name": "Egypt",
-     "commonness": 2,
+     "commonness": 1,
      "gem": true,
-     "fact": "Apollos, mighty in the scriptures, was born at Alexandria (Acts 18:24)."
+     "fact": "Judah's south border went out unto the river of Egypt, the Wady el Arish in northern Sinai (Josh 15:4, 47; Bible Dictionary)."
+    }
+   ]
+  },
+  {
+   "id": "sites-return-after-century",
+   "bank": "sites",
+   "display_text": "Pin a country where missionaries first came in the 1850s and no missionaries returned for more than 100 years.",
+   "text_original": "Missionaries first came to some lands in the 1850s, then left, and no missionaries returned for more than a hundred years. Pin a country where missionaries first came in the 1850s and no missionaries returned for more than 100 years.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1850s-1970s",
+   "citation": "Global Histories chronologies: Thailand, Chile, Jamaica, Malaysia, Singapore; Newsroom facts and statistics: Sri Lanka, Malta",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/jamaica/jm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/malaysia/my-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/sri-lanka",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/malta"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "The 1850s saw missionaries sent far afield, often with little result. Thailand, Chile, Jamaica, Malaysia, Singapore, Sri Lanka and Malta each waited more than a century for missionaries to return. Italy (1850 to 1867, then 1966), Hong Kong (1853 to 1949) and India, with sporadic missions, had shorter gaps and are not counted.",
+   "stamp": null,
+   "gems": [
+    "LKA",
+    "MLT",
+    "MYS"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Parley P. Pratt visited in 1851-52; missionary work began in June 1956."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elam Luddington preached in Bangkok in 1854; missionaries returned in February 1968."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Missionaries arrived in January 1853; the land was dedicated in December 1978."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elam Luddington briefly visited Singapore in March 1854 en route to Siam; missionaries arrived in March 1968."
+    },
+    {
+     "code": "LKA",
+     "name": "Sri Lanka",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries reached Ceylon in May 1853; the next missionaries came in August 1975."
+    },
+    {
+     "code": "MLT",
+     "name": "Malta",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Lorenzo Snow began preaching in Malta in February 1852; the government admitted missionaries in January 1980."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Luddington visited Penang and Malacca in 1854; the first baptism came in 1971."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-latin-america-first-branch-1925-50",
+   "bank": "pioneer",
+   "display_text": "Pin a Latin American country whose first branch of the Church was organized between 1925 and 1950.",
+   "text_original": "A Latin American country whose first branch of the Church was organized between 1925 and 1950.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1925-1950",
+   "citation": "Global Histories chronologies: Argentina, Brazil, Uruguay, Paraguay, Guatemala, Costa Rica, Panama",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Mexico had branches from the 1870s, but the rest of Latin America came later: the first branches were organized in Argentina (1925), Brazil (1930), Uruguay (1944), Panama (1941), Paraguay (1948), and Guatemala and Costa Rica (1950). Chile, Peru and the rest of Central America followed in the 1950s.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CRI",
+    "PAN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Liniers Branch in Buenos Aires, the first in Argentina, was created in 1925."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The first branch was organized in Joinville on July 6, 1930."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Guatemala City Branch was organized on June 12, 1950."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Montevideo Uruguay Branch was created on June 25, 1944."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first branch was organized in Asuncion on July 26, 1948."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The first branch in Costa Rica was organized in San Jose on August 25, 1950."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Canal Zone Branch, mostly American expatriates, was organized at Fort Clayton on May 18, 1941."
     }
    ]
   }

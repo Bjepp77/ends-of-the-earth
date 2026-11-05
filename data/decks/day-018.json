@@ -2,26 +2,385 @@
  "day": 18,
  "prompts": [
   {
-   "id": "history-temples-dedicated-2022-23",
-   "bank": "history2",
-   "display_text": "Pin a country or territory where a new temple was dedicated in 2022 or 2023 (not rededications).",
-   "text_original": "A country or territory where a new temple was dedicated in 2022 or 2023 (not counting rededications).",
-   "accepts": "country_or_territory",
+   "id": "temples-africa-dedicated",
+   "bank": "draft",
+   "display_text": "Pin an African country with a dedicated temple.",
+   "text_original": "Pin an African country with at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
    "topic": "temples",
-   "era": "2022-2023",
-   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates) and the Church temple list, read 26 Oct 2026",
+   "era": "1985-2026",
+   "citation": "temple list, 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://www.thechurchnews.com/temples/2023/12/30/24010574/temples-in-2023-part-2-dedications-most-in-more-than-20-years/"
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "In 2022 and 2023 temples reached several lands for the first time. Yigo Guam and Praia Cape Verde (2022) and San Juan Puerto Rico and Bangkok Thailand (2023) were each the first in their lands. Brazil added Rio de Janeiro, Belém and Brasília, and Quito Ecuador and Okinawa Japan were also dedicated.",
+   "summary": "Africa's first temple was dedicated in Johannesburg, South Africa, in 1985. Accra, Ghana (2004) and Aba, Nigeria (2005) followed. Since 2019 the pace has picked up, with temples in Kinshasa, Praia, Nairobi, Abidjan and, in 2026, Harare.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CPV",
-    "GUM"
+    "CPV"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Johannesburg, 1985, Africa's first."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Accra, 2004."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Aba, 2005."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kinshasa, 2019."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Abidjan, 2025."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Nairobi, 2025."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Harare, 2026."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Praia, 2022."
+    }
+   ]
+  },
+  {
+   "id": "bible-acts-hometowns",
+   "bank": "bible",
+   "display_text": "Pin a present-day country that was home to a person named in Acts.",
+   "text_original": "A present-day country that was home to a person named in Acts",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Acts 4; 8; 13; 16; 18; 21",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/21?lang=eng",
+    "https://en.wikipedia.org/wiki/Kingdom_of_Kush",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/col/4?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "The book of Acts names believers from all around the Mediterranean, showing how far the early Church reached. Barnabas came from Cyprus, Apollos from Alexandria in Egypt, Timothy from Lystra in Turkey, and Tabitha lived at Joppa. Even a treasurer of Candace, queen of the Ethiopians, whose land of Kush was centered in today's Sudan, was taught by Philip and baptized (Acts 8:27-38).",
+   "stamp": null,
+   "gems": [
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Paul came from Tarsus, Timothy from Lystra and Gaius from Derbe (Acts 21:39; 16:1; 20:4)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tabitha lived at Joppa and Aeneas at Lydda (Acts 9:32-36)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barnabas was a Levite from Cyprus (Acts 4:36)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apollos was born in Alexandria (Acts 18:24)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Dionysius and Damaris believed at Athens; Aristarchus came from Thessalonica and Sopater from Berea (Acts 17:34; 20:4)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Aquila and Priscilla had just come from Italy (Acts 18:2)."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lucius of Cyrene led the church at Antioch (Acts 13:1)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Simon lived in Samaria (Acts 8:9), in the West Bank."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ananias, who baptised Paul, lived in Damascus (Acts 9:10)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The eunuch served Candace, a queen of Kush, centred on Meroe in Sudan (Acts 8:27)."
+    }
+   ]
+  },
+  {
+   "id": "bible-prophet-places",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where an Old Testament prophet lived or travelled (Moses counts; Sinai aside).",
+   "text_original": "A present-day country where an Old Testament prophet lived or travelled (Moses counts; Sinai aside)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Exodus 2; Deuteronomy 34; 1 Kings 17-18; 2 Kings 8; Jonah; Daniel; Jeremiah 43",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng",
+    "https://en.wikipedia.org/wiki/Midian",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Old Testament prophets often served far from home. Moses was raised in Egypt and fled to Midian in Arabia, Elijah stayed with a widow at Zarephath in Sidon's territory, and Jonah was sent to preach in Nineveh. Ezekiel and Daniel lived in Babylonia, and Jeremiah was taken to Tahpanhes in Egypt (Jeremiah 43:7).",
+   "stamp": null,
+   "gems": [
+    "LBN",
+    "SYR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Moses was born and raised in Egypt, and Jeremiah was taken to Tahpanhes (Exodus 2; Jeremiah 43:7)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Elijah challenged the prophets of Baal on Mount Carmel (1 Kings 18)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jonah preached in Nineveh; Ezekiel and Daniel lived in Babylonia."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Moses died in Moab after viewing Canaan from Nebo, and Elijah came from Tishbe in Gilead (Deuteronomy 34:5; 1 Kings 17:1)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Daniel saw a vision at Shushan by the river Ulai (Daniel 8:2)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elisha healed the waters at Jericho (2 Kings 2:19-22), in the West Bank."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Moses fled to Midian, in north-west Arabia, and married Zipporah (Exodus 2:15-21)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elijah stayed with the widow of Zarephath, in Sidon's territory (1 Kings 17:9)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elisha went to Damascus while Ben-hadad lay sick (2 Kings 8:7)."
+    }
+   ]
+  },
+  {
+   "id": "scripture-translations-1979",
+   "bank": "scripture",
+   "display_text": "Pin a country where Croatian, Greek, Hungarian, Peruvian Quechua, Kekchi or Quiche is official or Indigenous.",
+   "text_original": "A country where a language first given Book of Mormon text in 1979 is official or Indigenous (Croatian, Greek, Hungarian, Peruvian Quechua, Kekchi, Quiche)",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1979",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Languages_of_Belize"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 1979 Book of Mormon text came out in six new languages: Croatian, Greek, Hungarian, Peruvian Quechua, and the Mayan languages Kekchi and Quiche from Guatemala. Several began as selections; the full Greek text followed in 1987 and the full Hungarian in 1991.",
+   "stamp": null,
+   "gems": [
+    "BIH",
+    "BLZ",
+    "CYP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Greek selections appeared in 1979 and the full text in 1987."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Croatian Book of Mormon appeared in 1979."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hungarian selections appeared in 1979 and the full text in 1991."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kekchi and Quiche, Mayan languages of Guatemala, both got selections in 1979."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Quechua (Peru) selections appeared in 1979."
+    },
+    {
+     "code": "BIH",
+     "name": "Bosnia and Herzegovina",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Croatian, translated 1979, is one of Bosnia's official languages."
+    },
+    {
+     "code": "BLZ",
+     "name": "Belize",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kekchi (Q'eqchi'), translated 1979, is an Indigenous Mayan language of Belize."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Greek, translated 1979, is an official language of Cyprus."
+    }
+   ]
+  },
+  {
+   "id": "temples-nato-dedicated",
+   "bank": "temples",
+   "display_text": "Pin a NATO member country with at least one dedicated temple (as of October 2026).",
+   "text_original": "A NATO member country with at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://www.nato.int/cps/en/natohq/nato_countries.htm"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Twelve NATO members have a dedicated temple: the United States, Canada, the United Kingdom, France, Germany, Spain, Italy, Portugal, the Netherlands, Denmark, Finland and Sweden. Norway, Belgium and Hungary have temples announced or under construction but none dedicated yet. Switzerland has a temple but is not in NATO.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "SWE"
    ],
    "gem_forced": false,
    "answers": [
@@ -30,347 +389,84 @@
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Moses Lake Washington, McAllen Texas, Bentonville Arkansas and 4 more (2023)."
+     "fact": "Founding NATO member; most temples of any country."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "CAN",
+     "name": "Canada",
      "commonness": 4,
      "gem": false,
-     "fact": "Rio de Janeiro Brazil and Belém Brazil (2022); Brasília Brazil (2023)."
+     "fact": "Cardston Alberta Temple dedicated 1923, eight more since."
     },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Okinawa Japan (2023)."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Quito Ecuador (2022)."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 2,
-     "gem": false,
-     "fact": "San Juan Puerto Rico (2023)."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Bangkok Thailand (2023)."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Praia Cape Verde (2022)."
-    },
-    {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Yigo Guam (2022)."
-    }
-   ]
-  },
-  {
-   "id": "temples-pending-africa",
-   "bank": "draft",
-   "display_text": "Pin an African country with a temple announced or being built, but none dedicated yet.",
-   "text_original": "Pin an African country with a temple announced or under construction but none dedicated yet (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "temple list, 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026, several African countries were waiting for their first temple. Temples were under construction in Madagascar, the Republic of the Congo and Sierra Leone, and announced in Angola, Liberia, Mozambique and Uganda.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "AGO"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "COG",
-     "name": "Republic of the Congo",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Brazzaville, under construction."
-    },
-    {
-     "code": "LBR",
-     "name": "Liberia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Monrovia, announced."
-    },
-    {
-     "code": "MDG",
-     "name": "Madagascar",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Antananarivo, under construction."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Beira and Maputo, both announced."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Freetown, under construction."
-    },
-    {
-     "code": "UGA",
-     "name": "Uganda",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kampala, announced."
-    },
-    {
-     "code": "AGO",
-     "name": "Angola",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Luanda, announced."
-    }
-   ]
-  },
-  {
-   "id": "scripture-west-central-asia-languages",
-   "bank": "scripture",
-   "display_text": "Pin a country where Turkish, Armenian, Persian, Georgian or Mongolian is official.",
-   "text_original": "A country where Turkish, Armenian, Persian, Georgian or Mongolian, each with a Book of Mormon edition, is official",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "1906-2019",
-   "citation": "Church News translation list",
-   "source_urls": [
-    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
-    "https://en.wikipedia.org/wiki/Eastern_Armenian",
-    "https://en.wikipedia.org/wiki/Dari"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "A Turkish Book of Mormon appeared as early as 1906. Armenian followed in 1937 (Western) and 2000 (Eastern), Mongolian in 2001, the full Persian text in 2015 and Georgian in 2019. Persian also serves Afghanistan, where its Dari variety is an official language.",
-   "stamp": null,
-   "gems": [
-    "AFG",
-    "CYP"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ARM",
-     "name": "Armenia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Western Armenian came in 1937 and Eastern Armenian, the standard spoken in Armenia, in 2000."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 4,
-     "gem": false,
-     "fact": "A Turkish Book of Mormon appeared in 1906."
-    },
-    {
-     "code": "GEO",
-     "name": "Georgia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Georgian Book of Mormon appeared in 2019."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Persian selections came in 1983 and the full text in 2015."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Mongolian Book of Mormon appeared in 2001."
-    },
-    {
-     "code": "AFG",
-     "name": "Afghanistan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Dari, Afghanistan's variety of Persian (full Book of Mormon 2015), is an official language."
-    },
-    {
-     "code": "CYP",
-     "name": "Cyprus",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Turkish, translated 1906, is one of Cyprus's official languages."
-    }
-   ]
-  },
-  {
-   "id": "membership-europe-40k",
-   "bank": "draft",
-   "display_text": "Pin a European country with 40,000+ Church members (end of 2025).",
-   "text_original": "Pin a European country with 40,000 or more Church members (end of 2025).",
-   "accepts": "country",
-   "topic": "membership",
-   "era": "2025",
-   "citation": "newsroom country pages, 31 Dec 2025",
-   "source_urls": [
-    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-kingdom",
-    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/spain",
-    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/portugal",
-    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/germany",
-    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/france",
-    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/italy"
-   ],
-   "difficulty": 3,
-   "note": "Next below the line: Italy (about 30,000).",
-   "summary": "The United Kingdom had the most Church members in Europe at the end of 2025, about 190,000. Spain (about 72,000), Portugal (about 50,000), Germany (about 42,000) and France (about 40,500) followed.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "PRT"
-   ],
-   "gem_forced": true,
-   "answers": [
     {
      "code": "GBR",
      "name": "United Kingdom",
-     "commonness": 5,
+     "commonness": 4,
      "gem": false,
-     "fact": "About 190,000 members."
+     "fact": "London England 1958 and Preston England 1998."
     },
     {
      "code": "DEU",
      "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "About 42,000 members."
+     "fact": "Freiberg 1985 and Frankfurt 1987."
     },
     {
      "code": "ESP",
      "name": "Spain",
      "commonness": 3,
      "gem": false,
-     "fact": "About 72,000 members."
+     "fact": "Madrid Spain Temple dedicated 1999."
     },
     {
      "code": "FRA",
      "name": "France",
      "commonness": 3,
      "gem": false,
-     "fact": "About 40,500 members, just over the line."
+     "fact": "Paris France Temple dedicated 2017."
     },
     {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": true,
-     "fact": "About 50,000 members."
-    }
-   ]
-  },
-  {
-   "id": "saints-v3-26-evacuation-order-1939",
-   "bank": "draft",
-   "display_text": "Pin a country that Saints names in the August 1939 order moving missionaries out of Europe, as left or refuge.",
-   "text_original": "Saints vol. 3 ch. 26: on August 24, 1939, the First Presidency ordered missionaries out of five European missions and into the nearest neutral country. Pin a country named in that order, as a mission left or a refuge.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1939",
-   "citation": "Saints vol. 3 ch. 26; Saints vol. 3 ch. 15",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-3/26-wars-foul-brood?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/15-no-greater-reward?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "On August 24, 1939, as war threatened Europe, the First Presidency ordered missionaries out of the West German, East German, British, French and Czechoslovak Missions. They were sent to nearby neutral countries such as Denmark, Sweden, Norway and the Netherlands. Norman Seibold searched Germany for missing elders and brought the last of them to Copenhagen.",
-   "stamp": null,
-   "gems": [
-    "CZE"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 5,
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
      "gem": false,
-     "fact": "The West German and East German Missions were evacuated; Norman Seibold searched Germany for missing elders."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The British Mission was on the evacuation list."
+     "fact": "Rome Italy Temple dedicated 2019."
     },
     {
      "code": "DNK",
      "name": "Denmark",
-     "commonness": 3,
+     "commonness": 2,
      "gem": false,
-     "fact": "Neutral refuge; Seibold brought the last German-mission elders to Copenhagen. In 1923 Reed Smoot had petitioned Denmark to readmit missionaries (ch. 15)."
+     "fact": "Copenhagen Denmark Temple dedicated 2004."
     },
     {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
      "gem": false,
-     "fact": "The French Mission was on the evacuation list."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Neutral refuge in 1939. In 1923 Reed Smoot had petitioned Sweden to readmit missionaries (ch. 15)."
+     "fact": "Helsinki Finland Temple dedicated 2006; NATO member since 2023."
     },
     {
      "code": "NLD",
      "name": "Netherlands",
      "commonness": 2,
      "gem": false,
-     "fact": "Neutral refuge, though it soon barred noncitizens from entering."
+     "fact": "The Hague Netherlands Temple dedicated 2002."
     },
     {
-     "code": "NOR",
-     "name": "Norway",
+     "code": "PRT",
+     "name": "Portugal",
      "commonness": 2,
      "gem": false,
-     "fact": "Neutral refuge in 1939. In 1923 Reed Smoot met the king of Norway to seek missionaries' return (ch. 15)."
+     "fact": "Lisbon Portugal Temple dedicated 2019."
     },
     {
-     "code": "CZE",
-     "name": "Czechia",
+     "code": "SWE",
+     "name": "Sweden",
      "commonness": 1,
      "gem": true,
-     "fact": "The Czechoslovak Mission was on the evacuation list."
+     "fact": "Stockholm Sweden Temple dedicated 1985; NATO member since 2024."
     }
    ]
   }

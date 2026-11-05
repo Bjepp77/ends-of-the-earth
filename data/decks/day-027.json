@@ -2,187 +2,197 @@
  "day": 27,
  "prompts": [
   {
-   "id": "temples-conf-april-2022",
-   "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the April 2022 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the April 2022 general conference.",
+   "id": "history-temples-dedicated-1999",
+   "bank": "history2",
+   "display_text": "Pin a country where a temple was dedicated in 1999.",
+   "text_original": "A country where a temple was dedicated in 1999.",
    "accepts": "country",
    "topic": "temples",
-   "era": "2022",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
+   "era": "1999",
+   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://www.thechurchnews.com/2022/4/3/23217529/17-new-temples-announced-by-president-nelson-totaling-100-during-his-ministry/"
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "At the end of the April 2022 general conference, President Russell M. Nelson announced 17 new temples in 8 countries or territories. Brazzaville gave the Republic of the Congo its first temple announcement, and Birmingham was the third for England.",
+   "summary": "1999 saw new temples dedicated across North and South America and Europe. They included Billings Montana, Columbia South Carolina and Anchorage Alaska, Edmonton, Halifax and Regina in Canada, Colonia Juárez in Mexico, Madrid Spain, Bogotá Colombia and Guayaquil Ecuador. Gordon B. Hinckley dedicated Madrid, Bogotá, Guayaquil and Colonia Juárez.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "COG"
+    "COL",
+    "ECU",
+    "ESP"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
      "code": "USA",
-     "name": "United States of America",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Austin Texas; Cleveland Ohio; Knoxville Tennessee; and 5 more."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Maceió Brazil; Santos Brazil."
+     "fact": "Billings Montana, Columbia South Carolina, Anchorage Alaska and 5 more dedicated in 1999."
     },
     {
      "code": "MEX",
      "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Mexico City Benemérito Mexico; San Luis Potosí Mexico."
+     "fact": "Colonia Juárez Chihuahua Mexico dedicated in 1999."
     },
     {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "CAN",
+     "name": "Canada",
      "commonness": 3,
      "gem": false,
-     "fact": "Birmingham England."
+     "fact": "Edmonton Alberta, Halifax Nova Scotia, Regina Saskatchewan dedicated in 1999."
     },
     {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Wellington New Zealand."
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bogotá Colombia dedicated in 1999."
     },
     {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Cusco Peru."
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Guayaquil Ecuador dedicated in 1999."
     },
     {
      "code": "ESP",
      "name": "Spain",
      "commonness": 2,
-     "gem": false,
-     "fact": "Barcelona Spain."
-    },
-    {
-     "code": "COG",
-     "name": "Republic of the Congo",
-     "commonness": 1,
      "gem": true,
-     "fact": "Brazzaville Republic of the Congo."
+     "fact": "Madrid Spain dedicated in 1999."
     }
    ]
   },
   {
-   "id": "temples-first-announced-2021",
-   "bank": "temples",
-   "display_text": "Pin a country whose first temple was announced in 2021.",
-   "text_original": "Pin a country whose first temple was announced in 2021.",
-   "accepts": "country",
+   "id": "temples-pending-asia-pacific",
+   "bank": "draft",
+   "display_text": "Pin an Asian or Pacific country or territory with a temple announced or being built, but none dedicated yet.",
+   "text_original": "Pin an Asian or Pacific country or territory with a temple announced or under construction but none dedicated yet (as of October 2026).",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2021",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "era": "2026",
+   "citation": "temple list, 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://www.thechurchnews.com/temples/2026/08/24/pago-pago-american-samoa-temple-dedication-open-house-set/"
    ],
    "difficulty": 3,
    "note": null,
-   "summary": "In 2021 seven countries got their first temple announcement: Austria, Belgium, Norway, Singapore, Mozambique, Madagascar and Liberia. As of October 2026 Oslo, Beira and Monrovia were still in the announced stage.",
+   "summary": "As of October 2026, many Asian and Pacific places were waiting for their first temple. Temples were under construction in Bengaluru, Singapore, Kiribati, Papua New Guinea and Vanuatu, and announced for Shanghai, Jakarta, Ulaanbaatar, Dubai and Noumea. Pago Pago in American Samoa was listed as opening soon.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "LBR",
-    "MDG",
-    "MOZ"
+    "KIR",
+    "NCL",
+    "VUT"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 2,
+     "code": "IND",
+     "name": "India",
+     "commonness": 4,
      "gem": false,
-     "fact": "Vienna Austria, announced 2021."
+     "fact": "Bengaluru, under construction."
     },
     {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
+     "code": "ARE",
+     "name": "United Arab Emirates",
+     "commonness": 3,
      "gem": false,
-     "fact": "Brussels Belgium, announced 2021."
+     "fact": "Dubai, announced."
     },
     {
-     "code": "NOR",
-     "name": "Norway",
+     "code": "ASM",
+     "name": "American Samoa",
      "commonness": 2,
      "gem": false,
-     "fact": "Oslo Norway, announced 2021."
+     "fact": "Pago Pago, under construction; dedication set for 13 December 2026."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jakarta, announced."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ulaanbaatar, announced."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Port Moresby, under construction."
     },
     {
      "code": "SGP",
      "name": "Singapore",
      "commonness": 2,
      "gem": false,
-     "fact": "Singapore, announced 2021."
+     "fact": "Singapore, under construction."
     },
     {
-     "code": "LBR",
-     "name": "Liberia",
+     "code": "KIR",
+     "name": "Kiribati",
      "commonness": 1,
      "gem": true,
-     "fact": "Monrovia Liberia, announced 2021."
+     "fact": "Tarawa, under construction."
     },
     {
-     "code": "MDG",
-     "name": "Madagascar",
+     "code": "NCL",
+     "name": "New Caledonia",
      "commonness": 1,
      "gem": true,
-     "fact": "Antananarivo Madagascar, announced 2021."
+     "fact": "Noumea, announced."
     },
     {
-     "code": "MOZ",
-     "name": "Mozambique",
+     "code": "VUT",
+     "name": "Vanuatu",
      "commonness": 1,
      "gem": true,
-     "fact": "Beira Mozambique, announced 2021."
+     "fact": "Port Vila, under construction."
     }
    ]
   },
   {
-   "id": "ot-daniel-lands",
-   "bank": "ot",
-   "display_text": "Pin a country holding a land or people named in the book of Daniel, from Babylon to Grecia",
-   "text_original": "A present-day country holding a land, city or people named in the book of Daniel (Babylon, Shushan by the river Ulai, Media and Persia, Grecia, Egypt, the Libyans and the people of Cush, the Nile land south of Egypt, Edom, Moab and Ammon, the ships of Chittim, and the glorious land)",
+   "id": "bible-kings-and-exiles",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where a king of Israel or Judah died, or where their people were carried or fled into exile.",
+   "text_original": "A present-day country where a king of Israel or Judah died, or where their people were carried or fled into exile",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Daniel 1-11",
+   "citation": "1 Samuel 31; 1 Kings 22; 2 Kings 17; 23; 25; Jeremiah 43",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/31?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng",
+    "https://en.wikipedia.org/wiki/Tell_Halaf",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng"
    ],
    "difficulty": 2,
-   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt, so Sudan counts for Daniel 11:43.",
-   "summary": "Daniel was taken captive to Babylon, served under Babylonian and Persian kings, and saw visions at Shushan. His visions trace Media and Persia, Grecia, and the long struggle of the kings of the north and south, which touches Egypt, Libya, Ethiopia, Edom, Moab, Ammon and the ships of Chittim (Dan 1-11).",
+   "note": null,
+   "summary": "The Old Testament tells how Israel and Judah lost their kingdoms. Assyria carried Israelites to the river Gozan and the cities of the Medes (2 Kings 17:6), and later Babylon carried Judah's people to Babylon, where King Jehoiachin lived out his days. Some kings died in battle, like Saul on Gilboa and Ahab at Ramoth-gilead, and Jehoahaz was taken to Egypt and died there.",
    "stamp": null,
    "gems": [
-    "CYP",
-    "SDN"
+    "PSE",
+    "SYR"
    ],
    "gem_forced": false,
    "answers": [
@@ -191,224 +201,216 @@
      "name": "Iraq",
      "commonness": 5,
      "gem": false,
-     "fact": "Daniel was carried to Babylon in the land of Shinar (Dan 1:1-2)."
+     "fact": "Judah's people were carried to Babylon, where Jehoiachin lived out his days (2 Kings 25)."
     },
     {
      "code": "EGY",
      "name": "Egypt",
      "commonness": 4,
      "gem": false,
-     "fact": "The king of the south of Daniel 11 rules Egypt (Dan 11:8, 42)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Daniel saw his vision at Shushan by the river of Ulai, and the ram stood for the kings of Media and Persia (Dan 8:2, 20)."
+     "fact": "Jehoahaz was taken to Egypt and died there; later survivors fled to Tahpanhes (2 Kings 23:34; Jeremiah 43:7)."
     },
     {
      "code": "ISR",
      "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "Daniel prayed toward Jerusalem, and the king of the north enters the glorious land (Dan 6:10; 11:41)."
+     "fact": "Saul died on Gilboa; Ahaziah and Josiah died at Megiddo."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Assyria placed Israelites in the cities of the Medes (2 Kings 17:6)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Ahab was mortally hit in battle at Ramoth-gilead (1 Kings 22)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Menahem killed King Shallum in Samaria (2 Kings 15:14), in the West Bank."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Exiles went to the river Gozan, now Tell Halaf in Syria (2 Kings 17:6)."
+    }
+   ]
+  },
+  {
+   "id": "bible-miracle-places",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where a prophet or apostle worked a miracle, in Kings or Acts.",
+   "text_original": "A present-day country where a prophet or apostle worked a miracle, in Kings or Acts",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "1 Kings 17; Acts 9; 13-14; 16; 20; 28",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Bible records miracles by prophets and apostles in many lands. Elijah raised a widow's son at Zarephath (1 Kings 17:22), and Peter healed Aeneas at Lydda and raised Tabitha at Joppa. Paul healed a lame man at Lystra, raised Eutychus at Troas, struck the sorcerer Elymas blind on Cyprus, cast out a spirit at Philippi, and healed the father of Publius on Malta (Acts 28:8).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Peter healed Aeneas at Lydda and raised Tabitha at Joppa (Acts 9:34, 40)."
+    },
+    {
+     "code": "MLT",
+     "name": "Malta",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul healed the father of Publius on Malta (Acts 28:8)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul healed a lame man at Lystra and raised Eutychus at Troas (Acts 14:8-10; 20:9-12)."
     },
     {
      "code": "GRC",
      "name": "Greece",
      "commonness": 3,
      "gem": false,
-     "fact": "The rough goat is the king of Grecia (Dan 8:21)."
+     "fact": "Paul cast a spirit out of a slave girl at Philippi (Acts 16:18)."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Edom, Moab and the chief of the children of Ammon escape out of his hand (Dan 11:41)."
-    },
-    {
-     "code": "LBY",
-     "name": "Libya",
+     "code": "CYP",
+     "name": "Cyprus",
      "commonness": 2,
      "gem": false,
-     "fact": "The Libyans shall be at his steps (Dan 11:43)."
+     "fact": "Paul struck the sorcerer Elymas blind at Paphos (Acts 13:11)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 2,
      "gem": false,
-     "fact": "The king of the north stands in the glorious land and plants his palace in the glorious holy mountain; that land includes the hill country now in the West Bank (Dan 11:16, 41, 45)."
+     "fact": "Elisha healed the waters at Jericho (2 Kings 2:19-22), in the West Bank."
     },
     {
-     "code": "CYP",
-     "name": "Cyprus",
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 1,
      "gem": true,
-     "fact": "The ships of Chittim come against the king of the north (Dan 11:30); Chittim is Cyprus."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The Ethiopians shall be at his steps (Dan 11:43); Bible Ethiopia (Cush) was the Nile land south of Egypt."
+     "fact": "Elijah raised the widow's son at Zarephath (1 Kings 17:22)."
     }
    ]
   },
   {
-   "id": "global-latam-missionaries-withdrawn-1943-89",
-   "bank": "global",
-   "display_text": "Pin a Latin American mainland country where foreign missionaries were withdrawn because of war or unrest, 1943 to 1989",
-   "text_original": "War, revolution and political unrest sometimes forced the Church to pull foreign missionaries out, leaving local members to carry the work. A Latin American mainland country (Mexico, Central America or Spanish- and Portuguese-speaking South America) from which missionaries from abroad were withdrawn or evacuated between 1943 and 1989.",
+   "id": "saints-v4-34-relief-before-2004",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as getting Church disaster or refugee relief before 2004.",
+   "text_original": "Saints vol. 4 ch. 34 lists places the Church sent disaster or refugee relief in the years before 2004. Pin one.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1943-1989",
-   "citation": "Global Histories chronologies (Latin American mainland)",
+   "topic": "humanitarian aid",
+   "era": "1998-2003",
+   "citation": "Saints vol. 4 ch. 34",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/34-strength-for-any-situation?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Later withdrawals (Venezuela 2005 and 2013, Nicaragua again in 2018) and Mexico's 1912 to 1917 withdrawal fall outside the dates.",
-   "summary": "Several times the Church pulled foreign missionaries out of Latin American countries for their safety: Brazil during World War II, Costa Rica during its 1948 revolution, Nicaragua in 1978, El Salvador as civil war began in 1979, Panama in 1988 and Bolivia after two missionaries were killed in 1989. In each case local members and missionaries kept the Church going.",
+   "note": "Kosovo uses the user-assigned code XKX, which is not an official ISO 3166 code.",
+   "summary": "In the years before 2004, the Church sent help to people hurt by war and natural disasters around the world. Refugees from wars in Kosovo, Sierra Leone and Afghanistan received aid, as did flood victims in Venezuela and Mozambique and earthquake survivors in El Salvador, Turkey, Colombia and Taiwan.",
    "stamp": null,
    "gems": [
-    "BOL"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 3,
-     "gem": false,
-     "fact": "All North American missionaries were evacuated in November 1943 as Brazil entered World War II."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Missionaries from outside Nicaragua were evacuated in September 1978 amid political instability."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "North American missionaries were moved to other Central American nations in November 1979 as civil war began."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Missionaries were moved to Guatemala in February 1948 because of a revolution."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
-     "commonness": 2,
-     "gem": false,
-     "fact": "All foreign missionaries were evacuated in February 1988 because of rising political unrest."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "After rebels killed missionaries Jeffrey Ball and Todd Wilson in La Paz in May 1989, North American missionaries were temporarily removed."
-    }
-   ]
-  },
-  {
-   "id": "nt-revelation-places",
-   "bank": "nt",
-   "display_text": "Pin a country holding a place, city or river named in the book of Revelation",
-   "text_original": "A present-day country holding a place, city or river named in the book of Revelation",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "New Testament",
-   "citation": "Revelation 1:9-11; 9:14; 11:8; 16:12-16",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/armageddon?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/14?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/patmos?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "The Euphrates also rises in Turkey, which is already accepted.",
-   "summary": "John wrote Revelation on Patmos, a Greek island, to seven churches in western Turkey. The book names the great river Euphrates, which flows through Turkey, Syria and Iraq, and Armageddon, the mount of Megiddo in Israel. It also calls the wicked city spiritually Sodom and Egypt.",
-   "stamp": null,
-   "gems": [
-    "EGY"
+    "MOZ",
+    "SLE"
    ],
    "gem_forced": false,
    "answers": [
     {
      "code": "TUR",
      "name": "Turkey",
-     "commonness": 5,
-     "gem": false,
-     "fact": "The seven churches, from Ephesus to Laodicea, were in the province of Asia in western Turkey (Revelation 1:11)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
      "commonness": 4,
      "gem": false,
-     "fact": "John received the revelation on the isle of Patmos (Revelation 1:9)."
+     "fact": "Earthquake survivors received aid."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Armageddon is Har Megiddo, the mount of Megiddo in northern Israel (Revelation 16:16; Bible Dictionary)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
+     "code": "AFG",
+     "name": "Afghanistan",
      "commonness": 3,
      "gem": false,
-     "fact": "The Euphrates and the site of Babylon are in Iraq (Revelation 9:14; 16:12; 14:8)."
+     "fact": "War refugees received aid."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "XKX",
+     "name": "Kosovo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Refugees from the 1999 war received aid."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 2,
      "gem": false,
-     "fact": "The great river Euphrates flows across Syria (Revelation 9:14; 16:12)."
+     "fact": "Earthquake survivors received aid."
     },
     {
-     "code": "EGY",
-     "name": "Egypt",
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Earthquake survivors received aid."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Earthquake survivors received aid."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Flood victims received aid."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
      "commonness": 1,
      "gem": true,
-     "fact": "The great city is spiritually called Sodom and Egypt (Revelation 11:8)."
+     "fact": "Flood victims received aid."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Civil war refugees received aid."
     }
    ]
   }

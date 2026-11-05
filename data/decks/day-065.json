@@ -1,0 +1,476 @@
+{
+ "day": 65,
+ "prompts": [
+  {
+   "id": "place-hill-cumorah",
+   "bank": "places",
+   "display_text": "Pin the Hill Cumorah, where Joseph Smith received the gold plates in 1827.",
+   "text_original": "Drop a pin on the Hill Cumorah near Palmyra, New York, where Joseph Smith received the gold plates from Moroni in 1827.",
+   "accepts": "place",
+   "kind": "restoration",
+   "place": {
+    "name": "Hill Cumorah, Manchester, New York",
+    "lat": 42.9945,
+    "lng": -77.2203
+   },
+   "topic": "church history sites",
+   "era": "1823-1827",
+   "citation": "Hill Cumorah page, ChurchofJesusChrist.org; Church History Topics, Angel Moroni, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/hill-cumorah?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/angel-moroni?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "The Hill Cumorah is a drumlin in Manchester, New York, a few miles from the Smith family farm. Joseph Smith met the angel Moroni there each September from 1823 to 1827. On September 22, 1827, he received the gold plates from which he translated the Book of Mormon.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-latam-noncapital-temple",
+   "bank": "sites-temples",
+   "display_text": "Pin a Latin American country with a dedicated temple named for a city other than its capital.",
+   "text_original": "A Latin American country with a dedicated temple named for a city that is not its capital (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Ten Latin American countries have dedicated temples in cities other than the capital. Brazil has eleven such temples and Mexico fourteen. Bolivia counts too, since Cochabamba is neither the constitutional capital Sucre nor the seat of government La Paz. Paraguay, Uruguay, Venezuela and the Central American one-temple countries do not qualify.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "ECU",
+    "HND"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "São Paulo, Recife, Porto Alegre and more (capital: Brasília)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Guadalajara, Monterrey, Tijuana and more (capital: Mexico City)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Córdoba, Salta, Mendoza and more (capital: Buenos Aires)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Concepción, Antofagasta (capital: Santiago)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Trujillo, Arequipa (capital: Lima)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barranquilla (capital: Bogotá)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Quetzaltenango, Cobán (capital: Guatemala City)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Cochabamba (capital: Sucre (seat of government La Paz))."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Guayaquil (capital: Quito)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "San Pedro Sula (capital: Tegucigalpa)."
+    }
+   ]
+  },
+  {
+   "id": "tc-all-three-stages",
+   "bank": "sites-temples",
+   "display_text": "Pin a country with temples at every stage: dedicated, under construction and announced.",
+   "text_original": "A country with at least one temple in each stage: dedicated, under construction and announced (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1877-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Thirteen countries have temples in all three stages at once. Most are the big Latin American and West African growth countries plus the Philippines and Britain. Brazil alone has 12 dedicated, 7 under construction and 5 announced.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "COD"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "12 dedicated, 7 under construction, 5 announced."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "15 dedicated, 1 under construction, 10 announced."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "110 dedicated, 17 under construction, 27 announced."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "3 dedicated, 1 under construction, 2 announced."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "2 dedicated, 1 under construction, 1 announced."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "4 dedicated, 1 under construction, 5 announced."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "6 dedicated, 3 under construction, 5 announced."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 dedicated, 1 under construction, 1 announced."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated, 1 under construction, 1 announced."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 dedicated, 1 under construction, 1 announced."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 dedicated, 2 under construction, 4 announced."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated, 1 under construction, 1 announced."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated, 1 under construction, 2 announced."
+    }
+   ]
+  },
+  {
+   "id": "hc-africa-land-dedications-1983-99",
+   "bank": "sites-history",
+   "display_text": "Pin an African country an Apostle dedicated for the preaching of the gospel between 1983 and 1999.",
+   "text_original": "An African country dedicated for the preaching of the gospel by an Apostle between 1983 and 1999 (other than Russell M. Nelson).",
+   "accepts": "country",
+   "topic": "dedications",
+   "era": "1983-1999",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mauritius/mu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sierra-leone/sl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kenya/ke-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/republic-of-the-congo/cg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mozambique/mz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "After the 1978 revelation, Apostles crossed Africa dedicating nations: David B. Haight in Ghana (1983), Marvin J. Ashton in Zaire, Liberia and Cote d'Ivoire (1987) and Mauritius (1988), Richard G. Scott in Sierra Leone (1989), Republic of the Congo (1992) and Mozambique (1999), and James E. Faust in Kenya (1991).",
+   "stamp": null,
+   "gems": [
+    "COG",
+    "MOZ",
+    "MUS",
+    "NGA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "COD",
+     "name": "DR Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In August 1987 Elder Marvin J. Ashton dedicated Zaire for the preaching of the gospel."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1983 Elder David B. Haight, the first member of the Quorum of the Twelve to visit Ghana, dedicated the land for the preaching of the gospel."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In September 1987 Elder Marvin J. Ashton dedicated Cote d'Ivoire for the preaching of the gospel."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1991 Elder James E. Faust dedicated Kenya for the preaching of the gospel with more than 100 Church members present."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "On September 2, 1987, Elder Marvin J. Ashton dedicated Liberia for the preaching of the gospel in Monrovia."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1989 Elder Richard G. Scott, standing on Leicester Peak above Freetown, dedicated Sierra Leone for the preaching of the gospel."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1992 Elder Richard G. Scott, among the first Apostles to visit the country, dedicated the Republic of the Congo for the preaching of the gospel."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1999 Elder Richard G. Scott of the Quorum of the Twelve dedicated Mozambique for the preaching of the gospel."
+    },
+    {
+     "code": "MUS",
+     "name": "Mauritius",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1988 Elder Marvin J. Ashton of the Quorum of the Twelve dedicated Mauritius for the preaching of the gospel."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1983 Elder David B. Haight rededicated Nigeria for missionary work; N. Eldon Tanner had first dedicated it in December 1962."
+    }
+   ]
+  },
+  {
+   "id": "hf-wwii-missionaries-evacuated",
+   "bank": "sites-history",
+   "display_text": "Pin a country outside the Americas where foreign missionaries were evacuated at the start of World War II, 1939 to 1941.",
+   "text_original": "A country outside the Americas from which foreign missionaries were evacuated or called home at the start of World War II (1939-41), leaving local members to lead.",
+   "accepts": "country",
+   "topic": "world-events",
+   "era": "1939-1945",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/slovakia/sk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Latin American withdrawals 1943-89 are a separate prompt; Brazil (1943) excluded here.",
+   "summary": "As war spread in 1939 and 1940 the Church pulled North American missionaries out of Europe, the British Isles and the Pacific. Acting mission presidents and local members, such as Andre Anastasiou in Britain and Josef Roubicek in Czechoslovakia, carried the Church through the war years.",
+   "stamp": null,
+   "gems": [
+    "SVK",
+    "TON",
+    "WSM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "August 1939 to September 1940: as tensions escalated, missionaries throughout Europe were evacuated; Der Stern was discontinued by government policy in 1940."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "January 12, 1940: at the start of World War II missionaries from North America were evacuated and Andre K. Anastasiou was appointed acting British Mission president."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1939-45: American missionaries were evacuated and many Austrian Saints were drafted into the military."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "December 2, 1939: American missionaries were withdrawn due to World War II and Orson Brinck West was appointed to lead."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "By January 1941 overseas missionaries had been evacuated; some branches continued under local leadership, many closed."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1939-46: American missionaries were evacuated from Europe and Swiss members filled leadership positions; Max Zimmer led."
+    },
+    {
+     "code": "CZE",
+     "name": "Czechia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "August 24, 1939: missionaries were evacuated from Czechoslovakia prior to World War II; Josef Roubicek became acting mission president."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1939-45: North American missionaries were evacuated from Ireland during World War II."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "October 15, 1940: with the onset of World War II, Church leaders instructed all missionaries in New Zealand to return home."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Foreign missionaries were evacuated from Sweden during the war; Fritz Johansson served as acting mission president."
+    },
+    {
+     "code": "SVK",
+     "name": "Slovakia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "August 24, 1939: missionaries were evacuated from Czechoslovakia prior to World War II; Josef Roubicek became acting mission president."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1940-46: World War II caused the evacuation of foreign missionaries; Emile C. Dunn remained as mission president over local member missionaries."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1940-45: Samoan Saints assumed increased responsibility as missionaries were called home due to wartime conditions."
+    }
+   ]
+  }
+ ]
+}

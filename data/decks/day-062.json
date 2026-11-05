@@ -1,0 +1,383 @@
+{
+ "day": 62,
+ "prompts": [
+  {
+   "id": "place-herefordshire-beacon",
+   "bank": "places",
+   "display_text": "Pin the Herefordshire Beacon, where three Apostles decided in 1840 to print the Book of Mormon in England.",
+   "text_original": "Drop a pin on the Herefordshire Beacon in the Malvern Hills, where Wilford Woodruff, Brigham Young and Willard Richards prayed in 1840 and decided to print the Book of Mormon in England.",
+   "accepts": "place",
+   "kind": "abroad",
+   "place": {
+    "name": "Herefordshire Beacon (British Camp), Malvern Hills, England",
+    "lat": 52.0582,
+    "lng": -2.3518
+   },
+   "topic": "church history sites",
+   "era": "1840",
+   "citation": "Church History Topics, Wilford Woodruff; Global Histories, England, The United Brethren, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/topics/wilford-woodruff?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/stories-of-faith/xe-02-the-united-brethren?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In May 1840, after hundreds of United Brethren converts were baptized, Wilford Woodruff, Brigham Young and Willard Richards climbed the Herefordshire Beacon to pray and counsel. They decided to publish the Book of Mormon and a hymnbook in England. Converts John Benbow and Thomas Kington put up the money for the printing.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "ha-recognition-after-communism",
+   "bank": "sites-history",
+   "display_text": "Pin a former communist country that officially recognized the Church between 1988 and 1996.",
+   "text_original": "A country of the former Soviet bloc where the Church first gained official government recognition or registration between 1988 and 1996.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1988-1996",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belarus/by-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Before 1989 the Church could barely operate in most communist countries. As those governments fell, the Church won legal recognition one nation at a time, opening the way for missionaries, branches and baptisms.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BLR",
+    "LVA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 5,
+     "gem": false,
+     "fact": "May 28, 1991, Moscow: Religious Association of the Church in Russia registered with the government."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "September 17, 1991, Kyiv: the Church's first religious community officially registered."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 10, 1991, Sofia: officially recognized by the Bulgarian government."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 3,
+     "gem": false,
+     "fact": "February 21, 1990: Church received official recognition from the Czechoslovak government."
+    },
+    {
+     "code": "EST",
+     "name": "Estonia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "June 29, 1990, Tallinn: official recognition from the Estonian government."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1988, Budapest: after the Church's official legal recognition, the first baptisms took place."
+    },
+    {
+     "code": "BLR",
+     "name": "Belarus",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1994, Minsk: the Church's first religious community officially registered."
+    },
+    {
+     "code": "LVA",
+     "name": "Latvia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "March 20, 1996: the Church was officially recognized in Latvia."
+    }
+   ]
+  },
+  {
+   "id": "hp-relief-society-pre-1900",
+   "bank": "sites-history",
+   "display_text": "Pin a land outside the USA where sisters organized a Relief Society before 1900.",
+   "text_original": "A country or territory outside the United States where a Relief Society was organized before 1900.",
+   "accepts": "country",
+   "topic": "Relief Society",
+   "era": "1879-1898",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Relief Society began in Nauvoo in 1842, and in the late 1800s sisters abroad started their own. New Zealand and Denmark had one in 1879, followed by Norway, French Polynesia, Switzerland, Germany, the Netherlands, Samoa and Australia before 1900.",
+   "stamp": null,
+   "gems": [
+    "ASM",
+    "NLD"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The first Relief Society in Denmark was organized in Copenhagen in 1879, with Johanna Christina Nordstrom as president."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Thomas A. Shreeve organized the first Relief Society in New Zealand, for the Christchurch Branch, in 1879."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first known Relief Society in Australia was organized in the Brisbane Branch in 1898."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first Relief Society in Switzerland was established in the Bern Branch in 1882."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first Relief Society in Germany was organized in the Berlin Branch in 1884, with Pauline Kowallis as president."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first Relief Society in Norway was organized in the Christiania Branch in 1880."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A Relief Society was organized on Anaa in 1881 by Taoto, a local leader."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1888 on Aunu‘u the first meetinghouse in Samoa was dedicated and the first Relief Society on the island was created."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The first Relief Society in the Netherlands was organized in Amsterdam in 1888, with Catharina Crezee as president."
+    }
+   ]
+  },
+  {
+   "id": "hp-persecution-1800s",
+   "bank": "sites-history",
+   "display_text": "Pin a country where 1800s missionaries or Saints were jailed, fined, banished or killed for the faith.",
+   "text_original": "A country where 19th-century missionaries or members were jailed, fined, banished, or worse because of their faith.",
+   "accepts": "country",
+   "topic": "persecution",
+   "era": "1851-1899",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/serbia/rs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Preaching abroad in the 1800s often meant trouble with the law. Missionaries were jailed in Germany and Prague, fined in Sweden, and banished from Austria, Serbia and Bulgaria; John Taylor had to flee France. In French Polynesia in 1852 five Saints were executed after a raid on a Church meeting.",
+   "stamp": null,
+   "gems": [
+    "BGR",
+    "SRB"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1854 mission president George C. Riser was imprisoned and missionaries were banished from Hamburg."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1851 Elder John Taylor, accused of political dissidence, was forced to flee France."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "From 1868 to 1870 elders preaching in Vasteras were sometimes fined by civil authorities."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Because of religious intolerance, Biesinger and Paul Hammer were forced to leave Austria in 1884."
+    },
+    {
+     "code": "CZE",
+     "name": "Czechia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "In 1884 Thomas Biesinger was arrested, imprisoned and expelled from Prague for preaching."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "In 1852 five Saints on Anaa were executed and many imprisoned after French authorities raided a Church meeting."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Markow and Argir Dimitrov briefly preached in Sofia before local authorities banished them."
+    },
+    {
+     "code": "SRB",
+     "name": "Serbia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "In 1899 Mischa Markow, the first missionary to preach in Serbia, was soon banished."
+    }
+   ]
+  },
+  {
+   "id": "temples-commonwealth-pending",
+   "bank": "temples",
+   "display_text": "Pin a Commonwealth country with a temple under construction or announced but none dedicated yet (as of October 2026).",
+   "text_original": "A Commonwealth member country with a temple under construction or announced but none dedicated yet (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2018-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://thecommonwealth.org/our-member-countries"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Eight Commonwealth members are waiting for a first temple: India, Singapore, Papua New Guinea, Sierra Leone, Kiribati and Vanuatu have temples under construction, while Uganda and Mozambique have theirs announced. Commonwealth members with dedicated temples, such as the United Kingdom, Canada and Nigeria, do not count here.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KIR",
+    "VUT"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bengaluru India Temple under construction."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Port Moresby Papua New Guinea Temple under construction."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Singapore Temple under construction."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Beira and Maputo temples announced; Commonwealth member since 1995."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Freetown Sierra Leone Temple under construction."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kampala Uganda Temple announced."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Tarawa Kiribati Temple under construction."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Port Vila Vanuatu Temple under construction."
+    }
+   ]
+  }
+ ]
+}

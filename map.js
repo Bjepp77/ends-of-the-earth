@@ -1,6 +1,6 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=c4e24ebe09';
-import { rng } from './trail.js?v=c4e24ebe09';
+import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=dab967d0a8';
+import { rng } from './trail.js?v=dab967d0a8';
 
 const maplibregl = window.maplibregl;
 
@@ -19,6 +19,8 @@ export const MAP_COLORS = {
   border: '#674730', // Yellow 40
   grid: '#53575B', // Gray 40
   focus: '#D45311', // Yellow 30
+  river: '#878A8C', // Gray 30, physical layer rivers and lake shores
+  desert: '#B3A18D', // Neutral 40, physical layer desert stipple
 };
 
 const MINOR_ZOOM = 3.5; // 5 degree graticule lines and ticks from here in; 15 degree lines always
@@ -94,7 +96,48 @@ function paperTile(base, { size = 96, specks = 0, waves = 0, seed = 1 }) {
   return { image: { width: cv.width, height: cv.height, data }, pixelRatio: r };
 }
 
+// Transparent mark tiles for the physical layer: small ink carets for mountain ranges, a sand
+// stipple for deserts. Kept faint and sparse so they read as texture, never as symbols.
+function markTile(kind) {
+  const r = devicePixelRatio > 1.5 ? 2 : 1;
+  const size = 96;
+  const cv = document.createElement('canvas');
+  cv.width = cv.height = size * r;
+  const g = cv.getContext('2d');
+  g.scale(r, r);
+  const rand = rng(kind === 'range' ? 11 : 13);
+  if (kind === 'range') {
+    g.strokeStyle = MAP_COLORS.speck;
+    g.lineWidth = 0.9;
+    // A jittered 3 x 3 grid with gaps, so the repeat does not read as wallpaper.
+    for (let i = 0; i < 9; i++) {
+      if (rand() < 0.3) continue;
+      const x = 12 + (i % 3) * 32 + (rand() - 0.5) * 14;
+      const y = 12 + Math.floor(i / 3) * 32 + (rand() - 0.5) * 14;
+      const w = 3 + rand() * 2;
+      g.globalAlpha = 0.55 + rand() * 0.2;
+      g.beginPath();
+      g.moveTo(x - w, y + w * 0.8);
+      g.lineTo(x, y);
+      g.lineTo(x + w, y + w * 0.8);
+      g.stroke();
+    }
+  } else {
+    g.fillStyle = MAP_COLORS.desert;
+    for (let i = 0; i < 100; i++) {
+      g.globalAlpha = 0.45 + rand() * 0.35;
+      g.beginPath();
+      g.arc(2 + rand() * (size - 4), 2 + rand() * (size - 4), 0.5 + rand() * 0.4, 0, Math.PI * 2);
+      g.fill();
+    }
+  }
+  const { data } = g.getImageData(0, 0, cv.width, cv.height);
+  return { image: { width: cv.width, height: cv.height, data }, pixelRatio: r };
+}
+
 const TILES = {
+  'range-marks': () => markTile('range'),
+  'desert-marks': () => markTile('desert'),
   'sea-paper': () => paperTile(MAP_COLORS.sea, { size: 120, waves: 7, seed: 3 }),
   'land-paper': () => paperTile(MAP_COLORS.land, { specks: 14, seed: 5 }),
   'land-dim-paper': () => paperTile(MAP_COLORS.landDim, { specks: 14, seed: 5 }),
@@ -142,6 +185,92 @@ function style(fc) {
         paint: { 'line-color': c.focus, 'line-width': 1.6 },
       },
     ],
+  };
+}
+
+// Physical layer (place pin rounds): shaded relief, mountain ranges, deserts, lakes and rivers from
+// Natural Earth (public domain), built by tools/build_physical.py. No names and no text. Fetched the
+// first time it is switched on, so country rounds never pay for it.
+export const PHYSICAL_URL = 'data/physical/physical.json';
+export const PHYSICAL_LAYERS = ['phys-relief', 'phys-desert', 'phys-range', 'phys-lake', 'phys-lake-shore', 'phys-river'];
+
+// physical.json stores each line or ring as integer deltas in 1/q degree; this restores GeoJSON.
+export function unpackPhysical(d) {
+  const ring = (a) => {
+    const out = [];
+    let x = 0, y = 0;
+    for (let i = 0; i < a.length; i += 2) { x += a[i]; y += a[i + 1]; out.push([x / d.q, y / d.q]); }
+    return out;
+  };
+  const fc = (features) => ({ type: 'FeatureCollection', features });
+  return {
+    rivers: fc(d.rivers.map(([z, lines]) => ({
+      type: 'Feature', properties: { z }, geometry: { type: 'MultiLineString', coordinates: lines.map(ring) },
+    }))),
+    lakes: fc(d.lakes.map(([z, polys]) => ({
+      type: 'Feature', properties: { z }, geometry: { type: 'MultiPolygon', coordinates: polys.map((p) => p.map(ring)) },
+    }))),
+    regions: fc(d.regions.map(([k, z, polys]) => ({
+      type: 'Feature', properties: { kind: k === 'r' ? 'range' : 'desert', z },
+      geometry: { type: 'MultiPolygon', coordinates: polys.map((p) => p.map(ring)) },
+    }))),
+    relief: d.relief,
+  };
+}
+
+// Layer specs, drawn above the land paper and below the graticule, borders and picked country.
+// Each feature carries z, the zoom it appears from, so detail grows from zoom 3 to 9.
+export function physicalLayers() {
+  const c = MAP_COLORS;
+  const shown = ['<=', ['get', 'z'], ['zoom']];
+  return [
+    { id: 'phys-relief', type: 'raster', source: 'phys-relief',
+      // The relief image is about 2 km a pixel, so it fades out as the vector detail takes over.
+      paint: { 'raster-opacity': ['interpolate', ['linear'], ['zoom'], 2, 0.7, 4.5, 0.55, 6.5, 0], 'raster-fade-duration': 0 } },
+    { id: 'phys-desert', type: 'fill', source: 'phys-regions', filter: ['all', ['==', ['get', 'kind'], 'desert'], shown],
+      paint: { 'fill-pattern': 'desert-marks', 'fill-antialias': false, 'fill-opacity': 0.8 } },
+    { id: 'phys-range', type: 'fill', source: 'phys-regions', filter: ['all', ['==', ['get', 'kind'], 'range'], shown],
+      paint: { 'fill-pattern': 'range-marks', 'fill-antialias': false, 'fill-opacity': 0.7 } },
+    { id: 'phys-lake', type: 'fill', source: 'phys-lakes', filter: shown,
+      paint: { 'fill-pattern': 'sea-paper', 'fill-antialias': false } },
+    { id: 'phys-lake-shore', type: 'line', source: 'phys-lakes', filter: shown,
+      paint: { 'line-color': c.river, 'line-width': ['interpolate', ['linear'], ['zoom'], 3, 0.5, 9, 1.1] } },
+    { id: 'phys-river', type: 'line', source: 'phys-rivers', filter: shown,
+      layout: { 'line-join': 'round', 'line-cap': 'round' },
+      paint: {
+        'line-color': c.river,
+        'line-opacity': 0.85,
+        // Big rivers (low z) draw a touch wider than late-arriving tributaries.
+        'line-width': ['interpolate', ['linear'], ['zoom'],
+          3, ['case', ['<', ['get', 'z'], 3], 1.1, 0.6],
+          9, ['case', ['<', ['get', 'z'], 4], 2.4, ['<', ['get', 'z'], 5.5], 1.6, 1]],
+      } },
+  ];
+}
+
+function physicalLayer(map, url = PHYSICAL_URL) {
+  let loading = null;
+  let on = false;
+  const show = (v) => { for (const id of PHYSICAL_LAYERS) map.setLayoutProperty(id, 'visibility', v ? 'visible' : 'none'); };
+  async function load() {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`physical.json: HTTP ${res.status}`);
+    const d = unpackPhysical(await res.json());
+    map.addSource('phys-relief', { type: 'image', url: d.relief.url, coordinates: d.relief.coordinates });
+    map.addSource('phys-regions', { type: 'geojson', data: d.regions, tolerance: 0.3 });
+    map.addSource('phys-lakes', { type: 'geojson', data: d.lakes, tolerance: 0.3 });
+    map.addSource('phys-rivers', { type: 'geojson', data: d.rivers, tolerance: 0.3 });
+    for (const spec of physicalLayers()) map.addLayer({ ...spec, layout: { ...spec.layout, visibility: 'none' } }, 'graticule');
+  }
+  return {
+    async set(v) {
+      on = !!v;
+      if (!on && !loading) return;
+      loading ??= load().catch((e) => { loading = null; throw e; });
+      await loading;
+      show(on);
+    },
+    get on() { return on; },
   };
 }
 
@@ -289,6 +418,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
 
   const marker = new maplibregl.Marker({ element: pinElement(), anchor: 'center' });
   const names = nameOverlay(map, data, container);
+  const physical = physicalLayer(map);
   gratOverlay(map, container);
   const byCode = new Map(data.features.map((f) => [f.code, f]));
   let pin = null;
@@ -296,6 +426,8 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
   let flying = false;
   let exactNext = false;
   let flags = [];
+  let placeMode = false; // a place round: any pin counts, at sea too, and no close-call zoom
+  let placeData = null;
 
   function focus(code, paint = null) {
     const f = ['==', ['get', 'code'], code ?? ''];
@@ -310,14 +442,15 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     pin = p;
     marker.setLngLat([p.lng, p.lat]).addTo(map);
     marker.getElement().classList.toggle('pin--refused', !!p.refusal);
-    focus(p.refusal ? null : p.hit.code);
+    // A place round keeps the country outline but not the lit fill, so the relief under the pin stays visible.
+    focus(p.refusal ? null : p.hit.code, placeMode ? { fillOpacity: 0 } : null);
     onPin(pin);
     return pin;
   }
 
   function place(lngLat) {
     const hit = hitTest(index, lngLat.lng, lngLat.lat);
-    return show({ lng: lngLat.lng, lat: lngLat.lat, hit, refusal: refusalFor(hit) });
+    return show({ lng: lngLat.lng, lat: lngLat.lat, hit, refusal: placeMode ? null : refusalFor(hit) });
   }
 
   // Name search: pin the country itself at its label point (some label points sit offshore).
@@ -325,7 +458,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     const f = byCode.get(code);
     if (!f) return null;
     const hit = { code: f.code, name: f.name, kind: f.kind, sovereign: f.sovereign ?? null };
-    return show({ lng: f.label[0], lat: f.label[1], hit, refusal: refusalFor(hit), bySearch: true });
+    return show({ lng: f.label[0], lat: f.label[1], hit, refusal: placeMode ? null : refusalFor(hit), bySearch: true });
   }
 
   // §16 reveal: fly to the pinned country and fill it in the tier colour at its §4 alpha.
@@ -342,6 +475,36 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     const [w, s, e, n] = f.bbox;
     if (e - w > 300) map.flyTo({ center: f.label, zoom: 2, offset: [0, (padding.top - padding.bottom) / 2], duration: 800 }); // offset, not padding: padding would persist
     else map.fitBounds([[w, s], [e, n]], { padding, maxZoom: 5, duration: 800 });
+  }
+
+  // Place reveal: a dot on the place and a line from the pin, framed like reveal(). pinLngLat null: no pin.
+  // Own source and layers, added on top at first use.
+  function revealPlace(pinLngLat, place, coverTop = Infinity) {
+    map.resize();
+    const box = container.getBoundingClientRect();
+    const edge = Math.min(80, Math.round(box.height / 8));
+    const padding = { top: edge, left: edge, right: edge, bottom: Math.max(edge, Math.round(box.bottom - coverTop) + 8) };
+    let lng = place.lng;
+    if (pinLngLat) while (lng - pinLngLat.lng > 180) lng -= 360;
+    if (pinLngLat) while (pinLngLat.lng - lng > 180) lng += 360; // the short way round
+    const dot = { type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: [lng, place.lat] } };
+    const features = [dot];
+    if (pinLngLat) features.push({ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: [[pinLngLat.lng, pinLngLat.lat], [lng, place.lat]] } });
+    placeData = { type: 'FeatureCollection', features };
+    if (!map.getSource('place-reveal')) {
+      map.addSource('place-reveal', { type: 'geojson', data: placeData });
+      map.addLayer({ id: 'place-line', type: 'line', source: 'place-reveal', filter: ['==', ['geometry-type'], 'LineString'], paint: { 'line-color': MAP_COLORS.focus, 'line-width': 2, 'line-dasharray': [2, 1] } });
+      map.addLayer({ id: 'place-dot', type: 'circle', source: 'place-reveal', filter: ['==', ['geometry-type'], 'Point'], paint: { 'circle-radius': 6, 'circle-color': MAP_COLORS.focus, 'circle-stroke-color': MAP_COLORS.coast, 'circle-stroke-width': 1.5 } });
+    } else map.getSource('place-reveal').setData(placeData);
+    if (!pinLngLat) { map.flyTo({ center: [lng, place.lat], zoom: 4, offset: [0, (padding.top - padding.bottom) / 2], duration: 800 }); return; }
+    const w = Math.min(pinLngLat.lng, lng), e = Math.max(pinLngLat.lng, lng);
+    const s = Math.min(pinLngLat.lat, place.lat), n = Math.max(pinLngLat.lat, place.lat);
+    map.fitBounds([[w, s], [e, n]], { padding, maxZoom: 6, duration: 800 });
+  }
+
+  function clearPlace() {
+    placeData = null;
+    map.getSource('place-reveal')?.setData({ type: 'FeatureCollection', features: [] });
   }
 
   // §17 camp: numbered pins.
@@ -384,7 +547,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     const nearby = nearbyEdges(index, e.point, (lon, lat) => map.project([lon, lat]));
     const candidates = new Map(nearby.map((f) => [f.code, f]));
     if (hit.code) candidates.set(hit.code, indexByCode.get(hit.code));
-    if (map.getZoom() < 9 && ((!hit.code && candidates.size > 0) || (hit.code && candidates.size > 1))) {
+    if (!placeMode && map.getZoom() < 9 && ((!hit.code && candidates.size > 0) || (hit.code && candidates.size > 1))) {
       const smallest = Math.min(...[...candidates.values()].map(squareSizeAtZoomZero));
       const square = smallest * 2 ** map.getZoom();
       // At most 4 levels in one fly: more, and a finger's few pixels of error land off screen.
@@ -398,7 +561,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     place(e.lngLat);
   });
 
-  function clearPin() { pin = null; marker.remove(); focus(null); onPin(null); }
+  function clearPin() { pin = null; marker.remove(); focus(null); clearPlace(); onPin(null); }
 
   return {
     map,
@@ -406,6 +569,9 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     place,
     placeFeature,
     reveal,
+    revealPlace,
+    setPlaceMode(on) { placeMode = !!on; if (placeMode) exactNext = false; },
+    get placeReveal() { return placeData; },
     setFlags,
     lock(v) { locked = v; if (v) exactNext = false; },
     hit: (lng, lat) => hitTest(index, lng, lat),
@@ -415,6 +581,9 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     zoomOut() { map.zoomOut(); },
     resetView() { exactNext = false; map.resize(); map.fitBounds(WORLD_BOUNDS, { duration: 600 }); },
     setNames(on) { names.set(on); },
+    // Physical cartography for place pin rounds. Resolves once the layers are added and shown.
+    setPhysical(on) { return physical.set(on); },
+    get physical() { return physical.on; },
     setBorders(on) { map.setLayoutProperty('borders', 'visibility', on ? 'visible' : 'none'); },
   };
 }

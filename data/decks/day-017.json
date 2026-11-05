@@ -2,13 +2,13 @@
  "day": 17,
  "prompts": [
   {
-   "id": "temples-southern-hemisphere",
+   "id": "temples-europe-dedicated",
    "bank": "draft",
-   "display_text": "Pin a country or territory with a dedicated temple south of the equator.",
-   "text_original": "Pin a country or territory with a dedicated temple lying south of the equator (as of October 2026).",
-   "accepts": "country_or_territory",
+   "display_text": "Pin a European country with a dedicated temple.",
+   "text_original": "Pin a European country with at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
    "topic": "temples",
-   "era": "1958-2026",
+   "era": "1955-2026",
    "citation": "temple list, 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
@@ -16,483 +16,413 @@
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Many of the Church's temples lie south of the equator, across South America, Africa and the Pacific. Every temple in Brazil is in the Southern Hemisphere, as are those in Australia, New Zealand, South Africa and Zimbabwe. Quito, Ecuador, and Nairobi, Kenya, sit just south of the line.",
+   "summary": "Europe's first temple was dedicated near Bern, Switzerland, in 1955, followed by London in 1958. As of October 2026, twelve European countries had a dedicated temple, the most recent being Rome, Italy, and Lisbon, Portugal, both in 2019.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "KEN"
+    "FIN",
+    "UKR"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Five dedicated temples."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "All its temples are south of the equator."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 4,
      "gem": false,
-     "fact": "Buenos Aires and others."
+     "fact": "Bern, 1955, Europe's first."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 4,
      "gem": false,
-     "fact": "Santiago and others."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Hamilton and Auckland."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Lima and others."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Johannesburg and Durban."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Cochabamba."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Nuku'alofa."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Apia."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kinshasa."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Guayaquil and Quito are both just south of the equator."
-    },
-    {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Suva."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Asuncion."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Papeete."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Montevideo."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Harare."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nairobi sits just south of the equator."
-    }
-   ]
-  },
-  {
-   "id": "history-temples-construction-latam",
-   "bank": "history2",
-   "display_text": "Pin a Latin American country with a temple under construction, not yet dedicated.",
-   "text_original": "Pin a Latin American country with a temple under construction but not yet dedicated (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "Church temple list and ChurchofJesusChristTemples.org (temples under construction), read 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://www.thechurchnews.com/temples/2026/10/12/iquitos-peru-temple-groundbreaking-largest-city-inaccessible-by-road/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026, Latin America has many temples under construction. Brazil has several, including Natal, Teresina and Santos, and Mexico has Torreón, Querétaro and San Luis Potosí. Others are underway at Santiago West Chile, Cali Colombia, Santa Cruz Bolivia, Iquitos Peru and Huehuetenango Guatemala.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "BOL",
-    "COL",
-    "GTM",
-    "PER"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Natal Brazil; Teresina Brazil; Santos Brazil; and others (under construction)."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Torreón Mexico; Querétaro Mexico; San Luis Potosí Mexico (under construction)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Santiago West Chile (under construction)."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Santa Cruz Bolivia (under construction)."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Cali Colombia (under construction)."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Huehuetenango Guatemala (under construction)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Iquitos Peru (construction began 10 October 2026)."
-    }
-   ]
-  },
-  {
-   "id": "history-mtc-countries-2026",
-   "bank": "history2",
-   "display_text": "Pin a country with a Church missionary training center.",
-   "text_original": "A country with a Church missionary training center (as of October 2026).",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "2026",
-   "citation": "Church Newsroom, First Presidency calls new leaders for 11 missionary training centers; Newsroom MTC topic page",
-   "source_urls": [
-    "https://newsroom.churchofjesuschrist.org/article/first-presidency-calls-new-leaders-for-11-missionary-training-centers",
-    "https://newsroom.churchofjesuschrist.org/article/bangkok-thailand-mtc",
-    "https://newsroom.churchofjesuschrist.org/article/missionary-training-center-democratic-republic-of-congo"
-   ],
-   "difficulty": 2,
-   "note": "Only the 11 permanent missionary training centers count. Temporary centers do not.",
-   "summary": "As of 2026 the Church has 11 missionary training centers, from Provo in Utah to centers in Mexico, Brazil, Peru, England, Ghana, South Africa, New Zealand and the Philippines. The newest are in Bangkok, Thailand, opened in January 2024, and Kinshasa, Democratic Republic of the Congo, announced in June 2024. In September 2026 the First Presidency called new presidents for all 11.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COD",
-    "THA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Provo MTC."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Brazil MTC."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Mexico MTC."
+     "fact": "Freiberg and Frankfurt."
     },
     {
      "code": "GBR",
      "name": "United Kingdom",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "England MTC."
+     "fact": "London 1958, Preston 1998."
     },
     {
-     "code": "NZL",
-     "name": "New Zealand",
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 3,
      "gem": false,
-     "fact": "New Zealand MTC."
+     "fact": "Madrid, 1999."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paris, 2017."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Rome, 2019."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Stockholm, 1985."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Copenhagen, 2004."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Hague, 2002."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lisbon, 2019."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Helsinki, 2006."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Kyiv, 2010."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-04-latam-1940s-50s",
+   "bank": "history2",
+   "display_text": "Pin a Spanish-speaking country that Saints names as reached after Argentina, in the 1940s and 1950s.",
+   "text_original": "Saints vol. 4 ch. 4: after Argentina, the gospel spread to these Spanish-speaking countries in the 1940s and 1950s. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1940s-1950s",
+   "citation": "Saints vol. 4 ch. 4",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/04-the-mission-of-the-church?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Saints volume 4 tells how the Church, after missionaries arrived in Argentina in the 1920s, spread to its Spanish-speaking neighbors. Missionaries entered Uruguay, Guatemala, Costa Rica and El Salvador in the 1940s, and preaching began in Chile, Peru, Honduras, Panama and Paraguay in the 1950s. In 1959 Elder Spencer W. Kimball toured South America to assess the needs of the growing Church there.",
+   "stamp": null,
+   "gems": [
+    "PRY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s; part of the Argentine Mission from 1955."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as opened to preaching in the 1950s."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named as entered by missionaries in the 1940s."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Named as opened to preaching in the 1950s."
+    }
+   ]
+  },
+  {
+   "id": "bible-genesis-cities",
+   "bank": "bible",
+   "display_text": "Pin a present-day country with a city named in Genesis whose site is agreed.",
+   "text_original": "A present-day country with a city named in Genesis whose site is agreed",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 10-46",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
+    "https://en.wikipedia.org/wiki/Heliopolis_(ancient_Egypt)"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Genesis moves across the ancient Near East. Abraham's family set out from Ur, stopped at Haran, and Abraham and Isaac lived around Beersheba. Damascus appears in Abraham's story (Genesis 14:15), Joseph married the daughter of the priest of On in Egypt, and Jacob named Mahanaim and Penuel east of the Jordan (Genesis 32).",
+   "stamp": null,
+   "gems": [
+    "JOR",
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Ur, Babel and Nineveh are all in Iraq."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Joseph married the daughter of the priest of On, Heliopolis (Genesis 41:45)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Beersheba is central to Abraham and Isaac's stories."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Damascus is named in Genesis 14:15 and 15:2."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Haran lies in south-east Turkey."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Hebron (Genesis 23:2) is in the West Bank."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Jacob named Mahanaim and Penuel, east of the Jordan (Genesis 32)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Sidon marks Canaan's border (Genesis 10:19)."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-07-south-america-missions-1963",
+   "bank": "draft",
+   "display_text": "Pin a country that Saints names as covered by the South American missions by 1963.",
+   "text_original": "Saints vol. 4 ch. 7: by 1963 the Church's South American missions covered these countries. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1963",
+   "citation": "Saints vol. 4 ch. 7",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/07-children-of-the-same-god?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "By 1963 the Church's missions in South America covered six countries. Brazil and Argentina had two missions each, Uruguay and Chile had one each, and Peru and Bolivia shared one. The first South American mission had opened in Buenos Aires, Argentina, in 1925.",
+   "stamp": null,
+   "gems": [
+    "BOL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Had two missions; the first South American mission opened in Buenos Aires in 1925."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Had two missions by then."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Had its own mission."
     },
     {
      "code": "PER",
      "name": "Peru",
      "commonness": 3,
      "gem": false,
-     "fact": "Peru MTC."
+     "fact": "Shared one mission with Bolivia."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "URY",
+     "name": "Uruguay",
      "commonness": 3,
      "gem": false,
-     "fact": "Philippines MTC."
+     "fact": "Had its own mission."
     },
     {
-     "code": "GHA",
-     "name": "Ghana",
+     "code": "BOL",
+     "name": "Bolivia",
      "commonness": 2,
-     "gem": false,
-     "fact": "Ghana MTC."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "South Africa MTC."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 1,
      "gem": true,
-     "fact": "Democratic Republic of the Congo MTC, in Kinshasa, announced June 2024."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Thailand MTC, in Bangkok, opened January 2024."
+     "fact": "Shared one mission with Peru."
     }
    ]
   },
   {
-   "id": "saints-v2-10-missions-1852",
-   "bank": "history2",
-   "display_text": "Pin a country that Saints names as getting missionaries called at the August 1852 conference.",
-   "text_original": "Saints vol. 2 ch. 10: at the August 1852 conference, the First Presidency called missionaries to these places. Pin one.",
+   "id": "temples-largest-city-not-capital",
+   "bank": "temples",
+   "display_text": "Pin a country whose largest city is not its capital and gives its name to a dedicated temple (Manhattan counts).",
+   "text_original": "A country whose largest city is not its national capital and whose largest city gives its name to a dedicated temple (as of October 2026). Manhattan counts for New York City.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1852",
-   "citation": "Saints vol. 2 ch. 10",
+   "topic": "temples",
+   "era": "1984-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v2/part-1/10-truth-and-righteousness?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_countries_whose_capital_is_not_their_largest_city"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "At a special conference in Salt Lake City that began August 28, 1852, the First Presidency called 107 men on missions to India, Siam (now Thailand), China, South Africa, Australia, Jamaica, Barbados and other places. Church leaders also used this conference to publicly explain the practice of plural marriage.",
-   "stamp": null,
+   "summary": "Several countries keep their capital in a smaller city while the biggest city hosts a temple: Sydney, São Paulo, Toronto, New York (Manhattan), Johannesburg, Auckland and Abidjan. Lagos and Santa Cruz are also their countries' largest cities, but their temples are still under construction as of October 2026.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "BRB",
-    "JAM",
-    "THA"
+    "CIV"
    ],
    "gem_forced": false,
    "answers": [
     {
      "code": "AUS",
      "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sydney Australia Temple dedicated 1984; capital is Canberra."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil Temple dedicated 1978; capital is Brasília."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Toronto Ontario Temple dedicated 1990; capital is Ottawa."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
      "commonness": 3,
      "gem": false,
-     "fact": "Named among the 1852 mission calls."
+     "fact": "Guayaquil Ecuador Temple dedicated 1999; Guayaquil is the largest city, Quito the capital."
     },
     {
-     "code": "CHN",
-     "name": "China",
-     "commonness": 2,
+     "code": "USA",
+     "name": "United States",
+     "commonness": 3,
      "gem": false,
-     "fact": "Named among the 1852 mission calls."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named among the 1852 mission calls."
+     "fact": "Manhattan New York Temple, in New York City; capital is Washington, D.C."
     },
     {
      "code": "ZAF",
      "name": "South Africa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named among the 1852 mission calls."
-    },
-    {
-     "code": "BRB",
-     "name": "Barbados",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named among the 1852 mission calls."
-    },
-    {
-     "code": "JAM",
-     "name": "Jamaica",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named among the 1852 mission calls."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named as Siam."
-    }
-   ]
-  },
-  {
-   "id": "scripture-translations-1981",
-   "bank": "scripture",
-   "display_text": "Pin a country where Russian, Catalan, Polish, Romanian or Icelandic is an official language.",
-   "text_original": "A country where Russian, Catalan, Polish, Romanian or Icelandic, all first given the Book of Mormon in 1981, is an official language",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "1981",
-   "citation": "Church News translation list",
-   "source_urls": [
-    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
-    "https://www.constituteproject.org/constitution/Kazakhstan_2017",
-    "https://en.wikipedia.org/wiki/Languages_of_Kazakhstan"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In 1981 the Book of Mormon appeared in Russian, Polish, Romanian, Icelandic and Catalan. That was about a decade before missionaries were permitted in Poland and Romania. Russian also serves Belarus, Kazakhstan and Kyrgyzstan, and Romanian serves Moldova.",
-   "stamp": null,
-   "gems": [
-    "BLR",
-    "KAZ",
-    "KGZ",
-    "MDA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 5,
-     "gem": false,
-     "fact": "The Russian Book of Mormon appeared in 1981."
-    },
-    {
-     "code": "POL",
-     "name": "Poland",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Polish Book of Mormon appeared in 1981."
-    },
-    {
-     "code": "ISL",
-     "name": "Iceland",
      "commonness": 3,
      "gem": false,
-     "fact": "The Icelandic Book of Mormon appeared in 1981."
+     "fact": "Johannesburg South Africa Temple dedicated 1985; Pretoria is the executive capital."
     },
     {
-     "code": "ROU",
-     "name": "Romania",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Romanian Book of Mormon appeared in 1981."
-    },
-    {
-     "code": "AND",
-     "name": "Andorra",
+     "code": "NZL",
+     "name": "New Zealand",
      "commonness": 2,
      "gem": false,
-     "fact": "Catalan, translated 1981, is Andorra's only official language."
+     "fact": "Auckland New Zealand Temple dedicated 2025; capital is Wellington."
     },
     {
-     "code": "BLR",
-     "name": "Belarus",
+     "code": "CIV",
+     "name": "Ivory Coast",
      "commonness": 1,
      "gem": true,
-     "fact": "Russian, translated 1981, is co-official in Belarus."
-    },
-    {
-     "code": "KAZ",
-     "name": "Kazakhstan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Russian, translated 1981, is officially used in Kazakhstan's state bodies on equal grounds with Kazakh."
-    },
-    {
-     "code": "KGZ",
-     "name": "Kyrgyzstan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Russian, translated 1981, is an official language of Kyrgyzstan."
-    },
-    {
-     "code": "MDA",
-     "name": "Moldova",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Romanian, translated 1981, is Moldova's official language."
+     "fact": "Abidjan Ivory Coast Temple dedicated 2025; Yamoussoukro is the capital."
     }
    ]
   }

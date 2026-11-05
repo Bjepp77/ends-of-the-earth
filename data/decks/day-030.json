@@ -2,459 +2,405 @@
  "day": 30,
  "prompts": [
   {
-   "id": "temples-groundbreaking-2020",
-   "bank": "temples",
-   "display_text": "Pin a country where ground was broken for a new temple in 2020.",
-   "text_original": "Pin a country where ground was broken for a new temple in 2020.",
+   "id": "nt-matthew-places",
+   "bank": "nt",
+   "display_text": "Pin a country holding a place named in the Gospel of Matthew",
+   "text_original": "A present-day country holding a land, city or region named in the Gospel of Matthew",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2020",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Matthew 1-2; 4; 12; 15; 19-20; 27",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/15?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/nineveh?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/cyrene?lang=eng"
    ],
    "difficulty": 2,
-   "note": null,
-   "summary": "In 2020 ground was broken for 21 temples in 11 countries or territories, the start of construction for each. India's first temple, in Bengaluru, broke ground on 2 December 2020.",
-   "stamp": "as of 26 Oct 2026",
+   "note": "Bethlehem and Jericho are in the West Bank (PSE); players may pin ISR, which is also correct for Jerusalem and Galilee.",
+   "summary": "Matthew ranges well beyond Galilee. The infant Jesus was carried from Bethlehem to Egypt, his fame spread through Syria and Decapolis, and he went to the coasts of Tyre and Sidon and beyond the Jordan. Jesus cited the men of Nineveh, and Simon of Cyrene, from today's Libya, carried his cross.",
+   "stamp": null,
    "gems": [
-    "HND",
-    "IND",
-    "ZWE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Richmond Virginia (11 April 2020); Layton Utah (23 May 2020); Feather River California (18 July 2020); and 6 more."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Brasília Brazil (26 September 2020)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Alabang Philippines (4 June 2020); Davao Philippines (14 November 2020)."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Salta Argentina (4 November 2020); Mendoza Argentina (17 December 2020)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Antofagasta Chile (27 November 2020)."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Cobán Guatemala (14 November 2020)."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Okinawa Japan (5 December 2020)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Auckland New Zealand (13 June 2020)."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
-     "gem": true,
-     "fact": "San Pedro Sula Honduras (5 September 2020)."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Bengaluru India (2 December 2020)."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Harare Zimbabwe (12 December 2020)."
-    }
-   ]
-  },
-  {
-   "id": "temples-announced-no-groundbreaking-asia-pacific",
-   "bank": "temples",
-   "display_text": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
-   "text_original": "Pin an Asian or Pacific country or territory with an announced temple not yet under construction (as of October 2026).",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held. In Asia and the Pacific, the Philippines has the most, five, including Tuguegarao City and Iloilo.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "MNG",
-    "NCL"
+    "LBY"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Brisbane Australia South; Liverpool Australia."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tuguegarao City Philippines; Santiago Philippines; Iloilo Philippines; and 2 more."
-    },
-    {
-     "code": "CHN",
-     "name": "People's Republic of China",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Shanghai People's Republic of China."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Osaka Japan."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Busan Korea."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Savai'i Samoa."
-    },
-    {
-     "code": "ARE",
-     "name": "United Arab Emirates",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Dubai United Arab Emirates."
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jakarta Indonesia."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Uturoa French Polynesia."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Ulaanbaatar Mongolia."
-    },
-    {
-     "code": "NCL",
-     "name": "New Caledonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nouméa New Caledonia."
-    }
-   ]
-  },
-  {
-   "id": "ot-psalm-83-confederacy",
-   "bank": "ot",
-   "display_text": "Pin a country holding the homeland of a people in the Psalm 83 confederacy against Israel, or one it recalls (Midian, Sisera)",
-   "text_original": "A present-day country holding the homeland of a people in the confederacy against Israel in Psalm 83:6-11 (Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines, Tyre, Assur), or a people or place the psalm recalls from earlier victories (Midian, the brook Kison, En-dor)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Psalm 83",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/amalek?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Philistine Gaza is in Palestine; Philistine Ashdod, Ashkelon, Ekron and Gath are in Israel, so both count.",
-   "summary": "Psalm 83, a psalm of Asaph, describes nations that took crafty counsel to cut Israel off: Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines and Tyre, helped by Assur. The psalmist asks the Lord to deal with them as with Midian and with Sisera and Jabin at the brook Kison (Ps 83).",
-   "stamp": null,
-   "gems": [
-    "PSE",
-    "SAU"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "ISR",
+     "name": "Israel",
      "commonness": 5,
      "gem": false,
-     "fact": "Edom, Moab and Ammon are in the confederacy (Ps 83:6-7)."
+     "fact": "Jerusalem, Nazareth and Galilee run through the whole Gospel (Matthew 2:1, 22-23)."
     },
     {
      "code": "EGY",
      "name": "Egypt",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "Amalek is in the confederacy (Ps 83:7); the Bible Dictionary places Amalek in the desert of Paran, the central Sinai."
+     "fact": "Joseph took the young child and Mary into Egypt until Herod died (Matthew 2:14-15)."
     },
     {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
      "gem": false,
-     "fact": "Assur also is joined with them (Ps 83:8)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Philistine Ashdod, Ashkelon, Ekron and Gath lie in Israel (Ps 83:7); Sisera fell at the brook Kison (Ps 83:9)."
+     "fact": "Jesus was born in Bethlehem of Judea and passed through Jericho (Matthew 2:1; 20:29)."
     },
     {
      "code": "LBN",
      "name": "Lebanon",
      "commonness": 3,
      "gem": false,
-     "fact": "The inhabitants of Tyre join the confederacy (Ps 83:7)."
+     "fact": "Jesus departed into the coasts of Tyre and Sidon (Matthew 15:21)."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "His fame went throughout all Syria, and crowds came from Decapolis (Matthew 4:24-25)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 2,
+     "gem": false,
+     "fact": "Jesus named the men of Nineveh, and the genealogy names the carrying away to Babylon (Matthew 12:41; 1:11)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jesus came into the coasts of Judea beyond Jordan, east of the river (Matthew 19:1)."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 1,
      "gem": true,
-     "fact": "The Philistines are in the confederacy; their city Gaza is in the Gaza Strip (Ps 83:7)."
+     "fact": "Simon, who carried the cross, was a man of Cyrene, in eastern Libya (Matthew 27:32)."
+    }
+   ]
+  },
+  {
+   "id": "ot-wives-homelands",
+   "bank": "ot",
+   "display_text": "Pin a country that was home to a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz",
+   "text_original": "A present-day country that was the homeland of a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz: Sarai from Ur, Hagar the Egyptian, Rebekah, Leah and Rachel from Laban's family at Haran, Asenath of On, Zipporah of Midian, Moses' wife from Cush, the Nile land south of Egypt, and Ruth the Moabitess",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 11, 16, 24, 29, 41; Exodus 2; Numbers 12; Ruth 1-4",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ur?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt; modern Ethiopia is not counted.",
+   "summary": "Many founding wives of Israel came from abroad. Sarai left Ur with Abram, Hagar was Egyptian, and Rebekah, Leah and Rachel came from Laban's family at Haran. Joseph married Asenath of On in Egypt, Moses married Zipporah of Midian and an Ethiopian woman, and Ruth the Moabitess became great-grandmother of David.",
+   "stamp": null,
+   "gems": [
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hagar, Abraham's handmaid and wife, was an Egyptian; Joseph married Asenath, daughter of the priest of On (Gen 16:1-3; 41:45)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sarai went out with Abram from Ur of the Chaldees (Gen 11:29-31); BD Ur identifies it with Mugheir near the Persian Gulf."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Boaz married Ruth the Moabitess (Ruth 1:4; 4:10, 13)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Rebekah, Leah and Rachel came from the household of Laban, who lived at Haran (Gen 24:29; 27:43; 29:4-6); Church Bible Map 9 says Rebekah, Rachel, Leah, Bilhah and Zilpah came from the Haran area."
     },
     {
      "code": "SAU",
      "name": "Saudi Arabia",
      "commonness": 2,
+     "gem": false,
+     "fact": "Moses dwelt in the land of Midian and married Zipporah, daughter of its priest (Ex 2:15-21); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
      "gem": true,
-     "fact": "The psalm recalls the Midianites (Ps 83:9); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
+     "fact": "Miriam and Aaron spoke against Moses because of the Ethiopian woman he had married (Num 12:1); Bible Ethiopia was the Nile land south of Egypt."
     }
    ]
   },
   {
-   "id": "global-first-stakes-1995-97",
+   "id": "global-portuguese-official-5k",
    "bank": "global",
-   "display_text": "Pin a country whose very first stake (a group of congregations) was organized 1995-1997 (Northern Ireland counts as UK)",
-   "text_original": "In just three years, 1995 to 1997, the Church organized first stakes in countries as far apart as Ireland, Thailand, Kiribati and Haiti. A country whose very first stake of the Church was organized between 1995 and 1997.",
+   "display_text": "Pin a country where Portuguese is an official language and the Church has more than 5,000 members (end of 2025).",
+   "text_original": "A country where Portuguese is an official language and the Church had more than 5,000 members at the end of 2025 (latest figures as of October 2026).",
    "accepts": "country",
-   "topic": "church growth",
-   "era": "1995-1997",
-   "citation": "Global Histories chronologies (Ireland, Singapore, Thailand, Papua New Guinea, Kiribati, DR Congo, Cote d'Ivoire, Haiti)",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (membership, 31 Dec 2025); Wikipedia country infoboxes (official languages)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/kiribati/ki-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/indonesia?lang=eng"
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/brazil?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/portugal?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cape-verde?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/angola?lang=eng",
+    "https://en.wikipedia.org/wiki/Brazil",
+    "https://en.wikipedia.org/wiki/Portugal",
+    "https://en.wikipedia.org/wiki/Mozambique",
+    "https://en.wikipedia.org/wiki/Cape_Verde",
+    "https://en.wikipedia.org/wiki/Angola"
    ],
-   "difficulty": 3,
-   "note": "Ireland counts: Dublin's 1995 stake was its first. Belfast's 1974 stake is in the United Kingdom.",
-   "summary": "In 1995 the Church organized first stakes in Singapore, Dublin, Bangkok and Port Moresby. Kiribati and Zaire, now DR Congo, followed in 1996, and Cote d'Ivoire and Haiti in 1997, showing how quickly the Church was maturing in Asia, the Pacific, Africa and the Caribbean.",
+   "difficulty": 2,
+   "note": null,
+   "summary": "Portuguese is official in nine countries. Five of them had more than 5,000 Latter-day Saints at the end of 2025: Brazil (over 1.5 million), Portugal, Mozambique, Cape Verde and Angola. Guinea-Bissau, Sao Tome and Principe, Equatorial Guinea and Timor-Leste have no published Church membership of that size.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CIV",
-    "KIR"
+    "AGO"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "IRL",
-     "name": "Ireland",
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "1,573,360 members, the largest Portuguese-speaking membership."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 4,
+     "gem": false,
+     "fact": "50,341 members."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 2,
+     "gem": false,
+     "fact": "16,334 members, four stakes (latest published figure)."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "39,282 members, ten stakes."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "8,779 members, two stakes."
+    }
+   ]
+  },
+  {
+   "id": "scripture-three-languages-one-country",
+   "bank": "scripture",
+   "display_text": "Pin a country where the Book of Mormon has been published, whole or in part, in three or more of its languages.",
+   "text_original": "Some countries have had the Book of Mormon published, whole or in part, in three or more languages spoken within their borders. Pin such a country, as recorded in the Church's country chronologies.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "1830-2026",
+   "citation": "Global Histories chronologies: Philippines, South Africa, Nigeria, India, Micronesia, Guatemala, Bolivia, DR Congo, Switzerland, Belgium, Hawaii, Mexico",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/micronesia/fm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hawaii/hi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Book of Mormon has reached several countries in three or more of their own languages. The Philippines has Tagalog, Cebuano, Pangasinan and Hiligaynon; South Africa has Afrikaans, Zulu, Xhosa and Tswana; Micronesia has Chuukese, Pohnpeian, Yapese and Kosraean. Switzerland and Belgium were covered by the French, German, Italian and Dutch editions of the 1800s.",
+   "stamp": null,
+   "gems": [
+    "FSM"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "English (1830), Hawaiian (1855) and Spanish (1886) editions, among others."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tagalog, Cebuano and Pangasinan (1998), Hiligaynon (2005), plus Waray and Bikolano selections."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 3,
      "gem": false,
-     "fact": "The Dublin Ireland Stake, the first in the Republic of Ireland, was organized March 12, 1995."
+     "fact": "French, German and Italian editions all appeared in 1852."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Efik selections (1984), Igbo (2000) and Yoruba (2007), plus English."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Afrikaans (1972), Zulu (2003), Xhosa (2000) and Tswana (2003), plus English."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "French and German (1852) and Dutch (1890)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spanish (1886), Quechua selections (1981) and Aymara (1986)."
     },
     {
      "code": "COD",
      "name": "DR Congo",
      "commonness": 2,
      "gem": false,
-     "fact": "The Zaire Kinshasa Stake, the first in the country, was organized November 3, 1996."
+     "fact": "French (1852), Lingala (selections 1988, full 2004) and Swahili (2000)."
     },
     {
-     "code": "HTI",
-     "name": "Haiti",
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 2,
      "gem": false,
-     "fact": "The Port-au-Prince Haiti Stake, the first in Haiti, was organized September 21, 1997."
+     "fact": "Spanish (1886), Kaqchikel (1978), Mam (1982-83) and K'ekchi (1983)."
     },
     {
-     "code": "PNG",
-     "name": "Papua New Guinea",
+     "code": "IND",
+     "name": "India",
      "commonness": 2,
      "gem": false,
-     "fact": "The Port Moresby Papua New Guinea Stake was created October 22, 1995, with Vaiba Rome as president."
+     "fact": "Hindi (1982) plus selections in Telugu, Tamil (1982) and Bengali (1985)."
     },
     {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Singapore Stake was organized February 26, 1995, with Leonard Woo as president."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Neal A. Maxwell created the Bangkok Thailand Stake, June 18-19, 1995."
-    },
-    {
-     "code": "CIV",
-     "name": "Cote d'Ivoire",
+     "code": "FSM",
+     "name": "Micronesia",
      "commonness": 1,
      "gem": true,
-     "fact": "The Abidjan Cote d'Ivoire Stake, the country's first, was organized August 17, 1997."
-    },
-    {
-     "code": "KIR",
-     "name": "Kiribati",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder L. Tom Perry organized the Tarawa Kiribati Stake, August 11, 1996."
+     "fact": "Chuukese and Pohnpeian selections (1987), Yapese (2004), Kosraean and Chuukese (2015)."
     }
    ]
   },
   {
-   "id": "bom-women-translators",
-   "bank": "bom",
-   "display_text": "Pin a country or territory whose Church chronology names a woman who translated the Book of Mormon",
-   "text_original": "A country or territory whose Global Histories chronology names a woman as a translator of the Book of Mormon, in whole or in part, into a local language",
-   "accepts": "country_or_territory",
-   "topic": "scripture translation",
-   "era": "1934-2001",
-   "citation": "Global Histories chronologies: Albania, Thailand, Ghana, Bulgaria, Iceland, Guam, Zimbabwe",
+   "id": "temples-first-1950-1980",
+   "bank": "temples",
+   "display_text": "Pin a country whose first temple was dedicated between 1950 and 1980.",
+   "text_original": "A country whose first temple was dedicated between 1950 and 1980.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1955-1980",
+   "citation": "ChurchofJesusChristTemples.org chronology",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
-   "difficulty": 3,
-   "note": "Scoped to the Global Histories chronologies read 27 Oct 2026; women have translated scripture in many other languages too.",
-   "summary": "Local members, many of them women, have carried much of the work of translating the Book of Mormon. Church chronologies name Evangeline Coy for Bulgarian, Srilaksana Suntarahut for Thai, Sveinbjorg Gudmundsdottir for Icelandic, Maria Salas Calvo for CHamoru, Priscilla Sampson-Davis for Fante and two lead translators for Albanian.",
-   "stamp": null,
+   "difficulty": 2,
+   "note": null,
+   "summary": "Between 1950 and 1980 the Church took temples to five new countries: Switzerland (1955), the United Kingdom and New Zealand (1958), Brazil (1978) and Japan (1980). The United States and Canada already had temples; the next wave of first temples began in 1983.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "BGR",
-    "GHA",
-    "GUM",
-    "ISL",
-    "ZWE"
+    "JPN"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "ALB",
-     "name": "Albania",
-     "commonness": 2,
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 5,
      "gem": false,
-     "fact": "Brikena Ribaj and Juventila Sinamati were lead translators of the Albanian edition of 1999."
+     "fact": "Bern Switzerland Temple, 1955."
     },
     {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 2,
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
      "gem": false,
-     "fact": "Srilaksana Suntarahut joined the review committee in 1970 and was principal translator of the 1976 Thai edition."
+     "fact": "London England Temple, 1958."
     },
     {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Evangeline Kokotanova Coy, a convert in the United States, finished the first Bulgarian manuscript in 1934."
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "São Paulo Brazil Temple, 1978."
     },
     {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Priscilla Sampson-Davis began translating hymns into Fante in 1980 and later translated the Book of Mormon."
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamilton New Zealand Temple, 1958."
     },
     {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 1,
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 2,
      "gem": true,
-     "fact": "Maria Salas Calvo translated the CHamoru selections issued in book form in 1989."
-    },
-    {
-     "code": "ISL",
-     "name": "Iceland",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Sveinbjorg Gudmundsdottir and Halldor Hansen translated the Icelandic edition published in 1981."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Dorothy Tembo was on the team whose Shona triple combination, Book of Mormon included, came out in 2007."
+     "fact": "Tokyo Japan Temple, October 1980."
     }
    ]
   }

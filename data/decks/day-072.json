@@ -1,0 +1,315 @@
+{
+ "day": 72,
+ "prompts": [
+  {
+   "id": "place-carthage-jail",
+   "bank": "places",
+   "display_text": "Pin Carthage Jail, where Joseph and Hyrum Smith were killed in 1844.",
+   "text_original": "Drop a pin on Carthage Jail in Illinois, where Joseph and Hyrum Smith were killed on June 27, 1844.",
+   "accepts": "place",
+   "kind": "trail",
+   "place": {
+    "name": "Carthage Jail, Carthage, Illinois",
+    "lat": 40.4152,
+    "lng": -91.1393
+   },
+   "topic": "church history sites",
+   "era": "1844",
+   "citation": "Carthage Jail page, ChurchofJesusChrist.org; Church History Topics, Deaths of Joseph and Hyrum Smith, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/carthage-jail?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/deaths-of-joseph-and-hyrum-smith?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Joseph and Hyrum Smith were held in the Hancock County jail at Carthage on charges stemming from the Nauvoo Expositor affair. On June 27, 1844, a mob with blackened faces stormed the jail and shot both men; John Taylor was badly wounded and Willard Richards escaped unhurt. The Church restored the jail, and D&C 135 records the event.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-two-plus-under-construction",
+   "bank": "sites-temples",
+   "display_text": "Pin a country with at least two temples under construction at once.",
+   "text_original": "A country with two or more temples under construction at the same time (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2020-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Only five countries have two or more temples under construction simultaneously. The United States has 17 and Brazil has 7. The Philippines, Nigeria and Canada each have two or three.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NGA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "7 under construction: Ribeirão Preto Brazil, Londrina Brazil, Natal Brazil, João Pessoa Brazil and 3 more."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "17 under construction: Heber Valley Utah, Teton River Idaho, Austin Texas, Grand Rapids Michigan and 13 more."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "2 under construction: Lethbridge Alberta, Victoria British Columbia."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "3 under construction: Cagayan de Oro Philippines, Tacloban City Philippines, Naga Philippines."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": true,
+     "fact": "2 under construction: Lagos Nigeria, Benin City Nigeria."
+    }
+   ]
+  },
+  {
+   "id": "hc-earthquake-relief-2009-25",
+   "bank": "sites-history",
+   "display_text": "Pin a country hit by a major earthquake since 2009 where the Church and its members gave emergency relief.",
+   "text_original": "A country where the Church delivered relief after a major earthquake between 2009 and 2025.",
+   "accepts": "country",
+   "topic": "humanitarian",
+   "era": "2009-2025",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Earthquakes have repeatedly turned meetinghouses into shelters and members into relief crews: Samoa (2009), Haiti and Chile (2010), Japan (2011), Ecuador (2016), South Korea (2017), Albania (2019) and the Philippines (2025).",
+   "stamp": null,
+   "gems": [
+    "ALB",
+    "KOR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 5,
+     "gem": false,
+     "fact": "After the massive 2010 earthquake, Haitian members supported one another, meetinghouses served as shelters, and a year later the Church was still providing recovery aid and job training."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "After a magnitude 8.8 earthquake struck on February 27, 2010, the Church delivered over 26 tons of food to affected areas."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In the wake of the 2011 magnitude 9.0 Tohoku earthquake and tsunami, the Church distributed 180 tons of emergency supplies."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 2016 Ecuadorian Saints worked with neighbors and civil authorities to provide relief after a devastating earthquake."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In late 2025, after a 6.9-magnitude earthquake followed by twin typhoons, the Church provided emergency relief."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Twenty-two Saints in Samoa died in the 2009 earthquake and tsunami, and members were actively involved in relief."
+    },
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Members delivered food packages and other supplies to residents affected by the earthquake of November 26, 2019."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 2017 volunteers distributed food and mattresses to those affected by the Pohang earthquake."
+    }
+   ]
+  },
+  {
+   "id": "global-europe-five-plus-stakes",
+   "bank": "global",
+   "display_text": "Pin a European country where the Church has 5 or more stakes as of October 2026.",
+   "text_original": "A European country where the Church has 5 or more stakes (as of October 2026, year-end 2025 figures).",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/united-kingdom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/spain?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/germany?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/switzerland?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Only seven European countries have 5 or more stakes: the United Kingdom (41), Spain (17), Germany, France (10), Italy (10), Portugal (8) and Switzerland (5). The Netherlands, Sweden and Finland each have 3 or 4, and most other European countries have 1 or 2 stakes or only districts.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CHE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "41 stakes, the most in Europe."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "14 stakes; 5 missions."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 4,
+     "gem": false,
+     "fact": "17 stakes."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "10 stakes."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "10 stakes."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "8 stakes."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "5 stakes, served from a mission based abroad."
+    }
+   ]
+  },
+  {
+   "id": "bible-esther-lands",
+   "bank": "bible",
+   "display_text": "Pin a present-day country that holds a place or land named in the book of Esther.",
+   "text_original": "A present-day country that holds a place or land named in the book of Esther",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Esther 1:1-2; 2:6",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/shushan?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Esther opens with a king ruling 127 provinces from India to Ethiopia, the Bible's Cush in today's Sudan, and the whole drama plays out at Shushan, the Persian winter capital in today's Iran. Mordecai's family had been carried from Jerusalem to Babylon, so the book quietly touches Israel and Iraq as well.",
+   "stamp": null,
+   "gems": [
+    "IRQ",
+    "SDN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The whole story is set at Shushan the palace, today's Shush in Iran (Esther 1:2)."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Ahasuerus reigned from India even unto Ethiopia (Esther 1:1)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mordecai's family was carried away from Jerusalem (Esther 2:6)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Mordecai's family went into exile with Nebuchadnezzar king of Babylon (Esther 2:6)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Bible's Ethiopia is Cush, the Nile lands south of Egypt that are largely Sudan today."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,351 @@
+{
+ "day": 60,
+ "prompts": [
+  {
+   "id": "place-liberty-jail",
+   "bank": "places",
+   "display_text": "Pin Liberty Jail, where Joseph Smith was held in 1838-39.",
+   "text_original": "Drop a pin on Liberty Jail in Missouri, where Joseph Smith was held through the winter of 1838-39.",
+   "accepts": "place",
+   "kind": "restoration",
+   "place": {
+    "name": "Liberty Jail, Liberty, Missouri",
+    "lat": 39.2485,
+    "lng": -94.4206
+   },
+   "topic": "church history sites",
+   "era": "1838-1839",
+   "citation": "Liberty Jail page, ChurchofJesusChrist.org; Church History historic sites landing page, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/liberty-jail?lang=eng",
+    "https://history.churchofjesuschrist.org/landing/historic-sites?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Joseph Smith and other leaders were held in the Clay County jail in Liberty, Missouri, from December 1, 1838, to April 6, 1839, in cold and miserable conditions. There the Lord comforted Joseph, and parts of the letters he wrote are now Doctrine and Covenants 121 to 123. The Church's visitors' center shows a full-scale model of the jail.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "tc-two-dedications-one-year",
+   "bank": "sites-temples",
+   "display_text": "Pin a country that dedicated two or more new temples in a single year.",
+   "text_original": "A country where two or more new temples were dedicated in the same calendar year (not counting rededications).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1999-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Seven countries have dedicated more than one new temple in a single year. Mexico dedicated eight in 2000 alone, and Canada three in 1999. The Philippines did it most recently with three in 2026 (Alabang, Davao and Bacolod).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ARG",
+    "AUS",
+    "CAN",
+    "PHL"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "2 in 2000; 2 in 2022."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "8 in 2000."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "8 in 2024; 4 in 2025; 9 in 2026."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": true,
+     "fact": "2 in 2024."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": true,
+     "fact": "2 in 2000."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": true,
+     "fact": "3 in 1999."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": true,
+     "fact": "3 in 2026."
+    }
+   ]
+  },
+  {
+   "id": "tc-latam-five-plus-any-stage",
+   "bank": "sites-temples",
+   "display_text": "Pin a Latin American country with five or more temples on the books, counting every stage.",
+   "text_original": "A Latin American country with five or more temples counting dedicated, under construction and announced (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Six Latin American countries have at least five temples when every stage is counted. Mexico has 27 and Brazil 24. Peru has 10, Argentina 7, and Chile and Guatemala 6 each. Colombia is next with 4.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "GTM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "24 in all: 12 dedicated, 7 under construction, 5 announced."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "27 in all: 15 dedicated, 2 under construction, 10 announced."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "7 in all: 5 dedicated, 0 under construction, 2 announced."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "6 in all: 3 dedicated, 1 under construction, 2 announced."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "10 in all: 4 dedicated, 1 under construction, 5 announced."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": true,
+     "fact": "6 in all: 4 dedicated, 1 under construction, 1 announced."
+    }
+   ]
+  },
+  {
+   "id": "hc-area-conferences-1976-80",
+   "bank": "sites-history",
+   "display_text": "Pin a country where President Spencer W. Kimball presided over an area conference in 1976, 1977 or 1978.",
+   "text_original": "A country where President Spencer W. Kimball presided at an area conference between 1976 and 1978.",
+   "accepts": "country",
+   "topic": "leaders",
+   "era": "1976-1978",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "After the big 1971-75 area conferences, President Kimball kept traveling: Sydney, Suva and Glasgow in 1976, Helsinki and Paris that summer, Santiago and Bogota in 1977, then Montevideo and Johannesburg in 1978.",
+   "stamp": null,
+   "gems": [
+    "COL",
+    "FIN",
+    "FJI",
+    "FRA",
+    "URY",
+    "ZAF"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In February 1976 President Kimball presided at a South Pacific area conference in Sydney with nine other General Authorities."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "On March 1, 1977, President Kimball presided at an area conference in Santiago with 6,800 members attending."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In June 1976 President Kimball presided at an area conference in Glasgow's Apollo Theater with about 2,000 members."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In March 1977 President Kimball spoke to Saints gathered for an area conference in Bogota."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In August 1976 some 3,000 Saints gathered in Helsinki to hear President Kimball at their area conference."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 3,
+     "gem": true,
+     "fact": "On February 23, 1976, President Kimball presided over the first Fiji Area General Conference in Suva."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1976 about 60 Saints from Lisbon chartered a bus to an area conference in Paris to see President Kimball."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In October 1978 an area conference presided over by President Kimball was held in Montevideo."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In October 1978 President Kimball spoke to an estimated 3,400 members and friends at an area conference in Johannesburg."
+    }
+   ]
+  },
+  {
+   "id": "bible-judges-lands",
+   "bank": "bible",
+   "display_text": "Pin a country that holds a place or a people's homeland named in the book of Judges.",
+   "text_original": "A present-day country that holds a place or homeland named in the book of Judges",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Judges 3:3, 13; 6:1-8; 10:6; 11; 18:28; 21:19; Church Bible Map 9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Judges ranges well beyond Israel. Ehud killed Eglon of Moab and Jephthah fought Ammon, both in today's Jordan, while Israel served the gods of Syria (Judges 10:6). Gideon's Midianites came from northwest Arabia, and the Danites destroyed Laish in the far north near Sidon (Judges 18:28).",
+   "stamp": null,
+   "gems": [
+    "SAU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Deborah judged near Bethel and Ramah, Gideon camped by the well of Harod, and Samson lived in Zorah (Judges 4:5; 7:1; 13:2)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Abimelech's story is set at Shechem, the tabernacle stood at Shiloh, and Eglon took Jericho, the city of palm trees (Judges 9; 21:19; 3:13)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jephthah fought Ammon from Gilead, and Ehud killed Eglon king of Moab (Judges 11; 3:12-30)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 2,
+     "gem": false,
+     "fact": "A prophet reminded Israel that the Lord brought them up from Egypt (Judges 6:8)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Laish, which Dan destroyed, was far from Zidon, and the Hivites dwelt in mount Lebanon (Judges 18:28; 3:3)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Israel served the gods of Syria among others (Judges 10:6)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Gideon fought the Midianites (Judges 6-8); Church Bible Map 9 plots Midian east of the Gulf of Aqaba, in northwest Arabia today."
+    }
+   ]
+  }
+ ]
+}

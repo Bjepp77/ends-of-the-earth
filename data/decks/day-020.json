@@ -2,24 +2,26 @@
  "day": 20,
  "prompts": [
   {
-   "id": "history-temples-dedicated-1985-86",
+   "id": "history-temples-dedicated-2022-23",
    "bank": "history2",
-   "display_text": "Pin a country where a new temple was dedicated in 1985 or 1986 (not rededications).",
-   "text_original": "A country where a new temple was dedicated in 1985 or 1986 (not counting rededications).",
-   "accepts": "country",
+   "display_text": "Pin a country or territory where a new temple was dedicated in 2022 or 2023 (not rededications).",
+   "text_original": "A country or territory where a new temple was dedicated in 2022 or 2023 (not counting rededications).",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "1985-1986",
+   "era": "2022-2023",
    "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates) and the Church temple list, read 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.thechurchnews.com/temples/2023/12/30/24010574/temples-in-2023-part-2-dedications-most-in-more-than-20-years/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "In 1985 Gordon B. Hinckley dedicated temples at Freiberg Germany, Stockholm Sweden, Johannesburg South Africa and Seoul Korea. In 1986 South America gained temples at Buenos Aires and Lima. Saints vol. 4 tells of Betty Campi of Argentina, who held a temple recommend while she waited for a temple in her own country.",
+   "summary": "In 2022 and 2023 temples reached several lands for the first time. Yigo Guam and Praia Cape Verde (2022) and San Juan Puerto Rico and Bangkok Thailand (2023) were each the first in their lands. Brazil added Rio de Janeiro, Belém and Brasília, and Quito Ecuador and Okinawa Japan were also dedicated.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "KOR"
+    "CPV",
+    "GUM"
    ],
    "gem_forced": false,
    "answers": [
@@ -28,413 +30,348 @@
      "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Chicago Illinois (1985); Denver Colorado (1986)."
+     "fact": "Moses Lake Washington, McAllen Texas, Bentonville Arkansas and 4 more (2023)."
     },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Buenos Aires Argentina (1986)."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Freiberg Germany (1985)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lima Peru (1986)."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Stockholm Sweden (1985)."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Johannesburg South Africa (1985)."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Seoul Korea (1985)."
-    }
-   ]
-  },
-  {
-   "id": "history-dedicator-hinckley-europe-africa",
-   "bank": "history2",
-   "display_text": "Pin a country in Europe or Africa with a temple standing today that Gordon B. Hinckley dedicated or rededicated.",
-   "text_original": "Pin a country in Europe or Africa where Gordon B. Hinckley dedicated or rededicated a temple now in use (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1983-2008",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Gordon B. Hinckley dedicated temples across Europe and Africa from the 1980s to the 2000s. They include Freiberg Germany, Stockholm Sweden and Johannesburg South Africa (1985), Preston England (1998), Madrid Spain (1999), The Hague (2002), Copenhagen and Accra Ghana (2004), Aba Nigeria (2005) and Helsinki Finland (2006). He also rededicated London and Bern in 1992.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "FIN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "London England (rededicated 1992); Preston England (1998)."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Freiberg Germany (1985); Freiberg Germany (rededicated 2002)."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Johannesburg South Africa (1985)."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Bern Switzerland (rededicated 1992)."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Copenhagen Denmark (2004)."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Madrid Spain (1999)."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Accra Ghana (2004)."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Aba Nigeria (2005)."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Hague Netherlands (2002)."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Stockholm Sweden (1985)."
-    },
-    {
-     "code": "FIN",
-     "name": "Finland",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Helsinki Finland (2006)."
-    }
-   ]
-  },
-  {
-   "id": "bible-empires-at-war",
-   "bank": "bible",
-   "display_text": "Pin a present-day country where a king of Assyria, Babylon or Egypt ruled or fought, in the Old Testament.",
-   "text_original": "A present-day country where a king of Assyria, Babylon or Egypt ruled or fought, in the Old Testament",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "2 Kings 16; 18; 23-25; Isaiah 10; Jeremiah 34; 46; Ezekiel 26; Nahum 3",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/10?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/nahum/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/46?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/34?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/26?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/47?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "In the later Old Testament period, Assyria, Babylon and Egypt fought over the lands around Israel. Sennacherib of Assyria besieged Lachish, Pharaoh Necho killed King Josiah at Megiddo, and Nebuchadnezzar of Babylon defeated Necho at Carchemish (Jeremiah 46:2). Nebuchadnezzar also laid a long siege to Tyre and judged King Zedekiah of Judah at Riblah in Syria (2 Kings 25:6).",
-   "stamp": null,
-   "gems": [
-    "PSE",
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Nebuchadnezzar ruled from Babylon (Daniel 4:30)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Sennacherib besieged Lachish, and Necho killed Josiah at Megiddo (2 Kings 18:14; 23:29)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Necho was king of Egypt, and Nahum recalls Assyria's sack of No-Amon, Egyptian Thebes (Nahum 3:8)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Ezekiel describes Nebuchadnezzar's long siege of Tyre (Ezekiel 26:7; 29:18)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Tiglath-pileser took Damascus, and Nebuchadnezzar judged Zedekiah at Riblah (2 Kings 16:9; 25:6)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Jeremiah's oracle against the Philistines came before Pharaoh smote Gaza (Jeremiah 47:1)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nebuchadnezzar beat Necho at Carchemish, on the Turkish side of the border (Jeremiah 46:2; Isaiah 10:9)."
-    }
-   ]
-  },
-  {
-   "id": "bible-acts-women",
-   "bank": "bible",
-   "display_text": "Pin a present-day country with a place where a woman named in Acts lived.",
-   "text_original": "A present-day country with a place where a woman named in Acts lived",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Acts 8; 9; 16-18; 21",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
-   "summary": "Acts names several women in the early Church. Tabitha lived at Joppa, Lydia, who came from Thyatira, hosted Paul at Philippi, and Damaris believed at Athens. Priscilla and her husband Aquila had left Rome when Claudius expelled the Jews (Acts 18:2) and later lived at Ephesus.",
-   "stamp": null,
-   "gems": [
-    "SDN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Lydia hosted Paul at Philippi; Damaris lived at Athens."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tabitha lived at Joppa (Acts 9:36)."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Priscilla and Aquila had lived in Rome until Claudius expelled the Jews (Acts 18:2)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lydia came from Thyatira; Priscilla later lived at Ephesus."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Queen Candace ruled Kush from Meroe (Acts 8:27)."
-    }
-   ]
-  },
-  {
-   "id": "scripture-translations-1933-1954",
-   "bank": "scripture",
-   "display_text": "Pin a country where Czech, Portuguese, Tongan, Norwegian or Finnish is an official language.",
-   "text_original": "A country where Czech, Portuguese, Tongan, Norwegian or Finnish (Book of Mormon translations 1933-1954) is an official language",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "1933-1954",
-   "citation": "Church News translation list",
-   "source_urls": [
-    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "From 1933 to 1954 the Book of Mormon came out in Czech (1933), Portuguese (1939), Tongan (1946), Norwegian (1950) and Finnish (1954). Norwegian got its own edition a century after Danish. Portuguese opened the book to Brazil, Portugal and several African nations.",
-   "stamp": null,
-   "gems": [
-    "CPV",
-    "GNB",
-    "GNQ",
-    "STP",
-    "TLS"
-   ],
-   "gem_forced": false,
-   "answers": [
     {
      "code": "BRA",
      "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Portuguese, translated 1939, is Brazil's official language."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Portuguese, translated 1939, is Portugal's national language."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
      "commonness": 4,
      "gem": false,
-     "fact": "The Tongan Book of Mormon appeared in 1946."
+     "fact": "Rio de Janeiro Brazil and Belém Brazil (2022); Brasília Brazil (2023)."
     },
     {
-     "code": "CZE",
-     "name": "Czechia",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 3,
      "gem": false,
-     "fact": "The Czech Book of Mormon appeared in 1933."
+     "fact": "Okinawa Japan (2023)."
     },
     {
-     "code": "FIN",
-     "name": "Finland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Finnish Book of Mormon appeared in 1954."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Norwegian got its own Book of Mormon in 1950, a century after Danish."
-    },
-    {
-     "code": "AGO",
-     "name": "Angola",
+     "code": "ECU",
+     "name": "Ecuador",
      "commonness": 2,
      "gem": false,
-     "fact": "Portuguese, translated 1939, is Angola's official language."
+     "fact": "Quito Ecuador (2022)."
     },
     {
-     "code": "MOZ",
-     "name": "Mozambique",
+     "code": "PRI",
+     "name": "Puerto Rico",
      "commonness": 2,
      "gem": false,
-     "fact": "Portuguese, translated 1939, is Mozambique's official language."
+     "fact": "San Juan Puerto Rico (2023)."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Bangkok Thailand (2023)."
     },
     {
      "code": "CPV",
      "name": "Cape Verde",
      "commonness": 1,
      "gem": true,
-     "fact": "Portuguese, translated 1939, is Cape Verde's official language."
+     "fact": "Praia Cape Verde (2022)."
     },
     {
-     "code": "GNB",
-     "name": "Guinea-Bissau",
+     "code": "GUM",
+     "name": "Guam",
      "commonness": 1,
      "gem": true,
-     "fact": "Portuguese, translated 1939, is Guinea-Bissau's official language."
+     "fact": "Yigo Guam (2022)."
+    }
+   ]
+  },
+  {
+   "id": "scripture-west-central-asia-languages",
+   "bank": "scripture",
+   "display_text": "Pin a country where Turkish, Armenian, Persian, Georgian or Mongolian is official.",
+   "text_original": "A country where Turkish, Armenian, Persian, Georgian or Mongolian, each with a Book of Mormon edition, is official",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1906-2019",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://en.wikipedia.org/wiki/Eastern_Armenian",
+    "https://en.wikipedia.org/wiki/Dari"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "A Turkish Book of Mormon appeared as early as 1906. Armenian followed in 1937 (Western) and 2000 (Eastern), Mongolian in 2001, the full Persian text in 2015 and Georgian in 2019. Persian also serves Afghanistan, where its Dari variety is an official language.",
+   "stamp": null,
+   "gems": [
+    "AFG",
+    "CYP"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Western Armenian came in 1937 and Eastern Armenian, the standard spoken in Armenia, in 2000."
     },
     {
-     "code": "GNQ",
-     "name": "Equatorial Guinea",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Portuguese, translated 1939, is one of its official languages."
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "A Turkish Book of Mormon appeared in 1906."
     },
     {
-     "code": "STP",
-     "name": "Sao Tome and Principe",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Portuguese, translated 1939, is the official language there."
+     "code": "GEO",
+     "name": "Georgia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Georgian Book of Mormon appeared in 2019."
     },
     {
-     "code": "TLS",
-     "name": "Timor-Leste",
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Persian selections came in 1983 and the full text in 2015."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Mongolian Book of Mormon appeared in 2001."
+    },
+    {
+     "code": "AFG",
+     "name": "Afghanistan",
      "commonness": 1,
      "gem": true,
-     "fact": "Portuguese, translated 1939, is co-official with Tetum."
+     "fact": "Dari, Afghanistan's variety of Persian (full Book of Mormon 2015), is an official language."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Turkish, translated 1906, is one of Cyprus's official languages."
+    }
+   ]
+  },
+  {
+   "id": "membership-europe-40k",
+   "bank": "draft",
+   "display_text": "Pin a European country with 40,000+ Church members (end of 2025).",
+   "text_original": "Pin a European country with 40,000 or more Church members (end of 2025).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "newsroom country pages, 31 Dec 2025",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-kingdom",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/spain",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/portugal",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/germany",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/france",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/italy"
+   ],
+   "difficulty": 3,
+   "note": "Next below the line: Italy (about 30,000).",
+   "summary": "The United Kingdom had the most Church members in Europe at the end of 2025, about 190,000. Spain (about 72,000), Portugal (about 50,000), Germany (about 42,000) and France (about 40,500) followed.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "About 190,000 members."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 42,000 members."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 72,000 members."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 40,500 members, just over the line."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 2,
+     "gem": true,
+     "fact": "About 50,000 members."
+    }
+   ]
+  },
+  {
+   "id": "saints-v3-26-evacuation-order-1939",
+   "bank": "draft",
+   "display_text": "Pin a country that lost one of the 5 missions emptied by the August 24, 1939 evacuation order, or was one of its 4 named refuges.",
+   "text_original": "Saints vol. 3 ch. 26: on August 24, 1939, the First Presidency ordered missionaries out of five European missions and into the nearest neutral country. Pin a country named in that order, as a mission left or a refuge.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1939",
+   "citation": "Saints vol. 3 ch. 26; Saints vol. 3 ch. 15",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-3/26-wars-foul-brood?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/saints-v3/part-2/15-no-greater-reward?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "On August 24, 1939, as war threatened Europe, the First Presidency ordered missionaries out of the West German, East German, British, French and Czechoslovak Missions. They were sent to nearby neutral countries such as Denmark, Sweden, Norway and the Netherlands. Norman Seibold searched Germany for missing elders and brought the last of them to Copenhagen.",
+   "stamp": null,
+   "gems": [
+    "CZE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The West German and East German Missions were evacuated; Norman Seibold searched Germany for missing elders."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The British Mission was on the evacuation list."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Neutral refuge; Seibold brought the last German-mission elders to Copenhagen. In 1923 Reed Smoot had petitioned Denmark to readmit missionaries (ch. 15)."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The French Mission was on the evacuation list."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Neutral refuge in 1939. In 1923 Reed Smoot had petitioned Sweden to readmit missionaries (ch. 15)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Neutral refuge, though it soon barred noncitizens from entering."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Neutral refuge in 1939. In 1923 Reed Smoot met the king of Norway to seek missionaries' return (ch. 15)."
+    },
+    {
+     "code": "CZE",
+     "name": "Czechia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Czechoslovak Mission was on the evacuation list."
+    }
+   ]
+  },
+  {
+   "id": "bible-rivers-beyond-jordan",
+   "bank": "bible",
+   "display_text": "Pin a present-day country where a river or brook named in the Bible flows, the Jordan, Euphrates and Nile aside.",
+   "text_original": "A present-day country where a river or brook named in the Bible flows, the Jordan, Euphrates and Nile aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old and New Testament",
+   "citation": "Genesis 2:14; 2 Kings 5:12; 2 Kings 17:6; Numbers 21:13, 24; Judges 5:21; Daniel 8:2; Ezekiel 1:1; John 18:1",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hiddekel?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/kidron?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Beyond the Jordan, Euphrates and Nile, the Bible names many smaller rivers. The Tigris (Hiddekel) rises in Turkey and runs through Iraq, where Ezekiel saw visions by the Chebar. Naaman boasted of the Abana and Pharpar at Damascus, Israel crossed the Arnon and Jabbok in Jordan, Sisera's army drowned in the Kishon, and Daniel stood by the Ulai in Shushan.",
+   "stamp": null,
+   "gems": [
+    "IRN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hiddekel, the Tigris of Genesis 2:14, and the river Chebar of Ezekiel 1:1 run through Iraq."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Naaman's rivers Abana and Pharpar flow at Damascus, and the Habor of 2 Kings 17:6 is the Khabur."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The river Kishon, where Sisera's army was swept away, drains the Jezreel Valley (Judges 5:21), and Jesus crossed the brook Cedron at Jerusalem (John 18:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Arnon and the Jabbok of Numbers 21:13, 24 are Jordanian rivers today."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Tigris (Hiddekel) rises in the mountains of eastern Turkey (Genesis 2:14)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Daniel saw his vision by the river Ulai at Shushan (Daniel 8:2)."
     }
    ]
   }

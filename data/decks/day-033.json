@@ -2,177 +2,6 @@
  "day": 33,
  "prompts": [
   {
-   "id": "temples-rededicated-2010-18",
-   "bank": "temples",
-   "display_text": "Pin a country where a temple was rededicated after renovation from 2010 through 2018.",
-   "text_original": "Pin a country where a temple was rededicated after renovation from 2010 through 2018.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2010-2018",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "From 2010 through 2018 temples were rededicated in Buenos Aires (2012), Mexico City (2015), Montreal (2015), Freiberg (2016) and Suva (2016), plus seven in the United States. Freiberg, built in East Germany in 1985, was rededicated twice after expansions.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "FJI"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Atlanta Georgia, 2011; Boise Idaho, 2012; Houston Texas, 2018; and 4 more."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Mexico City Mexico, 2015."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Buenos Aires Argentina, 2012."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Montreal Quebec, 2015."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Freiberg Germany, 2016."
-    },
-    {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Suva Fiji, 2016."
-    }
-   ]
-  },
-  {
-   "id": "temples-one-plus-coming-elsewhere",
-   "bank": "temples",
-   "display_text": "Pin a country or territory outside the Americas with one dedicated temple and more announced or being built (as of October 2026).",
-   "text_original": "Pin a country or territory outside the Americas with one dedicated temple and another announced or under construction (as of October 2026).",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "1955-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "These countries each have one dedicated temple and at least one more temple announced or under construction as of October 2026.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COD",
-    "PRT",
-    "PYF",
-    "TWN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Barcelona Spain Temple under construction or announced; Madrid Spain Temple dedicated (19 March 1999)."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Kumasi Ghana Temple under construction or announced; Cape Coast Ghana Temple under construction or announced; Accra Ghana Temple dedicated (11 January 2004)."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Milan Italy Temple under construction or announced; Rome Italy Temple dedicated (10 March 2019)."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Busan Korea Temple under construction or announced; Seoul Korea Temple dedicated (14 December 1985)."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lagos Nigeria Temple under construction or announced; Benin City Nigeria Temple under construction or announced; Eket Nigeria Temple under construction or announced; and 4 more."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Neiafu Tonga Temple under construction or announced; Nuku'alofa Tonga Temple dedicated (9 August 1983)."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Savai'i Samoa Temple under construction or announced; Apia Samoa Temple dedicated (5 August 1983)."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Lubumbashi Democratic Republic of the Congo Temple under construction or announced; Kananga Democratic Republic of the Congo Temple under construction or announced; Mbuji-Mayi Democratic Republic of the Congo Temple under construction or announced; and 1 more."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Porto Portugal Temple under construction or announced; Lisbon Portugal Temple dedicated (15 September 2019)."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Uturoa French Polynesia Temple under construction or announced; Papeete Tahiti Temple dedicated (27 October 1983)."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Kaohsiung Taiwan Temple under construction or announced; Taipei Taiwan Temple dedicated (17 November 1984)."
-    }
-   ]
-  },
-  {
    "id": "pioneer-pacific-preaching-before-1900",
    "bank": "pioneer",
    "display_text": "Pin an Oceania country or territory (Hawaii counts as USA) where Latter-day Saint missionaries preached before 1900.",
@@ -433,6 +262,149 @@
      "commonness": 2,
      "gem": true,
      "fact": "Named; servicemember groups met there during the Vietnam War."
+    }
+   ]
+  },
+  {
+   "id": "temples-single-land-neighbour",
+   "bank": "temples",
+   "display_text": "Pin a country with exactly one land neighbour (Hans Island aside) and a dedicated temple (as of October 2026).",
+   "text_original": "A country with a land border with exactly one other country, leaving aside Hans Island (split between Canada and Greenland in 2022), and at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_number_of_land_borders"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Seven countries with a single land neighbour have a dedicated temple: Canada, the United Kingdom, South Korea, Denmark, Portugal, the Dominican Republic and Haiti. Ireland and Papua New Guinea also have one neighbour each but their temples are still announced or under construction. Island nations with no land border do not count.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "DOM",
+    "HTI"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Borders only the United States, apart from Hans Island shared with Greenland since 2022; nine dedicated temples."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Land border only with Ireland; London and Preston temples."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Denmark proper borders only Germany (Greenland meets Canada on Hans Island); Copenhagen temple 2004."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Borders only North Korea; Seoul Korea Temple 1985."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Borders only Spain; Lisbon Portugal Temple 2019."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Borders only Haiti; Santo Domingo temple 2000."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Borders only the Dominican Republic; Port-au-Prince temple 2019."
+    }
+   ]
+  },
+  {
+   "id": "bible-valleys-and-plains",
+   "bank": "bible",
+   "display_text": "Pin a country that holds a valley or a plain named in the Bible.",
+   "text_original": "A present-day country that holds a valley or plain named in the Bible",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 11:2; Numbers 13:23; 21:12; 22:1; Joshua 7:24; 11:17; 1 Samuel 17:2; Hosea 1:5; Jeremiah 7:31; Isaiah 35:2; Daniel 3:1",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/35?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Valleys and plains frame the Bible's stories. Israel's own land holds Jezreel, Elah where David fought Goliath, Hinnom beside Jerusalem and the plain of Sharon. Across the Jordan lie the plains of Moab where Israel camped before crossing (Numbers 22:1), in Iraq the plain of Shinar and the plain of Dura, and in Lebanon the valley under Hermon that Joshua reached (Joshua 11:17).",
+   "stamp": null,
+   "gems": [
+    "LBN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The valley of Jezreel, the valley of Elah, the valley of Hinnom and the plain of Sharon are all in Israel (Hosea 1:5; 1 Samuel 17:2; Jeremiah 7:31; Isaiah 35:2)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Babel rose on a plain in the land of Shinar, and Nebuchadnezzar set his image in the plain of Dura (Genesis 11:2; Daniel 3:1)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Israel camped in the plains of Moab and crossed the valley of Zered (Numbers 22:1; 21:12)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Achan was stoned in the valley of Achor near Jericho, and the spies' grapes came from the valley of Eshcol by Hebron (Joshua 7:24; Numbers 13:23)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Joshua's conquest reached the valley of Lebanon under Mount Hermon, the Beqaa (Joshua 11:17)."
     }
    ]
   }

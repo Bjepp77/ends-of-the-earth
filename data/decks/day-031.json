@@ -2,267 +2,96 @@
  "day": 31,
  "prompts": [
   {
-   "id": "temples-new-1987-98",
+   "id": "temples-second-dedicated-1987-2000",
    "bank": "temples",
-   "display_text": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
-   "text_original": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "1987-1998",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Only five countries and territories saw a new temple dedicated from 1987 through 1998: Frankfurt in 1987, Toronto in 1990, Hong Kong in 1996 and Preston, England, in 1998, plus nine in the United States. The wave of smaller temples began with Monticello, Utah, in 1998.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "HKG"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Bountiful Utah, 1995; Las Vegas Nevada, 1989; Monticello Utah, 1998; and 6 more."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Toronto Ontario, 1990."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Frankfurt Germany, 1987."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Preston England, 1998."
-    },
-    {
-     "code": "HKG",
-     "name": "Hong Kong",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Hong Kong China, 1996."
-    }
-   ]
-  },
-  {
-   "id": "temples-groundbreaking-2025-outside-americas",
-   "bank": "temples",
-   "display_text": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
-   "text_original": "Pin a country outside the Americas where ground was broken for a new temple in 2025.",
+   "display_text": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
+   "text_original": "Pin a country whose second dedicated temple was dedicated between 1987 and 2000.",
    "accepts": "country",
    "topic": "temples",
-   "era": "2025",
+   "era": "1987-2000",
    "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://churchofjesuschristtemples.org/statistics/milestones/"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "2025 was a busy year for temple groundbreakings outside the Americas, including first-temple groundbreakings in Belgium, Hungary, Madagascar, Singapore and the Republic of the Congo, and new temples in Ghana, Nigeria, South Africa, England, New Zealand and the Philippines.",
+   "summary": "A country's second temple, counting only temples now in operation, usually means the Church there has outgrown one temple. Germany's second, in Frankfurt, was dedicated on 28 August 1987, the earliest in this set.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "COG",
-    "HUN",
-    "MDG"
+    "JPN"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Adelaide Australia (15 June 2000)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Recife Brazil (15 December 2000)."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Toronto Ontario (25 August 1990)."
+    },
     {
      "code": "GBR",
      "name": "United Kingdom",
      "commonness": 4,
      "gem": false,
-     "fact": "Birmingham England (22 March 2025)."
+     "fact": "Preston England (7 June 1998)."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "MEX",
+     "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Tacloban City Philippines (18 January 2025)."
+     "fact": "Colonia Juárez Chihuahua Mexico (6 March 1999)."
     },
     {
-     "code": "GHA",
-     "name": "Ghana",
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 3,
      "gem": false,
-     "fact": "Kumasi Ghana (18 October 2025)."
+     "fact": "Frankfurt Germany (28 August 1987); Freiberg, dedicated in 1985 in then East Germany, was the first."
     },
     {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lagos Nigeria (10 May 2025); Benin City Nigeria (24 May 2025)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Wellington New Zealand (2 August 2025)."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Cape Town South Africa (25 October 2025)."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 2,
-     "gem": false,
-     "fact": "Brussels Belgium (22 November 2025)."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Singapore (28 June 2025)."
-    },
-    {
-     "code": "COG",
-     "name": "Republic of the Congo",
-     "commonness": 1,
      "gem": true,
-     "fact": "Brazzaville Republic of the Congo (23 August 2025)."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Budapest Hungary (21 June 2025)."
-    },
-    {
-     "code": "MDG",
-     "name": "Madagascar",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Antananarivo Madagascar (15 March 2025)."
+     "fact": "Fukuoka Japan (11 June 2000)."
     }
    ]
   },
   {
-   "id": "people-seventies-born-africa",
-   "bank": "people",
-   "display_text": "Pin an African country where a current General Authority Seventy was born (as of October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Africa. Pin an African country where a current General Authority Seventy was born, according to the Church's official biographies.",
-   "accepts": "country",
-   "topic": "church leadership",
-   "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/adeyinka-a-ojediran?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christian-c-chigbundu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/i-raymond-egbo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/thabo-lebethoa?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/isaac-k-morrison?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alfred-kyungu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/thierry-k-mutombo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/edward-dube?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/d-martin-goury?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/clement-m-matswagothata?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026, seven African nations are birthplaces of current General Authority Seventies, including Nigeria, Ghana, Zimbabwe, the Democratic Republic of the Congo and Botswana. Elder Edward Dube of Zimbabwe serves in the Presidency of the Seventy.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "BWA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elder Isaac K. Morrison, born in Takoradi."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elders Ojediran (Ibadan), Chigbundu (Ahiaba Okpuala) and Egbo (Port Harcourt)."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elder Thabo Lebethoa, born in Soweto."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elders Alfred Kyungu and Thierry K. Mutombo (Kinshasa)."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Edward Dube of the Presidency of the Seventy, born in Chirumhanzu."
-    },
-    {
-     "code": "CIV",
-     "name": "Ivory Coast",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder D. Martin Goury, born in Gagnoa, Cote d'Ivoire."
-    },
-    {
-     "code": "BWA",
-     "name": "Botswana",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Clement M. Matswagothata, born in Middlepits."
-    }
-   ]
-  },
-  {
-   "id": "ot-joel-3-nations",
+   "id": "ot-zechariah-9-burden",
    "bank": "ot",
-   "display_text": "Pin a country holding Tyre, Zidon, Philistia, Egypt or Edom, judged in Joel 3, or Greece, where Judah's children were sold",
-   "text_original": "A present-day country holding a land the Lord calls to account in Joel 3 (Tyre, Zidon, the coasts of Palestine, Egypt, Edom), or Greece, where Judah's children were sold",
+   "display_text": "Pin a country holding a place named in Zechariah 9, from Damascus and Tyre to Gaza and Greece",
+   "text_original": "A present-day country holding a place named in Zechariah 9 (Hadrach, Damascus, Hamath, Tyre, Zidon, the Philistine cities, Greece)",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Joel 3:4-8, 19",
+   "citation": "Zechariah 9:1-13",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/sabeans?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
     "https://www.churchofjesuschrist.org/study/scriptures/bd/greece?lang=eng"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "Joel 3 rebukes Tyre, Zidon and the Philistine coast for selling the children of Judah to the Grecians, and says Judah will in turn sell their children to the Sabeans, an Arab tribe. It also foretells desolation for Egypt and Edom, while Judah and Jerusalem endure forever (Joel 3:19-20).",
+   "summary": "Zechariah 9 opens with a burden on Damascus and Hamath in Syria, on Tyre and Zidon, and on the Philistine cities of Ashkelon, Gaza, Ekron and Ashdod. The same chapter foretells the king coming lowly on an ass and names Greece, by its Hebrew name Javan, as a foe Judah will overcome.",
    "stamp": null,
    "gems": [
     "GRC"
@@ -270,64 +99,147 @@
    "gem_forced": true,
    "answers": [
     {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Egypt shall be a desolation (Joel 3:19)."
-    },
-    {
      "code": "ISR",
      "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "The coasts of Palestine, the Philistine shore, held Ashkelon and Ashdod (Joel 3:4)."
+     "fact": "Ashkelon, Ekron and Ashdod are Philistine cities in Israel (Zechariah 9:5-6)."
     },
     {
      "code": "LBN",
      "name": "Lebanon",
      "commonness": 4,
      "gem": false,
-     "fact": "Tyre and Zidon are rebuked for selling the children of Judah (Joel 3:4)."
+     "fact": "Tyrus and Zidon are named, and Tyre will be devoured with fire (Zechariah 9:2-4)."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 4,
      "gem": false,
-     "fact": "Edom shall be a desolate wilderness (Joel 3:19)."
+     "fact": "The burden falls on Damascus, and Hamath borders it (Zechariah 9:1-2)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
      "commonness": 3,
      "gem": false,
-     "fact": "The Philistine coast of Joel 3:4 also held Gaza, now in the Gaza Strip."
+     "fact": "Gaza shall be very sorrowful (Zechariah 9:5)."
     },
     {
      "code": "GRC",
      "name": "Greece",
      "commonness": 2,
      "gem": true,
-     "fact": "Judah's children were sold unto the Grecians (Joel 3:6)."
+     "fact": "The Lord will raise Zion's sons against thy sons, O Greece (Zechariah 9:13)."
     }
    ]
   },
   {
-   "id": "global-hinckley-1998-travels",
-   "bank": "global",
-   "display_text": "Pin a country outside the United States that Gordon B. Hinckley visited in 1998",
-   "text_original": "In 1998 President Gordon B. Hinckley traveled about 77,000 miles to meet Saints around the world. A country outside the United States that he visited that year.",
+   "id": "temples-two-plus-new-since-2016",
+   "bank": "temples",
+   "display_text": "Pin a country where two or more new temples were dedicated from 2016 through October 2026.",
+   "text_original": "A country where two or more new temples were dedicated from 2016 through October 2026 (rededications not counted).",
    "accepts": "country",
-   "topic": "church leadership",
-   "era": "1998",
-   "citation": "Church News 1998-12-26",
+   "topic": "temples",
+   "era": "2016-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
-    "https://www.thechurchnews.com/1998/12/26/23249519/travels-of-the-prophet-pres-hinckley-traveled-77-000-miles-during-1998"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "Gordon B. Hinckley logged about 77,000 miles in 1998. In February he toured West, East and Southern Africa, announcing a temple in Accra and stopping in Cape Verde and the Canary Islands. He also visited northern Mexico, western Europe including Preston, England, 13 Canadian stops, and in November Nicaragua and Honduras.",
+   "summary": "Since 2016 the countries dedicating two or more new temples are the United States, Brazil, the Philippines, Argentina, Peru, Guatemala, Chile and Japan. Mexico does not qualify: Tijuana was dedicated in December 2015 and Puebla in 2024 is its only new temple since. Canada, Colombia, Ecuador and Honduras each added just one.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CHL",
+    "JPN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Dozens of new temples dedicated 2016-2026."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Fortaleza 2019, Belém and Rio de Janeiro 2022, Brasília 2023, Salvador 2024, Belo Horizonte 2026."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Urdaneta 2024; Alabang, Bacolod and Davao 2026."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mendoza and Salta 2024, Bahía Blanca 2025."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Cobán 2024, Miraflores Guatemala City 2026."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Arequipa 2019, Lima Peru Los Olivos 2024."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Concepción 2018, Antofagasta 2025."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Sapporo 2016, Okinawa 2023."
+    }
+   ]
+  },
+  {
+   "id": "global-west-africa-any-stake",
+   "bank": "global",
+   "display_text": "Pin a West African country where the Church has at least one stake as of October 2026.",
+   "text_original": "A West African country where the Church has at least one stake as of October 2026.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/ghana?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cote-divoire?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/liberia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/togo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/benin?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cape-verde?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/senegal?lang=eng",
+    "https://unstats.un.org/unsd/methodology/m49/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Eight West African countries have stakes: Nigeria (80), Ghana (31), Ivory Coast (23), Sierra Leone (11), Liberia (7), Cape Verde (4), Togo (3) and Benin (2). The work is young in the region's French-speaking Sahel: Senegal, Mali, Guinea and Burkina Faso have only small branches.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
     "CPV"
@@ -335,109 +247,165 @@
    "gem_forced": false,
    "answers": [
     {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Halifax in February, then 12 more stops from 31 July to 8 August."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "In March he visited 10 cities in northern Mexico."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Preston, England, June 7-10."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Geneva, on the June European trip."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Frankfurt, on the June European trip."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Paris, June 4."
-    },
-    {
      "code": "GHA",
      "name": "Ghana",
-     "commonness": 3,
+     "commonness": 5,
      "gem": false,
-     "fact": "In Accra on February 16 he announced a temple for Ghana."
+     "fact": "31 stakes."
     },
     {
      "code": "NGA",
      "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "80 stakes."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 4,
+     "gem": false,
+     "fact": "23 stakes."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
      "commonness": 3,
      "gem": false,
-     "fact": "Port Harcourt, February."
+     "fact": "7 stakes."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
+     "code": "SLE",
+     "name": "Sierra Leone",
      "commonness": 3,
      "gem": false,
-     "fact": "Johannesburg, Durban and Cape Town, February."
+     "fact": "11 stakes."
     },
     {
-     "code": "ESP",
-     "name": "Spain",
+     "code": "BEN",
+     "name": "Benin",
      "commonness": 2,
      "gem": false,
-     "fact": "Las Palmas in the Canary Islands, February 13."
+     "fact": "2 stakes."
     },
     {
-     "code": "HND",
-     "name": "Honduras",
+     "code": "TGO",
+     "name": "Togo",
      "commonness": 2,
      "gem": false,
-     "fact": "San Pedro Sula and Tegucigalpa, November."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Nairobi, February."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Managua, November 19."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Harare, February."
+     "fact": "3 stakes."
     },
     {
      "code": "CPV",
      "name": "Cape Verde",
      "commonness": 1,
      "gem": true,
-     "fact": "Praia, February 22."
+     "fact": "4 stakes."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-west-south-europe-dedications-1966-98",
+   "bank": "pioneer",
+   "display_text": "Pin a Western or Southern European country dedicated or rededicated for the preaching of the gospel between 1966 and 1998.",
+   "text_original": "A Western or Southern European country that a Church leader dedicated or rededicated for the preaching of the gospel between 1966 and 1998.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1966-1998",
+   "citation": "Global Histories chronologies: Italy, Austria, Netherlands, Belgium, Iceland, Ireland, Denmark; Church News (Spain 2009, Greece 1999); Global Histories Portugal overview",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.thechurchnews.com/2009/3/21/23230525/church-in-spain-marks-40-years/",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-overview?lang=eng",
+    "https://www.thechurchnews.com/1999/6/12/23248512/meetinghouse-is-dedicated-first-in-greece"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Southern Europe opened to full-time missionaries in the 1960s and 1970s: Italy was rededicated in 1966, Spain dedicated in 1969, Greece in 1972 and Portugal in 1975. Later apostolic prayers covered Iceland (1977), Ireland (1985), Austria and the Netherlands (1992), and rededications of Belgium and Denmark (1998). Yugoslavia (1985) is not a single modern country.",
+   "stamp": null,
+   "gems": [
+    "DNK",
+    "GRC"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Marion G. Romney dedicated Spain from a hill in Casa de Campo, Madrid, in 1969."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rededicated at Torre Pellice on November 10, 1966, after the Italian Mission was organized."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Thomas S. Monson dedicated Portugal near the Sintra Mountains in 1975."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Howard W. Hunter dedicated Austria from the Kahlenberg above Vienna on September 12, 1992."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Jeffrey R. Holland rededicated Belgium at Tervuren on May 26, 1998."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Neal A. Maxwell dedicated Ireland on October 23, 1985, near the site of the first baptism of 1840."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Joseph B. Wirthlin dedicated Iceland from Oskjuhlid in Reykjavik on September 18, 1977."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "L. Tom Perry dedicated the Netherlands on September 10, 1992."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Thomas S. Monson rededicated Denmark for the preaching of the gospel in 1998."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Gordon B. Hinckley dedicated Greece for the preaching of the gospel in 1972."
     }
    ]
   }

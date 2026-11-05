@@ -1,0 +1,391 @@
+{
+ "day": 67,
+ "prompts": [
+  {
+   "id": "place-mexico-city-temple",
+   "bank": "places",
+   "display_text": "Pin the Mexico City Mexico Temple, the first temple in Mexico.",
+   "text_original": "Drop a pin on the Mexico City Mexico Temple, the first temple in Mexico.",
+   "accepts": "place",
+   "kind": "temple",
+   "place": {
+    "name": "Mexico City Mexico Temple",
+    "lat": 19.4659,
+    "lng": -99.0868
+   },
+   "topic": "temples",
+   "era": "1979-1983",
+   "citation": "ChurchofJesusChristTemples.org and ChurchofJesusChrist.org temple pages, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/details/mexico-city-mexico-temple?lang=eng",
+    "https://churchofjesuschristtemples.org/mexico-city-mexico-temple/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "About 9,000 people attended the groundbreaking in November 1979. President Gordon B. Hinckley dedicated the temple in December 1983, the first in Mexico. Its exterior draws on ancient Mayan designs, and it was rededicated in 2008 and 2015 after renovations.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "temples-eleven-year-wait",
+   "bank": "temples",
+   "display_text": "Pin a country with a temple that was dedicated 11 or more years after it was announced.",
+   "text_original": "Pin a country with a temple that was dedicated 11 or more years after it was announced.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1847-2026",
+   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Most temples are dedicated a few years after they are announced, but some wait more than a decade because of land, permits or unrest. Guayaquil and Bogota were announced in the early 1980s and dedicated in 1999, and Kyiv took 12 years.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COL",
+    "ECU",
+    "UKR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Los Angeles California, announced 1937, dedicated 1956; Manti Utah, announced 1875, dedicated 1888; Salt Lake, announced 1847, dedicated 1893."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Urdaneta Philippines, announced 2010, dedicated 2024."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Bogotá Colombia, announced 1984, dedicated 1999."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Guayaquil Ecuador, announced 1982, dedicated 1999."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Kyiv Ukraine, announced 1998, dedicated 2010."
+    }
+   ]
+  },
+  {
+   "id": "hd-first-branch-outside-europe-pre-1860",
+   "bank": "sites-history",
+   "display_text": "Pin a country outside Europe where a branch of the Church was organized before 1860.",
+   "text_original": "A country outside Europe (and not the United States) where a branch of the Church was organized before 1860.",
+   "accepts": "country",
+   "topic": "branches",
+   "era": "1832-1859",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Hawaii had branches in the 1850s but was an independent kingdom then; it is excluded here to keep the USA off the list.",
+   "summary": "Before 1860 the Church had organized branches on five continents: Upper Canada (1832), Australia (1844), Calcutta (1851), Cape Colony (1853) and New Zealand (1855).",
+   "stamp": null,
+   "gems": [
+    "IND"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 5,
+     "gem": false,
+     "fact": "A small group of believers in Ernestown, Upper Canada, established a branch in 1832."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first branch in Australia was organized at Montefiores in 1844."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Karori Branch became the first branch organized in New Zealand in April 1855."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Mowbray Branch, the first branch in Africa, was organized on August 16, 1853."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": true,
+     "fact": "A branch was organized in Calcutta in 1851; by 1852 it reached over 300 people."
+    }
+   ]
+  },
+  {
+   "id": "global-asia-any-stake",
+   "bank": "global",
+   "display_text": "Pin an Asian country or territory where the Church has at least one stake as of October 2026 (Russia counts as Europe).",
+   "text_original": "An Asian country or territory where the Church has at least one stake (as of October 2026). Russia is counted as Europe.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/japan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mongolia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/bahrain?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-arab-emirates"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Stakes in Asia range from the Philippines, with more than 140, to single stakes in Singapore, Bahrain and the United Arab Emirates. Japan, Taiwan, South Korea, Hong Kong, Thailand, India, Cambodia, Indonesia and Mongolia complete the list. Mainland China, Vietnam, Malaysia and Pakistan have congregations but no stake.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ARE",
+    "BHR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "22 stakes."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "141 stakes, by far the most in Asia."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "12 stakes."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "16 stakes."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "ARE",
+     "name": "United Arab Emirates",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake; about 2,000 members in 6 congregations."
+    },
+    {
+     "code": "BHR",
+     "name": "Bahrain",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake, serving members across the Gulf."
+    }
+   ]
+  },
+  {
+   "id": "bible-products-and-materials",
+   "bank": "bible",
+   "display_text": "Pin a country the Bible names as the source of a product or material, Ophir, Sheba and Tarshish aside.",
+   "text_original": "A present-day country the Bible names as the source of a product or material, Ophir, Sheba and Tarshish aside",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Numbers 13:23; Deuteronomy 34:3; Joshua 7:21; 1 Kings 5:6; 10:28; Job 28:19; Jeremiah 8:22; Ezekiel 27:6-23 (Minnith, Haran)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/josh/7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/job/28?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/27?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/javan?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Bible trade is easy to map. Cedars came from Lebanon, horses and linen from Egypt, balm from Gilead in Jordan, and the spies' grapes from Eshcol near Hebron (Numbers 13:23). Ezekiel 27 lists Tyre's partners: wine of Helbon near Damascus, lambs of Kedar in Arabia, ivory from Chittim, horses from Haran and brass from Javan, the Greeks.",
+   "stamp": null,
+   "gems": [
+    "SDN",
+    "TUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Solomon asked Hiram for cedar trees out of Lebanon for the temple (1 Kings 5:6)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Solomon's horses and linen yarn came out of Egypt (1 Kings 10:28)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Judah traded wheat, honey, oil and balm with Tyre (Ezekiel 27:17)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Jeremiah asked if there was no balm in Gilead, and Judah traded wheat of Minnith, in Ammon, with Tyre (Jeremiah 8:22; Ezekiel 27:17)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The spies cut a cluster of grapes at Eshcol near Hebron, and Jericho was the city of palm trees (Numbers 13:23; Deuteronomy 34:3)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tyre's benches of ivory were brought from the isles of Chittim, the Bible's Cyprus (Ezekiel 27:6)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Javan traded slaves and vessels of brass with Tyre (Ezekiel 27:13)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Achan hid a goodly Babylonish garment under his tent (Joshua 7:21)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Arabia and the princes of Kedar brought lambs, rams and goats (Ezekiel 27:21)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Damascus traded the wine of Helbon and white wool with Tyre (Ezekiel 27:18)."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Job says wisdom cannot be bought with the topaz of Ethiopia, the Nile lands of Cush (Job 28:19)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Haran, in southeastern Turkey today, was among the merchants that traded with Tyre (Ezekiel 27:23)."
+    }
+   ]
+  }
+ ]
+}

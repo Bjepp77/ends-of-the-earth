@@ -2,397 +2,446 @@
  "day": 34,
  "prompts": [
   {
-   "id": "history-dedicator-mckay-kimball-faust",
-   "bank": "history2",
-   "display_text": "Pin a country with a temple standing today that David O. McKay, Spencer W. Kimball or James E. Faust dedicated or rededicated.",
-   "text_original": "A country where David O. McKay, Spencer W. Kimball, or James E. Faust dedicated or rededicated a temple now in use (as of October 2026).",
+   "id": "global-central-america-dedications-1990-92",
+   "bank": "global",
+   "display_text": "Pin a Central American country an Apostle opened to missionaries with a prayer of dedication (or rededication), 1990-1992",
+   "text_original": "Spencer W. Kimball dedicated all of Central America in 1952. Between 1990 and 1992 Apostles returned and dedicated (or, in one case, rededicated) each Central American country individually for the preaching of the gospel. A Central American country dedicated in that period.",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1955-2000",
-   "citation": "ChurchofJesusChristTemples.org chronological list (dedicated-by column), read 26 Oct 2026",
+   "topic": "missionary work",
+   "era": "1990-1992",
+   "citation": "Global Histories chronologies (Central America)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "David O. McKay dedicated Bern Switzerland (1955), London England and Hamilton New Zealand (1958), and Los Angeles and Oakland in the United States. Spencer W. Kimball dedicated Washington D.C. (1974), São Paulo Brazil (1978) and Tokyo Japan (1980). James E. Faust dedicated several temples in 2000, including in Mexico, Costa Rica and the United States.",
-   "stamp": "as of 26 Oct 2026",
+   "summary": "Elder Spencer W. Kimball dedicated Central America as a whole in 1952. In a burst from 1990 to 1992, Russell M. Nelson, Richard G. Scott, Howard W. Hunter, Marvin J. Ashton and Boyd K. Packer offered prayers for each country in turn, so every Central American nation received its own dedication.",
+   "stamp": null,
    "gems": [
-    "CRI"
+    "BLZ"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 4,
      "gem": false,
-     "fact": "McKay: Los Angeles (1956), Oakland (1964). Kimball: Washington D.C. (1974), Seattle (1980), rededications of St. George, Mesa, Laie and Logan. Faust: Medford, Memphis, Nashville, Oklahoma City (2000), Boise rededication (1987)."
+     "fact": "Rededicated by Marvin J. Ashton, October 19, 1991, in Quetzaltenango."
     },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Boyd K. Packer, August 22, 1992."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Russell M. Nelson, June 1, 1991, on El Picacho above Tegucigalpa."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Russell M. Nelson, April 7, 1990, in San Salvador."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Richard G. Scott and Russell M. Nelson, April 9, 1990, in Managua."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Howard W. Hunter, August 24, 1991."
+    },
+    {
+     "code": "BLZ",
+     "name": "Belize",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Russell M. Nelson, June 23, 1991, with about 36 members present."
+    }
+   ]
+  },
+  {
+   "id": "scripture-selections-before-full",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory whose Church chronology records a partial Book of Mormon (selections) in a local language.",
+   "text_original": "In many languages the Church first published only selections from the Book of Mormon, with a complete translation following years or decades later. Pin a country or territory whose Church chronology records Book of Mormon selections in a local language.",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1962-2026",
+   "citation": "Global Histories chronologies: DR Congo, South Africa, Haiti, Cambodia, Marshall Islands, Micronesia, Bolivia, Nigeria, Panama, Philippines, India, South Korea, Guam",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/marshall-islands/mh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/micronesia/fm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "The Church often publishes selections before a full Book of Mormon. Korean readers had 3 Nephi in 1962 before the complete book in 1967; Zulu selections (1987) preceded the full edition by 16 years; Lingala waited from 1988 to 2004. Selections also came in Efik, Guna, Quechua, Telugu, Tamil, Bengali, CHamoru and Philippine languages.",
+   "stamp": null,
+   "gems": [
+    "FSM",
+    "GUM",
+    "PAN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Kaqchikel (1978), K'iche' (1979) and Mam and Yucatec (1982-83) selections were published in Guatemala."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Haitian Creole selections in 1983; complete translation in 1999."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A Korean translation of 3 Nephi was published in 1962, five years before the full book."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "A partial Spanish translation of the Book of Mormon was published in September 1875, eleven years before the full 1886 edition."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Selections from the Book of Mormon were published in Efik in 1984."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Waray-Waray selections (1996) and Bikolano selections (1998)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Zulu selections appeared in 1987; the full Zulu edition came in 2003."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Selections of the Book of Mormon were published in Quechua in 1981."
+    },
+    {
+     "code": "COD",
+     "name": "DR Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Lingala selections in August 1988; the whole book in 2004."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Selected passages in Telugu and Tamil (1982) and Bengali (1985)."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cambodian selections in 1982, first for converts in the United States; full Khmer edition 2001."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Marshallese selections by 1984; full translation 2003."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Chuukese and Pohnpeian selections in 1987; full Chuukese in 2015."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "CHamoru selections, translated by Maria Salas Calvo, appeared in book form in 1989."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Selections of the Book of Mormon were published in Guna in 1981."
+    }
+   ]
+  },
+  {
+   "id": "global-caribbean-central-one-mission-2025",
+   "bank": "global",
+   "display_text": "Pin a country or territory in Central America, the Caribbean or the Guianas with exactly one mission (end of 2025).",
+   "text_original": "A country or territory in Central America, the Caribbean or the Guianas with exactly one mission of the Church at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "missions",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/panama?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/haiti?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/jamaica?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/guyana?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/puerto-rico?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/barbados?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Six places in the region had exactly one mission at the end of 2025: Panama, Haiti, Jamaica, Guyana, Puerto Rico and Barbados. Costa Rica had two, and Trinidad and Tobago, Belize and the Bahamas were served from missions based elsewhere.",
+   "stamp": null,
+   "gems": [
+    "GUY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1 mission, 63,936 members."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1 mission."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 mission, 27,550 members."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1 mission, 7,856 members."
+    },
+    {
+     "code": "BRB",
+     "name": "Barbados",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 mission, 1,082 members."
+    },
+    {
+     "code": "GUY",
+     "name": "Guyana",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 mission, 7,400 members."
+    }
+   ]
+  },
+  {
+   "id": "temples-accent-in-name",
+   "bank": "temples",
+   "display_text": "Pin a country with a dedicated temple whose name carries an accent mark, like São Paulo or Córdoba (as of October 2026).",
+   "text_original": "A country with a dedicated temple (as of October 2026) whose name carries an accent mark, such as São Paulo Brazil or Córdoba Argentina.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (official temple names)",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Official temple names keep local spelling, so accents appear in names like São Paulo, Córdoba, Bogotá, Concepción, Asunción, San José and Cobán. As of October 2026 every dedicated temple with an accent in its name is in Latin America: Brazil, Mexico, Argentina, Colombia, Chile, Paraguay, Costa Rica and Guatemala.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CRI",
+    "GTM",
+    "PRY"
+   ],
+   "gem_forced": true,
+   "answers": [
     {
      "code": "BRA",
      "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "São Paulo (1978), Belém (2022), Brasília (2023)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 4,
      "gem": false,
-     "fact": "Kimball: São Paulo Brazil (1978)."
+     "fact": "Córdoba (2015), Bahía Blanca (2025)."
     },
     {
      "code": "MEX",
      "name": "Mexico",
      "commonness": 4,
      "gem": false,
-     "fact": "Faust: Oaxaca Mexico and Tuxtla Gutiérrez Mexico (2000)."
+     "fact": "Colonia Juárez Chihuahua, Ciudad Juárez, Tuxtla Gutiérrez, Mérida."
     },
     {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "McKay: London England (1958)."
+     "fact": "Concepción Chile Temple (2018)."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 3,
      "gem": false,
-     "fact": "Kimball: Tokyo Japan (1980)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "McKay: Hamilton New Zealand (1958)."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "McKay: Bern Switzerland (1955)."
+     "fact": "Bogotá Colombia Temple (1999)."
     },
     {
      "code": "CRI",
      "name": "Costa Rica",
-     "commonness": 1,
+     "commonness": 2,
      "gem": true,
-     "fact": "Faust: San José Costa Rica (2000)."
+     "fact": "San José Costa Rica Temple (2000)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Cobán Guatemala Temple (2024)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Asunción Paraguay Temple (2002)."
     }
    ]
   },
   {
-   "id": "temples-announced-no-groundbreaking-europe",
-   "bank": "temples",
-   "display_text": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
-   "text_original": "Pin a European country with an announced temple not yet under construction (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "id": "global-pacific-5k-30k",
+   "bank": "global",
+   "display_text": "Pin a Pacific island country or territory where the Church has between 5,000 and 30,000 members (end of 2025).",
+   "text_original": "A Pacific island country or territory where the Church had between 5,000 and 30,000 members at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/fiji?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/kiribati?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/american-samoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/vanuatu?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/marshall-islands?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/micronesia?lang=eng"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held. In Europe, one is announced for Russia with no city yet named.",
+   "summary": "Between the giants (Samoa, Tonga, French Polynesia, Papua New Guinea) and the tiny atolls, six Pacific islands held 5,000 to 30,000 members at the end of 2025: Fiji (24,847), Kiribati (23,585), American Samoa (17,646), Vanuatu (14,042), the Marshall Islands (6,927) and Micronesia (6,241). French Polynesia, at 30,350, was just above the band; Guam (2,768) and New Caledonia (2,585) below it.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "IRL",
-    "NOR",
-    "PRT"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Edinburgh Scotland."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Hamburg Germany."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Milan Italy."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Russia."
-    },
-    {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Dublin Ireland."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Oslo Norway."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Porto Portugal."
-    }
-   ]
-  },
-  {
-   "id": "global-western-europe-first-stakes-1975-82",
-   "bank": "global",
-   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) with its first stake (congregation group) 1975-82",
-   "text_original": "The first European stakes, from 1960 to 1961, were in Britain, the Netherlands, Germany and Switzerland. A second wave followed. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) whose first stake was organized between 1975 and 1982.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1975-1982",
-   "citation": "Global Histories chronologies (continental Western Europe)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "The Netherlands, Germany and Switzerland had stakes from 1961.",
-   "summary": "After the Netherlands, Germany and Switzerland received stakes in 1961, the rest of continental Western Europe waited. Paris got France's first stake in 1975, then Brussels in 1977, Vienna in 1980, Milan and Lisbon in 1981 and Madrid in 1982.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "PRT"
+    "FSM"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "FRA",
-     "name": "France",
+     "code": "FJI",
+     "name": "Fiji",
      "commonness": 4,
      "gem": false,
-     "fact": "France's first stake was organized in Paris, November 16, 1975."
+     "fact": "24,847 members, 1 mission."
     },
     {
-     "code": "ESP",
-     "name": "Spain",
+     "code": "ASM",
+     "name": "American Samoa",
      "commonness": 3,
      "gem": false,
-     "fact": "The Madrid Spain Stake was organized March 14, 1982."
+     "fact": "17,646 members."
     },
     {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Italy's first stake was organized in Milan in 1981."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
+     "code": "KIR",
+     "name": "Kiribati",
      "commonness": 2,
      "gem": false,
-     "fact": "Ezra Taft Benson organized Austria's first stake in Vienna, April 20, 1980."
+     "fact": "23,585 members."
     },
     {
-     "code": "BEL",
-     "name": "Belgium",
+     "code": "MHL",
+     "name": "Marshall Islands",
      "commonness": 2,
      "gem": false,
-     "fact": "The Brussels Belgium Stake was organized February 20, 1977."
+     "fact": "6,927 members, 1 mission."
     },
     {
-     "code": "PRT",
-     "name": "Portugal",
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": false,
+     "fact": "14,042 members, 1 mission."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
      "commonness": 1,
      "gem": true,
-     "fact": "The Lisbon Stake was organized June 10, 1981."
-    }
-   ]
-  },
-  {
-   "id": "nt-matthew-places",
-   "bank": "nt",
-   "display_text": "Pin a country holding a place named in the Gospel of Matthew",
-   "text_original": "A present-day country holding a land, city or region named in the Gospel of Matthew",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "New Testament",
-   "citation": "Matthew 1-2; 4; 12; 15; 19-20; 27",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/15?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/19?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/nineveh?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/cyrene?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Bethlehem and Jericho are in the West Bank (PSE); players may pin ISR, which is also correct for Jerusalem and Galilee.",
-   "summary": "Matthew ranges well beyond Galilee. The infant Jesus was carried from Bethlehem to Egypt, his fame spread through Syria and Decapolis, and he went to the coasts of Tyre and Sidon and beyond the Jordan. Jesus cited the men of Nineveh, and Simon of Cyrene, from today's Libya, carried his cross.",
-   "stamp": null,
-   "gems": [
-    "LBY"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Jerusalem, Nazareth and Galilee run through the whole Gospel (Matthew 2:1, 22-23)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Joseph took the young child and Mary into Egypt until Herod died (Matthew 2:14-15)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Jesus was born in Bethlehem of Judea and passed through Jericho (Matthew 2:1; 20:29)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Jesus departed into the coasts of Tyre and Sidon (Matthew 15:21)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "His fame went throughout all Syria, and crowds came from Decapolis (Matthew 4:24-25)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jesus named the men of Nineveh, and the genealogy names the carrying away to Babylon (Matthew 12:41; 1:11)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jesus came into the coasts of Judea beyond Jordan, east of the river (Matthew 19:1)."
-    },
-    {
-     "code": "LBY",
-     "name": "Libya",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Simon, who carried the cross, was a man of Cyrene, in eastern Libya (Matthew 27:32)."
-    }
-   ]
-  },
-  {
-   "id": "ot-wives-homelands",
-   "bank": "ot",
-   "display_text": "Pin a country that was home to a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz",
-   "text_original": "A present-day country that was the homeland of a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz: Sarai from Ur, Hagar the Egyptian, Rebekah, Leah and Rachel from Laban's family at Haran, Asenath of On, Zipporah of Midian, Moses' wife from Cush, the Nile land south of Egypt, and Ruth the Moabitess",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Genesis 11, 16, 24, 29, 41; Exodus 2; Numbers 12; Ruth 1-4",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ur?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt; modern Ethiopia is not counted.",
-   "summary": "Many founding wives of Israel came from abroad. Sarai left Ur with Abram, Hagar was Egyptian, and Rebekah, Leah and Rachel came from Laban's family at Haran. Joseph married Asenath of On in Egypt, Moses married Zipporah of Midian and an Ethiopian woman, and Ruth the Moabitess became great-grandmother of David.",
-   "stamp": null,
-   "gems": [
-    "SDN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Hagar, Abraham's handmaid and wife, was an Egyptian; Joseph married Asenath, daughter of the priest of On (Gen 16:1-3; 41:45)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sarai went out with Abram from Ur of the Chaldees (Gen 11:29-31); BD Ur identifies it with Mugheir near the Persian Gulf."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Boaz married Ruth the Moabitess (Ruth 1:4; 4:10, 13)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Rebekah, Leah and Rachel came from the household of Laban, who lived at Haran (Gen 24:29; 27:43; 29:4-6); Church Bible Map 9 says Rebekah, Rachel, Leah, Bilhah and Zilpah came from the Haran area."
-    },
-    {
-     "code": "SAU",
-     "name": "Saudi Arabia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Moses dwelt in the land of Midian and married Zipporah, daughter of its priest (Ex 2:15-21); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Miriam and Aaron spoke against Moses because of the Ethiopian woman he had married (Num 12:1); Bible Ethiopia was the Nile land south of Egypt."
+     "fact": "6,241 members."
     }
    ]
   }

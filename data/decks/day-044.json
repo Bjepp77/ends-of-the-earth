@@ -2,145 +2,6 @@
  "day": 44,
  "prompts": [
   {
-   "id": "saints-v4-35-family-services",
-   "bank": "draft",
-   "display_text": "Pin a country that Saints names as having a Church Family Services agency in the 2000s.",
-   "text_original": "Saints vol. 4 ch. 35: LDS Family Services ran agencies in only these countries in the 2000s. Pin one.",
-   "accepts": "country",
-   "topic": "welfare",
-   "era": "2000s",
-   "citation": "Saints vol. 4 ch. 35",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/35-hand-in-hand?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In the 2000s LDS Family Services ran agencies in only six countries: the United States, Canada, Australia, New Zealand, Great Britain and Japan. Japan was the only Asian country on the list.",
-   "stamp": null,
-   "gems": [
-    "JPN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Home base of the agency."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 3,
-     "gem": false,
-     "fact": "One of six countries with agencies."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "One of six countries with agencies."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Listed as Great Britain."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 2,
-     "gem": false,
-     "fact": "One of six countries with agencies."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The only Asian country with an agency."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-born-europe",
-   "bank": "people",
-   "display_text": "Pin a European country where a current General Authority Seventy was born (as of October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Europe. Pin a European country where a current General Authority Seventy was born, according to the Church's official biographies.",
-   "accepts": "country",
-   "topic": "church leadership",
-   "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alan-t-phillips?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/karl-d-hirst?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jorg-klebingat?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-cziesla?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/massimo-de-feo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/christophe-g-giraud-carrier?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hans-t-boom?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-teixeira?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "As of October 2026, six European countries are birthplaces of current General Authority Seventies: the United Kingdom, Germany, Italy, France, the Netherlands and Portugal. Elder Massimo De Feo of Taranto, Italy, and Elder Hans T. Boom of Amsterdam are among them.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "NLD",
-    "PRT"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elders Jorg Klebingat (Zweibrucken) and Michael Cziesla (Neumunster)."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Elders Alan T. Phillips (Kent, England) and Karl D. Hirst (Bury, Lancashire)."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Christophe G. Giraud-Carrier, born in Lyon."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Massimo De Feo, born in Taranto."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Elder Hans T. Boom, born in Amsterdam."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Elder Jose Teixeira, born in Vila Real."
-    }
-   ]
-  },
-  {
    "id": "ot-song-of-solomon-places",
    "bank": "ot",
    "display_text": "Pin a country holding a place named in the Song of Solomon, from Engedi to Lebanon, or Pharaoh's chariots (not Tirzah or Kedar)",
@@ -205,191 +66,358 @@
    ]
   },
   {
-   "id": "dc-gh-first-baptism-1883-1899",
-   "bank": "dc",
-   "display_text": "Pin a European country (Turkey counts) where Church histories place the first convert baptism on its soil in 1883-1899",
-   "text_original": "A European country (Turkey counts) whose first convert baptism on its soil, per Church histories, came between 1883 and 1899.",
+   "id": "temples-cold-war-communist",
+   "bank": "temples",
+   "display_text": "Pin a country with a temple at any stage (as of October 2026) that was wholly or partly communist-ruled in the Cold War.",
+   "text_original": "A country with a temple at any stage (dedicated, under construction or announced, as of October 2026) that, in whole or in part, had a communist government during the Cold War. Germany counts because Freiberg lay in East Germany.",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1880s-1890s",
-   "citation": "Church Global Histories chronologies: Austria, Czech Republic, Belgium, Russia, Romania; Church News country profile and Church History Topics: Turkey",
+   "topic": "temples",
+   "era": "1985-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; Church Global Histories",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/romania/ro-chronology?lang=eng",
-    "https://www.thechurchnews.com/2010/2/1/23228952/country-information-turkey/",
-    "https://www.churchofjesuschrist.org/study/history/topics/turkish-mission?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/overview?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/overview?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_communist_states"
    ],
-   "difficulty": 3,
-   "note": "Poland, Hungary and Serbia do not count: their first converts were baptized outside their borders.",
-   "summary": "In the 1880s and 1890s missionaries carried the gospel into new corners of Europe. Church histories date first baptisms to Lambach, Austria (1883), Prague (1884), Constantinople (1885), Antwerp (1888), St. Petersburg (1895) and Constanta, Romania (1899).",
-   "stamp": null,
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Freiberg Germany Temple, dedicated in 1985, was the first temple built inside a communist state. Since then temples have been dedicated in Ukraine, Hong Kong and Cambodia, with others under construction in Hungary and Congo-Brazzaville and announced for Russia, Shanghai, Mongolia, Angola and Mozambique (as of October 2026).",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ROU"
+    "MNG"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "AUT",
-     "name": "Austria",
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Freiberg Germany Temple (1985) was built in East Germany."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Kyiv Ukraine Temple (2010); former Soviet republic."
+    },
+    {
+     "code": "CHN",
+     "name": "China",
      "commonness": 3,
      "gem": false,
-     "fact": "1883: first convert baptism in Austria, at Lambach."
+     "fact": "Shanghai temple announced; Hong Kong China Temple dedicated 1996."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Budapest Hungary Temple under construction; Warsaw Pact state."
     },
     {
      "code": "RUS",
      "name": "Russia",
      "commonness": 3,
      "gem": false,
-     "fact": "1895: first convert baptism in St. Petersburg."
+     "fact": "A temple in Russia is announced; former Soviet Union."
     },
     {
-     "code": "BEL",
-     "name": "Belgium",
+     "code": "AGO",
+     "name": "Angola",
      "commonness": 2,
      "gem": false,
-     "fact": "1888: first convert baptism in Belgium, at Antwerp."
+     "fact": "Luanda Angola Temple announced (2023); People's Republic of Angola 1975-1992."
     },
     {
-     "code": "CZE",
-     "name": "Czech Republic",
+     "code": "COG",
+     "name": "Republic of the Congo",
      "commonness": 2,
      "gem": false,
-     "fact": "1884: first convert baptized in Prague."
+     "fact": "Brazzaville Republic of the Congo Temple under construction; People's Republic of the Congo 1969-1992."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "KHM",
+     "name": "Cambodia",
      "commonness": 2,
      "gem": false,
-     "fact": "January 4, 1885: Hagop Vartooguian and his family were baptized in Constantinople by Jacob Spori, days after the Turkish Mission opened."
+     "fact": "Phnom Penh Cambodia Temple (2026); communist governments 1975-1989."
     },
     {
-     "code": "ROU",
-     "name": "Romania",
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Beira and Maputo Mozambique temples announced; People's Republic of Mozambique 1975-1990."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
      "commonness": 1,
      "gem": true,
-     "fact": "1899: first convert baptized at Constanta on the Black Sea."
+     "fact": "Ulaanbaatar Mongolia Temple announced; Soviet-aligned people's republic until 1990."
     }
    ]
   },
   {
-   "id": "people-seventies-born-latin-america",
-   "bank": "people",
-   "display_text": "Pin a Latin American or Caribbean country or territory where a current General Authority Seventy was born (October 2026).",
-   "text_original": "As of October 2026, several General Authority Seventies were born in Latin America or the Caribbean. Pin a country or territory in that region where a current General Authority Seventy was born, according to the Church's official biographies.",
+   "id": "sites-asia-1850s",
+   "bank": "sites",
+   "display_text": "Pin an Asian country or territory where Church missionaries preached in the 1850s.",
+   "text_original": "In 1852 the First Presidency called more than a hundred men to missions abroad, including India, Siam and China. Pin an Asian country or territory where Church missionaries went in the 1850s.",
    "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "2026",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
+   "topic": "missionary work",
+   "era": "1850s",
+   "citation": "Global Histories chronologies: India, Thailand, Hong Kong, Singapore, Malaysia; Newsroom facts and statistics: Sri Lanka; Saints vol. 2",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/marcos-a-aidukaitis?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-a-godoy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/denelson-silva?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ozani-farias?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jose-l-alonso?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/gregorio-e-casillas?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/moises-villanueva?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/sandino-roman?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/alan-r-walker?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ruben-v-alliaud?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/eduardo-f-ortega?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/joaquin-e-costa?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/patricio-m-giuffra?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/juan-pablo-villar?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/ricardo-p-gimenez?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/sergio-r-vargas?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/taylor-g-godoy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/valeri-v-cordon?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/hugo-e-martinez?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/jorge-m-alvarado?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/mathias-held?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/pedro-x-larreal?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kevin-g-brown?lang=eng",
-    "https://www.thechurchnews.com/leaders-and-ministry/2006-05-13/elder-anthony-d-perkins-general-authority-seventy-2006-86422/",
-    "https://www.churchofjesuschrist.org/study/ensign/2013/05/news/elder-arnulfo-valenzuela?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/malaysia/my-chronology?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/sri-lanka"
    ],
-   "difficulty": 2,
-   "note": "Elder Perkins was born in Colorado and Elder Valenzuela in Mexico, so neither adds a country.",
-   "summary": "The Church's General Authority Seventies come from many nations. As of October 2026 their official biographies list birthplaces across Latin America and the Caribbean, from Brazil and Mexico to Jamaica, Venezuela and Puerto Rico. Brazil, Mexico, Argentina and Chile each have several.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 3,
+   "note": null,
+   "summary": "The 1852 mission calls sent elders across Asia. They reached Hong Kong and Ceylon in 1853, Singapore, Penang and Bangkok in 1854, and stations across British India, though few converts were made and the missions soon closed.",
+   "stamp": null,
    "gems": [
-    "JAM"
+    "LKA"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Elders Aidukaitis, Godoy, Silva, Farias and others were born in Brazil."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Elders Alonso (Mexico City), Casillas (Tijuana), Villanueva (Oaxaca), Roman (Iguala)."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "IND",
+     "name": "India",
      "commonness": 4,
      "gem": false,
-     "fact": "Elders Walker and Alliaud (Buenos Aires), Ortega, Costa."
+     "fact": "Missionaries served in British India from the early 1850s, with sporadic missions from 1857 at Calcutta, Lahore and Srinagar."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Missionaries arrived in Hong Kong in April 1853."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elam Luddington reached Bangkok, then the Kingdom of Siam, on April 6, 1854."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Luddington preached in Penang and Malacca in 1854."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Luddington passed through Singapore in March 1854 on his way to Siam."
+    },
+    {
+     "code": "LKA",
+     "name": "Sri Lanka",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries reached Ceylon, now Sri Lanka, in May 1853."
+    }
+   ]
+  },
+  {
+   "id": "global-africa-20k-50k",
+   "bank": "global",
+   "display_text": "Pin an African country where the Church has between 20,000 and 50,000 members (end of 2025).",
+   "text_original": "An African country where the Church had between 20,000 and 50,000 members at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/uganda?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/liberia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/kenya?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/madagascar?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "At the end of 2025 six African countries sat in the 20,000 to 50,000 member band: Sierra Leone (41,775), Mozambique (39,282), Uganda (26,304), Liberia (25,767), Kenya (24,547) and Madagascar (20,395). Zimbabwe (52,430) was just above the band, and Cabo Verde (16,334) just below.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "LBR",
+    "MDG",
+    "MOZ"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "KEN",
+     "name": "Kenya",
      "commonness": 4,
      "gem": false,
-     "fact": "Elders Giuffra and Villar (Valparaiso), Gimenez (Antofagasta), Vargas (Puerto Varas)."
+     "fact": "24,547 members, 2 missions."
     },
     {
-     "code": "GTM",
-     "name": "Guatemala",
+     "code": "SLE",
+     "name": "Sierra Leone",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Valeri V. Cordon, born in Guatemala City."
+     "fact": "41,775 members, 2 missions."
     },
     {
-     "code": "PER",
-     "name": "Peru",
+     "code": "UGA",
+     "name": "Uganda",
      "commonness": 3,
      "gem": false,
-     "fact": "Elder Taylor G. Godoy, born in Lima."
+     "fact": "26,304 members, 1 mission."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "25,767 members, 1 mission."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 2,
+     "gem": true,
+     "fact": "20,395 members, 2 missions."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": true,
+     "fact": "39,282 members, 2 missions."
+    }
+   ]
+  },
+  {
+   "id": "global-own-mission-1970-1989",
+   "bank": "global",
+   "display_text": "Pin a Latin American or Caribbean country or territory that got its first Church mission headquarters there between 1970 and 1989.",
+   "text_original": "Between 1970 and 1989 the Church placed mission headquarters in many Latin American and Caribbean lands for the first time. Pin a Latin American or Caribbean country or territory that got its first Church mission headquartered there between 1970 and 1989.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "1970-1989",
+   "citation": "Global Histories chronologies: Ecuador, Colombia, El Salvador, Paraguay, Puerto Rico, Dominican Republic, Honduras, Haiti, Barbados, Jamaica, Nicaragua, Panama",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/jamaica/jm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/barbados/bb-chronology?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "From 1970 to 1989 the Church gave a first mission headquarters to Ecuador (1970), Colombia (1971), El Salvador (1976), Paraguay (1977), Puerto Rico (1979), the Dominican Republic and Honduras (1980), Barbados and Haiti (1984), Jamaica (1985), and Nicaragua and Panama (1989). Costa Rica is not an answer: it had hosted the Central American Mission headquarters since 1965.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BRB"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Santo Domingo Dominican Republic Mission was organized January 1, 1980."
     },
     {
      "code": "COL",
      "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Colombia Mission was created in Bogota in July 1971 from the Colombia-Venezuela Mission."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Ecuador Mission was organized in Quito in August 1970."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Honduras Tegucigalpa Mission began operations February 4, 1980."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Haiti Port-au-Prince Mission was organized August 4, 1984."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Nicaragua Managua Mission was organized October 15, 1989."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Panama City Mission was created July 1, 1989."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Paraguay Asuncion Mission was created July 1, 1977."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The El Salvador San Salvador Mission was organized July 1, 1976."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
      "commonness": 2,
      "gem": false,
-     "fact": "Elder Mathias Held, born in Bogota."
+     "fact": "The Jamaica Kingston Mission was organized July 1, 1985."
     },
     {
      "code": "PRI",
      "name": "Puerto Rico",
      "commonness": 2,
      "gem": false,
-     "fact": "Elders Hugo E. Martinez (Mayaguez) and Jorge M. Alvarado (Ponce)."
+     "fact": "The Puerto Rico San Juan Mission was created July 7, 1979."
     },
     {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Pedro X. Larreal, born in Valencia."
-    },
-    {
-     "code": "JAM",
-     "name": "Jamaica",
+     "code": "BRB",
+     "name": "Barbados",
      "commonness": 1,
      "gem": true,
-     "fact": "Elder Kevin G. Brown, born in Manchester, Jamaica."
+     "fact": "Barbados became the headquarters of the West Indies Mission on June 26, 1984."
     }
    ]
   }

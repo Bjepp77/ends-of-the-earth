@@ -2,421 +2,517 @@
  "day": 19,
  "prompts": [
   {
-   "id": "temples-four-plus-dedicated",
+   "id": "temples-southern-hemisphere",
    "bank": "draft",
-   "display_text": "Pin a country with four or more dedicated temples.",
-   "text_original": "Pin a country with four or more dedicated temples (as of October 2026).",
-   "accepts": "country",
+   "display_text": "Pin a country or territory with a dedicated temple south of the equator.",
+   "text_original": "Pin a country or territory with a dedicated temple lying south of the equator (as of October 2026).",
+   "accepts": "country_or_territory",
    "topic": "temples",
-   "era": "2026",
+   "era": "1958-2026",
    "citation": "temple list, 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "note": null,
-   "summary": "As of October 2026 the United States had 109 dedicated temples, far more than any other country. Mexico (14), Brazil (12), Canada (9), the Philippines (6), Australia and Argentina (5 each), and Japan, Guatemala and Peru (4 each) followed.",
+   "summary": "Many of the Church's temples lie south of the equator, across South America, Africa and the Pacific. Every temple in Brazil is in the Southern Hemisphere, as are those in Australia, New Zealand, South Africa and Zimbabwe. Quito, Ecuador, and Nairobi, Kenya, sit just south of the line.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "GTM",
-    "JPN"
+    "KEN"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "MEX",
-     "name": "Mexico",
+     "code": "AUS",
+     "name": "Australia",
      "commonness": 5,
      "gem": false,
-     "fact": "14 dedicated temples."
-    },
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "109 dedicated temples."
+     "fact": "Five dedicated temples."
     },
     {
      "code": "BRA",
      "name": "Brazil",
-     "commonness": 4,
+     "commonness": 5,
      "gem": false,
-     "fact": "12 dedicated temples."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "9 dedicated temples."
+     "fact": "All its temples are south of the equator."
     },
     {
      "code": "ARG",
      "name": "Argentina",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "5 dedicated temples."
+     "fact": "Buenos Aires and others."
     },
     {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 3,
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
      "gem": false,
-     "fact": "5 dedicated temples."
+     "fact": "Santiago and others."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hamilton and Auckland."
     },
     {
      "code": "PER",
      "name": "Peru",
-     "commonness": 3,
+     "commonness": 4,
      "gem": false,
-     "fact": "4 dedicated temples."
+     "fact": "Lima and others."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 3,
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
      "gem": false,
-     "fact": "6 dedicated temples."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 2,
-     "gem": true,
-     "fact": "4 dedicated temples."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "4 dedicated temples."
-    }
-   ]
-  },
-  {
-   "id": "saints-v4-23-lima-temple-district",
-   "bank": "draft",
-   "display_text": "Pin a country that Saints names as served by the Lima temple, dedicated in 1986.",
-   "text_original": "Saints vol. 4 ch. 23: the Lima temple, dedicated in 1986, served Saints from these countries. Pin one.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1986",
-   "citation": "Saints vol. 4 ch. 23",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/23-every-effort?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "The Lima temple in Peru was dedicated in 1986. Peru then had about 119,000 Latter-day Saints, and members from Colombia, Ecuador, Bolivia and Venezuela also traveled to Lima to worship there.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "VEN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Host country, with about 119,000 Saints then."
+     "fact": "Johannesburg and Durban."
     },
     {
      "code": "BOL",
      "name": "Bolivia",
      "commonness": 3,
      "gem": false,
-     "fact": "Its Saints travelled to Lima."
+     "fact": "Cochabamba."
     },
     {
-     "code": "COL",
-     "name": "Colombia",
+     "code": "TON",
+     "name": "Tonga",
      "commonness": 3,
      "gem": false,
-     "fact": "Its Saints travelled to Lima."
+     "fact": "Nuku'alofa."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Apia."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Kinshasa."
     },
     {
      "code": "ECU",
      "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Its Saints travelled to Lima."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
      "commonness": 2,
-     "gem": true,
-     "fact": "Its Saints travelled to Lima."
-    }
-   ]
-  },
-  {
-   "id": "saints-v4-09-kimball-south-america-1966",
-   "bank": "history2",
-   "display_text": "Pin a South American country that, Saints says, Elder Kimball named as growing in 1966.",
-   "text_original": "Saints vol. 4 ch. 9: creating the Sao Paulo Stake in 1966, Elder Kimball named these South American countries where the Church was growing. Pin one.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1966",
-   "citation": "Saints vol. 4 ch. 9",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-1/09-this-marvelous-day?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "On May 1, 1966, Elder Spencer W. Kimball organized the São Paulo Stake in Brazil, the first stake in South America, with more than 1,500 Saints attending. Walter Spät, who had joined the Church in 1950, became its president. Elder Kimball spoke of the Church growing in Brazil, Argentina, Uruguay, Chile, Peru and Paraguay.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "PRY"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
      "gem": false,
-     "fact": "Called \"great Brazil\"; site of the first stake in South America."
+     "fact": "Guayaquil and Quito are both just south of the equator."
     },
     {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
      "gem": false,
-     "fact": "Named by Elder Kimball."
+     "fact": "Suva."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
      "gem": false,
-     "fact": "Named by Elder Kimball."
+     "fact": "Asuncion."
     },
     {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
      "gem": false,
-     "fact": "Named by Elder Kimball."
+     "fact": "Papeete."
     },
     {
      "code": "URY",
      "name": "Uruguay",
      "commonness": 2,
      "gem": false,
-     "fact": "Named by Elder Kimball."
+     "fact": "Montevideo."
     },
     {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named by Elder Kimball."
-    }
-   ]
-  },
-  {
-   "id": "bible-both-testaments-city",
-   "bank": "bible",
-   "display_text": "Pin a present-day country with a city named in both Old and New Testaments (not Jerusalem).",
-   "text_original": "A present-day country with a city named in both Old and New Testaments (not Jerusalem)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Matthew 11-12; Acts 9; Jonah; Kings",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Some cities appear in both testaments, linking Old Testament stories to the New. Damascus is named in Genesis and is where Paul first preached, and Joppa is where Jonah boarded a ship and where Peter later had a vision (Jonah 1:3; Acts 10). Jesus spoke of Tyre, Sidon and Nineveh, and Haran, from Abraham's story, returns in Stephen's speech (Acts 7:4).",
-   "stamp": null,
-   "gems": [
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Joppa is Jonah's port and the place of Peter's vision (Jonah 1:3; Acts 10)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tyre and Sidon appear in Kings and in the Gospels."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Damascus appears in Genesis 14 and Acts 9."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Nineveh and Babylon are named by Jesus and in Revelation (Matthew 12:41)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "ZWE",
+     "name": "Zimbabwe",
      "commonness": 2,
      "gem": false,
-     "fact": "Bethlehem is named in both testaments (Ruth 1:1; Matthew 2:1), in the West Bank."
+     "fact": "Harare."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "KEN",
+     "name": "Kenya",
      "commonness": 1,
      "gem": true,
-     "fact": "Haran appears in Genesis 11 and as Charran in Stephen's speech (Acts 7:4)."
+     "fact": "Nairobi sits just south of the equator."
     }
    ]
   },
   {
-   "id": "saints-v4-26-28-asia-survey-1990s",
-   "bank": "draft",
-   "display_text": "Pin a country that Saints names in its 1991 or mid-1990s surveys of the Church in Asia.",
-   "text_original": "Saints vol. 4 surveys the Church across Asia twice: in 1991 (ch. 26) and in the mid-1990s (ch. 28), naming countries with temples, new branches, early growth or no presence yet. Pin a country named in either survey.",
+   "id": "history-temples-construction-latam",
+   "bank": "history2",
+   "display_text": "Pin a Latin American country with a temple under construction, not yet dedicated.",
+   "text_original": "Pin a Latin American country with a temple under construction but not yet dedicated (as of October 2026).",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1991-1995",
-   "citation": "Saints vol. 4 ch. 26; Saints vol. 4 ch. 28",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "Church temple list and ChurchofJesusChristTemples.org (temples under construction), read 26 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/26-i-want-to-serve?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/28-the-lords-path?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.thechurchnews.com/temples/2026/10/12/iquitos-peru-temple-groundbreaking-largest-city-inaccessible-by-road/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "In 1991 the Church had temples in only four Asian countries: Japan, whose Tokyo temple (1980) was the first in Asia, the Philippines, Taiwan and South Korea. New branches were forming in India, Singapore, Indonesia and Malaysia, while Mongolia, Myanmar, Laos and Nepal had no Church presence yet. Missionaries reached Mongolia in 1992, and the Church was recognized in Cambodia in 1994.",
-   "stamp": null,
+   "summary": "As of October 2026, Latin America has many temples under construction. Brazil has several, including Natal, Teresina and Santos, and Mexico has Torreón, Querétaro and San Luis Potosí. Others are underway at Santiago West Chile, Cali Colombia, Santa Cruz Bolivia, Iquitos Peru and Huehuetenango Guatemala.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "LAO",
-    "MMR",
-    "NPL",
-    "VNM"
+    "BOL",
+    "COL",
+    "GTM",
+    "PER"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Natal Brazil; Teresina Brazil; Santos Brazil; and others (under construction)."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Torreón Mexico; Querétaro Mexico; San Luis Potosí Mexico (under construction)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Santiago West Chile (under construction)."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Santa Cruz Bolivia (under construction)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Cali Colombia (under construction)."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Huehuetenango Guatemala (under construction)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Iquitos Peru (construction began 10 October 2026)."
+    }
+   ]
+  },
+  {
+   "id": "history-mtc-countries-2026",
+   "bank": "history2",
+   "display_text": "Pin a country with a Church missionary training center.",
+   "text_original": "A country with a Church missionary training center (as of October 2026).",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "2026",
+   "citation": "Church Newsroom, First Presidency calls new leaders for 11 missionary training centers; Newsroom MTC topic page",
+   "source_urls": [
+    "https://newsroom.churchofjesuschrist.org/article/first-presidency-calls-new-leaders-for-11-missionary-training-centers",
+    "https://newsroom.churchofjesuschrist.org/article/bangkok-thailand-mtc",
+    "https://newsroom.churchofjesuschrist.org/article/missionary-training-center-democratic-republic-of-congo"
+   ],
+   "difficulty": 2,
+   "note": "Only the 11 permanent missionary training centers count. Temporary centers do not.",
+   "summary": "As of 2026 the Church has 11 missionary training centers, from Provo in Utah to centers in Mexico, Brazil, Peru, England, Ghana, South Africa, New Zealand and the Philippines. The newest are in Bangkok, Thailand, opened in January 2024, and Kinshasa, Democratic Republic of the Congo, announced in June 2024. In September 2026 the First Presidency called new presidents for all 11.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COD",
+    "THA"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "USA",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Tokyo temple, dedicated 1980, was the first in Asia; one of four Asian temple countries in 1991."
+     "fact": "Provo MTC."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Brazil MTC."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Mexico MTC."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "England MTC."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "New Zealand MTC."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Peru MTC."
     },
     {
      "code": "PHL",
      "name": "Philippines",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Manila temple, dedicated 1984; one of four Asian temple countries in 1991."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 4,
-     "gem": false,
-     "fact": "New branches in 1991 (ch. 26); named again as a place of new growth (ch. 28)."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
      "commonness": 3,
      "gem": false,
-     "fact": "Seoul temple, dedicated 1985; one of four Asian temple countries in 1991."
+     "fact": "Philippines MTC."
     },
     {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 3,
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 2,
      "gem": false,
-     "fact": "No Church presence in 1991 (ch. 26); missionaries arrived in 1992 and growth followed (ch. 28)."
+     "fact": "Ghana MTC."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "South Africa MTC."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Democratic Republic of the Congo MTC, in Kinshasa, announced June 2024."
     },
     {
      "code": "THA",
      "name": "Thailand",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Thailand MTC, in Bangkok, opened January 2024."
+    }
+   ]
+  },
+  {
+   "id": "scripture-translations-1981",
+   "bank": "scripture",
+   "display_text": "Pin a country where Russian, Catalan, Polish, Romanian or Icelandic is an official language.",
+   "text_original": "A country where Russian, Catalan, Polish, Romanian or Icelandic, all first given the Book of Mormon in 1981, is an official language",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "1981",
+   "citation": "Church News translation list",
+   "source_urls": [
+    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
+    "https://www.constituteproject.org/constitution/Kazakhstan_2017",
+    "https://en.wikipedia.org/wiki/Languages_of_Kazakhstan"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "In 1981 the Book of Mormon appeared in Russian, Polish, Romanian, Icelandic and Catalan. That was about a decade before missionaries were permitted in Poland and Romania. Russian also serves Belarus, Kazakhstan and Kyrgyzstan, and Romanian serves Moldova.",
+   "stamp": null,
+   "gems": [
+    "BLR",
+    "KAZ",
+    "KGZ",
+    "MDA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The Russian Book of Mormon appeared in 1981."
+    },
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Polish Book of Mormon appeared in 1981."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
      "commonness": 3,
      "gem": false,
-     "fact": "Named in ch. 28 as a place where the Church was starting to grow."
+     "fact": "The Icelandic Book of Mormon appeared in 1981."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
+     "code": "ROU",
+     "name": "Romania",
      "commonness": 3,
      "gem": false,
-     "fact": "Taipei temple, dedicated 1984; one of four Asian temple countries in 1991."
+     "fact": "The Romanian Book of Mormon appeared in 1981."
     },
     {
-     "code": "IDN",
-     "name": "Indonesia",
+     "code": "AND",
+     "name": "Andorra",
      "commonness": 2,
      "gem": false,
-     "fact": "Named in ch. 26 as a place with new branches in 1991."
+     "fact": "Catalan, translated 1981, is Andorra's only official language."
     },
     {
-     "code": "KHM",
-     "name": "Cambodia",
+     "code": "BLR",
+     "name": "Belarus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Russian, translated 1981, is co-official in Belarus."
+    },
+    {
+     "code": "KAZ",
+     "name": "Kazakhstan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Russian, translated 1981, is officially used in Kazakhstan's state bodies on equal grounds with Kazakh."
+    },
+    {
+     "code": "KGZ",
+     "name": "Kyrgyzstan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Russian, translated 1981, is an official language of Kyrgyzstan."
+    },
+    {
+     "code": "MDA",
+     "name": "Moldova",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Romanian, translated 1981, is Moldova's official language."
+    }
+   ]
+  },
+  {
+   "id": "global-french-speaking-five-plus-stakes",
+   "bank": "global",
+   "display_text": "Pin a country or territory where French is an official language and the Church has 5 or more stakes (October 2026).",
+   "text_original": "A country or territory where French is an official language and the Church has 5 or more stakes as of October 2026.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/france?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/canada?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/democratic-republic-of-the-congo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/french-polynesia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/haiti?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/madagascar?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/republic-of-the-congo?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_French_is_an_official_language"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "French-speaking Saints are found far beyond France. Canada (56 stakes), the Democratic Republic of the Congo (44) and Ivory Coast (23) all have more stakes than France itself (10). French Polynesia, Haiti, Switzerland, Madagascar and the Republic of the Congo each have 5 or more. Belgium, Togo, Benin, Cameroon and New Caledonia have fewer.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COG",
+    "MDG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 5,
+     "gem": false,
+     "fact": "10 stakes."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "56 stakes; French is official alongside English."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "44 stakes; French is the official language."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "23 stakes."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "5 stakes; French and Haitian Creole are official."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "11 stakes."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
      "commonness": 2,
      "gem": false,
-     "fact": "Named in ch. 28 as a place of new growth; the Church was recognized there in 1994."
+     "fact": "5 stakes; French is one of four national languages."
     },
     {
-     "code": "MYS",
-     "name": "Malaysia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named in ch. 26 as a place with new branches in 1991."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named in ch. 26 as a place with new branches in 1991."
-    },
-    {
-     "code": "LAO",
-     "name": "Laos",
+     "code": "COG",
+     "name": "Republic of the Congo",
      "commonness": 1,
      "gem": true,
-     "fact": "Named in ch. 26 as having no Church presence yet in 1991."
+     "fact": "5 stakes."
     },
     {
-     "code": "MMR",
-     "name": "Myanmar",
+     "code": "MDG",
+     "name": "Madagascar",
      "commonness": 1,
      "gem": true,
-     "fact": "Named in ch. 26 as having no Church presence yet in 1991."
-    },
-    {
-     "code": "NPL",
-     "name": "Nepal",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named in ch. 26 as having no Church presence yet in 1991."
-    },
-    {
-     "code": "VNM",
-     "name": "Vietnam",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Ch. 28 says the Church was growing there once again."
+     "fact": "5 stakes; French and Malagasy are official."
     }
    ]
   }

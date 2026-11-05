@@ -2,415 +2,459 @@
  "day": 21,
  "prompts": [
   {
-   "id": "history-temples-dedicated-1999",
-   "bank": "history2",
-   "display_text": "Pin a country where a temple was dedicated in 1999.",
-   "text_original": "A country where a temple was dedicated in 1999.",
+   "id": "temples-new-2016-18",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
+   "text_original": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
    "accepts": "country",
    "topic": "temples",
-   "era": "1999",
-   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
+   "era": "2016-2018",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
     "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
    "difficulty": 2,
    "note": null,
-   "summary": "1999 saw new temples dedicated across North and South America and Europe. They included Billings Montana, Columbia South Carolina and Anchorage Alaska, Edmonton, Halifax and Regina in Canada, Colonia Juárez in Mexico, Madrid Spain, Bogotá Colombia and Guayaquil Ecuador. Gordon B. Hinckley dedicated Madrid, Bogotá, Guayaquil and Colonia Juárez.",
+   "summary": "From 2016 through 2018, new temples were dedicated in Sapporo, Japan (2016), Paris, France (2017), Concepcion, Chile (2018) and Barranquilla, Colombia (2018), alongside eight in the United States. Paris was the first temple in France.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "COL",
-    "ECU",
-    "ESP"
+    "COL"
    ],
    "gem_forced": true,
    "answers": [
     {
      "code": "USA",
-     "name": "United States",
+     "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "Billings Montana, Columbia South Carolina, Anchorage Alaska and 5 more dedicated in 1999."
+     "fact": "Cedar City Utah, 2017; Fort Collins Colorado, 2016; Hartford Connecticut, 2016; and 5 more."
     },
     {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Colonia Juárez Chihuahua Mexico dedicated in 1999."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Edmonton Alberta, Halifax Nova Scotia, Regina Saskatchewan dedicated in 1999."
+     "fact": "Concepción Chile, 2018."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Paris France, 2017."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sapporo Japan, 2016."
     },
     {
      "code": "COL",
      "name": "Colombia",
      "commonness": 2,
      "gem": true,
-     "fact": "Bogotá Colombia dedicated in 1999."
+     "fact": "Barranquilla Colombia, 2018."
+    }
+   ]
+  },
+  {
+   "id": "temples-second-dedicated-2010-2026",
+   "bank": "temples",
+   "display_text": "Pin a country whose second dedicated temple was dedicated in 2010 or later.",
+   "text_original": "Pin a country whose second dedicated temple was dedicated in 2010 or later.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2010-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://churchofjesuschristtemples.org/statistics/milestones/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "A country's second temple, counting only temples now in operation, usually means the Church there has outgrown one temple. New Zealand's second, in Auckland, was dedicated on 13 April 2025, the latest in this set.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "HND"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cebu City Philippines (13 June 2010)."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Córdoba Argentina (17 May 2015)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Concepción Chile (28 October 2018)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barranquilla Colombia (9 December 2018)."
     },
     {
      "code": "ECU",
      "name": "Ecuador",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Guayaquil Ecuador dedicated in 1999."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Madrid Spain dedicated in 1999."
-    }
-   ]
-  },
-  {
-   "id": "temples-pending-asia-pacific",
-   "bank": "draft",
-   "display_text": "Pin an Asian or Pacific country or territory with a temple announced or being built, but none dedicated yet.",
-   "text_original": "Pin an Asian or Pacific country or territory with a temple announced or under construction but none dedicated yet (as of October 2026).",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "temple list, 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://www.thechurchnews.com/temples/2026/08/24/pago-pago-american-samoa-temple-dedication-open-house-set/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026, many Asian and Pacific places were waiting for their first temple. Temples were under construction in Bengaluru, Singapore, Kiribati, Papua New Guinea and Vanuatu, and announced for Shanghai, Jakarta, Ulaanbaatar, Dubai and Noumea. Pago Pago in American Samoa was listed as opening soon.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "KIR",
-    "NCL",
-    "VUT"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Bengaluru, under construction."
-    },
-    {
-     "code": "ARE",
-     "name": "United Arab Emirates",
      "commonness": 3,
      "gem": false,
-     "fact": "Dubai, announced."
+     "fact": "Quito Ecuador (20 November 2022)."
     },
     {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Pago Pago, under construction; dedication set for 13 December 2026."
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jakarta, announced."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ulaanbaatar, announced."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Port Moresby, under construction."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Singapore, under construction."
-    },
-    {
-     "code": "KIR",
-     "name": "Kiribati",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Tarawa, under construction."
-    },
-    {
-     "code": "NCL",
-     "name": "New Caledonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Noumea, announced."
-    },
-    {
-     "code": "VUT",
-     "name": "Vanuatu",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port Vila, under construction."
-    }
-   ]
-  },
-  {
-   "id": "bible-kings-and-exiles",
-   "bank": "bible",
-   "display_text": "Pin a present-day country where a king of Israel or Judah died, or where their people were carried or fled into exile.",
-   "text_original": "A present-day country where a king of Israel or Judah died, or where their people were carried or fled into exile",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "1 Samuel 31; 1 Kings 22; 2 Kings 17; 23; 25; Jeremiah 43",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/31?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng",
-    "https://en.wikipedia.org/wiki/Tell_Halaf",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "The Old Testament tells how Israel and Judah lost their kingdoms. Assyria carried Israelites to the river Gozan and the cities of the Medes (2 Kings 17:6), and later Babylon carried Judah's people to Babylon, where King Jehoiachin lived out his days. Some kings died in battle, like Saul on Gilboa and Ahab at Ramoth-gilead, and Jehoahaz was taken to Egypt and died there.",
-   "stamp": null,
-   "gems": [
-    "PSE",
-    "SYR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Judah's people were carried to Babylon, where Jehoiachin lived out his days (2 Kings 25)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Jehoahaz was taken to Egypt and died there; later survivors fled to Tahpanhes (2 Kings 23:34; Jeremiah 43:7)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Saul died on Gilboa; Ahaziah and Josiah died at Megiddo."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Assyria placed Israelites in the cities of the Medes (2 Kings 17:6)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ahab was mortally hit in battle at Ramoth-gilead (1 Kings 22)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Menahem killed King Shallum in Samaria (2 Kings 15:14), in the West Bank."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Exiles went to the river Gozan, now Tell Halaf in Syria (2 Kings 17:6)."
-    }
-   ]
-  },
-  {
-   "id": "bible-miracle-places",
-   "bank": "bible",
-   "display_text": "Pin a present-day country where a prophet or apostle worked a miracle, in Kings or Acts.",
-   "text_original": "A present-day country where a prophet or apostle worked a miracle, in Kings or Acts",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "1 Kings 17; Acts 9; 13-14; 16; 20; 28",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/20?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "The Bible records miracles by prophets and apostles in many lands. Elijah raised a widow's son at Zarephath (1 Kings 17:22), and Peter healed Aeneas at Lydda and raised Tabitha at Joppa. Paul healed a lame man at Lystra, raised Eutychus at Troas, struck the sorcerer Elymas blind on Cyprus, cast out a spirit at Philippi, and healed the father of Publius on Malta (Acts 28:8).",
-   "stamp": null,
-   "gems": [
-    "LBN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Peter healed Aeneas at Lydda and raised Tabitha at Joppa (Acts 9:34, 40)."
-    },
-    {
-     "code": "MLT",
-     "name": "Malta",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Paul healed the father of Publius on Malta (Acts 28:8)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Paul healed a lame man at Lystra and raised Eutychus at Troas (Acts 14:8-10; 20:9-12)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 3,
      "gem": false,
-     "fact": "Paul cast a spirit out of a slave girl at Philippi (Acts 16:18)."
+     "fact": "Quetzaltenango Guatemala (11 December 2011)."
     },
     {
-     "code": "CYP",
-     "name": "Cyprus",
-     "commonness": 2,
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
      "gem": false,
-     "fact": "Paul struck the sorcerer Elymas blind at Paphos (Acts 13:11)."
+     "fact": "Auckland New Zealand (13 April 2025)."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
      "gem": false,
-     "fact": "Elisha healed the waters at Jericho (2 Kings 2:19-22), in the West Bank."
+     "fact": "Trujillo Peru (21 June 2015)."
     },
     {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 1,
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Durban South Africa (16 February 2020)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
      "gem": true,
-     "fact": "Elijah raised the widow's son at Zarephath (1 Kings 17:22)."
+     "fact": "San Pedro Sula Honduras (13 October 2024)."
     }
    ]
   },
   {
-   "id": "saints-v4-34-relief-before-2004",
-   "bank": "draft",
-   "display_text": "Pin a country that Saints names as getting Church disaster or refugee relief before 2004.",
-   "text_original": "Saints vol. 4 ch. 34 lists places the Church sent disaster or refugee relief in the years before 2004. Pin one.",
+   "id": "global-wfp-unicef-gifts",
+   "bank": "global",
+   "display_text": "Pin a country named in the Church's 2022 World Food Programme or 2023 or 2026 UNICEF gifts",
+   "text_original": "The Church gave US$32 million to the World Food Programme in September 2022, and US$10 million (August 2023) and US$25 million (May 2026) to UNICEF for mothers and children. A country named as receiving help from one of these three gifts.",
    "accepts": "country",
    "topic": "humanitarian aid",
-   "era": "1998-2003",
-   "citation": "Saints vol. 4 ch. 34",
+   "era": "2022-2026",
+   "citation": "Newsroom 2022 WFP; Church News 2023-08-17; Church News 2026-05-20",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-4/34-strength-for-any-situation?lang=eng"
+    "https://newsroom.churchofjesuschrist.org/article/church-of-jesus-christ-32-million-world-food-programme",
+    "https://www.thechurchnews.com/global/2023/8/17/23811733/10-million-donation-unicef-mothers-children-central-african-republic-mail-haiti-mozambique",
+    "https://www.thechurchnews.com/living-faith/2026/05/20/church-of-jesus-christ-unicef-donation-25-million-child-nutrition/"
    ],
-   "difficulty": 3,
-   "note": "Kosovo uses the user-assigned code XKX, which is not an official ISO 3166 code.",
-   "summary": "In the years before 2004, the Church sent help to people hurt by war and natural disasters around the world. Refugees from wars in Kosovo, Sierra Leone and Afghanistan received aid, as did flood victims in Venezuela and Mozambique and earthquake survivors in El Salvador, Turkey, Colombia and Taiwan.",
+   "difficulty": 2,
+   "note": "Somaliland is scored as part of Somalia.",
+   "summary": "In 2022 the Church gave the World Food Programme US$32 million for hunger in nine countries from Afghanistan to Yemen. UNICEF received US$10 million in 2023 for mothers and children in four countries and US$25 million in 2026 for child nutrition in five more.",
    "stamp": null,
    "gems": [
-    "MOZ",
+    "CAF",
+    "MLI",
     "SLE"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "HTI",
+     "name": "Haiti",
      "commonness": 4,
      "gem": false,
-     "fact": "Earthquake survivors received aid."
+     "fact": "WFP 2022 and UNICEF 2023."
     },
     {
      "code": "AFG",
      "name": "Afghanistan",
      "commonness": 3,
      "gem": false,
-     "fact": "War refugees received aid."
+     "fact": "WFP 2022 food aid."
     },
     {
-     "code": "XKX",
-     "name": "Kosovo",
+     "code": "COD",
+     "name": "DR Congo",
      "commonness": 3,
      "gem": false,
-     "fact": "Refugees from the 1999 war received aid."
+     "fact": "WFP 2022 and UNICEF 2026."
     },
     {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
+     "code": "ETH",
+     "name": "Ethiopia",
+     "commonness": 3,
      "gem": false,
-     "fact": "Earthquake survivors received aid."
+     "fact": "WFP 2022 food aid."
     },
     {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 2,
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
      "gem": false,
-     "fact": "Earthquake survivors received aid."
+     "fact": "WFP 2022 and UNICEF 2026."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
      "gem": false,
-     "fact": "Earthquake survivors received aid."
+     "fact": "WFP 2022 (northeast) and UNICEF 2026."
     },
     {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 2,
+     "code": "SOM",
+     "name": "Somalia",
+     "commonness": 3,
      "gem": false,
-     "fact": "Flood victims received aid."
+     "fact": "WFP 2022 food aid. The gift went to Somalia, which this map splits; a Somaliland pin scores as Somalia."
+    },
+    {
+     "code": "YEM",
+     "name": "Yemen",
+     "commonness": 3,
+     "gem": false,
+     "fact": "WFP 2022 food aid."
     },
     {
      "code": "MOZ",
      "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "UNICEF 2023 maternal and child health."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 2,
+     "gem": false,
+     "fact": "UNICEF 2026 child nutrition."
+    },
+    {
+     "code": "SSD",
+     "name": "South Sudan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "WFP 2022 food aid."
+    },
+    {
+     "code": "CAF",
+     "name": "Central African Republic",
      "commonness": 1,
      "gem": true,
-     "fact": "Flood victims received aid."
+     "fact": "UNICEF 2023 maternal and child health."
+    },
+    {
+     "code": "MLI",
+     "name": "Mali",
+     "commonness": 1,
+     "gem": true,
+     "fact": "UNICEF 2023 maternal and child health."
     },
     {
      "code": "SLE",
      "name": "Sierra Leone",
      "commonness": 1,
      "gem": true,
-     "fact": "Civil war refugees received aid."
+     "fact": "UNICEF 2026 child nutrition."
+    }
+   ]
+  },
+  {
+   "id": "global-pacific-islands-any-stake",
+   "bank": "global",
+   "display_text": "Pin a Pacific island country or territory (not Australia, NZ or Hawaii) with at least one stake as of October 2026.",
+   "text_original": "A Pacific island country or territory (not Australia or New Zealand; Hawaii counts as USA) where the Church has at least one stake as of October 2026.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/samoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/tonga?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/marshall-islands?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/new-caledonia?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Twelve Pacific island countries and territories have stakes. Tonga (21) and Samoa (20) lead, followed by French Polynesia, Papua New Guinea, American Samoa, Fiji and Kiribati. Vanuatu, the Marshall Islands, Guam, Micronesia and New Caledonia have 1 or 2 stakes each. The Cook Islands and Solomon Islands have districts only.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "FSM",
+    "MHL",
+    "NCL"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 5,
+     "gem": false,
+     "fact": "21 stakes."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "20 stakes."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 4,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "5 stakes."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "6 stakes."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "11 stakes."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake."
+    }
+   ]
+  },
+  {
+   "id": "bible-prophet-meets-king",
+   "bank": "bible",
+   "display_text": "Pin a country where the Bible records a prophet speaking face to face with a king.",
+   "text_original": "A present-day country where the Bible records a prophet speaking in person to a king",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Exodus 5:1; Numbers 22-24; 1 Samuel 13:13; 2 Samuel 12; 1 Kings 22:10-17; 2 Kings 20; Jeremiah 38; Daniel 2; 2 Kings 3:8-14",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/num/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/38?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/3?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Prophets often had to face kings. Moses confronted Pharaoh in Egypt, Daniel interpreted Nebuchadnezzar's dream in Babylon, and Nathan, Isaiah and Jeremiah all spoke hard truths to kings in Jerusalem. Samuel rebuked Saul at Gilgal, Micaiah defied Ahab at Samaria (1 Kings 22), and Balaam blessed Israel in front of Balak on the hills of Moab.",
+   "stamp": null,
+   "gems": [
+    "JOR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Moses and Aaron stood before Pharaoh and said, Let my people go (Exodus 5:1)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Daniel told Nebuchadnezzar his dream and its meaning at Babylon (Daniel 2)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Nathan rebuked David, Isaiah healed Hezekiah, and Jeremiah warned Zedekiah, all in Jerusalem (2 Samuel 12; 2 Kings 20; Jeremiah 38)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Samuel rebuked Saul at Gilgal, and Micaiah told Ahab the truth at the gate of Samaria (1 Samuel 13:13; 1 Kings 22:10-17)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Balaam blessed Israel to the face of Balak king of Moab on the heights above the Jordan (Numbers 22-24). Elisha also spoke with Jehoshaphat and Jehoram in the wilderness of Edom (2 Kings 3:8-14)."
     }
    ]
   }

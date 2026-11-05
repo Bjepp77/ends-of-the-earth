@@ -2,95 +2,326 @@
  "day": 29,
  "prompts": [
   {
-   "id": "temples-conf-april-2020",
-   "bank": "temples",
-   "display_text": "Pin a country where a new temple was announced at the April 2020 general conference.",
-   "text_original": "Pin a country where a new temple was announced at the April 2020 general conference.",
+   "id": "history-temples-dedicated-1984",
+   "bank": "history2",
+   "display_text": "Pin a country where a new temple was dedicated in 1984 (not rededications).",
+   "text_original": "A country where a new temple was dedicated in 1984 (not counting rededications).",
    "accepts": "country",
    "topic": "temples",
-   "era": "2020",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church News conference temple announcement",
+   "era": "1984",
+   "citation": "ChurchofJesusChristTemples.org chronological list (original dedication dates), read 26 Oct 2026",
    "source_urls": [
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://www.thechurchnews.com/temples/2020-04-05/general-conference-april-2020-new-temples-announced-president-nelson-180501/"
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 3,
+   "difficulty": 2,
    "note": null,
-   "summary": "At the end of the April 2020 general conference, President Russell M. Nelson announced 8 new temples in 6 countries or territories. The list named Shanghai and Dubai, the first temple plans for China and the United Arab Emirates.",
+   "summary": "In 1984 new temples were dedicated in Asia, the Pacific and Latin America as well as the United States. Gordon B. Hinckley dedicated Sydney Australia, Manila Philippines, Taipei Taiwan and Guatemala City Guatemala that year, and Boise Idaho and Dallas Texas were also dedicated.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ARE",
-    "COD",
-    "NGA"
+    "GTM",
+    "TWN"
    ],
    "gem_forced": true,
    "answers": [
     {
      "code": "USA",
-     "name": "United States of America",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Pittsburgh Pennsylvania; Syracuse Utah; Tallahassee Florida."
+     "fact": "Boise Idaho; Dallas Texas (dedicated 1984)."
     },
     {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "AUS",
+     "name": "Australia",
      "commonness": 3,
      "gem": false,
-     "fact": "Bahía Blanca Argentina."
+     "fact": "Sydney Australia (dedicated 1984)."
     },
     {
-     "code": "CHN",
-     "name": "People's Republic of China",
+     "code": "PHL",
+     "name": "Philippines",
      "commonness": 3,
      "gem": false,
-     "fact": "Shanghai."
+     "fact": "Manila Philippines (dedicated 1984)."
     },
     {
-     "code": "ARE",
-     "name": "United Arab Emirates",
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 2,
      "gem": true,
-     "fact": "Dubai United Arab Emirates."
+     "fact": "Guatemala City Guatemala (dedicated 1984)."
     },
     {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
+     "code": "TWN",
+     "name": "Taiwan",
      "commonness": 2,
      "gem": true,
-     "fact": "Lubumbashi Democratic Republic of the Congo."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Benin City Nigeria."
+     "fact": "Taipei Taiwan (dedicated 1984)."
     }
    ]
   },
   {
-   "id": "temples-announced-no-groundbreaking-africa",
-   "bank": "temples",
-   "display_text": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
-   "text_original": "Pin an African country with an announced temple not yet under construction (as of October 2026).",
+   "id": "ot-foreign-gods-homelands",
+   "bank": "ot",
+   "display_text": "Pin a country that was home to a foreign god named in the Old Testament, from Chemosh to Dagon",
+   "text_original": "A present-day country holding the home city or land of a foreign god named in the Old Testament: Chemosh of Moab, Milcom of Ammon, Ashtoreth of the Zidonians, Dagon of Ashdod and Gaza, Baal-zebub of Ekron, Rimmon of Damascus, Ashima of Hamath, Nisroch of Nineveh, Nergal of Cuth, Bel and Nebo of Babylon, and the gods of Egypt",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and milestones, read 27 Oct 2026",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Samuel 5; 1 Kings 11; 2 Kings 1, 5, 17, 19; Judges 16; Isaiah 46; Exodus 12",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://churchofjesuschristtemples.org/statistics/milestones/"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Gaza is in Palestine; Ashdod and Ekron are in Israel.",
+   "summary": "The Old Testament names many gods of Israel's neighbours: Chemosh of Moab, Milcom of Ammon, Ashtoreth of Zidon, Dagon of the Philistines, Rimmon of Damascus and Nisroch of Nineveh. The ark toppled Dagon's image at Ashdod, Samson pulled down Dagon's house at Gaza, and Isaiah mocked Bel and Nebo of Babylon (1 Sam 5; Judg 16; Isa 46).",
+   "stamp": null,
+   "gems": [
+    "PSE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Lord said he would execute judgment against all the gods of Egypt (Ex 12:12)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Chemosh was the abomination of Moab and Milcom the abomination of the Ammonites (1 Kgs 11:5, 7)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Solomon went after Ashtoreth the goddess of the Zidonians (1 Kgs 11:5)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sennacherib was slain worshipping in the house of Nisroch his god at Nineveh; Bel and Nebo were gods of Babylon (2 Kgs 19:36-37; Isa 46:1)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Philistines set the ark in the house of Dagon at Ashdod, and Baal-zebub was the god of Ekron (1 Sam 5:2; 2 Kgs 1:2)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Naaman's master worshipped in the house of Rimmon at Damascus, and the men of Hamath made Ashima (2 Kgs 5:18; 17:30)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The lords of the Philistines gathered at Gaza to sacrifice to Dagon when Samson was captured (Judg 16:21-23)."
+    }
+   ]
+  },
+  {
+   "id": "ot-genesis-14-war-of-kings",
+   "bank": "ot",
+   "display_text": "Pin a country holding a kingdom or battle site in the war of the kings, Genesis 14",
+   "text_original": "A present-day country holding a kingdom or battle site in the war of the kings in Genesis 14: the eastern kings of Shinar and Elam, the peoples they smote from Ashteroth Karnaim to mount Seir and El-paran, the vale of Siddim by the salt sea, and Abram's pursuit to Dan and Hobah near Damascus",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Genesis 14",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/seir?lang=eng"
    ],
    "difficulty": 3,
+   "note": "The salt sea (Dead Sea) is shared by Israel, Jordan and the West Bank, so all three count for the vale of Siddim.",
+   "summary": "Four eastern kings led by Chedorlaomer of Elam crushed a revolt by five cities of the plain, swept through Bashan, Moab, Seir and Kadesh, and carried Lot away from Sodom. Abram armed 318 servants, pursued them to Dan and beyond Damascus, rescued Lot, and paid tithes to Melchizedek king of Salem (Gen 14).",
+   "stamp": null,
+   "gems": [
+    "EGY",
+    "PSE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Amraphel was king of Shinar, the land of Babylon (Gen 14:1)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The kings smote the Amorites at Hazezon-tamar, which is Engedi, and Abram pursued them unto Dan (Gen 14:7, 14; 2 Chr 20:2)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Chedorlaomer, who led the war, was king of Elam (Gen 14:1, 4-5)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "They smote the Zuzims in Ham and the Horites in their mount Seir (Gen 14:5-6)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "They smote the Rephaims in Ashteroth Karnaim, and Abram chased them to Hobah, on the left hand of Damascus (Gen 14:5, 15)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Horites were smitten in mount Seir unto El-paran, the wilderness of Paran in the central Sinai peninsula (Gen 14:6; Bible Dictionary, Paran)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The battle was in the vale of Siddim, which is the salt sea (Gen 14:3); the Dead Sea's northwest shore is in the West Bank."
+    }
+   ]
+  },
+  {
+   "id": "dc-hyde-1841-journey-stops",
+   "bank": "dc",
+   "display_text": "Pin a country where Orson Hyde stopped on his 1841 trip to dedicate the Holy Land (marked map stops).",
+   "text_original": "A country holding a city where Orson Hyde stopped on his 1841 mission journey from London to Jerusalem and back to Trieste, as mapped by the Joseph Smith Papers (Jerusalem itself not counted).",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1840s",
+   "citation": "Joseph Smith Papers map, Orson Hyde's mission travels June-December 1841; Saints vol. 1 ch. 36",
+   "source_urls": [
+    "https://josephsmithpapers.org/bc-jsp/content/jsp/images/content/library/pdf/D8_Map_Orson-Hyde-travels-1841.pdf",
+    "https://rsc.byu.edu/fall-2017/orson-hyde-nauvoo-jerusalem-back-again",
+    "https://www.churchofjesuschrist.org/study/history/topics/dedication-of-the-holy-land?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Only the cities marked on the JSP map count. The Danube leg (Austria, Hungary, Serbia, Bulgaria, Romania) has no marked stops.",
+   "summary": "In 1840 Orson Hyde saw London, Amsterdam, Constantinople and Jerusalem in vision and was sent to dedicate the Holy Land. He crossed Europe, sailed by way of Smyrna and Beirut to Jaffa, and prayed on the Mount of Olives on October 24, 1841. He returned through Egypt, Trieste and Germany and reached Nauvoo in December 1842.",
+   "stamp": null,
+   "gems": [
+    "ITA"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "London, where he departed in June 1841 after helping the Twelve in England."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jaffa, where he landed in October 1841 before going inland to Jerusalem."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Mainz, Frankfurt and Regensburg, where he boarded a Danube steamer in August 1841."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Damietta, Cairo and Alexandria on the way home, November 1841."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Constantinople (Istanbul) and Smyrna (Izmir)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Beirut, on the sea route from Smyrna to Jaffa."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Rotterdam, Amsterdam and Arnhem."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Trieste, then Austrian and now in Italy, reached in December 1841."
+    }
+   ]
+  },
+  {
+   "id": "global-africa-asia-ten-plus-stakes",
+   "bank": "global",
+   "display_text": "Pin an African or Asian country where the Church has 10 or more stakes as of October 2026.",
+   "text_original": "An African or Asian country where the Church has 10 or more stakes as of October 2026 (year-end 2025 figures).",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/japan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/south-korea?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/taiwan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng"
+   ],
+   "difficulty": 1,
    "note": null,
-   "summary": "As of October 2026 the Church lists 94 announced temples whose groundbreaking has not yet been held. In Africa, Nigeria has the most, four, including Eket, Calabar and Abuja.",
+   "summary": "Twelve countries in Africa and Asia have 10 or more stakes. The Philippines (141) and Nigeria (80) dwarf the rest; the Democratic Republic of the Congo, Ghana, Ivory Coast, Japan and South Africa follow. Taiwan, South Korea, Zimbabwe, Sierra Leone and Mozambique round out the list. Kenya, Thailand, India and Hong Kong each have 4.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "AGO",
-    "LBR",
     "MOZ"
    ],
    "gem_forced": false,
@@ -98,280 +329,86 @@
     {
      "code": "GHA",
      "name": "Ghana",
-     "commonness": 3,
+     "commonness": 5,
      "gem": false,
-     "fact": "Cape Coast Ghana."
+     "fact": "31 stakes."
     },
     {
      "code": "NGA",
      "name": "Nigeria",
-     "commonness": 3,
+     "commonness": 5,
      "gem": false,
-     "fact": "Eket Nigeria; Calabar Nigeria; Abuja Nigeria; and 1 more."
+     "fact": "80 stakes."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "141 stakes."
     },
     {
      "code": "COD",
      "name": "Democratic Republic of the Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "44 stakes."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "22 stakes."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "18 stakes."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "23 stakes."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "16 stakes."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
      "commonness": 2,
      "gem": false,
-     "fact": "Kananga Democratic Republic of the Congo; Mbuji-Mayi Democratic Republic of the Congo."
-    },
-    {
-     "code": "UGA",
-     "name": "Uganda",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Kampala Uganda."
-    },
-    {
-     "code": "AGO",
-     "name": "Angola",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Luanda Angola."
-    },
-    {
-     "code": "LBR",
-     "name": "Liberia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Monrovia Liberia."
+     "fact": "11 stakes."
     },
     {
      "code": "MOZ",
      "name": "Mozambique",
      "commonness": 1,
      "gem": true,
-     "fact": "Beira Mozambique; Maputo Mozambique."
-    }
-   ]
-  },
-  {
-   "id": "global-western-europe-dedications-1966-98",
-   "bank": "global",
-   "display_text": "Pin a continental Western European country (not Luxembourg or a microstate) an Apostle dedicated or rededicated, 1966 to 1998",
-   "text_original": "Many European lands were first dedicated in the 1850s; later Apostles dedicated new ones or rededicated old ones. One of nine continental Western European countries (Portugal, Spain, France, Italy, Switzerland, Austria, Germany, Belgium or the Netherlands) that an Apostle dedicated or rededicated for the preaching of the gospel between 1966 and 1998.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1966-1998",
-   "citation": "Global Histories chronologies (continental Western Europe)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/italy/it-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.thechurchnews.com/2017/8/18/23221901/history-moment-president-monson-in-east-germany/",
-    "https://www.thechurchnews.com/2018/6/8/23221490/president-monsons-revisit-to-a-sacred-site-in-germany/"
-   ],
-   "difficulty": 3,
-   "note": "France (1850) and Switzerland (1851) were dedicated long before. Germany counts through the 1975 East German dedication.",
-   "summary": "Between 1966 and 1998 Apostles offered dedicatory prayers over seven Western European lands. Ezra Taft Benson rededicated Italy in 1966 and Marion G. Romney dedicated Spain in 1968. Thomas S. Monson dedicated East Germany and Portugal in 1975. L. Tom Perry and Howard W. Hunter dedicated the Netherlands and Austria in 1992, and Jeffrey R. Holland rededicated Belgium in 1998.",
-   "stamp": null,
-   "gems": [
-    "BEL"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Elder Marion G. Romney dedicated Spain from Casa de Campo in Madrid, October 1968."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Ezra Taft Benson rededicated Italy at Torre Pellice, where Lorenzo Snow had dedicated it, November 10, 1966."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Howard W. Hunter dedicated Austria from the Kahlenberg above Vienna, September 12, 1992."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Thomas S. Monson dedicated the German Democratic Republic (East Germany) on a hillside near Radebeul, April 27, 1975."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder L. Tom Perry dedicated the Netherlands, September 10, 1992."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Elder Thomas S. Monson dedicated Portugal near the Sintra Mountains, March 1975."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Elder Jeffrey R. Holland rededicated Belgium at Tervuren, May 26, 1998."
-    }
-   ]
-  },
-  {
-   "id": "global-central-america-dedications-1990-92",
-   "bank": "global",
-   "display_text": "Pin a Central American country an Apostle opened to missionaries with a prayer of dedication (or rededication), 1990-1992",
-   "text_original": "Spencer W. Kimball dedicated all of Central America in 1952. Between 1990 and 1992 Apostles returned and dedicated (or, in one case, rededicated) each Central American country individually for the preaching of the gospel. A Central American country dedicated in that period.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1990-1992",
-   "citation": "Global Histories chronologies (Central America)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Elder Spencer W. Kimball dedicated Central America as a whole in 1952. In a burst from 1990 to 1992, Russell M. Nelson, Richard G. Scott, Howard W. Hunter, Marvin J. Ashton and Boyd K. Packer offered prayers for each country in turn, so every Central American nation received its own dedication.",
-   "stamp": null,
-   "gems": [
-    "BLZ"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Rededicated by Marvin J. Ashton, October 19, 1991, in Quetzaltenango."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Boyd K. Packer, August 22, 1992."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Russell M. Nelson, June 1, 1991, on El Picacho above Tegucigalpa."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Russell M. Nelson, April 7, 1990, in San Salvador."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Richard G. Scott and Russell M. Nelson, April 9, 1990, in Managua."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Howard W. Hunter, August 24, 1991."
-    },
-    {
-     "code": "BLZ",
-     "name": "Belize",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Russell M. Nelson, June 23, 1991, with about 36 members present."
-    }
-   ]
-  },
-  {
-   "id": "global-first-stakes-1974-76",
-   "bank": "global",
-   "display_text": "Pin a country or territory whose first stake (group of congregations) came 1974-1976 (Northern Ireland counts as UK)",
-   "text_original": "From 1974 to 1976 the Church organized first stakes in Scandinavia, France and Chinese-speaking Asia. A country or territory whose very first stake of the Church was organized between 1974 and 1976.",
-   "accepts": "country_or_territory",
-   "topic": "church growth",
-   "era": "1974-1976",
-   "citation": "Global Histories chronologies (Denmark, Sweden, France, Hong Kong, Taiwan)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/northern-ireland/xi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "The United Kingdom does not count: its first stake was in Manchester, England, in 1960.",
-   "summary": "Copenhagen became the first stake in Scandinavia in 1974, and Stockholm and Paris followed in 1975. In April 1976 Taipei and Hong Kong received stakes within days of each other, the first in Chinese-speaking lands.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "HKG",
-    "TWN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Copenhagen Denmark Stake, the first stake in Scandinavia, was organized June 16, 1974."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The first stake in France was organized in Paris, November 16, 1975, with Gerard Giraud-Carrier as president."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Stockholm Sweden Stake was organized April 20, 1975, with Evert W. Perciwall as president."
-    },
-    {
-     "code": "HKG",
-     "name": "Hong Kong",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Hong Kong Stake was created April 25, 1976, with Poon Shiu-Tat (Sheldon) as president."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Taipei Taiwan Stake was created April 22, 1976, with Chang I-ch'ing as first stake president."
+     "fact": "10 stakes."
     }
    ]
   }

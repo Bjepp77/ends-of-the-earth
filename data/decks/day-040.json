@@ -2,368 +2,405 @@
  "day": 40,
  "prompts": [
   {
-   "id": "temples-first-before-1960",
-   "bank": "draft",
-   "display_text": "Pin a country whose first temple was dedicated before 1960.",
-   "text_original": "Pin a country whose first temple of the Church was dedicated before 1960.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1877-1959",
-   "citation": "temple list, 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "For most of its history the Church's temples stood in the United States, with St. George, Utah (1877) the oldest still on the list. Before 1960 only four other countries had one: Canada (Cardston, 1923), Switzerland (near Bern, 1955, the first in Europe), and New Zealand and the United Kingdom (both 1958).",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "CHE",
-    "GBR",
-    "NZL"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "St. George, 1877."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cardston, Alberta, 1923."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Near Bern, 1955, the first in Europe."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
-     "gem": true,
-     "fact": "London, near Lingfield, 1958."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Hamilton, 1958."
-    }
-   ]
-  },
-  {
-   "id": "ot-jeremiah-fall-to-egypt",
+   "id": "ot-sennacherib-invasion",
    "bank": "ot",
-   "display_text": "Pin a country holding a place in Jeremiah 39-44, from Jerusalem's fall to the flight into Egypt",
-   "text_original": "A present-day country holding a place in Jeremiah 39-44, from the fall of Jerusalem to the flight into Egypt: Zedekiah judged at Riblah, captives taken to Babylon, Jeremiah freed at Ramah, Gedaliah at Mizpah, Ishmael's flight to the Ammonites, and the remnant's settlements at Tahpanhes and Pathros",
+   "display_text": "Pin a country holding a place in the story of Sennacherib's invasion of Judah, 2 Kings 18:13-19:37",
+   "text_original": "A present-day country holding a place named in the story of Sennacherib's invasion of Judah in 2 Kings 18:13-19:37: Lachish, Samaria, the conquered cities his envoys boasted of (Hamath, Arpad, Gozan, Haran, Rezeph), Egypt and Tirhakah king of the Nile land of Cush, Nineveh, and the land of Armenia where his killers fled",
    "accepts": "country",
    "topic": "Bible",
    "era": "Old Testament",
-   "citation": "Jeremiah 39-44",
+   "citation": "2 Kings 18:13-19:37",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/39?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/40?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/41?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/43?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/44?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ararat?lang=eng"
    ],
    "difficulty": 3,
-   "note": "Ramah, Mizpah and Gibeon are in the West Bank (Palestine). Jerusalem is scored as Israel, as in the other Bible prompts.",
-   "summary": "After Babylon broke into Jerusalem, Zedekiah was blinded at Riblah and taken to Babylon. Jeremiah, freed at Ramah, stayed with the governor Gedaliah at Mizpah until Ishmael, sent by the Ammonite king, murdered him. Fearing Babylon, the remnant fled to Egypt and took Jeremiah with them to Tahpanhes (Jer 39-44).",
+   "note": "Cush lay mostly in Sudan, reaching into southern Egypt; modern Ethiopia is not counted. Samaria is in the West Bank.",
+   "summary": "In Hezekiah's fourteenth year Sennacherib of Assyria took Judah's fenced cities and besieged Lachish. His officer Rabshakeh mocked trust in Egypt and listed the gods of conquered cities. Hezekiah prayed, Isaiah prophesied, and the angel of the Lord smote the Assyrian camp; Sennacherib returned to Nineveh, where his sons slew him (2 Kgs 18-19).",
    "stamp": null,
    "gems": [
-    "JOR",
-    "SYR"
+    "ARM",
+    "SDN"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Sennacherib took the fenced cities of Judah and camped at Lachish, then sent his army against Jerusalem (2 Kgs 18:13-17)."
+    },
     {
      "code": "EGY",
      "name": "Egypt",
-     "commonness": 5,
+     "commonness": 4,
      "gem": false,
-     "fact": "Against Jeremiah's word the remnant went to Tahpanhes, and Jews dwelt at Migdol, Noph and Pathros (Jer 43:7; 44:1)."
+     "fact": "Rabshakeh mocked Judah's trust in Egypt, that bruised reed (2 Kgs 18:21)."
     },
     {
      "code": "IRQ",
      "name": "Iraq",
      "commonness": 4,
      "gem": false,
-     "fact": "Zedekiah was bound and carried to Babylon, with the rest of the people (Jer 39:7-9)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Jerusalem was broken up in Zedekiah's eleventh year (Jer 39:2)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Zedekiah was overtaken in the plains of Jericho, and mourners came from Shechem, Shiloh and Samaria; Jeremiah was loosed at Ramah and went to Gedaliah at Mizpah (Jer 39:5; 40:1, 6; 41:5)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Baalis king of the Ammonites sent Ishmael to slay Gedaliah, and Ishmael escaped to the Ammonites (Jer 40:14; 41:15); Jews returned from Moab, Ammon and Edom to Gedaliah (Jer 40:11)."
+     "fact": "After the angel smote the camp, Sennacherib went home and dwelt at Nineveh (2 Kgs 19:35-36)."
     },
     {
      "code": "SYR",
      "name": "Syria",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Nebuchadrezzar judged Zedekiah at Riblah in the land of Hamath (Jer 39:5)."
-    }
-   ]
-  },
-  {
-   "id": "ot-rehoboam-forts-shishak-army",
-   "bank": "ot",
-   "display_text": "Pin a country holding one of Rehoboam's fenced cities, or a homeland of Shishak's army",
-   "text_original": "A present-day country holding one of Rehoboam's fenced cities of Judah (2 Chronicles 11:5-10) or the homeland of a people in Shishak's army that came against him (2 Chronicles 12:2-3: Egyptians, Lubims, and the people of Cush, the Nile land south of Egypt)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "2 Chronicles 11:5-12:9",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Cush lay mostly in Sudan, reaching into southern Egypt; Ethiopia does not count. Bethlehem, Tekoa and Hebron are in the West Bank.",
-   "summary": "After the kingdom split, Rehoboam built a ring of fenced cities to guard Judah, from Bethlehem and Hebron to Lachish and Aijalon. Because Judah forsook the law, Shishak of Egypt came with chariots and a host of Lubims, Sukkiims and Ethiopians, took the fenced cities and carried off the temple treasures (2 Chr 11-12).",
-   "stamp": null,
-   "gems": [
-    "SDN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
+     "commonness": 3,
      "gem": false,
-     "fact": "Shishak king of Egypt came up against Jerusalem in Rehoboam's fifth year (2 Chr 12:2)."
+     "fact": "His envoys asked where the gods of Hamath and Arpad were, and named Gozan and Rezeph among lands Assyria destroyed (2 Kgs 18:34; 19:12)."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
      "gem": false,
-     "fact": "Rehoboam fortified Lachish, Azekah, Adullam, Gath, Zorah and Aijalon (2 Chr 11:7-10)."
+     "fact": "Sennacherib boasted he had come up with his chariots to the sides of Lebanon to cut its cedars (2 Kgs 19:23)."
     },
     {
      "code": "PSE",
      "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "He also fortified Bethlehem, Tekoa, Beth-zur and Hebron (2 Chr 11:6-10)."
-    },
-    {
-     "code": "LBY",
-     "name": "Libya",
      "commonness": 2,
      "gem": false,
-     "fact": "The Lubims marched with Shishak (2 Chr 12:3); the Church footnote reads Libyans, and BD Libya is the land west of Egypt."
+     "fact": "They also asked whether any god had delivered Samaria (2 Kgs 18:34)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Haran is among the places they boasted of destroying (2 Kgs 19:12); Bible Dictionary Haran places it near the source of the Euphrates."
+    },
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "His sons Adrammelech and Sharezer smote him and escaped into the land of Armenia (2 Kgs 19:37); Bible Dictionary Ararat: the district the Assyrians called Urartu, now called Armenia."
     },
     {
      "code": "SDN",
      "name": "Sudan",
      "commonness": 1,
      "gem": true,
-     "fact": "The Ethiopians marched with him too (2 Chr 12:3); Bible Ethiopia was the Nile land south of Egypt."
+     "fact": "Tirhakah king of Ethiopia marched out to fight him (2 Kgs 19:9); Bible Ethiopia was the Nile land south of Egypt."
     }
    ]
   },
   {
-   "id": "global-latam-first-stakes-1977-79",
+   "id": "global-hinckley-south-america-1996-97",
    "bank": "global",
-   "display_text": "Pin a Latin American mainland country whose first stake (a group of congregations) was organized 1977-1979",
-   "text_original": "Stakes spread quickly through Latin America in the late 1970s. A country in Mexico, Central America or Spanish- or Portuguese-speaking South America whose first stake was organized from 1977 through 1979.",
+   "display_text": "Pin a South American country President Hinckley visited on his November 1996 or August 1997 tours",
+   "text_original": "President Gordon B. Hinckley made two sweeping South American tours: six countries in November 1996 and four more in August 1997, where his addresses in Paraguay and Ecuador were believed to be the first by a Church President. A country he visited on either tour.",
    "accepts": "country",
-   "topic": "church growth",
-   "era": "1977-1979",
-   "citation": "Global Histories chronologies (Latin America)",
+   "topic": "church leadership",
+   "era": "1996-1997",
+   "citation": "Ensign, Feb. 1997 and Nov. 1997, News of the Church",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/venezuela/ve-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/ensign/1997/02/news-of-the-church/president-hinckley-visits-south-america-florida-washington-d-c?lang=eng",
+    "https://www.churchofjesuschrist.org/study/ensign/1997/11/news-of-the-church/president-hinckley-focuses-on-new-converts-and-families-in-south-american-visits?lang=eng",
+    "https://www.deseret.com/1996/11/16/20770887/prophet-visits-south-america/",
+    "https://www.thechurchnews.com/1997/8/23/23251842/rapid-pace-across-south-america/"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "In just three years eight Latin American countries got their first stakes, from San Jose and Bogota in January 1977 to Panama City in November 1979. Earlier firsts came in Mexico, Brazil, Argentina, Guatemala, Uruguay, Peru, Chile and El Salvador; Nicaragua followed in 1981, and Belize still has a district.",
+   "difficulty": 2,
+   "note": "Guyana, Suriname and French Guiana were not visited on either tour.",
+   "summary": "In November 1996 President Gordon B. Hinckley spoke to more than 218,000 Saints in Colombia, Peru, Bolivia, Chile, Argentina and Brazil. In August 1997 he returned for Uruguay, Paraguay, Ecuador and Venezuela; his talks in Paraguay and Ecuador were believed to be the first by a Church President there.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "PAN"
+    "PRY",
+    "URY"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 3,
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
      "gem": false,
-     "fact": "Bogota Colombia Stake, January 23, 1977."
+     "fact": "November 1996: he addressed about 50,000 members in Buenos Aires."
     },
     {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
      "gem": false,
-     "fact": "Guayaquil, June 4, 1978, the first stake in Ecuador."
+     "fact": "November 1996: he spoke in Porto Alegre, Sao Paulo, Recife and Manaus, and broke ground for the Recife temple."
     },
     {
-     "code": "VEN",
-     "name": "Venezuela",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Caracas Venezuela Stake, May 15, 1977."
+     "fact": "November 1996: he spoke to about 48,000 members in two stadium sessions in Santiago."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "November 1996: he held two conferences in Lima attended by about 28,000 members."
     },
     {
      "code": "BOL",
      "name": "Bolivia",
      "commonness": 2,
      "gem": false,
-     "fact": "Santa Cruz Bolivia Stake, January 14, 1979."
+     "fact": "November 1996: he broke ground for a temple in Cochabamba in heavy rain."
     },
     {
-     "code": "CRI",
-     "name": "Costa Rica",
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 2,
      "gem": false,
-     "fact": "San Jose Costa Rica Stake, January 20, 1977."
+     "fact": "November 1996: he toured the Bogota temple site and addressed about 7,000 members."
     },
     {
-     "code": "HND",
-     "name": "Honduras",
+     "code": "ECU",
+     "name": "Ecuador",
      "commonness": 2,
      "gem": false,
-     "fact": "San Pedro Sula Honduras Stake, April 10, 1977."
+     "fact": "August 11-12, 1997: he toured the Guayaquil temple site and addressed members in Guayaquil and Quito."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 2,
+     "gem": false,
+     "fact": "August 13, 1997: he spoke to missionaries in Caracas and to 10,000 members in Valencia."
     },
     {
      "code": "PRY",
      "name": "Paraguay",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Asuncion Paraguay Stake, February 25, 1979."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
      "commonness": 1,
      "gem": true,
-     "fact": "Panama Stake, November 11, 1979."
+     "fact": "August 10, 1997: he spoke to about 7,000 members in a stadium in Asuncion."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 1,
+     "gem": true,
+     "fact": "August 9, 1997: he addressed more than 11,000 members at a regional conference in Montevideo."
     }
    ]
   },
   {
-   "id": "pioneer-servicemen-first-meetings",
-   "bank": "pioneer",
-   "display_text": "Pin a country or territory where US servicemen held the first Church meetings or were the first members (before 1955).",
-   "text_original": "In several places the Church took root not through missionaries but through Latter-day Saints serving in the United States military, who were the first known members or held the first Church meetings there. Pin a country or territory where the Global Histories record this happening before 1955.",
-   "accepts": "country_or_territory",
-   "topic": "missionary work",
-   "era": "1898-1955",
-   "citation": "Global Histories chronologies",
+   "id": "nt-angels-and-visions",
+   "bank": "nt",
+   "display_text": "Pin a country where an angel, vision or dream came on land to someone living in New Testament times (not the Transfiguration)",
+   "text_original": "A present-day country holding a place on land where an angel appeared, or the Lord gave a vision or dream, to someone living in New Testament times, in the Gospels, Acts or Revelation (not the Transfiguration)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Luke 1:11, 26; 2:8-9; Matthew 2:12-19; Acts 9:3-12; 10:3-17; 16:9; 18:9; Revelation 1:9-10",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/marshall-islands/mh-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/portugal/pt-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Before formal missions arrived, Latter-day Saints in the US military often became the Church's first presence in a land. Two soldiers held the first service in Manila in 1898, and in World War II and after, servicemen's groups met in Costa Rica, Guam, New Guinea, the Marshall Islands, Puerto Rico, Korea and the Azores.",
+   "difficulty": 2,
+   "note": "Bethlehem is in the West Bank (Palestine); Israel also counts.",
+   "summary": "Heavenly messengers appear all through the New Testament. Gabriel came to Zacharias and Mary, angels sang to shepherds near Bethlehem, and an angel guided Joseph in Egypt. Saul met the Lord near Damascus, Paul saw the man of Macedonia at Troas, the Lord comforted him at Corinth, and John saw his Revelation on Patmos.",
    "stamp": null,
    "gems": [
-    "MHL",
-    "PRT"
+    "GRC",
+    "TUR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Gabriel came to Zacharias in the temple and to Mary in Nazareth; Peter saw a vision at Joppa (Luke 1:11, 26; Acts 10:9-17)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "An angel appeared to shepherds near Bethlehem, where the wise men were also warned in a dream (Luke 2:8-9; Matthew 2:12)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
+     "gem": false,
+     "fact": "An angel of the Lord appeared in a dream to Joseph in Egypt after Herod died (Matthew 2:19)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Saul saw a light near Damascus, and Ananias saw the Lord in a vision there (Acts 9:3-12)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Lord spoke to Paul in a vision at Corinth, and John received the Revelation on Patmos (Acts 18:9; Revelation 1:9-10)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 2,
+     "gem": true,
+     "fact": "At Troas Paul saw a vision of a man of Macedonia pleading for help (Acts 16:8-9)."
+    }
+   ]
+  },
+  {
+   "id": "global-former-soviet-dedications-1990-93",
+   "bank": "global",
+   "display_text": "Pin a former Soviet republic that an Apostle opened to missionaries with a prayer, 1990-1993.",
+   "text_original": "As the Soviet Union opened and then broke apart, Apostles dedicated or rededicated several of its former republics for the preaching of the gospel. A former Soviet republic, in its present-day borders, that an Apostle dedicated or rededicated between 1990 and 1993.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1990-1993",
+   "citation": "Global Histories chronologies (Estonia, Russia, Armenia, Ukraine, Latvia, Lithuania, Belarus); Church News 1993",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/armenia/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belarus/by-chronology?lang=eng",
+    "https://www.thechurchnews.com/1993/6/12/23258270/4-european-lands-dedicated",
+    "https://thechurchnews.com/2001/6/9/23244192/moldova-is-dedicated-in-picturesque-setting",
+    "https://churchofjesuschrist.org/study/ensign/2003/11/news-of-the-church/elder-nelson-dedicates-kazakhstan-kyrgyz-republic",
+    "https://www.thechurchnews.com/2006/11/25/23233961/gospel-taking-root-in-republic-of-georgia/"
+   ],
+   "difficulty": 2,
+   "note": "Georgia (1999), Moldova (2001), Kazakhstan and Kyrgyzstan (2003) were dedicated later, so they do not count.",
+   "summary": "Between 1990 and 1993, as the Soviet Union opened and then dissolved, five Apostles dedicated or rededicated seven of its former republics. Elder Russell M. Nelson prayed over Estonia and Russia in April 1990 and Belarus in 1993; Elders Oaks, Packer, Faust and Ballard dedicated Armenia, Ukraine, Latvia and Lithuania.",
+   "stamp": null,
+   "gems": [
+    "BLR"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "KOR",
-     "name": "South Korea",
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Elder Russell M. Nelson rededicated Russia in Leningrad's Summer Garden, April 26, 1990."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
      "commonness": 4,
      "gem": false,
-     "fact": "First Church meetings in Korea held by US servicemen, 1945-47."
+     "fact": "Elder Boyd K. Packer dedicated Ukraine in Kyiv, September 12, 1991."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "EST",
+     "name": "Estonia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Elder Russell M. Nelson dedicated Estonia near Tallinn, April 25, 1990."
+    },
+    {
+     "code": "ARM",
+     "name": "Armenia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder Dallin H. Oaks offered the prayer dedicating Armenia in Yerevan, June 24, 1991."
+    },
+    {
+     "code": "LTU",
+     "name": "Lithuania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder M. Russell Ballard dedicated Lithuania in Vilnius, February 20, 1993."
+    },
+    {
+     "code": "LVA",
+     "name": "Latvia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Elder James E. Faust dedicated Latvia at Jurmala, March 17, 1993."
+    },
+    {
+     "code": "BLR",
+     "name": "Belarus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Elder Russell M. Nelson dedicated Belarus in Yanka Kupala Park, Minsk, May 11, 1993."
+    }
+   ]
+  },
+  {
+   "id": "temples-baltic-sea",
+   "bank": "temples",
+   "display_text": "Pin a country on the Baltic Sea that has a temple at any stage (as of October 2026).",
+   "text_original": "A country with a Baltic Sea coastline that has a temple at any stage (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1985-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://en.wikipedia.org/wiki/Baltic_Sea"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Nine countries ring the Baltic Sea. Five of them have a temple at some stage as of October 2026: Sweden, Finland, Denmark and Germany with dedicated temples, and Russia with one announced. Poland, Estonia, Latvia and Lithuania have no temple yet.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "RUS"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 4,
      "gem": false,
-     "fact": "Soldiers George Seaman and Willard Call held the first service in Manila, August 21, 1898."
+     "fact": "Freiberg, Frankfurt; Hamburg announced; Baltic coast at Kiel and Rostock."
     },
     {
-     "code": "GUM",
-     "name": "Guam",
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Stockholm Sweden Temple (1985)."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
      "commonness": 3,
      "gem": false,
-     "fact": "First members on Guam were with the US military, 1944-46."
+     "fact": "Copenhagen Denmark Temple (2004)."
     },
     {
-     "code": "PRI",
-     "name": "Puerto Rico",
+     "code": "FIN",
+     "name": "Finland",
      "commonness": 3,
      "gem": false,
-     "fact": "Servicemen met in homes in the 1940s; 1953 meetings at Fort Buchanan chapel."
+     "fact": "Helsinki Finland Temple (2006)."
     },
     {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 2,
-     "gem": false,
-     "fact": "First members in Costa Rica were US servicemen, July 1944."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Servicemen held services in New Guinea, 1944-45."
-    },
-    {
-     "code": "MHL",
-     "name": "Marshall Islands",
+     "code": "RUS",
+     "name": "Russia",
      "commonness": 1,
      "gem": true,
-     "fact": "First Church services held by American military personnel in the 1940s."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Earliest known members were servicemen at Lajes Field, Azores, in the 1950s."
+     "fact": "Temple announced for Russia; Baltic coast at St Petersburg and Kaliningrad."
     }
    ]
   }

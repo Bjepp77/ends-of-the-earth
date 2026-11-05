@@ -2,352 +2,480 @@
  "day": 42,
  "prompts": [
   {
-   "id": "temples-conf-april-2019",
+   "id": "temples-borders-peru",
    "bank": "temples",
-   "display_text": "Pin a country or territory where a new temple was announced at the April 2019 general conference.",
-   "text_original": "Pin a country or territory where a new temple was announced at the April 2019 general conference.",
-   "accepts": "country_or_territory",
+   "display_text": "Pin a country that borders Peru and has at least one dedicated temple (as of October 2026).",
+   "text_original": "A country that shares a land border with Peru and has at least one dedicated temple (as of October 2026).",
+   "accepts": "country",
    "topic": "temples",
-   "era": "2019",
-   "citation": "ChurchofJesusChristTemples.org temple milestones, read 27 Oct 2026; Church Newsroom conference temple announcement",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/statistics/milestones/",
-    "https://newsroom.churchofjesuschrist.org/article/eight-new-temples-april-2019-general-conference"
+    "https://en.wikipedia.org/wiki/Peru"
    ],
-   "difficulty": 3,
+   "difficulty": 1,
    "note": null,
-   "summary": "At the end of the April 2019 general conference, President Russell M. Nelson announced 8 new temples in 7 countries or territories. Budapest gave Hungary its first temple announcement, and Pago Pago did the same for American Samoa.",
+   "summary": "Peru borders five countries, and every one of them has a dedicated temple: Ecuador, Colombia, Brazil, Bolivia and Chile. Peru itself has four dedicated temples, led by Lima (1986). Bolivia is the least obvious neighbour, with its one temple in Cochabamba.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "ASM"
+    "BOL"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
      "gem": false,
-     "fact": "Deseret Peak Utah; Moses Lake Washington."
+     "fact": "São Paulo Brazil Temple 1978 and eleven more."
     },
     {
      "code": "CHL",
      "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago Chile Temple 1983, Concepción 2018, Antofagasta 2025."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 3,
      "gem": false,
-     "fact": "Antofagasta Chile."
+     "fact": "Bogotá 1999 and Barranquilla 2018."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guayaquil 1999 and Quito 2022."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Cochabamba Bolivia Temple dedicated 2000."
+    }
+   ]
+  },
+  {
+   "id": "people-presidents-missions-abroad",
+   "bank": "people",
+   "display_text": "Pin a country outside the US where a future President of the Church served as a missionary or led a mission.",
+   "text_original": "A country outside today's United States where a President of the Church had served as a full-time missionary or presided over a mission before becoming Church President.",
+   "accepts": "country",
+   "topic": "Church history",
+   "era": "1839-1962",
+   "citation": "Presidents of the Church Student Manual, chapters 2-9 and 13-15; Thomas S. Monson biography on churchofjesuschrist.org/learn, read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-7?lang=eng",
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/manual/presidents-of-the-church-student-manual/chapter-15?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/thomas-s-monson?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Ten of the Church's presidents served in the British Isles before their calls, from Brigham Young in 1839 to Gordon B. Hinckley in the 1930s. Others went farther: Lorenzo Snow to Italy and Switzerland, John Taylor to France and Germany, Heber J. Grant to Japan, and Thomas S. Monson to Canada as a mission president. Joseph F. Smith also served in Hawaii, then an independent kingdom.",
+   "stamp": null,
+   "gems": [
+    "CAN",
+    "CHE",
+    "JPN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Brigham Young, John Taylor, Wilford Woodruff, Lorenzo Snow, Joseph F. Smith, Heber J. Grant, George Albert Smith, David O. McKay (Scotland), Ezra Taft Benson and Gordon B. Hinckley all served there."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "John Taylor's 1849-52 mission covered France and Germany."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": false,
+     "fact": "John Taylor (1849-52) and Lorenzo Snow taught there."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lorenzo Snow opened the Italian Mission, 1849-52."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Thomas S. Monson presided over the Canadian Mission in Toronto, 1959-62."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Lorenzo Snow directed missionary work in Switzerland during his Italian mission."
     },
     {
      "code": "JPN",
      "name": "Japan",
-     "commonness": 3,
+     "commonness": 2,
+     "gem": true,
+     "fact": "Heber J. Grant opened and presided over the Japanese Mission, 1901-03."
+    }
+   ]
+  },
+  {
+   "id": "global-landlocked-any-stake",
+   "bank": "global",
+   "display_text": "Pin a landlocked country (no sea coast) where the Church has at least one stake as of October 2026.",
+   "text_original": "A landlocked country (no sea coast) where the Church has at least one stake as of October 2026.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026; Uganda stake from its Global Histories overview",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/bolivia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/paraguay?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/switzerland?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/austria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/hungary?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/czech-republic?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mongolia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zambia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/malawi?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/botswana?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uganda/ug-overview?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/uganda?lang=eng",
+    "https://en.wikipedia.org/wiki/List_of_landlocked_countries"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Twelve landlocked countries have stakes. Bolivia leads with 33, then Zimbabwe (12), Paraguay (11) and Switzerland (5). Austria, Mongolia, Malawi and Uganda have 2 or more; Hungary, the Czech Republic, Zambia and Botswana have one each. Landlocked Nepal, Laos, Ethiopia, Rwanda, Armenia and Slovakia have congregations but no stake yet.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BWA",
+    "CZE"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 5,
      "gem": false,
-     "fact": "Okinawa Japan."
+     "fact": "33 stakes; about 236,000 members."
     },
     {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
      "gem": false,
-     "fact": "San Pedro Sula Honduras."
+     "fact": "5 stakes."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 4,
+     "gem": false,
+     "fact": "11 stakes."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes."
     },
     {
      "code": "HUN",
      "name": "Hungary",
      "commonness": 2,
      "gem": false,
-     "fact": "Budapest Hungary."
+     "fact": "1 stake."
     },
     {
-     "code": "TON",
-     "name": "Tonga",
+     "code": "MNG",
+     "name": "Mongolia",
      "commonness": 2,
      "gem": false,
-     "fact": "Neiafu Tonga."
+     "fact": "2 stakes."
     },
     {
-     "code": "ASM",
-     "name": "American Samoa",
+     "code": "MWI",
+     "name": "Malawi",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "ZMB",
+     "name": "Zambia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "BWA",
+     "name": "Botswana",
      "commonness": 1,
      "gem": true,
-     "fact": "Pago Pago American Samoa."
+     "fact": "1 stake."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake."
     }
    ]
   },
   {
-   "id": "global-mtcs-closed-2019-2023",
+   "id": "global-english-official-50k",
    "bank": "global",
-   "display_text": "Pin a country whose Church missionary training center closed between 2019 and 2023",
-   "text_original": "Between 2019 and 2023 the Church closed several missionary training centers outside the United States as more missionaries trained at home or online. A country whose missionary training center closed in that period.",
+   "display_text": "Pin a country where English is an official or de facto official language and the Church has over 50,000 members (end of 2025).",
+   "text_original": "A country where English is an official or de facto official language and the Church had more than 50,000 members at the end of 2025 (latest figures as of October 2026).",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "2019-2023",
-   "citation": "Church News 2019-02-08; Newsroom (Guatemala MTC, Colombia MTC)",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (membership, 31 Dec 2025); Wikipedia country infoboxes (official languages)",
    "source_urls": [
-    "https://www.thechurchnews.com/2019/2/8/23219280/heres-why-the-church-has-decided-to-close-4-international-mtcs/",
-    "https://newsroom.churchofjesuschrist.org/article/guatemala-missionary-training-center-closing",
-    "https://newsroom.churchofjesuschrist.org/article/colombia-mtc-closing-january-2023"
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/united-states?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/canada?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/united-kingdom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/australia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/new-zealand?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/ghana?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/south-africa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/samoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/tonga?lang=eng",
+    "https://en.wikipedia.org/wiki/United_States",
+    "https://en.wikipedia.org/wiki/Canada",
+    "https://en.wikipedia.org/wiki/United_Kingdom",
+    "https://en.wikipedia.org/wiki/Australia",
+    "https://en.wikipedia.org/wiki/New_Zealand",
+    "https://en.wikipedia.org/wiki/Philippines",
+    "https://en.wikipedia.org/wiki/Nigeria",
+    "https://en.wikipedia.org/wiki/Ghana",
+    "https://en.wikipedia.org/wiki/South_Africa",
+    "https://en.wikipedia.org/wiki/Zimbabwe",
+    "https://en.wikipedia.org/wiki/Samoa",
+    "https://en.wikipedia.org/wiki/Tonga"
    ],
-   "difficulty": 3,
+   "difficulty": 1,
    "note": null,
-   "summary": "In 2019 the Church closed its training centers in Santiago, Madrid and Santo Domingo, then Buenos Aires that July. Guatemala City followed in January 2020 and Bogota in January 2023. Missionaries from those lands now train at home, online or at the remaining centers.",
-   "stamp": null,
+   "summary": "English-speaking countries hold much of the Church's membership: the United States, Canada, the United Kingdom, Australia and New Zealand, plus the Philippines, Nigeria and Ghana. South Africa, Zimbabwe, Samoa and Tonga also list English among their official languages; each had over 50,000 members at the end of 2025. English is only de facto official in the UK and Australia. Papua New Guinea (46,583) falls short.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "COL",
-    "DOM",
-    "GTM"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Buenos Aires MTC closed in July 2019."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Santiago MTC closed in January 2019."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Madrid MTC closed in January 2019."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Bogota MTC closed in January 2023."
-    },
-    {
-     "code": "DOM",
-     "name": "Dominican Republic",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Santo Domingo MTC closed in January 2019."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The Guatemala City MTC closed in January 2020."
-    }
-   ]
-  },
-  {
-   "id": "bom-first-editions-1980",
-   "bank": "bom",
-   "display_text": "Pin the homeland of a language (not Arabic) whose first Book of Mormon, whole or in part, came out in 1980",
-   "text_original": "A country that is the home of a language, other than Arabic, in which the Book of Mormon was first published, in selections or in full, in 1980",
-   "accepts": "country",
-   "topic": "scripture translation",
-   "era": "1980",
-   "citation": "Church translations table, Book of Mormon; Church News, 27 Feb 2022; Global Histories chronology: Fiji",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/manual/translations-and-downloads/scriptures/book-of-mormon?lang=eng",
-    "https://www.thechurchnews.com/global/2022-02-27/book-of-mormon-translations-maps-where-115-languages-spoken-244064",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Arabic, also first published in 1980 as selections, is left out so the list stays closed. Russian is dated 1981 by Church News.",
-   "summary": "The year 1980 brought the Book of Mormon into six new languages, mostly as selections that were completed later. Besides Arabic they were Bulgarian, Navajo, Ecuadorian Quichua, Vietnamese and Fijian, whose first 50 copies reached Suva that October.",
-   "stamp": null,
-   "gems": [
-    "ECU"
+    "ZWE"
    ],
    "gem_forced": false,
    "answers": [
-    {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Fijian, 1980; the first 50 copies reached Suva on 29 October 1980."
-    },
-    {
-     "code": "VNM",
-     "name": "Vietnam",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Vietnamese selections came out in 1980 and the full book in 1982."
-    },
-    {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Bulgarian selections came out in 1980 and the full book in 1999."
-    },
     {
      "code": "USA",
      "name": "United States",
-     "commonness": 2,
+     "commonness": 5,
      "gem": false,
-     "fact": "Navajo selections came out in 1980; a revised edition followed in 1998."
+     "fact": "English; 6,929,770 members."
     },
     {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Quichua (Ecuador) selections came out in 1980 and the full book in 2011."
-    }
-   ]
-  },
-  {
-   "id": "global-northern-europe-first-stakes-1960-77",
-   "bank": "global",
-   "display_text": "Pin a Northern European country whose first stake (a group of congregations) came 1960-1977 (Northern Ireland counts as UK)",
-   "text_original": "Stakes came to Europe in 1960 and spread north over the next two decades. A country in Northern Europe (the Nordic and Baltic countries, the United Kingdom and Ireland) whose first stake was organized between 1960 and 1977.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1960-1977",
-   "citation": "Global Histories chronologies (Northern Europe)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/estonia/ee-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/latvia/lv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/lithuania/lt-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Ireland's first stake came in 1995. Belfast's 1974 stake is in the United Kingdom, which already had stakes.",
-   "summary": "Europe's first stake was organized in Manchester, England, in 1960. Scandinavia followed in the 1970s: Copenhagen in 1974, Stockholm in 1975, and Oslo and Helsinki in 1977. Ireland waited until 1995, and Iceland and the Baltic states still have districts rather than stakes as of October 2026.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "FIN"
-   ],
-   "gem_forced": false,
-   "answers": [
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "English (de facto official); 165,272 members."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "English and French; 211,581 members."
+    },
     {
      "code": "GBR",
      "name": "United Kingdom",
      "commonness": 4,
      "gem": false,
-     "fact": "The Manchester England Stake, the first stake in Europe, was organized March 27, 1960."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Copenhagen Denmark Stake, the first in Scandinavia, was organized June 16, 1974."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Stockholm Sweden Stake was organized April 20, 1975."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Oslo Norway Stake, Norway's first, was created May 22, 1977."
-    },
-    {
-     "code": "FIN",
-     "name": "Finland",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The Helsinki Finland Stake, Finland's first, was organized October 16, 1977."
-    }
-   ]
-  },
-  {
-   "id": "people-seventies-young-missions-asia",
-   "bank": "people",
-   "display_text": "Pin an Asian country or territory where a current General Authority Seventy served as a young full-time missionary.",
-   "text_original": "Several General Authority Seventies serving as of October 2026 were once young full-time missionaries in Asia. Pin an Asian country or territory where one of them served, as named in the Church's official biographies.",
-   "accepts": "country_or_territory",
-   "topic": "missionary work",
-   "era": "1970s-2000s",
-   "citation": "Church leader biographies, General Authority Seventies, read 27 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/quorum-of-the-seventy?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/j-kimo-esplin?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kyle-s-mckay?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/john-a-mccune?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/scott-d-whiting?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/james-r-rasband?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-t-ringwood?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/yoon-hwan-choi?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/carlos-g-revillo-jr?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/james-o-fantone?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/michael-john-u-teh?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/david-p-homer?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/wan-liang-wu?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/kelly-r-johnson?lang=eng",
-    "https://www.thechurchnews.com/leaders-and-ministry/2006-05-13/elder-anthony-d-perkins-general-authority-seventy-2006-86422/",
-    "https://www.churchofjesuschrist.org/learn/ronald-a-rasband?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026, the biographies of current General Authority Seventies name young missions in Japan, South Korea, the Philippines, Hong Kong and Thailand. Elder Kelly R. Johnson later returned to the Thailand Bangkok Mission with his wife as mission leaders.",
-   "stamp": null,
-   "gems": [
-    "THA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Japan Kobe, Fukuoka and Tokyo North missions (Elders Esplin, McKay, McCune, Whiting)."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Korea Seoul and Busan missions (Elders Ringwood, Choi)."
+     "fact": "English (de facto official); 190,066 members."
     },
     {
      "code": "PHL",
      "name": "Philippines",
      "commonness": 4,
      "gem": false,
-     "fact": "Philippines Bacolod and Cebu, Cagayan de Oro, and Davao missions (Elders Revillo, Fantone, Teh)."
+     "fact": "Filipino and English; 905,082 members."
     },
     {
-     "code": "HKG",
-     "name": "Hong Kong",
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 3,
+     "gem": false,
+     "fact": "English; 122,978 members."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "English; 274,043 members."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "English, Maori and NZ Sign Language; 120,992 members."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
      "commonness": 2,
      "gem": false,
-     "fact": "China Hong Kong Mission (Elders Homer and Wu)."
+     "fact": "Tongan and English; 69,594 members."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
+     "code": "WSM",
+     "name": "Samoa",
      "commonness": 2,
      "gem": false,
-     "fact": "Elder Anthony D. Perkins served his young mission in Taiwan."
+     "fact": "Samoan and English; 90,706 members."
     },
     {
-     "code": "THA",
-     "name": "Thailand",
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "English is one of 12 official languages; 78,689 members."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
      "commonness": 1,
      "gem": true,
-     "fact": "Thailand Bangkok Mission (Elder Kelly R. Johnson)."
+     "fact": "English is among 16 official languages; 52,430 members."
+    }
+   ]
+  },
+  {
+   "id": "bible-ezra-nehemiah-lands",
+   "bank": "bible",
+   "display_text": "Pin a country that holds a place or a people named in the books of Ezra or Nehemiah.",
+   "text_original": "A present-day country that holds a place or people named in Ezra or Nehemiah",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Ezra 1; 3:7; Nehemiah 1:1; 2:10, 19; 3:2; 4:2; 9:9",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/3?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/geshem?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Ezra and Nehemiah tell of exiles returning from Babylon to rebuild Jerusalem. Nehemiah left the Persian palace at Shushan, cedar came from Lebanon by way of Tyre and Sidon, and the builders were mocked by Sanballat of Samaria, Tobiah the Ammonite and Geshem the Arabian (Nehemiah 2:19).",
+   "stamp": null,
+   "gems": [
+    "SAU"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Both books are about rebuilding Jerusalem's temple and walls (Ezra 1:3; Nehemiah 2:17)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The exiles returned from Babylon under Cyrus's decree (Ezra 1:11)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Nehemiah was cupbearer at Shushan the palace when he heard of Jerusalem's ruin (Nehemiah 1:1)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Men of Jericho built part of the wall, and Sanballat mocked from Samaria (Nehemiah 3:2; 4:2)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Levites' prayer recalls the signs against Pharaoh in Egypt (Nehemiah 9:9)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Tobiah the Ammonite, an enemy of the wall, came from Ammon east of the Jordan (Nehemiah 2:10)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Cedar came by sea from Lebanon through Zidon and Tyre for the temple (Ezra 3:7)."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Geshem the Arabian joined the scoffers against Nehemiah (Nehemiah 2:19)."
     }
    ]
   }

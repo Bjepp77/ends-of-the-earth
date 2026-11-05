@@ -1,0 +1,383 @@
+{
+ "day": 74,
+ "prompts": [
+  {
+   "id": "place-priesthood-restoration-site",
+   "bank": "places",
+   "display_text": "Pin the Priesthood Restoration Site in Harmony, Pennsylvania.",
+   "text_original": "Drop a pin on the Priesthood Restoration Site in Harmony, Pennsylvania, on the Susquehanna River, where John the Baptist restored the Aaronic Priesthood in 1829.",
+   "accepts": "place",
+   "kind": "restoration",
+   "place": {
+    "name": "Priesthood Restoration Site, Oakland Township (Harmony), Pennsylvania",
+    "lat": 41.9521,
+    "lng": -75.6376
+   },
+   "topic": "church history sites",
+   "era": "1827-1830",
+   "citation": "Priesthood Restoration Site page, ChurchofJesusChrist.org; Church History Topics, Book of Mormon Translation, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/locations/priesthood-restoration-site?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/topics/book-of-mormon-translation?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Joseph and Emma Smith lived in Harmony, near Emma's parents, from 1827 to 1830. Joseph translated most of the Book of Mormon there with Oliver Cowdery as scribe. On May 15, 1829, John the Baptist appeared to them on the banks of the Susquehanna and restored the Aaronic Priesthood (D&C 13). The Church opened the restored site in 2015.",
+   "stamp": null,
+   "gems": [],
+   "gem_forced": false,
+   "answers": []
+  },
+  {
+   "id": "hd-meetinghouse-pre-1900",
+   "bank": "sites-history",
+   "display_text": "Pin a country where the Saints built or were given a meetinghouse before 1900.",
+   "text_original": "A country where the Church built, acquired or dedicated a meetinghouse before 1900.",
+   "accepts": "country",
+   "topic": "buildings",
+   "era": "1840-1899",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Most 19th-century Saints met in homes and rented halls, but a few lands had a Church meetinghouse before 1900: the Gadfield Elm Chapel in England (1840), Calcutta (1851), Christiania (1871), Samoa (1888), Alberta (1888) and Tonga (1892).",
+   "stamp": null,
+   "gems": [
+    "IND",
+    "TON"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1888 the Lees Creek Branch in Alberta erected and dedicated its first meetinghouse."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1840 the United Brethren deeded the Gadfield Elm Chapel to the Church, the first Church-owned meetinghouse in Europe; Dan Jones dedicated the Llanelli meetinghouse in Wales in 1849."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Christiania Conference House, the first Church-built meetinghouse and office in Europe, was dedicated in 1871."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first meetinghouse constructed in Samoa was dedicated at Aunuu on October 28, 1888."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1851 an architect and builder in Calcutta constructed the first Church meetinghouse in Asia."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On May 15, 1892, missionaries Butler and Smoot dedicated a newly completed meetinghouse and mission home at Mua."
+    }
+   ]
+  },
+  {
+   "id": "hf-hinckley-visits-2000-2003",
+   "bank": "sites-history",
+   "display_text": "Pin a country where President Gordon B. Hinckley met the Saints on a visit between 2000 and 2003, dedications excluded.",
+   "text_original": "A country where Church President Gordon B. Hinckley met with members on a visit between 2000 and 2003 (not a temple dedication).",
+   "accepts": "country",
+   "topic": "visits",
+   "era": "2000-2003",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kiribati/ki-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/jamaica/jm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/trinidad-tobago/tt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/vanuatu/vu-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Hinckley 1996, 1998 and 2005 trips are separate prompts.",
+   "summary": "Into his 90s Hinckley kept traveling: Singapore, Thailand, Tarawa and Panama in 2000; Jamaica, Trinidad, Iceland, Moscow and Kyiv in 2002; Kiritimati Island and Vanuatu in 2003. In Jamaica he was the first Church President ever to visit.",
+   "stamp": null,
+   "gems": [
+    "ISL",
+    "KIR",
+    "TTO",
+    "VUT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 5,
+     "gem": false,
+     "fact": "September 10, 2002: President Hinckley met with 2,200 Latter-day Saints and guests in Moscow."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "June 2000: President and Sister Hinckley visited Thailand and spoke at the Thailand Air Force Convention Center."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 4,
+     "gem": false,
+     "fact": "September 9, 2002: President Hinckley met about 3,200 Saints and guests at the Palace Ukraine concert hall in Kyiv."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "May 15, 2002: Hinckley became the first Church President to visit Jamaica."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 3,
+     "gem": false,
+     "fact": "December 18, 2000: 5,000 members gathered to meet President Hinckley on his second visit in three years."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 3,
+     "gem": false,
+     "fact": "January 30, 2000: President Hinckley and Elder Boyd K. Packer visited Singapore; Saints held a special fireside."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "September 11, 2002: after meeting Iceland's president, Hinckley met with members and visitors in Reykjavik."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": true,
+     "fact": "January 26, 2000: Hinckley visited Saints on Tarawa during a Pacific tour; June 19, 2003 he visited Kiritimati Island."
+    },
+    {
+     "code": "TTO",
+     "name": "Trinidad and Tobago",
+     "commonness": 2,
+     "gem": true,
+     "fact": "May 20, 2002: nearly 900 Saints gathered to hear Hinckley; he also met prime minister Patrick Manning."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": true,
+     "fact": "June 2003: President Hinckley visited Vanuatu and met with members."
+    }
+   ]
+  },
+  {
+   "id": "temples-alps",
+   "bank": "temples",
+   "display_text": "Pin an Alpine country (the Alps run through it) with a temple dedicated, under construction or announced (as of October 2026).",
+   "text_original": "A country the Alps extend into that has a temple dedicated, under construction or announced (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; Alps geography",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://en.wikipedia.org/wiki/Alps",
+    "https://www.britannica.com/place/Alps"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "The Alps run through eight countries. Five have a temple at some stage as of October 2026: Switzerland, Germany, Italy and France with dedicated temples, and Austria with the Vienna temple under construction. Slovenia, Liechtenstein and Monaco have none.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AUT"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Bern Switzerland Temple (1955), the first in Europe."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Bavarian Alps; Freiberg (1985) and Frankfurt (1987) temples."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "French Alps; Paris France Temple (2017)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Rome Italy Temple (2019); Milan temple announced."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Vienna Austria Temple under construction."
+    }
+   ]
+  },
+  {
+   "id": "global-africa-presence-before-1978",
+   "bank": "global",
+   "display_text": "Pin an African country where Latter-day Saints lived or groups met in the Church's name before the 1978 revelation.",
+   "text_original": "Before the June 1978 revelation on the priesthood, the Church already had members or self-organized groups of believers in several African countries. Pin an African country where Latter-day Saints were baptized or where groups met in the name of the Church before 1978.",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "1853-1977",
+   "citation": "Global Histories chronologies: South Africa, Mauritius, Namibia, Zimbabwe, Uganda, Ghana, Nigeria, Zambia, Kenya, Liberia, Cote d'Ivoire",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mauritius/mu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/namibia/na-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zimbabwe/zw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uganda/ug-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/zambia/zm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kenya/ke-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Long before 1978 Latter-day Saints lived or met in Africa: South Africa from 1853, Mauritius from 1856, Namibia and Zimbabwe in the late 1920s, and self-organized groups in Ghana and Nigeria in the 1960s. Expatriate Saints also met in homes in Zambia (1943), Liberia (1950s), Kenya and Uganda (1960s) and Cote d'Ivoire (1970s).",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CIV",
+    "MUS",
+    "NAM",
+    "UGA",
+    "ZMB"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Missionaries arrived in Cape Town in 1853, and South Africa had branches for more than a century before 1978."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In the 1960s Ghanaians who had read Church literature organized their own congregations and wrote to Salt Lake City asking for missionaries."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In the 1960s Nigerians formed self-organized groups using the Church's name and petitioned Church leaders for missionaries."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "In the 1960s small groups of American expatriate Latter-day Saints met in each other's homes in Nairobi."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "From the 1950s Church members from abroad occasionally held meetings in their homes while living in Monrovia."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Jubber family and other members in Rhodesia gathered from about 1928 to 1930, and a Rhodesia District was later organized."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 1,
+     "gem": true,
+     "fact": "In the 1970s Saints from abroad living in Cote d'Ivoire held Sunday School meetings, sometimes joined by Ivorian children."
+    },
+    {
+     "code": "MUS",
+     "name": "Mauritius",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Missionaries preached on Mauritius as early as 1856."
+    },
+    {
+     "code": "NAM",
+     "name": "Namibia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Baptisms took place at Karibib in 1927 and 1928 through the Ratcliff family in what was then South West Africa."
+    },
+    {
+     "code": "UGA",
+     "name": "Uganda",
+     "commonness": 1,
+     "gem": true,
+     "fact": "From 1969 to 1973 expatriate members held Church meetings in Uganda."
+    },
+    {
+     "code": "ZMB",
+     "name": "Zambia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "In 1943 the first known Sunday School meetings in Northern Rhodesia were held in the Frederick J. and Georgina Spear home in Luanshya."
+    }
+   ]
+  }
+ ]
+}

@@ -75,101 +75,6 @@
    ]
   },
   {
-   "id": "pioneer-mischa-markow-missions",
-   "bank": "pioneer",
-   "display_text": "Pin a present-day country that Church History Topics lists for the area of Mischa Markow's missions.",
-   "text_original": "Mischa Markow, one of the first converts in eastern Europe, served two missions in lands that today belong to several countries. Pin one of those present-day countries.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1880s-1900s",
-   "citation": "Church History Topics: Mischa Markow",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/topics/mischa-markow?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Mischa Markow (1854-1934) was among the first Latter-day Saint converts in eastern Europe. Within 15 years of his conversion he served two missions across lands now in Hungary, Russia, Romania, Bulgaria, Turkey, Serbia, Croatia, Germany, Belgium and Latvia.",
-   "stamp": null,
-   "gems": [
-    "BGR",
-    "HRV",
-    "LVA"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Named by Church History Topics among the countries of Markow's missions."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Named among Markow's mission countries (Ottoman lands)."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "ROU",
-     "name": "Romania",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named; he dreamed of preaching in Temesvar, now Timisoara, Romania."
-    },
-    {
-     "code": "SRB",
-     "name": "Serbia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "HRV",
-     "name": "Croatia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named among Markow's mission countries."
-    },
-    {
-     "code": "LVA",
-     "name": "Latvia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Named among Markow's mission countries."
-    }
-   ]
-  },
-  {
    "id": "nt-old-testament-outsiders",
    "bank": "nt",
    "display_text": "Pin a country home to an Old Testament outsider the New Testament mentions (not Balaam, the queen of the south or Sodom)",
@@ -259,86 +164,6 @@
    ]
   },
   {
-   "id": "global-first-stakes-abroad-1958-62",
-   "bank": "global",
-   "display_text": "Pin a country whose very first stake (a group of congregations) was organized between 1958 and 1962",
-   "text_original": "Between 1958 and 1962 the Church organized its first stakes in a run of countries far from Utah, a sign that Saints abroad were being asked to build Zion where they lived. A country whose first stake of the Church was organized between 1958 and 1962.",
-   "accepts": "country",
-   "topic": "church growth",
-   "era": "1958-1962",
-   "citation": "Global Histories chronologies (New Zealand, England, Australia, Netherlands, Germany, Switzerland, Samoa, Mexico)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/new-zealand/nz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Mexico does not count: its first stake, in the Chihuahua and Sonora colonies, came in 1895. Canada's also came in 1895.",
-   "summary": "After New Zealand received its first stake at Auckland in 1958, stakes followed in Manchester, England and Sydney, Australia on the same day in 1960. Rotterdam, Berlin and Zurich gained the first stakes in the Netherlands, Germany and Switzerland in 1961, and Apia, Samoa followed in 1962.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "WSM"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Manchester England Stake, the first in Europe, was organized March 27, 1960."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The first stake in Australia was organized in Sydney, March 27, 1960."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Berlin Germany Stake, the first in Germany, was organized September 10, 1961."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The first stake in New Zealand was created in Auckland, May 18, 1958."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Zurich Switzerland Stake, the first in Switzerland, was organized October 27, 1961."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Holland Stake, the first in continental Europe, was created at Rotterdam, March 12, 1961."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The first stake in the Samoan Islands was organized at Apia, Western Samoa, March 18, 1962."
-    }
-   ]
-  },
-  {
    "id": "nt-fled-for-safety",
    "bank": "nt",
    "display_text": "Pin a country where Jesus's family or his disciples fled or were sent to escape danger, in Matthew or Acts",
@@ -415,6 +240,282 @@
      "commonness": 1,
      "gem": true,
      "fact": "The scattered disciples also reached Phenice, the Phoenician coast of today's Lebanon (Acts 11:19)."
+    }
+   ]
+  },
+  {
+   "id": "global-asia-10k-30k",
+   "bank": "global",
+   "display_text": "Pin an Asian country or territory, Russia excluded, where the Church has between 10,000 and 30,000 members (end of 2025).",
+   "text_original": "An Asian country or territory (Russia excluded) where the Church had between 10,000 and 30,000 members at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country_or_territory",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/hong-kong?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/thailand?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cambodia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/india?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mongolia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/malaysia?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Six Asian countries or territories had between 10,000 and 30,000 members at the end of 2025: Hong Kong (24,930), Thailand (24,825), Cambodia (18,070), India (15,664), Mongolia (13,250) and Malaysia (11,769). Indonesia (7,655) and Singapore (3,262) were below the band; the Philippines, Japan, South Korea and Taiwan were far above it. Russia (18,306), counted as European in this game, is excluded.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "MNG",
+    "MYS"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 4,
+     "gem": false,
+     "fact": "24,930 members, 1 mission."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "24,825 members, 2 missions."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 3,
+     "gem": false,
+     "fact": "15,664 members, 2 missions."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "18,070 members, 2 missions."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "13,250 members, 1 mission."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "11,769 members."
+    }
+   ]
+  },
+  {
+   "id": "scripture-published-in-country-1900s",
+   "bank": "scripture",
+   "display_text": "Pin a country or territory where a Book of Mormon translation was published inside that place during the 1900s.",
+   "text_original": "Many Book of Mormon translations in the 1900s were printed in Salt Lake City, but the Church's country chronologies place some first editions inside the country itself (Tokyo 1909, Sao Paulo 1940, Hong Kong 1965, Barcelona 1981 and others). Pin a country or territory where a Book of Mormon translation was published within the country or territory during the 1900s.",
+   "accepts": "country_or_territory",
+   "topic": "scripture translation",
+   "era": "1900-1999",
+   "citation": "Global Histories chronologies (place given with each entry)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/brazil/br-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/spain/es-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/iceland/is-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guatemala/gt-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/albania/al-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/croatia/hr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/poland/pl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bulgaria/bg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/macau/mo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/guam/gu-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In the 1900s the Church printed many translations in Salt Lake City, but a good number appeared in the country itself: Japanese in Tokyo (1909), Portuguese in Sao Paulo (1940), Chinese in Hong Kong (1965), Thai in Bangkok (1976), Catalan in Barcelona and Icelandic in Reykjavik (both 1981). Local printing usually marked a maturing Church presence.",
+   "stamp": null,
+   "gems": [
+    "ALB",
+    "BGR",
+    "COK",
+    "GUM",
+    "HRV",
+    "ISL",
+    "MAC"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Portuguese Book of Mormon was published in Sao Paulo in March 1940."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The first Japanese copies were printed and bound in Tokyo in October 1909."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The complete Korean translation was published in South Korea in 1967."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Tagalog, Cebuano and Pangasinan editions were published in the Philippines in 1998."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Afrikaans (1972) and Zulu selections (1987) were published in South Africa."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Swiss Mission published new Italian editions in Switzerland in 1951-65."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Czech Book of Mormon was published in Czechoslovakia in 1933."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Catalan Book of Mormon was published in Barcelona in 1981."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Finnish Book of Mormon was published in Finland in 1954."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The K'ekchi Book of Mormon was published in Guatemala in 1983."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Chinese Book of Mormon was printed in Hong Kong in December 1965."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Hungarian Book of Mormon was published in Hungary in December 1991."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Norwegian Book of Mormon was published in Norway on July 1, 1950."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Thai Book of Mormon was published in Bangkok in October 1976."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Chinese Book of Mormon was published in Taipei on November 2, 1963, through the efforts of Hu Wei-i."
+    },
+    {
+     "code": "ALB",
+     "name": "Albania",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Albanian Book of Mormon became available in Tirana in November 1999."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Bulgarian Book of Mormon was published in Bulgaria in 1999."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Cook Islands Maori translation was published in Rarotonga in 1966."
+    },
+    {
+     "code": "GUM",
+     "name": "Guam",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Selections from the Book of Mormon in CHamoru, translated by Maria Salas Calvo, were made available in book form in Guam in 1989."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Serbo-Croatian Book of Mormon was published in Croatia in 1979."
+    },
+    {
+     "code": "ISL",
+     "name": "Iceland",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Icelandic Book of Mormon was published in Reykjavik on September 18, 1977."
+    },
+    {
+     "code": "MAC",
+     "name": "Macau",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Book of Mormon in simplified Chinese characters was published in Macau on December 20, 1999."
     }
    ]
   }
