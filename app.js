@@ -1,19 +1,19 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=c301843b74';
-import { REFUSAL_TEXT } from './hit.js?v=c301843b74';
-import * as R from './rules.js?v=c301843b74';
-import * as G from './game.js?v=c301843b74';
-import { createStore } from './store.js?v=c301843b74';
-import { createMenu } from './menu.js?v=c301843b74';
-import { createSound } from './sound.js?v=c301843b74';
-import { shareOrCopy, preloadCard } from './share.js?v=c301843b74';
-import { createTrail } from './trail.js?v=c301843b74';
-import { createTour } from './tour.js?v=c301843b74';
-import { createThanks } from './thanks.js?v=c301843b74';
-import { createSheep } from './sheep.js?v=c301843b74';
-import { createCounter } from './count.js?v=c301843b74';
-import { createExpand } from './expand.js?v=c301843b74';
-import { createQ6 } from './q6.js?v=c301843b74';
+import { loadCountries, createMap } from './map.js?v=347fb2353f';
+import { REFUSAL_TEXT } from './hit.js?v=347fb2353f';
+import * as R from './rules.js?v=347fb2353f';
+import * as G from './game.js?v=347fb2353f';
+import { createStore } from './store.js?v=347fb2353f';
+import { createMenu } from './menu.js?v=347fb2353f';
+import { createSound } from './sound.js?v=347fb2353f';
+import { shareOrCopy } from './share.js?v=347fb2353f';
+import { createTrail } from './trail.js?v=347fb2353f';
+import { createTour } from './tour.js?v=347fb2353f';
+import { createThanks } from './thanks.js?v=347fb2353f';
+import { createSheep } from './sheep.js?v=347fb2353f';
+import { createCounter } from './count.js?v=347fb2353f';
+import { createExpand } from './expand.js?v=347fb2353f';
+import { createQ6 } from './q6.js?v=347fb2353f';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -789,12 +789,6 @@ function setCampShare() {
     ? R.replayShareText({ n: S.deal.n, km, mask })
     : R.shareText({ n: S.deal.n, tierIds: rounds.map((r) => r.t), km, mask, usedSearch: rounds.some((r) => r.b), bonus: store.bonus(S.date)?.verdict });
   $('share').dataset.shareText = text;
-  // Other 1: the premade card image for this result; a late replay has none.
-  if (S.run.late) delete $('share').dataset.shareCard;
-  else {
-    $('share').dataset.shareCard = `s/${R.shareCardCode(rounds.map((r) => r.t), store.bonus(S.date)?.verdict ?? null)}.png`;
-    preloadCard($('share').dataset.shareCard);
-  }
 }
 
 // PX1: the camp reveals row by row once per date per session; a revisit, or reduced motion, shows the final state at once.
@@ -1021,7 +1015,7 @@ $('share').onclick = () => {
   if ($('share').getAttribute('aria-disabled') === 'true') return;
   sound.click();
   count('share', true);
-  shareOrCopy($('share'), $('share').dataset.shareText, 'SHARE', $('share').dataset.shareCard);
+  shareOrCopy($('share'), $('share').dataset.shareText);
 };
 $('sound-btn').onclick = () => {
   S.settings = store.saveSettings({ sound: !store.settings().sound });

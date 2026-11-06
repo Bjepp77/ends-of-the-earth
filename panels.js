@@ -1,6 +1,6 @@
 // Menu panel logic: logbook, passport, past week, souvenirs, difficulty. Pure functions over
 // rules.js, no DOM, no storage access. logsFull = { "<date>": [5 log rows] } for finished days.
-import { TIERS, BANDS, bandFor, rowsKm, addDays, pastWeekDates, expeditionNumber, streak, assistMask, asterisks, ASSIST_BITS, dayMask } from './rules.js?v=c301843b74';
+import { TIERS, BANDS, bandFor, rowsKm, addDays, pastWeekDates, expeditionNumber, streak, assistMask, asterisks, ASSIST_BITS, dayMask } from './rules.js?v=347fb2353f';
 
 const TIER_RANK = Object.fromEntries(TIERS.map((t, i) => [t.id, i]));
 
