@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ends-of-the-earth-staging
+  namespace: colossus-ends-of-the-earth-staging
+  labels:
+    app: ends-of-the-earth-staging
+    managed-by: colossus
+spec:
+  replicas: 1
+  # Recreate: the per-project namespace memory ResourceQuota denies RollingUpdate's transient 2x pod.
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: ends-of-the-earth-staging
+  template:
+    metadata:
+      labels:
+        app: ends-of-the-earth-staging
+    spec:
+      containers:
+        - name: app
+          image: ubuntu:30500/ends-of-the-earth-staging:latest
+          imagePullPolicy: Always
+          envFrom:
+            - secretRef:
+                name: app-secrets
+                optional: true
