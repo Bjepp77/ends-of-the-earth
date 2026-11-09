@@ -1,0 +1,6 @@
+.git
+.github
+docs
+k8s
+kustomization.yaml
+README.md
