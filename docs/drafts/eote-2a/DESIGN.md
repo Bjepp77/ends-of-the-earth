@@ -181,3 +181,10 @@ Nothing was brought in. The old site still has your data. · Could not save. Thi
 The test file has not been run: this project's guard blocks code execution for me. One thing to
 confirm on the first run: node must resolve store.js's `./rules.js?v=...` import (node ESM accepts a
 query string on a file URL). If it does not, run with a loader, or test the source folder, which has no stamps.
+
+## Run note (found on the first run, 2026-11-09)
+
+On node 22, `node --test tests/` does not work: node treats the folder as a module and fails. Use
+`node --test 'tests/*.test.js'`. The comment at the top of import.test.js still says `tests/`. It is
+left alone on purpose, so the oracle stays byte-identical to 04a22883. On node 22 the
+`./rules.js?v=...` import resolves without a loader.
