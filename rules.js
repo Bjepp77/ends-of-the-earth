@@ -262,7 +262,7 @@ export function asterisks(mask) {
 // now the game is hosted). Messages turn the link into a preview card: tools/build_share_cards.py draws one
 // page and picture per pattern, named by each round's index in TIERS.
 export const GAME_NAME = 'Ends of the Earth';
-export const SITE_URL = 'https://eote.quest/';
+export const SITE_URL = 'https://bjepp77.github.io/ends-of-the-earth/';
 
 export function shareCode(tierIds) {
   return tierIds.map((id) => TIERS.indexOf(tierById(id))).join('');

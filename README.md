@@ -9,7 +9,7 @@
 Five prompts a day. Answer each one by pinning a country. The rarer your
 correct answer, the further it carries you along the pioneer trail.
 
-**[Play it here](https://eote.quest/)** · new expedition at midnight, your time
+**[Play it here](https://bjepp77.github.io/ends-of-the-earth/)** · new expedition at midnight, your time
 
 <sub>MIT licensed · static site · plain JavaScript modules · no accounts · no ads · runs in your browser</sub>
 
