@@ -130,65 +130,6 @@
    ]
   },
   {
-   "id": "tb-four-announced",
-   "bank": "sites-temples",
-   "display_text": "Pin a country outside the US with 4 or more temples announced but not yet being built.",
-   "text_original": "A country outside the United States with four or more temples announced but not yet under construction, as of November 2026.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2018-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Recent prophets announced temples faster than they can be built. As of November 2026 these countries each have at least four announced temples where work has not started.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "NGA"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Ten announced on the official list, including Cancún, Toluca, Culiacán and Reynosa."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "At least five announced, including Florianópolis, Goiânia, Vitória and Campo Grande."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 4,
-     "gem": false,
-     "fact": "At least five announced, including Cusco, Piura, Chiclayo and Chorrillos."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Five announced: Tuguegarao City, Santiago, Iloilo, Laoag and San Jose del Monte."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Four announced: Eket, Calabar, Abuja and Uyo."
-    }
-   ]
-  },
-  {
    "id": "ha-kimball-land-dedications",
    "bank": "sites-history",
    "display_text": "Pin a country Spencer W. Kimball dedicated for missionary work, from Central America to Poland.",
@@ -259,6 +200,65 @@
      "commonness": 3,
      "gem": true,
      "fact": "August 24, 1977, Warsaw: as Church President, rededicated Poland."
+    }
+   ]
+  },
+  {
+   "id": "tb-four-announced",
+   "bank": "sites-temples",
+   "display_text": "Pin a country outside the US with 4 or more temples announced but not yet being built.",
+   "text_original": "A country outside the United States with four or more temples announced but not yet under construction, as of November 2026.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2018-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Recent prophets announced temples faster than they can be built. As of November 2026 these countries each have at least four announced temples where work has not started.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "NGA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Ten announced on the official list, including Cancún, Toluca, Culiacán and Reynosa."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "At least five announced, including Florianópolis, Goiânia, Vitória and Campo Grande."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "At least five announced, including Cusco, Piura, Chiclayo and Chorrillos."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Five announced: Tuguegarao City, Santiago, Iloilo, Laoag and San Jose del Monte."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Four announced: Eket, Calabar, Abuja and Uyo."
     }
    ]
   },

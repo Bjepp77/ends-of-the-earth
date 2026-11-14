@@ -28,6 +28,78 @@
    "answers": []
   },
   {
+   "id": "bible-marriages",
+   "bank": "bible",
+   "display_text": "Pin a country where the Bible records a marriage taking place.",
+   "text_original": "A present-day country where the Bible records a marriage taking place",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old and New Testament",
+   "citation": "Genesis 29; 41:45; Judges 14; Ruth 1:4; 4:13; Esther 2:16-17; John 2:1-11",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Bible marriages span the whole map. Jacob married Leah and Rachel at Haran in today's Turkey, Joseph married Asenath in Egypt, and Ruth first married in Moab and then Boaz at Bethlehem (Ruth 4:13). Esther was crowned at Shushan in Iran, and the best known wedding of all, at Cana of Galilee, is where Jesus turned water into wine (John 2).",
+   "stamp": null,
+   "gems": [
+    "PSE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Jesus turned water to wine at a wedding in Cana of Galilee, and Samson married at Timnath (John 2:1-11; Judges 14)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Pharaoh gave Joseph Asenath, daughter of the priest of On, as his wife (Genesis 41:45)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Jacob married Leah and Rachel at Haran, in southeastern Turkey today (Genesis 29)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Esther became queen at Shushan when the king set the crown on her head (Esther 2:16-17)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Naomi's sons took Moabite wives, Orpah and Ruth, in the land of Moab (Ruth 1:4)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Boaz took Ruth to wife at Bethlehem (Ruth 4:13)."
+    }
+   ]
+  },
+  {
    "id": "tc-same-city-two-temples",
    "bank": "sites-temples",
    "display_text": "Pin a non-US country where a single city has, or will have, two temples carrying its name.",
@@ -97,78 +169,6 @@
      "commonness": 3,
      "gem": true,
      "fact": "Guatemala City Guatemala (1984) and Miraflores Guatemala City (2026)."
-    }
-   ]
-  },
-  {
-   "id": "bible-marriages",
-   "bank": "bible",
-   "display_text": "Pin a country where the Bible records a marriage taking place.",
-   "text_original": "A present-day country where the Bible records a marriage taking place",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old and New Testament",
-   "citation": "Genesis 29; 41:45; Judges 14; Ruth 1:4; 4:13; Esther 2:16-17; John 2:1-11",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/14?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/esth/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/john/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng"
-   ],
-   "difficulty": 1,
-   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
-   "summary": "Bible marriages span the whole map. Jacob married Leah and Rachel at Haran in today's Turkey, Joseph married Asenath in Egypt, and Ruth first married in Moab and then Boaz at Bethlehem (Ruth 4:13). Esther was crowned at Shushan in Iran, and the best known wedding of all, at Cana of Galilee, is where Jesus turned water into wine (John 2).",
-   "stamp": null,
-   "gems": [
-    "PSE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Jesus turned water to wine at a wedding in Cana of Galilee, and Samson married at Timnath (John 2:1-11; Judges 14)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Pharaoh gave Joseph Asenath, daughter of the priest of On, as his wife (Genesis 41:45)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Jacob married Leah and Rachel at Haran, in southeastern Turkey today (Genesis 29)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Esther became queen at Shushan when the king set the crown on her head (Esther 2:16-17)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Naomi's sons took Moabite wives, Orpah and Ruth, in the land of Moab (Ruth 1:4)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Boaz took Ruth to wife at Bethlehem (Ruth 4:13)."
     }
    ]
   },

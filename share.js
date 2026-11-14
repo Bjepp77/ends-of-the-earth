@@ -1,4 +1,4 @@
-// §7 share button. The text itself comes from rules.js shareText (2 lines plus a link to a premade share card, D2; the text goes only to the clipboard or share sheet, and the click handler in app.js counts one anonymous share event).
+// §7 share button. The text itself comes from rules.js shareText (1 line plus a link to a premade share card, D2; the text goes only to the clipboard or share sheet, and the click handler in app.js counts one anonymous share event).
 // Coarse pointer with a share sheet: native share, text only. The text ends in the s/<code>.html link, whose og:image is this
 // result's card, so the chat app draws the card as the link preview. Attaching the PNG too showed the card twice in iMessage.
 // Otherwise copy to the clipboard, falling back to a hidden textarea and execCommand. The label reads COPIED for 1.6 s.

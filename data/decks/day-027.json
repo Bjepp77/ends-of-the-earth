@@ -70,103 +70,6 @@
    ]
   },
   {
-   "id": "temples-pending-asia-pacific",
-   "bank": "draft",
-   "display_text": "Pin an Asian or Pacific country or territory with a temple announced or being built, but none dedicated yet.",
-   "text_original": "Pin an Asian or Pacific country or territory with a temple announced or under construction but none dedicated yet (as of October 2026).",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "temple list, 26 Oct 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://www.thechurchnews.com/temples/2026/08/24/pago-pago-american-samoa-temple-dedication-open-house-set/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "As of October 2026, many Asian and Pacific places were waiting for their first temple. Temples were under construction in Bengaluru, Singapore, Kiribati, Papua New Guinea and Vanuatu, and announced for Shanghai, Jakarta, Ulaanbaatar, Dubai and Noumea. Pago Pago in American Samoa was listed as opening soon.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "KIR",
-    "NCL",
-    "VUT"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Bengaluru, under construction."
-    },
-    {
-     "code": "ARE",
-     "name": "United Arab Emirates",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Dubai, announced."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Pago Pago, under construction; dedication set for 13 December 2026."
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Jakarta, announced."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Ulaanbaatar, announced."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Port Moresby, under construction."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Singapore, under construction."
-    },
-    {
-     "code": "KIR",
-     "name": "Kiribati",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Tarawa, under construction."
-    },
-    {
-     "code": "NCL",
-     "name": "New Caledonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Noumea, announced."
-    },
-    {
-     "code": "VUT",
-     "name": "Vanuatu",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port Vila, under construction."
-    }
-   ]
-  },
-  {
    "id": "bible-kings-and-exiles",
    "bank": "bible",
    "display_text": "Pin a present-day country where a king of Israel or Judah died, or where their people were carried or fled into exile.",
@@ -244,6 +147,83 @@
      "commonness": 1,
      "gem": true,
      "fact": "Exiles went to the river Gozan, now Tell Halaf in Syria (2 Kings 17:6)."
+    }
+   ]
+  },
+  {
+   "id": "global-hinckley-world-trip-2005",
+   "bank": "global",
+   "display_text": "Pin a country or territory outside the US where President Hinckley met Saints on his 2005 round-the-world trip",
+   "text_original": "In July and August 2005, at age 95, President Gordon B. Hinckley flew around the world, stopping to meet Saints in seven cities. A country or territory outside the United States where he stopped to meet members or dedicate a building on that trip.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "2005",
+   "citation": "Liahona, Dec. 2005, President Hinckley Travels the World",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/liahona/2005/12/news-of-the-church/president-hinckley-travels-the-world?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Hong Kong is the answer for the Hong Kong stop; mainland China was not visited.",
+   "summary": "In mid-2005 President Gordon B. Hinckley, then 95, circled the globe. He greeted Saints at Vladivostok, spoke in Seoul, dedicated office buildings in Taipei and Hong Kong, dedicated the Aba Nigeria Temple, and met small groups of members in Delhi and Nairobi.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IND",
+    "KEN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He spoke at a regional conference in Seoul marking 50 years of the Church in Korea."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He dedicated the Aba Nigeria Temple."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "He greeted about 200 members at the Vladivostok airport during a refueling stop."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 2,
+     "gem": false,
+     "fact": "He met members in Hong Kong and dedicated a Church office building."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "He met members in Taipei and dedicated a Church office building."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He met a small group of members in Delhi during a brief stop."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 1,
+     "gem": true,
+     "fact": "He met a small group of members in Nairobi during a brief stop."
     }
    ]
   },

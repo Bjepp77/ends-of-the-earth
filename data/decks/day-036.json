@@ -2,6 +2,170 @@
  "day": 36,
  "prompts": [
   {
+   "id": "global-africa-two-plus-missions-2025",
+   "bank": "global",
+   "display_text": "Pin an African country with two or more missions of the Church (end of 2025).",
+   "text_original": "An African country with two or more missions of the Church at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country",
+   "topic": "missions",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (31 Dec 2025)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/democratic-republic-of-the-congo?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/ghana?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/south-africa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cote-divoire?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/kenya?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/madagascar?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "At the end of 2025 ten African countries had two or more missions. Nigeria led with 11, followed by the Democratic Republic of the Congo (7), Ghana (6), South Africa and Ivory Coast (4 each), and Sierra Leone, Zimbabwe, Kenya, Mozambique and Madagascar (2 each). Every other African country had one mission or none.",
+   "stamp": null,
+   "gems": [
+    "MDG"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
+     "gem": false,
+     "fact": "6 missions, 122,978 members."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "11 missions, 274,043 members."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "7 missions, 159,771 members."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "4 missions."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 missions."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 missions, 24,547 members."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 missions, 52,430 members."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 missions, 39,282 members."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 missions, 41,775 members."
+    },
+    {
+     "code": "MDG",
+     "name": "Madagascar",
+     "commonness": 1,
+     "gem": true,
+     "fact": "2 missions, 20,395 members."
+    }
+   ]
+  },
+  {
+   "id": "scripture-missionary-translators",
+   "bank": "scripture",
+   "display_text": "Pin a country whose Church chronology records a foreign missionary leading or overseeing its first Book of Mormon translation.",
+   "text_original": "Several early Book of Mormon translations were led by missionaries from abroad who learned the language. Pin a country whose Church chronology records a foreign missionary or mission president leading or overseeing its first Book of Mormon translation.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "1851-1991",
+   "citation": "Global Histories chronologies: Japan, Hawaii, Mexico, Germany, Hungary",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hawaii/hi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Many of the earliest translations were missionary projects. Alma O. Taylor spent five years on the Japanese Book of Mormon (1904-09), George Q. Cannon learned Hawaiian well enough to translate it with Jonathan Napela, Daniel W. Jones began the Spanish work in 1874, and John Taylor directed the German translation in Hamburg.",
+   "stamp": null,
+   "gems": [
+    "HUN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Alma O. Taylor oversaw the first Japanese translation, 1904-1909."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 4,
+     "gem": false,
+     "fact": "George Q. Cannon translated into Hawaiian with Jonathan Napela, finishing in 1854."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Under John Taylor's direction, George P. Dykes and George Viett began the German translation in 1851."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Brigham Young asked Daniel W. Jones and Henry Brizzee to translate portions into Spanish in 1874-75."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Arthur Gaeth, Czechoslovak Mission president, revived the Hungarian translation with a local member in 1931."
+    }
+   ]
+  },
+  {
    "id": "pioneer-wwi-missionaries-withdrawn",
    "bank": "pioneer",
    "display_text": "Pin a European country other than the UK whose Church missionaries left when World War I began in 1914.",
@@ -110,170 +274,6 @@
      "commonness": 1,
      "gem": true,
      "fact": "Last missionary in Brasso (Brasov) left after the war began."
-    }
-   ]
-  },
-  {
-   "id": "scripture-missionary-translators",
-   "bank": "scripture",
-   "display_text": "Pin a country whose Church chronology records a foreign missionary leading or overseeing its first Book of Mormon translation.",
-   "text_original": "Several early Book of Mormon translations were led by missionaries from abroad who learned the language. Pin a country whose Church chronology records a foreign missionary or mission president leading or overseeing its first Book of Mormon translation.",
-   "accepts": "country",
-   "topic": "scripture translation",
-   "era": "1851-1991",
-   "citation": "Global Histories chronologies: Japan, Hawaii, Mexico, Germany, Hungary",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hawaii/hi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/hungary/hu-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Many of the earliest translations were missionary projects. Alma O. Taylor spent five years on the Japanese Book of Mormon (1904-09), George Q. Cannon learned Hawaiian well enough to translate it with Jonathan Napela, Daniel W. Jones began the Spanish work in 1874, and John Taylor directed the German translation in Hamburg.",
-   "stamp": null,
-   "gems": [
-    "HUN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Alma O. Taylor oversaw the first Japanese translation, 1904-1909."
-    },
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 4,
-     "gem": false,
-     "fact": "George Q. Cannon translated into Hawaiian with Jonathan Napela, finishing in 1854."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Under John Taylor's direction, George P. Dykes and George Viett began the German translation in 1851."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Brigham Young asked Daniel W. Jones and Henry Brizzee to translate portions into Spanish in 1874-75."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Arthur Gaeth, Czechoslovak Mission president, revived the Hungarian translation with a local member in 1931."
-    }
-   ]
-  },
-  {
-   "id": "global-africa-two-plus-missions-2025",
-   "bank": "global",
-   "display_text": "Pin an African country with two or more missions of the Church (end of 2025).",
-   "text_original": "An African country with two or more missions of the Church at the end of 2025 (latest figures as of October 2026).",
-   "accepts": "country",
-   "topic": "missions",
-   "era": "2025",
-   "citation": "Church facts and statistics country pages (31 Dec 2025)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/democratic-republic-of-the-congo?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/ghana?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/south-africa?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/cote-divoire?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/kenya?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/madagascar?lang=eng"
-   ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "At the end of 2025 ten African countries had two or more missions. Nigeria led with 11, followed by the Democratic Republic of the Congo (7), Ghana (6), South Africa and Ivory Coast (4 each), and Sierra Leone, Zimbabwe, Kenya, Mozambique and Madagascar (2 each). Every other African country had one mission or none.",
-   "stamp": null,
-   "gems": [
-    "MDG"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 5,
-     "gem": false,
-     "fact": "6 missions, 122,978 members."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 5,
-     "gem": false,
-     "fact": "11 missions, 274,043 members."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 4,
-     "gem": false,
-     "fact": "7 missions, 159,771 members."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 4,
-     "gem": false,
-     "fact": "4 missions."
-    },
-    {
-     "code": "CIV",
-     "name": "Ivory Coast",
-     "commonness": 3,
-     "gem": false,
-     "fact": "4 missions."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 3,
-     "gem": false,
-     "fact": "2 missions, 24,547 members."
-    },
-    {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 3,
-     "gem": false,
-     "fact": "2 missions, 52,430 members."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 2,
-     "gem": false,
-     "fact": "2 missions, 39,282 members."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 2,
-     "gem": false,
-     "fact": "2 missions, 41,775 members."
-    },
-    {
-     "code": "MDG",
-     "name": "Madagascar",
-     "commonness": 1,
-     "gem": true,
-     "fact": "2 missions, 20,395 members."
     }
    ]
   },

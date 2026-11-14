@@ -258,7 +258,8 @@ export function asterisks(mask) {
   return s;
 }
 
-// §7 share text: 2 lines, then the link to this result's card (owner, 2026-10-28, ends D2's no-link rule
+// §7 share text: one line, then the link (owner, 2026-11-06: the card already shows the rounds, so the
+// round-by-round line and the bonus line are gone; the link still names the bonus card). Was: 2 lines, then the link to this result's card (owner, 2026-10-28, ends D2's no-link rule
 // now the game is hosted). Messages turn the link into a preview card: tools/build_share_cards.py draws one
 // page and picture per pattern, named by each round's index in TIERS.
 export const GAME_NAME = 'Ends of the Earth';
@@ -273,7 +274,7 @@ export function formatKm(n) {
 }
 
 // km is the day total from the log rows (it can include the D7 bonus); without it the tiers decide.
-// bonus is question 6's saved verdict, once checked (owner ruling 2026-11-03): a line of its own, out of the km.
+// bonus is question 6's saved verdict, once checked (owner ruling 2026-11-03), out of the km. Since 2026-11-06 it has no text line.
 // The card shows it too (owner ask 2026-11-05): a checked bonus adds h (hit) or m (near or miss) to the code.
 export function shareCardCode(tierIds, bonus = null) {
   return `${shareCode(tierIds)}${bonus ? (bonus === 'hit' ? 'h' : 'm') : ''}`;
@@ -281,9 +282,7 @@ export function shareCardCode(tierIds, bonus = null) {
 
 export function shareText({ n, tierIds, km = dayKm(tierIds), mask = 0, usedSearch = false, bonus = null }) {
   const line1 = `${GAME_NAME} #${n} · ${formatKm(km)}/${formatKm(EDGE_KM)} km${asterisks(mask)}${usedSearch ? ' · ⌕' : ''}`;
-  const line2 = tierIds.map((id) => tierById(id).name).join(' · ');
-  const line3 = bonus ? `Bonus: ${bonus === 'hit' ? '✓' : '✗'}\n` : '';
-  return `${line1}\n${line2}\n${line3}${SITE_URL}s/${shareCardCode(tierIds, bonus)}.html`;
+  return `${line1}\n${SITE_URL}s/${shareCardCode(tierIds, bonus)}.html`;
 }
 
 // §7 replay share. Our replay is a late past-week day: unranked, km and asterisks only, two lines (D2).

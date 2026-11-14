@@ -2,68 +2,77 @@
  "day": 28,
  "prompts": [
   {
-   "id": "temples-new-1987-98",
-   "bank": "temples",
-   "display_text": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
-   "text_original": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
-   "accepts": "country_or_territory",
-   "topic": "temples",
-   "era": "1987-1998",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "id": "scripture-german-official-lands",
+   "bank": "scripture",
+   "display_text": "Pin a country where German, the language of an 1852 Book of Mormon translation, is an official language today.",
+   "text_original": "The German translation of the Book of Mormon was published in Hamburg in 1852, one of the earliest translations. Pin a country where German is an official language today.",
+   "accepts": "country",
+   "topic": "scripture translation",
+   "era": "1852",
+   "citation": "Global Histories: Germany chronology (1852)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://en.wikipedia.org/wiki/German_language"
    ],
-   "difficulty": 3,
+   "difficulty": 1,
    "note": null,
-   "summary": "Only five countries and territories saw a new temple dedicated from 1987 through 1998: Frankfurt in 1987, Toronto in 1990, Hong Kong in 1996 and Preston, England, in 1998, plus nine in the United States. The wave of smaller temples began with Monticello, Utah, in 1998.",
-   "stamp": "as of 26 Oct 2026",
+   "summary": "The German Book of Mormon came out in Hamburg in May 1852, with a special edition carrying French and German on facing pages. German is official today in Germany, Austria, Switzerland, Belgium, Luxembourg and Liechtenstein, so that 1852 translation still serves members in six countries.",
+   "stamp": null,
    "gems": [
-    "HKG"
+    "LIE"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
-    {
-     "code": "USA",
-     "name": "United States of America",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Bountiful Utah, 1995; Las Vegas Nevada, 1989; Monticello Utah, 1998; and 6 more."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Toronto Ontario, 1990."
-    },
     {
      "code": "DEU",
      "name": "Germany",
-     "commonness": 3,
+     "commonness": 5,
      "gem": false,
-     "fact": "Frankfurt Germany, 1987."
+     "fact": "The German Book of Mormon was published in Hamburg on May 25, 1852."
     },
     {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 4,
      "gem": false,
-     "fact": "Preston England, 1998."
+     "fact": "German is the official language of Austria."
     },
     {
-     "code": "HKG",
-     "name": "Hong Kong",
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "German is one of four national languages; the Swiss chronology records the 1852 German edition."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
      "commonness": 2,
+     "gem": false,
+     "fact": "German is one of Belgium's three official languages; its chronology records the 1852 German edition."
+    },
+    {
+     "code": "LUX",
+     "name": "Luxembourg",
+     "commonness": 2,
+     "gem": false,
+     "fact": "German is one of Luxembourg's three official languages."
+    },
+    {
+     "code": "LIE",
+     "name": "Liechtenstein",
+     "commonness": 1,
      "gem": true,
-     "fact": "Hong Kong China, 1996."
+     "fact": "German is the official language of Liechtenstein."
     }
    ]
   },
   {
    "id": "ot-joel-3-nations",
    "bank": "ot",
-   "display_text": "Pin a country holding Tyre, Zidon, Philistia, Egypt or Edom, judged in Joel 3, or Greece, where Judah's children were sold",
+   "display_text": "Pin a country holding a nation judged in Joel 3, such as Tyre or Egypt, or Greece, where Judah's people were sold.",
    "text_original": "A present-day country holding a land the Lord calls to account in Joel 3 (Tyre, Zidon, the coasts of Palestine, Egypt, Edom), or Greece, where Judah's children were sold",
    "accepts": "country",
    "topic": "Bible",
@@ -75,7 +84,7 @@
     "https://www.churchofjesuschrist.org/study/scriptures/bd/greece?lang=eng"
    ],
    "difficulty": 3,
-   "note": null,
+   "note": "Joel 3 judges Tyre, Zidon, Philistia, Egypt and Edom.",
    "summary": "Joel 3 rebukes Tyre, Zidon and the Philistine coast for selling the children of Judah to the Grecians, and says Judah will in turn sell their children to the Sabeans, an Arab tribe. It also foretells desolation for Egypt and Edom, while Judah and Jerusalem endure forever (Joel 3:19-20).",
    "stamp": null,
    "gems": [
@@ -256,70 +265,61 @@
    ]
   },
   {
-   "id": "scripture-german-official-lands",
-   "bank": "scripture",
-   "display_text": "Pin a country where German, the language of an 1852 Book of Mormon translation, is an official language today.",
-   "text_original": "The German translation of the Book of Mormon was published in Hamburg in 1852, one of the earliest translations. Pin a country where German is an official language today.",
-   "accepts": "country",
-   "topic": "scripture translation",
-   "era": "1852",
-   "citation": "Global Histories: Germany chronology (1852)",
+   "id": "temples-new-1987-98",
+   "bank": "temples",
+   "display_text": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
+   "text_original": "Pin a country or territory where a new temple was dedicated from 1987 through 1998 (not counting rededications).",
+   "accepts": "country_or_territory",
+   "topic": "temples",
+   "era": "1987-1998",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://en.wikipedia.org/wiki/German_language"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 1,
+   "difficulty": 3,
    "note": null,
-   "summary": "The German Book of Mormon came out in Hamburg in May 1852, with a special edition carrying French and German on facing pages. German is official today in Germany, Austria, Switzerland, Belgium, Luxembourg and Liechtenstein, so that 1852 translation still serves members in six countries.",
-   "stamp": null,
+   "summary": "Only five countries and territories saw a new temple dedicated from 1987 through 1998: Frankfurt in 1987, Toronto in 1990, Hong Kong in 1996 and Preston, England, in 1998, plus nine in the United States. The wave of smaller temples began with Monticello, Utah, in 1998.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "LIE"
+    "HKG"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
+    {
+     "code": "USA",
+     "name": "United States of America",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Bountiful Utah, 1995; Las Vegas Nevada, 1989; Monticello Utah, 1998; and 6 more."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Toronto Ontario, 1990."
+    },
     {
      "code": "DEU",
      "name": "Germany",
-     "commonness": 5,
+     "commonness": 3,
      "gem": false,
-     "fact": "The German Book of Mormon was published in Hamburg on May 25, 1852."
+     "fact": "Frankfurt Germany, 1987."
     },
     {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 4,
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
      "gem": false,
-     "fact": "German is the official language of Austria."
+     "fact": "Preston England, 1998."
     },
     {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 4,
-     "gem": false,
-     "fact": "German is one of four national languages; the Swiss chronology records the 1852 German edition."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
+     "code": "HKG",
+     "name": "Hong Kong",
      "commonness": 2,
-     "gem": false,
-     "fact": "German is one of Belgium's three official languages; its chronology records the 1852 German edition."
-    },
-    {
-     "code": "LUX",
-     "name": "Luxembourg",
-     "commonness": 2,
-     "gem": false,
-     "fact": "German is one of Luxembourg's three official languages."
-    },
-    {
-     "code": "LIE",
-     "name": "Liechtenstein",
-     "commonness": 1,
      "gem": true,
-     "fact": "German is the official language of Liechtenstein."
+     "fact": "Hong Kong China, 1996."
     }
    ]
   },

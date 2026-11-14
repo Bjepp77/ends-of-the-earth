@@ -29,69 +29,73 @@
    "answers": []
   },
   {
-   "id": "tb-port-names",
-   "bank": "sites-temples",
-   "display_text": "Pin a country with a temple named for a Port, Porto or Puerto city.",
-   "text_original": "A country with a temple (any stage, as of November 2026) named for a city whose name contains Port, Porto or Puerto.",
+   "id": "bible-kings-built-cities",
+   "bank": "bible",
+   "display_text": "Pin a country with a city the Bible says a king built, rebuilt or fortified, Jerusalem aside.",
+   "text_original": "A present-day country with a city the Bible says a king built, rebuilt or fortified, Jerusalem aside",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2000-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Exodus 1:11; 1 Kings 9:15; 12:25; 16:24; 2 Chronicles 8:4; Daniel 4:30",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/4?lang=eng"
    ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Several temples are named for port cities with \"port\" in the name. They stretch from Haiti and Brazil to the South Pacific.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Kings in the Bible were builders. Nebuchadnezzar boasted of the Babylon he built, Pharaoh forced Israel to raise Pithom and Raamses, and Solomon fortified Hazor, Megiddo and Gezer (1 Kings 9:15). Omri bought a hill and built Samaria on it, Jeroboam built Shechem and Penuel, and Solomon reached as far as Tadmor, the later Palmyra in Syria.",
+   "stamp": null,
    "gems": [
-    "CHL",
-    "VUT"
+    "JOR",
+    "SYR"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pharaoh made the Israelites build the treasure cities Pithom and Raamses (Exodus 1:11)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Nebuchadnezzar boasted of great Babylon that he had built for the house of the kingdom (Daniel 4:30)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
      "commonness": 4,
      "gem": false,
-     "fact": "Porto Alegre Brazil (dedicated 2000)."
+     "fact": "Solomon built Hazor, Megiddo and Gezer (1 Kings 9:15)."
     },
     {
-     "code": "HTI",
-     "name": "Haiti",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Port-au-Prince Haiti (dedicated 2019)."
-    },
-    {
-     "code": "PNG",
-     "name": "Papua New Guinea",
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 3,
      "gem": false,
-     "fact": "Port Moresby Papua New Guinea (under construction)."
+     "fact": "Omri built Samaria on a hill he bought for two talents of silver, and Jeroboam built Shechem (1 Kings 16:24; 12:25)."
     },
     {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Porto Portugal (announced)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "JOR",
+     "name": "Jordan",
      "commonness": 2,
      "gem": true,
-     "fact": "Puerto Montt Chile (announced)."
+     "fact": "Jeroboam went out from Shechem and built Penuel east of the Jordan (1 Kings 12:25)."
     },
     {
-     "code": "VUT",
-     "name": "Vanuatu",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 2,
      "gem": true,
-     "fact": "Port Vila Vanuatu (under construction)."
+     "fact": "Solomon built Tadmor in the wilderness and store cities in Hamath (2 Chronicles 8:4)."
     }
    ]
   },
@@ -230,73 +234,69 @@
    ]
   },
   {
-   "id": "bible-kings-built-cities",
-   "bank": "bible",
-   "display_text": "Pin a country with a city the Bible says a king built, rebuilt or fortified, Jerusalem aside.",
-   "text_original": "A present-day country with a city the Bible says a king built, rebuilt or fortified, Jerusalem aside",
+   "id": "tb-port-names",
+   "bank": "sites-temples",
+   "display_text": "Pin a country with a temple named for a Port, Porto or Puerto city.",
+   "text_original": "A country with a temple (any stage, as of November 2026) named for a city whose name contains Port, Porto or Puerto.",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Exodus 1:11; 1 Kings 9:15; 12:25; 16:24; 2 Chronicles 8:4; Daniel 4:30",
+   "topic": "temples",
+   "era": "2000-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/4?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 1,
-   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
-   "summary": "Kings in the Bible were builders. Nebuchadnezzar boasted of the Babylon he built, Pharaoh forced Israel to raise Pithom and Raamses, and Solomon fortified Hazor, Megiddo and Gezer (1 Kings 9:15). Omri bought a hill and built Samaria on it, Jeroboam built Shechem and Penuel, and Solomon reached as far as Tadmor, the later Palmyra in Syria.",
-   "stamp": null,
+   "difficulty": 2,
+   "note": null,
+   "summary": "Several temples are named for port cities with \"port\" in the name. They stretch from Haiti and Brazil to the South Pacific.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "JOR",
-    "SYR"
+    "CHL",
+    "VUT"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Pharaoh made the Israelites build the treasure cities Pithom and Raamses (Exodus 1:11)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Nebuchadnezzar boasted of great Babylon that he had built for the house of the kingdom (Daniel 4:30)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "Solomon built Hazor, Megiddo and Gezer (1 Kings 9:15)."
+     "fact": "Porto Alegre Brazil (dedicated 2000)."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Port-au-Prince Haiti (dedicated 2019)."
+    },
+    {
+     "code": "PNG",
+     "name": "Papua New Guinea",
      "commonness": 3,
      "gem": false,
-     "fact": "Omri built Samaria on a hill he bought for two talents of silver, and Jeroboam built Shechem (1 Kings 16:24; 12:25)."
+     "fact": "Port Moresby Papua New Guinea (under construction)."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Jeroboam went out from Shechem and built Penuel east of the Jordan (1 Kings 12:25)."
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Porto Portugal (announced)."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 2,
      "gem": true,
-     "fact": "Solomon built Tadmor in the wilderness and store cities in Hamath (2 Chronicles 8:4)."
+     "fact": "Puerto Montt Chile (announced)."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Port Vila Vanuatu (under construction)."
     }
    ]
   }

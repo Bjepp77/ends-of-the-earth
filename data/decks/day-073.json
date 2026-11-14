@@ -29,81 +29,6 @@
    "answers": []
   },
   {
-   "id": "tc-g7",
-   "bank": "sites-temples",
-   "display_text": "Pin a G7 country. Every one of the seven has a dedicated temple.",
-   "text_original": "A G7 country with at least one dedicated temple (as of November 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1877-2019",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "All seven G7 members have dedicated temples. The United States, Canada and Britain had theirs before 1960, Germany and Japan in the 1980s, and France and Italy only in 2017 and 2019. Italy was the last G7 country to get one, with the Rome Italy Temple.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "DEU",
-    "FRA",
-    "ITA"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "First temple: St. George Utah (1877); 110 dedicated in all."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "First temple: Cardston Alberta (1923); 9 dedicated in all."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "First temple: London England (1958); 2 dedicated in all."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "First temple: Tokyo Japan (1980); 4 dedicated in all."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": true,
-     "fact": "First temple: Freiberg Germany (1985); 2 dedicated in all."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": true,
-     "fact": "First temple: Paris France (2017); 1 dedicated in all."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 3,
-     "gem": true,
-     "fact": "First temple: Rome Italy (2019); 1 dedicated in all."
-    }
-   ]
-  },
-  {
    "id": "hd-mission-organized-1850s",
    "bank": "sites-history",
    "display_text": "Pin a country where a mission of the Church was opened between 1850 and 1859.",
@@ -178,6 +103,81 @@
      "commonness": 2,
      "gem": true,
      "fact": "The East India Mission, opened in 1851, had baptized over 300 Europeans and Indians by the time it closed in 1856."
+    }
+   ]
+  },
+  {
+   "id": "tc-g7",
+   "bank": "sites-temples",
+   "display_text": "Pin a G7 country. Every one of the seven has a dedicated temple.",
+   "text_original": "A G7 country with at least one dedicated temple (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1877-2019",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "All seven G7 members have dedicated temples. The United States, Canada and Britain had theirs before 1960, Germany and Japan in the 1980s, and France and Italy only in 2017 and 2019. Italy was the last G7 country to get one, with the Rome Italy Temple.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "DEU",
+    "FRA",
+    "ITA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "First temple: St. George Utah (1877); 110 dedicated in all."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First temple: Cardston Alberta (1923); 9 dedicated in all."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First temple: London England (1958); 2 dedicated in all."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First temple: Tokyo Japan (1980); 4 dedicated in all."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": true,
+     "fact": "First temple: Freiberg Germany (1985); 2 dedicated in all."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": true,
+     "fact": "First temple: Paris France (2017); 1 dedicated in all."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 3,
+     "gem": true,
+     "fact": "First temple: Rome Italy (2019); 1 dedicated in all."
     }
    ]
   },

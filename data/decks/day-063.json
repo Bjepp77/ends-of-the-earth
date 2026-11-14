@@ -123,6 +123,78 @@
    ]
   },
   {
+   "id": "hd-mission-president-1860-1879",
+   "bank": "sites-history",
+   "display_text": "Pin a country with a mission president called between 1860 and 1879.",
+   "text_original": "A country whose mission had a mission president called between 1860 and 1879.",
+   "accepts": "country",
+   "topic": "missions",
+   "era": "1860-1879",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Between 1860 and 1879 the Church called presidents over several European missions: Joseph Weiler over the new Netherlands Mission (1864), Karl G. Maeser over the Swiss and German Mission (1868), and a string of native presidents over the Scandinavian Mission (1870, 1873, 1875).",
+   "stamp": null,
+   "gems": [
+    "CHE",
+    "NOR",
+    "SWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Karl G. Maeser was appointed president of the Swiss and German Mission on June 12, 1868."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Christian Gries Larsen was called in 1873 to preside over the Scandinavian Mission from Copenhagen."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The Netherlands Mission was formed on November 1, 1864, with Joseph Weiler as president; Sieberen van Dijk followed in 1871."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": true,
+     "fact": "The Swiss and German Mission, organized in 1868 under Karl G. Maeser, was headquartered at Bern."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1870 the first native of Norway was called to preside over the Scandinavian Mission."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1875 Nils C. Flygare, president of the Scandinavian Mission, called the Sundstrom brothers from Stockholm to Finland."
+    }
+   ]
+  },
+  {
    "id": "tc-commonwealth-dedicated",
    "bank": "sites-temples",
    "display_text": "Pin a Commonwealth member country that has a dedicated temple.",
@@ -222,78 +294,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "1 dedicated; first was Nairobi Kenya (2025)."
-    }
-   ]
-  },
-  {
-   "id": "hd-mission-president-1860-1879",
-   "bank": "sites-history",
-   "display_text": "Pin a country with a mission president called between 1860 and 1879.",
-   "text_original": "A country whose mission had a mission president called between 1860 and 1879.",
-   "accepts": "country",
-   "topic": "missions",
-   "era": "1860-1879",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/switzerland/ch-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Between 1860 and 1879 the Church called presidents over several European missions: Joseph Weiler over the new Netherlands Mission (1864), Karl G. Maeser over the Swiss and German Mission (1868), and a string of native presidents over the Scandinavian Mission (1870, 1873, 1875).",
-   "stamp": null,
-   "gems": [
-    "CHE",
-    "NOR",
-    "SWE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Karl G. Maeser was appointed president of the Swiss and German Mission on June 12, 1868."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Christian Gries Larsen was called in 1873 to preside over the Scandinavian Mission from Copenhagen."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Netherlands Mission was formed on November 1, 1864, with Joseph Weiler as president; Sieberen van Dijk followed in 1871."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": true,
-     "fact": "The Swiss and German Mission, organized in 1868 under Karl G. Maeser, was headquartered at Bern."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 3,
-     "gem": true,
-     "fact": "In 1870 the first native of Norway was called to preside over the Scandinavian Mission."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": true,
-     "fact": "In 1875 Nils C. Flygare, president of the Scandinavian Mission, called the Sundstrom brothers from Stockholm to Finland."
     }
    ]
   },

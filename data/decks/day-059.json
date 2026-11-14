@@ -29,168 +29,6 @@
    "answers": []
   },
   {
-   "id": "tc-capital-without-temple",
-   "bank": "sites-temples",
-   "display_text": "Pin a country with a dedicated temple whose capital has no temple at any stage.",
-   "text_original": "A country with at least one dedicated temple but no temple at any stage named for its capital city (as of November 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1923-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Five temple countries have no temple, built or planned, in their capital. Australia (Canberra), Canada (Ottawa), Germany (Berlin) and the Netherlands (Amsterdam) all built in bigger cities instead. Côte d'Ivoire's temple is in Abidjan, not the official capital Yamoussoukro. Bolivia is left out because its capital status is split between Sucre and La Paz.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "CIV",
-    "NLD"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "5 dedicated, none in the capital Canberra."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "9 dedicated, none in the capital Ottawa."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "2 dedicated, none in the capital Berlin."
-    },
-    {
-     "code": "CIV",
-     "name": "Côte d'Ivoire",
-     "commonness": 2,
-     "gem": true,
-     "fact": "1 dedicated, none in the capital Yamoussoukro."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 2,
-     "gem": true,
-     "fact": "1 dedicated, none in the capital Amsterdam."
-    }
-   ]
-  },
-  {
-   "id": "hf-nelson-ministry-tours-2018-19",
-   "bank": "sites-history",
-   "display_text": "Pin a country where President Russell M. Nelson met with Saints on a 2018 or 2019 ministry tour, temple dedications excluded.",
-   "text_original": "A country where Church President Russell M. Nelson spoke to or met with members on a ministry tour in 2018 or 2019 (not a temple dedication).",
-   "accepts": "country",
-   "topic": "visits",
-   "era": "2018-2019",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Puerto Rico (Sept 2, 2018) omitted as a territory.",
-   "summary": "In his first two years as Church President, Russell M. Nelson circled the globe several times. He spoke in Spanish in Santo Domingo, met Peru's president in Lima, addressed stake broadcasts in Bolivia, Paraguay and Uruguay, and visited Bangkok, Bengaluru, Singapore, Apia and Bogota.",
-   "stamp": null,
-   "gems": [
-    "WSM"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 5,
-     "gem": false,
-     "fact": "October 20, 2018: Peru's president Martin Vizcarra met President Nelson at the presidential palace; Nelson spoke in Spanish to thousands of Saints in Lima."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "August 25, 2019: President Nelson presided at a devotional in Bogota with more than 10,000 Colombian Saints."
-    },
-    {
-     "code": "DOM",
-     "name": "Dominican Republic",
-     "commonness": 4,
-     "gem": false,
-     "fact": "September 1, 2018: President Nelson met with Saints in Santo Domingo and delivered his entire address in Spanish."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "October 21, 2018: President Nelson visited El Alto on his South American trip and spoke at a devotional broadcast to all stakes."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 3,
-     "gem": false,
-     "fact": "April 19, 2018: President Nelson and Elder Jeffrey R. Holland spoke to Saints at a devotional in Bengaluru."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 3,
-     "gem": false,
-     "fact": "October 22, 2018: President Nelson's talk to members in Asuncion was broadcast to all stakes in Paraguay."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 3,
-     "gem": false,
-     "fact": "November 20, 2019: President Nelson visited Singapore as part of his Southeast Asia ministry and spoke in Bukit Timah."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "April 20, 2018: President Nelson and his wife Wendy visited Bangkok and spoke to members."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 3,
-     "gem": false,
-     "fact": "October 25, 2018: President Nelson spoke to members in Uruguay from a large center in Montevideo, broadcast throughout the country."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 2,
-     "gem": true,
-     "fact": "May 18, 2019: President and Sister Nelson spoke with Samoa's prime minister at a devotional for Saints in Apia."
-    }
-   ]
-  },
-  {
    "id": "bible-same-name-cities",
    "bank": "bible",
    "display_text": "Pin a country with a city that still goes by the same name it has in the Bible.",
@@ -301,6 +139,168 @@
      "commonness": 1,
      "gem": true,
      "fact": "Tayma in northwest Arabia is the Tema of Job 6:19 and Isaiah 21:14."
+    }
+   ]
+  },
+  {
+   "id": "hf-nelson-ministry-tours-2018-19",
+   "bank": "sites-history",
+   "display_text": "Pin a country where President Russell M. Nelson met with Saints on a 2018 or 2019 ministry tour, temple dedications excluded.",
+   "text_original": "A country where Church President Russell M. Nelson spoke to or met with members on a ministry tour in 2018 or 2019 (not a temple dedication).",
+   "accepts": "country",
+   "topic": "visits",
+   "era": "2018-2019",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bolivia/bo-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Puerto Rico (Sept 2, 2018) omitted as a territory.",
+   "summary": "In his first two years as Church President, Russell M. Nelson circled the globe several times. He spoke in Spanish in Santo Domingo, met Peru's president in Lima, addressed stake broadcasts in Bolivia, Paraguay and Uruguay, and visited Bangkok, Bengaluru, Singapore, Apia and Bogota.",
+   "stamp": null,
+   "gems": [
+    "WSM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 5,
+     "gem": false,
+     "fact": "October 20, 2018: Peru's president Martin Vizcarra met President Nelson at the presidential palace; Nelson spoke in Spanish to thousands of Saints in Lima."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "August 25, 2019: President Nelson presided at a devotional in Bogota with more than 10,000 Colombian Saints."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 4,
+     "gem": false,
+     "fact": "September 1, 2018: President Nelson met with Saints in Santo Domingo and delivered his entire address in Spanish."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "October 21, 2018: President Nelson visited El Alto on his South American trip and spoke at a devotional broadcast to all stakes."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 3,
+     "gem": false,
+     "fact": "April 19, 2018: President Nelson and Elder Jeffrey R. Holland spoke to Saints at a devotional in Bengaluru."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "October 22, 2018: President Nelson's talk to members in Asuncion was broadcast to all stakes in Paraguay."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 3,
+     "gem": false,
+     "fact": "November 20, 2019: President Nelson visited Singapore as part of his Southeast Asia ministry and spoke in Bukit Timah."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "April 20, 2018: President Nelson and his wife Wendy visited Bangkok and spoke to members."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "October 25, 2018: President Nelson spoke to members in Uruguay from a large center in Montevideo, broadcast throughout the country."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 2,
+     "gem": true,
+     "fact": "May 18, 2019: President and Sister Nelson spoke with Samoa's prime minister at a devotional for Saints in Apia."
+    }
+   ]
+  },
+  {
+   "id": "tc-capital-without-temple",
+   "bank": "sites-temples",
+   "display_text": "Pin a country with a dedicated temple whose capital has no temple at any stage.",
+   "text_original": "A country with at least one dedicated temple but no temple at any stage named for its capital city (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Five temple countries have no temple, built or planned, in their capital. Australia (Canberra), Canada (Ottawa), Germany (Berlin) and the Netherlands (Amsterdam) all built in bigger cities instead. Côte d'Ivoire's temple is in Abidjan, not the official capital Yamoussoukro. Bolivia is left out because its capital status is split between Sucre and La Paz.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "CIV",
+    "NLD"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "5 dedicated, none in the capital Canberra."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "9 dedicated, none in the capital Ottawa."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2 dedicated, none in the capital Berlin."
+    },
+    {
+     "code": "CIV",
+     "name": "Côte d'Ivoire",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated, none in the capital Yamoussoukro."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": true,
+     "fact": "1 dedicated, none in the capital Amsterdam."
     }
    ]
   },

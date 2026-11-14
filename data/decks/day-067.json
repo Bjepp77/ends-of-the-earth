@@ -29,6 +29,125 @@
    "answers": []
   },
   {
+   "id": "global-asia-any-stake",
+   "bank": "global",
+   "display_text": "Pin an Asian country or territory where the Church has at least one stake as of October 2026 (Russia counts as Europe).",
+   "text_original": "An Asian country or territory where the Church has at least one stake (as of October 2026). Russia is counted as Europe.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/japan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mongolia?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/bahrain?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-arab-emirates"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Stakes in Asia range from the Philippines, with more than 140, to single stakes in Singapore, Bahrain and the United Arab Emirates. Japan, Taiwan, South Korea, Hong Kong, Thailand, India, Cambodia, Indonesia and Mongolia complete the list. Mainland China, Vietnam, Malaysia and Pakistan have congregations but no stake.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "ARE",
+    "BHR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "22 stakes."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "141 stakes, by far the most in Asia."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "12 stakes."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "16 stakes."
+    },
+    {
+     "code": "HKG",
+     "name": "Hong Kong",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "ARE",
+     "name": "United Arab Emirates",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake; about 2,000 members in 6 congregations."
+    },
+    {
+     "code": "BHR",
+     "name": "Bahrain",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake, serving members across the Gulf."
+    }
+   ]
+  },
+  {
    "id": "temples-eleven-year-wait",
    "bank": "temples",
    "display_text": "Pin a country with a temple that was dedicated 11 or more years after it was announced.",
@@ -148,125 +267,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "A branch was organized in Calcutta in 1851; by 1852 it reached over 300 people."
-    }
-   ]
-  },
-  {
-   "id": "global-asia-any-stake",
-   "bank": "global",
-   "display_text": "Pin an Asian country or territory where the Church has at least one stake as of October 2026 (Russia counts as Europe).",
-   "text_original": "An Asian country or territory where the Church has at least one stake (as of October 2026). Russia is counted as Europe.",
-   "accepts": "country_or_territory",
-   "topic": "church growth",
-   "era": "2026",
-   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/japan?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/mongolia?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/bahrain?lang=eng",
-    "https://newsroom.churchofjesuschrist.org/facts-and-statistics/country/united-arab-emirates"
-   ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "Stakes in Asia range from the Philippines, with more than 140, to single stakes in Singapore, Bahrain and the United Arab Emirates. Japan, Taiwan, South Korea, Hong Kong, Thailand, India, Cambodia, Indonesia and Mongolia complete the list. Mainland China, Vietnam, Malaysia and Pakistan have congregations but no stake.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "ARE",
-    "BHR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 5,
-     "gem": false,
-     "fact": "22 stakes."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 5,
-     "gem": false,
-     "fact": "141 stakes, by far the most in Asia."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 4,
-     "gem": false,
-     "fact": "12 stakes."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "16 stakes."
-    },
-    {
-     "code": "HKG",
-     "name": "Hong Kong",
-     "commonness": 3,
-     "gem": false,
-     "fact": "4 stakes."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "4 stakes."
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "2 stakes."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 2,
-     "gem": false,
-     "fact": "4 stakes."
-    },
-    {
-     "code": "KHM",
-     "name": "Cambodia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "2 stakes."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "2 stakes."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": false,
-     "fact": "1 stake."
-    },
-    {
-     "code": "ARE",
-     "name": "United Arab Emirates",
-     "commonness": 1,
-     "gem": true,
-     "fact": "1 stake; about 2,000 members in 6 congregations."
-    },
-    {
-     "code": "BHR",
-     "name": "Bahrain",
-     "commonness": 1,
-     "gem": true,
-     "fact": "1 stake, serving members across the Gulf."
     }
    ]
   },

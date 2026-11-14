@@ -29,6 +29,159 @@
    "answers": []
   },
   {
+   "id": "bible-prisons",
+   "bank": "bible",
+   "display_text": "Pin a country where the Bible records a named person being held in prison.",
+   "text_original": "A present-day country where the Bible records a named person held in prison",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old and New Testament",
+   "citation": "Genesis 39:20; Judges 16:21; 1 Kings 22:26-27; 2 Kings 25:27; Jeremiah 37:15; 52:11; Acts 12; 16:23; 24:27; 28:16",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/37?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/52?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Prisons mark the Bible's story from Joseph in Egypt to Paul in Rome. Jeremiah, Peter and Paul were all held in what is now Israel, Paul and Silas sang in the jail at Philippi (Acts 16:25), and two kings of Judah, Zedekiah and Jehoiachin, sat in Babylon's prison. Samson's captivity was at Gaza (Judges 16:21).",
+   "stamp": null,
+   "gems": [
+    "PSE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Joseph was put in Pharaoh's prison on Potiphar's accusation (Genesis 39:20)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Jeremiah was jailed in Jerusalem, Peter in Herod's prison, and Paul two years at Caesarea (Jeremiah 37:15; Acts 12; 24:27)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul and Silas sang in the Philippi jail before the earthquake (Acts 16:23-26)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Paul lived in Rome under guard with a soldier (Acts 28:16)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Zedekiah died in prison in Babylon, and Jehoiachin was freed there after 37 years (Jeremiah 52:11; 2 Kings 25:27)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Samson ground grain in the prison house at Gaza, and Micaiah was jailed at Samaria (Judges 16:21; 1 Kings 22:26)."
+    }
+   ]
+  },
+  {
+   "id": "hf-storm-relief",
+   "bank": "sites-history",
+   "display_text": "Pin a country where the Church or its members gave relief after a named hurricane, typhoon or cyclone, 1998 to 2019.",
+   "text_original": "A country where members or the Church gave relief after a named hurricane, typhoon or cyclone (1998 to 2019).",
+   "accepts": "country",
+   "topic": "humanitarian",
+   "era": "1998-2019",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/bahamas/bs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mozambique/mz-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Macau (Typhoon Hato 2017) omitted as a territory.",
+   "summary": "Named storms set off member relief across the tropics: Hurricane Mitch in Honduras (1998), Iris in Belize (2001), Cyclone Pat in the Cook Islands (2010), Hurricane Irene in the Bahamas (2011), Typhoon Yolanda in the Philippines (2013), Cyclone Gita in Tonga (2018) and Cyclone Idai in Mozambique (2019).",
+   "stamp": null,
+   "gems": [
+    "BLZ",
+    "COK"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "2013: members took part in extensive shelter and relief efforts during and after Typhoon Yolanda (Haiyan)."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1998: after Hurricane Mitch members directed a large-scale relief effort for members and nonmembers alike."
+    },
+    {
+     "code": "BHS",
+     "name": "Bahamas",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2011: Bahamian Saints assisted with relief efforts after Hurricane Irene."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2019: members helped reconstruct homes and clean streets after Cyclone Idai; the Maputo Stake donated essentials."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "February 2018: after Tropical Cyclone Gita members and missionaries throughout Tonga helped clean up and rebuild."
+    },
+    {
+     "code": "BLZ",
+     "name": "Belize",
+     "commonness": 2,
+     "gem": true,
+     "fact": "2001: the Church sent relief supplies to areas of Belize still struggling after Hurricane Iris, which hit on October 8."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 2,
+     "gem": true,
+     "fact": "2010: funds helped build new homes and water tanks after Cyclone Pat struck Rarotonga on February 9."
+    }
+   ]
+  },
+  {
    "id": "tc-monarchies",
    "bank": "sites-temples",
    "display_text": "Pin a monarchy with a dedicated temple. Commonwealth realms like Canada count.",
@@ -138,85 +291,6 @@
    ]
   },
   {
-   "id": "hf-storm-relief",
-   "bank": "sites-history",
-   "display_text": "Pin a country where the Church or its members gave relief after a named hurricane, typhoon or cyclone, 1998 to 2019.",
-   "text_original": "A country where members or the Church gave relief after a named hurricane, typhoon or cyclone (1998 to 2019).",
-   "accepts": "country",
-   "topic": "humanitarian",
-   "era": "1998-2019",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/bahamas/bs-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mozambique/mz-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Macau (Typhoon Hato 2017) omitted as a territory.",
-   "summary": "Named storms set off member relief across the tropics: Hurricane Mitch in Honduras (1998), Iris in Belize (2001), Cyclone Pat in the Cook Islands (2010), Hurricane Irene in the Bahamas (2011), Typhoon Yolanda in the Philippines (2013), Cyclone Gita in Tonga (2018) and Cyclone Idai in Mozambique (2019).",
-   "stamp": null,
-   "gems": [
-    "BLZ",
-    "COK"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 5,
-     "gem": false,
-     "fact": "2013: members took part in extensive shelter and relief efforts during and after Typhoon Yolanda (Haiyan)."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 4,
-     "gem": false,
-     "fact": "1998: after Hurricane Mitch members directed a large-scale relief effort for members and nonmembers alike."
-    },
-    {
-     "code": "BHS",
-     "name": "Bahamas",
-     "commonness": 3,
-     "gem": false,
-     "fact": "2011: Bahamian Saints assisted with relief efforts after Hurricane Irene."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 3,
-     "gem": false,
-     "fact": "2019: members helped reconstruct homes and clean streets after Cyclone Idai; the Maputo Stake donated essentials."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 3,
-     "gem": false,
-     "fact": "February 2018: after Tropical Cyclone Gita members and missionaries throughout Tonga helped clean up and rebuild."
-    },
-    {
-     "code": "BLZ",
-     "name": "Belize",
-     "commonness": 2,
-     "gem": true,
-     "fact": "2001: the Church sent relief supplies to areas of Belize still struggling after Hurricane Iris, which hit on October 8."
-    },
-    {
-     "code": "COK",
-     "name": "Cook Islands",
-     "commonness": 2,
-     "gem": true,
-     "fact": "2010: funds helped build new homes and water tanks after Cyclone Pat struck Rarotonga on February 9."
-    }
-   ]
-  },
-  {
    "id": "he-pef-launch-2001-05",
    "bank": "sites-history",
    "display_text": "Pin a country where the Church's Perpetual Education Fund, loans for members' job training, began 2001-2005.",
@@ -292,80 +366,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "2002: members visited colleges to prepare for implementing the Perpetual Education Fund in Cape Verde."
-    }
-   ]
-  },
-  {
-   "id": "bible-prisons",
-   "bank": "bible",
-   "display_text": "Pin a country where the Bible records a named person being held in prison.",
-   "text_original": "A present-day country where the Bible records a named person held in prison",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old and New Testament",
-   "citation": "Genesis 39:20; Judges 16:21; 1 Kings 22:26-27; 2 Kings 25:27; Jeremiah 37:15; 52:11; Acts 12; 16:23; 24:27; 28:16",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/37?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/jer/52?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/24?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng"
-   ],
-   "difficulty": 1,
-   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
-   "summary": "Prisons mark the Bible's story from Joseph in Egypt to Paul in Rome. Jeremiah, Peter and Paul were all held in what is now Israel, Paul and Silas sang in the jail at Philippi (Acts 16:25), and two kings of Judah, Zedekiah and Jehoiachin, sat in Babylon's prison. Samson's captivity was at Gaza (Judges 16:21).",
-   "stamp": null,
-   "gems": [
-    "PSE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Joseph was put in Pharaoh's prison on Potiphar's accusation (Genesis 39:20)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Jeremiah was jailed in Jerusalem, Peter in Herod's prison, and Paul two years at Caesarea (Jeremiah 37:15; Acts 12; 24:27)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Paul and Silas sang in the Philippi jail before the earthquake (Acts 16:23-26)."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Paul lived in Rome under guard with a soldier (Acts 28:16)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Zedekiah died in prison in Babylon, and Jehoiachin was freed there after 37 years (Jeremiah 52:11; 2 Kings 25:27)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Samson ground grain in the prison house at Gaza, and Micaiah was jailed at Samaria (Judges 16:21; 1 Kings 22:26)."
     }
    ]
   }

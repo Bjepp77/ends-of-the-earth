@@ -29,83 +29,6 @@
    "answers": []
   },
   {
-   "id": "temples-borders-brazil",
-   "bank": "sites-temples",
-   "display_text": "Pin one of Brazil's neighbours that has a dedicated temple.",
-   "text_original": "A country that borders Brazil and has at least one dedicated temple (as of November 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1986-2025",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Seven countries bordering Brazil have dedicated temples, beginning with Lima and Buenos Aires in 1986. Ecuador and Chile have temples but do not border Brazil. Guyana, Suriname and French Guiana have none.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "BOL",
-    "COL",
-    "PRY",
-    "URY",
-    "VEN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Buenos Aires Argentina (1986), Córdoba Argentina (2015), Salta Argentina (2024) and others."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Lima Peru (1986), Trujillo Peru (2015), Arequipa Peru (2019) and others."
-    },
-    {
-     "code": "BOL",
-     "name": "Bolivia",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Cochabamba Bolivia (2000)."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Bogotá Colombia (1999), Barranquilla Colombia (2018)."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Asunción Paraguay (2002)."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Montevideo Uruguay (2001)."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Caracas Venezuela (2000)."
-    }
-   ]
-  },
-  {
    "id": "hp-continental-emigrants",
    "bank": "sites-history",
    "display_text": "Pin a European homeland, outside the British Isles, of 19th-century converts who sailed for Zion in Utah.",
@@ -198,6 +121,83 @@
      "commonness": 2,
      "gem": true,
      "fact": "From 1854 to 1871 converts from the Waldensian faith emigrated to Salt Lake City, many with help from the Perpetual Emigrating Fund."
+    }
+   ]
+  },
+  {
+   "id": "temples-borders-brazil",
+   "bank": "sites-temples",
+   "display_text": "Pin one of Brazil's neighbours that has a dedicated temple.",
+   "text_original": "A country that borders Brazil and has at least one dedicated temple (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1986-2025",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Seven countries bordering Brazil have dedicated temples, beginning with Lima and Buenos Aires in 1986. Ecuador and Chile have temples but do not border Brazil. Guyana, Suriname and French Guiana have none.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "BOL",
+    "COL",
+    "PRY",
+    "URY",
+    "VEN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (1986), Córdoba Argentina (2015), Salta Argentina (2024) and others."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Lima Peru (1986), Trujillo Peru (2015), Arequipa Peru (2019) and others."
+    },
+    {
+     "code": "BOL",
+     "name": "Bolivia",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Cochabamba Bolivia (2000)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Bogotá Colombia (1999), Barranquilla Colombia (2018)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Asunción Paraguay (2002)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Montevideo Uruguay (2001)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Caracas Venezuela (2000)."
     }
    ]
   },

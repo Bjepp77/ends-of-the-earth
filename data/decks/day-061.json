@@ -29,6 +29,84 @@
    "answers": []
   },
   {
+   "id": "hf-first-native-mission-president",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose chronology names its first native mission president, called between 1975 and 2005.",
+   "text_original": "A country whose chronology names the first citizen of that country to be called as a mission president (1975-2005).",
+   "accepts": "country",
+   "topic": "people",
+   "era": "1975-2005",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belarus/by-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": null,
+   "summary": "Local leadership matured as native members took charge of missions: a Korean led the Pusan Mission in 1975, Jose Armando Sousa opened Peru Lima North in 1977, Costa Rican and Ecuadorian presidents followed in 1985, and Ukrainians, Belarusians and Ivorians led missions from 1996 to 2005.",
+   "stamp": null,
+   "gems": [
+    "BLR"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "1975: the first Korean to serve as a mission president was called to preside over the newly organized Korean Pusan Mission."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "January 1, 1977: Jose Armando Sousa, the first Peruvian mission president, was assigned to the new Peru Lima North Mission."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "2005: Norbert K. Ounleu began presiding over the Cote d'Ivoire Abidjan Mission, the first Ivorian mission president."
+    },
+    {
+     "code": "CRI",
+     "name": "Costa Rica",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1985: Manuel Najera, the first Costa Rican called as a mission president, was assigned to Honduras."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1985: Cesar Hugo Cacuango became the first Ecuadorian to serve as a mission president, in Maracaibo, Venezuela."
+    },
+    {
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "1996: Oleksandr Manzhos was called as president of the Ukraine Donetsk Mission, the first mission president from independent Ukraine."
+    },
+    {
+     "code": "BLR",
+     "name": "Belarus",
+     "commonness": 2,
+     "gem": true,
+     "fact": "July 2004: Mikhail Davydik was called as the first mission president from Belarus, to the Russia Samara Mission."
+    }
+   ]
+  },
+  {
    "id": "tb-first-in-region",
    "bank": "sites-temples",
    "display_text": "Pin a country that was home to the first temple in its part of the world, outside the US.",
@@ -106,84 +184,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "Guatemala City Guatemala (dedicated 1984), the first temple in Central America."
-    }
-   ]
-  },
-  {
-   "id": "hf-first-native-mission-president",
-   "bank": "sites-history",
-   "display_text": "Pin a country whose chronology names its first native mission president, called between 1975 and 2005.",
-   "text_original": "A country whose chronology names the first citizen of that country to be called as a mission president (1975-2005).",
-   "accepts": "country",
-   "topic": "people",
-   "era": "1975-2005",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/costa-rica/cr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belarus/by-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "Local leadership matured as native members took charge of missions: a Korean led the Pusan Mission in 1975, Jose Armando Sousa opened Peru Lima North in 1977, Costa Rican and Ecuadorian presidents followed in 1985, and Ukrainians, Belarusians and Ivorians led missions from 1996 to 2005.",
-   "stamp": null,
-   "gems": [
-    "BLR"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 4,
-     "gem": false,
-     "fact": "1975: the first Korean to serve as a mission president was called to preside over the newly organized Korean Pusan Mission."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 4,
-     "gem": false,
-     "fact": "January 1, 1977: Jose Armando Sousa, the first Peruvian mission president, was assigned to the new Peru Lima North Mission."
-    },
-    {
-     "code": "CIV",
-     "name": "Ivory Coast",
-     "commonness": 3,
-     "gem": false,
-     "fact": "2005: Norbert K. Ounleu began presiding over the Cote d'Ivoire Abidjan Mission, the first Ivorian mission president."
-    },
-    {
-     "code": "CRI",
-     "name": "Costa Rica",
-     "commonness": 3,
-     "gem": false,
-     "fact": "July 1985: Manuel Najera, the first Costa Rican called as a mission president, was assigned to Honduras."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "July 1985: Cesar Hugo Cacuango became the first Ecuadorian to serve as a mission president, in Maracaibo, Venezuela."
-    },
-    {
-     "code": "UKR",
-     "name": "Ukraine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "1996: Oleksandr Manzhos was called as president of the Ukraine Donetsk Mission, the first mission president from independent Ukraine."
-    },
-    {
-     "code": "BLR",
-     "name": "Belarus",
-     "commonness": 2,
-     "gem": true,
-     "fact": "July 2004: Mikhail Davydik was called as the first mission president from Belarus, to the Russia Samara Mission."
     }
    ]
   },

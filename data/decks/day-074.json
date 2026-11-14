@@ -29,78 +29,6 @@
    "answers": []
   },
   {
-   "id": "hd-meetinghouse-pre-1900",
-   "bank": "sites-history",
-   "display_text": "Pin a country where the Saints built or were given a meetinghouse before 1900.",
-   "text_original": "A country where the Church built, acquired or dedicated a meetinghouse before 1900.",
-   "accepts": "country",
-   "topic": "buildings",
-   "era": "1840-1899",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Most 19th-century Saints met in homes and rented halls, but a few lands had a Church meetinghouse before 1900: the Gadfield Elm Chapel in England (1840), Calcutta (1851), Christiania (1871), Samoa (1888), Alberta (1888) and Tonga (1892).",
-   "stamp": null,
-   "gems": [
-    "IND",
-    "TON"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1888 the Lees Creek Branch in Alberta erected and dedicated its first meetinghouse."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1840 the United Brethren deeded the Gadfield Elm Chapel to the Church, the first Church-owned meetinghouse in Europe; Dan Jones dedicated the Llanelli meetinghouse in Wales in 1849."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Christiania Conference House, the first Church-built meetinghouse and office in Europe, was dedicated in 1871."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The first meetinghouse constructed in Samoa was dedicated at Aunuu on October 28, 1888."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1851 an architect and builder in Calcutta constructed the first Church meetinghouse in Asia."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 2,
-     "gem": true,
-     "fact": "On May 15, 1892, missionaries Butler and Smoot dedicated a newly completed meetinghouse and mission home at Mua."
-    }
-   ]
-  },
-  {
    "id": "hf-hinckley-visits-2000-2003",
    "bank": "sites-history",
    "display_text": "Pin a country where President Gordon B. Hinckley met the Saints on a visit between 2000 and 2003, dedications excluded.",
@@ -202,6 +130,78 @@
      "commonness": 2,
      "gem": true,
      "fact": "June 2003: President Hinckley visited Vanuatu and met with members."
+    }
+   ]
+  },
+  {
+   "id": "hd-meetinghouse-pre-1900",
+   "bank": "sites-history",
+   "display_text": "Pin a country where the Saints built or were given a meetinghouse before 1900.",
+   "text_original": "A country where the Church built, acquired or dedicated a meetinghouse before 1900.",
+   "accepts": "country",
+   "topic": "buildings",
+   "era": "1840-1899",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Most 19th-century Saints met in homes and rented halls, but a few lands had a Church meetinghouse before 1900: the Gadfield Elm Chapel in England (1840), Calcutta (1851), Christiania (1871), Samoa (1888), Alberta (1888) and Tonga (1892).",
+   "stamp": null,
+   "gems": [
+    "IND",
+    "TON"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1888 the Lees Creek Branch in Alberta erected and dedicated its first meetinghouse."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1840 the United Brethren deeded the Gadfield Elm Chapel to the Church, the first Church-owned meetinghouse in Europe; Dan Jones dedicated the Llanelli meetinghouse in Wales in 1849."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Christiania Conference House, the first Church-built meetinghouse and office in Europe, was dedicated in 1871."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The first meetinghouse constructed in Samoa was dedicated at Aunuu on October 28, 1888."
+    },
+    {
+     "code": "IND",
+     "name": "India",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1851 an architect and builder in Calcutta constructed the first Church meetinghouse in Asia."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On May 15, 1892, missionaries Butler and Smoot dedicated a newly completed meetinghouse and mission home at Mua."
     }
    ]
   },

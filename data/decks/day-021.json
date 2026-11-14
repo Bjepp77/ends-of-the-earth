@@ -2,61 +2,114 @@
  "day": 21,
  "prompts": [
   {
-   "id": "temples-new-2016-18",
-   "bank": "temples",
-   "display_text": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
-   "text_original": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2016-2018",
-   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
+   "id": "global-pacific-islands-any-stake",
+   "bank": "global",
+   "display_text": "Pin a Pacific island country or territory (not Australia, NZ or Hawaii) with at least one stake as of October 2026.",
+   "text_original": "A Pacific island country or territory (not Australia or New Zealand; Hawaii counts as USA) where the Church has at least one stake as of October 2026.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/samoa?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/tonga?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/marshall-islands?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/new-caledonia?lang=eng"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
    "note": null,
-   "summary": "From 2016 through 2018, new temples were dedicated in Sapporo, Japan (2016), Paris, France (2017), Concepcion, Chile (2018) and Barranquilla, Colombia (2018), alongside eight in the United States. Paris was the first temple in France.",
+   "summary": "Twelve Pacific island countries and territories have stakes. Tonga (21) and Samoa (20) lead, followed by French Polynesia, Papua New Guinea, American Samoa, Fiji and Kiribati. Vanuatu, the Marshall Islands, Guam, Micronesia and New Caledonia have 1 or 2 stakes each. The Cook Islands and Solomon Islands have districts only.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "COL"
+    "FSM",
+    "MHL",
+    "NCL"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "USA",
-     "name": "United States of America",
+     "code": "TON",
+     "name": "Tonga",
      "commonness": 5,
      "gem": false,
-     "fact": "Cedar City Utah, 2017; Fort Collins Colorado, 2016; Hartford Connecticut, 2016; and 5 more."
+     "fact": "21 stakes."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 5,
+     "gem": false,
+     "fact": "20 stakes."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 4,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
      "commonness": 3,
      "gem": false,
-     "fact": "Concepción Chile, 2018."
+     "fact": "5 stakes."
     },
     {
-     "code": "FRA",
-     "name": "France",
+     "code": "PNG",
+     "name": "Papua New Guinea",
      "commonness": 3,
      "gem": false,
-     "fact": "Paris France, 2017."
+     "fact": "6 stakes."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "PYF",
+     "name": "French Polynesia",
      "commonness": 3,
      "gem": false,
-     "fact": "Sapporo Japan, 2016."
+     "fact": "11 stakes."
     },
     {
-     "code": "COL",
-     "name": "Colombia",
+     "code": "GUM",
+     "name": "Guam",
      "commonness": 2,
+     "gem": false,
+     "fact": "1 stake."
+    },
+    {
+     "code": "KIR",
+     "name": "Kiribati",
+     "commonness": 2,
+     "gem": false,
+     "fact": "4 stakes."
+    },
+    {
+     "code": "VUT",
+     "name": "Vanuatu",
+     "commonness": 2,
+     "gem": false,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "FSM",
+     "name": "Micronesia",
+     "commonness": 1,
      "gem": true,
-     "fact": "Barranquilla Colombia, 2018."
+     "fact": "1 stake."
+    },
+    {
+     "code": "MHL",
+     "name": "Marshall Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "2 stakes."
+    },
+    {
+     "code": "NCL",
+     "name": "New Caledonia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "1 stake."
     }
    ]
   },
@@ -281,114 +334,61 @@
    ]
   },
   {
-   "id": "global-pacific-islands-any-stake",
-   "bank": "global",
-   "display_text": "Pin a Pacific island country or territory (not Australia, NZ or Hawaii) with at least one stake as of October 2026.",
-   "text_original": "A Pacific island country or territory (not Australia or New Zealand; Hawaii counts as USA) where the Church has at least one stake as of October 2026.",
-   "accepts": "country_or_territory",
-   "topic": "church growth",
-   "era": "2026",
-   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "id": "temples-new-2016-18",
+   "bank": "temples",
+   "display_text": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
+   "text_original": "Pin a country where a new temple was dedicated from 2016 through 2018 (not counting rededications).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2016-2018",
+   "citation": "ChurchofJesusChristTemples.org temple chronology, read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/samoa?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/tonga?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/marshall-islands?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/new-caledonia?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "note": null,
-   "summary": "Twelve Pacific island countries and territories have stakes. Tonga (21) and Samoa (20) lead, followed by French Polynesia, Papua New Guinea, American Samoa, Fiji and Kiribati. Vanuatu, the Marshall Islands, Guam, Micronesia and New Caledonia have 1 or 2 stakes each. The Cook Islands and Solomon Islands have districts only.",
+   "summary": "From 2016 through 2018, new temples were dedicated in Sapporo, Japan (2016), Paris, France (2017), Concepcion, Chile (2018) and Barranquilla, Colombia (2018), alongside eight in the United States. Paris was the first temple in France.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "FSM",
-    "MHL",
-    "NCL"
+    "COL"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "TON",
-     "name": "Tonga",
+     "code": "USA",
+     "name": "United States of America",
      "commonness": 5,
      "gem": false,
-     "fact": "21 stakes."
+     "fact": "Cedar City Utah, 2017; Fort Collins Colorado, 2016; Hartford Connecticut, 2016; and 5 more."
     },
     {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 5,
-     "gem": false,
-     "fact": "20 stakes."
-    },
-    {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 4,
-     "gem": false,
-     "fact": "4 stakes."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "5 stakes."
+     "fact": "Concepción Chile, 2018."
     },
     {
-     "code": "PNG",
-     "name": "Papua New Guinea",
+     "code": "FRA",
+     "name": "France",
      "commonness": 3,
      "gem": false,
-     "fact": "6 stakes."
+     "fact": "Paris France, 2017."
     },
     {
-     "code": "PYF",
-     "name": "French Polynesia",
+     "code": "JPN",
+     "name": "Japan",
      "commonness": 3,
      "gem": false,
-     "fact": "11 stakes."
+     "fact": "Sapporo Japan, 2016."
     },
     {
-     "code": "GUM",
-     "name": "Guam",
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 2,
-     "gem": false,
-     "fact": "1 stake."
-    },
-    {
-     "code": "KIR",
-     "name": "Kiribati",
-     "commonness": 2,
-     "gem": false,
-     "fact": "4 stakes."
-    },
-    {
-     "code": "VUT",
-     "name": "Vanuatu",
-     "commonness": 2,
-     "gem": false,
-     "fact": "2 stakes."
-    },
-    {
-     "code": "FSM",
-     "name": "Micronesia",
-     "commonness": 1,
      "gem": true,
-     "fact": "1 stake."
-    },
-    {
-     "code": "MHL",
-     "name": "Marshall Islands",
-     "commonness": 1,
-     "gem": true,
-     "fact": "2 stakes."
-    },
-    {
-     "code": "NCL",
-     "name": "New Caledonia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "1 stake."
+     "fact": "Barranquilla Colombia, 2018."
     }
    ]
   },

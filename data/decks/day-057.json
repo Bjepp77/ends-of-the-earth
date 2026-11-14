@@ -91,6 +91,68 @@
    ]
   },
   {
+   "id": "hd-first-branch-pre-1850",
+   "bank": "sites-history",
+   "display_text": "Pin a country where the Church organized its first branch there before 1850.",
+   "text_original": "A country (by today's borders) where the Church's first branch was organized before 1850.",
+   "accepts": "country",
+   "topic": "branches",
+   "era": "1830-1849",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "GBR also covers the Overton Branch in Wales (1840) and the Paisley Branch in Scotland (1840).",
+   "summary": "Before 1850 the Church had organized branches in only a handful of lands outside the United States: Upper Canada in 1832, Preston, England in 1837, Ireland in 1840, Darmstadt in 1843 and Montefiores, Australia in 1844.",
+   "stamp": null,
+   "gems": [
+    "AUS"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1832 a small group of believers in Ernestown, Upper Canada, established a branch."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The first branch in England was created in Preston on August 6, 1837."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1843 Johann Greenig, a German convert baptized in the United States, reported establishing the first branch in Germany at Darmstadt."
+    },
+    {
+     "code": "IRL",
+     "name": "Ireland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1840 the first missionary to Ireland organized the few converts into the first branch in Ireland."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The first branch in Australia was organized at Montefiores in 1844 by Andrew Anderson."
+    }
+   ]
+  },
+  {
    "id": "temples-english-africa",
    "bank": "sites-temples",
    "display_text": "Pin an English-speaking African country with a temple, from announced to dedicated.",
@@ -167,68 +229,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "Monrovia Liberia (announced), as of November 2026."
-    }
-   ]
-  },
-  {
-   "id": "hd-first-branch-pre-1850",
-   "bank": "sites-history",
-   "display_text": "Pin a country where the Church organized its first branch there before 1850.",
-   "text_original": "A country (by today's borders) where the Church's first branch was organized before 1850.",
-   "accepts": "country",
-   "topic": "branches",
-   "era": "1830-1849",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "GBR also covers the Overton Branch in Wales (1840) and the Paisley Branch in Scotland (1840).",
-   "summary": "Before 1850 the Church had organized branches in only a handful of lands outside the United States: Upper Canada in 1832, Preston, England in 1837, Ireland in 1840, Darmstadt in 1843 and Montefiores, Australia in 1844.",
-   "stamp": null,
-   "gems": [
-    "AUS"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 5,
-     "gem": false,
-     "fact": "In 1832 a small group of believers in Ernestown, Upper Canada, established a branch."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 5,
-     "gem": false,
-     "fact": "The first branch in England was created in Preston on August 6, 1837."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1843 Johann Greenig, a German convert baptized in the United States, reported establishing the first branch in Germany at Darmstadt."
-    },
-    {
-     "code": "IRL",
-     "name": "Ireland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1840 the first missionary to Ireland organized the few converts into the first branch in Ireland."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The first branch in Australia was organized at Montefiores in 1844 by Andrew Anderson."
     }
    ]
   },

@@ -84,7 +84,7 @@
   {
    "id": "ot-solomon-builds-wives-allies",
    "bank": "ot",
-   "display_text": "Pin a country holding a city Solomon built, or the homeland of one of his wives or royal allies (not Sheba)",
+   "display_text": "Pin a country holding a city Solomon built, or the home of one of his wives or allies, such as Hiram of Tyre (not Sheba).",
    "text_original": "A present-day country holding a city Solomon built or fortified, or the homeland of one of his wives or royal allies (Kings and Chronicles; not the queen of Sheba). Trade lands of disputed site, such as Ophir and Tarshish, are not asked.",
    "accepts": "country",
    "topic": "Bible",

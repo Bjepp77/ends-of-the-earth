@@ -2,178 +2,6 @@
  "day": 24,
  "prompts": [
   {
-   "id": "ot-daniel-lands",
-   "bank": "ot",
-   "display_text": "Pin a country holding a land or people named in the book of Daniel, from Babylon to Grecia",
-   "text_original": "A present-day country holding a land, city or people named in the book of Daniel (Babylon, Shushan by the river Ulai, Media and Persia, Grecia, Egypt, the Libyans and the people of Cush, the Nile land south of Egypt, Edom, Moab and Ammon, the ships of Chittim, and the glorious land)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Daniel 1-11",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt, so Sudan counts for Daniel 11:43.",
-   "summary": "Daniel was taken captive to Babylon, served under Babylonian and Persian kings, and saw visions at Shushan. His visions trace Media and Persia, Grecia, and the long struggle of the kings of the north and south, which touches Egypt, Libya, Ethiopia, Edom, Moab, Ammon and the ships of Chittim (Dan 1-11).",
-   "stamp": null,
-   "gems": [
-    "CYP",
-    "SDN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Daniel was carried to Babylon in the land of Shinar (Dan 1:1-2)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The king of the south of Daniel 11 rules Egypt (Dan 11:8, 42)."
-    },
-    {
-     "code": "IRN",
-     "name": "Iran",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Daniel saw his vision at Shushan by the river of Ulai, and the ram stood for the kings of Media and Persia (Dan 8:2, 20)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Daniel prayed toward Jerusalem, and the king of the north enters the glorious land (Dan 6:10; 11:41)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The rough goat is the king of Grecia (Dan 8:21)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Edom, Moab and the chief of the children of Ammon escape out of his hand (Dan 11:41)."
-    },
-    {
-     "code": "LBY",
-     "name": "Libya",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Libyans shall be at his steps (Dan 11:43)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The king of the north stands in the glorious land and plants his palace in the glorious holy mountain; that land includes the hill country now in the West Bank (Dan 11:16, 41, 45)."
-    },
-    {
-     "code": "CYP",
-     "name": "Cyprus",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The ships of Chittim come against the king of the north (Dan 11:30); Chittim is Cyprus."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The Ethiopians shall be at his steps (Dan 11:43); Bible Ethiopia (Cush) was the Nile land south of Egypt."
-    }
-   ]
-  },
-  {
-   "id": "nt-revelation-places",
-   "bank": "nt",
-   "display_text": "Pin a country holding a place, city or river named in the book of Revelation",
-   "text_original": "A present-day country holding a place, city or river named in the book of Revelation",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "New Testament",
-   "citation": "Revelation 1:9-11; 9:14; 11:8; 16:12-16",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/armageddon?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/14?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/patmos?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "The Euphrates also rises in Turkey, which is already accepted.",
-   "summary": "John wrote Revelation on Patmos, a Greek island, to seven churches in western Turkey. The book names the great river Euphrates, which flows through Turkey, Syria and Iraq, and Armageddon, the mount of Megiddo in Israel. It also calls the wicked city spiritually Sodom and Egypt.",
-   "stamp": null,
-   "gems": [
-    "EGY"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 5,
-     "gem": false,
-     "fact": "The seven churches, from Ephesus to Laodicea, were in the province of Asia in western Turkey (Revelation 1:11)."
-    },
-    {
-     "code": "GRC",
-     "name": "Greece",
-     "commonness": 4,
-     "gem": false,
-     "fact": "John received the revelation on the isle of Patmos (Revelation 1:9)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Armageddon is Har Megiddo, the mount of Megiddo in northern Israel (Revelation 16:16; Bible Dictionary)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Euphrates and the site of Babylon are in Iraq (Revelation 9:14; 16:12; 14:8)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The great river Euphrates flows across Syria (Revelation 9:14; 16:12)."
-    },
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 1,
-     "gem": true,
-     "fact": "The great city is spiritually called Sodom and Egypt (Revelation 11:8)."
-    }
-   ]
-  },
-  {
    "id": "temples-pacific-coast-americas",
    "bank": "temples",
    "display_text": "Pin a country in the Americas with a Pacific coastline and at least one dedicated temple (as of October 2026).",
@@ -286,6 +114,78 @@
      "commonness": 1,
      "gem": true,
      "fact": "Honduras touches the Pacific at the Gulf of Fonseca; Tegucigalpa and San Pedro Sula temples."
+    }
+   ]
+  },
+  {
+   "id": "nt-revelation-places",
+   "bank": "nt",
+   "display_text": "Pin a country holding a place, city or river named in the book of Revelation",
+   "text_original": "A present-day country holding a place, city or river named in the book of Revelation",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "New Testament",
+   "citation": "Revelation 1:9-11; 9:14; 11:8; 16:12-16",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/armageddon?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/rev/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/patmos?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "The Euphrates also rises in Turkey, which is already accepted.",
+   "summary": "John wrote Revelation on Patmos, a Greek island, to seven churches in western Turkey. The book names the great river Euphrates, which flows through Turkey, Syria and Iraq, and Armageddon, the mount of Megiddo in Israel. It also calls the wicked city spiritually Sodom and Egypt.",
+   "stamp": null,
+   "gems": [
+    "EGY"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 5,
+     "gem": false,
+     "fact": "The seven churches, from Ephesus to Laodicea, were in the province of Asia in western Turkey (Revelation 1:11)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 4,
+     "gem": false,
+     "fact": "John received the revelation on the isle of Patmos (Revelation 1:9)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Armageddon is Har Megiddo, the mount of Megiddo in northern Israel (Revelation 16:16; Bible Dictionary)."
+    },
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Euphrates and the site of Babylon are in Iraq (Revelation 9:14; 16:12; 14:8)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The great river Euphrates flows across Syria (Revelation 9:14; 16:12)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The great city is spiritually called Sodom and Egypt (Revelation 11:8)."
     }
    ]
   },
@@ -414,6 +314,106 @@
      "commonness": 1,
      "gem": true,
      "fact": "1 stake; 2,585 members."
+    }
+   ]
+  },
+  {
+   "id": "ot-daniel-lands",
+   "bank": "ot",
+   "display_text": "Pin a country holding a land or people named in the book of Daniel, from Babylon to Grecia",
+   "text_original": "A present-day country holding a land, city or people named in the book of Daniel (Babylon, Shushan by the river Ulai, Media and Persia, Grecia, Egypt, the Libyans and the people of Cush, the Nile land south of Egypt, Edom, Moab and Ammon, the ships of Chittim, and the glorious land)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Daniel 1-11",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/chittim?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/libya?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Bible Ethiopia (Cush) lay mostly in today's Sudan, reaching into southern Egypt, so Sudan counts for Daniel 11:43.",
+   "summary": "Daniel was taken captive to Babylon, served under Babylonian and Persian kings, and saw visions at Shushan. His visions trace Media and Persia, Grecia, and the long struggle of the kings of the north and south, which touches Egypt, Libya, Ethiopia, Edom, Moab, Ammon and the ships of Chittim (Dan 1-11).",
+   "stamp": null,
+   "gems": [
+    "CYP",
+    "SDN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Daniel was carried to Babylon in the land of Shinar (Dan 1:1-2)."
+    },
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 4,
+     "gem": false,
+     "fact": "The king of the south of Daniel 11 rules Egypt (Dan 11:8, 42)."
+    },
+    {
+     "code": "IRN",
+     "name": "Iran",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Daniel saw his vision at Shushan by the river of Ulai, and the ram stood for the kings of Media and Persia (Dan 8:2, 20)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Daniel prayed toward Jerusalem, and the king of the north enters the glorious land (Dan 6:10; 11:41)."
+    },
+    {
+     "code": "GRC",
+     "name": "Greece",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The rough goat is the king of Grecia (Dan 8:21)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Edom, Moab and the chief of the children of Ammon escape out of his hand (Dan 11:41)."
+    },
+    {
+     "code": "LBY",
+     "name": "Libya",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Libyans shall be at his steps (Dan 11:43)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The king of the north stands in the glorious land and plants his palace in the glorious holy mountain; that land includes the hill country now in the West Bank (Dan 11:16, 41, 45)."
+    },
+    {
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The ships of Chittim come against the king of the north (Dan 11:30); Chittim is Cyprus."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 1,
+     "gem": true,
+     "fact": "The Ethiopians shall be at his steps (Dan 11:43); Bible Ethiopia (Cush) was the Nile land south of Egypt."
     }
    ]
   },

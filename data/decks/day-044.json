@@ -2,66 +2,120 @@
  "day": 44,
  "prompts": [
   {
-   "id": "ot-song-of-solomon-places",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place named in the Song of Solomon, from Engedi to Lebanon, or Pharaoh's chariots (not Tirzah or Kedar)",
-   "text_original": "A present-day country holding a place named in the Song of Solomon: Lebanon and the tops of Amana, Shenir and Hermon, the tower of Lebanon toward Damascus, Engedi, Carmel and Sharon, Heshbon and Gilead, or Pharaoh's chariots (Tirzah and the tents of Kedar are left out: their sites are not fixed in Church sources)",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Song of Solomon 1-7",
+   "id": "global-own-mission-1970-1989",
+   "bank": "global",
+   "display_text": "Pin a Latin American or Caribbean country or territory that got its first Church mission headquarters there between 1970 and 1989.",
+   "text_original": "Between 1970 and 1989 the Church placed mission headquarters in many Latin American and Caribbean lands for the first time. Pin a Latin American or Caribbean country or territory that got its first Church mission headquartered there between 1970 and 1989.",
+   "accepts": "country_or_territory",
+   "topic": "church growth",
+   "era": "1970-1989",
+   "citation": "Global Histories chronologies: Ecuador, Colombia, El Salvador, Paraguay, Puerto Rico, Dominican Republic, Honduras, Haiti, Barbados, Jamaica, Nicaragua, Panama",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/7?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/jamaica/jm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/barbados/bb-chronology?lang=eng"
    ],
-   "difficulty": 3,
-   "note": "Mount Hermon (Shenir) sits on the Lebanon-Syria border, so both count. Jerusalem is scored as Israel.",
-   "summary": "The Song of Solomon draws its imagery from the whole land: the vineyards of Engedi, the rose of Sharon, the cedars of Lebanon, the heights of Hermon, the pools of Heshbon and the goats of Gilead. It also borrows Pharaoh's chariots (Song 1-7).",
-   "stamp": null,
+   "difficulty": 1,
+   "note": null,
+   "summary": "From 1970 to 1989 the Church gave a first mission headquarters to Ecuador (1970), Colombia (1971), El Salvador (1976), Paraguay (1977), Puerto Rico (1979), the Dominican Republic and Honduras (1980), Barbados and Haiti (1984), Jamaica (1985), and Nicaragua and Panama (1989). Costa Rica is not an answer: it had hosted the Central American Mission headquarters since 1965.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "EGY",
-    "JOR",
-    "SYR"
+    "BRB"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Camphire in the vineyards of Engedi, the rose of Sharon, and a head like Carmel (Song 1:14; 2:1; 7:5)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "DOM",
+     "name": "Dominican Republic",
      "commonness": 4,
      "gem": false,
-     "fact": "Come with me from Lebanon; the tower of Lebanon looks toward Damascus (Song 4:8; 7:4)."
+     "fact": "The Santo Domingo Dominican Republic Mission was organized January 1, 1980."
     },
     {
-     "code": "EGY",
-     "name": "Egypt",
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 3,
-     "gem": true,
-     "fact": "She is likened to a company of horses in Pharaoh's chariots (Song 1:9)."
+     "gem": false,
+     "fact": "The Colombia Mission was created in Bogota in July 1971 from the Colombia-Venezuela Mission."
     },
     {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "ECU",
+     "name": "Ecuador",
      "commonness": 3,
-     "gem": true,
-     "fact": "Her eyes are like the fishpools in Heshbon, and her hair as a flock of goats from mount Gilead (Song 4:1; 7:4)."
+     "gem": false,
+     "fact": "The Ecuador Mission was organized in Quito in August 1970."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "HND",
+     "name": "Honduras",
      "commonness": 3,
+     "gem": false,
+     "fact": "The Honduras Tegucigalpa Mission began operations February 4, 1980."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Haiti Port-au-Prince Mission was organized August 4, 1984."
+    },
+    {
+     "code": "NIC",
+     "name": "Nicaragua",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Nicaragua Managua Mission was organized October 15, 1989."
+    },
+    {
+     "code": "PAN",
+     "name": "Panama",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Panama City Mission was created July 1, 1989."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The Paraguay Asuncion Mission was created July 1, 1977."
+    },
+    {
+     "code": "SLV",
+     "name": "El Salvador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The El Salvador San Salvador Mission was organized July 1, 1976."
+    },
+    {
+     "code": "JAM",
+     "name": "Jamaica",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Jamaica Kingston Mission was organized July 1, 1985."
+    },
+    {
+     "code": "PRI",
+     "name": "Puerto Rico",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The Puerto Rico San Juan Mission was created July 7, 1979."
+    },
+    {
+     "code": "BRB",
+     "name": "Barbados",
+     "commonness": 1,
      "gem": true,
-     "fact": "The tower of Lebanon looketh toward Damascus, and the bride is called from the top of Shenir and Hermon (Song 4:8; 7:4)."
+     "fact": "Barbados became the headquarters of the West Indies Mission on June 26, 1984."
     }
    ]
   },
@@ -304,120 +358,66 @@
    ]
   },
   {
-   "id": "global-own-mission-1970-1989",
-   "bank": "global",
-   "display_text": "Pin a Latin American or Caribbean country or territory that got its first Church mission headquarters there between 1970 and 1989.",
-   "text_original": "Between 1970 and 1989 the Church placed mission headquarters in many Latin American and Caribbean lands for the first time. Pin a Latin American or Caribbean country or territory that got its first Church mission headquartered there between 1970 and 1989.",
-   "accepts": "country_or_territory",
-   "topic": "church growth",
-   "era": "1970-1989",
-   "citation": "Global Histories chronologies: Ecuador, Colombia, El Salvador, Paraguay, Puerto Rico, Dominican Republic, Honduras, Haiti, Barbados, Jamaica, Nicaragua, Panama",
+   "id": "ot-song-of-solomon-places",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place in the Song of Solomon, such as Engedi or Lebanon, or Egypt for its chariots; not Tirzah or Kedar.",
+   "text_original": "A present-day country holding a place named in the Song of Solomon: Lebanon and the tops of Amana, Shenir and Hermon, the tower of Lebanon toward Damascus, Engedi, Carmel and Sharon, Heshbon and Gilead, or Pharaoh's chariots (Tirzah and the tents of Kedar are left out: their sites are not fixed in Church sources)",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Song of Solomon 1-7",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ecuador/ec-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/colombia/co-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/el-salvador/sv-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/puerto-rico/pr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/jamaica/jm-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/nicaragua/ni-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/panama/pa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/honduras/hn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/barbados/bb-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/song/7?lang=eng"
    ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "From 1970 to 1989 the Church gave a first mission headquarters to Ecuador (1970), Colombia (1971), El Salvador (1976), Paraguay (1977), Puerto Rico (1979), the Dominican Republic and Honduras (1980), Barbados and Haiti (1984), Jamaica (1985), and Nicaragua and Panama (1989). Costa Rica is not an answer: it had hosted the Central American Mission headquarters since 1965.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 3,
+   "note": "Mount Hermon (Shenir) sits on the Lebanon-Syria border, so both count. Jerusalem is scored as Israel.",
+   "summary": "The Song of Solomon draws its imagery from the whole land: the vineyards of Engedi, the rose of Sharon, the cedars of Lebanon, the heights of Hermon, the pools of Heshbon and the goats of Gilead. It also borrows Pharaoh's chariots (Song 1-7).",
+   "stamp": null,
    "gems": [
-    "BRB"
+    "EGY",
+    "JOR",
+    "SYR"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "DOM",
-     "name": "Dominican Republic",
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Camphire in the vineyards of Engedi, the rose of Sharon, and a head like Carmel (Song 1:14; 2:1; 7:5)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 4,
      "gem": false,
-     "fact": "The Santo Domingo Dominican Republic Mission was organized January 1, 1980."
+     "fact": "Come with me from Lebanon; the tower of Lebanon looks toward Damascus (Song 4:8; 7:4)."
     },
     {
-     "code": "COL",
-     "name": "Colombia",
+     "code": "EGY",
+     "name": "Egypt",
      "commonness": 3,
-     "gem": false,
-     "fact": "The Colombia Mission was created in Bogota in July 1971 from the Colombia-Venezuela Mission."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Ecuador Mission was organized in Quito in August 1970."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Honduras Tegucigalpa Mission began operations February 4, 1980."
-    },
-    {
-     "code": "HTI",
-     "name": "Haiti",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Haiti Port-au-Prince Mission was organized August 4, 1984."
-    },
-    {
-     "code": "NIC",
-     "name": "Nicaragua",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Nicaragua Managua Mission was organized October 15, 1989."
-    },
-    {
-     "code": "PAN",
-     "name": "Panama",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Panama City Mission was created July 1, 1989."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Paraguay Asuncion Mission was created July 1, 1977."
-    },
-    {
-     "code": "SLV",
-     "name": "El Salvador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The El Salvador San Salvador Mission was organized July 1, 1976."
-    },
-    {
-     "code": "JAM",
-     "name": "Jamaica",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Jamaica Kingston Mission was organized July 1, 1985."
-    },
-    {
-     "code": "PRI",
-     "name": "Puerto Rico",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The Puerto Rico San Juan Mission was created July 7, 1979."
-    },
-    {
-     "code": "BRB",
-     "name": "Barbados",
-     "commonness": 1,
      "gem": true,
-     "fact": "Barbados became the headquarters of the West Indies Mission on June 26, 1984."
+     "fact": "She is likened to a company of horses in Pharaoh's chariots (Song 1:9)."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Her eyes are like the fishpools in Heshbon, and her hair as a flock of goats from mount Gilead (Song 4:1; 7:4)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 3,
+     "gem": true,
+     "fact": "The tower of Lebanon looketh toward Damascus, and the bride is called from the top of Shenir and Hermon (Song 4:8; 7:4)."
     }
    ]
   }

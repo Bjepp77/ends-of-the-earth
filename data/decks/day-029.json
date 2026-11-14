@@ -2,6 +2,120 @@
  "day": 29,
  "prompts": [
   {
+   "id": "global-africa-asia-ten-plus-stakes",
+   "bank": "global",
+   "display_text": "Pin an African or Asian country where the Church has 10 or more stakes as of October 2026.",
+   "text_original": "An African or Asian country where the Church has 10 or more stakes as of October 2026 (year-end 2025 figures).",
+   "accepts": "country",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/japan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/south-korea?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/taiwan?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Twelve countries in Africa and Asia have 10 or more stakes. The Philippines (141) and Nigeria (80) dwarf the rest; the Democratic Republic of the Congo, Ghana, Ivory Coast, Japan and South Africa follow. Taiwan, South Korea, Zimbabwe, Sierra Leone and Mozambique round out the list. Kenya, Thailand, India and Hong Kong each have 4.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "MOZ"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
+     "gem": false,
+     "fact": "31 stakes."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 5,
+     "gem": false,
+     "fact": "80 stakes."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "141 stakes."
+    },
+    {
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "44 stakes."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "22 stakes."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "18 stakes."
+    },
+    {
+     "code": "CIV",
+     "name": "Ivory Coast",
+     "commonness": 3,
+     "gem": false,
+     "fact": "23 stakes."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "16 stakes."
+    },
+    {
+     "code": "ZWE",
+     "name": "Zimbabwe",
+     "commonness": 3,
+     "gem": false,
+     "fact": "12 stakes."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "11 stakes."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 1,
+     "gem": true,
+     "fact": "10 stakes."
+    }
+   ]
+  },
+  {
    "id": "history-temples-dedicated-1984",
    "bank": "history2",
    "display_text": "Pin a country where a new temple was dedicated in 1984 (not rededications).",
@@ -58,86 +172,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "Taipei Taiwan (dedicated 1984)."
-    }
-   ]
-  },
-  {
-   "id": "ot-foreign-gods-homelands",
-   "bank": "ot",
-   "display_text": "Pin a country that was home to a foreign god named in the Old Testament, from Chemosh to Dagon",
-   "text_original": "A present-day country holding the home city or land of a foreign god named in the Old Testament: Chemosh of Moab, Milcom of Ammon, Ashtoreth of the Zidonians, Dagon of Ashdod and Gaza, Baal-zebub of Ekron, Rimmon of Damascus, Ashima of Hamath, Nisroch of Nineveh, Nergal of Cuth, Bel and Nebo of Babylon, and the gods of Egypt",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "1 Samuel 5; 1 Kings 11; 2 Kings 1, 5, 17, 19; Judges 16; Isaiah 46; Exodus 12",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Gaza is in Palestine; Ashdod and Ekron are in Israel.",
-   "summary": "The Old Testament names many gods of Israel's neighbours: Chemosh of Moab, Milcom of Ammon, Ashtoreth of Zidon, Dagon of the Philistines, Rimmon of Damascus and Nisroch of Nineveh. The ark toppled Dagon's image at Ashdod, Samson pulled down Dagon's house at Gaza, and Isaiah mocked Bel and Nebo of Babylon (1 Sam 5; Judg 16; Isa 46).",
-   "stamp": null,
-   "gems": [
-    "PSE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 4,
-     "gem": false,
-     "fact": "The Lord said he would execute judgment against all the gods of Egypt (Ex 12:12)."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Chemosh was the abomination of Moab and Milcom the abomination of the Ammonites (1 Kgs 11:5, 7)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Solomon went after Ashtoreth the goddess of the Zidonians (1 Kgs 11:5)."
-    },
-    {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sennacherib was slain worshipping in the house of Nisroch his god at Nineveh; Bel and Nebo were gods of Babylon (2 Kgs 19:36-37; Isa 46:1)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The Philistines set the ark in the house of Dagon at Ashdod, and Baal-zebub was the god of Ekron (1 Sam 5:2; 2 Kgs 1:2)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Naaman's master worshipped in the house of Rimmon at Damascus, and the men of Hamath made Ashima (2 Kgs 5:18; 17:30)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 2,
-     "gem": true,
-     "fact": "The lords of the Philistines gathered at Gaza to sacrifice to Dagon when Samson was captured (Judg 16:21-23)."
     }
    ]
   },
@@ -299,116 +333,82 @@
    ]
   },
   {
-   "id": "global-africa-asia-ten-plus-stakes",
-   "bank": "global",
-   "display_text": "Pin an African or Asian country where the Church has 10 or more stakes as of October 2026.",
-   "text_original": "An African or Asian country where the Church has 10 or more stakes as of October 2026 (year-end 2025 figures).",
+   "id": "ot-foreign-gods-homelands",
+   "bank": "ot",
+   "display_text": "Pin a country that was home to a foreign god named in the Old Testament, from Chemosh to Dagon",
+   "text_original": "A present-day country holding the home city or land of a foreign god named in the Old Testament: Chemosh of Moab, Milcom of Ammon, Ashtoreth of the Zidonians, Dagon of Ashdod and Gaza, Baal-zebub of Ekron, Rimmon of Damascus, Ashima of Hamath, Nisroch of Nineveh, Nergal of Cuth, Bel and Nebo of Babylon, and the gods of Egypt",
    "accepts": "country",
-   "topic": "church growth",
-   "era": "2026",
-   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "1 Samuel 5; 1 Kings 11; 2 Kings 1, 5, 17, 19; Judges 16; Isaiah 46; Exodus 12",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/philippines?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/nigeria?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/japan?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/south-korea?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/taiwan?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/sierra-leone?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/zimbabwe?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/judg/16?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/5?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng"
    ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "Twelve countries in Africa and Asia have 10 or more stakes. The Philippines (141) and Nigeria (80) dwarf the rest; the Democratic Republic of the Congo, Ghana, Ivory Coast, Japan and South Africa follow. Taiwan, South Korea, Zimbabwe, Sierra Leone and Mozambique round out the list. Kenya, Thailand, India and Hong Kong each have 4.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 2,
+   "note": "Gaza is in Palestine; Ashdod and Ekron are in Israel.",
+   "summary": "The Old Testament names many gods of Israel's neighbours: Chemosh of Moab, Milcom of Ammon, Ashtoreth of Zidon, Dagon of the Philistines, Rimmon of Damascus and Nisroch of Nineveh. The ark toppled Dagon's image at Ashdod, Samson pulled down Dagon's house at Gaza, and Isaiah mocked Bel and Nebo of Babylon (1 Sam 5; Judg 16; Isa 46).",
+   "stamp": null,
    "gems": [
-    "MOZ"
+    "PSE"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 5,
-     "gem": false,
-     "fact": "31 stakes."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 5,
-     "gem": false,
-     "fact": "80 stakes."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 5,
-     "gem": false,
-     "fact": "141 stakes."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
+     "code": "EGY",
+     "name": "Egypt",
      "commonness": 4,
      "gem": false,
-     "fact": "44 stakes."
+     "fact": "The Lord said he would execute judgment against all the gods of Egypt (Ex 12:12)."
     },
     {
-     "code": "JPN",
-     "name": "Japan",
+     "code": "JOR",
+     "name": "Jordan",
      "commonness": 4,
      "gem": false,
-     "fact": "22 stakes."
+     "fact": "Chemosh was the abomination of Moab and Milcom the abomination of the Ammonites (1 Kgs 11:5, 7)."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 4,
      "gem": false,
-     "fact": "18 stakes."
+     "fact": "Solomon went after Ashtoreth the goddess of the Zidonians (1 Kgs 11:5)."
     },
     {
-     "code": "CIV",
-     "name": "Ivory Coast",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 3,
      "gem": false,
-     "fact": "23 stakes."
+     "fact": "Sennacherib was slain worshipping in the house of Nisroch his god at Nineveh; Bel and Nebo were gods of Babylon (2 Kgs 19:36-37; Isa 46:1)."
     },
     {
-     "code": "KOR",
-     "name": "South Korea",
+     "code": "ISR",
+     "name": "Israel",
      "commonness": 3,
      "gem": false,
-     "fact": "12 stakes."
+     "fact": "The Philistines set the ark in the house of Dagon at Ashdod, and Baal-zebub was the god of Ekron (1 Sam 5:2; 2 Kgs 1:2)."
     },
     {
-     "code": "TWN",
-     "name": "Taiwan",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 3,
      "gem": false,
-     "fact": "16 stakes."
+     "fact": "Naaman's master worshipped in the house of Rimmon at Damascus, and the men of Hamath made Ashima (2 Kgs 5:18; 17:30)."
     },
     {
-     "code": "ZWE",
-     "name": "Zimbabwe",
-     "commonness": 3,
-     "gem": false,
-     "fact": "12 stakes."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 2,
-     "gem": false,
-     "fact": "11 stakes."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 1,
      "gem": true,
-     "fact": "10 stakes."
+     "fact": "The lords of the Philistines gathered at Gaza to sacrifice to Dagon when Samson was captured (Judg 16:21-23)."
     }
    ]
   }
