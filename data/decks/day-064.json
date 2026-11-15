@@ -29,95 +29,6 @@
    "answers": []
   },
   {
-   "id": "hc-asia-dedications-1901-96",
-   "bank": "sites-history",
-   "display_text": "Pin an Asian country that a Church leader dedicated for the preaching of the gospel between 1901 and 1996.",
-   "text_original": "An Asian country dedicated for the preaching of the gospel between 1901 and 1996.",
-   "accepts": "country",
-   "topic": "dedications",
-   "era": "1901-1996",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mongolia/mn-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/malaysia/my-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Heber J. Grant opened Asia at Yokohama in 1901. Joseph Fielding Smith dedicated Korea and the Philippines in 1955, Gordon B. Hinckley Thailand in 1966 and Cambodia in 1996, Ezra Taft Benson Singapore in 1969, Neal A. Maxwell Mongolia in 1993 and Joseph B. Wirthlin Malaysia in 1996.",
-   "stamp": null,
-   "gems": [
-    "KHM",
-    "MNG",
-    "MYS",
-    "SGP"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 5,
-     "gem": false,
-     "fact": "On September 1, 1901, Heber J. Grant dedicated Japan for the preaching of the gospel in Yokohama."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 5,
-     "gem": false,
-     "fact": "In 1955 Joseph Fielding Smith of the Quorum of the Twelve dedicated the Philippines for the preaching of the gospel."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1955 Joseph Fielding Smith of the Quorum of the Twelve dedicated South Korea for the preaching of the gospel."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1966 Gordon B. Hinckley of the Quorum of the Twelve dedicated Thailand for the preaching of the gospel in Bangkok."
-    },
-    {
-     "code": "KHM",
-     "name": "Cambodia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1996 Church President Gordon B. Hinckley offered a dedicatory prayer over the land of Cambodia."
-    },
-    {
-     "code": "MNG",
-     "name": "Mongolia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1993 Elder Neal A. Maxwell climbed Zaisan Hill in Ulaanbaatar to dedicate Mongolia for the preaching of the gospel."
-    },
-    {
-     "code": "MYS",
-     "name": "Malaysia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1996 Elder Joseph B. Wirthlin of the Quorum of the Twelve dedicated Malaysia for the preaching of the restored gospel."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1969 Elder Ezra Taft Benson offered a dedicatory prayer for the preaching of the gospel in Singapore."
-    }
-   ]
-  },
-  {
    "id": "pioneer-south-america-first-preaching-pre-1951",
    "bank": "pioneer",
    "display_text": "Pin a South American country where a Latter-day Saint missionary first preached the gospel before 1951.",
@@ -251,6 +162,95 @@
      "commonness": 1,
      "gem": true,
      "fact": "1 stake, served from a mission based abroad."
+    }
+   ]
+  },
+  {
+   "id": "hc-asia-dedications-1901-96",
+   "bank": "sites-history",
+   "display_text": "Pin an Asian country that a Church leader dedicated for the preaching of the gospel between 1901 and 1996.",
+   "text_original": "An Asian country dedicated for the preaching of the gospel between 1901 and 1996.",
+   "accepts": "country",
+   "topic": "dedications",
+   "era": "1901-1996",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/japan/jp-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/philippines/ph-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/thailand/th-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/singapore/sg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mongolia/mn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/malaysia/my-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Heber J. Grant opened Asia at Yokohama in 1901. Joseph Fielding Smith dedicated Korea and the Philippines in 1955, Gordon B. Hinckley Thailand in 1966 and Cambodia in 1996, Ezra Taft Benson Singapore in 1969, Neal A. Maxwell Mongolia in 1993 and Joseph B. Wirthlin Malaysia in 1996.",
+   "stamp": null,
+   "gems": [
+    "KHM",
+    "MNG",
+    "MYS",
+    "SGP"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "On September 1, 1901, Heber J. Grant dedicated Japan for the preaching of the gospel in Yokohama."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1955 Joseph Fielding Smith of the Quorum of the Twelve dedicated the Philippines for the preaching of the gospel."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1955 Joseph Fielding Smith of the Quorum of the Twelve dedicated South Korea for the preaching of the gospel."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1966 Gordon B. Hinckley of the Quorum of the Twelve dedicated Thailand for the preaching of the gospel in Bangkok."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1996 Church President Gordon B. Hinckley offered a dedicatory prayer over the land of Cambodia."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1993 Elder Neal A. Maxwell climbed Zaisan Hill in Ulaanbaatar to dedicate Mongolia for the preaching of the gospel."
+    },
+    {
+     "code": "MYS",
+     "name": "Malaysia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1996 Elder Joseph B. Wirthlin of the Quorum of the Twelve dedicated Malaysia for the preaching of the restored gospel."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1969 Elder Ezra Taft Benson offered a dedicatory prayer for the preaching of the gospel in Singapore."
     }
    ]
   },

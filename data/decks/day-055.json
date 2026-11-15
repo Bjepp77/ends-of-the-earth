@@ -29,6 +29,83 @@
    "answers": []
   },
   {
+   "id": "ha-grant-europe-1937",
+   "bank": "sites-history",
+   "display_text": "Pin a country on Heber J. Grant's 1937 European tour, two years before war closed the missions.",
+   "text_original": "A European country Church President Heber J. Grant visited in 1937, the year he marked the British Mission's centennial.",
+   "accepts": "country",
+   "topic": "church leaders",
+   "era": "1937",
+   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 1937 President Heber J. Grant toured Europe to celebrate 100 years of the British Mission. He dedicated meetinghouses and encouraged Saints in several countries just two years before World War II forced missionaries home.",
+   "stamp": null,
+   "gems": [
+    "BEL",
+    "CZE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "July 1937: marked the British Mission centennial by dedicating seven new or renovated meetinghouses."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "July 1937: visited the Saints in Germany."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1937: visited the Saints in Austria."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 3,
+     "gem": false,
+     "fact": "July 1937: visited the Saints in Switzerland."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": false,
+     "fact": "August 19-25, 1937: visited Latter-day Saints in Stockholm, Malmo and Goteborg."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "June 27, 1937, Herstal: dedicated the Herstal meetinghouse before 200 Saints."
+    },
+    {
+     "code": "CZE",
+     "name": "Czech Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "July 9-12, 1937: visited Czechoslovakia to encourage members and meet government officials."
+    }
+   ]
+  },
+  {
    "id": "temples-capital-mexico-central-caribbean",
    "bank": "sites-temples",
    "display_text": "Pin a country from Mexico to the Caribbean whose capital names a dedicated temple.",
@@ -114,83 +191,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "Managua Nicaragua (dedicated 2026)."
-    }
-   ]
-  },
-  {
-   "id": "ha-grant-europe-1937",
-   "bank": "sites-history",
-   "display_text": "Pin a country on Heber J. Grant's 1937 European tour, two years before war closed the missions.",
-   "text_original": "A European country Church President Heber J. Grant visited in 1937, the year he marked the British Mission's centennial.",
-   "accepts": "country",
-   "topic": "church leaders",
-   "era": "1937",
-   "citation": "Church History Department, Global Histories country chronologies, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sweden/se-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/czech-republic/cz-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "In 1937 President Heber J. Grant toured Europe to celebrate 100 years of the British Mission. He dedicated meetinghouses and encouraged Saints in several countries just two years before World War II forced missionaries home.",
-   "stamp": null,
-   "gems": [
-    "BEL",
-    "CZE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 5,
-     "gem": false,
-     "fact": "July 1937: marked the British Mission centennial by dedicating seven new or renovated meetinghouses."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "July 1937: visited the Saints in Germany."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 3,
-     "gem": false,
-     "fact": "July 1937: visited the Saints in Austria."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 3,
-     "gem": false,
-     "fact": "July 1937: visited the Saints in Switzerland."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": false,
-     "fact": "August 19-25, 1937: visited Latter-day Saints in Stockholm, Malmo and Goteborg."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
-     "gem": true,
-     "fact": "June 27, 1937, Herstal: dedicated the Herstal meetinghouse before 200 Saints."
-    },
-    {
-     "code": "CZE",
-     "name": "Czech Republic",
-     "commonness": 2,
-     "gem": true,
-     "fact": "July 9-12, 1937: visited Czechoslovakia to encourage members and meet government officials."
     }
    ]
   },

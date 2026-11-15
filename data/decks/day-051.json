@@ -96,92 +96,6 @@
    ]
   },
   {
-   "id": "pioneer-mckay-pacific-tour-1955",
-   "bank": "pioneer",
-   "display_text": "Pin a South Pacific country or territory President David O. McKay visited on his 1955 tour.",
-   "text_original": "In January and February 1955, David O. McKay became the first Church president to tour the South Pacific missions, choosing a temple site in New Zealand along the way. Pin a South Pacific country or territory he visited on that tour.",
-   "accepts": "country_or_territory",
-   "topic": "church leadership",
-   "era": "1950s",
-   "citation": "Global Histories chronologies; Church newsroom; Ensign Dec. 1998",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
-    "https://newsroom.churchofjesuschrist.org/article/local-history-hamilton-new-zealand-temple",
-    "https://www.churchofjesuschrist.org/study/ensign/1998/12/australia-coming-out-of-obscurity-down-under?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": "Hawaii counts as USA but lies in the North Pacific, so it is outside this South Pacific prompt.",
-   "summary": "Early in 1955, President David O. McKay and his wife, Emma Ray, flew through the South Pacific, meeting Saints in Fiji, Tonga, both Samoas, the Cook Islands and Tahiti before visiting New Zealand and Australia. In New Zealand he quietly chose the hill near Hamilton where the first temple in the Southern Hemisphere would rise.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "COK"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "First Church president to visit Australia, 1955."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Visited the Hamilton college project and chose the temple site; announced Feb. 17, 1955."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Visited Tongatapu and Vava'u and spoke of a future temple."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Met Saints in Pesega and Sauniatu, January 14-17, 1955."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Met Saints in Pago Pago and Mapusaga, January 14, 1955."
-    },
-    {
-     "code": "FJI",
-     "name": "Fiji",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Spoke to Saints in Suva, January 9, 1955."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "First Church president to visit Tahiti, January 18-20, 1955."
-    },
-    {
-     "code": "COK",
-     "name": "Cook Islands",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Held a one-hour meeting with 66 members at Aitutaki while his plane refueled."
-    }
-   ]
-  },
-  {
    "id": "ha-nelson-dedications-apostle",
    "bank": "sites-history",
    "display_text": "Pin a land Russell M. Nelson dedicated for the preaching of the gospel while an Apostle.",
@@ -283,6 +197,92 @@
      "commonness": 2,
      "gem": true,
      "fact": "August 20, 1992: dedicated Zambia for the preaching of the gospel."
+    }
+   ]
+  },
+  {
+   "id": "pioneer-mckay-pacific-tour-1955",
+   "bank": "pioneer",
+   "display_text": "Pin a South Pacific country or territory President David O. McKay visited on his 1955 tour.",
+   "text_original": "In January and February 1955, David O. McKay became the first Church president to tour the South Pacific missions, choosing a temple site in New Zealand along the way. Pin a South Pacific country or territory he visited on that tour.",
+   "accepts": "country_or_territory",
+   "topic": "church leadership",
+   "era": "1950s",
+   "citation": "Global Histories chronologies; Church newsroom; Ensign Dec. 1998",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/fiji/fj-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cook-islands/ck-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://newsroom.churchofjesuschrist.org/article/local-history-hamilton-new-zealand-temple",
+    "https://www.churchofjesuschrist.org/study/ensign/1998/12/australia-coming-out-of-obscurity-down-under?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": "Hawaii counts as USA but lies in the North Pacific, so it is outside this South Pacific prompt.",
+   "summary": "Early in 1955, President David O. McKay and his wife, Emma Ray, flew through the South Pacific, meeting Saints in Fiji, Tonga, both Samoas, the Cook Islands and Tahiti before visiting New Zealand and Australia. In New Zealand he quietly chose the hill near Hamilton where the first temple in the Southern Hemisphere would rise.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "COK"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "First Church president to visit Australia, 1955."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Visited the Hamilton college project and chose the temple site; announced Feb. 17, 1955."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Visited Tongatapu and Vava'u and spoke of a future temple."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Met Saints in Pesega and Sauniatu, January 14-17, 1955."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Met Saints in Pago Pago and Mapusaga, January 14, 1955."
+    },
+    {
+     "code": "FJI",
+     "name": "Fiji",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Spoke to Saints in Suva, January 9, 1955."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": false,
+     "fact": "First Church president to visit Tahiti, January 18-20, 1955."
+    },
+    {
+     "code": "COK",
+     "name": "Cook Islands",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Held a one-hour meeting with 66 members at Aitutaki while his plane refueled."
     }
    ]
   },

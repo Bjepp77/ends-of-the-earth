@@ -125,6 +125,111 @@
    ]
   },
   {
+   "id": "hc-africa-land-dedications-1983-99",
+   "bank": "sites-history",
+   "display_text": "Pin an African country an Apostle dedicated for the preaching of the gospel between 1983 and 1999.",
+   "text_original": "An African country dedicated for the preaching of the gospel by an Apostle between 1983 and 1999 (other than Russell M. Nelson).",
+   "accepts": "country",
+   "topic": "dedications",
+   "era": "1983-1999",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mauritius/mu-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sierra-leone/sl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/kenya/ke-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/republic-of-the-congo/cg-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mozambique/mz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "After the 1978 revelation, Apostles crossed Africa dedicating nations: David B. Haight in Ghana (1983), Marvin J. Ashton in Zaire, Liberia and Cote d'Ivoire (1987) and Mauritius (1988), Richard G. Scott in Sierra Leone (1989), Republic of the Congo (1992) and Mozambique (1999), and James E. Faust in Kenya (1991).",
+   "stamp": null,
+   "gems": [
+    "COG",
+    "MOZ",
+    "MUS",
+    "NGA"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "COD",
+     "name": "DR Congo",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In August 1987 Elder Marvin J. Ashton dedicated Zaire for the preaching of the gospel."
+    },
+    {
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1983 Elder David B. Haight, the first member of the Quorum of the Twelve to visit Ghana, dedicated the land for the preaching of the gospel."
+    },
+    {
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In September 1987 Elder Marvin J. Ashton dedicated Cote d'Ivoire for the preaching of the gospel."
+    },
+    {
+     "code": "KEN",
+     "name": "Kenya",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1991 Elder James E. Faust dedicated Kenya for the preaching of the gospel with more than 100 Church members present."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "On September 2, 1987, Elder Marvin J. Ashton dedicated Liberia for the preaching of the gospel in Monrovia."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1989 Elder Richard G. Scott, standing on Leicester Peak above Freetown, dedicated Sierra Leone for the preaching of the gospel."
+    },
+    {
+     "code": "COG",
+     "name": "Republic of the Congo",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1992 Elder Richard G. Scott, among the first Apostles to visit the country, dedicated the Republic of the Congo for the preaching of the gospel."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1999 Elder Richard G. Scott of the Quorum of the Twelve dedicated Mozambique for the preaching of the gospel."
+    },
+    {
+     "code": "MUS",
+     "name": "Mauritius",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1988 Elder Marvin J. Ashton of the Quorum of the Twelve dedicated Mauritius for the preaching of the gospel."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1983 Elder David B. Haight rededicated Nigeria for missionary work; N. Eldon Tanner had first dedicated it in December 1962."
+    }
+   ]
+  },
+  {
    "id": "tc-all-three-stages",
    "bank": "sites-temples",
    "display_text": "Pin a country with temples at every stage: dedicated, under construction and announced.",
@@ -237,111 +342,6 @@
      "commonness": 2,
      "gem": true,
      "fact": "1 dedicated, 1 under construction, 2 announced."
-    }
-   ]
-  },
-  {
-   "id": "hc-africa-land-dedications-1983-99",
-   "bank": "sites-history",
-   "display_text": "Pin an African country an Apostle dedicated for the preaching of the gospel between 1983 and 1999.",
-   "text_original": "An African country dedicated for the preaching of the gospel by an Apostle between 1983 and 1999 (other than Russell M. Nelson).",
-   "accepts": "country",
-   "topic": "dedications",
-   "era": "1983-1999",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mauritius/mu-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sierra-leone/sl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/kenya/ke-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/republic-of-the-congo/cg-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mozambique/mz-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "After the 1978 revelation, Apostles crossed Africa dedicating nations: David B. Haight in Ghana (1983), Marvin J. Ashton in Zaire, Liberia and Cote d'Ivoire (1987) and Mauritius (1988), Richard G. Scott in Sierra Leone (1989), Republic of the Congo (1992) and Mozambique (1999), and James E. Faust in Kenya (1991).",
-   "stamp": null,
-   "gems": [
-    "COG",
-    "MOZ",
-    "MUS",
-    "NGA"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "COD",
-     "name": "DR Congo",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In August 1987 Elder Marvin J. Ashton dedicated Zaire for the preaching of the gospel."
-    },
-    {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1983 Elder David B. Haight, the first member of the Quorum of the Twelve to visit Ghana, dedicated the land for the preaching of the gospel."
-    },
-    {
-     "code": "CIV",
-     "name": "Cote d'Ivoire",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In September 1987 Elder Marvin J. Ashton dedicated Cote d'Ivoire for the preaching of the gospel."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1991 Elder James E. Faust dedicated Kenya for the preaching of the gospel with more than 100 Church members present."
-    },
-    {
-     "code": "LBR",
-     "name": "Liberia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "On September 2, 1987, Elder Marvin J. Ashton dedicated Liberia for the preaching of the gospel in Monrovia."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1989 Elder Richard G. Scott, standing on Leicester Peak above Freetown, dedicated Sierra Leone for the preaching of the gospel."
-    },
-    {
-     "code": "COG",
-     "name": "Republic of the Congo",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1992 Elder Richard G. Scott, among the first Apostles to visit the country, dedicated the Republic of the Congo for the preaching of the gospel."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1999 Elder Richard G. Scott of the Quorum of the Twelve dedicated Mozambique for the preaching of the gospel."
-    },
-    {
-     "code": "MUS",
-     "name": "Mauritius",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1988 Elder Marvin J. Ashton of the Quorum of the Twelve dedicated Mauritius for the preaching of the gospel."
-    },
-    {
-     "code": "NGA",
-     "name": "Nigeria",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1983 Elder David B. Haight rededicated Nigeria for missionary work; N. Eldon Tanner had first dedicated it in December 1962."
     }
    ]
   },

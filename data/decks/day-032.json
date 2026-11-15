@@ -2,80 +2,61 @@
  "day": 32,
  "prompts": [
   {
-   "id": "ot-psalm-83-confederacy",
-   "bank": "ot",
-   "display_text": "Pin a country holding the homeland of a people in the Psalm 83 confederacy against Israel, or one it recalls (Midian, Sisera)",
-   "text_original": "A present-day country holding the homeland of a people in the confederacy against Israel in Psalm 83:6-11 (Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines, Tyre, Assur), or a people or place the psalm recalls from earlier victories (Midian, the brook Kison, En-dor)",
+   "id": "temples-un-security-council-permanent",
+   "bank": "temples",
+   "display_text": "Pin a permanent member of the UN Security Council with a temple dedicated, under construction or announced (as of October 2026).",
+   "text_original": "A permanent member of the United Nations Security Council with a temple dedicated, under construction or announced (as of October 2026).",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "Psalm 83",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; UN Security Council membership",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/amalek?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://main.un.org/securitycouncil/en/content/current-members"
    ],
-   "difficulty": 3,
-   "note": "Philistine Gaza is in Palestine; Philistine Ashdod, Ashkelon, Ekron and Gath are in Israel, so both count.",
-   "summary": "Psalm 83, a psalm of Asaph, describes nations that took crafty counsel to cut Israel off: Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines and Tyre, helped by Assur. The psalmist asks the Lord to deal with them as with Midian and with Sisera and Jabin at the brook Kison (Ps 83).",
-   "stamp": null,
+   "difficulty": 1,
+   "note": null,
+   "summary": "All five permanent members of the UN Security Council have a temple at some stage as of October 2026. The United States, the United Kingdom and France have dedicated temples, China has the Hong Kong temple with Shanghai announced, and Russia has an announced temple with no city named.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "PSE",
-    "SAU"
+    "RUS"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "JOR",
-     "name": "Jordan",
+     "code": "USA",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Edom, Moab and Ammon are in the confederacy (Ps 83:6-7)."
+     "fact": "More than 100 dedicated temples, from St. George (1877) on."
     },
     {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 3,
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
      "gem": false,
-     "fact": "Amalek is in the confederacy (Ps 83:7); the Bible Dictionary places Amalek in the desert of Paran, the central Sinai."
+     "fact": "Paris France Temple (2017)."
     },
     {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 3,
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
      "gem": false,
-     "fact": "Assur also is joined with them (Ps 83:8)."
+     "fact": "London (1958) and Preston (1998) temples; Birmingham under construction."
     },
     {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Philistine Ashdod, Ashkelon, Ekron and Gath lie in Israel (Ps 83:7); Sisera fell at the brook Kison (Ps 83:9)."
-    },
-    {
-     "code": "LBN",
-     "name": "Lebanon",
-     "commonness": 3,
-     "gem": false,
-     "fact": "The inhabitants of Tyre join the confederacy (Ps 83:7)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "CHN",
+     "name": "China",
      "commonness": 2,
-     "gem": true,
-     "fact": "The Philistines are in the confederacy; their city Gaza is in the Gaza Strip (Ps 83:7)."
+     "gem": false,
+     "fact": "Hong Kong China Temple (1996); Shanghai temple announced in 2020."
     },
     {
-     "code": "SAU",
-     "name": "Saudi Arabia",
-     "commonness": 2,
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 1,
      "gem": true,
-     "fact": "The psalm recalls the Midianites (Ps 83:9); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
+     "fact": "A temple in Russia was announced in 2018; no site named yet."
     }
    ]
   },
@@ -269,61 +250,80 @@
    ]
   },
   {
-   "id": "temples-un-security-council-permanent",
-   "bank": "temples",
-   "display_text": "Pin a permanent member of the UN Security Council with a temple dedicated, under construction or announced (as of October 2026).",
-   "text_original": "A permanent member of the United Nations Security Council with a temple dedicated, under construction or announced (as of October 2026).",
+   "id": "ot-psalm-83-confederacy",
+   "bank": "ot",
+   "display_text": "Pin a country holding the homeland of a people Psalm 83 names as Israel's enemies, such as Edom, Moab or Midian.",
+   "text_original": "A present-day country holding the homeland of a people in the confederacy against Israel in Psalm 83:6-11 (Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines, Tyre, Assur), or a people or place the psalm recalls from earlier victories (Midian, the brook Kison, En-dor)",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology; UN Security Council membership",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "Psalm 83",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://main.un.org/securitycouncil/en/content/current-members"
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/amalek?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/paran?lang=eng"
    ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "All five permanent members of the UN Security Council have a temple at some stage as of October 2026. The United States, the United Kingdom and France have dedicated temples, China has the Hong Kong temple with Shanghai announced, and Russia has an announced temple with no city named.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 3,
+   "note": "Philistine Gaza is in Palestine; Philistine Ashdod, Ashkelon, Ekron and Gath are in Israel, so both count.",
+   "summary": "Psalm 83, a psalm of Asaph, describes nations that took crafty counsel to cut Israel off: Edom, the Ishmaelites, Moab, the Hagarenes, Gebal, Ammon, Amalek, the Philistines and Tyre, helped by Assur. The psalmist asks the Lord to deal with them as with Midian and with Sisera and Jabin at the brook Kison (Ps 83).",
+   "stamp": null,
    "gems": [
-    "RUS"
+    "PSE",
+    "SAU"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "USA",
-     "name": "United States",
+     "code": "JOR",
+     "name": "Jordan",
      "commonness": 5,
      "gem": false,
-     "fact": "More than 100 dedicated temples, from St. George (1877) on."
+     "fact": "Edom, Moab and Ammon are in the confederacy (Ps 83:6-7)."
     },
     {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 4,
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 3,
      "gem": false,
-     "fact": "Paris France Temple (2017)."
+     "fact": "Amalek is in the confederacy (Ps 83:7); the Bible Dictionary places Amalek in the desert of Paran, the central Sinai."
     },
     {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
+     "code": "IRQ",
+     "name": "Iraq",
+     "commonness": 3,
      "gem": false,
-     "fact": "London (1958) and Preston (1998) temples; Birmingham under construction."
+     "fact": "Assur also is joined with them (Ps 83:8)."
     },
     {
-     "code": "CHN",
-     "name": "China",
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Philistine Ashdod, Ashkelon, Ekron and Gath lie in Israel (Ps 83:7); Sisera fell at the brook Kison (Ps 83:9)."
+    },
+    {
+     "code": "LBN",
+     "name": "Lebanon",
+     "commonness": 3,
+     "gem": false,
+     "fact": "The inhabitants of Tyre join the confederacy (Ps 83:7)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 2,
-     "gem": false,
-     "fact": "Hong Kong China Temple (1996); Shanghai temple announced in 2020."
+     "gem": true,
+     "fact": "The Philistines are in the confederacy; their city Gaza is in the Gaza Strip (Ps 83:7)."
     },
     {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 1,
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 2,
      "gem": true,
-     "fact": "A temple in Russia was announced in 2018; no site named yet."
+     "fact": "The psalm recalls the Midianites (Ps 83:9); Church Bible Map 9 plots Midian east of the Gulf of Aqaba."
     }
    ]
   },

@@ -29,61 +29,77 @@
    "answers": []
   },
   {
-   "id": "tc-two-plus-under-construction",
-   "bank": "sites-temples",
-   "display_text": "Pin a country with at least two temples under construction at once.",
-   "text_original": "A country with two or more temples under construction at the same time (as of November 2026).",
+   "id": "global-europe-five-plus-stakes",
+   "bank": "global",
+   "display_text": "Pin a European country where the Church has 5 or more stakes as of October 2026.",
+   "text_original": "A European country where the Church has 5 or more stakes (as of October 2026, year-end 2025 figures).",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2020-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "topic": "church growth",
+   "era": "2026",
+   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/united-kingdom?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/spain?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/germany?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/switzerland?lang=eng"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
    "note": null,
-   "summary": "Only five countries have two or more temples under construction simultaneously. The United States has 17 and Brazil has 7. The Philippines, Nigeria and Canada each have two or three.",
+   "summary": "Only seven European countries have 5 or more stakes: the United Kingdom (41), Spain (17), Germany, France (10), Italy (10), Portugal (8) and Switzerland (5). The Netherlands, Sweden and Finland each have 3 or 4, and most other European countries have 1 or 2 stakes or only districts.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "NGA"
+    "CHE"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "GBR",
+     "name": "United Kingdom",
      "commonness": 5,
      "gem": false,
-     "fact": "7 under construction: Ribeirão Preto Brazil, Londrina Brazil, Natal Brazil, João Pessoa Brazil and 3 more."
+     "fact": "41 stakes, the most in Europe."
     },
     {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "17 under construction: Heber Valley Utah, Teton River Idaho, Austin Texas, Grand Rapids Michigan and 13 more."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
+     "code": "DEU",
+     "name": "Germany",
      "commonness": 4,
      "gem": false,
-     "fact": "2 under construction: Lethbridge Alberta, Victoria British Columbia."
+     "fact": "14 stakes; 5 missions."
     },
     {
-     "code": "PHL",
-     "name": "Philippines",
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 4,
      "gem": false,
-     "fact": "3 under construction: Cagayan de Oro Philippines, Tacloban City Philippines, Naga Philippines."
+     "fact": "17 stakes."
     },
     {
-     "code": "NGA",
-     "name": "Nigeria",
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "10 stakes."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "10 stakes."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
      "commonness": 3,
+     "gem": false,
+     "fact": "8 stakes."
+    },
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 2,
      "gem": true,
-     "fact": "2 under construction: Lagos Nigeria, Benin City Nigeria."
+     "fact": "5 stakes, served from a mission based abroad."
     }
    ]
   },
@@ -175,77 +191,61 @@
    ]
   },
   {
-   "id": "global-europe-five-plus-stakes",
-   "bank": "global",
-   "display_text": "Pin a European country where the Church has 5 or more stakes as of October 2026.",
-   "text_original": "A European country where the Church has 5 or more stakes (as of October 2026, year-end 2025 figures).",
+   "id": "tc-two-plus-under-construction",
+   "bank": "sites-temples",
+   "display_text": "Pin a country with at least two temples under construction at once.",
+   "text_original": "A country with two or more temples under construction at the same time (as of November 2026).",
    "accepts": "country",
-   "topic": "church growth",
-   "era": "2026",
-   "citation": "Church facts and statistics country pages (figures of 31 Dec 2025), read 4 Nov 2026",
+   "topic": "temples",
+   "era": "2020-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/united-kingdom?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/spain?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/germany?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/switzerland?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "note": null,
-   "summary": "Only seven European countries have 5 or more stakes: the United Kingdom (41), Spain (17), Germany, France (10), Italy (10), Portugal (8) and Switzerland (5). The Netherlands, Sweden and Finland each have 3 or 4, and most other European countries have 1 or 2 stakes or only districts.",
+   "summary": "Only five countries have two or more temples under construction simultaneously. The United States has 17 and Brazil has 7. The Philippines, Nigeria and Canada each have two or three.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CHE"
+    "NGA"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "GBR",
-     "name": "United Kingdom",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 5,
      "gem": false,
-     "fact": "41 stakes, the most in Europe."
+     "fact": "7 under construction: Ribeirão Preto Brazil, Londrina Brazil, Natal Brazil, João Pessoa Brazil and 3 more."
     },
     {
-     "code": "DEU",
-     "name": "Germany",
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "17 under construction: Heber Valley Utah, Teton River Idaho, Austin Texas, Grand Rapids Michigan and 13 more."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
      "commonness": 4,
      "gem": false,
-     "fact": "14 stakes; 5 missions."
+     "fact": "2 under construction: Lethbridge Alberta, Victoria British Columbia."
     },
     {
-     "code": "ESP",
-     "name": "Spain",
+     "code": "PHL",
+     "name": "Philippines",
      "commonness": 4,
      "gem": false,
-     "fact": "17 stakes."
+     "fact": "3 under construction: Cagayan de Oro Philippines, Tacloban City Philippines, Naga Philippines."
     },
     {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 4,
-     "gem": false,
-     "fact": "10 stakes."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "10 stakes."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
+     "code": "NGA",
+     "name": "Nigeria",
      "commonness": 3,
-     "gem": false,
-     "fact": "8 stakes."
-    },
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 2,
      "gem": true,
-     "fact": "5 stakes, served from a mission based abroad."
+     "fact": "2 under construction: Lagos Nigeria, Benin City Nigeria."
     }
    ]
   },

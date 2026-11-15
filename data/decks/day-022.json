@@ -2,6 +2,91 @@
  "day": 22,
  "prompts": [
   {
+   "id": "scripture-red-sea-shore",
+   "bank": "scripture",
+   "display_text": "Pin a present-day country on the Red Sea, whose shore Lehi's family followed (1 Nephi 2:5).",
+   "text_original": "Lehi's family traveled 'by the borders near the shore of the Red Sea' (1 Nephi 2:5). Pin a country on the Red Sea",
+   "accepts": "country",
+   "topic": "scripture geography",
+   "era": "about 600 BC",
+   "citation": "1 Nephi 2:5",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/2?lang=eng",
+    "https://en.wikipedia.org/wiki/Red_Sea",
+    "https://en.wikipedia.org/wiki/Gulf_of_Aqaba",
+    "https://en.wikipedia.org/wiki/Port_Sudan",
+    "https://en.wikipedia.org/wiki/Bab-el-Mandeb",
+    "https://en.wikipedia.org/wiki/Eritrea"
+   ],
+   "difficulty": 1,
+   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
+   "summary": "Warned in a dream that people sought his life, Lehi left his home and lands with his family about 600 BC and traveled near the shore of the Red Sea (1 Nephi 2:1-5). After three days they camped in a valley by a river he named Laman, which emptied into the Red Sea (1 Nephi 2:6-8).",
+   "stamp": null,
+   "gems": [
+    "DJI",
+    "ERI"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Egypt's eastern coast lies on the Red Sea and the Gulf of Suez."
+    },
+    {
+     "code": "SAU",
+     "name": "Saudi Arabia",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Has a long Red Sea coast on the Arabian side."
+    },
+    {
+     "code": "SDN",
+     "name": "Sudan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Has a Red Sea coast around Port Sudan."
+    },
+    {
+     "code": "YEM",
+     "name": "Yemen",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Holds the southern Arabian shore of the Red Sea down to the Bab-el-Mandeb strait."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Touches the Red Sea at Eilat on the Gulf of Aqaba."
+    },
+    {
+     "code": "JOR",
+     "name": "Jordan",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Touches the Red Sea at Aqaba on the Gulf of Aqaba."
+    },
+    {
+     "code": "DJI",
+     "name": "Djibouti",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Sits at the Red Sea's southern mouth, the Bab-el-Mandeb."
+    },
+    {
+     "code": "ERI",
+     "name": "Eritrea",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Has an extensive Red Sea coastline, including the Dahlak Archipelago."
+    }
+   ]
+  },
+  {
    "id": "history-temples-dedicated-2010-15",
    "bank": "history2",
    "display_text": "Pin a country where a new temple was dedicated from 2010 to 2015 (not rededications).",
@@ -99,91 +184,6 @@
      "commonness": 1,
      "gem": true,
      "fact": "Kyiv Ukraine (2010)."
-    }
-   ]
-  },
-  {
-   "id": "scripture-red-sea-shore",
-   "bank": "scripture",
-   "display_text": "Pin a present-day country on the Red Sea, whose shore Lehi's family followed (1 Nephi 2:5).",
-   "text_original": "Lehi's family traveled 'by the borders near the shore of the Red Sea' (1 Nephi 2:5). Pin a country on the Red Sea",
-   "accepts": "country",
-   "topic": "scripture geography",
-   "era": "about 600 BC",
-   "citation": "1 Nephi 2:5",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/2?lang=eng",
-    "https://en.wikipedia.org/wiki/Red_Sea",
-    "https://en.wikipedia.org/wiki/Gulf_of_Aqaba",
-    "https://en.wikipedia.org/wiki/Port_Sudan",
-    "https://en.wikipedia.org/wiki/Bab-el-Mandeb",
-    "https://en.wikipedia.org/wiki/Eritrea"
-   ],
-   "difficulty": 1,
-   "note": "Places in the West Bank or Gaza, such as Bethlehem, Hebron, Jericho or Gaza city, count as Palestine, which is not an answer.",
-   "summary": "Warned in a dream that people sought his life, Lehi left his home and lands with his family about 600 BC and traveled near the shore of the Red Sea (1 Nephi 2:1-5). After three days they camped in a valley by a river he named Laman, which emptied into the Red Sea (1 Nephi 2:6-8).",
-   "stamp": null,
-   "gems": [
-    "DJI",
-    "ERI"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Egypt's eastern coast lies on the Red Sea and the Gulf of Suez."
-    },
-    {
-     "code": "SAU",
-     "name": "Saudi Arabia",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Has a long Red Sea coast on the Arabian side."
-    },
-    {
-     "code": "SDN",
-     "name": "Sudan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Has a Red Sea coast around Port Sudan."
-    },
-    {
-     "code": "YEM",
-     "name": "Yemen",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Holds the southern Arabian shore of the Red Sea down to the Bab-el-Mandeb strait."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Touches the Red Sea at Eilat on the Gulf of Aqaba."
-    },
-    {
-     "code": "JOR",
-     "name": "Jordan",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Touches the Red Sea at Aqaba on the Gulf of Aqaba."
-    },
-    {
-     "code": "DJI",
-     "name": "Djibouti",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Sits at the Red Sea's southern mouth, the Bab-el-Mandeb."
-    },
-    {
-     "code": "ERI",
-     "name": "Eritrea",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Has an extensive Red Sea coastline, including the Dahlak Archipelago."
     }
    ]
   },
@@ -431,84 +431,92 @@
    ]
   },
   {
-   "id": "temples-tropic-of-capricorn",
-   "bank": "temples",
-   "display_text": "Pin a country the Tropic of Capricorn runs through with a temple dedicated, under construction or announced (as of October 2026).",
-   "text_original": "A country the Tropic of Capricorn passes through that has a temple dedicated, under construction or announced (as of October 2026).",
+   "id": "hg-native-missionaries-1980-97",
+   "bank": "sites-history",
+   "display_text": "Pin a country that sent out its first full-time missionary from among its own members between 1980 and 1997.",
+   "text_original": "A country whose first full-time missionary called from among its own members began service between 1980 and 1997.",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology; Tropic of Capricorn geography",
+   "topic": "missionary work",
+   "era": "1980-1997",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://en.wikipedia.org/wiki/Tropic_of_Capricorn",
-    "https://www.britannica.com/place/Tropic-of-Capricorn"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-overview?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cameroon/cm-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mongolia/mn-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng"
    ],
-   "difficulty": 3,
-   "note": null,
-   "summary": "The Tropic of Capricorn crosses ten countries. Eight of them have a temple at some stage as of October 2026: Brazil, Australia, Argentina, Chile, South Africa and Paraguay with dedicated temples, Madagascar with one under construction, and Mozambique with two announced. Namibia and Botswana have none.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 2,
+   "note": "Each of these countries called its first missionary from its own members between 1980 and 1997.",
+   "summary": "The Dominican Republic called its first missionaries in 1980, Haiti in 1981, Belize in 1987, the DR Congo in 1991, Ukraine in 1992, Cameroon in 1994, Mongolia in 1995 and Cambodia in 1997.",
+   "stamp": null,
    "gems": [
-    "MDG",
-    "MOZ"
+    "BLZ",
+    "CMR",
+    "HTI",
+    "KHM",
+    "MNG"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Crosses Queensland, the Northern Territory and WA; five dedicated temples."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "The line crosses São Paulo state; São Paulo temple (1978)."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Crosses the far north near Salta; Salta temple (2024)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Crosses the Atacama region; Antofagasta temple (2025)."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
+     "code": "COD",
+     "name": "DR Congo",
      "commonness": 3,
      "gem": false,
-     "fact": "Crosses northern Paraguay; Asunción temple (2002)."
+     "fact": "In 1991 the first Congolese missionaries were called to serve in the Zaire Kinshasa Mission."
     },
     {
-     "code": "ZAF",
-     "name": "South Africa",
+     "code": "DOM",
+     "name": "Dominican Republic",
      "commonness": 3,
      "gem": false,
-     "fact": "Crosses Limpopo province; Johannesburg temple (1985)."
+     "fact": "In 1980 three members became the first full-time missionaries called from the Dominican Republic, serving abroad."
     },
     {
-     "code": "MDG",
-     "name": "Madagascar",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Crosses the south of the island; Antananarivo temple under construction."
+     "code": "UKR",
+     "name": "Ukraine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1992 Oleksiy Roms began service in London as the first full-time missionary called from Ukraine."
     },
     {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 1,
+     "code": "BLZ",
+     "name": "Belize",
+     "commonness": 2,
      "gem": true,
-     "fact": "Crosses the south near Inhambane; Maputo and Beira temples announced."
+     "fact": "In 1987 Hilberto Casanova was the first missionary called from Belize, serving in the Honduras Tegucigalpa Mission."
+    },
+    {
+     "code": "CMR",
+     "name": "Cameroon",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On November 3, 1994, the first three missionaries from Cameroon were called."
+    },
+    {
+     "code": "HTI",
+     "name": "Haiti",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On August 30, 1981, in Provo, Fritzner Joseph became the first full-time missionary called from Haiti."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On April 30, 1997, Suy Chhay Leang, the first full-time missionary from Cambodia, was called to the Idaho Pocatello Mission."
+    },
+    {
+     "code": "MNG",
+     "name": "Mongolia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1995 Batchimeg Magsar and Soyolmaa Urtnasan were the first full-time missionaries from Mongolia."
     }
    ]
   }

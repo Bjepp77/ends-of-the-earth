@@ -2,83 +2,65 @@
  "day": 25,
  "prompts": [
   {
-   "id": "history-temples-dedicated-2024",
-   "bank": "history2",
-   "display_text": "Pin a country where a temple was dedicated in 2024.",
-   "text_original": "A country where a temple was dedicated in 2024.",
+   "id": "bible-jesus-named-places",
+   "bank": "bible",
+   "display_text": "Pin a country with a place Jesus himself named aloud while teaching, Sodom and Gomorrah aside.",
+   "text_original": "A present-day country with a place Jesus himself named aloud when teaching, Sodom and Gomorrah aside",
    "accepts": "country",
-   "topic": "temples",
-   "era": "2024",
-   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Matthew 11:21-23; 12:41; Luke 4:26-27; 10:30; Acts 1:8",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/10?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng"
    ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "In 2024 the Church dedicated new temples across the Americas and Asia. Argentina gained two, Salta and Mendoza, and others were dedicated in Puebla Mexico, Salvador Brazil, Lima Peru Los Olivos, Urdaneta Philippines, San Pedro Sula Honduras and Cobán Guatemala. The United States had eight, including Deseret Peak, Taylorsville and Orem in Utah.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 1,
+   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
+   "summary": "Jesus taught with place names his hearers knew. He rebuked Chorazin, Bethsaida and Capernaum, set the good Samaritan on the Jericho road, and said Tyre and Sidon would have repented sooner (Matthew 11:21). At Nazareth he pointed to the widow of Sarepta and Naaman the Syrian, and he held up the men of Nineveh as a rebuke (Matthew 12:41).",
+   "stamp": null,
    "gems": [
-    "GTM",
-    "HND"
+    "IRQ",
+    "SYR"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "USA",
-     "name": "United States",
+     "code": "ISR",
+     "name": "Israel",
      "commonness": 5,
      "gem": false,
-     "fact": "Deseret Peak Utah, Taylorsville Utah, Orem Utah and 5 more dedicated in 2024."
+     "fact": "Jesus rebuked Chorazin, Bethsaida and Capernaum and spoke often of Jerusalem (Matthew 11:21-23)."
     },
     {
-     "code": "BRA",
-     "name": "Brazil",
+     "code": "PSE",
+     "name": "Palestine",
      "commonness": 4,
      "gem": false,
-     "fact": "Salvador Brazil dedicated in 2024."
+     "fact": "The good Samaritan story runs from Jerusalem down to Jericho, and Jesus named Samaria as a mission field (Luke 10:30; Acts 1:8)."
     },
     {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Puebla Mexico dedicated in 2024."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "LBN",
+     "name": "Lebanon",
      "commonness": 3,
      "gem": false,
-     "fact": "Salta Argentina, Mendoza Argentina dedicated in 2024."
+     "fact": "Jesus said Tyre and Sidon would have repented, and told of the widow of Sarepta (Matthew 11:21; Luke 4:26)."
     },
     {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Lima Peru Los Olivos dedicated in 2024."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Urdaneta Philippines dedicated in 2024."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
+     "code": "IRQ",
+     "name": "Iraq",
      "commonness": 2,
      "gem": true,
-     "fact": "Cobán Guatemala dedicated in 2024."
+     "fact": "Jesus said the men of Nineveh would rise in judgment against his generation (Matthew 12:41)."
     },
     {
-     "code": "HND",
-     "name": "Honduras",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 2,
      "gem": true,
-     "fact": "San Pedro Sula Honduras dedicated in 2024."
+     "fact": "At Nazareth Jesus recalled Naaman the Syrian (Luke 4:27)."
     }
    ]
   },
@@ -156,65 +138,83 @@
    ]
   },
   {
-   "id": "bible-jesus-named-places",
-   "bank": "bible",
-   "display_text": "Pin a country with a place Jesus himself named aloud while teaching, Sodom and Gomorrah aside.",
-   "text_original": "A present-day country with a place Jesus himself named aloud when teaching, Sodom and Gomorrah aside",
+   "id": "history-temples-dedicated-2024",
+   "bank": "history2",
+   "display_text": "Pin a country where a temple was dedicated in 2024.",
+   "text_original": "A country where a temple was dedicated in 2024.",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Matthew 11:21-23; 12:41; Luke 4:26-27; 10:30; Acts 1:8",
+   "topic": "temples",
+   "era": "2024",
+   "citation": "Church temple list (original dedication dates), 26 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/10?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 1,
-   "note": "Site is in the West Bank or Gaza; a player may reasonably pin ISR as well.",
-   "summary": "Jesus taught with place names his hearers knew. He rebuked Chorazin, Bethsaida and Capernaum, set the good Samaritan on the Jericho road, and said Tyre and Sidon would have repented sooner (Matthew 11:21). At Nazareth he pointed to the widow of Sarepta and Naaman the Syrian, and he held up the men of Nineveh as a rebuke (Matthew 12:41).",
-   "stamp": null,
+   "difficulty": 2,
+   "note": null,
+   "summary": "In 2024 the Church dedicated new temples across the Americas and Asia. Argentina gained two, Salta and Mendoza, and others were dedicated in Puebla Mexico, Salvador Brazil, Lima Peru Los Olivos, Urdaneta Philippines, San Pedro Sula Honduras and Cobán Guatemala. The United States had eight, including Deseret Peak, Taylorsville and Orem in Utah.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "IRQ",
-    "SYR"
+    "GTM",
+    "HND"
    ],
    "gem_forced": true,
    "answers": [
     {
-     "code": "ISR",
-     "name": "Israel",
+     "code": "USA",
+     "name": "United States",
      "commonness": 5,
      "gem": false,
-     "fact": "Jesus rebuked Chorazin, Bethsaida and Capernaum and spoke often of Jerusalem (Matthew 11:21-23)."
+     "fact": "Deseret Peak Utah, Taylorsville Utah, Orem Utah and 5 more dedicated in 2024."
     },
     {
-     "code": "PSE",
-     "name": "Palestine",
+     "code": "BRA",
+     "name": "Brazil",
      "commonness": 4,
      "gem": false,
-     "fact": "The good Samaritan story runs from Jerusalem down to Jericho, and Jesus named Samaria as a mission field (Luke 10:30; Acts 1:8)."
+     "fact": "Salvador Brazil dedicated in 2024."
     },
     {
-     "code": "LBN",
-     "name": "Lebanon",
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Puebla Mexico dedicated in 2024."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Jesus said Tyre and Sidon would have repented, and told of the widow of Sarepta (Matthew 11:21; Luke 4:26)."
+     "fact": "Salta Argentina, Mendoza Argentina dedicated in 2024."
     },
     {
-     "code": "IRQ",
-     "name": "Iraq",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Jesus said the men of Nineveh would rise in judgment against his generation (Matthew 12:41)."
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Lima Peru Los Olivos dedicated in 2024."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Urdaneta Philippines dedicated in 2024."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
      "commonness": 2,
      "gem": true,
-     "fact": "At Nazareth Jesus recalled Naaman the Syrian (Luke 4:27)."
+     "fact": "Cobán Guatemala dedicated in 2024."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "San Pedro Sula Honduras dedicated in 2024."
     }
    ]
   },

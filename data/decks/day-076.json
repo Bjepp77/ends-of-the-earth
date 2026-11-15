@@ -29,66 +29,6 @@
    "answers": []
   },
   {
-   "id": "tb-southeast-asia",
-   "bank": "sites-temples",
-   "display_text": "Pin a Southeast Asian country with a temple, finished or still planned.",
-   "text_original": "A country in Southeast Asia with a temple at any stage (dedicated, under construction or announced), as of November 2026.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1984-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "The Philippines has the most temples in Southeast Asia by far. Thailand and Cambodia now have dedicated temples, and more are coming in the region.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "IDN",
-    "KHM"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Manila Philippines (dedicated 1984) and over a dozen more at every stage."
-    },
-    {
-     "code": "SGP",
-     "name": "Singapore",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Singapore (under construction)."
-    },
-    {
-     "code": "THA",
-     "name": "Thailand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Bangkok Thailand (dedicated 2023)."
-    },
-    {
-     "code": "IDN",
-     "name": "Indonesia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Jakarta Indonesia (announced)."
-    },
-    {
-     "code": "KHM",
-     "name": "Cambodia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Phnom Penh Cambodia (dedicated 2026)."
-    }
-   ]
-  },
-  {
    "id": "hc-africa-legal-recognition-1982-2003",
    "bank": "sites-history",
    "display_text": "Pin an African country whose government officially recognized or registered the Church between 1982 and 2003.",
@@ -192,6 +132,66 @@
      "commonness": 2,
      "gem": true,
      "fact": "On July 27, 1992, the government of Zambia formally recognized the Church."
+    }
+   ]
+  },
+  {
+   "id": "tb-southeast-asia",
+   "bank": "sites-temples",
+   "display_text": "Pin a Southeast Asian country with a temple, finished or still planned.",
+   "text_original": "A country in Southeast Asia with a temple at any stage (dedicated, under construction or announced), as of November 2026.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1984-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology cross-checked with the Church's official temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "The Philippines has the most temples in Southeast Asia by far. Thailand and Cambodia now have dedicated temples, and more are coming in the region.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "IDN",
+    "KHM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Manila Philippines (dedicated 1984) and over a dozen more at every stage."
+    },
+    {
+     "code": "SGP",
+     "name": "Singapore",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Singapore (under construction)."
+    },
+    {
+     "code": "THA",
+     "name": "Thailand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bangkok Thailand (dedicated 2023)."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Jakarta Indonesia (announced)."
+    },
+    {
+     "code": "KHM",
+     "name": "Cambodia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Phnom Penh Cambodia (dedicated 2026)."
     }
    ]
   },

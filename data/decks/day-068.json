@@ -145,6 +145,87 @@
    ]
   },
   {
+   "id": "hd-native-mission-president-pre-1880",
+   "bank": "sites-history",
+   "display_text": "Pin a country whose own convert was called to preside over a mission there before 1880.",
+   "text_original": "A country where one of its own converts was called to preside over a mission before 1880.",
+   "accepts": "country",
+   "topic": "leadership",
+   "era": "1845-1879",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Most early missions were led by Americans, but before 1880 several lands saw a local convert take charge: Dan Jones in Wales (1845), Carl Widerborg, a Swede, over Scandinavia (1858), Louis Bertrand in France (1859), Karl G. Maeser over the Swiss and German Mission (1868), and native presidents in Norway (1870), the Netherlands (1871) and Denmark (1873).",
+   "stamp": null,
+   "gems": [
+    "FRA",
+    "GBR",
+    "NLD",
+    "NOR",
+    "SWE"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Karl G. Maeser, a convert from Dresden, was appointed president of the Swiss and German Mission on June 12, 1868."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1873 Christian Gries Larsen became the first Dane called to preside over the Scandinavian Mission."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Louis Bertrand, baptized in Paris in 1850, was called in 1859 to reopen and preside over the French Mission."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Welsh convert Dan Jones was appointed president of the Church in Wales in December 1845 and called again to preside in 1854."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Sieberen van Dijk, the first native Netherlander to preside over the Netherlands Mission, was called in 1871."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1870 the first native of Norway was called to preside over the Scandinavian Mission."
+    },
+    {
+     "code": "SWE",
+     "name": "Sweden",
+     "commonness": 3,
+     "gem": true,
+     "fact": "In 1858 Carl Widerborg, a Swede, became president of the Scandinavian Mission."
+    }
+   ]
+  },
+  {
    "id": "tc-three-decades",
    "bank": "sites-temples",
    "display_text": "Pin a non-US country that has dedicated new temples in three or more different decades.",
@@ -228,87 +309,6 @@
      "commonness": 3,
      "gem": true,
      "fact": "Dedications in the 1980s, 2010s, 2020s."
-    }
-   ]
-  },
-  {
-   "id": "hd-native-mission-president-pre-1880",
-   "bank": "sites-history",
-   "display_text": "Pin a country whose own convert was called to preside over a mission there before 1880.",
-   "text_original": "A country where one of its own converts was called to preside over a mission before 1880.",
-   "accepts": "country",
-   "topic": "leadership",
-   "era": "1845-1879",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/france/fr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/germany/de-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/netherlands/nl-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Most early missions were led by Americans, but before 1880 several lands saw a local convert take charge: Dan Jones in Wales (1845), Carl Widerborg, a Swede, over Scandinavia (1858), Louis Bertrand in France (1859), Karl G. Maeser over the Swiss and German Mission (1868), and native presidents in Norway (1870), the Netherlands (1871) and Denmark (1873).",
-   "stamp": null,
-   "gems": [
-    "FRA",
-    "GBR",
-    "NLD",
-    "NOR",
-    "SWE"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Karl G. Maeser, a convert from Dresden, was appointed president of the Swiss and German Mission on June 12, 1868."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1873 Christian Gries Larsen became the first Dane called to preside over the Scandinavian Mission."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Louis Bertrand, baptized in Paris in 1850, was called in 1859 to reopen and preside over the French Mission."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Welsh convert Dan Jones was appointed president of the Church in Wales in December 1845 and called again to preside in 1854."
-    },
-    {
-     "code": "NLD",
-     "name": "Netherlands",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Sieberen van Dijk, the first native Netherlander to preside over the Netherlands Mission, was called in 1871."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 3,
-     "gem": true,
-     "fact": "In 1870 the first native of Norway was called to preside over the Scandinavian Mission."
-    },
-    {
-     "code": "SWE",
-     "name": "Sweden",
-     "commonness": 3,
-     "gem": true,
-     "fact": "In 1858 Carl Widerborg, a Swede, became president of the Scandinavian Mission."
     }
    ]
   },

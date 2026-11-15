@@ -241,7 +241,7 @@
   {
    "id": "temples-english-official-outside",
    "bank": "temples",
-   "display_text": "Pin a non-African country or territory (not US, UK, Canada, Australia, NZ) with English official and any-stage temple, Oct 2026.",
+   "display_text": "Pin an English-official country or territory outside Africa with a temple (Oct 2026), but not US, UK, Canada, Australia or NZ.",
    "text_original": "A country or territory outside Africa, the United States, the United Kingdom, Canada, Australia and New Zealand where English is an official language and a temple is dedicated, under construction or announced (as of October 2026).",
    "accepts": "country_or_territory",
    "topic": "temples",
@@ -253,7 +253,7 @@
     "https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory"
    ],
    "difficulty": 2,
-   "note": null,
+   "note": "A temple at any stage counts: announced, being built or dedicated.",
    "summary": "English is official far beyond the big English-speaking nations. As of October 2026 the Philippines, Fiji, Samoa, Tonga, Puerto Rico, Guam and Hong Kong all have dedicated temples, India, Singapore, Papua New Guinea, Vanuatu, Kiribati and American Samoa have temples under construction, and Ireland has one announced.",
    "stamp": "as of 26 Oct 2026",
    "gems": [

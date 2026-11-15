@@ -2117,89 +2117,6 @@
    }
   },
   {
-   "id": "global-hinckley-world-trip-2005",
-   "bank": "global",
-   "reason": "surplus: no room in a full deck",
-   "answers": 7,
-   "prompt": {
-    "id": "global-hinckley-world-trip-2005",
-    "bank": "global",
-    "display_text": "Pin a country or territory outside the US where President Hinckley met Saints on his 2005 round-the-world trip",
-    "text_original": "In July and August 2005, at age 95, President Gordon B. Hinckley flew around the world, stopping to meet Saints in seven cities. A country or territory outside the United States where he stopped to meet members or dedicate a building on that trip.",
-    "accepts": "country_or_territory",
-    "topic": "church leadership",
-    "era": "2005",
-    "citation": "Liahona, Dec. 2005, President Hinckley Travels the World",
-    "source_urls": [
-     "https://www.churchofjesuschrist.org/study/liahona/2005/12/news-of-the-church/president-hinckley-travels-the-world?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/taiwan/tw-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/hong-kong/hk-chronology?lang=eng"
-    ],
-    "difficulty": 3,
-    "note": "Hong Kong is the answer for the Hong Kong stop; mainland China was not visited.",
-    "summary": "In mid-2005 President Gordon B. Hinckley, then 95, circled the globe. He greeted Saints at Vladivostok, spoke in Seoul, dedicated office buildings in Taipei and Hong Kong, dedicated the Aba Nigeria Temple, and met small groups of members in Delhi and Nairobi.",
-    "stamp": "as of 26 Oct 2026",
-    "gems": [
-     "IND",
-     "KEN"
-    ],
-    "gem_forced": false,
-    "answers": [
-     {
-      "code": "KOR",
-      "name": "South Korea",
-      "commonness": 3,
-      "gem": false,
-      "fact": "He spoke at a regional conference in Seoul marking 50 years of the Church in Korea."
-     },
-     {
-      "code": "NGA",
-      "name": "Nigeria",
-      "commonness": 3,
-      "gem": false,
-      "fact": "He dedicated the Aba Nigeria Temple."
-     },
-     {
-      "code": "RUS",
-      "name": "Russia",
-      "commonness": 3,
-      "gem": false,
-      "fact": "He greeted about 200 members at the Vladivostok airport during a refueling stop."
-     },
-     {
-      "code": "HKG",
-      "name": "Hong Kong",
-      "commonness": 2,
-      "gem": false,
-      "fact": "He met members in Hong Kong and dedicated a Church office building."
-     },
-     {
-      "code": "TWN",
-      "name": "Taiwan",
-      "commonness": 2,
-      "gem": false,
-      "fact": "He met members in Taipei and dedicated a Church office building."
-     },
-     {
-      "code": "IND",
-      "name": "India",
-      "commonness": 1,
-      "gem": true,
-      "fact": "He met a small group of members in Delhi during a brief stop."
-     },
-     {
-      "code": "KEN",
-      "name": "Kenya",
-      "commonness": 1,
-      "gem": true,
-      "fact": "He met a small group of members in Nairobi during a brief stop."
-     }
-    ]
-   }
-  },
-  {
    "id": "global-latam-first-general-authorities-1981-91",
    "bank": "global",
    "reason": "surplus: no room in a full deck",
@@ -2457,154 +2374,6 @@
       "commonness": 1,
       "gem": true,
       "fact": "After rebels killed missionaries Jeffrey Ball and Todd Wilson in La Paz in May 1989, North American missionaries were temporarily removed."
-     }
-    ]
-   }
-  },
-  {
-   "id": "global-mtcs-closed-2019-2023",
-   "bank": "global",
-   "reason": "surplus: no room in a full deck",
-   "answers": 6,
-   "prompt": {
-    "id": "global-mtcs-closed-2019-2023",
-    "bank": "global",
-    "display_text": "Pin a country whose Church missionary training center closed between 2019 and 2023",
-    "text_original": "Between 2019 and 2023 the Church closed several missionary training centers outside the United States as more missionaries trained at home or online. A country whose missionary training center closed in that period.",
-    "accepts": "country",
-    "topic": "missionary work",
-    "era": "2019-2023",
-    "citation": "Church News 2019-02-08; Newsroom (Guatemala MTC, Colombia MTC)",
-    "source_urls": [
-     "https://www.thechurchnews.com/2019/2/8/23219280/heres-why-the-church-has-decided-to-close-4-international-mtcs/",
-     "https://newsroom.churchofjesuschrist.org/article/guatemala-missionary-training-center-closing",
-     "https://newsroom.churchofjesuschrist.org/article/colombia-mtc-closing-january-2023"
-    ],
-    "difficulty": 3,
-    "note": null,
-    "summary": "In 2019 the Church closed its training centers in Santiago, Madrid and Santo Domingo, then Buenos Aires that July. Guatemala City followed in January 2020 and Bogota in January 2023. Missionaries from those lands now train at home, online or at the remaining centers.",
-    "stamp": null,
-    "gems": [
-     "COL",
-     "DOM",
-     "GTM"
-    ],
-    "gem_forced": true,
-    "answers": [
-     {
-      "code": "ARG",
-      "name": "Argentina",
-      "commonness": 3,
-      "gem": false,
-      "fact": "The Buenos Aires MTC closed in July 2019."
-     },
-     {
-      "code": "CHL",
-      "name": "Chile",
-      "commonness": 3,
-      "gem": false,
-      "fact": "The Santiago MTC closed in January 2019."
-     },
-     {
-      "code": "ESP",
-      "name": "Spain",
-      "commonness": 3,
-      "gem": false,
-      "fact": "The Madrid MTC closed in January 2019."
-     },
-     {
-      "code": "COL",
-      "name": "Colombia",
-      "commonness": 2,
-      "gem": true,
-      "fact": "The Bogota MTC closed in January 2023."
-     },
-     {
-      "code": "DOM",
-      "name": "Dominican Republic",
-      "commonness": 2,
-      "gem": true,
-      "fact": "The Santo Domingo MTC closed in January 2019."
-     },
-     {
-      "code": "GTM",
-      "name": "Guatemala",
-      "commonness": 2,
-      "gem": true,
-      "fact": "The Guatemala City MTC closed in January 2020."
-     }
-    ]
-   }
-  },
-  {
-   "id": "global-nelson-balkans-2010",
-   "bank": "global",
-   "reason": "surplus: no room in a full deck",
-   "answers": 6,
-   "prompt": {
-    "id": "global-nelson-balkans-2010",
-    "bank": "global",
-    "display_text": "Pin a country where Russell M. Nelson offered a prayer dedicating or blessing the land in September 2010",
-    "text_original": "In September 2010 Elder Russell M. Nelson of the Quorum of the Twelve traveled through the former Yugoslavia and offered prayers dedicating or blessing six lands. A country where he offered such a prayer on that trip.",
-    "accepts": "country",
-    "topic": "missionary work",
-    "era": "2010",
-    "citation": "Newsroom, President Nelson timeline",
-    "source_urls": [
-     "https://newsroom.churchofjesuschrist.org/multimedia/file/President-Nelson-Timeline.pdf",
-     "https://thechurchnews.com/archives/2010-09-23/elder-nelson-pronounces-blessings-on-six-balkan-nations-62114"
-    ],
-    "difficulty": 3,
-    "note": null,
-    "summary": "In one September 2010 journey Russell M. Nelson, then an Apostle, offered prayers dedicating or blessing six lands of the former Yugoslavia: Croatia, Slovenia, Bosnia and Herzegovina, Montenegro, Kosovo and Macedonia. It was one of many such prayers he offered across Eastern Europe and Central Asia.",
-    "stamp": null,
-    "gems": [
-     "MKD",
-     "XKX"
-    ],
-    "gem_forced": false,
-    "answers": [
-     {
-      "code": "HRV",
-      "name": "Croatia",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Blessed the land in September 2010."
-     },
-     {
-      "code": "SVN",
-      "name": "Slovenia",
-      "commonness": 3,
-      "gem": false,
-      "fact": "Blessed the land in September 2010."
-     },
-     {
-      "code": "BIH",
-      "name": "Bosnia and Herzegovina",
-      "commonness": 2,
-      "gem": false,
-      "fact": "Dedicated for preaching in September 2010."
-     },
-     {
-      "code": "MNE",
-      "name": "Montenegro",
-      "commonness": 2,
-      "gem": false,
-      "fact": "Blessed the land in September 2010."
-     },
-     {
-      "code": "MKD",
-      "name": "North Macedonia",
-      "commonness": 1,
-      "gem": true,
-      "fact": "Dedicated in September 2010 from Mount Vodno at Skopje, then called Macedonia."
-     },
-     {
-      "code": "XKX",
-      "name": "Kosovo",
-      "commonness": 1,
-      "gem": true,
-      "fact": "Blessed the land in September 2010."
      }
     ]
    }
@@ -5281,171 +5050,6 @@
    }
   },
   {
-   "id": "hg-first-patriarch-1991-2012",
-   "bank": "sites-history",
-   "reason": "surplus: no room in a full deck",
-   "answers": 7,
-   "prompt": {
-    "id": "hg-first-patriarch-1991-2012",
-    "bank": "sites-history",
-    "display_text": "Pin a country whose first patriarch, a local member who gives patriarchal blessings, was ordained between 1991 and 2012.",
-    "text_original": "A country where the chronology records the first patriarch from that country being ordained or called between 1991 and 2012.",
-    "accepts": "country",
-    "topic": "organisation",
-    "era": "1991-2012",
-    "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-    "source_urls": [
-     "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/papua-new-guinea/pg-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/mongolia/mn-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/india/in-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/sierra-leone/sl-chronology?lang=eng"
-    ],
-    "difficulty": 2,
-    "note": "A patriarch is a local member ordained to give personal blessings, so the first one marks a maturing Church.",
-    "summary": "A patriarch gives members personal blessings. For young Church areas, a local patriarch is a sign of maturity. Ghana got its first Ghanaian patriarch in 1991, Papua New Guinea and the DR Congo in 1996, Cote d'Ivoire in 1998, Mongolia in 2009, and India and Sierra Leone in 2012.",
-    "stamp": null,
-    "gems": [
-     "MNG",
-     "PNG",
-     "SLE"
-    ],
-    "gem_forced": true,
-    "answers": [
-     {
-      "code": "GHA",
-      "name": "Ghana",
-      "commonness": 4,
-      "gem": false,
-      "fact": "In 1991 J. W. B. Johnson became the first Ghanaian ordained as a patriarch."
-     },
-     {
-      "code": "CIV",
-      "name": "Cote d'Ivoire",
-      "commonness": 3,
-      "gem": false,
-      "fact": "On August 30, 1998, Mamadou Zadi was called as the country's first patriarch, in Abidjan."
-     },
-     {
-      "code": "COD",
-      "name": "DR Congo",
-      "commonness": 3,
-      "gem": false,
-      "fact": "In 1996 Ekezi Imbale Baenda Ise'Ekungola Liyanzi became the country's first stake patriarch."
-     },
-     {
-      "code": "IND",
-      "name": "India",
-      "commonness": 3,
-      "gem": false,
-      "fact": "In 2012 Prasad Rao Gudey was called as India's first patriarch."
-     },
-     {
-      "code": "MNG",
-      "name": "Mongolia",
-      "commonness": 2,
-      "gem": true,
-      "fact": "In 2009 Batbayar Tserendorj was set apart as the first patriarch for Mongolia."
-     },
-     {
-      "code": "PNG",
-      "name": "Papua New Guinea",
-      "commonness": 2,
-      "gem": true,
-      "fact": "In 1996 a member of the Port Moresby Papua New Guinea Stake was ordained as the first patriarch in Papua New Guinea."
-     },
-     {
-      "code": "SLE",
-      "name": "Sierra Leone",
-      "commonness": 2,
-      "gem": true,
-      "fact": "In 2012 Mohammed S. Kamara became Sierra Leone's first ordained patriarch."
-     }
-    ]
-   }
-  },
-  {
-   "id": "hg-first-primary-1912-52",
-   "bank": "sites-history",
-   "reason": "surplus: no room in a full deck",
-   "answers": 6,
-   "prompt": {
-    "id": "hg-first-primary-1912-52",
-    "bank": "sites-history",
-    "display_text": "Pin a country where the Church's first Primary, its organization for children, was organized between 1912 and 1952.",
-    "text_original": "A country where the first Primary (the Church's organization for children) was organized between 1912 and 1952.",
-    "accepts": "country",
-    "topic": "organisation",
-    "era": "1912-1952",
-    "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-    "source_urls": [
-     "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/south-africa/za-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/south-korea/kr-chronology?lang=eng"
-    ],
-    "difficulty": 2,
-    "note": "Primary is the Church's children's class; the first one shows families, not just converts, had taken root.",
-    "summary": "Primary is the Church's children's organization. Tonga had one by 1912, England organized the first in Europe in 1916, Denmark's came in 1931, South Africa's in 1932, Argentina's in 1935 and South Korea's in 1952.",
-    "stamp": null,
-    "gems": [
-     "DNK",
-     "KOR",
-     "TON",
-     "ZAF"
-    ],
-    "gem_forced": true,
-    "answers": [
-     {
-      "code": "ARG",
-      "name": "Argentina",
-      "commonness": 4,
-      "gem": false,
-      "fact": "On September 30, 1935, the first Primary in Argentina was organized in the Liniers Branch."
-     },
-     {
-      "code": "GBR",
-      "name": "United Kingdom",
-      "commonness": 4,
-      "gem": false,
-      "fact": "In 1916 a Relief Society president in the Hyde Branch, England, organized the first Primary in Europe."
-     },
-     {
-      "code": "DNK",
-      "name": "Denmark",
-      "commonness": 3,
-      "gem": true,
-      "fact": "In November 1931 the first Primary in Denmark was officially organized."
-     },
-     {
-      "code": "KOR",
-      "name": "South Korea",
-      "commonness": 3,
-      "gem": true,
-      "fact": "The first Primary in South Korea was organized in 1952."
-     },
-     {
-      "code": "TON",
-      "name": "Tonga",
-      "commonness": 3,
-      "gem": true,
-      "fact": "In 1912 the first Primary and Relief Society in Tonga were organized by missionary sisters."
-     },
-     {
-      "code": "ZAF",
-      "name": "South Africa",
-      "commonness": 3,
-      "gem": true,
-      "fact": "In 1932 a woman interested in the Church accepted a calling to organize the first Primary in South Africa."
-     }
-    ]
-   }
-  },
-  {
    "id": "hg-membership-1000-1971-91",
    "bank": "sites-history",
    "reason": "surplus: no room in a full deck",
@@ -5696,102 +5300,6 @@
    }
   },
   {
-   "id": "hg-native-missionaries-1980-97",
-   "bank": "sites-history",
-   "reason": "surplus: no room in a full deck",
-   "answers": 8,
-   "prompt": {
-    "id": "hg-native-missionaries-1980-97",
-    "bank": "sites-history",
-    "display_text": "Pin a country that sent out its first full-time missionary from among its own members between 1980 and 1997.",
-    "text_original": "A country whose first full-time missionary called from among its own members began service between 1980 and 1997.",
-    "accepts": "country",
-    "topic": "missionary work",
-    "era": "1980-1997",
-    "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-    "source_urls": [
-     "https://www.churchofjesuschrist.org/study/history/global-histories/dominican-republic/do-overview?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/haiti/ht-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/belize/bz-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/ukraine/ua-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/cameroon/cm-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/mongolia/mn-chronology?lang=eng",
-     "https://www.churchofjesuschrist.org/study/history/global-histories/cambodia/kh-chronology?lang=eng"
-    ],
-    "difficulty": 2,
-    "note": "Each of these countries called its first missionary from its own members between 1980 and 1997.",
-    "summary": "The Dominican Republic called its first missionaries in 1980, Haiti in 1981, Belize in 1987, the DR Congo in 1991, Ukraine in 1992, Cameroon in 1994, Mongolia in 1995 and Cambodia in 1997.",
-    "stamp": null,
-    "gems": [
-     "BLZ",
-     "CMR",
-     "HTI",
-     "KHM",
-     "MNG"
-    ],
-    "gem_forced": true,
-    "answers": [
-     {
-      "code": "COD",
-      "name": "DR Congo",
-      "commonness": 3,
-      "gem": false,
-      "fact": "In 1991 the first Congolese missionaries were called to serve in the Zaire Kinshasa Mission."
-     },
-     {
-      "code": "DOM",
-      "name": "Dominican Republic",
-      "commonness": 3,
-      "gem": false,
-      "fact": "In 1980 three members became the first full-time missionaries called from the Dominican Republic, serving abroad."
-     },
-     {
-      "code": "UKR",
-      "name": "Ukraine",
-      "commonness": 3,
-      "gem": false,
-      "fact": "In 1992 Oleksiy Roms began service in London as the first full-time missionary called from Ukraine."
-     },
-     {
-      "code": "BLZ",
-      "name": "Belize",
-      "commonness": 2,
-      "gem": true,
-      "fact": "In 1987 Hilberto Casanova was the first missionary called from Belize, serving in the Honduras Tegucigalpa Mission."
-     },
-     {
-      "code": "CMR",
-      "name": "Cameroon",
-      "commonness": 2,
-      "gem": true,
-      "fact": "On November 3, 1994, the first three missionaries from Cameroon were called."
-     },
-     {
-      "code": "HTI",
-      "name": "Haiti",
-      "commonness": 2,
-      "gem": true,
-      "fact": "On August 30, 1981, in Provo, Fritzner Joseph became the first full-time missionary called from Haiti."
-     },
-     {
-      "code": "KHM",
-      "name": "Cambodia",
-      "commonness": 2,
-      "gem": true,
-      "fact": "On April 30, 1997, Suy Chhay Leang, the first full-time missionary from Cambodia, was called to the Idaho Pocatello Mission."
-     },
-     {
-      "code": "MNG",
-      "name": "Mongolia",
-      "commonness": 2,
-      "gem": true,
-      "fact": "In 1995 Batchimeg Magsar and Soyolmaa Urtnasan were the first full-time missionaries from Mongolia."
-     }
-    ]
-   }
-  },
-  {
    "id": "hp-missions-closed",
    "bank": "sites-history",
    "reason": "surplus: no room in a full deck",
@@ -5881,6 +5389,165 @@
       "commonness": 2,
       "gem": true,
       "fact": "From 1858 to 1872 no missionaries were sent to Iceland."
+     }
+    ]
+   }
+  },
+  {
+   "id": "ot-assyria-takes-israel",
+   "bank": "ot",
+   "reason": "surplus: no room in a full deck",
+   "answers": 7,
+   "prompt": {
+    "id": "ot-assyria-takes-israel",
+    "bank": "ot",
+    "display_text": "Pin a country holding a place in Assyria's conquest and resettlement of Israel, 2 Kings 15-17 (leave out Ijon)",
+    "text_original": "A present-day country holding a place named in Assyria's conquest and resettlement of the northern kingdom in 2 Kings 15-17: towns Tiglath-pileser took, Samaria, the lands the captives were sent to, and the cities settlers came from (sites agreed by scholars only)",
+    "accepts": "country",
+    "topic": "Bible",
+    "era": "Old Testament",
+    "citation": "2 Kings 15:29; 16:9; 17:5-6, 24",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/bd/gozan?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/bd/media?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": "Samaria is in the West Bank (Palestine); Hazor, Kedesh and Galilee are in Israel.",
+    "summary": "Tiglath-pileser of Assyria took Gilead, Galilee, Kedesh and Hazor, then Damascus. Shalmaneser besieged Samaria, and in 721 BC its people were carried to Assyria, the Habor by the river of Gozan and the cities of the Medes, while settlers from Babylon, Cuthah and Hamath took their place (2 Kgs 15-17).",
+    "stamp": null,
+    "gems": [
+     "IRN",
+     "JOR"
+    ],
+    "gem_forced": true,
+    "answers": [
+     {
+      "code": "IRQ",
+      "name": "Iraq",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Israel was carried away into Assyria, and settlers came from Babylon and Cuthah (2 Kgs 17:6, 24)."
+     },
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Tiglath-pileser took Abel-beth-maachah, Kedesh and Hazor, and Galilee (2 Kgs 15:29)."
+     },
+     {
+      "code": "EGY",
+      "name": "Egypt",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Hoshea sent messengers to So king of Egypt, so Assyria shut him up and besieged Samaria (2 Kgs 17:4-5)."
+     },
+     {
+      "code": "PSE",
+      "name": "Palestine",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Shalmaneser besieged Samaria three years before it fell (2 Kgs 17:5-6)."
+     },
+     {
+      "code": "SYR",
+      "name": "Syria",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Assyria took Damascus (2 Kgs 16:9), and settlers were brought from Hamath (2 Kgs 17:24)."
+     },
+     {
+      "code": "IRN",
+      "name": "Iran",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Captives from Samaria were placed in the cities of the Medes (2 Kgs 17:6)."
+     },
+     {
+      "code": "JOR",
+      "name": "Jordan",
+      "commonness": 2,
+      "gem": true,
+      "fact": "Tiglath-pileser took Gilead and carried its people captive (2 Kgs 15:29)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "ot-nehemiah-wall-world",
+   "bank": "ot",
+   "reason": "surplus: no room in a full deck",
+   "answers": 6,
+   "prompt": {
+    "id": "ot-nehemiah-wall-world",
+    "bank": "ot",
+    "display_text": "Pin a country holding a city or people in Nehemiah 1-4 and 13, from Shushan to Tobiah the Ammonite (leave out the Arabians)",
+    "text_original": "A present-day country holding a city or people named in Nehemiah 1-4 and 13 (leaving out the Arabians, whose land is unclear): the Persian palace at Shushan, Jerusalem's builders from Jericho and Tekoa, the wall's opponents (Samaria's army, Tobiah the Ammonite, the Ashdodites), and the men of Tyre who sold fish",
+    "accepts": "country",
+    "topic": "Bible",
+    "era": "Old Testament",
+    "citation": "Nehemiah 1-4, 13",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/1?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/3?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/4?lang=eng",
+     "https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng"
+    ],
+    "difficulty": 3,
+    "note": "Jericho, Tekoa and Samaria are in the West Bank (Palestine); Ashdod is in Israel. Jerusalem is scored as Israel.",
+    "summary": "Nehemiah, cupbearer to the Persian king at Shushan, won leave to rebuild Jerusalem's wall. Builders came from towns such as Jericho and Tekoa, while Sanballat, Tobiah the Ammonite, Geshem the Arabian and the Ashdodites mocked and plotted. The wall was finished in fifty and two days (Neh 1-6).",
+    "stamp": null,
+    "gems": [
+     "IRQ"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "IRN",
+      "name": "Iran",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Nehemiah was cupbearer to Artaxerxes in Shushan the palace (Neh 1:1, 11)."
+     },
+     {
+      "code": "ISR",
+      "name": "Israel",
+      "commonness": 4,
+      "gem": false,
+      "fact": "He rebuilt the wall of Jerusalem; the Ashdodites joined the plot against it (Neh 2:17; 4:7)."
+     },
+     {
+      "code": "JOR",
+      "name": "Jordan",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Tobiah the Ammonite mocked the builders, and no Ammonite or Moabite was to enter the congregation (Neh 2:19; 13:1)."
+     },
+     {
+      "code": "PSE",
+      "name": "Palestine",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Men of Jericho and the Tekoites built sections of the wall, and Sanballat spoke before the army of Samaria (Neh 3:2, 5; 4:2)."
+     },
+     {
+      "code": "LBN",
+      "name": "Lebanon",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Men of Tyre sold fish and wares in Jerusalem on the sabbath (Neh 13:16)."
+     },
+     {
+      "code": "IRQ",
+      "name": "Iraq",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Nehemiah went to Artaxerxes king of Babylon before returning (Neh 13:6)."
      }
     ]
    }
@@ -8389,6 +8056,110 @@
       "commonness": 1,
       "gem": true,
       "fact": "Nairobi Kenya (2025)."
+     }
+    ]
+   }
+  },
+  {
+   "id": "history-first-temple-nelson-era",
+   "bank": "history2",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 10,
+   "prompt": {
+    "id": "history-first-temple-nelson-era",
+    "bank": "history2",
+    "display_text": "Pin a country or territory whose first temple was dedicated while Russell M. Nelson was Church president.",
+    "text_original": "A country whose first temple was dedicated while Russell M. Nelson was Church president.",
+    "accepts": "country_or_territory",
+    "topic": "temples",
+    "era": "2018-2025",
+    "citation": "Church temple list (first dedication per country) and presidency dates",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Russell M. Nelson was President of the Church from 2018 to 2025, and many countries and territories received their first temple in that time. President Nelson dedicated Rome Italy in 2019, and first temples followed in Haiti, Portugal and the Democratic Republic of the Congo (2019), Guam and Cape Verde (2022), Puerto Rico and Thailand (2023), and Kenya and Côte d'Ivoire (2025).",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "CIV",
+     "CPV",
+     "GUM",
+     "HTI",
+     "KEN"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "ITA",
+      "name": "Italy",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Rome Italy, 2019."
+     },
+     {
+      "code": "PRT",
+      "name": "Portugal",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Lisbon Portugal, 2019."
+     },
+     {
+      "code": "COD",
+      "name": "Democratic Republic of the Congo",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Kinshasa Democratic Republic of the Congo, 2019."
+     },
+     {
+      "code": "PRI",
+      "name": "Puerto Rico",
+      "commonness": 2,
+      "gem": false,
+      "fact": "San Juan Puerto Rico, 2023."
+     },
+     {
+      "code": "THA",
+      "name": "Thailand",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Bangkok Thailand, 2023."
+     },
+     {
+      "code": "CIV",
+      "name": "Côte d'Ivoire",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Abidjan Ivory Coast, 2025."
+     },
+     {
+      "code": "CPV",
+      "name": "Cape Verde",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Praia Cape Verde, 2022."
+     },
+     {
+      "code": "GUM",
+      "name": "Guam",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Yigo Guam, 2022."
+     },
+     {
+      "code": "HTI",
+      "name": "Haiti",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Port-au-Prince Haiti, 2019."
+     },
+     {
+      "code": "KEN",
+      "name": "Kenya",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Nairobi Kenya, 2025."
      }
     ]
    }
@@ -12579,6 +12350,109 @@
    }
   },
   {
+   "id": "temples-pending-asia-pacific",
+   "bank": "draft",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 10,
+   "prompt": {
+    "id": "temples-pending-asia-pacific",
+    "bank": "draft",
+    "display_text": "Pin an Asian or Pacific country or territory with a temple announced or being built, but none dedicated yet.",
+    "text_original": "Pin an Asian or Pacific country or territory with a temple announced or under construction but none dedicated yet (as of October 2026).",
+    "accepts": "country_or_territory",
+    "topic": "temples",
+    "era": "2026",
+    "citation": "temple list, 26 Oct 2026",
+    "source_urls": [
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://churchofjesuschristtemples.org/temples/chronology/",
+     "https://www.thechurchnews.com/temples/2026/08/24/pago-pago-american-samoa-temple-dedication-open-house-set/"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "As of October 2026, many Asian and Pacific places were waiting for their first temple. Temples were under construction in Bengaluru, Singapore, Kiribati, Papua New Guinea and Vanuatu, and announced for Shanghai, Jakarta, Ulaanbaatar, Dubai and Noumea. Pago Pago in American Samoa was listed as opening soon.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "KIR",
+     "NCL",
+     "VUT"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "IND",
+      "name": "India",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Bengaluru, under construction."
+     },
+     {
+      "code": "ARE",
+      "name": "United Arab Emirates",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Dubai, announced."
+     },
+     {
+      "code": "ASM",
+      "name": "American Samoa",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Pago Pago, under construction; dedication set for 13 December 2026."
+     },
+     {
+      "code": "IDN",
+      "name": "Indonesia",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Jakarta, announced."
+     },
+     {
+      "code": "MNG",
+      "name": "Mongolia",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Ulaanbaatar, announced."
+     },
+     {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Port Moresby, under construction."
+     },
+     {
+      "code": "SGP",
+      "name": "Singapore",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Singapore, under construction."
+     },
+     {
+      "code": "KIR",
+      "name": "Kiribati",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Tarawa, under construction."
+     },
+     {
+      "code": "NCL",
+      "name": "New Caledonia",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Noumea, announced."
+     },
+     {
+      "code": "VUT",
+      "name": "Vanuatu",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Port Vila, under construction."
+     }
+    ]
+   }
+  },
+  {
    "id": "temples-rededicated-1970-99",
    "bank": "temples",
    "reason": "surplus: temple cap (at most 2 per deck)",
@@ -12799,6 +12673,181 @@
       "commonness": 2,
       "gem": true,
       "fact": "Suva Fiji, 2016."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-shared-island",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 8,
+   "prompt": {
+    "id": "temples-shared-island",
+    "bank": "temples",
+    "display_text": "Pin a country on Hispaniola, Ireland, New Guinea, Borneo, Timor or Tierra del Fuego with a temple at any stage as of October 2026.",
+    "text_original": "A country that shares one of these islands with another country: Hispaniola, Ireland, New Guinea, Borneo, Timor or Tierra del Fuego, and has a temple at any stage, dedicated, under construction or announced (as of October 2026).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "1958-2026",
+    "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/temples/chronology/",
+     "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+     "https://en.wikipedia.org/wiki/List_of_divided_islands"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "Islands split between countries that have temples at some stage: Hispaniola (Dominican Republic and Haiti, both dedicated), Ireland (the United Kingdom through Northern Ireland, and Ireland with Dublin announced) and New Guinea (Papua New Guinea under construction, Indonesia announced). Timor-Leste, Malaysia and Brunei have no temple.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "IDN"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Hispaniola, shared with Haiti; Santo Domingo temple dedicated 2000."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Tierra del Fuego, shared with Chile; Buenos Aires temple dedicated 1986 and four more."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Tierra del Fuego, shared with Argentina; Santiago Chile Temple dedicated 1983."
+     },
+     {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Northern Ireland shares the island of Ireland; London and Preston temples."
+     },
+     {
+      "code": "HTI",
+      "name": "Haiti",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Hispaniola; Port-au-Prince temple dedicated 2019."
+     },
+     {
+      "code": "IRL",
+      "name": "Ireland",
+      "commonness": 2,
+      "gem": false,
+      "fact": "Island of Ireland; Dublin temple announced."
+     },
+     {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "commonness": 2,
+      "gem": false,
+      "fact": "New Guinea, shared with Indonesia; Port Moresby temple under construction."
+     },
+     {
+      "code": "IDN",
+      "name": "Indonesia",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Shares New Guinea, Borneo and Timor; Jakarta temple announced."
+     }
+    ]
+   }
+  },
+  {
+   "id": "temples-tropic-of-capricorn",
+   "bank": "temples",
+   "reason": "surplus: temple cap (at most 2 per deck)",
+   "answers": 8,
+   "prompt": {
+    "id": "temples-tropic-of-capricorn",
+    "bank": "temples",
+    "display_text": "Pin a country the Tropic of Capricorn runs through with a temple dedicated, under construction or announced (as of October 2026).",
+    "text_original": "A country the Tropic of Capricorn passes through that has a temple dedicated, under construction or announced (as of October 2026).",
+    "accepts": "country",
+    "topic": "temples",
+    "era": "2026",
+    "citation": "ChurchofJesusChristTemples.org chronology; Tropic of Capricorn geography",
+    "source_urls": [
+     "https://churchofjesuschristtemples.org/temples/chronology/",
+     "https://en.wikipedia.org/wiki/Tropic_of_Capricorn",
+     "https://www.britannica.com/place/Tropic-of-Capricorn"
+    ],
+    "difficulty": 3,
+    "note": null,
+    "summary": "The Tropic of Capricorn crosses ten countries. Eight of them have a temple at some stage as of October 2026: Brazil, Australia, Argentina, Chile, South Africa and Paraguay with dedicated temples, Madagascar with one under construction, and Mozambique with two announced. Namibia and Botswana have none.",
+    "stamp": "as of 26 Oct 2026",
+    "gems": [
+     "MDG",
+     "MOZ"
+    ],
+    "gem_forced": false,
+    "answers": [
+     {
+      "code": "AUS",
+      "name": "Australia",
+      "commonness": 5,
+      "gem": false,
+      "fact": "Crosses Queensland, the Northern Territory and WA; five dedicated temples."
+     },
+     {
+      "code": "BRA",
+      "name": "Brazil",
+      "commonness": 5,
+      "gem": false,
+      "fact": "The line crosses São Paulo state; São Paulo temple (1978)."
+     },
+     {
+      "code": "ARG",
+      "name": "Argentina",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Crosses the far north near Salta; Salta temple (2024)."
+     },
+     {
+      "code": "CHL",
+      "name": "Chile",
+      "commonness": 4,
+      "gem": false,
+      "fact": "Crosses the Atacama region; Antofagasta temple (2025)."
+     },
+     {
+      "code": "PRY",
+      "name": "Paraguay",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Crosses northern Paraguay; Asunción temple (2002)."
+     },
+     {
+      "code": "ZAF",
+      "name": "South Africa",
+      "commonness": 3,
+      "gem": false,
+      "fact": "Crosses Limpopo province; Johannesburg temple (1985)."
+     },
+     {
+      "code": "MDG",
+      "name": "Madagascar",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Crosses the south of the island; Antananarivo temple under construction."
+     },
+     {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "commonness": 1,
+      "gem": true,
+      "fact": "Crosses the south near Inhambane; Maputo and Beira temples announced."
      }
     ]
    }

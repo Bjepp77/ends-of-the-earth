@@ -29,90 +29,9 @@
    "answers": []
   },
   {
-   "id": "temples-asia-pacific-by-1990",
-   "bank": "sites-temples",
-   "display_text": "Pin an Asia-Pacific country that had a dedicated temple before 1990.",
-   "text_original": "A country in Asia or the Pacific that had a dedicated temple by 1990.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1958-1985",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Hamilton New Zealand (1958) was the first temple in the Pacific and Tokyo Japan (1980) the first in Asia. A burst followed in 1983 to 1985: Apia, Nuku'alofa, Sydney, Manila, Taipei and Seoul. Papeete Tahiti (1983) is excluded as a territory.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "KOR",
-    "TWN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Tokyo Japan (1980)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Hamilton New Zealand (1958)."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Sydney Australia (1984)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Manila Philippines (1984)."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Nuku'alofa Tonga (1983)."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Apia Samoa (1983)."
-    },
-    {
-     "code": "KOR",
-     "name": "South Korea",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Seoul Korea (1985)."
-    },
-    {
-     "code": "TWN",
-     "name": "Taiwan",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Taipei Taiwan (1984)."
-    }
-   ]
-  },
-  {
    "id": "pioneer-mckay-world-tour-1921",
    "bank": "pioneer",
-   "display_text": "Pin a country or territory in East Asia, the Pacific or Middle East on David O. McKay's 1920-21 world tour (Hawaii counts as USA)",
+   "display_text": "Pin a country or territory in East Asia, the Pacific or the Middle East that David O. McKay toured in 1920-21.",
    "text_original": "In 1920 and 1921, apostle David O. McKay and Hugh J. Cannon toured the Church's missions around the world. Pin a present-day country or territory in East Asia, the Pacific or the Middle East that they visited.",
    "accepts": "country_or_territory",
    "topic": "church leadership",
@@ -127,7 +46,7 @@
     "https://rsc.byu.edu/pioneers-pacific/apostle-oceania-elder-david-o-mckays-1921-trip-around-pacific"
    ],
    "difficulty": 2,
-   "note": "Palestine is split today, so Israel and Palestine both count.",
+   "note": "Palestine is split today, so Israel and Palestine both count. Hawaii counts as the United States.",
    "summary": "David O. McKay and Hugh J. Cannon left Salt Lake City in December 1920 to survey the Church's missions. They went from Japan, Korea and China to Hawaii, Tahiti, New Zealand, Fiji, Tonga, both Samoas and Australia, then through Asia to Egypt, Palestine, Syria and Turkey. McKay's report urged better Church schools and more visits by general authorities.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
@@ -252,6 +171,87 @@
      "commonness": 2,
      "gem": true,
      "fact": "Met about thirty Armenian Saints in Aintab."
+    }
+   ]
+  },
+  {
+   "id": "temples-asia-pacific-by-1990",
+   "bank": "sites-temples",
+   "display_text": "Pin an Asia-Pacific country that had a dedicated temple before 1990.",
+   "text_original": "A country in Asia or the Pacific that had a dedicated temple by 1990.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1958-1985",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Hamilton New Zealand (1958) was the first temple in the Pacific and Tokyo Japan (1980) the first in Asia. A burst followed in 1983 to 1985: Apia, Nuku'alofa, Sydney, Manila, Taipei and Seoul. Papeete Tahiti (1983) is excluded as a territory.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "KOR",
+    "TWN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Tokyo Japan (1980)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Hamilton New Zealand (1958)."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Sydney Australia (1984)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Manila Philippines (1984)."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Nuku'alofa Tonga (1983)."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Apia Samoa (1983)."
+    },
+    {
+     "code": "KOR",
+     "name": "South Korea",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Seoul Korea (1985)."
+    },
+    {
+     "code": "TWN",
+     "name": "Taiwan",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Taipei Taiwan (1984)."
     }
    ]
   },

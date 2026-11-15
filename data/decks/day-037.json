@@ -2,67 +2,120 @@
  "day": 37,
  "prompts": [
   {
-   "id": "nt-synagogue-preaching",
-   "bank": "nt",
-   "display_text": "Pin a country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
-   "text_original": "A present-day country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
+   "id": "temples-capital-and-another-city",
+   "bank": "temples",
+   "display_text": "Pin a country with a dedicated temple named for its capital and another named for a different city (as of October 2026).",
+   "text_original": "A country with a dedicated temple named for its national capital and another dedicated temple named for a different city (as of October 2026).",
    "accepts": "country",
-   "topic": "Bible",
-   "era": "New Testament",
-   "citation": "Luke 4:16; Mark 1:21; Acts 9:20; 13:5, 14; 14:1; 17:1-2, 10, 17; 18:4, 19; 19:8",
+   "topic": "temples",
+   "era": "1958-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
    "note": null,
-   "summary": "Jesus began his public ministry by reading Isaiah in the Nazareth synagogue. Paul followed the same pattern on his missions, going first to the Jews: Damascus right after his conversion, Salamis on Cyprus, Antioch in Pisidia and Iconium, then Thessalonica, Berea, Athens, Corinth and Ephesus.",
-   "stamp": null,
+   "summary": "Thirteen countries have a dedicated temple named for the capital and at least one named for another city, from the United States and Mexico to Colombia, Ecuador, Honduras and the United Kingdom. Canada, Australia and South Africa have several temples but none in their capitals, and New Zealand's Wellington temple is still under construction.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CYP"
+    "COL",
+    "ECU",
+    "GBR",
+    "HND"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "ISR",
-     "name": "Israel",
+     "code": "MEX",
+     "name": "Mexico",
      "commonness": 5,
      "gem": false,
-     "fact": "Jesus read Isaiah in the synagogue at Nazareth and taught in the synagogue at Capernaum (Luke 4:16; Mark 1:21)."
+     "fact": "Mexico City 1983 plus thirteen more."
     },
     {
-     "code": "GRC",
-     "name": "Greece",
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Washington D.C. Temple (1974, in nearby Maryland) plus temples nationwide."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Brasília 2023 plus São Paulo and others."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima 1986 plus Trujillo and Arequipa."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Paul reasoned in synagogues at Thessalonica, Berea, Athens and Corinth (Acts 17:1-2, 10, 17; 18:4)."
+     "fact": "Buenos Aires 1986 plus Córdoba, Mendoza, Salta, Bahía Blanca."
     },
     {
-     "code": "TUR",
-     "name": "Turkey",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "Paul and Barnabas spoke in synagogues at Antioch in Pisidia and Iconium; Paul later at Ephesus (Acts 13:14; 14:1; 19:8)."
+     "fact": "Santiago 1983 plus Concepción and Antofagasta."
     },
     {
-     "code": "SYR",
-     "name": "Syria",
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Guatemala City 1984 plus Quetzaltenango and Cobán."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Tokyo 1980 plus Fukuoka, Sapporo, Okinawa."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Manila 1984 plus Cebu City, Urdaneta and others."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 2,
-     "gem": false,
-     "fact": "Straightway after his conversion Saul preached Christ in the synagogues of Damascus (Acts 9:20)."
+     "gem": true,
+     "fact": "Bogotá 1999 plus Barranquilla 2018."
     },
     {
-     "code": "CYP",
-     "name": "Cyprus",
-     "commonness": 1,
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 2,
      "gem": true,
-     "fact": "At Salamis, Barnabas and Saul preached the word of God in the synagogues of the Jews (Acts 13:5)."
+     "fact": "Quito 2022 plus Guayaquil 1999."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 2,
+     "gem": true,
+     "fact": "London 1958 plus Preston 1998."
+    },
+    {
+     "code": "HND",
+     "name": "Honduras",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Tegucigalpa 2013 plus San Pedro Sula 2024."
     }
    ]
   },
@@ -213,120 +266,67 @@
    ]
   },
   {
-   "id": "temples-capital-and-another-city",
-   "bank": "temples",
-   "display_text": "Pin a country with a dedicated temple named for its capital and another named for a different city (as of October 2026).",
-   "text_original": "A country with a dedicated temple named for its national capital and another dedicated temple named for a different city (as of October 2026).",
+   "id": "nt-synagogue-preaching",
+   "bank": "nt",
+   "display_text": "Pin a country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
+   "text_original": "A present-day country holding a town where Jesus, Paul or Barnabas taught or preached in a synagogue",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1958-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology (dedicated, under construction, announced), read 27 Oct 2026",
+   "topic": "Bible",
+   "era": "New Testament",
+   "citation": "Luke 4:16; Mark 1:21; Acts 9:20; 13:5, 14; 14:1; 17:1-2, 10, 17; 18:4, 19; 19:8",
    "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng"
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/9?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/14?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/18?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/nt/acts/19?lang=eng"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "note": null,
-   "summary": "Thirteen countries have a dedicated temple named for the capital and at least one named for another city, from the United States and Mexico to Colombia, Ecuador, Honduras and the United Kingdom. Canada, Australia and South Africa have several temples but none in their capitals, and New Zealand's Wellington temple is still under construction.",
-   "stamp": "as of 26 Oct 2026",
+   "summary": "Jesus began his public ministry by reading Isaiah in the Nazareth synagogue. Paul followed the same pattern on his missions, going first to the Jews: Damascus right after his conversion, Salamis on Cyprus, Antioch in Pisidia and Iconium, then Thessalonica, Berea, Athens, Corinth and Ephesus.",
+   "stamp": null,
    "gems": [
-    "COL",
-    "ECU",
-    "GBR",
-    "HND"
+    "CYP"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "MEX",
-     "name": "Mexico",
+     "code": "ISR",
+     "name": "Israel",
      "commonness": 5,
      "gem": false,
-     "fact": "Mexico City 1983 plus thirteen more."
+     "fact": "Jesus read Isaiah in the synagogue at Nazareth and taught in the synagogue at Capernaum (Luke 4:16; Mark 1:21)."
     },
     {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Washington D.C. Temple (1974, in nearby Maryland) plus temples nationwide."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Brasília 2023 plus São Paulo and others."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Lima 1986 plus Trujillo and Arequipa."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "GRC",
+     "name": "Greece",
      "commonness": 3,
      "gem": false,
-     "fact": "Buenos Aires 1986 plus Córdoba, Mendoza, Salta, Bahía Blanca."
+     "fact": "Paul reasoned in synagogues at Thessalonica, Berea, Athens and Corinth (Acts 17:1-2, 10, 17; 18:4)."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "TUR",
+     "name": "Turkey",
      "commonness": 3,
      "gem": false,
-     "fact": "Santiago 1983 plus Concepción and Antofagasta."
+     "fact": "Paul and Barnabas spoke in synagogues at Antioch in Pisidia and Iconium; Paul later at Ephesus (Acts 13:14; 14:1; 19:8)."
     },
     {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Guatemala City 1984 plus Quetzaltenango and Cobán."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Tokyo 1980 plus Fukuoka, Sapporo, Okinawa."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Manila 1984 plus Cebu City, Urdaneta and others."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
+     "code": "SYR",
+     "name": "Syria",
      "commonness": 2,
-     "gem": true,
-     "fact": "Bogotá 1999 plus Barranquilla 2018."
+     "gem": false,
+     "fact": "Straightway after his conversion Saul preached Christ in the synagogues of Damascus (Acts 9:20)."
     },
     {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 2,
+     "code": "CYP",
+     "name": "Cyprus",
+     "commonness": 1,
      "gem": true,
-     "fact": "Quito 2022 plus Guayaquil 1999."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 2,
-     "gem": true,
-     "fact": "London 1958 plus Preston 1998."
-    },
-    {
-     "code": "HND",
-     "name": "Honduras",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Tegucigalpa 2013 plus San Pedro Sula 2024."
+     "fact": "At Salamis, Barnabas and Saul preached the word of God in the synagogues of the Jews (Acts 13:5)."
     }
    ]
   },

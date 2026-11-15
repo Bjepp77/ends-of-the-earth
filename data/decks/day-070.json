@@ -29,97 +29,80 @@
    "answers": []
   },
   {
-   "id": "tc-outside-americas-noncapital-temple",
-   "bank": "sites-temples",
-   "display_text": "Pin a country outside the Americas with a dedicated temple in a city that is not its capital.",
-   "text_original": "A country outside the Americas with a dedicated temple named for a city that is not its capital (as of November 2026).",
+   "id": "pioneer-africa-first-missionaries-1978-89",
+   "bank": "pioneer",
+   "display_text": "Pin a West or Central African country where the first Latter-day Saint missionaries arrived between 1978 and 1989.",
+   "text_original": "A West or Central African country where the first Latter-day Saint missionaries arrived between 1978 and 1989.",
    "accepts": "country",
-   "topic": "temples",
-   "era": "1958-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "topic": "missionary work",
+   "era": "1978-1989",
+   "citation": "Global Histories chronologies: Ghana, Nigeria, D.R. Congo, Liberia, Cote d'Ivoire, Sierra Leone, Cape Verde",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/sierra-leone/sl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/cape-verde/cv-chronology?lang=eng"
    ],
-   "difficulty": 2,
+   "difficulty": 1,
    "note": null,
-   "summary": "Ten countries outside the Americas have temples named for non-capital cities. Australia is the clearest case: all five of its temples sit outside Canberra. Others include Preston England, Frankfurt and Freiberg Germany, The Hague, Hamilton New Zealand, Aba Nigeria and Abidjan Côte d'Ivoire (the capital is Yamoussoukro).",
-   "stamp": "as of 26 Oct 2026",
+   "summary": "After the June 1978 revelation on the priesthood, senior couples reached Nigeria and Ghana within months, where congregations had been waiting for years. In the following decade missionaries entered Zaire (1986), Liberia and Cote d'Ivoire (1987), Sierra Leone (1988) and Cape Verde (1989).",
+   "stamp": null,
    "gems": [
-    "CIV",
-    "NLD"
+    "CPV"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 4,
+     "code": "GHA",
+     "name": "Ghana",
+     "commonness": 5,
      "gem": false,
-     "fact": "Sydney, Melbourne, Adelaide, Perth and Brisbane (capital: Canberra)."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Preston England (capital: London)."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Fukuoka, Sapporo and Okinawa (capital: Tokyo)."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cebu City, Urdaneta, Davao and Bacolod (capital: Manila)."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Freiberg and Frankfurt (capital: Berlin)."
+     "fact": "Missionary couples Cannon and Mabey arrived on December 5, 1978."
     },
     {
      "code": "NGA",
      "name": "Nigeria",
-     "commonness": 3,
+     "commonness": 5,
      "gem": false,
-     "fact": "Aba (capital: Abuja)."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Hamilton and Auckland (capital: Wellington)."
-    },
-    {
-     "code": "ZAF",
-     "name": "South Africa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Johannesburg and Durban (capital: Pretoria, Cape Town and Bloemfontein)."
+     "fact": "The same two senior couples arrived to begin missionary work on November 9, 1978."
     },
     {
      "code": "CIV",
-     "name": "Côte d'Ivoire",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Abidjan (capital: Yamoussoukro)."
+     "name": "Cote d'Ivoire",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Barnard and Cherry Silver arrived in Abidjan on April 22, 1988 as the first Church representatives."
     },
     {
-     "code": "NLD",
-     "name": "Netherlands",
+     "code": "COD",
+     "name": "Democratic Republic of the Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Ralph and Jean Hutchings, the first missionaries to Zaire, arrived in Kinshasa in February 1986."
+    },
+    {
+     "code": "LBR",
+     "name": "Liberia",
      "commonness": 2,
+     "gem": false,
+     "fact": "The first missionary couple assigned to Liberia arrived in Monrovia on July 3, 1987."
+    },
+    {
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 2,
+     "gem": false,
+     "fact": "The first missionaries assigned to Sierra Leone arrived in Freetown on May 7-8, 1988."
+    },
+    {
+     "code": "CPV",
+     "name": "Cabo Verde",
+     "commonness": 1,
      "gem": true,
-     "fact": "The Hague (capital: Amsterdam)."
+     "fact": "The first missionaries arrived in Praia in March 1989."
     }
    ]
   },
@@ -332,80 +315,97 @@
    ]
   },
   {
-   "id": "pioneer-africa-first-missionaries-1978-89",
-   "bank": "pioneer",
-   "display_text": "Pin a West or Central African country where the first Latter-day Saint missionaries arrived between 1978 and 1989.",
-   "text_original": "A West or Central African country where the first Latter-day Saint missionaries arrived between 1978 and 1989.",
+   "id": "tc-outside-americas-noncapital-temple",
+   "bank": "sites-temples",
+   "display_text": "Pin a country outside the Americas with a dedicated temple in a city that is not its capital.",
+   "text_original": "A country outside the Americas with a dedicated temple named for a city that is not its capital (as of November 2026).",
    "accepts": "country",
-   "topic": "missionary work",
-   "era": "1978-1989",
-   "citation": "Global Histories chronologies: Ghana, Nigeria, D.R. Congo, Liberia, Cote d'Ivoire, Sierra Leone, Cape Verde",
+   "topic": "temples",
+   "era": "1958-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ghana/gh-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/nigeria/ng-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/d-r-congo/cd-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ivory-coast/ci-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/sierra-leone/sl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/cape-verde/cv-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
    ],
-   "difficulty": 1,
+   "difficulty": 2,
    "note": null,
-   "summary": "After the June 1978 revelation on the priesthood, senior couples reached Nigeria and Ghana within months, where congregations had been waiting for years. In the following decade missionaries entered Zaire (1986), Liberia and Cote d'Ivoire (1987), Sierra Leone (1988) and Cape Verde (1989).",
-   "stamp": null,
+   "summary": "Ten countries outside the Americas have temples named for non-capital cities. Australia is the clearest case: all five of its temples sit outside Canberra. Others include Preston England, Frankfurt and Freiberg Germany, The Hague, Hamilton New Zealand, Aba Nigeria and Abidjan Côte d'Ivoire (the capital is Yamoussoukro).",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CPV"
+    "CIV",
+    "NLD"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "GHA",
-     "name": "Ghana",
-     "commonness": 5,
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 4,
      "gem": false,
-     "fact": "Missionary couples Cannon and Mabey arrived on December 5, 1978."
+     "fact": "Sydney, Melbourne, Adelaide, Perth and Brisbane (capital: Canberra)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Preston England (capital: London)."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Fukuoka, Sapporo and Okinawa (capital: Tokyo)."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cebu City, Urdaneta, Davao and Bacolod (capital: Manila)."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Freiberg and Frankfurt (capital: Berlin)."
     },
     {
      "code": "NGA",
      "name": "Nigeria",
-     "commonness": 5,
+     "commonness": 3,
      "gem": false,
-     "fact": "The same two senior couples arrived to begin missionary work on November 9, 1978."
+     "fact": "Aba (capital: Abuja)."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Hamilton and Auckland (capital: Wellington)."
+    },
+    {
+     "code": "ZAF",
+     "name": "South Africa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Johannesburg and Durban (capital: Pretoria, Cape Town and Bloemfontein)."
     },
     {
      "code": "CIV",
-     "name": "Cote d'Ivoire",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Barnard and Cherry Silver arrived in Abidjan on April 22, 1988 as the first Church representatives."
-    },
-    {
-     "code": "COD",
-     "name": "Democratic Republic of the Congo",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Ralph and Jean Hutchings, the first missionaries to Zaire, arrived in Kinshasa in February 1986."
-    },
-    {
-     "code": "LBR",
-     "name": "Liberia",
+     "name": "Côte d'Ivoire",
      "commonness": 2,
-     "gem": false,
-     "fact": "The first missionary couple assigned to Liberia arrived in Monrovia on July 3, 1987."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 2,
-     "gem": false,
-     "fact": "The first missionaries assigned to Sierra Leone arrived in Freetown on May 7-8, 1988."
-    },
-    {
-     "code": "CPV",
-     "name": "Cabo Verde",
-     "commonness": 1,
      "gem": true,
-     "fact": "The first missionaries arrived in Praia in March 1989."
+     "fact": "Abidjan (capital: Yamoussoukro)."
+    },
+    {
+     "code": "NLD",
+     "name": "Netherlands",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Hague (capital: Amsterdam)."
     }
    ]
   }

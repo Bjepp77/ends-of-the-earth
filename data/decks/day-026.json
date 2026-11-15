@@ -2,100 +2,104 @@
  "day": 26,
  "prompts": [
   {
-   "id": "history-first-temple-nelson-era",
-   "bank": "history2",
-   "display_text": "Pin a country or territory whose first temple was dedicated while Russell M. Nelson was Church president.",
-   "text_original": "A country whose first temple was dedicated while Russell M. Nelson was Church president.",
-   "accepts": "country_or_territory",
+   "id": "temples-population-over-100m",
+   "bank": "temples",
+   "display_text": "Pin a country of more than 100 million people with a temple at any stage (as of October 2026).",
+   "text_original": "A country with a population above 100 million (UN World Population Prospects) and a temple at any stage (as of October 2026).",
+   "accepts": "country",
    "topic": "temples",
-   "era": "2018-2025",
-   "citation": "Church temple list (first dedication per country) and presidency dates",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; UN World Population Prospects 2024",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://population.un.org/wpp/",
+    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population"
    ],
-   "difficulty": 3,
+   "difficulty": 1,
    "note": null,
-   "summary": "Russell M. Nelson was President of the Church from 2018 to 2025, and many countries and territories received their first temple in that time. President Nelson dedicated Rome Italy in 2019, and first temples followed in Haiti, Portugal and the Democratic Republic of the Congo (2019), Guam and Cape Verde (2022), Puerto Rico and Thailand (2023), and Kenya and Côte d'Ivoire (2025).",
+   "summary": "Of the 15 countries with over 100 million people, 11 have a temple at some stage as of October 2026. Pakistan, Bangladesh, Ethiopia and Egypt do not. The Philippines, Mexico, Brazil and the United States have the most dedicated temples among them, while India, Indonesia, Russia and China have temples only under construction or announced.",
    "stamp": "as of 26 Oct 2026",
    "gems": [
-    "CIV",
-    "CPV",
-    "GUM",
-    "HTI",
-    "KEN"
+    "CHN"
    ],
    "gem_forced": false,
    "answers": [
     {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
      "gem": false,
-     "fact": "Rome Italy, 2019."
+     "fact": "About 212 million; 12 dedicated temples."
     },
     {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 3,
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
      "gem": false,
-     "fact": "Lisbon Portugal, 2019."
+     "fact": "About 130 million; 14 dedicated temples."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Over 340 million people; more than 100 dedicated temples."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 123 million; 4 dedicated temples."
+    },
+    {
+     "code": "PHL",
+     "name": "Philippines",
+     "commonness": 4,
+     "gem": false,
+     "fact": "About 116 million; 6 dedicated temples."
     },
     {
      "code": "COD",
-     "name": "Democratic Republic of the Congo",
+     "name": "DR Congo",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 109 million; Kinshasa temple."
+    },
+    {
+     "code": "NGA",
+     "name": "Nigeria",
+     "commonness": 3,
+     "gem": false,
+     "fact": "About 230 million; Aba Nigeria Temple."
+    },
+    {
+     "code": "IDN",
+     "name": "Indonesia",
      "commonness": 2,
      "gem": false,
-     "fact": "Kinshasa Democratic Republic of the Congo, 2019."
+     "fact": "About 283 million; Jakarta temple announced."
     },
     {
-     "code": "PRI",
-     "name": "Puerto Rico",
+     "code": "IND",
+     "name": "India",
      "commonness": 2,
      "gem": false,
-     "fact": "San Juan Puerto Rico, 2023."
+     "fact": "About 1.45 billion; Bengaluru temple under construction."
     },
     {
-     "code": "THA",
-     "name": "Thailand",
+     "code": "RUS",
+     "name": "Russia",
      "commonness": 2,
      "gem": false,
-     "fact": "Bangkok Thailand, 2023."
+     "fact": "About 144 million; temple announced."
     },
     {
-     "code": "CIV",
-     "name": "Côte d'Ivoire",
+     "code": "CHN",
+     "name": "China",
      "commonness": 1,
      "gem": true,
-     "fact": "Abidjan Ivory Coast, 2025."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Praia Cape Verde, 2022."
-    },
-    {
-     "code": "GUM",
-     "name": "Guam",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Yigo Guam, 2022."
-    },
-    {
-     "code": "HTI",
-     "name": "Haiti",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Port-au-Prince Haiti, 2019."
-    },
-    {
-     "code": "KEN",
-     "name": "Kenya",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Nairobi Kenya, 2025."
+     "fact": "About 1.4 billion; Shanghai temple announced, Hong Kong temple dedicated."
     }
    ]
   },
@@ -162,6 +166,72 @@
      "commonness": 1,
      "gem": true,
      "fact": "Papiamento, given selections in 1987, kept its official status in the Caribbean Netherlands, which includes Bonaire, in 2010."
+    }
+   ]
+  },
+  {
+   "id": "saints-v4-26-eastern-europe-1991",
+   "bank": "draft",
+   "display_text": "Pin a formerly communist country that Saints names as newly open to missionaries about 1991.",
+   "text_original": "Saints vol. 4 ch. 26: around 1991, missionaries were newly permitted in these formerly communist countries. Pin one.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1989-1991",
+   "citation": "Saints vol. 4 ch. 26",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/26-i-want-to-serve?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "As communist governments fell around 1989 to 1991, countries that had kept missionaries out began to let them in. Saints vol. 4 ch. 26 names Poland, Hungary, Bulgaria, Romania, Slovenia and Croatia among the newly opened countries.",
+   "stamp": null,
+   "gems": [
+    "HRV",
+    "SVN"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "POL",
+     "name": "Poland",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Opened to missionaries as the Iron Curtain fell."
+    },
+    {
+     "code": "HUN",
+     "name": "Hungary",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "BGR",
+     "name": "Bulgaria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "ROU",
+     "name": "Romania",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Named in the chapter's list of newly opened countries."
+    },
+    {
+     "code": "HRV",
+     "name": "Croatia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Part of the Yugoslav breakup era; named in the list."
+    },
+    {
+     "code": "SVN",
+     "name": "Slovenia",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Part of the Yugoslav breakup era; named in the list."
     }
    ]
   },
@@ -268,170 +338,71 @@
    ]
   },
   {
-   "id": "saints-v4-26-eastern-europe-1991",
-   "bank": "draft",
-   "display_text": "Pin a formerly communist country that Saints names as newly open to missionaries about 1991.",
-   "text_original": "Saints vol. 4 ch. 26: around 1991, missionaries were newly permitted in these formerly communist countries. Pin one.",
+   "id": "global-mtcs-closed-2019-2023",
+   "bank": "global",
+   "display_text": "Pin a country whose Church missionary training center closed between 2019 and 2023.",
+   "text_original": "Between 2019 and 2023 the Church closed several missionary training centers outside the United States as more missionaries trained at home or online. A country whose missionary training center closed in that period.",
    "accepts": "country",
    "topic": "missionary work",
-   "era": "1989-1991",
-   "citation": "Saints vol. 4 ch. 26",
+   "era": "2019-2023",
+   "citation": "Church News 2019-02-08; Newsroom (Guatemala MTC, Colombia MTC)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/saints-v4/part-3/26-i-want-to-serve?lang=eng"
+    "https://www.thechurchnews.com/2019/2/8/23219280/heres-why-the-church-has-decided-to-close-4-international-mtcs/",
+    "https://newsroom.churchofjesuschrist.org/article/guatemala-missionary-training-center-closing",
+    "https://newsroom.churchofjesuschrist.org/article/colombia-mtc-closing-january-2023"
    ],
-   "difficulty": 2,
+   "difficulty": 3,
    "note": null,
-   "summary": "As communist governments fell around 1989 to 1991, countries that had kept missionaries out began to let them in. Saints vol. 4 ch. 26 names Poland, Hungary, Bulgaria, Romania, Slovenia and Croatia among the newly opened countries.",
+   "summary": "In 2019 the Church closed its training centers in Santiago, Madrid and Santo Domingo, then Buenos Aires that July. Guatemala City followed in January 2020 and Bogota in January 2023. Missionaries from those lands now train at home, online or at the remaining centers.",
    "stamp": null,
    "gems": [
-    "HRV",
-    "SVN"
+    "COL",
+    "DOM",
+    "GTM"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "POL",
-     "name": "Poland",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Opened to missionaries as the Iron Curtain fell."
-    },
-    {
-     "code": "HUN",
-     "name": "Hungary",
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 3,
      "gem": false,
-     "fact": "Named in the chapter's list of newly opened countries."
+     "fact": "The Buenos Aires MTC closed in July 2019."
     },
     {
-     "code": "BGR",
-     "name": "Bulgaria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named in the chapter's list of newly opened countries."
-    },
-    {
-     "code": "ROU",
-     "name": "Romania",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Named in the chapter's list of newly opened countries."
-    },
-    {
-     "code": "HRV",
-     "name": "Croatia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Part of the Yugoslav breakup era; named in the list."
-    },
-    {
-     "code": "SVN",
-     "name": "Slovenia",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Part of the Yugoslav breakup era; named in the list."
-    }
-   ]
-  },
-  {
-   "id": "temples-population-over-100m",
-   "bank": "temples",
-   "display_text": "Pin a country of more than 100 million people with a temple at any stage (as of October 2026).",
-   "text_original": "A country with a population above 100 million (UN World Population Prospects) and a temple at any stage (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology; UN World Population Prospects 2024",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://population.un.org/wpp/",
-    "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population"
-   ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "Of the 15 countries with over 100 million people, 11 have a temple at some stage as of October 2026. Pakistan, Bangladesh, Ethiopia and Egypt do not. The Philippines, Mexico, Brazil and the United States have the most dedicated temples among them, while India, Indonesia, Russia and China have temples only under construction or announced.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "CHN"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "About 212 million; 12 dedicated temples."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "About 130 million; 14 dedicated temples."
-    },
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Over 340 million people; more than 100 dedicated temples."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "About 123 million; 4 dedicated temples."
-    },
-    {
-     "code": "PHL",
-     "name": "Philippines",
-     "commonness": 4,
-     "gem": false,
-     "fact": "About 116 million; 6 dedicated temples."
-    },
-    {
-     "code": "COD",
-     "name": "DR Congo",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 3,
      "gem": false,
-     "fact": "About 109 million; Kinshasa temple."
+     "fact": "The Santiago MTC closed in January 2019."
     },
     {
-     "code": "NGA",
-     "name": "Nigeria",
+     "code": "ESP",
+     "name": "Spain",
      "commonness": 3,
      "gem": false,
-     "fact": "About 230 million; Aba Nigeria Temple."
+     "fact": "The Madrid MTC closed in January 2019."
     },
     {
-     "code": "IDN",
-     "name": "Indonesia",
+     "code": "COL",
+     "name": "Colombia",
      "commonness": 2,
-     "gem": false,
-     "fact": "About 283 million; Jakarta temple announced."
-    },
-    {
-     "code": "IND",
-     "name": "India",
-     "commonness": 2,
-     "gem": false,
-     "fact": "About 1.45 billion; Bengaluru temple under construction."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 2,
-     "gem": false,
-     "fact": "About 144 million; temple announced."
-    },
-    {
-     "code": "CHN",
-     "name": "China",
-     "commonness": 1,
      "gem": true,
-     "fact": "About 1.4 billion; Shanghai temple announced, Hong Kong temple dedicated."
+     "fact": "The Bogota MTC closed in January 2023."
+    },
+    {
+     "code": "DOM",
+     "name": "Dominican Republic",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Santo Domingo MTC closed in January 2019."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 2,
+     "gem": true,
+     "fact": "The Guatemala City MTC closed in January 2020."
     }
    ]
   }

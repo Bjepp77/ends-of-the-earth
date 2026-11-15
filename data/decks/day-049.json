@@ -29,156 +29,6 @@
    "answers": []
   },
   {
-   "id": "hp-first-converts-1870-1899",
-   "bank": "sites-history",
-   "display_text": "Pin a land whose very first convert was baptized between 1870 and 1899.",
-   "text_original": "A country or territory where the first known convert was baptized between 1870 and 1899.",
-   "accepts": "country",
-   "topic": "missionary work",
-   "era": "1876-1892",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "While the Saints were still settling the West, missionaries opened new lands. Finland, Mexico, Austria, Belgium, Samoa, American Samoa and Tonga all saw their first known convert baptisms between 1876 and 1892.",
-   "stamp": null,
-   "gems": [
-    "AUT",
-    "BEL",
-    "FIN"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "In 1877 Meliton Trejo and Louis Garff baptized Jose Epifanio Jesus at Hermosillo, the first convert in Mexico."
-    },
-    {
-     "code": "TON",
-     "name": "Tonga",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1892 Alipate, the first Tongan convert, was baptized and confirmed by Brigham Smoot at Mu‘a."
-    },
-    {
-     "code": "WSM",
-     "name": "Samoa",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1889 Ifopa of Sale‘imoa village became the first convert baptized on Upolu."
-    },
-    {
-     "code": "ASM",
-     "name": "American Samoa",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1888 Malaea, on Aunu‘u, became the first convert baptized after the Samoan Mission opened."
-    },
-    {
-     "code": "AUT",
-     "name": "Austria",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1883 Paul Haslinger became the first convert baptized in Austria, at Lambach."
-    },
-    {
-     "code": "BEL",
-     "name": "Belgium",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1888 Henrietta Esselmann and her son Frederick Pieper were the first baptized in Belgium, at Antwerp."
-    },
-    {
-     "code": "FIN",
-     "name": "Finland",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1876 Johanna Charlotta Berg became the first convert baptized in Finland, at Vaasa."
-    }
-   ]
-  },
-  {
-   "id": "hp-nauvoo-links",
-   "bank": "sites-history",
-   "display_text": "Pin a country outside the USA whose Church story has a chapter set in Nauvoo, Illinois.",
-   "text_original": "A country outside the United States whose Church story includes a chapter that took place in Nauvoo, Illinois (1839-1846).",
-   "accepts": "country",
-   "topic": "Nauvoo",
-   "era": "1840-1846",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Nauvoo was a launching point for the worldwide Church. A Welshman was baptized in the Mississippi there, a Dane began translating scripture while guarding the temple, Norwegians nearby joined, missionaries left for the Pacific, a mission to Russia was called, and leaders planned a move toward Mexican territory.",
-   "stamp": null,
-   "gems": [
-    "RUS"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Dan Jones, a native of Wales, was baptized in the Mississippi River at Nauvoo in 1843."
-    },
-    {
-     "code": "DNK",
-     "name": "Denmark",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1845 Peter Olsen Hansen began translating the Book of Mormon into Danish while serving as a guard in the Nauvoo Temple."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1844 Joseph Smith and the Apostles in Nauvoo began planning an expedition to seek a new home, possibly in Mexican territory."
-    },
-    {
-     "code": "NOR",
-     "name": "Norway",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In the 1840s several Norwegians living near Nauvoo joined the Church."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "In 1843 Addison Pratt and three companions were set apart in Nauvoo; they ended up preaching on Tubuai in 1844."
-    },
-    {
-     "code": "RUS",
-     "name": "Russia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1843 Joseph Smith in Nauvoo called Orson Hyde and George J. Adams on a mission to Russia, which never took place."
-    }
-   ]
-  },
-  {
    "id": "ha-benson-europe-relief-1946",
    "bank": "sites-history",
    "display_text": "Pin a country where Elder Ezra Taft Benson brought postwar relief to the Saints in 1946.",
@@ -267,9 +117,159 @@
    ]
   },
   {
+   "id": "hp-nauvoo-links",
+   "bank": "sites-history",
+   "display_text": "Pin a country outside the USA whose Church story has a chapter set in Nauvoo, Illinois.",
+   "text_original": "A country outside the United States whose Church story includes a chapter that took place in Nauvoo, Illinois (1839-1846).",
+   "accepts": "country",
+   "topic": "Nauvoo",
+   "era": "1840-1846",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/wales/wa-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/denmark/dk-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/norway/no-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/russia/ru-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Nauvoo was a launching point for the worldwide Church. A Welshman was baptized in the Mississippi there, a Dane began translating scripture while guarding the temple, Norwegians nearby joined, missionaries left for the Pacific, a mission to Russia was called, and leaders planned a move toward Mexican territory.",
+   "stamp": null,
+   "gems": [
+    "RUS"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Dan Jones, a native of Wales, was baptized in the Mississippi River at Nauvoo in 1843."
+    },
+    {
+     "code": "DNK",
+     "name": "Denmark",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1845 Peter Olsen Hansen began translating the Book of Mormon into Danish while serving as a guard in the Nauvoo Temple."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1844 Joseph Smith and the Apostles in Nauvoo began planning an expedition to seek a new home, possibly in Mexican territory."
+    },
+    {
+     "code": "NOR",
+     "name": "Norway",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In the 1840s several Norwegians living near Nauvoo joined the Church."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1843 Addison Pratt and three companions were set apart in Nauvoo; they ended up preaching on Tubuai in 1844."
+    },
+    {
+     "code": "RUS",
+     "name": "Russia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1843 Joseph Smith in Nauvoo called Orson Hyde and George J. Adams on a mission to Russia, which never took place."
+    }
+   ]
+  },
+  {
+   "id": "hp-first-converts-1870-1899",
+   "bank": "sites-history",
+   "display_text": "Pin a land whose very first convert was baptized between 1870 and 1899.",
+   "text_original": "A country or territory where the first known convert was baptized between 1870 and 1899.",
+   "accepts": "country",
+   "topic": "missionary work",
+   "era": "1876-1892",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/finland/fi-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/mexico/mx-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/austria/at-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/belgium/be-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/samoa/ws-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/american-samoa/as-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/tonga/to-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "While the Saints were still settling the West, missionaries opened new lands. Finland, Mexico, Austria, Belgium, Samoa, American Samoa and Tonga all saw their first known convert baptisms between 1876 and 1892.",
+   "stamp": null,
+   "gems": [
+    "AUT",
+    "BEL",
+    "FIN"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1877 Meliton Trejo and Louis Garff baptized Jose Epifanio Jesus at Hermosillo, the first convert in Mexico."
+    },
+    {
+     "code": "TON",
+     "name": "Tonga",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1892 Alipate, the first Tongan convert, was baptized and confirmed by Brigham Smoot at Mu‘a."
+    },
+    {
+     "code": "WSM",
+     "name": "Samoa",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1889 Ifopa of Sale‘imoa village became the first convert baptized on Upolu."
+    },
+    {
+     "code": "ASM",
+     "name": "American Samoa",
+     "commonness": 3,
+     "gem": false,
+     "fact": "In 1888 Malaea, on Aunu‘u, became the first convert baptized after the Samoan Mission opened."
+    },
+    {
+     "code": "AUT",
+     "name": "Austria",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1883 Paul Haslinger became the first convert baptized in Austria, at Lambach."
+    },
+    {
+     "code": "BEL",
+     "name": "Belgium",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1888 Henrietta Esselmann and her son Frederick Pieper were the first baptized in Belgium, at Antwerp."
+    },
+    {
+     "code": "FIN",
+     "name": "Finland",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1876 Johanna Charlotta Berg became the first convert baptized in Finland, at Vaasa."
+    }
+   ]
+  },
+  {
    "id": "temples-largest-area-top20",
    "bank": "temples",
-   "display_text": "Pin one of the 20 largest countries by area that has a temple dedicated, under construction or announced (as of October 2026).",
+   "display_text": "Pin one of the 20 biggest countries by area that has a temple at any stage (October 2026).",
    "text_original": "One of the 20 largest countries in the world by land area that has a temple dedicated, under construction or announced (as of October 2026).",
    "accepts": "country",
    "topic": "temples",

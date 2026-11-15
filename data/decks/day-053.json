@@ -29,168 +29,6 @@
    "answers": []
   },
   {
-   "id": "temples-president-dedicated-abroad-pre1990",
-   "bank": "sites-temples",
-   "display_text": "Pin a non-US country where the Church President himself dedicated a temple before 1990.",
-   "text_original": "A country outside the United States with a temple dedicated before 1990 by the sitting President of the Church.",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1923-1987",
-   "citation": "ChurchofJesusChristTemples.org chronology (dedicated-by column) and Wikipedia temple articles, read 3 Nov 2026",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://en.wikipedia.org/wiki/Cardston_Alberta_Temple",
-    "https://en.wikipedia.org/wiki/Bern_Switzerland_Temple",
-    "https://en.wikipedia.org/wiki/Frankfurt_Germany_Temple"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Before 1990 only a handful of temples outside the United States were dedicated by the sitting Church President: Heber J. Grant at Cardston, David O. McKay at Bern, Hamilton and London, Spencer W. Kimball at São Paulo and Tokyo, and Ezra Taft Benson at Frankfurt. Most of the 1983 to 1986 temples abroad were dedicated by Gordon B. Hinckley while he served as a counselor in the First Presidency.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "DEU"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "CHE",
-     "name": "Switzerland",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Bern Switzerland (1955), dedicated by President David O. McKay."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 4,
-     "gem": false,
-     "fact": "São Paulo Brazil (1978), dedicated by President Spencer W. Kimball."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Cardston Alberta (1923), dedicated by President Heber J. Grant."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 4,
-     "gem": false,
-     "fact": "London England (1958), dedicated by President David O. McKay."
-    },
-    {
-     "code": "JPN",
-     "name": "Japan",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Tokyo Japan (1980), dedicated by President Spencer W. Kimball."
-    },
-    {
-     "code": "NZL",
-     "name": "New Zealand",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Hamilton New Zealand (1958), dedicated by President David O. McKay."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 3,
-     "gem": true,
-     "fact": "Frankfurt Germany (1987), dedicated by President Ezra Taft Benson."
-    }
-   ]
-  },
-  {
-   "id": "temples-capital-south-america",
-   "bank": "sites-temples",
-   "display_text": "Pin it: a South American nation with a dedicated temple bearing its capital's name.",
-   "text_original": "A South American country with a dedicated temple named for its capital city (as of November 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1983-2023",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Most South American capitals have a dedicated temple, from Santiago (1983) and Lima and Buenos Aires (1986) to Quito (2022) and Brasília (2023). La Paz, Bolivia is only announced as of November 2026, so Bolivia does not count.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "PRY"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Buenos Aires Argentina (dedicated 1986)."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Santiago Chile (dedicated 1983)."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Lima Peru (dedicated 1986)."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Brasília Brazil (dedicated 2023)."
-    },
-    {
-     "code": "COL",
-     "name": "Colombia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Bogotá Colombia (dedicated 1999)."
-    },
-    {
-     "code": "ECU",
-     "name": "Ecuador",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Quito Ecuador (dedicated 2022)."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Montevideo Uruguay (dedicated 2001)."
-    },
-    {
-     "code": "VEN",
-     "name": "Venezuela",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Caracas Venezuela (dedicated 2000)."
-    },
-    {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Asunción Paraguay (dedicated 2002)."
-    }
-   ]
-  },
-  {
    "id": "ha-servicemen-first-meetings",
    "bank": "sites-history",
    "display_text": "Pin a place where Latter-day Saint servicemen held some of the first Church meetings.",
@@ -306,6 +144,93 @@
    ]
   },
   {
+   "id": "temples-capital-south-america",
+   "bank": "sites-temples",
+   "display_text": "Pin it: a South American nation with a dedicated temple bearing its capital's name.",
+   "text_original": "A South American country with a dedicated temple named for its capital city (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1983-2023",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Most South American capitals have a dedicated temple, from Santiago (1983) and Lima and Buenos Aires (1986) to Quito (2022) and Brasília (2023). La Paz, Bolivia is only announced as of November 2026, so Bolivia does not count.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "PRY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Buenos Aires Argentina (dedicated 1986)."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Santiago Chile (dedicated 1983)."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Lima Peru (dedicated 1986)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Brasília Brazil (dedicated 2023)."
+    },
+    {
+     "code": "COL",
+     "name": "Colombia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Bogotá Colombia (dedicated 1999)."
+    },
+    {
+     "code": "ECU",
+     "name": "Ecuador",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Quito Ecuador (dedicated 2022)."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Montevideo Uruguay (dedicated 2001)."
+    },
+    {
+     "code": "VEN",
+     "name": "Venezuela",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Caracas Venezuela (dedicated 2000)."
+    },
+    {
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Asunción Paraguay (dedicated 2002)."
+    }
+   ]
+  },
+  {
    "id": "bible-altars",
    "bank": "bible",
    "display_text": "Pin a country where the Bible records a person building, using or seeing an altar, Noah's and Moses's altars and Jerusalem aside.",
@@ -370,6 +295,81 @@
      "commonness": 1,
      "gem": true,
      "fact": "King Ahaz saw an altar at Damascus and sent its pattern home to copy (2 Kings 16:10)."
+    }
+   ]
+  },
+  {
+   "id": "temples-president-dedicated-abroad-pre1990",
+   "bank": "sites-temples",
+   "display_text": "Pin a non-US country where the Church President himself dedicated a temple before 1990.",
+   "text_original": "A country outside the United States with a temple dedicated before 1990 by the sitting President of the Church.",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1923-1987",
+   "citation": "ChurchofJesusChristTemples.org chronology (dedicated-by column) and Wikipedia temple articles, read 3 Nov 2026",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://en.wikipedia.org/wiki/Cardston_Alberta_Temple",
+    "https://en.wikipedia.org/wiki/Bern_Switzerland_Temple",
+    "https://en.wikipedia.org/wiki/Frankfurt_Germany_Temple"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Before 1990 only a handful of temples outside the United States were dedicated by the sitting Church President: Heber J. Grant at Cardston, David O. McKay at Bern, Hamilton and London, Spencer W. Kimball at São Paulo and Tokyo, and Ezra Taft Benson at Frankfurt. Most of the 1983 to 1986 temples abroad were dedicated by Gordon B. Hinckley while he served as a counselor in the First Presidency.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "DEU"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "CHE",
+     "name": "Switzerland",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Bern Switzerland (1955), dedicated by President David O. McKay."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 4,
+     "gem": false,
+     "fact": "São Paulo Brazil (1978), dedicated by President Spencer W. Kimball."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Cardston Alberta (1923), dedicated by President Heber J. Grant."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 4,
+     "gem": false,
+     "fact": "London England (1958), dedicated by President David O. McKay."
+    },
+    {
+     "code": "JPN",
+     "name": "Japan",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Tokyo Japan (1980), dedicated by President Spencer W. Kimball."
+    },
+    {
+     "code": "NZL",
+     "name": "New Zealand",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Hamilton New Zealand (1958), dedicated by President David O. McKay."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 3,
+     "gem": true,
+     "fact": "Frankfurt Germany (1987), dedicated by President Ezra Taft Benson."
     }
    ]
   }

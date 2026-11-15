@@ -2,83 +2,72 @@
  "day": 39,
  "prompts": [
   {
-   "id": "bom-180th-anniversary-west-africa",
-   "bank": "bom",
-   "display_text": "Pin a country whose youth joined West Africa's 2010 celebrations of the Book of Mormon's 180th anniversary",
-   "text_original": "A country whose youth joined the August 2010 West Africa celebrations of the 180th anniversary of the coming forth of the Book of Mormon",
+   "id": "global-south-america-centennial-2025",
+   "bank": "global",
+   "display_text": "Pin a South American country where members celebrated 100 years of the Church in South America during 2025.",
+   "text_original": "On December 25, 1925, Elder Melvin J. Ballard dedicated South America for the preaching of the gospel in Buenos Aires. In 2025 members across the continent celebrated 100 years of the Church in South America. Pin a South American country where members held a centennial celebration or service day in 2025.",
    "accepts": "country",
-   "topic": "Book of Mormon history",
-   "era": "2010",
-   "citation": "Global Histories chronologies: Liberia (Aug 2010), Benin (dated Aug 2011)",
+   "topic": "church growth",
+   "era": "2025",
+   "citation": "Global Histories chronologies: Argentina, Peru, Chile, Paraguay, Uruguay (2025 entries)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/benin/bj-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng"
    ],
-   "difficulty": 2,
-   "note": "Liberia's chronology dates it August 2010; Benin's says August 2011. 1830 plus 180 is 2010.",
-   "summary": "The Book of Mormon was first published in 1830. To mark 180 years, more than 11,000 young people in seven West African countries held celebrations: Liberia, Nigeria, Benin, Togo, Ghana, Cote d'Ivoire and Sierra Leone.",
-   "stamp": null,
+   "difficulty": 1,
+   "note": null,
+   "summary": "Elder Melvin J. Ballard dedicated South America for the preaching of the gospel in Buenos Aires on December 25, 1925. One hundred years later, in 2025, members in Argentina, Chile, Peru, Uruguay and Paraguay marked the centennial with concerts, cultural nights and days of service.",
+   "stamp": "as of 26 Oct 2026",
    "gems": [
-    "BEN",
-    "TGO"
+    "PRY",
+    "URY"
    ],
-   "gem_forced": false,
+   "gem_forced": true,
    "answers": [
     {
-     "code": "NGA",
-     "name": "Nigeria",
+     "code": "ARG",
+     "name": "Argentina",
      "commonness": 5,
      "gem": false,
-     "fact": "Nigeria is named among the seven countries in the celebrations."
+     "fact": "On September 27, 2025, members held a day of service to celebrate 100 years of the restored gospel in South America, a century after the 1925 dedication in Buenos Aires."
     },
     {
-     "code": "GHA",
-     "name": "Ghana",
+     "code": "CHL",
+     "name": "Chile",
      "commonness": 4,
      "gem": false,
-     "fact": "Ghana is named among the seven countries in the celebrations."
+     "fact": "On June 14, 2025, members in Santiago broadcast a night of music and dance for the South America centennial."
     },
     {
-     "code": "CIV",
-     "name": "Cote d'Ivoire",
-     "commonness": 3,
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
      "gem": false,
-     "fact": "Cote d'Ivoire is named among the seven countries."
+     "fact": "In February 2025 the Tabernacle Choir performed in Lima and joined the celebration of 100 years of the Church in South America."
     },
     {
-     "code": "LBR",
-     "name": "Liberia",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Liberia's chronology records the celebrations in August 2010."
-    },
-    {
-     "code": "SLE",
-     "name": "Sierra Leone",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Sierra Leone is named among the seven countries."
-    },
-    {
-     "code": "BEN",
-     "name": "Benin",
-     "commonness": 1,
+     "code": "PRY",
+     "name": "Paraguay",
+     "commonness": 2,
      "gem": true,
-     "fact": "Benin's chronology lists its youth among the more than 11,000 taking part."
+     "fact": "In June 2025 members in Paraguay joined in celebrating the centennial of the Church in South America."
     },
     {
-     "code": "TGO",
-     "name": "Togo",
-     "commonness": 1,
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
      "gem": true,
-     "fact": "Togo is named among the seven countries."
+     "fact": "On October 11, 2025, thousands gathered in Antel Arena in Montevideo for a centennial celebration with religious and traditional music and dance."
     }
    ]
   },
   {
    "id": "ot-jeremiah-25-cup-of-wrath",
    "bank": "ot",
-   "display_text": "Pin a country holding a nation made to drink the wine cup of fury in Jeremiah 25 (leave out the Arabian peninsula)",
+   "display_text": "Pin a country holding a nation Jeremiah 25 says must drink God's cup of anger, such as Egypt or Edom (not Arabia).",
    "text_original": "A present-day country holding a nation or city made to drink the wine cup of the Lord's fury in Jeremiah 25:17-26 (Jerusalem and Judah, Egypt, the Philistine cities, Edom, Moab, Ammon, Tyrus, Zidon, Elam, the Medes, and Sheshach); Dedan, Tema, Buz and Arabia are left out because their extent is unclear",
    "accepts": "country",
    "topic": "Bible",
@@ -213,65 +202,76 @@
    ]
   },
   {
-   "id": "global-south-america-centennial-2025",
-   "bank": "global",
-   "display_text": "Pin a South American country where members celebrated 100 years of the Church in South America during 2025.",
-   "text_original": "On December 25, 1925, Elder Melvin J. Ballard dedicated South America for the preaching of the gospel in Buenos Aires. In 2025 members across the continent celebrated 100 years of the Church in South America. Pin a South American country where members held a centennial celebration or service day in 2025.",
+   "id": "bom-180th-anniversary-west-africa",
+   "bank": "bom",
+   "display_text": "Pin a country whose youth joined West Africa's 2010 celebrations of the Book of Mormon's 180th anniversary",
+   "text_original": "A country whose youth joined the August 2010 West Africa celebrations of the 180th anniversary of the coming forth of the Book of Mormon",
    "accepts": "country",
-   "topic": "church growth",
-   "era": "2025",
-   "citation": "Global Histories chronologies: Argentina, Peru, Chile, Paraguay, Uruguay (2025 entries)",
+   "topic": "Book of Mormon history",
+   "era": "2010",
+   "citation": "Global Histories chronologies: Liberia (Aug 2010), Benin (dated Aug 2011)",
    "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/argentina/ar-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/peru/pe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/chile/cl-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/paraguay/py-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/uruguay/uy-chronology?lang=eng"
+    "https://www.churchofjesuschrist.org/study/history/global-histories/liberia/lr-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/benin/bj-chronology?lang=eng"
    ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "Elder Melvin J. Ballard dedicated South America for the preaching of the gospel in Buenos Aires on December 25, 1925. One hundred years later, in 2025, members in Argentina, Chile, Peru, Uruguay and Paraguay marked the centennial with concerts, cultural nights and days of service.",
-   "stamp": "as of 26 Oct 2026",
+   "difficulty": 2,
+   "note": "Liberia's chronology dates it August 2010; Benin's says August 2011. 1830 plus 180 is 2010.",
+   "summary": "The Book of Mormon was first published in 1830. To mark 180 years, more than 11,000 young people in seven West African countries held celebrations: Liberia, Nigeria, Benin, Togo, Ghana, Cote d'Ivoire and Sierra Leone.",
+   "stamp": null,
    "gems": [
-    "PRY",
-    "URY"
+    "BEN",
+    "TGO"
    ],
-   "gem_forced": true,
+   "gem_forced": false,
    "answers": [
     {
-     "code": "ARG",
-     "name": "Argentina",
+     "code": "NGA",
+     "name": "Nigeria",
      "commonness": 5,
      "gem": false,
-     "fact": "On September 27, 2025, members held a day of service to celebrate 100 years of the restored gospel in South America, a century after the 1925 dedication in Buenos Aires."
+     "fact": "Nigeria is named among the seven countries in the celebrations."
     },
     {
-     "code": "CHL",
-     "name": "Chile",
+     "code": "GHA",
+     "name": "Ghana",
      "commonness": 4,
      "gem": false,
-     "fact": "On June 14, 2025, members in Santiago broadcast a night of music and dance for the South America centennial."
+     "fact": "Ghana is named among the seven countries in the celebrations."
     },
     {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 4,
+     "code": "CIV",
+     "name": "Cote d'Ivoire",
+     "commonness": 3,
      "gem": false,
-     "fact": "In February 2025 the Tabernacle Choir performed in Lima and joined the celebration of 100 years of the Church in South America."
+     "fact": "Cote d'Ivoire is named among the seven countries."
     },
     {
-     "code": "PRY",
-     "name": "Paraguay",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In June 2025 members in Paraguay joined in celebrating the centennial of the Church in South America."
+     "code": "LBR",
+     "name": "Liberia",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Liberia's chronology records the celebrations in August 2010."
     },
     {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 2,
+     "code": "SLE",
+     "name": "Sierra Leone",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Sierra Leone is named among the seven countries."
+    },
+    {
+     "code": "BEN",
+     "name": "Benin",
+     "commonness": 1,
      "gem": true,
-     "fact": "On October 11, 2025, thousands gathered in Antel Arena in Montevideo for a centennial celebration with religious and traditional music and dance."
+     "fact": "Benin's chronology lists its youth among the more than 11,000 taking part."
+    },
+    {
+     "code": "TGO",
+     "name": "Togo",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Togo is named among the seven countries."
     }
    ]
   },

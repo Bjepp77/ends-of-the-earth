@@ -2,6 +2,150 @@
  "day": 45,
  "prompts": [
   {
+   "id": "temples-world-cup-winners",
+   "bank": "temples",
+   "display_text": "Pin a men's FIFA World Cup winning country with a temple dedicated, under construction or announced (as of October 2026).",
+   "text_original": "A country whose men's national team has won the FIFA World Cup (through 2022) and that has a temple dedicated, under construction or announced (as of October 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "2026",
+   "citation": "ChurchofJesusChristTemples.org chronology; FIFA World Cup records",
+   "source_urls": [
+    "https://churchofjesuschristtemples.org/temples/chronology/",
+    "https://www.fifa.com/en/tournaments/mens/worldcup",
+    "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
+   ],
+   "difficulty": 1,
+   "note": null,
+   "summary": "Every men's World Cup winner has a temple as of October 2026. Brazil, Argentina, Germany, Italy, France, Spain and England (United Kingdom) all have dedicated temples, and Uruguay, the first champion in 1930, dedicated its Montevideo temple in 2001.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "URY"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Three titles, latest 2022; Buenos Aires temple (1986)."
+    },
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Five titles; 12 dedicated temples."
+    },
+    {
+     "code": "DEU",
+     "name": "Germany",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Four titles; Freiberg (1985) and Frankfurt (1987) temples."
+    },
+    {
+     "code": "FRA",
+     "name": "France",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Two titles; Paris France Temple (2017)."
+    },
+    {
+     "code": "ITA",
+     "name": "Italy",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Four titles; Rome Italy Temple (2019)."
+    },
+    {
+     "code": "ESP",
+     "name": "Spain",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Won in 2010; Madrid temple (1999)."
+    },
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 3,
+     "gem": false,
+     "fact": "England won in 1966; London (1958) and Preston (1998) temples."
+    },
+    {
+     "code": "URY",
+     "name": "Uruguay",
+     "commonness": 2,
+     "gem": true,
+     "fact": "Won in 1930 and 1950; Montevideo temple (2001)."
+    }
+   ]
+  },
+  {
+   "id": "ot-josiah-and-pharaoh-necho",
+   "bank": "ot",
+   "display_text": "Pin a country holding a place in Josiah's reforms, his death at Megiddo, or Pharaoh Necho's march",
+   "text_original": "A present-day country holding a place or kingdom named in Josiah's reforms and death and their aftermath (2 Kings 23; 2 Chronicles 35:20-36:4): Bethel and Samaria's high places, Megiddo, Necho's march against the king of Assyria toward Carchemish by Euphrates, Riblah in Hamath, and Egypt",
+   "accepts": "country",
+   "topic": "Bible",
+   "era": "Old Testament",
+   "citation": "2 Kings 23; 2 Chronicles 35:20-36:4",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/35?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-6?lang=eng",
+    "https://www.churchofjesuschrist.org/study/scriptures/bd/carchemish?lang=eng"
+   ],
+   "difficulty": 3,
+   "note": "Bethel and Samaria are in the West Bank (Palestine); Megiddo is in Israel.",
+   "summary": "King Josiah of Judah purged idolatry from Jerusalem to Bethel and the cities of Samaria. When Pharaoh Necho marched north toward Carchemish to aid the king of Assyria, Josiah met him at Megiddo and was slain. Necho then bound Josiah's son Jehoahaz at Riblah and carried him to Egypt (2 Kgs 23; 2 Chr 35).",
+   "stamp": null,
+   "gems": [
+    "TUR"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "EGY",
+     "name": "Egypt",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Pharaoh-nechoh king of Egypt came up, and he carried Jehoahaz to Egypt, where he died (2 Kgs 23:29, 34)."
+    },
+    {
+     "code": "ISR",
+     "name": "Israel",
+     "commonness": 4,
+     "gem": false,
+     "fact": "Josiah went against Necho and was slain at Megiddo (2 Kgs 23:29; 2 Chr 35:22-24)."
+    },
+    {
+     "code": "PSE",
+     "name": "Palestine",
+     "commonness": 3,
+     "gem": false,
+     "fact": "Josiah broke down the altar at Bethel and the high places in the cities of Samaria (2 Kgs 23:15, 19)."
+    },
+    {
+     "code": "SYR",
+     "name": "Syria",
+     "commonness": 2,
+     "gem": false,
+     "fact": "Necho put Jehoahaz in bands at Riblah in the land of Hamath (2 Kgs 23:33)."
+    },
+    {
+     "code": "TUR",
+     "name": "Turkey",
+     "commonness": 1,
+     "gem": true,
+     "fact": "Necho came to fight against Carchemish by Euphrates (2 Chr 35:20); the ruins of Carchemish lie at Turkey's border with Syria; Church Bible Maps 5, 6 and 9 plot Carchemish on the upper Euphrates."
+    }
+   ]
+  },
+  {
    "id": "missions-ten-plus",
    "bank": "draft",
    "display_text": "Pin a country with ten or more of the Church's missions (end of 2025).",
@@ -88,69 +232,6 @@
    ]
   },
   {
-   "id": "ot-josiah-and-pharaoh-necho",
-   "bank": "ot",
-   "display_text": "Pin a country holding a place in Josiah's reforms, his death at Megiddo, or Pharaoh Necho's march",
-   "text_original": "A present-day country holding a place or kingdom named in Josiah's reforms and death and their aftermath (2 Kings 23; 2 Chronicles 35:20-36:4): Bethel and Samaria's high places, Megiddo, Necho's march against the king of Assyria toward Carchemish by Euphrates, Riblah in Hamath, and Egypt",
-   "accepts": "country",
-   "topic": "Bible",
-   "era": "Old Testament",
-   "citation": "2 Kings 23; 2 Chronicles 35:20-36:4",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/23?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/35?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/hamath?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-6?lang=eng",
-    "https://www.churchofjesuschrist.org/study/scriptures/bd/carchemish?lang=eng"
-   ],
-   "difficulty": 3,
-   "note": "Bethel and Samaria are in the West Bank (Palestine); Megiddo is in Israel.",
-   "summary": "King Josiah of Judah purged idolatry from Jerusalem to Bethel and the cities of Samaria. When Pharaoh Necho marched north toward Carchemish to aid the king of Assyria, Josiah met him at Megiddo and was slain. Necho then bound Josiah's son Jehoahaz at Riblah and carried him to Egypt (2 Kgs 23; 2 Chr 35).",
-   "stamp": null,
-   "gems": [
-    "TUR"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "EGY",
-     "name": "Egypt",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Pharaoh-nechoh king of Egypt came up, and he carried Jehoahaz to Egypt, where he died (2 Kgs 23:29, 34)."
-    },
-    {
-     "code": "ISR",
-     "name": "Israel",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Josiah went against Necho and was slain at Megiddo (2 Kgs 23:29; 2 Chr 35:22-24)."
-    },
-    {
-     "code": "PSE",
-     "name": "Palestine",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Josiah broke down the altar at Bethel and the high places in the cities of Samaria (2 Kgs 23:15, 19)."
-    },
-    {
-     "code": "SYR",
-     "name": "Syria",
-     "commonness": 2,
-     "gem": false,
-     "fact": "Necho put Jehoahaz in bands at Riblah in the land of Hamath (2 Kgs 23:33)."
-    },
-    {
-     "code": "TUR",
-     "name": "Turkey",
-     "commonness": 1,
-     "gem": true,
-     "fact": "Necho came to fight against Carchemish by Euphrates (2 Chr 35:20); the ruins of Carchemish lie at Turkey's border with Syria; Church Bible Maps 5, 6 and 9 plot Carchemish on the upper Euphrates."
-    }
-   ]
-  },
-  {
    "id": "ot-jordan-river-lands",
    "bank": "ot",
    "display_text": "Pin a country holding part of the Jordan River, the sea of Chinnereth, or the Hermon springs that feed it",
@@ -209,87 +290,6 @@
      "commonness": 1,
      "gem": true,
      "fact": "Those Hermon springs feed the Jordan, and Mount Hermon's western slopes lie in Lebanon (Bible Dictionary, Jordan River and Hermon)."
-    }
-   ]
-  },
-  {
-   "id": "temples-world-cup-winners",
-   "bank": "temples",
-   "display_text": "Pin a men's FIFA World Cup winning country with a temple dedicated, under construction or announced (as of October 2026).",
-   "text_original": "A country whose men's national team has won the FIFA World Cup (through 2022) and that has a temple dedicated, under construction or announced (as of October 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "2026",
-   "citation": "ChurchofJesusChristTemples.org chronology; FIFA World Cup records",
-   "source_urls": [
-    "https://churchofjesuschristtemples.org/temples/chronology/",
-    "https://www.fifa.com/en/tournaments/mens/worldcup",
-    "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals"
-   ],
-   "difficulty": 1,
-   "note": null,
-   "summary": "Every men's World Cup winner has a temple as of October 2026. Brazil, Argentina, Germany, Italy, France, Spain and England (United Kingdom) all have dedicated temples, and Uruguay, the first champion in 1930, dedicated its Montevideo temple in 2001.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "URY"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Three titles, latest 2022; Buenos Aires temple (1986)."
-    },
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Five titles; 12 dedicated temples."
-    },
-    {
-     "code": "DEU",
-     "name": "Germany",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Four titles; Freiberg (1985) and Frankfurt (1987) temples."
-    },
-    {
-     "code": "FRA",
-     "name": "France",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Two titles; Paris France Temple (2017)."
-    },
-    {
-     "code": "ITA",
-     "name": "Italy",
-     "commonness": 4,
-     "gem": false,
-     "fact": "Four titles; Rome Italy Temple (2019)."
-    },
-    {
-     "code": "ESP",
-     "name": "Spain",
-     "commonness": 3,
-     "gem": false,
-     "fact": "Won in 2010; Madrid temple (1999)."
-    },
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 3,
-     "gem": false,
-     "fact": "England won in 1966; London (1958) and Preston (1998) temples."
-    },
-    {
-     "code": "URY",
-     "name": "Uruguay",
-     "commonness": 2,
-     "gem": true,
-     "fact": "Won in 1930 and 1950; Montevideo temple (2001)."
     }
    ]
   },

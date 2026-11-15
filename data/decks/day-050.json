@@ -124,6 +124,71 @@
    ]
   },
   {
+   "id": "hp-baptisms-before-martyrdom",
+   "bank": "sites-history",
+   "display_text": "Pin a country where people were baptized on its soil while Joseph Smith was still alive.",
+   "text_original": "A country where converts were baptized on its own soil before the death of Joseph Smith on June 27, 1844.",
+   "accepts": "country",
+   "topic": "early missionary work",
+   "era": "1830-1844",
+   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/study/history/global-histories/united-states/us-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
+    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "By the time Joseph Smith was killed in June 1844, the Church had spread beyond the United States. Converts had been baptized in Canada, the British Isles and Australia, and on Tubuai in French Polynesia just days before the martyrdom.",
+   "stamp": null,
+   "gems": [
+    "AUS",
+    "PYF"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "GBR",
+     "name": "United Kingdom",
+     "commonness": 5,
+     "gem": false,
+     "fact": "In 1837 George Watt and eight others, the first converts in England, were baptized in the River Ribble at Preston; Scotland, Wales and Ireland (at Loughbrickland, now Northern Ireland) followed by 1843."
+    },
+    {
+     "code": "USA",
+     "name": "United States",
+     "commonness": 5,
+     "gem": false,
+     "fact": "Joseph Smith organized the restored Church on April 6, 1830."
+    },
+    {
+     "code": "CAN",
+     "name": "Canada",
+     "commonness": 4,
+     "gem": false,
+     "fact": "In 1836 Parley P. Pratt baptized a group near Toronto that included John and Leonora Taylor and the Fieldings."
+    },
+    {
+     "code": "AUS",
+     "name": "Australia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "In 1842 William Barratt baptized Robert Beauchamp Dolling in Adelaide, the first known baptism in Australia."
+    },
+    {
+     "code": "PYF",
+     "name": "French Polynesia",
+     "commonness": 2,
+     "gem": true,
+     "fact": "On June 16, 1844, Ambrose Alexander became the first convert in French Polynesia, baptized on Tubuai."
+    }
+   ]
+  },
+  {
    "id": "temples-french-official",
    "bank": "sites-temples",
    "display_text": "Pin a nation with French as an official language and a temple at any stage.",
@@ -214,71 +279,6 @@
      "commonness": 1,
      "gem": true,
      "fact": "Port Vila Vanuatu (under construction), as of November 2026."
-    }
-   ]
-  },
-  {
-   "id": "hp-baptisms-before-martyrdom",
-   "bank": "sites-history",
-   "display_text": "Pin a country where people were baptized on its soil while Joseph Smith was still alive.",
-   "text_original": "A country where converts were baptized on its own soil before the death of Joseph Smith on June 27, 1844.",
-   "accepts": "country",
-   "topic": "early missionary work",
-   "era": "1830-1844",
-   "citation": "Global Histories (churchofjesuschrist.org), country chronologies and overviews, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/study/history/global-histories/united-states/us-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/canada/ca-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/england/xe-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/scotland/xs-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/ireland/ie-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/australia/au-chronology?lang=eng",
-    "https://www.churchofjesuschrist.org/study/history/global-histories/french-polynesia/pf-chronology?lang=eng"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "By the time Joseph Smith was killed in June 1844, the Church had spread beyond the United States. Converts had been baptized in Canada, the British Isles and Australia, and on Tubuai in French Polynesia just days before the martyrdom.",
-   "stamp": null,
-   "gems": [
-    "AUS",
-    "PYF"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "GBR",
-     "name": "United Kingdom",
-     "commonness": 5,
-     "gem": false,
-     "fact": "In 1837 George Watt and eight others, the first converts in England, were baptized in the River Ribble at Preston; Scotland, Wales and Ireland (at Loughbrickland, now Northern Ireland) followed by 1843."
-    },
-    {
-     "code": "USA",
-     "name": "United States",
-     "commonness": 5,
-     "gem": false,
-     "fact": "Joseph Smith organized the restored Church on April 6, 1830."
-    },
-    {
-     "code": "CAN",
-     "name": "Canada",
-     "commonness": 4,
-     "gem": false,
-     "fact": "In 1836 Parley P. Pratt baptized a group near Toronto that included John and Leonora Taylor and the Fieldings."
-    },
-    {
-     "code": "AUS",
-     "name": "Australia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "In 1842 William Barratt baptized Robert Beauchamp Dolling in Adelaide, the first known baptism in Australia."
-    },
-    {
-     "code": "PYF",
-     "name": "French Polynesia",
-     "commonness": 2,
-     "gem": true,
-     "fact": "On June 16, 1844, Ambrose Alexander became the first convert in French Polynesia, baptized on Tubuai."
     }
    ]
   },

@@ -90,6 +90,73 @@
    ]
   },
   {
+   "id": "global-portuguese-official-5k",
+   "bank": "global",
+   "display_text": "Pin a country where Portuguese is an official language and the Church has more than 5,000 members (end of 2025).",
+   "text_original": "A country where Portuguese is an official language and the Church had more than 5,000 members at the end of 2025 (latest figures as of October 2026).",
+   "accepts": "country",
+   "topic": "membership",
+   "era": "2025",
+   "citation": "Church facts and statistics country pages (membership, 31 Dec 2025); Wikipedia country infoboxes (official languages)",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/brazil?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/portugal?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/cape-verde?lang=eng",
+    "https://www.churchofjesuschrist.org/learn/facts-statistics/angola?lang=eng",
+    "https://en.wikipedia.org/wiki/Brazil",
+    "https://en.wikipedia.org/wiki/Portugal",
+    "https://en.wikipedia.org/wiki/Mozambique",
+    "https://en.wikipedia.org/wiki/Cape_Verde",
+    "https://en.wikipedia.org/wiki/Angola"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Portuguese is official in nine countries. Five of them had more than 5,000 Latter-day Saints at the end of 2025: Brazil (over 1.5 million), Portugal, Mozambique, Cape Verde and Angola. Guinea-Bissau, Sao Tome and Principe, Equatorial Guinea and Timor-Leste have no published Church membership of that size.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "AGO"
+   ],
+   "gem_forced": false,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "1,573,360 members, the largest Portuguese-speaking membership."
+    },
+    {
+     "code": "PRT",
+     "name": "Portugal",
+     "commonness": 4,
+     "gem": false,
+     "fact": "50,341 members."
+    },
+    {
+     "code": "CPV",
+     "name": "Cape Verde",
+     "commonness": 2,
+     "gem": false,
+     "fact": "16,334 members, four stakes (latest published figure)."
+    },
+    {
+     "code": "MOZ",
+     "name": "Mozambique",
+     "commonness": 2,
+     "gem": false,
+     "fact": "39,282 members, ten stakes."
+    },
+    {
+     "code": "AGO",
+     "name": "Angola",
+     "commonness": 1,
+     "gem": true,
+     "fact": "8,779 members, two stakes."
+    }
+   ]
+  },
+  {
    "id": "ot-wives-homelands",
    "bank": "ot",
    "display_text": "Pin a country that was home to a wife of Abraham, Isaac, Jacob, Joseph, Moses or Boaz",
@@ -164,73 +231,6 @@
      "commonness": 1,
      "gem": true,
      "fact": "Miriam and Aaron spoke against Moses because of the Ethiopian woman he had married (Num 12:1); Bible Ethiopia was the Nile land south of Egypt."
-    }
-   ]
-  },
-  {
-   "id": "global-portuguese-official-5k",
-   "bank": "global",
-   "display_text": "Pin a country where Portuguese is an official language and the Church has more than 5,000 members (end of 2025).",
-   "text_original": "A country where Portuguese is an official language and the Church had more than 5,000 members at the end of 2025 (latest figures as of October 2026).",
-   "accepts": "country",
-   "topic": "membership",
-   "era": "2025",
-   "citation": "Church facts and statistics country pages (membership, 31 Dec 2025); Wikipedia country infoboxes (official languages)",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/brazil?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/portugal?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/mozambique?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/cape-verde?lang=eng",
-    "https://www.churchofjesuschrist.org/learn/facts-statistics/angola?lang=eng",
-    "https://en.wikipedia.org/wiki/Brazil",
-    "https://en.wikipedia.org/wiki/Portugal",
-    "https://en.wikipedia.org/wiki/Mozambique",
-    "https://en.wikipedia.org/wiki/Cape_Verde",
-    "https://en.wikipedia.org/wiki/Angola"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Portuguese is official in nine countries. Five of them had more than 5,000 Latter-day Saints at the end of 2025: Brazil (over 1.5 million), Portugal, Mozambique, Cape Verde and Angola. Guinea-Bissau, Sao Tome and Principe, Equatorial Guinea and Timor-Leste have no published Church membership of that size.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "AGO"
-   ],
-   "gem_forced": false,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "1,573,360 members, the largest Portuguese-speaking membership."
-    },
-    {
-     "code": "PRT",
-     "name": "Portugal",
-     "commonness": 4,
-     "gem": false,
-     "fact": "50,341 members."
-    },
-    {
-     "code": "CPV",
-     "name": "Cape Verde",
-     "commonness": 2,
-     "gem": false,
-     "fact": "16,334 members, four stakes (latest published figure)."
-    },
-    {
-     "code": "MOZ",
-     "name": "Mozambique",
-     "commonness": 2,
-     "gem": false,
-     "fact": "39,282 members, ten stakes."
-    },
-    {
-     "code": "AGO",
-     "name": "Angola",
-     "commonness": 1,
-     "gem": true,
-     "fact": "8,779 members, two stakes."
     }
    ]
   },

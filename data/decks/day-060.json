@@ -105,72 +105,6 @@
    ]
   },
   {
-   "id": "tc-latam-five-plus-any-stage",
-   "bank": "sites-temples",
-   "display_text": "Pin a Latin American country with five or more temples on the books, counting every stage.",
-   "text_original": "A Latin American country with five or more temples counting dedicated, under construction and announced (as of November 2026).",
-   "accepts": "country",
-   "topic": "temples",
-   "era": "1978-2026",
-   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
-   "source_urls": [
-    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
-    "https://churchofjesuschristtemples.org/temples/chronology/"
-   ],
-   "difficulty": 2,
-   "note": null,
-   "summary": "Six Latin American countries have at least five temples when every stage is counted. Mexico has 27 and Brazil 24. Peru has 10, Argentina 7, and Chile and Guatemala 6 each. Colombia is next with 4.",
-   "stamp": "as of 26 Oct 2026",
-   "gems": [
-    "GTM"
-   ],
-   "gem_forced": true,
-   "answers": [
-    {
-     "code": "BRA",
-     "name": "Brazil",
-     "commonness": 5,
-     "gem": false,
-     "fact": "24 in all: 12 dedicated, 7 under construction, 5 announced."
-    },
-    {
-     "code": "MEX",
-     "name": "Mexico",
-     "commonness": 5,
-     "gem": false,
-     "fact": "27 in all: 15 dedicated, 2 under construction, 10 announced."
-    },
-    {
-     "code": "ARG",
-     "name": "Argentina",
-     "commonness": 4,
-     "gem": false,
-     "fact": "7 in all: 5 dedicated, 0 under construction, 2 announced."
-    },
-    {
-     "code": "CHL",
-     "name": "Chile",
-     "commonness": 4,
-     "gem": false,
-     "fact": "6 in all: 3 dedicated, 1 under construction, 2 announced."
-    },
-    {
-     "code": "PER",
-     "name": "Peru",
-     "commonness": 4,
-     "gem": false,
-     "fact": "10 in all: 4 dedicated, 1 under construction, 5 announced."
-    },
-    {
-     "code": "GTM",
-     "name": "Guatemala",
-     "commonness": 3,
-     "gem": true,
-     "fact": "6 in all: 4 dedicated, 1 under construction, 1 announced."
-    }
-   ]
-  },
-  {
    "id": "hc-area-conferences-1976-80",
    "bank": "sites-history",
    "display_text": "Pin a country where President Spencer W. Kimball presided over an area conference in 1976, 1977 or 1978.",
@@ -266,6 +200,72 @@
      "commonness": 3,
      "gem": true,
      "fact": "In October 1978 President Kimball spoke to an estimated 3,400 members and friends at an area conference in Johannesburg."
+    }
+   ]
+  },
+  {
+   "id": "tc-latam-five-plus-any-stage",
+   "bank": "sites-temples",
+   "display_text": "Pin a Latin American country with five or more temples on the books, counting every stage.",
+   "text_original": "A Latin American country with five or more temples counting dedicated, under construction and announced (as of November 2026).",
+   "accepts": "country",
+   "topic": "temples",
+   "era": "1978-2026",
+   "citation": "ChurchofJesusChristTemples.org chronology and ChurchofJesusChrist.org temple list, read 3 Nov 2026",
+   "source_urls": [
+    "https://www.churchofjesuschrist.org/temples/list?lang=eng",
+    "https://churchofjesuschristtemples.org/temples/chronology/"
+   ],
+   "difficulty": 2,
+   "note": null,
+   "summary": "Six Latin American countries have at least five temples when every stage is counted. Mexico has 27 and Brazil 24. Peru has 10, Argentina 7, and Chile and Guatemala 6 each. Colombia is next with 4.",
+   "stamp": "as of 26 Oct 2026",
+   "gems": [
+    "GTM"
+   ],
+   "gem_forced": true,
+   "answers": [
+    {
+     "code": "BRA",
+     "name": "Brazil",
+     "commonness": 5,
+     "gem": false,
+     "fact": "24 in all: 12 dedicated, 7 under construction, 5 announced."
+    },
+    {
+     "code": "MEX",
+     "name": "Mexico",
+     "commonness": 5,
+     "gem": false,
+     "fact": "27 in all: 15 dedicated, 2 under construction, 10 announced."
+    },
+    {
+     "code": "ARG",
+     "name": "Argentina",
+     "commonness": 4,
+     "gem": false,
+     "fact": "7 in all: 5 dedicated, 0 under construction, 2 announced."
+    },
+    {
+     "code": "CHL",
+     "name": "Chile",
+     "commonness": 4,
+     "gem": false,
+     "fact": "6 in all: 3 dedicated, 1 under construction, 2 announced."
+    },
+    {
+     "code": "PER",
+     "name": "Peru",
+     "commonness": 4,
+     "gem": false,
+     "fact": "10 in all: 4 dedicated, 1 under construction, 5 announced."
+    },
+    {
+     "code": "GTM",
+     "name": "Guatemala",
+     "commonness": 3,
+     "gem": true,
+     "fact": "6 in all: 4 dedicated, 1 under construction, 1 announced."
     }
    ]
   },

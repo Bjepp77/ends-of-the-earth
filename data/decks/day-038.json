@@ -289,7 +289,7 @@
   {
    "id": "global-members-1-in-40-to-1-in-10",
    "bank": "global",
-   "display_text": "Pin a country where between 1 in 40 and 1 in 10 people is a Latter-day Saint (end of 2025 membership).",
+   "display_text": "Pin a country where 2.5% to 10% of the people are Latter-day Saints (end of 2025).",
    "text_original": "A country where Latter-day Saints were between 1 in 40 and 1 in 10 of the population at the end of 2025 (Church membership figures as of October 2026 divided by UN 2023 population estimates).",
    "accepts": "country",
    "topic": "membership",
