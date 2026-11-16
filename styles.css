@@ -713,6 +713,20 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 #tour-back { background: var(--sheet-2); color: var(--ink); box-shadow: 0 0 0 1px var(--ink); border: 0; border-radius: var(--radius-card); font: inherit; font-weight: 700; cursor: pointer; }
 @media (prefers-reduced-motion: reduce) { .tour-spot { transition: none; } }
 
+/* Teaser (owner, 2026-11-16): the upright video plays over everything before the tour. contain fits
+   it inside any screen, letterboxed and centred, never stretched or cropped. */
+.teaser { position: fixed; inset: 0; z-index: 60; background: var(--ink); }
+.teaser[hidden] { display: none; }
+.teaser-video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.teaser-btn {
+  position: absolute; z-index: 1; height: 44px; padding: 2px 18px 0; border: 0; border-radius: var(--radius-card);
+  background: var(--sheet-2); color: var(--ink); font: inherit; font-size: 16px; font-weight: 700; cursor: pointer;
+  box-shadow: 0 0 0 1px var(--ink);
+}
+#teaser-skip { top: max(16px, env(safe-area-inset-top)); right: max(16px, env(safe-area-inset-right)); }
+#teaser-sound { bottom: max(24px, env(safe-area-inset-bottom)); left: 50%; transform: translateX(-50%); }
+.teaser-btn:focus-visible { outline: 2px solid var(--accent-fill); outline-offset: 3px; }
+
 /* Expand and shrink (owner, 2026-10-28): a corner button on every panel. Expand pops the panel
    out as a larger centered box over a grayed backdrop; shrink puts it back in its spot. */
 [data-label] { position: relative; }

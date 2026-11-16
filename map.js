@@ -1,6 +1,6 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=1f9e4bdf18';
-import { rng } from './trail.js?v=1f9e4bdf18';
+import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=9489e7d18a';
+import { rng } from './trail.js?v=9489e7d18a';
 
 const maplibregl = window.maplibregl;
 
