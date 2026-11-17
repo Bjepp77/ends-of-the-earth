@@ -1,6 +1,6 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=1f9e4bdf18';
-import { rng } from './trail.js?v=1f9e4bdf18';
+import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=f2c2b1d88c';
+import { rng } from './trail.js?v=f2c2b1d88c';
 
 const maplibregl = window.maplibregl;
 
@@ -616,6 +616,8 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
   return {
     map,
     ready: new Promise((resolve) => map.once('load', resolve)),
+    // The first draw has finished: no tiles loading, no frames pending.
+    settled: new Promise((resolve) => map.once('load', () => map.once('idle', resolve))),
     place,
     placeFeature,
     reveal,

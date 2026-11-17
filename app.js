@@ -1,19 +1,20 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=1f9e4bdf18';
-import { REFUSAL_TEXT } from './hit.js?v=1f9e4bdf18';
-import * as R from './rules.js?v=1f9e4bdf18';
-import * as G from './game.js?v=1f9e4bdf18';
-import { createStore } from './store.js?v=1f9e4bdf18';
-import { createMenu } from './menu.js?v=1f9e4bdf18';
-import { createSound } from './sound.js?v=1f9e4bdf18';
-import { shareOrCopy } from './share.js?v=1f9e4bdf18';
-import { createTrail } from './trail.js?v=1f9e4bdf18';
-import { createTour } from './tour.js?v=1f9e4bdf18';
-import { createThanks } from './thanks.js?v=1f9e4bdf18';
-import { createSheep } from './sheep.js?v=1f9e4bdf18';
-import { createCounter } from './count.js?v=1f9e4bdf18';
-import { createExpand } from './expand.js?v=1f9e4bdf18';
-import { createQ6 } from './q6.js?v=1f9e4bdf18';
+import { loadCountries, createMap } from './map.js?v=f2c2b1d88c';
+import { REFUSAL_TEXT } from './hit.js?v=f2c2b1d88c';
+import * as R from './rules.js?v=f2c2b1d88c';
+import * as G from './game.js?v=f2c2b1d88c';
+import { createStore } from './store.js?v=f2c2b1d88c';
+import { createMenu } from './menu.js?v=f2c2b1d88c';
+import { createSound } from './sound.js?v=f2c2b1d88c';
+import { shareOrCopy } from './share.js?v=f2c2b1d88c';
+import { createTrail } from './trail.js?v=f2c2b1d88c';
+import { createTour } from './tour.js?v=f2c2b1d88c';
+import { createTeaser } from './teaser.js?v=f2c2b1d88c';
+import { createThanks } from './thanks.js?v=f2c2b1d88c';
+import { createSheep } from './sheep.js?v=f2c2b1d88c';
+import { createCounter } from './count.js?v=f2c2b1d88c';
+import { createExpand } from './expand.js?v=f2c2b1d88c';
+import { createQ6 } from './q6.js?v=f2c2b1d88c';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -1039,7 +1040,7 @@ window.addEventListener('storage', (e) => {
   if ((S.mode === 'round' || S.mode === 'reveal') && !S.practice && (e.key === null || e.key === prefix + S.date) && !runFresh()) conflict();
 });
 document.addEventListener('keydown', (e) => {
-  if (menu.isOpen || tour.isOpen || thanks.isOpen) return;
+  if (menu.isOpen || tour.isOpen || thanks.isOpen || teaser.isOpen) return;
   if (e.key === 'Escape' && expand.isOpen) { e.preventDefault(); return expand.close(); }
   if (e.key === 'Escape' && sheep.isOpen) { e.preventDefault(); return sheep.close(); }
   if (['INPUT', 'SELECT', 'BUTTON', 'SUMMARY', 'TEXTAREA'].includes(e.target.tagName)) return;
@@ -1063,7 +1064,7 @@ const menu = createMenu({
   loadDeck: (n) => fetchJSON(G.deckPath(n)),
   fillAnswers: (el, prompt, row) => fillAnswers(el, prompt, row),
   onPractice: () => startPractice(),
-  onTour: () => startTour(),
+  onTour: () => startTour({ intro: true }),
   roundOpen,
   // §6 assists apply at once to the map; a new clock waits for the next prompt.
   onSettings: (next) => {
@@ -1122,6 +1123,10 @@ const tour = createTour(TOUR_STEPS, {
   },
 });
 
+// Teaser (owner, 2026-11-16): plays before the tour. ?debug is the test hook; tests ask for it with &teaser.
+const teaser = createTeaser({ src: 'video/teaser.mp4' });
+const TEASER_ON = !DEBUG || params.has('teaser');
+
 const thanks = createThanks();
 const sheep = createSheep({ host: $('trail'), baa: () => sound.baa() });
 
@@ -1146,19 +1151,26 @@ function autoOpenAnswers() {
 // "See more…" under the guess (owner, 2026-10-29) opens the same pop-out as the result card's corner button.
 $('r-more').addEventListener('click', () => $('result').querySelector('.size-btn')?.click());
 
-async function startTour() {
+// intro: play the teaser first. It must start before any await, inside the click that asked for
+// the tour, or the browser refuses its sound.
+const MAP_SETTLE_MAX_MS = 4000;
+async function startTour({ intro = false, auto = false } = {}) {
   expand.reset(); // the tour lights panels at their usual size
-  if (S.mode !== 'round' || !S.practice) {
-    if (roundOpen()) return;
-    await startPractice();
+  const needPractice = S.mode !== 'round' || !S.practice;
+  if (needPractice && roundOpen()) return;
+  if (intro && TEASER_ON) {
+    // Auto path only: let the first map draw finish so the video does not fight it for the network.
+    if (auto) await Promise.race([view.settled, new Promise((r) => setTimeout(r, MAP_SETTLE_MAX_MS))]);
+    await teaser.play({ auto });
   }
+  if (needPractice) await startPractice();
   tour.start();
 }
 
 goHome();
 count(location.pathname);
 // A first-time player gets the tour once. ?debug is the test hook; tests ask for it with &tour.
-if ((!DEBUG || params.has('tour')) && !store.tourSeen() && store.runs().length === 0 && S.deal?.status === 'ok') startTour();
+if ((!DEBUG || params.has('tour')) && !store.tourSeen() && store.runs().length === 0 && S.deal?.status === 'ok') startTour({ intro: true, auto: true });
 setInterval(checkDate, RECHECK_MS);
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkDate(); });
 window.addEventListener('focus', checkDate);
