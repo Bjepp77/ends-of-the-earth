@@ -1,6 +1,7 @@
 // Map screen: MapLibre with no tiles, glyphs or sprites. Everything drawn from countries.json.
-import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=f2c2b1d88c';
-import { rng } from './trail.js?v=f2c2b1d88c';
+import { buildIndex, hitTest, refusalFor, nearbyEdges, squareSizeAtZoomZero } from './hit.js?v=023bb27b4b';
+import { rng } from './trail.js?v=023bb27b4b';
+import { createAnswerMap } from './answer-map.js?v=023bb27b4b';
 
 const maplibregl = window.maplibregl;
 
@@ -428,6 +429,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
   let flags = [];
   let placeMode = false; // a place round: any pin counts, at sea too, and no close-call zoom
   let placeData = null;
+  const answers = createAnswerMap(map, byCode, container);
 
   function focus(code, paint = null) {
     const f = ['==', ['get', 'code'], code ?? ''];
@@ -464,9 +466,11 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
   // §16 reveal: fly to the pinned country and fill it in the tier colour at its §4 alpha.
   // paint null is a miss: plain highlight.
   // coverTop: the viewport y where an overlay over the map's lower part begins; the camera keeps clear of it.
-  function reveal(code, paint, coverTop = Infinity) {
+  // frame false: fill only, the caller frames the camera (revealAnswers frames all the answers).
+  function reveal(code, paint, coverTop = Infinity, { frame = true } = {}) {
     const f = byCode.get(code);
     if (!f) return;
+    if (!frame) { focus(code, paint); return; }
     map.resize(); // the reveal layout may have just changed the map's size
     const box = container.getBoundingClientRect();
     const edge = Math.min(80, Math.round(box.height / 8));
@@ -611,7 +615,7 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     place(e.lngLat);
   });
 
-  function clearPin() { pin = null; marker.remove(); focus(null); clearPlace(); onPin(null); }
+  function clearPin() { pin = null; marker.remove(); focus(null); clearPlace(); answers.clearAnswers(); onPin(null); }
 
   return {
     map,
@@ -622,6 +626,8 @@ export function createMap({ container, data, onPin = () => {}, onCloseCall = () 
     placeFeature,
     reveal,
     revealPlace,
+    revealAnswers: answers.revealAnswers,
+    clearAnswers: answers.clearAnswers,
     setPlaceMode(on) { placeMode = !!on; if (placeMode) exactNext = false; },
     get placeReveal() { return placeData; },
     setFlags,
