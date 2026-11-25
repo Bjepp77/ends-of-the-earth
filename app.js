@@ -1,20 +1,21 @@
 // Home, round loop and camp. Numbers come from rules.js, logic from game.js.
-import { loadCountries, createMap } from './map.js?v=f2c2b1d88c';
-import { REFUSAL_TEXT } from './hit.js?v=f2c2b1d88c';
-import * as R from './rules.js?v=f2c2b1d88c';
-import * as G from './game.js?v=f2c2b1d88c';
-import { createStore } from './store.js?v=f2c2b1d88c';
-import { createMenu } from './menu.js?v=f2c2b1d88c';
-import { createSound } from './sound.js?v=f2c2b1d88c';
-import { shareOrCopy } from './share.js?v=f2c2b1d88c';
-import { createTrail } from './trail.js?v=f2c2b1d88c';
-import { createTour } from './tour.js?v=f2c2b1d88c';
-import { createTeaser } from './teaser.js?v=f2c2b1d88c';
-import { createThanks } from './thanks.js?v=f2c2b1d88c';
-import { createSheep } from './sheep.js?v=f2c2b1d88c';
-import { createCounter } from './count.js?v=f2c2b1d88c';
-import { createExpand } from './expand.js?v=f2c2b1d88c';
-import { createQ6 } from './q6.js?v=f2c2b1d88c';
+import { loadCountries, createMap } from './map.js?v=6a4545d269';
+import { REFUSAL_TEXT } from './hit.js?v=6a4545d269';
+import * as R from './rules.js?v=6a4545d269';
+import * as G from './game.js?v=6a4545d269';
+import { createStore } from './store.js?v=6a4545d269';
+import { createMenu } from './menu.js?v=6a4545d269';
+import { createSound } from './sound.js?v=6a4545d269';
+import { shareOrCopy } from './share.js?v=6a4545d269';
+import { createTrail } from './trail.js?v=6a4545d269';
+import { createTour } from './tour.js?v=6a4545d269';
+import { createTeaser } from './teaser.js?v=6a4545d269';
+import { createThanks } from './thanks.js?v=6a4545d269';
+import { createSheep } from './sheep.js?v=6a4545d269';
+import { createCounter } from './count.js?v=6a4545d269';
+import { createExpand } from './expand.js?v=6a4545d269';
+import { createQ6 } from './q6.js?v=6a4545d269';
+import { fillLegend, dockStampCard, undockStampCard } from './answer-map.js?v=6a4545d269';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
@@ -210,6 +211,8 @@ function goHome() {
   S.practice = false;
   view.lock(true);
   view.clearPin();
+  $('r-legend').hidden = true;
+  undockStampCard($('stamp-card'));
   view.setFlags([]);
   showScreen('home');
   view.resetView();
@@ -397,7 +400,9 @@ function enterRound() {
   view.resetView();
   view.lock(false);
   $('stamp-card').hidden = true;
+  undockStampCard($('stamp-card'));
   $('result').hidden = true;
+  $('r-legend').hidden = true;
   $('trail').hidden = false;
   $('hint').hidden = false;
   $('summary').textContent = '';
@@ -609,6 +614,7 @@ function finish(pin, timedOut) {
 function showReveal(row, isNew) {
   S.mode = 'reveal';
   S.revealReadyAt = Date.now() + REVEAL_LOCK_MS;
+  undockStampCard($('stamp-card'));
   view.lock(true);
   $('dial').hidden = true;
   $('clock-say').textContent = '';
@@ -643,9 +649,16 @@ function showReveal(row, isNew) {
   $('result').hidden = false;
   // Frame the country above the stamp card, once the reveal layout is in (the map is shorter then at 390),
   // so the fill is not hidden under the card.
+  fillLegend($('r-legend'));
+  $('r-legend').hidden = G.isPlacePrompt(S.prompt);
   const coverTop = $('stamp-card').getBoundingClientRect().top;
   if (G.isPlacePrompt(S.prompt)) view.revealPlace(row.lon != null ? { lng: row.lon, lat: row.lat } : null, S.prompt.place, coverTop);
-  else if (row.i) view.reveal(row.i, G.revealPaint(row.t), coverTop);
+  else {
+    const lit = S.prompt.answers.map((a) => ({ code: a.code, tier: R.tierFor(a.commonness, a.gem) }));
+    view.revealAnswers(lit, row.i, coverTop);
+    if (row.i) view.reveal(row.i, G.revealPaint(row.t), coverTop, { frame: false });
+    dockStampCard($('stamp-card'), (top) => view.revealAnswers(lit, row.i, top), S.revealReadyAt - REVEAL_LOCK_MS);
+  }
   $('summary').textContent = `${place}: ${tier.name}, ${kmText(row.pts)}.${isNew ? ' New Location' : ''}`;
 
   const last = S.practice || S.open.n === G.DECK_SIZE;
@@ -835,6 +848,8 @@ function showCamp() {
   showScreen('camp');
   view.lock(true);
   view.clearPin();
+  $('r-legend').hidden = true;
+  undockStampCard($('stamp-card'));
   view.resetView();
   $('dial').hidden = true;
   $('stamp-card').hidden = true;
