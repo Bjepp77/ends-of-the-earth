@@ -483,7 +483,9 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
     order: 3; flex: none;
     margin-top: var(--edge); padding: 8px 12px;
   }
-  #round > .result:not([data-size="pop"]) > :not(.result-head, .r-name, .r-more, .size-btn) { display: none; }
+  #round > .result:not([data-size="pop"]) > :not(.result-head, .r-name, .r-more, .size-btn, .r-legend) { display: none; }
+  /* Short phones (375 x 667): no room for the legend in the closed card; it shows once opened. */
+  @media (max-height: 740px) { #round > .result:not([data-size="pop"]) > .r-legend { display: none; } }
   #round:has(#result:not([hidden])) > .trail .trail-map { max-height: clamp(64px, calc(100dvh - 580px), 140px); }
   .app:has(#round:not([hidden]) #result:not([hidden])) .stage { min-height: 140px; }
   #round:has(#result:not([hidden])) .readout:empty { display: none; }
@@ -513,6 +515,14 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
   }
   /* the map is short at 390; tier and km repeat in the result card right below, so the stamp keeps only the name */
   .stamp-card .sc-row { display: none; }
+  /* Phone dock (answer-map.js dockStampCard): a slim one-line bar on the map's lower edge, so the lit answers show above it.
+     No transition: it lands at once, which also honours reduced motion, and the re-frame reads its final top. */
+  .stamp-card.stamp-card--docked:not([hidden]) {
+    bottom: 4px; padding: 2px 10px; display: flex; align-items: center; gap: 8px; max-height: 32px; box-sizing: border-box;
+  }
+  .stamp-card--docked .eyebrow { display: none; }
+  .stamp-card--docked .sc-name { flex: 1; font-size: 15px; line-height: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .stamp-card--docked .new-loc { position: static; flex: none; padding: 0 6px; font-size: 11px; line-height: 16px; }
   .answers ul { columns: 1; }
   .drop, .cta, .share { height: 52px; font-size: 19px; padding-inline: 8px; }
 
@@ -967,4 +977,14 @@ button { font: inherit; color: inherit; border-radius: var(--radius-key); }
 @keyframes sv-pop { from { opacity: 0; transform: scale(.8) rotate(-3deg); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) {
   .menu-list .menu-item, .pv--on, .sv-present, .sv-present *, .menu-item .mi-icon, .mi-icon .ma-needle { animation: none !important; transition: none !important; }
+}
+
+/* Answer legend (owner, 2026-11-23): each answer tier's map fill and outline width, then its name and km. */
+.r-legend { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13.5px; color: var(--ink-2); }
+.r-legend[hidden] { display: none; }
+.r-legend__row { display: flex; align-items: center; gap: 6px; }
+.r-legend__swatch {
+  width: 16px; height: 12px; flex: none; box-sizing: border-box;
+  background: color-mix(in srgb, var(--sw-fill) var(--sw-alpha), transparent);
+  border: var(--sw-width) solid var(--sw-ink);
 }
